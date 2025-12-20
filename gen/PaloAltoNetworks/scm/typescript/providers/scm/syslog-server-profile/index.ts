@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,44 +9,41 @@ import * as cdktf from 'cdktf';
 export interface SyslogServerProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#device SyslogServerProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#device SyslogServerProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#folder SyslogServerProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#folder SyslogServerProfile#folder}
   */
   readonly folder?: string;
   /**
   * Format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#format SyslogServerProfile#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#format SyslogServerProfile#format}
   */
   readonly format?: SyslogServerProfileFormat;
   /**
   * The name of the syslog server profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#name SyslogServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#name SyslogServerProfile#name}
   */
   readonly name: string;
   /**
-  * Servers
+  * A list of syslog server configurations. At least one server is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#servers SyslogServerProfile#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#server SyslogServerProfile#server}
   */
-  readonly servers?: SyslogServerProfileServers;
+  readonly server: SyslogServerProfileServer[] | cdktf.IResolvable;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#snippet SyslogServerProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#snippet SyslogServerProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -54,13 +51,13 @@ export interface SyslogServerProfileFormatEscaping {
   /**
   * Escape sequence delimiter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#escape_character SyslogServerProfile#escape_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#escape_character SyslogServerProfile#escape_character}
   */
   readonly escapeCharacter?: string;
   /**
   * A list of all the characters to be escaped (without spaces).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#escaped_characters SyslogServerProfile#escaped_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#escaped_characters SyslogServerProfile#escaped_characters}
   */
   readonly escapedCharacters?: string;
 }
@@ -185,109 +182,109 @@ export interface SyslogServerProfileFormat {
   /**
   * Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#auth SyslogServerProfile#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#auth SyslogServerProfile#auth}
   */
   readonly auth?: string;
   /**
   * Config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#config SyslogServerProfile#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#config SyslogServerProfile#config}
   */
   readonly config?: string;
   /**
   * Correlation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#correlation SyslogServerProfile#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#correlation SyslogServerProfile#correlation}
   */
   readonly correlation?: string;
   /**
   * Data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#data SyslogServerProfile#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#data SyslogServerProfile#data}
   */
   readonly data?: string;
   /**
   * Decryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#decryption SyslogServerProfile#decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#decryption SyslogServerProfile#decryption}
   */
   readonly decryption?: string;
   /**
   * Escaping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#escaping SyslogServerProfile#escaping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#escaping SyslogServerProfile#escaping}
   */
   readonly escaping?: SyslogServerProfileFormatEscaping;
   /**
   * Globalprotect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#globalprotect SyslogServerProfile#globalprotect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#globalprotect SyslogServerProfile#globalprotect}
   */
   readonly globalprotect?: string;
   /**
   * Gtp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#gtp SyslogServerProfile#gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#gtp SyslogServerProfile#gtp}
   */
   readonly gtp?: string;
   /**
   * Hip match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#hip_match SyslogServerProfile#hip_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#hip_match SyslogServerProfile#hip_match}
   */
   readonly hipMatch?: string;
   /**
   * Iptag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#iptag SyslogServerProfile#iptag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#iptag SyslogServerProfile#iptag}
   */
   readonly iptag?: string;
   /**
   * Sctp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#sctp SyslogServerProfile#sctp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#sctp SyslogServerProfile#sctp}
   */
   readonly sctp?: string;
   /**
   * System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#system SyslogServerProfile#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#system SyslogServerProfile#system}
   */
   readonly systemAttribute?: string;
   /**
   * Threat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#threat SyslogServerProfile#threat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#threat SyslogServerProfile#threat}
   */
   readonly threat?: string;
   /**
   * Traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#traffic SyslogServerProfile#traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#traffic SyslogServerProfile#traffic}
   */
   readonly traffic?: string;
   /**
   * Tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#tunnel SyslogServerProfile#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#tunnel SyslogServerProfile#tunnel}
   */
   readonly tunnel?: string;
   /**
   * Url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#url SyslogServerProfile#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#url SyslogServerProfile#url}
   */
   readonly url?: string;
   /**
   * Userid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#userid SyslogServerProfile#userid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#userid SyslogServerProfile#userid}
   */
   readonly userid?: string;
   /**
   * Wildfire
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#wildfire SyslogServerProfile#wildfire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#wildfire SyslogServerProfile#wildfire}
   */
   readonly wildfire?: string;
 }
@@ -872,46 +869,46 @@ export class SyslogServerProfileFormatOutputReference extends cdktf.ComplexObjec
     return this._wildfire;
   }
 }
-export interface SyslogServerProfileServers {
+export interface SyslogServerProfileServer {
   /**
   * Syslog facility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#facility SyslogServerProfile#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#facility SyslogServerProfile#facility}
   */
   readonly facility?: string;
   /**
   * Syslog format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#format SyslogServerProfile#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#format SyslogServerProfile#format}
   */
   readonly format?: string;
   /**
   * Syslog server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#name SyslogServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#name SyslogServerProfile#name}
   */
   readonly name?: string;
   /**
   * Syslog server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#port SyslogServerProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#port SyslogServerProfile#port}
   */
   readonly port?: number;
   /**
   * Syslog server address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#server SyslogServerProfile#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#server SyslogServerProfile#server}
   */
   readonly server?: string;
   /**
   * Transport protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#transport SyslogServerProfile#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#transport SyslogServerProfile#transport}
   */
   readonly transport?: string;
 }
 
-export function syslogServerProfileServersToTerraform(struct?: SyslogServerProfileServers | cdktf.IResolvable): any {
+export function syslogServerProfileServerToTerraform(struct?: SyslogServerProfileServer | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -927,7 +924,7 @@ export function syslogServerProfileServersToTerraform(struct?: SyslogServerProfi
 }
 
 
-export function syslogServerProfileServersToHclTerraform(struct?: SyslogServerProfileServers | cdktf.IResolvable): any {
+export function syslogServerProfileServerToHclTerraform(struct?: SyslogServerProfileServer | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -975,19 +972,21 @@ export function syslogServerProfileServersToHclTerraform(struct?: SyslogServerPr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class SyslogServerProfileServersOutputReference extends cdktf.ComplexObject {
+export class SyslogServerProfileServerOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): SyslogServerProfileServers | cdktf.IResolvable | undefined {
+  public get internalValue(): SyslogServerProfileServer | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1020,7 +1019,7 @@ export class SyslogServerProfileServersOutputReference extends cdktf.ComplexObje
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: SyslogServerProfileServers | cdktf.IResolvable | undefined) {
+  public set internalValue(value: SyslogServerProfileServer | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1144,8 +1143,28 @@ export class SyslogServerProfileServersOutputReference extends cdktf.ComplexObje
   }
 }
 
+export class SyslogServerProfileServerList extends cdktf.ComplexList {
+  public internalValue? : SyslogServerProfileServer[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SyslogServerProfileServerOutputReference {
+    return new SyslogServerProfileServerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile scm_syslog_server_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile scm_syslog_server_profile}
 */
 export class SyslogServerProfile extends cdktf.TerraformResource {
 
@@ -1161,7 +1180,7 @@ export class SyslogServerProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SyslogServerProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SyslogServerProfile to import
-  * @param importFromId The id of the existing SyslogServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SyslogServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SyslogServerProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1173,7 +1192,7 @@ export class SyslogServerProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/syslog_server_profile scm_syslog_server_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/syslog_server_profile scm_syslog_server_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1184,8 +1203,8 @@ export class SyslogServerProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_syslog_server_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1199,7 +1218,7 @@ export class SyslogServerProfile extends cdktf.TerraformResource {
     this._folder = config.folder;
     this._format.internalValue = config.format;
     this._name = config.name;
-    this._servers.internalValue = config.servers;
+    this._server.internalValue = config.server;
     this._snippet = config.snippet;
   }
 
@@ -1273,20 +1292,17 @@ export class SyslogServerProfile extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // servers - computed: false, optional: true, required: false
-  private _servers = new SyslogServerProfileServersOutputReference(this, "servers");
-  public get servers() {
-    return this._servers;
+  // server - computed: false, optional: false, required: true
+  private _server = new SyslogServerProfileServerList(this, "server", false);
+  public get server() {
+    return this._server;
   }
-  public putServers(value: SyslogServerProfileServers) {
-    this._servers.internalValue = value;
-  }
-  public resetServers() {
-    this._servers.internalValue = undefined;
+  public putServer(value: SyslogServerProfileServer[] | cdktf.IResolvable) {
+    this._server.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get serversInput() {
-    return this._servers.internalValue;
+  public get serverInput() {
+    return this._server.internalValue;
   }
 
   // snippet - computed: false, optional: true, required: false
@@ -1320,7 +1336,7 @@ export class SyslogServerProfile extends cdktf.TerraformResource {
       folder: cdktf.stringToTerraform(this._folder),
       format: syslogServerProfileFormatToTerraform(this._format.internalValue),
       name: cdktf.stringToTerraform(this._name),
-      servers: syslogServerProfileServersToTerraform(this._servers.internalValue),
+      server: cdktf.listMapper(syslogServerProfileServerToTerraform, false)(this._server.internalValue),
       snippet: cdktf.stringToTerraform(this._snippet),
     };
   }
@@ -1351,11 +1367,11 @@ export class SyslogServerProfile extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      servers: {
-        value: syslogServerProfileServersToHclTerraform(this._servers.internalValue),
+      server: {
+        value: cdktf.listMapperHcl(syslogServerProfileServerToHclTerraform, false)(this._server.internalValue),
         isBlock: true,
-        type: "struct",
-        storageClassType: "SyslogServerProfileServers",
+        type: "list",
+        storageClassType: "SyslogServerProfileServerList",
       },
       snippet: {
         value: cdktf.stringToHclTerraform(this._snippet),

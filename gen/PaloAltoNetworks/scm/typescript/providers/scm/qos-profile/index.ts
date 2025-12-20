@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,40 @@ export interface QosProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Aggregate bandwidth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#aggregate_bandwidth QosProfile#aggregate_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#aggregate_bandwidth QosProfile#aggregate_bandwidth}
   */
   readonly aggregateBandwidth?: QosProfileAggregateBandwidth;
   /**
   * Class bandwidth type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#class_bandwidth_type QosProfile#class_bandwidth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#class_bandwidth_type QosProfile#class_bandwidth_type}
   */
   readonly classBandwidthType?: QosProfileClassBandwidthType;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#device QosProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#device QosProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#folder QosProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#folder QosProfile#folder}
   */
   readonly folder?: string;
   /**
   * Alphanumeric string begin with letter: [0-9a-zA-Z._-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#name QosProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#name QosProfile#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#snippet QosProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#snippet QosProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -54,13 +51,13 @@ export interface QosProfileAggregateBandwidth {
   /**
   * guaranteed sending bandwidth in mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#egress_guaranteed QosProfile#egress_guaranteed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#egress_guaranteed QosProfile#egress_guaranteed}
   */
   readonly egressGuaranteed?: number;
   /**
   * max sending bandwidth in mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#egress_max QosProfile#egress_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#egress_max QosProfile#egress_max}
   */
   readonly egressMax?: number;
 }
@@ -185,13 +182,13 @@ export interface QosProfileClassBandwidthTypeMbpsClassClassBandwidth {
   /**
   * guaranteed sending bandwidth in mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#egress_guaranteed QosProfile#egress_guaranteed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#egress_guaranteed QosProfile#egress_guaranteed}
   */
   readonly egressGuaranteed?: number;
   /**
   * max sending bandwidth in mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#egress_max QosProfile#egress_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#egress_max QosProfile#egress_max}
   */
   readonly egressMax?: number;
 }
@@ -316,19 +313,19 @@ export interface QosProfileClassBandwidthTypeMbpsClass {
   /**
   * Class bandwidth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#class_bandwidth QosProfile#class_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#class_bandwidth QosProfile#class_bandwidth}
   */
   readonly classBandwidth?: QosProfileClassBandwidthTypeMbpsClassClassBandwidth;
   /**
   * Traffic class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#name QosProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#name QosProfile#name}
   */
   readonly name?: string;
   /**
   * traffic class priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#priority QosProfile#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#priority QosProfile#priority}
   */
   readonly priority?: string;
 }
@@ -504,7 +501,7 @@ export interface QosProfileClassBandwidthTypeMbps {
   /**
   * QoS setting for traffic classes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#class QosProfile#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#class QosProfile#class}
   */
   readonly class?: QosProfileClassBandwidthTypeMbpsClass[] | cdktf.IResolvable;
 }
@@ -600,13 +597,13 @@ export interface QosProfileClassBandwidthTypePercentageClassClassBandwidth {
   /**
   * guaranteed sending bandwidth in percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#egress_guaranteed QosProfile#egress_guaranteed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#egress_guaranteed QosProfile#egress_guaranteed}
   */
   readonly egressGuaranteed?: number;
   /**
   * max sending bandwidth in percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#egress_max QosProfile#egress_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#egress_max QosProfile#egress_max}
   */
   readonly egressMax?: number;
 }
@@ -731,19 +728,19 @@ export interface QosProfileClassBandwidthTypePercentageClass {
   /**
   * Class bandwidth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#class_bandwidth QosProfile#class_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#class_bandwidth QosProfile#class_bandwidth}
   */
   readonly classBandwidth?: QosProfileClassBandwidthTypePercentageClassClassBandwidth;
   /**
   * Traffic class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#name QosProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#name QosProfile#name}
   */
   readonly name?: string;
   /**
   * traffic class priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#priority QosProfile#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#priority QosProfile#priority}
   */
   readonly priority?: string;
 }
@@ -919,7 +916,7 @@ export interface QosProfileClassBandwidthTypePercentage {
   /**
   * QoS setting for traffic classes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#class QosProfile#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#class QosProfile#class}
   */
   readonly class?: QosProfileClassBandwidthTypePercentageClass[] | cdktf.IResolvable;
 }
@@ -1014,18 +1011,16 @@ export class QosProfileClassBandwidthTypePercentageOutputReference extends cdktf
 export interface QosProfileClassBandwidthType {
   /**
   * Mbps
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `mbps` and `percentage`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#mbps QosProfile#mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#mbps QosProfile#mbps}
   */
   readonly mbps?: QosProfileClassBandwidthTypeMbps;
   /**
   * Percentage
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `mbps` and `percentage`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#percentage QosProfile#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#percentage QosProfile#percentage}
   */
   readonly percentage?: QosProfileClassBandwidthTypePercentage;
 }
@@ -1148,7 +1143,7 @@ export class QosProfileClassBandwidthTypeOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile scm_qos_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile scm_qos_profile}
 */
 export class QosProfile extends cdktf.TerraformResource {
 
@@ -1164,7 +1159,7 @@ export class QosProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QosProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QosProfile to import
-  * @param importFromId The id of the existing QosProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QosProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QosProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1176,7 +1171,7 @@ export class QosProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/qos_profile scm_qos_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/qos_profile scm_qos_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1187,8 +1182,8 @@ export class QosProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_qos_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

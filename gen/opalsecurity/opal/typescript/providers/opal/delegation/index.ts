@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/delegation
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/delegation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DelegationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the user being delegated to. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/delegation#delegate_user_id Delegation#delegate_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/delegation#delegate_user_id Delegation#delegate_user_id}
   */
   readonly delegateUserId: string;
   /**
   * The ID of the user delegating their access review requests. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/delegation#delegator_user_id Delegation#delegator_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/delegation#delegator_user_id Delegation#delegator_user_id}
   */
   readonly delegatorUserId: string;
   /**
   * The end time of the delegation. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/delegation#end_time Delegation#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/delegation#end_time Delegation#end_time}
   */
   readonly endTime: string;
   /**
   * The reason for the delegation. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/delegation#reason Delegation#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/delegation#reason Delegation#reason}
   */
   readonly reason: string;
   /**
   * The start time of the delegation. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/delegation#start_time Delegation#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/delegation#start_time Delegation#start_time}
   */
   readonly startTime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/delegation opal_delegation}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/delegation opal_delegation}
 */
 export class Delegation extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Delegation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Delegation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Delegation to import
-  * @param importFromId The id of the existing Delegation that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/delegation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Delegation that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/delegation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Delegation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Delegation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/delegation opal_delegation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/delegation opal_delegation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Delegation extends cdktf.TerraformResource {
       terraformResourceType: 'opal_delegation',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

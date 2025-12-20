@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WedataProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#id WedataProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#id WedataProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface WedataProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of bound resource group IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#resource_ids WedataProject#resource_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#resource_ids WedataProject#resource_ids}
   */
   readonly resourceIds?: string[];
   /**
   * Item status: 0: disabled, 1: enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#status WedataProject#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#status WedataProject#status}
   */
   readonly status?: number;
   /**
   * dlc_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#dlc_info WedataProject#dlc_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#dlc_info WedataProject#dlc_info}
   */
   readonly dlcInfo?: WedataProjectDlcInfo;
   /**
   * project block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#project WedataProject#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#project WedataProject#project}
   */
   readonly project: WedataProjectProject;
 }
@@ -49,25 +49,25 @@ export interface WedataProjectDlcInfo {
   * - OWNER (Main Account Mode)
   * - SUB (Sub Account Mode).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#access_account WedataProject#access_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#access_account WedataProject#access_account}
   */
   readonly accessAccount?: string;
   /**
   * DLC resource name (need to add role Uin to DLC, otherwise may not be able to obtain resources).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#compute_resources WedataProject#compute_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#compute_resources WedataProject#compute_resources}
   */
   readonly computeResources: string[];
   /**
   * Specify the default database for DLC cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#default_database WedataProject#default_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#default_database WedataProject#default_database}
   */
   readonly defaultDatabase: string;
   /**
   * DLC region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#region WedataProject#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#region WedataProject#region}
   */
   readonly region: string;
   /**
@@ -75,13 +75,13 @@ export interface WedataProjectDlcInfo {
   * - Prod  (Production environment)
   * - Dev  (Development environment).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#standard_mode_env_tag WedataProject#standard_mode_env_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#standard_mode_env_tag WedataProject#standard_mode_env_tag}
   */
   readonly standardModeEnvTag?: string;
   /**
   * Sub-account ID (only effective for standard mode projects), when AccessAccount is in sub-account mode, the sub-account ID information needs to be specified, other modes do not need to be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#sub_account_uin WedataProject#sub_account_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#sub_account_uin WedataProject#sub_account_uin}
   */
   readonly subAccountUin?: string;
 }
@@ -303,19 +303,19 @@ export interface WedataProjectProject {
   /**
   * Project display name, can be Chinese name starting with a letter, can contain letters, numbers, and underscores, cannot exceed 32 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#display_name WedataProject#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#display_name WedataProject#display_name}
   */
   readonly displayName: string;
   /**
   * Project mode, SIMPLE (default): Simple mode STANDARD: Standard mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#project_model WedataProject#project_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#project_model WedataProject#project_model}
   */
   readonly projectModel?: string;
   /**
   * Project identifier, English name starting with a letter, can contain letters, numbers, and underscores, cannot exceed 32 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#project_name WedataProject#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#project_name WedataProject#project_name}
   */
   readonly projectName: string;
 }
@@ -451,7 +451,7 @@ export class WedataProjectProjectOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project tencentcloud_wedata_project}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project tencentcloud_wedata_project}
 */
 export class WedataProject extends cdktf.TerraformResource {
 
@@ -467,7 +467,7 @@ export class WedataProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataProject to import
-  * @param importFromId The id of the existing WedataProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -479,7 +479,7 @@ export class WedataProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/wedata_project tencentcloud_wedata_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/wedata_project tencentcloud_wedata_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -490,8 +490,8 @@ export class WedataProject extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_project',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

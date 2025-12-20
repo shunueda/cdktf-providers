@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MpsAiRecognitionTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * Ai recognition template description information, length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#comment MpsAiRecognitionTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#comment MpsAiRecognitionTemplate#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#id MpsAiRecognitionTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#id MpsAiRecognitionTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface MpsAiRecognitionTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * Ai recognition template name, length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#name MpsAiRecognitionTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#name MpsAiRecognitionTemplate#name}
   */
   readonly name?: string;
   /**
   * asr_full_text_configure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#asr_full_text_configure MpsAiRecognitionTemplate#asr_full_text_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#asr_full_text_configure MpsAiRecognitionTemplate#asr_full_text_configure}
   */
   readonly asrFullTextConfigure?: MpsAiRecognitionTemplateAsrFullTextConfigure;
   /**
   * asr_words_configure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#asr_words_configure MpsAiRecognitionTemplate#asr_words_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#asr_words_configure MpsAiRecognitionTemplate#asr_words_configure}
   */
   readonly asrWordsConfigure?: MpsAiRecognitionTemplateAsrWordsConfigure;
   /**
   * face_configure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#face_configure MpsAiRecognitionTemplate#face_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#face_configure MpsAiRecognitionTemplate#face_configure}
   */
   readonly faceConfigure?: MpsAiRecognitionTemplateFaceConfigure;
   /**
   * ocr_full_text_configure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#ocr_full_text_configure MpsAiRecognitionTemplate#ocr_full_text_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#ocr_full_text_configure MpsAiRecognitionTemplate#ocr_full_text_configure}
   */
   readonly ocrFullTextConfigure?: MpsAiRecognitionTemplateOcrFullTextConfigure;
   /**
   * ocr_words_configure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#ocr_words_configure MpsAiRecognitionTemplate#ocr_words_configure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#ocr_words_configure MpsAiRecognitionTemplate#ocr_words_configure}
   */
   readonly ocrWordsConfigure?: MpsAiRecognitionTemplateOcrWordsConfigure;
 }
@@ -61,13 +61,13 @@ export interface MpsAiRecognitionTemplateAsrFullTextConfigure {
   /**
   * Generated subtitle file format, if left blank or blank string means no subtitle file will be generated, optional value:vtt: Generate WebVTT subtitle files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#subtitle_format MpsAiRecognitionTemplate#subtitle_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#subtitle_format MpsAiRecognitionTemplate#subtitle_format}
   */
   readonly subtitleFormat?: string;
   /**
   * Asr full text recognition task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#switch MpsAiRecognitionTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#switch MpsAiRecognitionTemplate#switch}
   */
   readonly switch: string;
 }
@@ -179,13 +179,13 @@ export interface MpsAiRecognitionTemplateAsrWordsConfigure {
   /**
   * Keyword filter label, specify the label of the keyword to be returned. If not filled or empty, all results will be returned.The maximum number of tags is 10, and the length of each tag is up to 16 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#label_set MpsAiRecognitionTemplate#label_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#label_set MpsAiRecognitionTemplate#label_set}
   */
   readonly labelSet?: string[];
   /**
   * Asr word recognition task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#switch MpsAiRecognitionTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#switch MpsAiRecognitionTemplate#switch}
   */
   readonly switch: string;
 }
@@ -297,31 +297,31 @@ export interface MpsAiRecognitionTemplateFaceConfigure {
   /**
   * Default face filter tag, specify the tag of the default face that needs to be returned. If not filled or empty, all default face results will be returned. Label optional value:entertainment, sport, politician.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#default_library_label_set MpsAiRecognitionTemplate#default_library_label_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#default_library_label_set MpsAiRecognitionTemplate#default_library_label_set}
   */
   readonly defaultLibraryLabelSet?: string[];
   /**
   * Face library selection, optional value:Default, UserDefine, AllDefault value: All, use the system default face library and user-defined face library.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#face_library MpsAiRecognitionTemplate#face_library}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#face_library MpsAiRecognitionTemplate#face_library}
   */
   readonly faceLibrary?: string;
   /**
   * Face recognition filter score, when the recognition result reaches the score above, the recognition result will be returned. The default is 95 points. Value range: 0 - 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#score MpsAiRecognitionTemplate#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#score MpsAiRecognitionTemplate#score}
   */
   readonly score?: number;
   /**
   * Ai face recognition task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#switch MpsAiRecognitionTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#switch MpsAiRecognitionTemplate#switch}
   */
   readonly switch: string;
   /**
   * User-defined face filter tag, specify the tag of the user-defined face that needs to be returned. If not filled or empty, all custom face results will be returned.The maximum number of tags is 100, and the length of each tag is up to 16 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#user_define_library_label_set MpsAiRecognitionTemplate#user_define_library_label_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#user_define_library_label_set MpsAiRecognitionTemplate#user_define_library_label_set}
   */
   readonly userDefineLibraryLabelSet?: string[];
 }
@@ -520,7 +520,7 @@ export interface MpsAiRecognitionTemplateOcrFullTextConfigure {
   /**
   * Ocr full text recognition task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#switch MpsAiRecognitionTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#switch MpsAiRecognitionTemplate#switch}
   */
   readonly switch: string;
 }
@@ -603,13 +603,13 @@ export interface MpsAiRecognitionTemplateOcrWordsConfigure {
   /**
   * Keyword filter label, specify the label of the keyword to be returned. If not filled or empty, all results will be returned.The maximum number of tags is 10, and the length of each tag is up to 16 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#label_set MpsAiRecognitionTemplate#label_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#label_set MpsAiRecognitionTemplate#label_set}
   */
   readonly labelSet?: string[];
   /**
   * Ocr words recognition task switch, optional value:ON/OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#switch MpsAiRecognitionTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#switch MpsAiRecognitionTemplate#switch}
   */
   readonly switch: string;
 }
@@ -719,7 +719,7 @@ export class MpsAiRecognitionTemplateOcrWordsConfigureOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template tencentcloud_mps_ai_recognition_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template tencentcloud_mps_ai_recognition_template}
 */
 export class MpsAiRecognitionTemplate extends cdktf.TerraformResource {
 
@@ -735,7 +735,7 @@ export class MpsAiRecognitionTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsAiRecognitionTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsAiRecognitionTemplate to import
-  * @param importFromId The id of the existing MpsAiRecognitionTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsAiRecognitionTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsAiRecognitionTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -747,7 +747,7 @@ export class MpsAiRecognitionTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template tencentcloud_mps_ai_recognition_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template tencentcloud_mps_ai_recognition_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -758,8 +758,8 @@ export class MpsAiRecognitionTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_ai_recognition_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

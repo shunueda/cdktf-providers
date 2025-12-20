@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlRoGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#id MysqlRoGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#id MysqlRoGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface MysqlRoGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance ID, in the format: cdbro-3i70uj0k.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#instance_id MysqlRoGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#instance_id MysqlRoGroup#instance_id}
   */
   readonly instanceId: string;
   /**
   * Whether to rebalance the load of RO instances in the RO group. Supported values include: 1 - rebalance load; 0 - do not rebalance load. The default value is 0. Note that when it is set to rebalance the load, the RO instance in the RO group will have a momentary disconnection of the database connection, please ensure that the application can reconnect to the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#is_balance_ro_load MysqlRoGroup#is_balance_ro_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#is_balance_ro_load MysqlRoGroup#is_balance_ro_load}
   */
   readonly isBalanceRoLoad?: number;
   /**
   * The ID of the RO group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#ro_group_id MysqlRoGroup#ro_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#ro_group_id MysqlRoGroup#ro_group_id}
   */
   readonly roGroupId: string;
   /**
   * ro_group_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#ro_group_info MysqlRoGroup#ro_group_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#ro_group_info MysqlRoGroup#ro_group_info}
   */
   readonly roGroupInfo?: MysqlRoGroupRoGroupInfo;
   /**
   * ro_weight_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#ro_weight_values MysqlRoGroup#ro_weight_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#ro_weight_values MysqlRoGroup#ro_weight_values}
   */
   readonly roWeightValues?: MysqlRoGroupRoWeightValues[] | cdktf.IResolvable;
 }
@@ -49,37 +49,37 @@ export interface MysqlRoGroupRoGroupInfo {
   /**
   * The minimum number of reserved instances. It can be set to any value less than or equal to the number of RO instances under this RO group. Note that if the setting value is greater than the number of RO instances, it will not be removed; if it is set to 0, all instances whose latency exceeds the limit will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#min_ro_in_group MysqlRoGroup#min_ro_in_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#min_ro_in_group MysqlRoGroup#min_ro_in_group}
   */
   readonly minRoInGroup?: number;
   /**
   * Delayed replication time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#replication_delay_time MysqlRoGroup#replication_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#replication_delay_time MysqlRoGroup#replication_delay_time}
   */
   readonly replicationDelayTime?: number;
   /**
   * RO group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#ro_group_name MysqlRoGroup#ro_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#ro_group_name MysqlRoGroup#ro_group_name}
   */
   readonly roGroupName?: string;
   /**
   * RO instance maximum latency threshold. The unit is seconds, the minimum value is 1. Note that the RO group must have enabled instance delay culling policy for this value to be valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#ro_max_delay_time MysqlRoGroup#ro_max_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#ro_max_delay_time MysqlRoGroup#ro_max_delay_time}
   */
   readonly roMaxDelayTime?: number;
   /**
   * Whether to enable delayed culling of instances. Supported values are: 1 - on; 0 - not on. Note that if you enable instance delay culling, you must set the delay threshold (RoMaxDelayTime) parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#ro_offline_delay MysqlRoGroup#ro_offline_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#ro_offline_delay MysqlRoGroup#ro_offline_delay}
   */
   readonly roOfflineDelay?: number;
   /**
   * weight mode. Supported values include: `system` - automatically assigned by the system; `custom` - user-defined settings. Note that if the `custom` mode is set, the RO instance weight configuration (RoWeightValues) parameter must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#weight_mode MysqlRoGroup#weight_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#weight_mode MysqlRoGroup#weight_mode}
   */
   readonly weightMode?: string;
 }
@@ -310,13 +310,13 @@ export interface MysqlRoGroupRoWeightValues {
   /**
   * RO instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#instance_id MysqlRoGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#instance_id MysqlRoGroup#instance_id}
   */
   readonly instanceId: string;
   /**
   * Weights. The value range is [0, 100].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#weight MysqlRoGroup#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#weight MysqlRoGroup#weight}
   */
   readonly weight: number;
 }
@@ -455,7 +455,7 @@ export class MysqlRoGroupRoWeightValuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group tencentcloud_mysql_ro_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group tencentcloud_mysql_ro_group}
 */
 export class MysqlRoGroup extends cdktf.TerraformResource {
 
@@ -471,7 +471,7 @@ export class MysqlRoGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlRoGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlRoGroup to import
-  * @param importFromId The id of the existing MysqlRoGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlRoGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlRoGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -483,7 +483,7 @@ export class MysqlRoGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group tencentcloud_mysql_ro_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mysql_ro_group tencentcloud_mysql_ro_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -494,8 +494,8 @@ export class MysqlRoGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_ro_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

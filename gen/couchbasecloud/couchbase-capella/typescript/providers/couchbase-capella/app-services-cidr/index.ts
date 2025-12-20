@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_services_cidr
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_services_cidr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface AppServicesCidrConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The ID of the Capella App Service.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_services_cidr#app_service_id AppServicesCidr#app_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_services_cidr#app_service_id AppServicesCidr#app_service_id}
   */
   readonly appServiceId: string;
   /**
-  * The trusted CIDR block to allow the database connections from.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_services_cidr#cidr AppServicesCidr#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_services_cidr#cidr AppServicesCidr#cidr}
   */
   readonly cidr: string;
   /**
-  * The ID of the Capella cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_services_cidr#cluster_id AppServicesCidr#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_services_cidr#cluster_id AppServicesCidr#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * A short description of the allowed CIDR block.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_services_cidr#comment AppServicesCidr#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_services_cidr#comment AppServicesCidr#comment}
   */
   readonly comment?: string;
   /**
-  * An RFC3339 timestamp determining when the allowed CIDR block will expire. If this field is omitted then the allowed CIDR block is permanent. It will never automatically expire.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_services_cidr#expires_at AppServicesCidr#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_services_cidr#expires_at AppServicesCidr#expires_at}
   */
   readonly expiresAt?: string;
   /**
-  * The ID of the Capella organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_services_cidr#organization_id AppServicesCidr#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_services_cidr#organization_id AppServicesCidr#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The ID of the Capella project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_services_cidr#project_id AppServicesCidr#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_services_cidr#project_id AppServicesCidr#project_id}
   */
   readonly projectId: string;
 }
@@ -126,7 +112,7 @@ export class AppServicesCidrAuditOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_services_cidr couchbase-capella_app_services_cidr}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_services_cidr couchbase-capella_app_services_cidr}
 */
 export class AppServicesCidr extends cdktf.TerraformResource {
 
@@ -142,7 +128,7 @@ export class AppServicesCidr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppServicesCidr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppServicesCidr to import
-  * @param importFromId The id of the existing AppServicesCidr that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_services_cidr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppServicesCidr that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_services_cidr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppServicesCidr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -154,7 +140,7 @@ export class AppServicesCidr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_services_cidr couchbase-capella_app_services_cidr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_services_cidr couchbase-capella_app_services_cidr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -165,8 +151,8 @@ export class AppServicesCidr extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_app_services_cidr',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

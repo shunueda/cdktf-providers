@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volume_types
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volume_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataLinodeVolumeTypesConfig extends cdktf.TerraformMetaArgument
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volume_types#order DataLinodeVolumeTypes#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volume_types#order DataLinodeVolumeTypes#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volume_types#order_by DataLinodeVolumeTypes#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volume_types#order_by DataLinodeVolumeTypes#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volume_types#filter DataLinodeVolumeTypes#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volume_types#filter DataLinodeVolumeTypes#filter}
   */
   readonly filter?: DataLinodeVolumeTypesFilter[] | cdktf.IResolvable;
 }
@@ -195,7 +195,7 @@ export interface DataLinodeVolumeTypesTypes {
   /**
   * The unique ID assigned to this Volume Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volume_types#id DataLinodeVolumeTypes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volume_types#id DataLinodeVolumeTypes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -204,7 +204,7 @@ export interface DataLinodeVolumeTypesTypes {
   /**
   * The Volume Type's label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volume_types#label DataLinodeVolumeTypes#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volume_types#label DataLinodeVolumeTypes#label}
   */
   readonly label?: string;
 }
@@ -355,19 +355,19 @@ export interface DataLinodeVolumeTypesFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volume_types#match_by DataLinodeVolumeTypes#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volume_types#match_by DataLinodeVolumeTypes#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volume_types#name DataLinodeVolumeTypes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volume_types#name DataLinodeVolumeTypes#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volume_types#values DataLinodeVolumeTypes#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volume_types#values DataLinodeVolumeTypes#values}
   */
   readonly values: string[];
 }
@@ -535,7 +535,7 @@ export class DataLinodeVolumeTypesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volume_types linode_volume_types}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volume_types linode_volume_types}
 */
 export class DataLinodeVolumeTypes extends cdktf.TerraformDataSource {
 
@@ -551,7 +551,7 @@ export class DataLinodeVolumeTypes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeVolumeTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeVolumeTypes to import
-  * @param importFromId The id of the existing DataLinodeVolumeTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volume_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeVolumeTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volume_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeVolumeTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -563,7 +563,7 @@ export class DataLinodeVolumeTypes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volume_types linode_volume_types} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volume_types linode_volume_types} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -574,8 +574,8 @@ export class DataLinodeVolumeTypes extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_volume_types',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ApplianceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance#id Appliance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance#id Appliance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,57 +17,57 @@ export interface ApplianceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The pairing key used for appliance pairing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance#pairing_key Appliance#pairing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance#pairing_key Appliance#pairing_key}
   */
   readonly pairingKey?: string;
   /**
   * Activate remote shell access to troubleshoot edge hosts by initiating an SSH connection from Palette using the configured username and password credentials. https://docs.spectrocloud.com/clusters/edge/cluster-management/remote-shell/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance#remote_shell Appliance#remote_shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance#remote_shell Appliance#remote_shell}
   */
   readonly remoteShell?: string;
   /**
   * A set of key-value pairs that can be used to organize and categorize the appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance#tags Appliance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance#tags Appliance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Enable the creation of a temporary user on the edge host with sudo privileges for SSH access from Palette. These credentials will be embedded in the SSH connection string for auto login, and the temporary user is deleted upon deactivation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance#temporary_shell_credentials Appliance#temporary_shell_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance#temporary_shell_credentials Appliance#temporary_shell_credentials}
   */
   readonly temporaryShellCredentials?: string;
   /**
   * The unique identifier (UID) for the appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance#uid Appliance#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance#uid Appliance#uid}
   */
   readonly uid: string;
   /**
   * If set to `true`, the resource creation will wait for the appliance provisioning process to complete before returning. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance#wait Appliance#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance#wait Appliance#wait}
   */
   readonly wait?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance#timeouts Appliance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance#timeouts Appliance#timeouts}
   */
   readonly timeouts?: ApplianceTimeouts;
 }
 export interface ApplianceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance#create Appliance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance#create Appliance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance#delete Appliance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance#delete Appliance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance#update Appliance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance#update Appliance#update}
   */
   readonly update?: string;
 }
@@ -219,7 +219,7 @@ export class ApplianceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance spectrocloud_appliance}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance spectrocloud_appliance}
 */
 export class Appliance extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class Appliance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Appliance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Appliance to import
-  * @param importFromId The id of the existing Appliance that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Appliance that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Appliance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class Appliance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/appliance spectrocloud_appliance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/appliance spectrocloud_appliance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class Appliance extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_appliance',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.1',
-        providerVersionConstraint: '0.26.1'
+        providerVersion: '0.26.2',
+        providerVersionConstraint: '0.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IdpAdfsConfig extends cdktf.TerraformMetaArguments {
   /**
   * PEM or DER encoded public X.509 certificates for SAML signature validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs#certificates IdpAdfs#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs#certificates IdpAdfs#certificates}
   */
   readonly certificates: string[];
   /**
   * True if ADFS is disabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs#disabled IdpAdfs#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs#disabled IdpAdfs#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs#id IdpAdfs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs#id IdpAdfs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,57 +29,57 @@ export interface IdpAdfsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Issuer URI provided by ADFS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs#issuer_uri IdpAdfs#issuer_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs#issuer_uri IdpAdfs#issuer_uri}
   */
   readonly issuerUri: string;
   /**
   * IDP ADFS resource name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs#name IdpAdfs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs#name IdpAdfs#name}
   */
   readonly name?: string;
   /**
   * String used to identify Genesys Cloud to ADFS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs#relying_party_identifier IdpAdfs#relying_party_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs#relying_party_identifier IdpAdfs#relying_party_identifier}
   */
   readonly relyingPartyIdentifier?: string;
   /**
   * True if the Genesys Cloud authentication request should be signed. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs#sign_authn_requests IdpAdfs#sign_authn_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs#sign_authn_requests IdpAdfs#sign_authn_requests}
   */
   readonly signAuthnRequests?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs#slo_binding IdpAdfs#slo_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs#slo_binding IdpAdfs#slo_binding}
   */
   readonly sloBinding?: string;
   /**
   * Provided by ADFS on app creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs#slo_uri IdpAdfs#slo_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs#slo_uri IdpAdfs#slo_uri}
   */
   readonly sloUri?: string;
   /**
   * Target URI provided by ADFS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs#target_uri IdpAdfs#target_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs#target_uri IdpAdfs#target_uri}
   */
   readonly targetUri?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs#timeouts IdpAdfs#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs#timeouts IdpAdfs#timeouts}
   */
   readonly timeouts?: IdpAdfsTimeouts;
 }
 export interface IdpAdfsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs#read IdpAdfs#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs#read IdpAdfs#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs#update IdpAdfs#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs#update IdpAdfs#update}
   */
   readonly update?: string;
 }
@@ -202,7 +202,7 @@ export class IdpAdfsTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs genesyscloud_idp_adfs}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs genesyscloud_idp_adfs}
 */
 export class IdpAdfs extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class IdpAdfs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdpAdfs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdpAdfs to import
-  * @param importFromId The id of the existing IdpAdfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdpAdfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdpAdfs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class IdpAdfs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_adfs genesyscloud_idp_adfs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_adfs genesyscloud_idp_adfs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class IdpAdfs extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_idp_adfs',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

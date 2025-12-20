@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_group
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/application_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,44 +9,41 @@ import * as cdktf from 'cdktf';
 export interface ApplicationGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_group#device ApplicationGroup#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/application_group#device ApplicationGroup#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_group#folder ApplicationGroup#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/application_group#folder ApplicationGroup#folder}
   */
   readonly folder?: string;
   /**
   * Members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_group#members ApplicationGroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/application_group#members ApplicationGroup#members}
   */
   readonly members: string[];
   /**
   * Alphanumeric string [ 0-9a-zA-Z._-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_group#name ApplicationGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/application_group#name ApplicationGroup#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_group#snippet ApplicationGroup#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/application_group#snippet ApplicationGroup#snippet}
   */
   readonly snippet?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_group scm_application_group}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/application_group scm_application_group}
 */
 export class ApplicationGroup extends cdktf.TerraformResource {
 
@@ -62,7 +59,7 @@ export class ApplicationGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationGroup to import
-  * @param importFromId The id of the existing ApplicationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/application_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +71,7 @@ export class ApplicationGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/application_group scm_application_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/application_group scm_application_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +82,8 @@ export class ApplicationGroup extends cdktf.TerraformResource {
       terraformResourceType: 'scm_application_group',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

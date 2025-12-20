@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TcrWebhookTriggerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#id TcrWebhookTrigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#id TcrWebhookTrigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface TcrWebhookTriggerConfig extends cdktf.TerraformMetaArguments {
   /**
   * namespace name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#namespace TcrWebhookTrigger#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#namespace TcrWebhookTrigger#namespace}
   */
   readonly namespace: string;
   /**
   * instance Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#registry_id TcrWebhookTrigger#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#registry_id TcrWebhookTrigger#registry_id}
   */
   readonly registryId: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#tags TcrWebhookTrigger#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#tags TcrWebhookTrigger#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#trigger TcrWebhookTrigger#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#trigger TcrWebhookTrigger#trigger}
   */
   readonly trigger: TcrWebhookTriggerTrigger;
 }
@@ -43,13 +43,13 @@ export interface TcrWebhookTriggerTriggerTargetsHeaders {
   /**
   * Header Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#key TcrWebhookTrigger#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#key TcrWebhookTrigger#key}
   */
   readonly key: string;
   /**
   * Header Values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#values TcrWebhookTrigger#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#values TcrWebhookTrigger#values}
   */
   readonly values: string[];
 }
@@ -190,13 +190,13 @@ export interface TcrWebhookTriggerTriggerTargets {
   /**
   * target address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#address TcrWebhookTrigger#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#address TcrWebhookTrigger#address}
   */
   readonly address: string;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#headers TcrWebhookTrigger#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#headers TcrWebhookTrigger#headers}
   */
   readonly headers?: TcrWebhookTriggerTriggerTargetsHeaders[] | cdktf.IResolvable;
 }
@@ -340,43 +340,43 @@ export interface TcrWebhookTriggerTrigger {
   /**
   * trigger rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#condition TcrWebhookTrigger#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#condition TcrWebhookTrigger#condition}
   */
   readonly condition: string;
   /**
   * trigger description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#description TcrWebhookTrigger#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#description TcrWebhookTrigger#description}
   */
   readonly description?: string;
   /**
   * enable trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#enabled TcrWebhookTrigger#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#enabled TcrWebhookTrigger#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * trigger action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#event_types TcrWebhookTrigger#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#event_types TcrWebhookTrigger#event_types}
   */
   readonly eventTypes: string[];
   /**
   * trigger name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#name TcrWebhookTrigger#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#name TcrWebhookTrigger#name}
   */
   readonly name: string;
   /**
   * the namespace Id to which the trigger belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#namespace_id TcrWebhookTrigger#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#namespace_id TcrWebhookTrigger#namespace_id}
   */
   readonly namespaceId?: number;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#targets TcrWebhookTrigger#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#targets TcrWebhookTrigger#targets}
   */
   readonly targets: TcrWebhookTriggerTriggerTargets[] | cdktf.IResolvable;
 }
@@ -624,7 +624,7 @@ export class TcrWebhookTriggerTriggerOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger tencentcloud_tcr_webhook_trigger}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger tencentcloud_tcr_webhook_trigger}
 */
 export class TcrWebhookTrigger extends cdktf.TerraformResource {
 
@@ -640,7 +640,7 @@ export class TcrWebhookTrigger extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcrWebhookTrigger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcrWebhookTrigger to import
-  * @param importFromId The id of the existing TcrWebhookTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcrWebhookTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcrWebhookTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -652,7 +652,7 @@ export class TcrWebhookTrigger extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_webhook_trigger tencentcloud_tcr_webhook_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_webhook_trigger tencentcloud_tcr_webhook_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -663,8 +663,8 @@ export class TcrWebhookTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcr_webhook_trigger',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

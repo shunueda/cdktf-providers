@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow calls to be placed to this group Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#calls_enabled Group#calls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#calls_enabled Group#calls_enabled}
   */
   readonly callsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Group description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#description Group#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#description Group#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#id Group#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#id Group#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow owners to be included as members of the group. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#include_owners Group#include_owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#include_owners Group#include_owners}
   */
   readonly includeOwners?: boolean | cdktf.IResolvable;
   /**
   * IDs of members assigned to the group. If not set, this resource will not manage group members.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#member_ids Group#member_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#member_ids Group#member_ids}
   */
   readonly memberIds?: string[];
   /**
   * Group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
   * IDs of owners of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#owner_ids Group#owner_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#owner_ids Group#owner_ids}
   */
   readonly ownerIds?: string[];
   /**
   * Allow roles to be assigned to this group. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#roles_enabled Group#roles_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#roles_enabled Group#roles_enabled}
   */
   readonly rolesEnabled?: boolean | cdktf.IResolvable;
   /**
   * Are membership rules visible to the person requesting to view the group. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#rules_visible Group#rules_visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#rules_visible Group#rules_visible}
   */
   readonly rulesVisible?: boolean | cdktf.IResolvable;
   /**
   * Group type (official | social). This cannot be modified. Changing type attribute will cause the existing genesys_group object to dropped and recreated with a new ID. Defaults to `official`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#type Group#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#type Group#type}
   */
   readonly type?: string;
   /**
   * Who can view this group (public | owners | members). Defaults to `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#visibility Group#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#visibility Group#visibility}
   */
   readonly visibility?: string;
   /**
   * addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#addresses Group#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#addresses Group#addresses}
   */
   readonly addresses?: GroupAddresses[] | cdktf.IResolvable;
   /**
   * voicemail_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#voicemail_policy Group#voicemail_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#voicemail_policy Group#voicemail_policy}
   */
   readonly voicemailPolicy?: GroupVoicemailPolicy;
 }
@@ -91,19 +91,19 @@ export interface GroupAddresses {
   /**
   * Phone extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#extension Group#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#extension Group#extension}
   */
   readonly extension?: string;
   /**
   * Phone number for this contact type. Must be in an E.164 number format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#number Group#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#number Group#number}
   */
   readonly number?: string;
   /**
   * Contact type of the address. (GROUPRING | GROUPPHONE)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#type Group#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#type Group#type}
   */
   readonly type: string;
 }
@@ -276,19 +276,19 @@ export interface GroupVoicemailPolicy {
   /**
   * Removes any PII from group emails. This is overridden by the analogous organization configuration value. This is always true if HIPAA is enabled or unknown for an organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#disable_email_pii Group#disable_email_pii}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#disable_email_pii Group#disable_email_pii}
   */
   readonly disableEmailPii?: boolean | cdktf.IResolvable;
   /**
   * Whether to include the voicemail transcription in a group notification email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#include_email_transcriptions Group#include_email_transcriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#include_email_transcriptions Group#include_email_transcriptions}
   */
   readonly includeEmailTranscriptions?: boolean | cdktf.IResolvable;
   /**
   * Whether email notifications are sent to group members when a new voicemail is received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#send_email_notifications Group#send_email_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#send_email_notifications Group#send_email_notifications}
   */
   readonly sendEmailNotifications?: boolean | cdktf.IResolvable;
 }
@@ -430,7 +430,7 @@ export class GroupVoicemailPolicyOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group genesyscloud_group}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group genesyscloud_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -446,7 +446,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -458,7 +458,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/group genesyscloud_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/group genesyscloud_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -469,8 +469,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_group',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

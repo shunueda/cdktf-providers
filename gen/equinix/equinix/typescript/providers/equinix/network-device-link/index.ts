@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkDeviceLinkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#id NetworkDeviceLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#id NetworkDeviceLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface NetworkDeviceLinkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Device link name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#name NetworkDeviceLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#name NetworkDeviceLink#name}
   */
   readonly name: string;
   /**
   * project_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#project_id NetworkDeviceLink#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#project_id NetworkDeviceLink#project_id}
   */
   readonly projectId?: string;
   /**
   * (Optional) Whether the connection should be created through Fabric's primary or secondary port. Supported values: `PRIMARY` (Default), `SECONDARY`, `HYBRID`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#redundancy_type NetworkDeviceLink#redundancy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#redundancy_type NetworkDeviceLink#redundancy_type}
   */
   readonly redundancyType?: string;
   /**
   * Device link subnet CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#subnet NetworkDeviceLink#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#subnet NetworkDeviceLink#subnet}
   */
   readonly subnet?: string;
   /**
   * device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#device NetworkDeviceLink#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#device NetworkDeviceLink#device}
   */
   readonly device: NetworkDeviceLinkDevice[] | cdktf.IResolvable;
   /**
   * link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#link NetworkDeviceLink#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#link NetworkDeviceLink#link}
   */
   readonly link?: NetworkDeviceLinkLink[] | cdktf.IResolvable;
   /**
   * metro_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#metro_link NetworkDeviceLink#metro_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#metro_link NetworkDeviceLink#metro_link}
   */
   readonly metroLink?: NetworkDeviceLinkMetroLink[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#timeouts NetworkDeviceLink#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#timeouts NetworkDeviceLink#timeouts}
   */
   readonly timeouts?: NetworkDeviceLinkTimeouts;
 }
@@ -67,13 +67,13 @@ export interface NetworkDeviceLinkDevice {
   /**
   * Device ASN number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#asn NetworkDeviceLink#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#asn NetworkDeviceLink#asn}
   */
   readonly asn?: number;
   /**
   * Device identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#id NetworkDeviceLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#id NetworkDeviceLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ export interface NetworkDeviceLinkDevice {
   /**
   * Device network interface identifier to use for device link connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#interface_id NetworkDeviceLink#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#interface_id NetworkDeviceLink#interface_id}
   */
   readonly interfaceId?: number;
 }
@@ -265,43 +265,43 @@ export interface NetworkDeviceLinkLink {
   /**
   * Billing account number to be used for connection charges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#account_number NetworkDeviceLink#account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#account_number NetworkDeviceLink#account_number}
   */
   readonly accountNumber: string;
   /**
   * Connection destination metro code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#dst_metro_code NetworkDeviceLink#dst_metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#dst_metro_code NetworkDeviceLink#dst_metro_code}
   */
   readonly dstMetroCode: string;
   /**
   * Connection destination zone code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#dst_zone_code NetworkDeviceLink#dst_zone_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#dst_zone_code NetworkDeviceLink#dst_zone_code}
   */
   readonly dstZoneCode?: string;
   /**
   * Connection source metro code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#src_metro_code NetworkDeviceLink#src_metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#src_metro_code NetworkDeviceLink#src_metro_code}
   */
   readonly srcMetroCode: string;
   /**
   * Connection source zone code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#src_zone_code NetworkDeviceLink#src_zone_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#src_zone_code NetworkDeviceLink#src_zone_code}
   */
   readonly srcZoneCode?: string;
   /**
   * Connection throughput
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#throughput NetworkDeviceLink#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#throughput NetworkDeviceLink#throughput}
   */
   readonly throughput: string;
   /**
   * Connection throughput unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#throughput_unit NetworkDeviceLink#throughput_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#throughput_unit NetworkDeviceLink#throughput_unit}
   */
   readonly throughputUnit: string;
 }
@@ -578,23 +578,23 @@ export interface NetworkDeviceLinkMetroLink {
   /**
   * Billing account number to be used for connection charges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#account_number NetworkDeviceLink#account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#account_number NetworkDeviceLink#account_number}
   */
   readonly accountNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#metro_code NetworkDeviceLink#metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#metro_code NetworkDeviceLink#metro_code}
   */
   readonly metroCode: string;
   /**
   * Connection throughput
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#throughput NetworkDeviceLink#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#throughput NetworkDeviceLink#throughput}
   */
   readonly throughput: string;
   /**
   * Connection throughput unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#throughput_unit NetworkDeviceLink#throughput_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#throughput_unit NetworkDeviceLink#throughput_unit}
   */
   readonly throughputUnit: string;
 }
@@ -785,11 +785,11 @@ export class NetworkDeviceLinkMetroLinkList extends cdktf.ComplexList {
 }
 export interface NetworkDeviceLinkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#create NetworkDeviceLink#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#create NetworkDeviceLink#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#delete NetworkDeviceLink#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#delete NetworkDeviceLink#delete}
   */
   readonly delete?: string;
 }
@@ -912,7 +912,7 @@ export class NetworkDeviceLinkTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link equinix_network_device_link}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link equinix_network_device_link}
 */
 export class NetworkDeviceLink extends cdktf.TerraformResource {
 
@@ -928,7 +928,7 @@ export class NetworkDeviceLink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkDeviceLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkDeviceLink to import
-  * @param importFromId The id of the existing NetworkDeviceLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkDeviceLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkDeviceLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -940,7 +940,7 @@ export class NetworkDeviceLink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device_link equinix_network_device_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device_link equinix_network_device_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -951,8 +951,8 @@ export class NetworkDeviceLink extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_network_device_link',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_upload_revoke_letter_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_upload_revoke_letter_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SslUploadRevokeLetterOperationConfig extends cdktf.TerraformMet
   /**
   * Certificate ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_upload_revoke_letter_operation#certificate_id SslUploadRevokeLetterOperation#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_upload_revoke_letter_operation#certificate_id SslUploadRevokeLetterOperation#certificate_id}
   */
   readonly certificateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_upload_revoke_letter_operation#id SslUploadRevokeLetterOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_upload_revoke_letter_operation#id SslUploadRevokeLetterOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface SslUploadRevokeLetterOperationConfig extends cdktf.TerraformMet
   /**
   * The format of the base64-encoded certificate confirmation letter file should be jpg, jpeg, png, or pdf, and the size should be between 1kb and 1.4M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_upload_revoke_letter_operation#revoke_letter SslUploadRevokeLetterOperation#revoke_letter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_upload_revoke_letter_operation#revoke_letter SslUploadRevokeLetterOperation#revoke_letter}
   */
   readonly revokeLetter: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_upload_revoke_letter_operation tencentcloud_ssl_upload_revoke_letter_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_upload_revoke_letter_operation tencentcloud_ssl_upload_revoke_letter_operation}
 */
 export class SslUploadRevokeLetterOperation extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class SslUploadRevokeLetterOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SslUploadRevokeLetterOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslUploadRevokeLetterOperation to import
-  * @param importFromId The id of the existing SslUploadRevokeLetterOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_upload_revoke_letter_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslUploadRevokeLetterOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_upload_revoke_letter_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslUploadRevokeLetterOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class SslUploadRevokeLetterOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_upload_revoke_letter_operation tencentcloud_ssl_upload_revoke_letter_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_upload_revoke_letter_operation tencentcloud_ssl_upload_revoke_letter_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class SslUploadRevokeLetterOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ssl_upload_revoke_letter_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

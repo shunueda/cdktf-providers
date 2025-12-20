@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OutboundCampaignruleConfig extends cdktf.TerraformMetaArguments
   /**
   * Whether or not this campaign rule is currently enabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#enabled OutboundCampaignrule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#enabled OutboundCampaignrule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#id OutboundCampaignrule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#id OutboundCampaignrule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface OutboundCampaignruleConfig extends cdktf.TerraformMetaArguments
   /**
   * Whether actions are executed if any condition is met, or only when all conditions are met. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#match_any_conditions OutboundCampaignrule#match_any_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#match_any_conditions OutboundCampaignrule#match_any_conditions}
   */
   readonly matchAnyConditions?: boolean | cdktf.IResolvable;
   /**
   * The name of the campaign rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#name OutboundCampaignrule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#name OutboundCampaignrule#name}
   */
   readonly name: string;
   /**
   * campaign_rule_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#campaign_rule_actions OutboundCampaignrule#campaign_rule_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#campaign_rule_actions OutboundCampaignrule#campaign_rule_actions}
   */
   readonly campaignRuleActions: OutboundCampaignruleCampaignRuleActions[] | cdktf.IResolvable;
   /**
   * campaign_rule_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#campaign_rule_conditions OutboundCampaignrule#campaign_rule_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#campaign_rule_conditions OutboundCampaignrule#campaign_rule_conditions}
   */
   readonly campaignRuleConditions: OutboundCampaignruleCampaignRuleConditions[] | cdktf.IResolvable;
   /**
   * campaign_rule_entities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#campaign_rule_entities OutboundCampaignrule#campaign_rule_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#campaign_rule_entities OutboundCampaignrule#campaign_rule_entities}
   */
   readonly campaignRuleEntities: OutboundCampaignruleCampaignRuleEntities;
 }
@@ -55,19 +55,31 @@ export interface OutboundCampaignruleCampaignRuleActionsCampaignRuleActionEntiti
   /**
   * The list of campaigns for a CampaignRule to monitor. Required if the CampaignRule has any conditions that run on a campaign. Changing the outboundCampaignRuleEntityCampaignRuleId attribute will cause the outbound_campaignrule object to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#campaign_ids OutboundCampaignrule#campaign_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#campaign_ids OutboundCampaignrule#campaign_ids}
   */
   readonly campaignIds?: string[];
   /**
+  * The list of Email campaigns for a CampaignRule to monitor. Required if the CampaignRule has any conditions that run on an Email campaign. Changing the outboundCampaignRuleEntityCampaignRuleId attribute will cause the outbound_campaignrule object to be dropped and recreated with a new ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#email_campaign_ids OutboundCampaignrule#email_campaign_ids}
+  */
+  readonly emailCampaignIds?: string[];
+  /**
   * The list of sequences for a CampaignRule to monitor. Required if the CampaignRule has any conditions that run on a sequence. Changing the outboundCampaignRuleEntitySequenceRuleId attribute will cause the outbound_campaignrule object to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#sequence_ids OutboundCampaignrule#sequence_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#sequence_ids OutboundCampaignrule#sequence_ids}
   */
   readonly sequenceIds?: string[];
   /**
+  * The list of SMS campaigns for a CampaignRule to monitor. Required if the CampaignRule has any conditions that run on an SMS campaign. Changing the outboundCampaignRuleEntityCampaignRuleId attribute will cause the outbound_campaignrule object to be dropped and recreated with a new ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#sms_campaign_ids OutboundCampaignrule#sms_campaign_ids}
+  */
+  readonly smsCampaignIds?: string[];
+  /**
   * If true, the CampaignRuleAction will apply to the same entity that triggered the CampaignRuleCondition. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#use_triggering_entity OutboundCampaignrule#use_triggering_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#use_triggering_entity OutboundCampaignrule#use_triggering_entity}
   */
   readonly useTriggeringEntity?: boolean | cdktf.IResolvable;
 }
@@ -79,7 +91,9 @@ export function outboundCampaignruleCampaignRuleActionsCampaignRuleActionEntitie
   }
   return {
     campaign_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.campaignIds),
+    email_campaign_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.emailCampaignIds),
     sequence_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sequenceIds),
+    sms_campaign_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.smsCampaignIds),
     use_triggering_entity: cdktf.booleanToTerraform(struct!.useTriggeringEntity),
   }
 }
@@ -97,8 +111,20 @@ export function outboundCampaignruleCampaignRuleActionsCampaignRuleActionEntitie
       type: "list",
       storageClassType: "stringList",
     },
+    email_campaign_ids: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.emailCampaignIds),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
     sequence_ids: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sequenceIds),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    sms_campaign_ids: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.smsCampaignIds),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -139,9 +165,17 @@ export class OutboundCampaignruleCampaignRuleActionsCampaignRuleActionEntitiesOu
       hasAnyValues = true;
       internalValueResult.campaignIds = this._campaignIds;
     }
+    if (this._emailCampaignIds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.emailCampaignIds = this._emailCampaignIds;
+    }
     if (this._sequenceIds !== undefined) {
       hasAnyValues = true;
       internalValueResult.sequenceIds = this._sequenceIds;
+    }
+    if (this._smsCampaignIds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smsCampaignIds = this._smsCampaignIds;
     }
     if (this._useTriggeringEntity !== undefined) {
       hasAnyValues = true;
@@ -155,7 +189,9 @@ export class OutboundCampaignruleCampaignRuleActionsCampaignRuleActionEntitiesOu
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._campaignIds = undefined;
+      this._emailCampaignIds = undefined;
       this._sequenceIds = undefined;
+      this._smsCampaignIds = undefined;
       this._useTriggeringEntity = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -166,7 +202,9 @@ export class OutboundCampaignruleCampaignRuleActionsCampaignRuleActionEntitiesOu
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._campaignIds = value.campaignIds;
+      this._emailCampaignIds = value.emailCampaignIds;
       this._sequenceIds = value.sequenceIds;
+      this._smsCampaignIds = value.smsCampaignIds;
       this._useTriggeringEntity = value.useTriggeringEntity;
     }
   }
@@ -187,6 +225,22 @@ export class OutboundCampaignruleCampaignRuleActionsCampaignRuleActionEntitiesOu
     return this._campaignIds;
   }
 
+  // email_campaign_ids - computed: false, optional: true, required: false
+  private _emailCampaignIds?: string[]; 
+  public get emailCampaignIds() {
+    return this.getListAttribute('email_campaign_ids');
+  }
+  public set emailCampaignIds(value: string[]) {
+    this._emailCampaignIds = value;
+  }
+  public resetEmailCampaignIds() {
+    this._emailCampaignIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get emailCampaignIdsInput() {
+    return this._emailCampaignIds;
+  }
+
   // sequence_ids - computed: false, optional: true, required: false
   private _sequenceIds?: string[]; 
   public get sequenceIds() {
@@ -201,6 +255,22 @@ export class OutboundCampaignruleCampaignRuleActionsCampaignRuleActionEntitiesOu
   // Temporarily expose input value. Use with caution.
   public get sequenceIdsInput() {
     return this._sequenceIds;
+  }
+
+  // sms_campaign_ids - computed: false, optional: true, required: false
+  private _smsCampaignIds?: string[]; 
+  public get smsCampaignIds() {
+    return this.getListAttribute('sms_campaign_ids');
+  }
+  public set smsCampaignIds(value: string[]) {
+    this._smsCampaignIds = value;
+  }
+  public resetSmsCampaignIds() {
+    this._smsCampaignIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smsCampaignIdsInput() {
+    return this._smsCampaignIds;
   }
 
   // use_triggering_entity - computed: false, optional: true, required: false
@@ -241,27 +311,87 @@ export class OutboundCampaignruleCampaignRuleActionsCampaignRuleActionEntitiesLi
 }
 export interface OutboundCampaignruleCampaignRuleActionsParameters {
   /**
+  * Compliance Abandon Rate. Required for 'setCampaignAbandonRate' action
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#abandon_rate OutboundCampaignrule#abandon_rate}
+  */
+  readonly abandonRate?: string;
+  /**
   * The dialing mode to set a campaign to. Required for the 'setCampaignDialingMode' action (agentless | preview | power | predictive | progressive | external).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#dialing_mode OutboundCampaignrule#dialing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#dialing_mode OutboundCampaignrule#dialing_mode}
   */
   readonly dialingMode?: string;
   /**
+  * The content template to set an Email campaign to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#email_content_template_id OutboundCampaignrule#email_content_template_id}
+  */
+  readonly emailContentTemplateId?: string;
+  /**
+  * The number of messages per minute to set an Email messaging campaign to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#email_messages_per_minute OutboundCampaignrule#email_messages_per_minute}
+  */
+  readonly emailMessagesPerMinute?: string;
+  /**
+  * Max calls per agent. Optional parameter for 'setCampaignMaxCallsPerAgent' action
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#max_calls_per_agent OutboundCampaignrule#max_calls_per_agent}
+  */
+  readonly maxCallsPerAgent?: string;
+  /**
+  * The number of messages per minute to set a messaging campaign to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#messages_per_minute OutboundCampaignrule#messages_per_minute}
+  */
+  readonly messagesPerMinute?: string;
+  /**
   * The operator for comparison. Required for a CampaignRuleCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#operator OutboundCampaignrule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#operator OutboundCampaignrule#operator}
   */
   readonly operator?: string;
   /**
+  * Number of Outbound lines. Required for 'setCampaignNumberOfLines' action
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#outbound_line_count OutboundCampaignrule#outbound_line_count}
+  */
+  readonly outboundLineCount?: string;
+  /**
   * The priority to set a campaign to (1 | 2 | 3 | 4 | 5). Required for the 'setCampaignPriority' action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#priority OutboundCampaignrule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#priority OutboundCampaignrule#priority}
   */
   readonly priority?: string;
   /**
+  * The ID of the Queue. Required for 'changeCampaignQueue' action
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#queue_id OutboundCampaignrule#queue_id}
+  */
+  readonly queueId?: string;
+  /**
+  * Relative weight. Required for 'setCampaignWeight' action
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#relative_weight OutboundCampaignrule#relative_weight}
+  */
+  readonly relativeWeight?: string;
+  /**
+  * The content template to set a SMS campaign to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#sms_content_template_id OutboundCampaignrule#sms_content_template_id}
+  */
+  readonly smsContentTemplateId?: string;
+  /**
+  * The number of messages per minute to set a SMS messaging campaign to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#sms_messages_per_minute OutboundCampaignrule#sms_messages_per_minute}
+  */
+  readonly smsMessagesPerMinute?: string;
+  /**
   * The value for comparison. Required for a CampaignRuleCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#value OutboundCampaignrule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#value OutboundCampaignrule#value}
   */
   readonly value?: string;
 }
@@ -272,9 +402,19 @@ export function outboundCampaignruleCampaignRuleActionsParametersToTerraform(str
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    abandon_rate: cdktf.stringToTerraform(struct!.abandonRate),
     dialing_mode: cdktf.stringToTerraform(struct!.dialingMode),
+    email_content_template_id: cdktf.stringToTerraform(struct!.emailContentTemplateId),
+    email_messages_per_minute: cdktf.stringToTerraform(struct!.emailMessagesPerMinute),
+    max_calls_per_agent: cdktf.stringToTerraform(struct!.maxCallsPerAgent),
+    messages_per_minute: cdktf.stringToTerraform(struct!.messagesPerMinute),
     operator: cdktf.stringToTerraform(struct!.operator),
+    outbound_line_count: cdktf.stringToTerraform(struct!.outboundLineCount),
     priority: cdktf.stringToTerraform(struct!.priority),
+    queue_id: cdktf.stringToTerraform(struct!.queueId),
+    relative_weight: cdktf.stringToTerraform(struct!.relativeWeight),
+    sms_content_template_id: cdktf.stringToTerraform(struct!.smsContentTemplateId),
+    sms_messages_per_minute: cdktf.stringToTerraform(struct!.smsMessagesPerMinute),
     value: cdktf.stringToTerraform(struct!.value),
   }
 }
@@ -286,8 +426,38 @@ export function outboundCampaignruleCampaignRuleActionsParametersToHclTerraform(
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    abandon_rate: {
+      value: cdktf.stringToHclTerraform(struct!.abandonRate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     dialing_mode: {
       value: cdktf.stringToHclTerraform(struct!.dialingMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    email_content_template_id: {
+      value: cdktf.stringToHclTerraform(struct!.emailContentTemplateId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    email_messages_per_minute: {
+      value: cdktf.stringToHclTerraform(struct!.emailMessagesPerMinute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_calls_per_agent: {
+      value: cdktf.stringToHclTerraform(struct!.maxCallsPerAgent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    messages_per_minute: {
+      value: cdktf.stringToHclTerraform(struct!.messagesPerMinute),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -298,8 +468,38 @@ export function outboundCampaignruleCampaignRuleActionsParametersToHclTerraform(
       type: "simple",
       storageClassType: "string",
     },
+    outbound_line_count: {
+      value: cdktf.stringToHclTerraform(struct!.outboundLineCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     priority: {
       value: cdktf.stringToHclTerraform(struct!.priority),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    queue_id: {
+      value: cdktf.stringToHclTerraform(struct!.queueId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    relative_weight: {
+      value: cdktf.stringToHclTerraform(struct!.relativeWeight),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sms_content_template_id: {
+      value: cdktf.stringToHclTerraform(struct!.smsContentTemplateId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sms_messages_per_minute: {
+      value: cdktf.stringToHclTerraform(struct!.smsMessagesPerMinute),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -336,17 +536,57 @@ export class OutboundCampaignruleCampaignRuleActionsParametersOutputReference ex
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._abandonRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.abandonRate = this._abandonRate;
+    }
     if (this._dialingMode !== undefined) {
       hasAnyValues = true;
       internalValueResult.dialingMode = this._dialingMode;
+    }
+    if (this._emailContentTemplateId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.emailContentTemplateId = this._emailContentTemplateId;
+    }
+    if (this._emailMessagesPerMinute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.emailMessagesPerMinute = this._emailMessagesPerMinute;
+    }
+    if (this._maxCallsPerAgent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxCallsPerAgent = this._maxCallsPerAgent;
+    }
+    if (this._messagesPerMinute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.messagesPerMinute = this._messagesPerMinute;
     }
     if (this._operator !== undefined) {
       hasAnyValues = true;
       internalValueResult.operator = this._operator;
     }
+    if (this._outboundLineCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.outboundLineCount = this._outboundLineCount;
+    }
     if (this._priority !== undefined) {
       hasAnyValues = true;
       internalValueResult.priority = this._priority;
+    }
+    if (this._queueId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.queueId = this._queueId;
+    }
+    if (this._relativeWeight !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.relativeWeight = this._relativeWeight;
+    }
+    if (this._smsContentTemplateId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smsContentTemplateId = this._smsContentTemplateId;
+    }
+    if (this._smsMessagesPerMinute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smsMessagesPerMinute = this._smsMessagesPerMinute;
     }
     if (this._value !== undefined) {
       hasAnyValues = true;
@@ -359,9 +599,19 @@ export class OutboundCampaignruleCampaignRuleActionsParametersOutputReference ex
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._abandonRate = undefined;
       this._dialingMode = undefined;
+      this._emailContentTemplateId = undefined;
+      this._emailMessagesPerMinute = undefined;
+      this._maxCallsPerAgent = undefined;
+      this._messagesPerMinute = undefined;
       this._operator = undefined;
+      this._outboundLineCount = undefined;
       this._priority = undefined;
+      this._queueId = undefined;
+      this._relativeWeight = undefined;
+      this._smsContentTemplateId = undefined;
+      this._smsMessagesPerMinute = undefined;
       this._value = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -371,11 +621,37 @@ export class OutboundCampaignruleCampaignRuleActionsParametersOutputReference ex
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._abandonRate = value.abandonRate;
       this._dialingMode = value.dialingMode;
+      this._emailContentTemplateId = value.emailContentTemplateId;
+      this._emailMessagesPerMinute = value.emailMessagesPerMinute;
+      this._maxCallsPerAgent = value.maxCallsPerAgent;
+      this._messagesPerMinute = value.messagesPerMinute;
       this._operator = value.operator;
+      this._outboundLineCount = value.outboundLineCount;
       this._priority = value.priority;
+      this._queueId = value.queueId;
+      this._relativeWeight = value.relativeWeight;
+      this._smsContentTemplateId = value.smsContentTemplateId;
+      this._smsMessagesPerMinute = value.smsMessagesPerMinute;
       this._value = value.value;
     }
+  }
+
+  // abandon_rate - computed: false, optional: true, required: false
+  private _abandonRate?: string; 
+  public get abandonRate() {
+    return this.getStringAttribute('abandon_rate');
+  }
+  public set abandonRate(value: string) {
+    this._abandonRate = value;
+  }
+  public resetAbandonRate() {
+    this._abandonRate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get abandonRateInput() {
+    return this._abandonRate;
   }
 
   // dialing_mode - computed: false, optional: true, required: false
@@ -394,6 +670,70 @@ export class OutboundCampaignruleCampaignRuleActionsParametersOutputReference ex
     return this._dialingMode;
   }
 
+  // email_content_template_id - computed: false, optional: true, required: false
+  private _emailContentTemplateId?: string; 
+  public get emailContentTemplateId() {
+    return this.getStringAttribute('email_content_template_id');
+  }
+  public set emailContentTemplateId(value: string) {
+    this._emailContentTemplateId = value;
+  }
+  public resetEmailContentTemplateId() {
+    this._emailContentTemplateId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get emailContentTemplateIdInput() {
+    return this._emailContentTemplateId;
+  }
+
+  // email_messages_per_minute - computed: false, optional: true, required: false
+  private _emailMessagesPerMinute?: string; 
+  public get emailMessagesPerMinute() {
+    return this.getStringAttribute('email_messages_per_minute');
+  }
+  public set emailMessagesPerMinute(value: string) {
+    this._emailMessagesPerMinute = value;
+  }
+  public resetEmailMessagesPerMinute() {
+    this._emailMessagesPerMinute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get emailMessagesPerMinuteInput() {
+    return this._emailMessagesPerMinute;
+  }
+
+  // max_calls_per_agent - computed: false, optional: true, required: false
+  private _maxCallsPerAgent?: string; 
+  public get maxCallsPerAgent() {
+    return this.getStringAttribute('max_calls_per_agent');
+  }
+  public set maxCallsPerAgent(value: string) {
+    this._maxCallsPerAgent = value;
+  }
+  public resetMaxCallsPerAgent() {
+    this._maxCallsPerAgent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxCallsPerAgentInput() {
+    return this._maxCallsPerAgent;
+  }
+
+  // messages_per_minute - computed: false, optional: true, required: false
+  private _messagesPerMinute?: string; 
+  public get messagesPerMinute() {
+    return this.getStringAttribute('messages_per_minute');
+  }
+  public set messagesPerMinute(value: string) {
+    this._messagesPerMinute = value;
+  }
+  public resetMessagesPerMinute() {
+    this._messagesPerMinute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get messagesPerMinuteInput() {
+    return this._messagesPerMinute;
+  }
+
   // operator - computed: false, optional: true, required: false
   private _operator?: string; 
   public get operator() {
@@ -410,6 +750,22 @@ export class OutboundCampaignruleCampaignRuleActionsParametersOutputReference ex
     return this._operator;
   }
 
+  // outbound_line_count - computed: false, optional: true, required: false
+  private _outboundLineCount?: string; 
+  public get outboundLineCount() {
+    return this.getStringAttribute('outbound_line_count');
+  }
+  public set outboundLineCount(value: string) {
+    this._outboundLineCount = value;
+  }
+  public resetOutboundLineCount() {
+    this._outboundLineCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outboundLineCountInput() {
+    return this._outboundLineCount;
+  }
+
   // priority - computed: false, optional: true, required: false
   private _priority?: string; 
   public get priority() {
@@ -424,6 +780,70 @@ export class OutboundCampaignruleCampaignRuleActionsParametersOutputReference ex
   // Temporarily expose input value. Use with caution.
   public get priorityInput() {
     return this._priority;
+  }
+
+  // queue_id - computed: false, optional: true, required: false
+  private _queueId?: string; 
+  public get queueId() {
+    return this.getStringAttribute('queue_id');
+  }
+  public set queueId(value: string) {
+    this._queueId = value;
+  }
+  public resetQueueId() {
+    this._queueId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get queueIdInput() {
+    return this._queueId;
+  }
+
+  // relative_weight - computed: false, optional: true, required: false
+  private _relativeWeight?: string; 
+  public get relativeWeight() {
+    return this.getStringAttribute('relative_weight');
+  }
+  public set relativeWeight(value: string) {
+    this._relativeWeight = value;
+  }
+  public resetRelativeWeight() {
+    this._relativeWeight = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get relativeWeightInput() {
+    return this._relativeWeight;
+  }
+
+  // sms_content_template_id - computed: false, optional: true, required: false
+  private _smsContentTemplateId?: string; 
+  public get smsContentTemplateId() {
+    return this.getStringAttribute('sms_content_template_id');
+  }
+  public set smsContentTemplateId(value: string) {
+    this._smsContentTemplateId = value;
+  }
+  public resetSmsContentTemplateId() {
+    this._smsContentTemplateId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smsContentTemplateIdInput() {
+    return this._smsContentTemplateId;
+  }
+
+  // sms_messages_per_minute - computed: false, optional: true, required: false
+  private _smsMessagesPerMinute?: string; 
+  public get smsMessagesPerMinute() {
+    return this.getStringAttribute('sms_messages_per_minute');
+  }
+  public set smsMessagesPerMinute(value: string) {
+    this._smsMessagesPerMinute = value;
+  }
+  public resetSmsMessagesPerMinute() {
+    this._smsMessagesPerMinute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smsMessagesPerMinuteInput() {
+    return this._smsMessagesPerMinute;
   }
 
   // value - computed: false, optional: true, required: false
@@ -464,16 +884,15 @@ export class OutboundCampaignruleCampaignRuleActionsParametersList extends cdktf
 }
 export interface OutboundCampaignruleCampaignRuleActions {
   /**
-  * The action to take on the campaignRuleActionEntities
-  * (turnOnCampaign | turnOffCampaign | turnOnSequence | turnOffSequence | setCampaignPriority | recycleCampaign | setCampaignDialingMode).
+  * The action to take on the campaignRuleActionEntities (turnOnCampaign | turnOffCampaign | turnOnSequence | turnOffSequence | setCampaignPriority | recycleCampaign | setCampaignDialingMode | setCampaignAbandonRate | setCampaignNumberOfLines | setCampaignWeight | setCampaignMaxCallsPerAgent | changeCampaignQueue | changeCampaignTemplate | setCampaignMessagesPerMinute)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#action_type OutboundCampaignrule#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#action_type OutboundCampaignrule#action_type}
   */
   readonly actionType: string;
   /**
   * The ID of the CampaignRuleAction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#id OutboundCampaignrule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#id OutboundCampaignrule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -482,13 +901,13 @@ export interface OutboundCampaignruleCampaignRuleActions {
   /**
   * campaign_rule_action_entities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#campaign_rule_action_entities OutboundCampaignrule#campaign_rule_action_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#campaign_rule_action_entities OutboundCampaignrule#campaign_rule_action_entities}
   */
   readonly campaignRuleActionEntities: OutboundCampaignruleCampaignRuleActionsCampaignRuleActionEntities[] | cdktf.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#parameters OutboundCampaignrule#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#parameters OutboundCampaignrule#parameters}
   */
   readonly parameters?: OutboundCampaignruleCampaignRuleActionsParameters[] | cdktf.IResolvable;
 }
@@ -685,27 +1104,87 @@ export class OutboundCampaignruleCampaignRuleActionsList extends cdktf.ComplexLi
 }
 export interface OutboundCampaignruleCampaignRuleConditionsParameters {
   /**
+  * Compliance Abandon Rate. Required for 'setCampaignAbandonRate' action
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#abandon_rate OutboundCampaignrule#abandon_rate}
+  */
+  readonly abandonRate?: string;
+  /**
   * The dialing mode to set a campaign to. Required for the 'setCampaignDialingMode' action (agentless | preview | power | predictive | progressive | external).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#dialing_mode OutboundCampaignrule#dialing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#dialing_mode OutboundCampaignrule#dialing_mode}
   */
   readonly dialingMode?: string;
   /**
+  * The content template to set an Email campaign to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#email_content_template_id OutboundCampaignrule#email_content_template_id}
+  */
+  readonly emailContentTemplateId?: string;
+  /**
+  * The number of messages per minute to set an Email messaging campaign to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#email_messages_per_minute OutboundCampaignrule#email_messages_per_minute}
+  */
+  readonly emailMessagesPerMinute?: string;
+  /**
+  * Max calls per agent. Optional parameter for 'setCampaignMaxCallsPerAgent' action
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#max_calls_per_agent OutboundCampaignrule#max_calls_per_agent}
+  */
+  readonly maxCallsPerAgent?: string;
+  /**
+  * The number of messages per minute to set a messaging campaign to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#messages_per_minute OutboundCampaignrule#messages_per_minute}
+  */
+  readonly messagesPerMinute?: string;
+  /**
   * The operator for comparison. Required for a CampaignRuleCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#operator OutboundCampaignrule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#operator OutboundCampaignrule#operator}
   */
   readonly operator?: string;
   /**
+  * Number of Outbound lines. Required for 'setCampaignNumberOfLines' action
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#outbound_line_count OutboundCampaignrule#outbound_line_count}
+  */
+  readonly outboundLineCount?: string;
+  /**
   * The priority to set a campaign to (1 | 2 | 3 | 4 | 5). Required for the 'setCampaignPriority' action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#priority OutboundCampaignrule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#priority OutboundCampaignrule#priority}
   */
   readonly priority?: string;
   /**
+  * The ID of the Queue. Required for 'changeCampaignQueue' action
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#queue_id OutboundCampaignrule#queue_id}
+  */
+  readonly queueId?: string;
+  /**
+  * Relative weight. Required for 'setCampaignWeight' action
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#relative_weight OutboundCampaignrule#relative_weight}
+  */
+  readonly relativeWeight?: string;
+  /**
+  * The content template to set a SMS campaign to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#sms_content_template_id OutboundCampaignrule#sms_content_template_id}
+  */
+  readonly smsContentTemplateId?: string;
+  /**
+  * The number of messages per minute to set a SMS messaging campaign to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#sms_messages_per_minute OutboundCampaignrule#sms_messages_per_minute}
+  */
+  readonly smsMessagesPerMinute?: string;
+  /**
   * The value for comparison. Required for a CampaignRuleCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#value OutboundCampaignrule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#value OutboundCampaignrule#value}
   */
   readonly value?: string;
 }
@@ -716,9 +1195,19 @@ export function outboundCampaignruleCampaignRuleConditionsParametersToTerraform(
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    abandon_rate: cdktf.stringToTerraform(struct!.abandonRate),
     dialing_mode: cdktf.stringToTerraform(struct!.dialingMode),
+    email_content_template_id: cdktf.stringToTerraform(struct!.emailContentTemplateId),
+    email_messages_per_minute: cdktf.stringToTerraform(struct!.emailMessagesPerMinute),
+    max_calls_per_agent: cdktf.stringToTerraform(struct!.maxCallsPerAgent),
+    messages_per_minute: cdktf.stringToTerraform(struct!.messagesPerMinute),
     operator: cdktf.stringToTerraform(struct!.operator),
+    outbound_line_count: cdktf.stringToTerraform(struct!.outboundLineCount),
     priority: cdktf.stringToTerraform(struct!.priority),
+    queue_id: cdktf.stringToTerraform(struct!.queueId),
+    relative_weight: cdktf.stringToTerraform(struct!.relativeWeight),
+    sms_content_template_id: cdktf.stringToTerraform(struct!.smsContentTemplateId),
+    sms_messages_per_minute: cdktf.stringToTerraform(struct!.smsMessagesPerMinute),
     value: cdktf.stringToTerraform(struct!.value),
   }
 }
@@ -730,8 +1219,38 @@ export function outboundCampaignruleCampaignRuleConditionsParametersToHclTerrafo
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    abandon_rate: {
+      value: cdktf.stringToHclTerraform(struct!.abandonRate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     dialing_mode: {
       value: cdktf.stringToHclTerraform(struct!.dialingMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    email_content_template_id: {
+      value: cdktf.stringToHclTerraform(struct!.emailContentTemplateId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    email_messages_per_minute: {
+      value: cdktf.stringToHclTerraform(struct!.emailMessagesPerMinute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_calls_per_agent: {
+      value: cdktf.stringToHclTerraform(struct!.maxCallsPerAgent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    messages_per_minute: {
+      value: cdktf.stringToHclTerraform(struct!.messagesPerMinute),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -742,8 +1261,38 @@ export function outboundCampaignruleCampaignRuleConditionsParametersToHclTerrafo
       type: "simple",
       storageClassType: "string",
     },
+    outbound_line_count: {
+      value: cdktf.stringToHclTerraform(struct!.outboundLineCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     priority: {
       value: cdktf.stringToHclTerraform(struct!.priority),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    queue_id: {
+      value: cdktf.stringToHclTerraform(struct!.queueId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    relative_weight: {
+      value: cdktf.stringToHclTerraform(struct!.relativeWeight),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sms_content_template_id: {
+      value: cdktf.stringToHclTerraform(struct!.smsContentTemplateId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sms_messages_per_minute: {
+      value: cdktf.stringToHclTerraform(struct!.smsMessagesPerMinute),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -780,17 +1329,57 @@ export class OutboundCampaignruleCampaignRuleConditionsParametersOutputReference
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._abandonRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.abandonRate = this._abandonRate;
+    }
     if (this._dialingMode !== undefined) {
       hasAnyValues = true;
       internalValueResult.dialingMode = this._dialingMode;
+    }
+    if (this._emailContentTemplateId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.emailContentTemplateId = this._emailContentTemplateId;
+    }
+    if (this._emailMessagesPerMinute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.emailMessagesPerMinute = this._emailMessagesPerMinute;
+    }
+    if (this._maxCallsPerAgent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxCallsPerAgent = this._maxCallsPerAgent;
+    }
+    if (this._messagesPerMinute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.messagesPerMinute = this._messagesPerMinute;
     }
     if (this._operator !== undefined) {
       hasAnyValues = true;
       internalValueResult.operator = this._operator;
     }
+    if (this._outboundLineCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.outboundLineCount = this._outboundLineCount;
+    }
     if (this._priority !== undefined) {
       hasAnyValues = true;
       internalValueResult.priority = this._priority;
+    }
+    if (this._queueId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.queueId = this._queueId;
+    }
+    if (this._relativeWeight !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.relativeWeight = this._relativeWeight;
+    }
+    if (this._smsContentTemplateId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smsContentTemplateId = this._smsContentTemplateId;
+    }
+    if (this._smsMessagesPerMinute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smsMessagesPerMinute = this._smsMessagesPerMinute;
     }
     if (this._value !== undefined) {
       hasAnyValues = true;
@@ -803,9 +1392,19 @@ export class OutboundCampaignruleCampaignRuleConditionsParametersOutputReference
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._abandonRate = undefined;
       this._dialingMode = undefined;
+      this._emailContentTemplateId = undefined;
+      this._emailMessagesPerMinute = undefined;
+      this._maxCallsPerAgent = undefined;
+      this._messagesPerMinute = undefined;
       this._operator = undefined;
+      this._outboundLineCount = undefined;
       this._priority = undefined;
+      this._queueId = undefined;
+      this._relativeWeight = undefined;
+      this._smsContentTemplateId = undefined;
+      this._smsMessagesPerMinute = undefined;
       this._value = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -815,11 +1414,37 @@ export class OutboundCampaignruleCampaignRuleConditionsParametersOutputReference
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._abandonRate = value.abandonRate;
       this._dialingMode = value.dialingMode;
+      this._emailContentTemplateId = value.emailContentTemplateId;
+      this._emailMessagesPerMinute = value.emailMessagesPerMinute;
+      this._maxCallsPerAgent = value.maxCallsPerAgent;
+      this._messagesPerMinute = value.messagesPerMinute;
       this._operator = value.operator;
+      this._outboundLineCount = value.outboundLineCount;
       this._priority = value.priority;
+      this._queueId = value.queueId;
+      this._relativeWeight = value.relativeWeight;
+      this._smsContentTemplateId = value.smsContentTemplateId;
+      this._smsMessagesPerMinute = value.smsMessagesPerMinute;
       this._value = value.value;
     }
+  }
+
+  // abandon_rate - computed: false, optional: true, required: false
+  private _abandonRate?: string; 
+  public get abandonRate() {
+    return this.getStringAttribute('abandon_rate');
+  }
+  public set abandonRate(value: string) {
+    this._abandonRate = value;
+  }
+  public resetAbandonRate() {
+    this._abandonRate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get abandonRateInput() {
+    return this._abandonRate;
   }
 
   // dialing_mode - computed: false, optional: true, required: false
@@ -838,6 +1463,70 @@ export class OutboundCampaignruleCampaignRuleConditionsParametersOutputReference
     return this._dialingMode;
   }
 
+  // email_content_template_id - computed: false, optional: true, required: false
+  private _emailContentTemplateId?: string; 
+  public get emailContentTemplateId() {
+    return this.getStringAttribute('email_content_template_id');
+  }
+  public set emailContentTemplateId(value: string) {
+    this._emailContentTemplateId = value;
+  }
+  public resetEmailContentTemplateId() {
+    this._emailContentTemplateId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get emailContentTemplateIdInput() {
+    return this._emailContentTemplateId;
+  }
+
+  // email_messages_per_minute - computed: false, optional: true, required: false
+  private _emailMessagesPerMinute?: string; 
+  public get emailMessagesPerMinute() {
+    return this.getStringAttribute('email_messages_per_minute');
+  }
+  public set emailMessagesPerMinute(value: string) {
+    this._emailMessagesPerMinute = value;
+  }
+  public resetEmailMessagesPerMinute() {
+    this._emailMessagesPerMinute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get emailMessagesPerMinuteInput() {
+    return this._emailMessagesPerMinute;
+  }
+
+  // max_calls_per_agent - computed: false, optional: true, required: false
+  private _maxCallsPerAgent?: string; 
+  public get maxCallsPerAgent() {
+    return this.getStringAttribute('max_calls_per_agent');
+  }
+  public set maxCallsPerAgent(value: string) {
+    this._maxCallsPerAgent = value;
+  }
+  public resetMaxCallsPerAgent() {
+    this._maxCallsPerAgent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxCallsPerAgentInput() {
+    return this._maxCallsPerAgent;
+  }
+
+  // messages_per_minute - computed: false, optional: true, required: false
+  private _messagesPerMinute?: string; 
+  public get messagesPerMinute() {
+    return this.getStringAttribute('messages_per_minute');
+  }
+  public set messagesPerMinute(value: string) {
+    this._messagesPerMinute = value;
+  }
+  public resetMessagesPerMinute() {
+    this._messagesPerMinute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get messagesPerMinuteInput() {
+    return this._messagesPerMinute;
+  }
+
   // operator - computed: false, optional: true, required: false
   private _operator?: string; 
   public get operator() {
@@ -854,6 +1543,22 @@ export class OutboundCampaignruleCampaignRuleConditionsParametersOutputReference
     return this._operator;
   }
 
+  // outbound_line_count - computed: false, optional: true, required: false
+  private _outboundLineCount?: string; 
+  public get outboundLineCount() {
+    return this.getStringAttribute('outbound_line_count');
+  }
+  public set outboundLineCount(value: string) {
+    this._outboundLineCount = value;
+  }
+  public resetOutboundLineCount() {
+    this._outboundLineCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outboundLineCountInput() {
+    return this._outboundLineCount;
+  }
+
   // priority - computed: false, optional: true, required: false
   private _priority?: string; 
   public get priority() {
@@ -868,6 +1573,70 @@ export class OutboundCampaignruleCampaignRuleConditionsParametersOutputReference
   // Temporarily expose input value. Use with caution.
   public get priorityInput() {
     return this._priority;
+  }
+
+  // queue_id - computed: false, optional: true, required: false
+  private _queueId?: string; 
+  public get queueId() {
+    return this.getStringAttribute('queue_id');
+  }
+  public set queueId(value: string) {
+    this._queueId = value;
+  }
+  public resetQueueId() {
+    this._queueId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get queueIdInput() {
+    return this._queueId;
+  }
+
+  // relative_weight - computed: false, optional: true, required: false
+  private _relativeWeight?: string; 
+  public get relativeWeight() {
+    return this.getStringAttribute('relative_weight');
+  }
+  public set relativeWeight(value: string) {
+    this._relativeWeight = value;
+  }
+  public resetRelativeWeight() {
+    this._relativeWeight = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get relativeWeightInput() {
+    return this._relativeWeight;
+  }
+
+  // sms_content_template_id - computed: false, optional: true, required: false
+  private _smsContentTemplateId?: string; 
+  public get smsContentTemplateId() {
+    return this.getStringAttribute('sms_content_template_id');
+  }
+  public set smsContentTemplateId(value: string) {
+    this._smsContentTemplateId = value;
+  }
+  public resetSmsContentTemplateId() {
+    this._smsContentTemplateId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smsContentTemplateIdInput() {
+    return this._smsContentTemplateId;
+  }
+
+  // sms_messages_per_minute - computed: false, optional: true, required: false
+  private _smsMessagesPerMinute?: string; 
+  public get smsMessagesPerMinute() {
+    return this.getStringAttribute('sms_messages_per_minute');
+  }
+  public set smsMessagesPerMinute(value: string) {
+    this._smsMessagesPerMinute = value;
+  }
+  public resetSmsMessagesPerMinute() {
+    this._smsMessagesPerMinute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smsMessagesPerMinuteInput() {
+    return this._smsMessagesPerMinute;
   }
 
   // value - computed: false, optional: true, required: false
@@ -908,15 +1677,15 @@ export class OutboundCampaignruleCampaignRuleConditionsParametersList extends cd
 }
 export interface OutboundCampaignruleCampaignRuleConditions {
   /**
-  * The type of condition to evaluate (campaignProgress | campaignAgents).
+  * The type of condition to evaluate (campaignProgress | campaignAgents | campaignRecordsAttempted | campaignContactsMessaged | campaignBusinessSuccess | campaignBusinessNeutral | campaignBusinessFailure | campaignValidAttempts | campaignRightPartyContacts)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#condition_type OutboundCampaignrule#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#condition_type OutboundCampaignrule#condition_type}
   */
   readonly conditionType: string;
   /**
   * The ID of the CampaignRuleCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#id OutboundCampaignrule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#id OutboundCampaignrule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -925,7 +1694,7 @@ export interface OutboundCampaignruleCampaignRuleConditions {
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#parameters OutboundCampaignrule#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#parameters OutboundCampaignrule#parameters}
   */
   readonly parameters: OutboundCampaignruleCampaignRuleConditionsParameters[] | cdktf.IResolvable;
 }
@@ -1095,15 +1864,27 @@ export interface OutboundCampaignruleCampaignRuleEntities {
   /**
   * The list of campaigns for a CampaignRule to monitor. Required if the CampaignRule has any conditions that run on a campaign. Changing the outboundCampaignRuleEntityCampaignRuleId attribute will cause the outbound_campaignrule object to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#campaign_ids OutboundCampaignrule#campaign_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#campaign_ids OutboundCampaignrule#campaign_ids}
   */
   readonly campaignIds?: string[];
   /**
+  * The list of Email campaigns for a CampaignRule to monitor. Required if the CampaignRule has any conditions that run on an Email campaign. Changing the outboundCampaignRuleEntityCampaignRuleId attribute will cause the outbound_campaignrule object to be dropped and recreated with a new ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#email_campaign_ids OutboundCampaignrule#email_campaign_ids}
+  */
+  readonly emailCampaignIds?: string[];
+  /**
   * The list of sequences for a CampaignRule to monitor. Required if the CampaignRule has any conditions that run on a sequence. Changing the outboundCampaignRuleEntitySequenceRuleId attribute will cause the outbound_campaignrule object to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#sequence_ids OutboundCampaignrule#sequence_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#sequence_ids OutboundCampaignrule#sequence_ids}
   */
   readonly sequenceIds?: string[];
+  /**
+  * The list of SMS campaigns for a CampaignRule to monitor. Required if the CampaignRule has any conditions that run on an SMS campaign. Changing the outboundCampaignRuleEntityCampaignRuleId attribute will cause the outbound_campaignrule object to be dropped and recreated with a new ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#sms_campaign_ids OutboundCampaignrule#sms_campaign_ids}
+  */
+  readonly smsCampaignIds?: string[];
 }
 
 export function outboundCampaignruleCampaignRuleEntitiesToTerraform(struct?: OutboundCampaignruleCampaignRuleEntitiesOutputReference | OutboundCampaignruleCampaignRuleEntities): any {
@@ -1113,7 +1894,9 @@ export function outboundCampaignruleCampaignRuleEntitiesToTerraform(struct?: Out
   }
   return {
     campaign_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.campaignIds),
+    email_campaign_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.emailCampaignIds),
     sequence_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sequenceIds),
+    sms_campaign_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.smsCampaignIds),
   }
 }
 
@@ -1130,8 +1913,20 @@ export function outboundCampaignruleCampaignRuleEntitiesToHclTerraform(struct?: 
       type: "list",
       storageClassType: "stringList",
     },
+    email_campaign_ids: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.emailCampaignIds),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
     sequence_ids: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sequenceIds),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    sms_campaign_ids: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.smsCampaignIds),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -1160,9 +1955,17 @@ export class OutboundCampaignruleCampaignRuleEntitiesOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.campaignIds = this._campaignIds;
     }
+    if (this._emailCampaignIds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.emailCampaignIds = this._emailCampaignIds;
+    }
     if (this._sequenceIds !== undefined) {
       hasAnyValues = true;
       internalValueResult.sequenceIds = this._sequenceIds;
+    }
+    if (this._smsCampaignIds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smsCampaignIds = this._smsCampaignIds;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1171,12 +1974,16 @@ export class OutboundCampaignruleCampaignRuleEntitiesOutputReference extends cdk
     if (value === undefined) {
       this.isEmptyObject = false;
       this._campaignIds = undefined;
+      this._emailCampaignIds = undefined;
       this._sequenceIds = undefined;
+      this._smsCampaignIds = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._campaignIds = value.campaignIds;
+      this._emailCampaignIds = value.emailCampaignIds;
       this._sequenceIds = value.sequenceIds;
+      this._smsCampaignIds = value.smsCampaignIds;
     }
   }
 
@@ -1196,6 +2003,22 @@ export class OutboundCampaignruleCampaignRuleEntitiesOutputReference extends cdk
     return this._campaignIds;
   }
 
+  // email_campaign_ids - computed: false, optional: true, required: false
+  private _emailCampaignIds?: string[]; 
+  public get emailCampaignIds() {
+    return this.getListAttribute('email_campaign_ids');
+  }
+  public set emailCampaignIds(value: string[]) {
+    this._emailCampaignIds = value;
+  }
+  public resetEmailCampaignIds() {
+    this._emailCampaignIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get emailCampaignIdsInput() {
+    return this._emailCampaignIds;
+  }
+
   // sequence_ids - computed: false, optional: true, required: false
   private _sequenceIds?: string[]; 
   public get sequenceIds() {
@@ -1211,10 +2034,26 @@ export class OutboundCampaignruleCampaignRuleEntitiesOutputReference extends cdk
   public get sequenceIdsInput() {
     return this._sequenceIds;
   }
+
+  // sms_campaign_ids - computed: false, optional: true, required: false
+  private _smsCampaignIds?: string[]; 
+  public get smsCampaignIds() {
+    return this.getListAttribute('sms_campaign_ids');
+  }
+  public set smsCampaignIds(value: string[]) {
+    this._smsCampaignIds = value;
+  }
+  public resetSmsCampaignIds() {
+    this._smsCampaignIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smsCampaignIdsInput() {
+    return this._smsCampaignIds;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule genesyscloud_outbound_campaignrule}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule genesyscloud_outbound_campaignrule}
 */
 export class OutboundCampaignrule extends cdktf.TerraformResource {
 
@@ -1230,7 +2069,7 @@ export class OutboundCampaignrule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundCampaignrule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundCampaignrule to import
-  * @param importFromId The id of the existing OutboundCampaignrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundCampaignrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundCampaignrule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1242,7 +2081,7 @@ export class OutboundCampaignrule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_campaignrule genesyscloud_outbound_campaignrule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_campaignrule genesyscloud_outbound_campaignrule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1253,8 +2092,8 @@ export class OutboundCampaignrule extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_campaignrule',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataEquinixFabricNetworksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks#id DataEquinixFabricNetworks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks#id DataEquinixFabricNetworks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataEquinixFabricNetworksConfig extends cdktf.TerraformMetaArgu
   /**
   * Determines if the filter list will be grouped by AND or by OR. One of [AND, OR]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks#outer_operator DataEquinixFabricNetworks#outer_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks#outer_operator DataEquinixFabricNetworks#outer_operator}
   */
   readonly outerOperator: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks#filter DataEquinixFabricNetworks#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks#filter DataEquinixFabricNetworks#filter}
   */
   readonly filter: DataEquinixFabricNetworksFilter[] | cdktf.IResolvable;
   /**
   * pagination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks#pagination DataEquinixFabricNetworks#pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks#pagination DataEquinixFabricNetworks#pagination}
   */
   readonly pagination?: DataEquinixFabricNetworksPagination;
   /**
   * sort block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks#sort DataEquinixFabricNetworks#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks#sort DataEquinixFabricNetworks#sort}
   */
   readonly sort?: DataEquinixFabricNetworksSort[] | cdktf.IResolvable;
 }
@@ -724,25 +724,25 @@ export interface DataEquinixFabricNetworksFilter {
   /**
   * Optional custom id parameter to assign this filter to an inner AND or OR group. Group id must be prefixed with AND_ or OR_. Ensure intended grouped elements have the same given id. Ungrouped filters will be placed in the filter list group by themselves.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks#group DataEquinixFabricNetworks#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks#group DataEquinixFabricNetworks#group}
   */
   readonly group?: string;
   /**
   * Operators to use on your filtered field with the values given. One of [ =, !=, >, >=, <, <=, BETWEEN, NOT BETWEEN, LIKE, NOT LIKE, ILIKE, NOT ILIKE, IN, NOT IN]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks#operator DataEquinixFabricNetworks#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks#operator DataEquinixFabricNetworks#operator}
   */
   readonly operator: string;
   /**
   * Possible field names to use on filters. One of [/name /uuid /scope /type /operation/equinixStatus /location/region /project/projectId /account/globalCustId /account/orgId /deletedDate /_*]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks#property DataEquinixFabricNetworks#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks#property DataEquinixFabricNetworks#property}
   */
   readonly property: string;
   /**
   * The values that you want to apply the property+operator combination to in order to filter your data search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks#values DataEquinixFabricNetworks#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks#values DataEquinixFabricNetworks#values}
   */
   readonly values: string[];
 }
@@ -938,13 +938,13 @@ export interface DataEquinixFabricNetworksPagination {
   /**
   * Number of elements to be requested per page. Number must be between 1 and 100. Default is 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks#limit DataEquinixFabricNetworks#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks#limit DataEquinixFabricNetworks#limit}
   */
   readonly limit?: number;
   /**
   * The page offset for the pagination request. Index of the first element. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks#offset DataEquinixFabricNetworks#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks#offset DataEquinixFabricNetworks#offset}
   */
   readonly offset?: number;
 }
@@ -1059,13 +1059,13 @@ export interface DataEquinixFabricNetworksSort {
   /**
   * The sorting direction. Can be one of: [DESC, ASC], Defaults to DESC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks#direction DataEquinixFabricNetworks#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks#direction DataEquinixFabricNetworks#direction}
   */
   readonly direction?: string;
   /**
   * The property name to use in sorting. One of [/name /uuid /scope /operation/equinixStatus /location/region /changeLog/createdDateTime /changeLog/updatedDateTime]. Defaults to /changeLog/updatedDateTime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks#property DataEquinixFabricNetworks#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks#property DataEquinixFabricNetworks#property}
   */
   readonly property?: string;
 }
@@ -1210,7 +1210,7 @@ export class DataEquinixFabricNetworksSortList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks equinix_fabric_networks}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks equinix_fabric_networks}
 */
 export class DataEquinixFabricNetworks extends cdktf.TerraformDataSource {
 
@@ -1226,7 +1226,7 @@ export class DataEquinixFabricNetworks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixFabricNetworks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricNetworks to import
-  * @param importFromId The id of the existing DataEquinixFabricNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricNetworks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1238,7 +1238,7 @@ export class DataEquinixFabricNetworks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_networks equinix_fabric_networks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_networks equinix_fabric_networks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1249,8 +1249,8 @@ export class DataEquinixFabricNetworks extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_fabric_networks',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

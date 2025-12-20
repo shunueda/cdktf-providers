@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface EtcdBackupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#annotations EtcdBackup#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#annotations EtcdBackup#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#cluster_id EtcdBackup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#cluster_id EtcdBackup#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#filename EtcdBackup#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#filename EtcdBackup#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#id EtcdBackup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#id EtcdBackup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,61 +31,61 @@ export interface EtcdBackupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#labels EtcdBackup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#labels EtcdBackup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#manual EtcdBackup#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#manual EtcdBackup#manual}
   */
   readonly manual?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#name EtcdBackup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#name EtcdBackup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#namespace_id EtcdBackup#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#namespace_id EtcdBackup#namespace_id}
   */
   readonly namespaceId?: string;
   /**
   * backup_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#backup_config EtcdBackup#backup_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#backup_config EtcdBackup#backup_config}
   */
   readonly backupConfig?: EtcdBackupBackupConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#timeouts EtcdBackup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#timeouts EtcdBackup#timeouts}
   */
   readonly timeouts?: EtcdBackupTimeouts;
 }
 export interface EtcdBackupBackupConfigS3BackupConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#access_key EtcdBackup#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#access_key EtcdBackup#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#bucket_name EtcdBackup#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#bucket_name EtcdBackup#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#custom_ca EtcdBackup#custom_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#custom_ca EtcdBackup#custom_ca}
   */
   readonly customCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#endpoint EtcdBackup#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#endpoint EtcdBackup#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#folder EtcdBackup#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#folder EtcdBackup#folder}
   */
   readonly folder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#region EtcdBackup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#region EtcdBackup#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#secret_key EtcdBackup#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#secret_key EtcdBackup#secret_key}
   */
   readonly secretKey?: string;
 }
@@ -337,29 +337,29 @@ export class EtcdBackupBackupConfigS3BackupConfigOutputReference extends cdktf.C
 }
 export interface EtcdBackupBackupConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#enabled EtcdBackup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#enabled EtcdBackup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#interval_hours EtcdBackup#interval_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#interval_hours EtcdBackup#interval_hours}
   */
   readonly intervalHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#retention EtcdBackup#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#retention EtcdBackup#retention}
   */
   readonly retention?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#safe_timestamp EtcdBackup#safe_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#safe_timestamp EtcdBackup#safe_timestamp}
   */
   readonly safeTimestamp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#timeout EtcdBackup#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#timeout EtcdBackup#timeout}
   */
   readonly timeout?: number;
   /**
   * s3_backup_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#s3_backup_config EtcdBackup#s3_backup_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#s3_backup_config EtcdBackup#s3_backup_config}
   */
   readonly s3BackupConfig?: EtcdBackupBackupConfigS3BackupConfig;
 }
@@ -588,15 +588,15 @@ export class EtcdBackupBackupConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface EtcdBackupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#create EtcdBackup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#create EtcdBackup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#delete EtcdBackup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#delete EtcdBackup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#update EtcdBackup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#update EtcdBackup#update}
   */
   readonly update?: string;
 }
@@ -748,7 +748,7 @@ export class EtcdBackupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup rancher2_etcd_backup}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup rancher2_etcd_backup}
 */
 export class EtcdBackup extends cdktf.TerraformResource {
 
@@ -764,7 +764,7 @@ export class EtcdBackup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EtcdBackup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EtcdBackup to import
-  * @param importFromId The id of the existing EtcdBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EtcdBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EtcdBackup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -776,7 +776,7 @@ export class EtcdBackup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/etcd_backup rancher2_etcd_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/etcd_backup rancher2_etcd_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -787,8 +787,8 @@ export class EtcdBackup extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_etcd_backup',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

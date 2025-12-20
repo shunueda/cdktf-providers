@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_bus
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_bus
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudEbBusConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_bus#id DataTencentcloudEbBus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_bus#id DataTencentcloudEbBus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudEbBusConfig extends cdktf.TerraformMetaArgument
   /**
   * Return results in ascending or descending order, optional values ASC (ascending) and DESC (descending).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_bus#order DataTencentcloudEbBus#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_bus#order DataTencentcloudEbBus#order}
   */
   readonly order?: string;
   /**
   * According to which field to sort the returned results, the following fields are supported: `created_at` (creation time), `updated_at` (modification time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_bus#order_by DataTencentcloudEbBus#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_bus#order_by DataTencentcloudEbBus#order_by}
   */
   readonly orderBy?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_bus#result_output_file DataTencentcloudEbBus#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_bus#result_output_file DataTencentcloudEbBus#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_bus#filters DataTencentcloudEbBus#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_bus#filters DataTencentcloudEbBus#filters}
   */
   readonly filters?: DataTencentcloudEbBusFilters[] | cdktf.IResolvable;
 }
@@ -320,13 +320,13 @@ export interface DataTencentcloudEbBusFilters {
   /**
   * The name of the filter key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_bus#name DataTencentcloudEbBus#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_bus#name DataTencentcloudEbBus#name}
   */
   readonly name: string;
   /**
   * One or more filter values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_bus#values DataTencentcloudEbBus#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_bus#values DataTencentcloudEbBus#values}
   */
   readonly values: string[];
 }
@@ -465,7 +465,7 @@ export class DataTencentcloudEbBusFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_bus tencentcloud_eb_bus}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_bus tencentcloud_eb_bus}
 */
 export class DataTencentcloudEbBus extends cdktf.TerraformDataSource {
 
@@ -481,7 +481,7 @@ export class DataTencentcloudEbBus extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudEbBus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudEbBus to import
-  * @param importFromId The id of the existing DataTencentcloudEbBus that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_bus#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudEbBus that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_bus#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudEbBus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -493,7 +493,7 @@ export class DataTencentcloudEbBus extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_bus tencentcloud_eb_bus} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_bus tencentcloud_eb_bus} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -504,8 +504,8 @@ export class DataTencentcloudEbBus extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_eb_bus',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AccessRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the owner of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#admin_owner_id AccessRule#admin_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#admin_owner_id AccessRule#admin_owner_id}
   */
   readonly adminOwnerId: string;
   /**
   * A description of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#description AccessRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#description AccessRule#description}
   */
   readonly description: string;
   /**
   * The name of the access rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#name AccessRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#name AccessRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#rule_clauses AccessRule#rule_clauses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#rule_clauses AccessRule#rule_clauses}
   */
   readonly ruleClauses: AccessRuleRuleClauses;
   /**
   * The status of the access rule. must be one of ["ACTIVE", "PAUSED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#status AccessRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#status AccessRule#status}
   */
   readonly status: string;
 }
@@ -40,19 +40,19 @@ export interface AccessRuleRuleClausesUnlessClausesSelectors {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#connection_id AccessRule#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#connection_id AccessRule#connection_id}
   */
   readonly connectionId?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#key AccessRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#key AccessRule#key}
   */
   readonly key?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#value AccessRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#value AccessRule#value}
   */
   readonly value?: string;
 }
@@ -228,7 +228,7 @@ export interface AccessRuleRuleClausesUnlessClauses {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#selectors AccessRule#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#selectors AccessRule#selectors}
   */
   readonly selectors?: AccessRuleRuleClausesUnlessClausesSelectors[] | cdktf.IResolvable;
 }
@@ -346,7 +346,7 @@ export interface AccessRuleRuleClausesUnless {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#clauses AccessRule#clauses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#clauses AccessRule#clauses}
   */
   readonly clauses?: AccessRuleRuleClausesUnlessClauses[] | cdktf.IResolvable;
 }
@@ -442,19 +442,19 @@ export interface AccessRuleRuleClausesWhenClausesSelectors {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#connection_id AccessRule#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#connection_id AccessRule#connection_id}
   */
   readonly connectionId?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#key AccessRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#key AccessRule#key}
   */
   readonly key?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#value AccessRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#value AccessRule#value}
   */
   readonly value?: string;
 }
@@ -630,7 +630,7 @@ export interface AccessRuleRuleClausesWhenClauses {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#selectors AccessRule#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#selectors AccessRule#selectors}
   */
   readonly selectors?: AccessRuleRuleClausesWhenClausesSelectors[] | cdktf.IResolvable;
 }
@@ -746,7 +746,7 @@ export class AccessRuleRuleClausesWhenClausesList extends cdktf.ComplexList {
 }
 export interface AccessRuleRuleClausesWhen {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#clauses AccessRule#clauses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#clauses AccessRule#clauses}
   */
   readonly clauses: AccessRuleRuleClausesWhenClauses[] | cdktf.IResolvable;
 }
@@ -837,11 +837,11 @@ export class AccessRuleRuleClausesWhenOutputReference extends cdktf.ComplexObjec
 }
 export interface AccessRuleRuleClauses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#unless AccessRule#unless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#unless AccessRule#unless}
   */
   readonly unless?: AccessRuleRuleClausesUnless;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#when AccessRule#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#when AccessRule#when}
   */
   readonly when: AccessRuleRuleClausesWhen;
 }
@@ -961,7 +961,7 @@ export class AccessRuleRuleClausesOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule opal_access_rule}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule opal_access_rule}
 */
 export class AccessRule extends cdktf.TerraformResource {
 
@@ -977,7 +977,7 @@ export class AccessRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccessRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessRule to import
-  * @param importFromId The id of the existing AccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -989,7 +989,7 @@ export class AccessRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/access_rule opal_access_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/access_rule opal_access_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1000,8 +1000,8 @@ export class AccessRule extends cdktf.TerraformResource {
       terraformResourceType: 'opal_access_rule',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

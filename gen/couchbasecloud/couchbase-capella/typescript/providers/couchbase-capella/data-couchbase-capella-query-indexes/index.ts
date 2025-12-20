@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_indexes
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_indexes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DataCouchbaseCapellaQueryIndexesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The name of the bucket where the indexes exist. Specifies the bucket portion of the keyspace.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_indexes#bucket_name DataCouchbaseCapellaQueryIndexes#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_indexes#bucket_name DataCouchbaseCapellaQueryIndexes#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_indexes#cluster_id DataCouchbaseCapellaQueryIndexes#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_indexes#cluster_id DataCouchbaseCapellaQueryIndexes#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Specifies the collection portion of the keyspace. If unspecified, this will be the default collection.
-  * 
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_indexes#collection_name DataCouchbaseCapellaQueryIndexes#collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_indexes#collection_name DataCouchbaseCapellaQueryIndexes#collection_name}
   */
   readonly collectionName?: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_indexes#organization_id DataCouchbaseCapellaQueryIndexes#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_indexes#organization_id DataCouchbaseCapellaQueryIndexes#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_indexes#project_id DataCouchbaseCapellaQueryIndexes#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_indexes#project_id DataCouchbaseCapellaQueryIndexes#project_id}
   */
   readonly projectId: string;
   /**
-  * The name of the scope where the indexes exist. Specifies the scope portion of the keyspace. If unspecified, this will be the default scope.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_indexes#scope_name DataCouchbaseCapellaQueryIndexes#scope_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_indexes#scope_name DataCouchbaseCapellaQueryIndexes#scope_name}
   */
   readonly scopeName?: string;
 }
@@ -96,49 +83,14 @@ export class DataCouchbaseCapellaQueryIndexesDataOutputReference extends cdktf.C
     }
   }
 
-  // condition - computed: true, optional: false, required: false
-  public get condition() {
-    return this.getStringAttribute('condition');
+  // definition - computed: true, optional: false, required: false
+  public get definition() {
+    return this.getStringAttribute('definition');
   }
 
-  // index_key - computed: true, optional: false, required: false
-  public get indexKey() {
-    return this.getListAttribute('index_key');
-  }
-
-  // is_primary - computed: true, optional: false, required: false
-  public get isPrimary() {
-    return this.getBooleanAttribute('is_primary');
-  }
-
-  // keyspace_id - computed: true, optional: false, required: false
-  public get keyspaceId() {
-    return this.getStringAttribute('keyspace_id');
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-
-  // partition - computed: true, optional: false, required: false
-  public get partition() {
-    return this.getListAttribute('partition');
-  }
-
-  // partition_count - computed: true, optional: false, required: false
-  public get partitionCount() {
-    return this.getNumberAttribute('partition_count');
-  }
-
-  // replica_count - computed: true, optional: false, required: false
-  public get replicaCount() {
-    return this.getNumberAttribute('replica_count');
-  }
-
-  // state - computed: true, optional: false, required: false
-  public get state() {
-    return this.getStringAttribute('state');
+  // index_name - computed: true, optional: false, required: false
+  public get indexName() {
+    return this.getStringAttribute('index_name');
   }
 }
 
@@ -162,7 +114,7 @@ export class DataCouchbaseCapellaQueryIndexesDataList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_indexes couchbase-capella_query_indexes}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_indexes couchbase-capella_query_indexes}
 */
 export class DataCouchbaseCapellaQueryIndexes extends cdktf.TerraformDataSource {
 
@@ -178,7 +130,7 @@ export class DataCouchbaseCapellaQueryIndexes extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataCouchbaseCapellaQueryIndexes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCouchbaseCapellaQueryIndexes to import
-  * @param importFromId The id of the existing DataCouchbaseCapellaQueryIndexes that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_indexes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCouchbaseCapellaQueryIndexes that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_indexes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCouchbaseCapellaQueryIndexes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +142,7 @@ export class DataCouchbaseCapellaQueryIndexes extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_indexes couchbase-capella_query_indexes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_indexes couchbase-capella_query_indexes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +153,8 @@ export class DataCouchbaseCapellaQueryIndexes extends cdktf.TerraformDataSource 
       terraformResourceType: 'couchbase-capella_query_indexes',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

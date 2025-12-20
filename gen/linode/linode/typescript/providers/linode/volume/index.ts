@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface VolumeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether Block Storage Disk Encryption is enabled or disabled on this Volume. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume#encryption Volume#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume#encryption Volume#encryption}
   */
   readonly encryption?: string;
   /**
   * The label of the Linode Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume#label Volume#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume#label Volume#label}
   */
   readonly label: string;
   /**
   * The Linode ID where the Volume should be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume#linode_id Volume#linode_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume#linode_id Volume#linode_id}
   */
   readonly linodeId?: number;
   /**
   * The region where this volume will be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume#region Volume#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume#region Volume#region}
   */
   readonly region?: string;
   /**
   * Size of the Volume in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume#size Volume#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume#size Volume#size}
   */
   readonly size?: number;
   /**
   * The ID of a volume to clone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume#source_volume_id Volume#source_volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume#source_volume_id Volume#source_volume_id}
   */
   readonly sourceVolumeId?: number;
   /**
   * An array of tags applied to this object. Tags are for organizational purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume#tags Volume#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume#tags Volume#tags}
   */
   readonly tags?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume#timeouts Volume#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume#timeouts Volume#timeouts}
   */
   readonly timeouts?: VolumeTimeouts;
 }
@@ -60,19 +60,19 @@ export interface VolumeTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume#create Volume#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume#create Volume#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume#delete Volume#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume#delete Volume#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume#update Volume#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume#update Volume#update}
   */
   readonly update?: string;
 }
@@ -224,7 +224,7 @@ export class VolumeTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume linode_volume}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume linode_volume}
 */
 export class Volume extends cdktf.TerraformResource {
 
@@ -240,7 +240,7 @@ export class Volume extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Volume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Volume to import
-  * @param importFromId The id of the existing Volume that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Volume that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Volume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -252,7 +252,7 @@ export class Volume extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/volume linode_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/volume linode_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -263,8 +263,8 @@ export class Volume extends cdktf.TerraformResource {
       terraformResourceType: 'linode_volume',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

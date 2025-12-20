@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ApikeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * List of inbound CIDRs for the API key. The system making a request must come from one of the allowed CIDRs.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey#allowed_cidrs Apikey#allowed_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey#allowed_cidrs Apikey#allowed_cidrs}
   */
   readonly allowedCidrs?: string[];
   /**
-  * Description for the API key.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey#description Apikey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey#description Apikey#description}
   */
   readonly description?: string;
   /**
-  * Expiry of the API key in number of days. If set to -1, the token will not expire.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey#expiry Apikey#expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey#expiry Apikey#expiry}
   */
   readonly expiry?: number;
   /**
-  * Name of the API key.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey#name Apikey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey#name Apikey#name}
   */
   readonly name: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey#organization_id Apikey#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey#organization_id Apikey#organization_id}
   */
   readonly organizationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey#organization_roles Apikey#organization_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey#organization_roles Apikey#organization_roles}
   */
   readonly organizationRoles: string[];
   /**
-  * Resources are the resource level permissions associated with the API key.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey#resources Apikey#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey#resources Apikey#resources}
   */
   readonly resources?: ApikeyResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey#rotate Apikey#rotate}
+  * 
+  *  - Set this value in incremental order from the previously set rotate value (starting from 1) to trigger rotation of the API key. When rotated, a new token and secret are generated.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey#rotate Apikey#rotate}
   */
   readonly rotate?: number;
   /**
-  * A secret associated with API key. One has to follow the secret key policy, such as allowed characters and a length of 64 characters. If this field is left empty, a secret will be auto-generated.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey#secret Apikey#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey#secret Apikey#secret}
   */
   readonly secret?: string;
 }
@@ -134,24 +123,18 @@ export class ApikeyAuditOutputReference extends cdktf.ComplexObject {
 }
 export interface ApikeyResources {
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey#id Apikey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey#id Apikey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Project Roles associated with the API key.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey#roles Apikey#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey#roles Apikey#roles}
   */
   readonly roles: string[];
   /**
-  * Resource type.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey#type Apikey#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey#type Apikey#type}
   */
   readonly type?: string;
 }
@@ -319,7 +302,7 @@ export class ApikeyResourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey couchbase-capella_apikey}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey couchbase-capella_apikey}
 */
 export class Apikey extends cdktf.TerraformResource {
 
@@ -335,7 +318,7 @@ export class Apikey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Apikey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Apikey to import
-  * @param importFromId The id of the existing Apikey that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Apikey that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Apikey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +330,7 @@ export class Apikey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/apikey couchbase-capella_apikey} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/apikey couchbase-capella_apikey} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +341,8 @@ export class Apikey extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_apikey',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

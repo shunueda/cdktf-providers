@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface StorageClassV2Config extends cdktf.TerraformMetaArguments {
   /**
   * StorageClass allow_volume_expansion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#allow_volume_expansion StorageClassV2#allow_volume_expansion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#allow_volume_expansion StorageClassV2#allow_volume_expansion}
   */
   readonly allowVolumeExpansion?: boolean | cdktf.IResolvable;
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#annotations StorageClassV2#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#annotations StorageClassV2#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * K8s cluster ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#cluster_id StorageClassV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#cluster_id StorageClassV2#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#id StorageClassV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#id StorageClassV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,63 +35,63 @@ export interface StorageClassV2Config extends cdktf.TerraformMetaArguments {
   /**
   * StorageClass provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#k8s_provisioner StorageClassV2#k8s_provisioner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#k8s_provisioner StorageClassV2#k8s_provisioner}
   */
   readonly k8SProvisioner: string;
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#labels StorageClassV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#labels StorageClassV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * StorageClass mount options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#mount_options StorageClassV2#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#mount_options StorageClassV2#mount_options}
   */
   readonly mountOptions?: string[];
   /**
   * StorageClass name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#name StorageClassV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#name StorageClassV2#name}
   */
   readonly name: string;
   /**
   * StorageClass provisioner paramaters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#parameters StorageClassV2#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#parameters StorageClassV2#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * StorageClass provisioner reclaim policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#reclaim_policy StorageClassV2#reclaim_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#reclaim_policy StorageClassV2#reclaim_policy}
   */
   readonly reclaimPolicy?: string;
   /**
   * StorageClass provisioner volume binding mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#volume_binding_mode StorageClassV2#volume_binding_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#volume_binding_mode StorageClassV2#volume_binding_mode}
   */
   readonly volumeBindingMode?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#timeouts StorageClassV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#timeouts StorageClassV2#timeouts}
   */
   readonly timeouts?: StorageClassV2Timeouts;
 }
 export interface StorageClassV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#create StorageClassV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#create StorageClassV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#delete StorageClassV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#delete StorageClassV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#update StorageClassV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#update StorageClassV2#update}
   */
   readonly update?: string;
 }
@@ -243,7 +243,7 @@ export class StorageClassV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2 rancher2_storage_class_v2}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2 rancher2_storage_class_v2}
 */
 export class StorageClassV2 extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class StorageClassV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageClassV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageClassV2 to import
-  * @param importFromId The id of the existing StorageClassV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageClassV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageClassV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class StorageClassV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/storage_class_v2 rancher2_storage_class_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/storage_class_v2 rancher2_storage_class_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class StorageClassV2 extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_storage_class_v2',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

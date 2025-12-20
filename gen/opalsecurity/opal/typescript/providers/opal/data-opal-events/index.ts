@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/events
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/events
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataOpalEventsConfig extends cdktf.TerraformMetaArguments {
   /**
   * An actor filter for the events. Supply the ID of the actor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/events#actor_filter DataOpalEvents#actor_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/events#actor_filter DataOpalEvents#actor_filter}
   */
   readonly actorFilter?: string;
   /**
   * An API filter for the events. Supply the name and preview of the API token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/events#api_token_filter DataOpalEvents#api_token_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/events#api_token_filter DataOpalEvents#api_token_filter}
   */
   readonly apiTokenFilter?: string;
   /**
   * The pagination cursor value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/events#cursor DataOpalEvents#cursor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/events#cursor DataOpalEvents#cursor}
   */
   readonly cursor?: string;
   /**
   * An end date filter for the events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/events#end_date_filter DataOpalEvents#end_date_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/events#end_date_filter DataOpalEvents#end_date_filter}
   */
   readonly endDateFilter?: string;
   /**
   * An event type filter for the events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/events#event_type_filter DataOpalEvents#event_type_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/events#event_type_filter DataOpalEvents#event_type_filter}
   */
   readonly eventTypeFilter?: string;
   /**
   * An object filter for the events. Supply the ID of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/events#object_filter DataOpalEvents#object_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/events#object_filter DataOpalEvents#object_filter}
   */
   readonly objectFilter?: string;
   /**
   * Number of results to return per page. Default is 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/events#page_size DataOpalEvents#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/events#page_size DataOpalEvents#page_size}
   */
   readonly pageSize?: number;
   /**
   * A start date filter for the events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/events#start_date_filter DataOpalEvents#start_date_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/events#start_date_filter DataOpalEvents#start_date_filter}
   */
   readonly startDateFilter?: string;
 }
@@ -259,7 +259,7 @@ export class DataOpalEventsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/events opal_events}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/events opal_events}
 */
 export class DataOpalEvents extends cdktf.TerraformDataSource {
 
@@ -275,7 +275,7 @@ export class DataOpalEvents extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpalEvents resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalEvents to import
-  * @param importFromId The id of the existing DataOpalEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/events#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/events#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalEvents to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -287,7 +287,7 @@ export class DataOpalEvents extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/events opal_events} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/events opal_events} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -298,8 +298,8 @@ export class DataOpalEvents extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_events',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

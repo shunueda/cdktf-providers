@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface OutboundMessagingcampaignConfig extends cdktf.TerraformMetaArgu
   /**
   * Whether this messaging campaign is always running Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#always_running OutboundMessagingcampaign#always_running}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#always_running OutboundMessagingcampaign#always_running}
   */
   readonly alwaysRunning?: boolean | cdktf.IResolvable;
   /**
   * The callable time set for this messaging campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#callable_time_set_id OutboundMessagingcampaign#callable_time_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#callable_time_set_id OutboundMessagingcampaign#callable_time_set_id}
   */
   readonly callableTimeSetId?: string;
   /**
   * The current status of the messaging campaign. A messaging campaign may be turned 'on' or 'off'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#campaign_status OutboundMessagingcampaign#campaign_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#campaign_status OutboundMessagingcampaign#campaign_status}
   */
   readonly campaignStatus?: string;
   /**
   * The contact list filter to check before sending a message for this messaging campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#contact_list_filter_ids OutboundMessagingcampaign#contact_list_filter_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#contact_list_filter_ids OutboundMessagingcampaign#contact_list_filter_ids}
   */
   readonly contactListFilterIds?: string[];
   /**
   * The contact list that this messaging campaign will send messages for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#contact_list_id OutboundMessagingcampaign#contact_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#contact_list_id OutboundMessagingcampaign#contact_list_id}
   */
   readonly contactListId: string;
   /**
   * The division this entity belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#division_id OutboundMessagingcampaign#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#division_id OutboundMessagingcampaign#division_id}
   */
   readonly divisionId?: string;
   /**
   * The dnc lists to check before sending a message for this messaging campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#dnc_list_ids OutboundMessagingcampaign#dnc_list_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#dnc_list_ids OutboundMessagingcampaign#dnc_list_ids}
   */
   readonly dncListIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#id OutboundMessagingcampaign#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#id OutboundMessagingcampaign#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,49 +59,49 @@ export interface OutboundMessagingcampaignConfig extends cdktf.TerraformMetaArgu
   /**
   * How many messages this messaging campaign will send per minute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#messages_per_minute OutboundMessagingcampaign#messages_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#messages_per_minute OutboundMessagingcampaign#messages_per_minute}
   */
   readonly messagesPerMinute: number;
   /**
   * The campaign name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#name OutboundMessagingcampaign#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#name OutboundMessagingcampaign#name}
   */
   readonly name: string;
   /**
   * Rule Sets to be applied while this campaign is sending messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#rule_set_ids OutboundMessagingcampaign#rule_set_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#rule_set_ids OutboundMessagingcampaign#rule_set_ids}
   */
   readonly ruleSetIds?: string[];
   /**
   * contact_sorts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#contact_sorts OutboundMessagingcampaign#contact_sorts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#contact_sorts OutboundMessagingcampaign#contact_sorts}
   */
   readonly contactSorts?: OutboundMessagingcampaignContactSorts[] | cdktf.IResolvable;
   /**
   * dynamic_contact_queueing_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#dynamic_contact_queueing_settings OutboundMessagingcampaign#dynamic_contact_queueing_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#dynamic_contact_queueing_settings OutboundMessagingcampaign#dynamic_contact_queueing_settings}
   */
   readonly dynamicContactQueueingSettings?: OutboundMessagingcampaignDynamicContactQueueingSettings;
   /**
   * email_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#email_config OutboundMessagingcampaign#email_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#email_config OutboundMessagingcampaign#email_config}
   */
   readonly emailConfig?: OutboundMessagingcampaignEmailConfig;
   /**
   * errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#errors OutboundMessagingcampaign#errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#errors OutboundMessagingcampaign#errors}
   */
   readonly errors?: OutboundMessagingcampaignErrors[] | cdktf.IResolvable;
   /**
   * sms_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#sms_config OutboundMessagingcampaign#sms_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#sms_config OutboundMessagingcampaign#sms_config}
   */
   readonly smsConfig?: OutboundMessagingcampaignSmsConfig;
 }
@@ -109,19 +109,19 @@ export interface OutboundMessagingcampaignContactSorts {
   /**
   * The direction in which to sort contacts. Defaults to `ASC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#direction OutboundMessagingcampaign#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#direction OutboundMessagingcampaign#direction}
   */
   readonly direction?: string;
   /**
   * The field name by which to sort contacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#field_name OutboundMessagingcampaign#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#field_name OutboundMessagingcampaign#field_name}
   */
   readonly fieldName: string;
   /**
   * Whether or not the column contains numeric data. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#numeric OutboundMessagingcampaign#numeric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#numeric OutboundMessagingcampaign#numeric}
   */
   readonly numeric?: boolean | cdktf.IResolvable;
 }
@@ -294,13 +294,13 @@ export interface OutboundMessagingcampaignDynamicContactQueueingSettings {
   /**
   * Whether to filter contacts dynamically
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#filter OutboundMessagingcampaign#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#filter OutboundMessagingcampaign#filter}
   */
   readonly filter?: boolean | cdktf.IResolvable;
   /**
   * Whether to sort contacts dynamically
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#sort OutboundMessagingcampaign#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#sort OutboundMessagingcampaign#sort}
   */
   readonly sort?: boolean | cdktf.IResolvable;
 }
@@ -415,19 +415,19 @@ export interface OutboundMessagingcampaignEmailConfigFromAddress {
   /**
   * The OutboundDomain used for the email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#domain_id OutboundMessagingcampaign#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#domain_id OutboundMessagingcampaign#domain_id}
   */
   readonly domainId: string;
   /**
   * The friendly name of the email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#friendly_name OutboundMessagingcampaign#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#friendly_name OutboundMessagingcampaign#friendly_name}
   */
   readonly friendlyName?: string;
   /**
   * The local part of the email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#local_part OutboundMessagingcampaign#local_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#local_part OutboundMessagingcampaign#local_part}
   */
   readonly localPart?: string;
 }
@@ -568,13 +568,13 @@ export interface OutboundMessagingcampaignEmailConfigReplyToAddress {
   /**
   * The InboundDomain used for the email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#domain_id OutboundMessagingcampaign#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#domain_id OutboundMessagingcampaign#domain_id}
   */
   readonly domainId: string;
   /**
   * The InboundRoute used for the email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#route_id OutboundMessagingcampaign#route_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#route_id OutboundMessagingcampaign#route_id}
   */
   readonly routeId: string;
 }
@@ -683,25 +683,25 @@ export interface OutboundMessagingcampaignEmailConfig {
   /**
   * The content template used to formulate the email to send to the contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#content_template_id OutboundMessagingcampaign#content_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#content_template_id OutboundMessagingcampaign#content_template_id}
   */
   readonly contentTemplateId?: string;
   /**
   * The contact list columns specifying the email address(es) of the contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#email_columns OutboundMessagingcampaign#email_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#email_columns OutboundMessagingcampaign#email_columns}
   */
   readonly emailColumns: string[];
   /**
   * from_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#from_address OutboundMessagingcampaign#from_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#from_address OutboundMessagingcampaign#from_address}
   */
   readonly fromAddress: OutboundMessagingcampaignEmailConfigFromAddress;
   /**
   * reply_to_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#reply_to_address OutboundMessagingcampaign#reply_to_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#reply_to_address OutboundMessagingcampaign#reply_to_address}
   */
   readonly replyToAddress?: OutboundMessagingcampaignEmailConfigReplyToAddress;
 }
@@ -868,13 +868,13 @@ export interface OutboundMessagingcampaignErrors {
   /**
   * additional information regarding the error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#details OutboundMessagingcampaign#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#details OutboundMessagingcampaign#details}
   */
   readonly details?: string;
   /**
   * name of the error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#error OutboundMessagingcampaign#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#error OutboundMessagingcampaign#error}
   */
   readonly error: string;
 }
@@ -1018,25 +1018,25 @@ export interface OutboundMessagingcampaignSmsConfig {
   /**
   * The content template used to formulate the message to send to the contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#content_template_id OutboundMessagingcampaign#content_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#content_template_id OutboundMessagingcampaign#content_template_id}
   */
   readonly contentTemplateId?: string;
   /**
   * The Contact List column specifying the message to send to the contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#message_column OutboundMessagingcampaign#message_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#message_column OutboundMessagingcampaign#message_column}
   */
   readonly messageColumn?: string;
   /**
   * The Contact List column specifying the phone number to send a message to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#phone_column OutboundMessagingcampaign#phone_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#phone_column OutboundMessagingcampaign#phone_column}
   */
   readonly phoneColumn: string;
   /**
   * A phone number provisioned for SMS communications in E.164 format. E.g. +13175555555 or +34234234234
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#sender_sms_phone_number OutboundMessagingcampaign#sender_sms_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#sender_sms_phone_number OutboundMessagingcampaign#sender_sms_phone_number}
   */
   readonly senderSmsPhoneNumber: string;
 }
@@ -1201,7 +1201,7 @@ export class OutboundMessagingcampaignSmsConfigOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign genesyscloud_outbound_messagingcampaign}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign genesyscloud_outbound_messagingcampaign}
 */
 export class OutboundMessagingcampaign extends cdktf.TerraformResource {
 
@@ -1217,7 +1217,7 @@ export class OutboundMessagingcampaign extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundMessagingcampaign resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundMessagingcampaign to import
-  * @param importFromId The id of the existing OutboundMessagingcampaign that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundMessagingcampaign that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundMessagingcampaign to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1229,7 +1229,7 @@ export class OutboundMessagingcampaign extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_messagingcampaign genesyscloud_outbound_messagingcampaign} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_messagingcampaign genesyscloud_outbound_messagingcampaign} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1240,8 +1240,8 @@ export class OutboundMessagingcampaign extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_messagingcampaign',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

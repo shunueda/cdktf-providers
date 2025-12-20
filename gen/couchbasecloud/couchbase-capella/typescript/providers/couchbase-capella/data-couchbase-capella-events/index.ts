@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,75 +8,51 @@ import * as cdktf from 'cdktf';
 
 export interface DataCouchbaseCapellaEventsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * List of clusterIds to filter on. By default, events corresponding to all clusters are returned.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events#cluster_ids DataCouchbaseCapellaEvents#cluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events#cluster_ids DataCouchbaseCapellaEvents#cluster_ids}
   */
   readonly clusterIds?: string[];
   /**
-  * Start date in RFC3339 format. If not provided, events starting from last 24 hours are returned.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events#from DataCouchbaseCapellaEvents#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events#from DataCouchbaseCapellaEvents#from}
   */
   readonly from?: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events#organization_id DataCouchbaseCapellaEvents#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events#organization_id DataCouchbaseCapellaEvents#organization_id}
   */
   readonly organizationId: string;
   /**
-  * Sets the page you would like to view.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events#page DataCouchbaseCapellaEvents#page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events#page DataCouchbaseCapellaEvents#page}
   */
   readonly page?: number;
   /**
-  * Sets the number of results you would like to have on each page.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events#per_page DataCouchbaseCapellaEvents#per_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events#per_page DataCouchbaseCapellaEvents#per_page}
   */
   readonly perPage?: number;
   /**
-  * The GUID4 ID of projects to filter on. By default, events corresponding to all projects are returned
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events#project_ids DataCouchbaseCapellaEvents#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events#project_ids DataCouchbaseCapellaEvents#project_ids}
   */
   readonly projectIds?: string[];
   /**
-  * Filter by severity levels. Default is to return events corresponding to all supported severity levels.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events#severity_levels DataCouchbaseCapellaEvents#severity_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events#severity_levels DataCouchbaseCapellaEvents#severity_levels}
   */
   readonly severityLevels?: string[];
   /**
-  * Sets the order of how you would like to sort the results and the key you would like to order by. The valid fields to sort the results are: severity, timestamp.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events#sort_by DataCouchbaseCapellaEvents#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events#sort_by DataCouchbaseCapellaEvents#sort_by}
   */
   readonly sortBy?: string;
   /**
-  * The order in which the items will be sorted. The valid values are: asc, desc.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events#sort_direction DataCouchbaseCapellaEvents#sort_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events#sort_direction DataCouchbaseCapellaEvents#sort_direction}
   */
   readonly sortDirection?: string;
   /**
-  * Filter by tags. Default is to return events corresponding to all supported tag. The tags are: availability, billing, maintenance, performance, security, alert.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events#tags DataCouchbaseCapellaEvents#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events#tags DataCouchbaseCapellaEvents#tags}
   */
   readonly tags?: string[];
   /**
-  * End datetime in the last 24 hours, RFC3339 format. Defaults to Now.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events#to DataCouchbaseCapellaEvents#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events#to DataCouchbaseCapellaEvents#to}
   */
   readonly to?: string;
   /**
-  * Filter by user UUID. Default is to return events corresponding to all users.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events#user_ids DataCouchbaseCapellaEvents#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events#user_ids DataCouchbaseCapellaEvents#user_ids}
   */
   readonly userIds?: string[];
 }
@@ -471,7 +447,7 @@ export class DataCouchbaseCapellaEventsDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events couchbase-capella_events}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events couchbase-capella_events}
 */
 export class DataCouchbaseCapellaEvents extends cdktf.TerraformDataSource {
 
@@ -487,7 +463,7 @@ export class DataCouchbaseCapellaEvents extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCouchbaseCapellaEvents resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCouchbaseCapellaEvents to import
-  * @param importFromId The id of the existing DataCouchbaseCapellaEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCouchbaseCapellaEvents that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCouchbaseCapellaEvents to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -499,7 +475,7 @@ export class DataCouchbaseCapellaEvents extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/events couchbase-capella_events} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/events couchbase-capella_events} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -510,8 +486,8 @@ export class DataCouchbaseCapellaEvents extends cdktf.TerraformDataSource {
       terraformResourceType: 'couchbase-capella_events',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

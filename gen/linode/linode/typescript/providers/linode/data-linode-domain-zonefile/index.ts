@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domain_zonefile
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/domain_zonefile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataLinodeDomainZonefileConfig extends cdktf.TerraformMetaArgum
   /**
   * The domain's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domain_zonefile#domain_id DataLinodeDomainZonefile#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/domain_zonefile#domain_id DataLinodeDomainZonefile#domain_id}
   */
   readonly domainId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domain_zonefile linode_domain_zonefile}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/domain_zonefile linode_domain_zonefile}
 */
 export class DataLinodeDomainZonefile extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataLinodeDomainZonefile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeDomainZonefile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeDomainZonefile to import
-  * @param importFromId The id of the existing DataLinodeDomainZonefile that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domain_zonefile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeDomainZonefile that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/domain_zonefile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeDomainZonefile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataLinodeDomainZonefile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/domain_zonefile linode_domain_zonefile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/domain_zonefile linode_domain_zonefile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataLinodeDomainZonefile extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_domain_zonefile',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

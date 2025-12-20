@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,88 @@ export interface AntiSpywareSignatureConfig extends cdktf.TerraformMetaArguments
   /**
   * Bugtraq
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#bugtraq AntiSpywareSignature#bugtraq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#bugtraq AntiSpywareSignature#bugtraq}
   */
   readonly bugtraq?: string[];
   /**
   * Comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#comment AntiSpywareSignature#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#comment AntiSpywareSignature#comment}
   */
   readonly comment?: string;
   /**
   * Cve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#cve AntiSpywareSignature#cve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#cve AntiSpywareSignature#cve}
   */
   readonly cve?: string[];
   /**
   * anti spyware signature default action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#default_action AntiSpywareSignature#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#default_action AntiSpywareSignature#default_action}
   */
   readonly defaultAction?: AntiSpywareSignatureDefaultAction;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#device AntiSpywareSignature#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#device AntiSpywareSignature#device}
   */
   readonly device?: string;
   /**
   * Direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#direction AntiSpywareSignature#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#direction AntiSpywareSignature#direction}
   */
   readonly direction?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#folder AntiSpywareSignature#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#folder AntiSpywareSignature#folder}
   */
   readonly folder?: string;
   /**
   * Reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#reference AntiSpywareSignature#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#reference AntiSpywareSignature#reference}
   */
   readonly reference?: string[];
   /**
   * Severity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#severity AntiSpywareSignature#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#severity AntiSpywareSignature#severity}
   */
   readonly severity?: string;
   /**
   * anti spyware signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#signature AntiSpywareSignature#signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#signature AntiSpywareSignature#signature}
   */
   readonly signature?: AntiSpywareSignatureSignature;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#snippet AntiSpywareSignature#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#snippet AntiSpywareSignature#snippet}
   */
   readonly snippet?: string;
   /**
   * threat id range <15000-18000> and <6900001-7000000>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#threat_id AntiSpywareSignature#threat_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#threat_id AntiSpywareSignature#threat_id}
   */
   readonly threatId: string;
   /**
   * Threatname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#threatname AntiSpywareSignature#threatname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#threatname AntiSpywareSignature#threatname}
   */
   readonly threatname: string;
   /**
   * Vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#vendor AntiSpywareSignature#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#vendor AntiSpywareSignature#vendor}
   */
   readonly vendor?: string[];
 }
@@ -220,13 +217,13 @@ export interface AntiSpywareSignatureDefaultActionBlockIp {
   /**
   * Duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#duration AntiSpywareSignature#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#duration AntiSpywareSignature#duration}
   */
   readonly duration?: number;
   /**
   * Track by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#track_by AntiSpywareSignature#track_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#track_by AntiSpywareSignature#track_by}
   */
   readonly trackBy?: string;
 }
@@ -586,58 +583,51 @@ export class AntiSpywareSignatureDefaultActionResetServerOutputReference extends
 export interface AntiSpywareSignatureDefaultAction {
   /**
   * Alert
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `alert`, `allow`, `block_ip`, `drop`, `reset_both`, `reset_client`, and `reset_server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#alert AntiSpywareSignature#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#alert AntiSpywareSignature#alert}
   */
   readonly alert?: AntiSpywareSignatureDefaultActionAlert;
   /**
   * Allow
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `alert`, `allow`, `block_ip`, `drop`, `reset_both`, `reset_client`, and `reset_server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#allow AntiSpywareSignature#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#allow AntiSpywareSignature#allow}
   */
   readonly allow?: AntiSpywareSignatureDefaultActionAllow;
   /**
   * anti spyware signature block ip
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `alert`, `allow`, `block_ip`, `drop`, `reset_both`, `reset_client`, and `reset_server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#block_ip AntiSpywareSignature#block_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#block_ip AntiSpywareSignature#block_ip}
   */
   readonly blockIp?: AntiSpywareSignatureDefaultActionBlockIp;
   /**
   * Drop
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `alert`, `allow`, `block_ip`, `drop`, `reset_both`, `reset_client`, and `reset_server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#drop AntiSpywareSignature#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#drop AntiSpywareSignature#drop}
   */
   readonly drop?: AntiSpywareSignatureDefaultActionDrop;
   /**
   * Reset both
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `alert`, `allow`, `block_ip`, `drop`, `reset_both`, `reset_client`, and `reset_server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#reset_both AntiSpywareSignature#reset_both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#reset_both AntiSpywareSignature#reset_both}
   */
   readonly resetBoth?: AntiSpywareSignatureDefaultActionResetBoth;
   /**
   * Reset client
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `alert`, `allow`, `block_ip`, `drop`, `reset_both`, `reset_client`, and `reset_server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#reset_client AntiSpywareSignature#reset_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#reset_client AntiSpywareSignature#reset_client}
   */
   readonly resetClient?: AntiSpywareSignatureDefaultActionResetClient;
   /**
   * Reset server
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `alert`, `allow`, `block_ip`, `drop`, `reset_both`, `reset_client`, and `reset_server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#reset_server AntiSpywareSignature#reset_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#reset_server AntiSpywareSignature#reset_server}
   */
   readonly resetServer?: AntiSpywareSignatureDefaultActionResetServer;
 }
@@ -907,13 +897,13 @@ export interface AntiSpywareSignatureSignatureCombinationAndConditionOrCondition
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
   */
   readonly name?: string;
   /**
   * Threat id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#threat_id AntiSpywareSignature#threat_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#threat_id AntiSpywareSignature#threat_id}
   */
   readonly threatId?: string;
 }
@@ -1004,7 +994,7 @@ export class AntiSpywareSignatureSignatureCombinationAndConditionOrConditionOutp
     }
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -1020,7 +1010,7 @@ export class AntiSpywareSignatureSignatureCombinationAndConditionOrConditionOutp
     return this._name;
   }
 
-  // threat_id - computed: true, optional: true, required: false
+  // threat_id - computed: false, optional: true, required: false
   private _threatId?: string; 
   public get threatId() {
     return this.getStringAttribute('threat_id');
@@ -1060,13 +1050,13 @@ export interface AntiSpywareSignatureSignatureCombinationAndCondition {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
   */
   readonly name?: string;
   /**
   * Or condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#or_condition AntiSpywareSignature#or_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#or_condition AntiSpywareSignature#or_condition}
   */
   readonly orCondition?: AntiSpywareSignatureSignatureCombinationAndConditionOrCondition[] | cdktf.IResolvable;
 }
@@ -1157,7 +1147,7 @@ export class AntiSpywareSignatureSignatureCombinationAndConditionOutputReference
     }
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -1173,7 +1163,7 @@ export class AntiSpywareSignatureSignatureCombinationAndConditionOutputReference
     return this._name;
   }
 
-  // or_condition - computed: true, optional: true, required: false
+  // or_condition - computed: false, optional: true, required: false
   private _orCondition = new AntiSpywareSignatureSignatureCombinationAndConditionOrConditionList(this, "or_condition", false);
   public get orCondition() {
     return this._orCondition;
@@ -1213,19 +1203,19 @@ export interface AntiSpywareSignatureSignatureCombinationTimeAttribute {
   /**
   * Interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#interval AntiSpywareSignature#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#interval AntiSpywareSignature#interval}
   */
   readonly interval?: number;
   /**
   * Threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#threshold AntiSpywareSignature#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#threshold AntiSpywareSignature#threshold}
   */
   readonly threshold?: number;
   /**
   * Track by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#track_by AntiSpywareSignature#track_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#track_by AntiSpywareSignature#track_by}
   */
   readonly trackBy?: string;
 }
@@ -1327,7 +1317,7 @@ export class AntiSpywareSignatureSignatureCombinationTimeAttributeOutputReferenc
     }
   }
 
-  // interval - computed: true, optional: true, required: false
+  // interval - computed: false, optional: true, required: false
   private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
@@ -1343,7 +1333,7 @@ export class AntiSpywareSignatureSignatureCombinationTimeAttributeOutputReferenc
     return this._interval;
   }
 
-  // threshold - computed: true, optional: true, required: false
+  // threshold - computed: false, optional: true, required: false
   private _threshold?: number; 
   public get threshold() {
     return this.getNumberAttribute('threshold');
@@ -1359,7 +1349,7 @@ export class AntiSpywareSignatureSignatureCombinationTimeAttributeOutputReferenc
     return this._threshold;
   }
 
-  // track_by - computed: true, optional: true, required: false
+  // track_by - computed: false, optional: true, required: false
   private _trackBy?: string; 
   public get trackBy() {
     return this.getStringAttribute('track_by');
@@ -1379,19 +1369,19 @@ export interface AntiSpywareSignatureSignatureCombination {
   /**
   * And condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#and_condition AntiSpywareSignature#and_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#and_condition AntiSpywareSignature#and_condition}
   */
   readonly andCondition?: AntiSpywareSignatureSignatureCombinationAndCondition[] | cdktf.IResolvable;
   /**
   * Order free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#order_free AntiSpywareSignature#order_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#order_free AntiSpywareSignature#order_free}
   */
   readonly orderFree?: boolean | cdktf.IResolvable;
   /**
   * anti spyware time attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#time_attribute AntiSpywareSignature#time_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#time_attribute AntiSpywareSignature#time_attribute}
   */
   readonly timeAttribute?: AntiSpywareSignatureSignatureCombinationTimeAttribute;
 }
@@ -1493,7 +1483,7 @@ export class AntiSpywareSignatureSignatureCombinationOutputReference extends cdk
     }
   }
 
-  // and_condition - computed: true, optional: true, required: false
+  // and_condition - computed: false, optional: true, required: false
   private _andCondition = new AntiSpywareSignatureSignatureCombinationAndConditionList(this, "and_condition", false);
   public get andCondition() {
     return this._andCondition;
@@ -1525,7 +1515,7 @@ export class AntiSpywareSignatureSignatureCombinationOutputReference extends cdk
     return this._orderFree;
   }
 
-  // time_attribute - computed: true, optional: true, required: false
+  // time_attribute - computed: false, optional: true, required: false
   private _timeAttribute = new AntiSpywareSignatureSignatureCombinationTimeAttributeOutputReference(this, "time_attribute");
   public get timeAttribute() {
     return this._timeAttribute;
@@ -1545,13 +1535,13 @@ export interface AntiSpywareSignatureSignatureStandardAndConditionOrConditionOpe
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
   */
   readonly name?: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#value AntiSpywareSignature#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#value AntiSpywareSignature#value}
   */
   readonly value?: string;
 }
@@ -1642,7 +1632,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     }
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -1658,7 +1648,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._name;
   }
 
-  // value - computed: true, optional: true, required: false
+  // value - computed: false, optional: true, required: false
   private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
@@ -1698,25 +1688,25 @@ export interface AntiSpywareSignatureSignatureStandardAndConditionOrConditionOpe
   /**
   * Context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#context AntiSpywareSignature#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#context AntiSpywareSignature#context}
   */
   readonly context?: string;
   /**
   * Negate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#negate AntiSpywareSignature#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#negate AntiSpywareSignature#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Qualifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#qualifier AntiSpywareSignature#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#qualifier AntiSpywareSignature#qualifier}
   */
   readonly qualifier?: AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorEqualToQualifier[] | cdktf.IResolvable;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#value AntiSpywareSignature#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#value AntiSpywareSignature#value}
   */
   readonly value?: number;
 }
@@ -1831,7 +1821,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     }
   }
 
-  // context - computed: true, optional: true, required: false
+  // context - computed: false, optional: true, required: false
   private _context?: string; 
   public get context() {
     return this.getStringAttribute('context');
@@ -1863,7 +1853,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._negate;
   }
 
-  // qualifier - computed: true, optional: true, required: false
+  // qualifier - computed: false, optional: true, required: false
   private _qualifier = new AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorEqualToQualifierList(this, "qualifier", false);
   public get qualifier() {
     return this._qualifier;
@@ -1879,7 +1869,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._qualifier.internalValue;
   }
 
-  // value - computed: true, optional: true, required: false
+  // value - computed: false, optional: true, required: false
   private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
@@ -1899,13 +1889,13 @@ export interface AntiSpywareSignatureSignatureStandardAndConditionOrConditionOpe
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
   */
   readonly name?: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#value AntiSpywareSignature#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#value AntiSpywareSignature#value}
   */
   readonly value?: string;
 }
@@ -1996,7 +1986,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     }
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -2012,7 +2002,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._name;
   }
 
-  // value - computed: true, optional: true, required: false
+  // value - computed: false, optional: true, required: false
   private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
@@ -2052,19 +2042,19 @@ export interface AntiSpywareSignatureSignatureStandardAndConditionOrConditionOpe
   /**
   * Context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#context AntiSpywareSignature#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#context AntiSpywareSignature#context}
   */
   readonly context?: string;
   /**
   * Qualifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#qualifier AntiSpywareSignature#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#qualifier AntiSpywareSignature#qualifier}
   */
   readonly qualifier?: AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorGreaterThanQualifier[] | cdktf.IResolvable;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#value AntiSpywareSignature#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#value AntiSpywareSignature#value}
   */
   readonly value?: number;
 }
@@ -2166,7 +2156,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     }
   }
 
-  // context - computed: true, optional: true, required: false
+  // context - computed: false, optional: true, required: false
   private _context?: string; 
   public get context() {
     return this.getStringAttribute('context');
@@ -2182,7 +2172,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._context;
   }
 
-  // qualifier - computed: true, optional: true, required: false
+  // qualifier - computed: false, optional: true, required: false
   private _qualifier = new AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorGreaterThanQualifierList(this, "qualifier", false);
   public get qualifier() {
     return this._qualifier;
@@ -2198,7 +2188,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._qualifier.internalValue;
   }
 
-  // value - computed: true, optional: true, required: false
+  // value - computed: false, optional: true, required: false
   private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
@@ -2218,13 +2208,13 @@ export interface AntiSpywareSignatureSignatureStandardAndConditionOrConditionOpe
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
   */
   readonly name?: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#value AntiSpywareSignature#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#value AntiSpywareSignature#value}
   */
   readonly value?: string;
 }
@@ -2315,7 +2305,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     }
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -2331,7 +2321,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._name;
   }
 
-  // value - computed: true, optional: true, required: false
+  // value - computed: false, optional: true, required: false
   private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
@@ -2371,19 +2361,19 @@ export interface AntiSpywareSignatureSignatureStandardAndConditionOrConditionOpe
   /**
   * Context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#context AntiSpywareSignature#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#context AntiSpywareSignature#context}
   */
   readonly context?: string;
   /**
   * Qualifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#qualifier AntiSpywareSignature#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#qualifier AntiSpywareSignature#qualifier}
   */
   readonly qualifier?: AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorLessThanQualifier[] | cdktf.IResolvable;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#value AntiSpywareSignature#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#value AntiSpywareSignature#value}
   */
   readonly value?: number;
 }
@@ -2485,7 +2475,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     }
   }
 
-  // context - computed: true, optional: true, required: false
+  // context - computed: false, optional: true, required: false
   private _context?: string; 
   public get context() {
     return this.getStringAttribute('context');
@@ -2501,7 +2491,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._context;
   }
 
-  // qualifier - computed: true, optional: true, required: false
+  // qualifier - computed: false, optional: true, required: false
   private _qualifier = new AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorLessThanQualifierList(this, "qualifier", false);
   public get qualifier() {
     return this._qualifier;
@@ -2517,7 +2507,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._qualifier.internalValue;
   }
 
-  // value - computed: true, optional: true, required: false
+  // value - computed: false, optional: true, required: false
   private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
@@ -2537,13 +2527,13 @@ export interface AntiSpywareSignatureSignatureStandardAndConditionOrConditionOpe
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
   */
   readonly name?: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#value AntiSpywareSignature#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#value AntiSpywareSignature#value}
   */
   readonly value?: string;
 }
@@ -2634,7 +2624,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     }
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -2650,7 +2640,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._name;
   }
 
-  // value - computed: true, optional: true, required: false
+  // value - computed: false, optional: true, required: false
   private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
@@ -2690,25 +2680,25 @@ export interface AntiSpywareSignatureSignatureStandardAndConditionOrConditionOpe
   /**
   * Context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#context AntiSpywareSignature#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#context AntiSpywareSignature#context}
   */
   readonly context?: string;
   /**
   * Negate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#negate AntiSpywareSignature#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#negate AntiSpywareSignature#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#pattern AntiSpywareSignature#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#pattern AntiSpywareSignature#pattern}
   */
   readonly pattern?: string;
   /**
   * Qualifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#qualifier AntiSpywareSignature#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#qualifier AntiSpywareSignature#qualifier}
   */
   readonly qualifier?: AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorPatternMatchQualifier[] | cdktf.IResolvable;
 }
@@ -2823,7 +2813,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     }
   }
 
-  // context - computed: true, optional: true, required: false
+  // context - computed: false, optional: true, required: false
   private _context?: string; 
   public get context() {
     return this.getStringAttribute('context');
@@ -2855,7 +2845,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._negate;
   }
 
-  // pattern - computed: true, optional: true, required: false
+  // pattern - computed: false, optional: true, required: false
   private _pattern?: string; 
   public get pattern() {
     return this.getStringAttribute('pattern');
@@ -2871,7 +2861,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._pattern;
   }
 
-  // qualifier - computed: true, optional: true, required: false
+  // qualifier - computed: false, optional: true, required: false
   private _qualifier = new AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorPatternMatchQualifierList(this, "qualifier", false);
   public get qualifier() {
     return this._qualifier;
@@ -2891,25 +2881,25 @@ export interface AntiSpywareSignatureSignatureStandardAndConditionOrConditionOpe
   /**
   * Equal to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#equal_to AntiSpywareSignature#equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#equal_to AntiSpywareSignature#equal_to}
   */
   readonly equalTo?: AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorEqualTo;
   /**
   * Greater than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#greater_than AntiSpywareSignature#greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#greater_than AntiSpywareSignature#greater_than}
   */
   readonly greaterThan?: AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorGreaterThan;
   /**
   * Less than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#less_than AntiSpywareSignature#less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#less_than AntiSpywareSignature#less_than}
   */
   readonly lessThan?: AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorLessThan;
   /**
   * Pattern match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#pattern_match AntiSpywareSignature#pattern_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#pattern_match AntiSpywareSignature#pattern_match}
   */
   readonly patternMatch?: AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorPatternMatch;
 }
@@ -3024,7 +3014,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     }
   }
 
-  // equal_to - computed: true, optional: true, required: false
+  // equal_to - computed: false, optional: true, required: false
   private _equalTo = new AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorEqualToOutputReference(this, "equal_to");
   public get equalTo() {
     return this._equalTo;
@@ -3040,7 +3030,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._equalTo.internalValue;
   }
 
-  // greater_than - computed: true, optional: true, required: false
+  // greater_than - computed: false, optional: true, required: false
   private _greaterThan = new AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorGreaterThanOutputReference(this, "greater_than");
   public get greaterThan() {
     return this._greaterThan;
@@ -3056,7 +3046,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._greaterThan.internalValue;
   }
 
-  // less_than - computed: true, optional: true, required: false
+  // less_than - computed: false, optional: true, required: false
   private _lessThan = new AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorLessThanOutputReference(this, "less_than");
   public get lessThan() {
     return this._lessThan;
@@ -3072,7 +3062,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperato
     return this._lessThan.internalValue;
   }
 
-  // pattern_match - computed: true, optional: true, required: false
+  // pattern_match - computed: false, optional: true, required: false
   private _patternMatch = new AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorPatternMatchOutputReference(this, "pattern_match");
   public get patternMatch() {
     return this._patternMatch;
@@ -3092,13 +3082,13 @@ export interface AntiSpywareSignatureSignatureStandardAndConditionOrCondition {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
   */
   readonly name?: string;
   /**
   * Operator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#operator AntiSpywareSignature#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#operator AntiSpywareSignature#operator}
   */
   readonly operator?: AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperator;
 }
@@ -3189,7 +3179,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOutputR
     }
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -3205,7 +3195,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOrConditionOutputR
     return this._name;
   }
 
-  // operator - computed: true, optional: true, required: false
+  // operator - computed: false, optional: true, required: false
   private _operator = new AntiSpywareSignatureSignatureStandardAndConditionOrConditionOperatorOutputReference(this, "operator");
   public get operator() {
     return this._operator;
@@ -3245,13 +3235,13 @@ export interface AntiSpywareSignatureSignatureStandardAndCondition {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
   */
   readonly name?: string;
   /**
   * Or condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#or_condition AntiSpywareSignature#or_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#or_condition AntiSpywareSignature#or_condition}
   */
   readonly orCondition?: AntiSpywareSignatureSignatureStandardAndConditionOrCondition[] | cdktf.IResolvable;
 }
@@ -3342,7 +3332,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOutputReference ex
     }
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -3358,7 +3348,7 @@ export class AntiSpywareSignatureSignatureStandardAndConditionOutputReference ex
     return this._name;
   }
 
-  // or_condition - computed: true, optional: true, required: false
+  // or_condition - computed: false, optional: true, required: false
   private _orCondition = new AntiSpywareSignatureSignatureStandardAndConditionOrConditionList(this, "or_condition", false);
   public get orCondition() {
     return this._orCondition;
@@ -3398,31 +3388,31 @@ export interface AntiSpywareSignatureSignatureStandard {
   /**
   * And condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#and_condition AntiSpywareSignature#and_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#and_condition AntiSpywareSignature#and_condition}
   */
   readonly andCondition?: AntiSpywareSignatureSignatureStandardAndCondition[] | cdktf.IResolvable;
   /**
   * Comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#comment AntiSpywareSignature#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#comment AntiSpywareSignature#comment}
   */
   readonly comment?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#name AntiSpywareSignature#name}
   */
   readonly name: string;
   /**
   * Order free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#order_free AntiSpywareSignature#order_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#order_free AntiSpywareSignature#order_free}
   */
   readonly orderFree?: boolean | cdktf.IResolvable;
   /**
   * Scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#scope AntiSpywareSignature#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#scope AntiSpywareSignature#scope}
   */
   readonly scope?: string;
 }
@@ -3552,7 +3542,7 @@ export class AntiSpywareSignatureSignatureStandardOutputReference extends cdktf.
     }
   }
 
-  // and_condition - computed: true, optional: true, required: false
+  // and_condition - computed: false, optional: true, required: false
   private _andCondition = new AntiSpywareSignatureSignatureStandardAndConditionList(this, "and_condition", false);
   public get andCondition() {
     return this._andCondition;
@@ -3568,7 +3558,7 @@ export class AntiSpywareSignatureSignatureStandardOutputReference extends cdktf.
     return this._andCondition.internalValue;
   }
 
-  // comment - computed: true, optional: true, required: false
+  // comment - computed: false, optional: true, required: false
   private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
@@ -3584,7 +3574,7 @@ export class AntiSpywareSignatureSignatureStandardOutputReference extends cdktf.
     return this._comment;
   }
 
-  // name - computed: true, optional: false, required: true
+  // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -3613,7 +3603,7 @@ export class AntiSpywareSignatureSignatureStandardOutputReference extends cdktf.
     return this._orderFree;
   }
 
-  // scope - computed: true, optional: true, required: false
+  // scope - computed: false, optional: true, required: false
   private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
@@ -3652,18 +3642,16 @@ export class AntiSpywareSignatureSignatureStandardList extends cdktf.ComplexList
 export interface AntiSpywareSignatureSignature {
   /**
   * anti spyware signature combination
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `combination` and `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#combination AntiSpywareSignature#combination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#combination AntiSpywareSignature#combination}
   */
   readonly combination?: AntiSpywareSignatureSignatureCombination;
   /**
   * Standard
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `combination` and `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#standard AntiSpywareSignature#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#standard AntiSpywareSignature#standard}
   */
   readonly standard?: AntiSpywareSignatureSignatureStandard[] | cdktf.IResolvable;
 }
@@ -3752,7 +3740,7 @@ export class AntiSpywareSignatureSignatureOutputReference extends cdktf.ComplexO
     }
   }
 
-  // combination - computed: true, optional: true, required: false
+  // combination - computed: false, optional: true, required: false
   private _combination = new AntiSpywareSignatureSignatureCombinationOutputReference(this, "combination");
   public get combination() {
     return this._combination;
@@ -3768,7 +3756,7 @@ export class AntiSpywareSignatureSignatureOutputReference extends cdktf.ComplexO
     return this._combination.internalValue;
   }
 
-  // standard - computed: true, optional: true, required: false
+  // standard - computed: false, optional: true, required: false
   private _standard = new AntiSpywareSignatureSignatureStandardList(this, "standard", false);
   public get standard() {
     return this._standard;
@@ -3786,7 +3774,7 @@ export class AntiSpywareSignatureSignatureOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature scm_anti_spyware_signature}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature scm_anti_spyware_signature}
 */
 export class AntiSpywareSignature extends cdktf.TerraformResource {
 
@@ -3802,7 +3790,7 @@ export class AntiSpywareSignature extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AntiSpywareSignature resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AntiSpywareSignature to import
-  * @param importFromId The id of the existing AntiSpywareSignature that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AntiSpywareSignature that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AntiSpywareSignature to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3814,7 +3802,7 @@ export class AntiSpywareSignature extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/anti_spyware_signature scm_anti_spyware_signature} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/anti_spyware_signature scm_anti_spyware_signature} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3825,8 +3813,8 @@ export class AntiSpywareSignature extends cdktf.TerraformResource {
       terraformResourceType: 'scm_anti_spyware_signature',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4005,7 +3993,7 @@ export class AntiSpywareSignature extends cdktf.TerraformResource {
     return this._severity;
   }
 
-  // signature - computed: true, optional: true, required: false
+  // signature - computed: false, optional: true, required: false
   private _signature = new AntiSpywareSignatureSignatureOutputReference(this, "signature");
   public get signature() {
     return this._signature;

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/consumer_image_share_group
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/consumer_image_share_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataLinodeConsumerImageShareGroupConfig extends cdktf.Terraform
   /**
   * The UUID of the token that has been accepted into this Image Share Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/consumer_image_share_group#token_uuid DataLinodeConsumerImageShareGroup#token_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/consumer_image_share_group#token_uuid DataLinodeConsumerImageShareGroup#token_uuid}
   */
   readonly tokenUuid: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/consumer_image_share_group linode_consumer_image_share_group}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/consumer_image_share_group linode_consumer_image_share_group}
 */
 export class DataLinodeConsumerImageShareGroup extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataLinodeConsumerImageShareGroup extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataLinodeConsumerImageShareGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeConsumerImageShareGroup to import
-  * @param importFromId The id of the existing DataLinodeConsumerImageShareGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/consumer_image_share_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeConsumerImageShareGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/consumer_image_share_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeConsumerImageShareGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataLinodeConsumerImageShareGroup extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/consumer_image_share_group linode_consumer_image_share_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/consumer_image_share_group linode_consumer_image_share_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataLinodeConsumerImageShareGroup extends cdktf.TerraformDataSource
       terraformResourceType: 'linode_consumer_image_share_group',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

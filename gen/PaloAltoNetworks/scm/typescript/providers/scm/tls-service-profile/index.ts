@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,40 @@ export interface TlsServiceProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Certificate name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#certificate TlsServiceProfile#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#certificate TlsServiceProfile#certificate}
   */
   readonly certificate: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#device TlsServiceProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#device TlsServiceProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#folder TlsServiceProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#folder TlsServiceProfile#folder}
   */
   readonly folder?: string;
   /**
   * TLS service profile name. The value is `muCustomDomainSSLProfile` when it is used on mobile-agent infra settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#name TlsServiceProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#name TlsServiceProfile#name}
   */
   readonly name: string;
   /**
   * Protocol settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#protocol_settings TlsServiceProfile#protocol_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#protocol_settings TlsServiceProfile#protocol_settings}
   */
   readonly protocolSettings: TlsServiceProfileProtocolSettings;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#snippet TlsServiceProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#snippet TlsServiceProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -54,85 +51,73 @@ export interface TlsServiceProfileProtocolSettings {
   /**
   * Allow SHA1 authentication?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#auth_algo_sha1 TlsServiceProfile#auth_algo_sha1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#auth_algo_sha1 TlsServiceProfile#auth_algo_sha1}
   */
   readonly authAlgoSha1?: boolean | cdktf.IResolvable;
   /**
   * Allow SHA256 authentication?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#auth_algo_sha256 TlsServiceProfile#auth_algo_sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#auth_algo_sha256 TlsServiceProfile#auth_algo_sha256}
   */
   readonly authAlgoSha256?: boolean | cdktf.IResolvable;
   /**
   * Allow SHA384 authentication?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#auth_algo_sha384 TlsServiceProfile#auth_algo_sha384}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#auth_algo_sha384 TlsServiceProfile#auth_algo_sha384}
   */
   readonly authAlgoSha384?: boolean | cdktf.IResolvable;
   /**
-  * Allow 3DES algorithm?
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#enc_algo_3des TlsServiceProfile#enc_algo_3des}
-  */
-  readonly encAlgo3Des?: boolean | cdktf.IResolvable;
-  /**
   * Allow AES-128-CBC algorithm?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#enc_algo_aes_128_cbc TlsServiceProfile#enc_algo_aes_128_cbc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#enc_algo_aes_128_cbc TlsServiceProfile#enc_algo_aes_128_cbc}
   */
   readonly encAlgoAes128Cbc?: boolean | cdktf.IResolvable;
   /**
   * Allow AES-128-GCM algorithm?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#enc_algo_aes_128_gcm TlsServiceProfile#enc_algo_aes_128_gcm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#enc_algo_aes_128_gcm TlsServiceProfile#enc_algo_aes_128_gcm}
   */
   readonly encAlgoAes128Gcm?: boolean | cdktf.IResolvable;
   /**
   * Allow AES-256-CBC algorithm?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#enc_algo_aes_256_cbc TlsServiceProfile#enc_algo_aes_256_cbc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#enc_algo_aes_256_cbc TlsServiceProfile#enc_algo_aes_256_cbc}
   */
   readonly encAlgoAes256Cbc?: boolean | cdktf.IResolvable;
   /**
   * Allow algorithm AES-256-GCM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#enc_algo_aes_256_gcm TlsServiceProfile#enc_algo_aes_256_gcm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#enc_algo_aes_256_gcm TlsServiceProfile#enc_algo_aes_256_gcm}
   */
   readonly encAlgoAes256Gcm?: boolean | cdktf.IResolvable;
   /**
-  * Allow RC4 algorithm?
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#enc_algo_rc4 TlsServiceProfile#enc_algo_rc4}
-  */
-  readonly encAlgoRc4?: boolean | cdktf.IResolvable;
-  /**
   * Allow DHE algorithm?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#keyxchg_algo_dhe TlsServiceProfile#keyxchg_algo_dhe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#keyxchg_algo_dhe TlsServiceProfile#keyxchg_algo_dhe}
   */
   readonly keyxchgAlgoDhe?: boolean | cdktf.IResolvable;
   /**
   * Allow ECDHE algorithm?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#keyxchg_algo_ecdhe TlsServiceProfile#keyxchg_algo_ecdhe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#keyxchg_algo_ecdhe TlsServiceProfile#keyxchg_algo_ecdhe}
   */
   readonly keyxchgAlgoEcdhe?: boolean | cdktf.IResolvable;
   /**
   * Allow RSA algorithm?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#keyxchg_algo_rsa TlsServiceProfile#keyxchg_algo_rsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#keyxchg_algo_rsa TlsServiceProfile#keyxchg_algo_rsa}
   */
   readonly keyxchgAlgoRsa?: boolean | cdktf.IResolvable;
   /**
   * Maximum TLS version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#max_version TlsServiceProfile#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#max_version TlsServiceProfile#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum TLS version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#min_version TlsServiceProfile#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#min_version TlsServiceProfile#min_version}
   */
   readonly minVersion?: string;
 }
@@ -146,12 +131,10 @@ export function tlsServiceProfileProtocolSettingsToTerraform(struct?: TlsService
     auth_algo_sha1: cdktf.booleanToTerraform(struct!.authAlgoSha1),
     auth_algo_sha256: cdktf.booleanToTerraform(struct!.authAlgoSha256),
     auth_algo_sha384: cdktf.booleanToTerraform(struct!.authAlgoSha384),
-    enc_algo_3des: cdktf.booleanToTerraform(struct!.encAlgo3Des),
     enc_algo_aes_128_cbc: cdktf.booleanToTerraform(struct!.encAlgoAes128Cbc),
     enc_algo_aes_128_gcm: cdktf.booleanToTerraform(struct!.encAlgoAes128Gcm),
     enc_algo_aes_256_cbc: cdktf.booleanToTerraform(struct!.encAlgoAes256Cbc),
     enc_algo_aes_256_gcm: cdktf.booleanToTerraform(struct!.encAlgoAes256Gcm),
-    enc_algo_rc4: cdktf.booleanToTerraform(struct!.encAlgoRc4),
     keyxchg_algo_dhe: cdktf.booleanToTerraform(struct!.keyxchgAlgoDhe),
     keyxchg_algo_ecdhe: cdktf.booleanToTerraform(struct!.keyxchgAlgoEcdhe),
     keyxchg_algo_rsa: cdktf.booleanToTerraform(struct!.keyxchgAlgoRsa),
@@ -185,12 +168,6 @@ export function tlsServiceProfileProtocolSettingsToHclTerraform(struct?: TlsServ
       type: "simple",
       storageClassType: "boolean",
     },
-    enc_algo_3des: {
-      value: cdktf.booleanToHclTerraform(struct!.encAlgo3Des),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
     enc_algo_aes_128_cbc: {
       value: cdktf.booleanToHclTerraform(struct!.encAlgoAes128Cbc),
       isBlock: false,
@@ -211,12 +188,6 @@ export function tlsServiceProfileProtocolSettingsToHclTerraform(struct?: TlsServ
     },
     enc_algo_aes_256_gcm: {
       value: cdktf.booleanToHclTerraform(struct!.encAlgoAes256Gcm),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    enc_algo_rc4: {
-      value: cdktf.booleanToHclTerraform(struct!.encAlgoRc4),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -287,10 +258,6 @@ export class TlsServiceProfileProtocolSettingsOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.authAlgoSha384 = this._authAlgoSha384;
     }
-    if (this._encAlgo3Des !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.encAlgo3Des = this._encAlgo3Des;
-    }
     if (this._encAlgoAes128Cbc !== undefined) {
       hasAnyValues = true;
       internalValueResult.encAlgoAes128Cbc = this._encAlgoAes128Cbc;
@@ -306,10 +273,6 @@ export class TlsServiceProfileProtocolSettingsOutputReference extends cdktf.Comp
     if (this._encAlgoAes256Gcm !== undefined) {
       hasAnyValues = true;
       internalValueResult.encAlgoAes256Gcm = this._encAlgoAes256Gcm;
-    }
-    if (this._encAlgoRc4 !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.encAlgoRc4 = this._encAlgoRc4;
     }
     if (this._keyxchgAlgoDhe !== undefined) {
       hasAnyValues = true;
@@ -341,12 +304,10 @@ export class TlsServiceProfileProtocolSettingsOutputReference extends cdktf.Comp
       this._authAlgoSha1 = undefined;
       this._authAlgoSha256 = undefined;
       this._authAlgoSha384 = undefined;
-      this._encAlgo3Des = undefined;
       this._encAlgoAes128Cbc = undefined;
       this._encAlgoAes128Gcm = undefined;
       this._encAlgoAes256Cbc = undefined;
       this._encAlgoAes256Gcm = undefined;
-      this._encAlgoRc4 = undefined;
       this._keyxchgAlgoDhe = undefined;
       this._keyxchgAlgoEcdhe = undefined;
       this._keyxchgAlgoRsa = undefined;
@@ -363,12 +324,10 @@ export class TlsServiceProfileProtocolSettingsOutputReference extends cdktf.Comp
       this._authAlgoSha1 = value.authAlgoSha1;
       this._authAlgoSha256 = value.authAlgoSha256;
       this._authAlgoSha384 = value.authAlgoSha384;
-      this._encAlgo3Des = value.encAlgo3Des;
       this._encAlgoAes128Cbc = value.encAlgoAes128Cbc;
       this._encAlgoAes128Gcm = value.encAlgoAes128Gcm;
       this._encAlgoAes256Cbc = value.encAlgoAes256Cbc;
       this._encAlgoAes256Gcm = value.encAlgoAes256Gcm;
-      this._encAlgoRc4 = value.encAlgoRc4;
       this._keyxchgAlgoDhe = value.keyxchgAlgoDhe;
       this._keyxchgAlgoEcdhe = value.keyxchgAlgoEcdhe;
       this._keyxchgAlgoRsa = value.keyxchgAlgoRsa;
@@ -423,22 +382,6 @@ export class TlsServiceProfileProtocolSettingsOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get authAlgoSha384Input() {
     return this._authAlgoSha384;
-  }
-
-  // enc_algo_3des - computed: false, optional: true, required: false
-  private _encAlgo3Des?: boolean | cdktf.IResolvable; 
-  public get encAlgo3Des() {
-    return this.getBooleanAttribute('enc_algo_3des');
-  }
-  public set encAlgo3Des(value: boolean | cdktf.IResolvable) {
-    this._encAlgo3Des = value;
-  }
-  public resetEncAlgo3Des() {
-    this._encAlgo3Des = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get encAlgo3DesInput() {
-    return this._encAlgo3Des;
   }
 
   // enc_algo_aes_128_cbc - computed: false, optional: true, required: false
@@ -503,22 +446,6 @@ export class TlsServiceProfileProtocolSettingsOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get encAlgoAes256GcmInput() {
     return this._encAlgoAes256Gcm;
-  }
-
-  // enc_algo_rc4 - computed: false, optional: true, required: false
-  private _encAlgoRc4?: boolean | cdktf.IResolvable; 
-  public get encAlgoRc4() {
-    return this.getBooleanAttribute('enc_algo_rc4');
-  }
-  public set encAlgoRc4(value: boolean | cdktf.IResolvable) {
-    this._encAlgoRc4 = value;
-  }
-  public resetEncAlgoRc4() {
-    this._encAlgoRc4 = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get encAlgoRc4Input() {
-    return this._encAlgoRc4;
   }
 
   // keyxchg_algo_dhe - computed: false, optional: true, required: false
@@ -603,7 +530,7 @@ export class TlsServiceProfileProtocolSettingsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile scm_tls_service_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile scm_tls_service_profile}
 */
 export class TlsServiceProfile extends cdktf.TerraformResource {
 
@@ -619,7 +546,7 @@ export class TlsServiceProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TlsServiceProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TlsServiceProfile to import
-  * @param importFromId The id of the existing TlsServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TlsServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TlsServiceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -631,7 +558,7 @@ export class TlsServiceProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/tls_service_profile scm_tls_service_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/tls_service_profile scm_tls_service_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -642,8 +569,8 @@ export class TlsServiceProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_tls_service_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_catalog_mapping
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_catalog_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface DataOpalGroupCatalogMappingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The ID of the Okta app.
+  * The ID of the app resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_catalog_mapping#app_resource_id DataOpalGroupCatalogMapping#app_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_catalog_mapping#app_resource_id DataOpalGroupCatalogMapping#app_resource_id}
   */
   readonly appResourceId: string;
   /**
   * The ID of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_catalog_mapping#group_id DataOpalGroupCatalogMapping#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_catalog_mapping#group_id DataOpalGroupCatalogMapping#group_id}
   */
   readonly groupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_catalog_mapping opal_group_catalog_mapping}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_catalog_mapping opal_group_catalog_mapping}
 */
 export class DataOpalGroupCatalogMapping extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataOpalGroupCatalogMapping extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpalGroupCatalogMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalGroupCatalogMapping to import
-  * @param importFromId The id of the existing DataOpalGroupCatalogMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_catalog_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalGroupCatalogMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_catalog_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalGroupCatalogMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataOpalGroupCatalogMapping extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_catalog_mapping opal_group_catalog_mapping} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_catalog_mapping opal_group_catalog_mapping} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataOpalGroupCatalogMapping extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_group_catalog_mapping',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

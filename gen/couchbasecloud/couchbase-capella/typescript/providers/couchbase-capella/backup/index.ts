@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface BackupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The ID of the bucket. It is the URL-compatible base64 encoding of the bucket name.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#bucket_id Backup#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#bucket_id Backup#bucket_id}
   */
   readonly bucketId: string;
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#cluster_id Backup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#cluster_id Backup#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#organization_id Backup#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#organization_id Backup#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#project_id Backup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#project_id Backup#project_id}
   */
   readonly projectId: string;
   /**
-  * Represents restore configuration for the backup.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#restore Backup#restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#restore Backup#restore}
   */
   readonly restore?: BackupRestore;
   /**
-  * The RFC3339 timestamp representing the time at which backup will expire.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#restore_before Backup#restore_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#restore_before Backup#restore_before}
   */
   readonly restoreBefore?: string;
   /**
-  * Number of times the backup to be restored.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#restore_times Backup#restore_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#restore_times Backup#restore_times}
   */
   readonly restoreTimes?: number;
 }
@@ -141,75 +127,51 @@ export class BackupBackupStatsOutputReference extends cdktf.ComplexObject {
 }
 export interface BackupRestore {
   /**
-  * Automatically remove collections that are not present in the backup.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#auto_remove_collections Backup#auto_remove_collections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#auto_remove_collections Backup#auto_remove_collections}
   */
   readonly autoRemoveCollections?: boolean | cdktf.IResolvable;
   /**
-  * Skips restoring the data specified here.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#exclude_data Backup#exclude_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#exclude_data Backup#exclude_data}
   */
   readonly excludeData?: string;
   /**
-  * Only restore data where the key matches a particular regular expression.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#filter_keys Backup#filter_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#filter_keys Backup#filter_keys}
   */
   readonly filterKeys?: string;
   /**
-  * Only restore data where the value matches a particular regular expression.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#filter_values Backup#filter_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#filter_values Backup#filter_values}
   */
   readonly filterValues?: string;
   /**
-  *  Forces data in the operational cluster to be overwritten even if the data in the cluster is newer.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#force_updates Backup#force_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#force_updates Backup#force_updates}
   */
   readonly forceUpdates?: boolean | cdktf.IResolvable;
   /**
-  * Restores only the data specified here.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#include_data Backup#include_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#include_data Backup#include_data}
   */
   readonly includeData?: string;
   /**
-  * Specified when you want to restore source data into a different location.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#map_data Backup#map_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#map_data Backup#map_data}
   */
   readonly mapData?: string;
   /**
-  * Sets a new expiration (time-to-live) value for the specified keys. These values are 'none', 'all', and 'expired'.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#replace_ttl Backup#replace_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#replace_ttl Backup#replace_ttl}
   */
   readonly replaceTtl?: string;
   /**
-  * Updates the expiration for the keys.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#replace_ttl_with Backup#replace_ttl_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#replace_ttl_with Backup#replace_ttl_with}
   */
   readonly replaceTtlWith?: string;
   /**
-  * Services is a list of services to be restored. It is used to specify the services that should be included in the restore operation.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#services Backup#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#services Backup#services}
   */
   readonly services: string[];
   /**
-  * The ID of the source cluster the restore is based on.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#source_cluster_id Backup#source_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#source_cluster_id Backup#source_cluster_id}
   */
   readonly sourceClusterId: string;
   /**
-  * The ID of the target cluster to restore to.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#target_cluster_id Backup#target_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#target_cluster_id Backup#target_cluster_id}
   */
   readonly targetClusterId: string;
 }
@@ -687,7 +649,7 @@ export class BackupScheduleInfoOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup couchbase-capella_backup}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup couchbase-capella_backup}
 */
 export class Backup extends cdktf.TerraformResource {
 
@@ -703,7 +665,7 @@ export class Backup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Backup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Backup to import
-  * @param importFromId The id of the existing Backup that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Backup that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Backup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -715,7 +677,7 @@ export class Backup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup couchbase-capella_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup couchbase-capella_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -726,8 +688,8 @@ export class Backup extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_backup',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface CloudCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#annotations CloudCredential#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#annotations CloudCredential#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#description CloudCredential#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#description CloudCredential#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#id CloudCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#id CloudCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,71 +27,71 @@ export interface CloudCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#labels CloudCredential#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#labels CloudCredential#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#name CloudCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#name CloudCredential#name}
   */
   readonly name: string;
   /**
   * amazonec2_credential_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#amazonec2_credential_config CloudCredential#amazonec2_credential_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#amazonec2_credential_config CloudCredential#amazonec2_credential_config}
   */
   readonly amazonec2CredentialConfig?: CloudCredentialAmazonec2CredentialConfig;
   /**
   * azure_credential_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#azure_credential_config CloudCredential#azure_credential_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#azure_credential_config CloudCredential#azure_credential_config}
   */
   readonly azureCredentialConfig?: CloudCredentialAzureCredentialConfig;
   /**
   * digitalocean_credential_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#digitalocean_credential_config CloudCredential#digitalocean_credential_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#digitalocean_credential_config CloudCredential#digitalocean_credential_config}
   */
   readonly digitaloceanCredentialConfig?: CloudCredentialDigitaloceanCredentialConfig;
   /**
   * google_credential_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#google_credential_config CloudCredential#google_credential_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#google_credential_config CloudCredential#google_credential_config}
   */
   readonly googleCredentialConfig?: CloudCredentialGoogleCredentialConfig;
   /**
   * harvester_credential_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#harvester_credential_config CloudCredential#harvester_credential_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#harvester_credential_config CloudCredential#harvester_credential_config}
   */
   readonly harvesterCredentialConfig?: CloudCredentialHarvesterCredentialConfig;
   /**
   * linode_credential_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#linode_credential_config CloudCredential#linode_credential_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#linode_credential_config CloudCredential#linode_credential_config}
   */
   readonly linodeCredentialConfig?: CloudCredentialLinodeCredentialConfig;
   /**
   * openstack_credential_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#openstack_credential_config CloudCredential#openstack_credential_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#openstack_credential_config CloudCredential#openstack_credential_config}
   */
   readonly openstackCredentialConfig?: CloudCredentialOpenstackCredentialConfig;
   /**
   * s3_credential_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#s3_credential_config CloudCredential#s3_credential_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#s3_credential_config CloudCredential#s3_credential_config}
   */
   readonly s3CredentialConfig?: CloudCredentialS3CredentialConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#timeouts CloudCredential#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#timeouts CloudCredential#timeouts}
   */
   readonly timeouts?: CloudCredentialTimeouts;
   /**
   * vsphere_credential_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#vsphere_credential_config CloudCredential#vsphere_credential_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#vsphere_credential_config CloudCredential#vsphere_credential_config}
   */
   readonly vsphereCredentialConfig?: CloudCredentialVsphereCredentialConfig;
 }
@@ -99,19 +99,19 @@ export interface CloudCredentialAmazonec2CredentialConfig {
   /**
   * AWS Access Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#access_key CloudCredential#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#access_key CloudCredential#access_key}
   */
   readonly accessKey: string;
   /**
   * AWS default region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#default_region CloudCredential#default_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#default_region CloudCredential#default_region}
   */
   readonly defaultRegion?: string;
   /**
   * AWS Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#secret_key CloudCredential#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#secret_key CloudCredential#secret_key}
   */
   readonly secretKey: string;
 }
@@ -249,31 +249,31 @@ export interface CloudCredentialAzureCredentialConfig {
   /**
   * Azure Service Principal Account ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#client_id CloudCredential#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#client_id CloudCredential#client_id}
   */
   readonly clientId: string;
   /**
   * Azure Service Principal Account password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#client_secret CloudCredential#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#client_secret CloudCredential#client_secret}
   */
   readonly clientSecret: string;
   /**
   * Azure environment (e.g. AzurePublicCloud, AzureChinaCloud)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#environment CloudCredential#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#environment CloudCredential#environment}
   */
   readonly environment?: string;
   /**
   * Azure Subscription ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#subscription_id CloudCredential#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#subscription_id CloudCredential#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * Azure Tenant ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#tenant_id CloudCredential#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#tenant_id CloudCredential#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -466,7 +466,7 @@ export interface CloudCredentialDigitaloceanCredentialConfig {
   /**
   * Digital Ocean access token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#access_token CloudCredential#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#access_token CloudCredential#access_token}
   */
   readonly accessToken: string;
 }
@@ -549,7 +549,7 @@ export interface CloudCredentialGoogleCredentialConfig {
   /**
   * Google auth encoded json
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#auth_encoded_json CloudCredential#auth_encoded_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#auth_encoded_json CloudCredential#auth_encoded_json}
   */
   readonly authEncodedJson: string;
 }
@@ -632,19 +632,19 @@ export interface CloudCredentialHarvesterCredentialConfig {
   /**
   * The cluster id of imported Harvester cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#cluster_id CloudCredential#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#cluster_id CloudCredential#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Harvester cluster type. must be imported or external
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#cluster_type CloudCredential#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#cluster_type CloudCredential#cluster_type}
   */
   readonly clusterType: string;
   /**
   * Harvester cluster kubeconfig content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#kubeconfig_content CloudCredential#kubeconfig_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#kubeconfig_content CloudCredential#kubeconfig_content}
   */
   readonly kubeconfigContent: string;
 }
@@ -782,7 +782,7 @@ export interface CloudCredentialLinodeCredentialConfig {
   /**
   * Linode API token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#token CloudCredential#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#token CloudCredential#token}
   */
   readonly token: string;
 }
@@ -865,7 +865,7 @@ export interface CloudCredentialOpenstackCredentialConfig {
   /**
   * OpenStack password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#password CloudCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#password CloudCredential#password}
   */
   readonly password: string;
 }
@@ -948,49 +948,49 @@ export interface CloudCredentialS3CredentialConfig {
   /**
   * AWS Access Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#access_key CloudCredential#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#access_key CloudCredential#access_key}
   */
   readonly accessKey: string;
   /**
   * AWS default bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#default_bucket CloudCredential#default_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#default_bucket CloudCredential#default_bucket}
   */
   readonly defaultBucket?: string;
   /**
   * AWS default endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#default_endpoint CloudCredential#default_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#default_endpoint CloudCredential#default_endpoint}
   */
   readonly defaultEndpoint?: string;
   /**
   * AWS default endpoint CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#default_endpoint_ca CloudCredential#default_endpoint_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#default_endpoint_ca CloudCredential#default_endpoint_ca}
   */
   readonly defaultEndpointCa?: string;
   /**
   * AWS default folder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#default_folder CloudCredential#default_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#default_folder CloudCredential#default_folder}
   */
   readonly defaultFolder?: string;
   /**
   * AWS default region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#default_region CloudCredential#default_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#default_region CloudCredential#default_region}
   */
   readonly defaultRegion?: string;
   /**
   * AWS default skip ssl verify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#default_skip_ssl_verify CloudCredential#default_skip_ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#default_skip_ssl_verify CloudCredential#default_skip_ssl_verify}
   */
   readonly defaultSkipSslVerify?: boolean | cdktf.IResolvable;
   /**
   * AWS Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#secret_key CloudCredential#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#secret_key CloudCredential#secret_key}
   */
   readonly secretKey: string;
 }
@@ -1271,15 +1271,15 @@ export class CloudCredentialS3CredentialConfigOutputReference extends cdktf.Comp
 }
 export interface CloudCredentialTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#create CloudCredential#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#create CloudCredential#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#delete CloudCredential#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#delete CloudCredential#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#update CloudCredential#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#update CloudCredential#update}
   */
   readonly update?: string;
 }
@@ -1433,25 +1433,25 @@ export interface CloudCredentialVsphereCredentialConfig {
   /**
   * vSphere password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#password CloudCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#password CloudCredential#password}
   */
   readonly password: string;
   /**
   * vSphere username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#username CloudCredential#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#username CloudCredential#username}
   */
   readonly username: string;
   /**
   * vSphere IP/hostname for vCenter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#vcenter CloudCredential#vcenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#vcenter CloudCredential#vcenter}
   */
   readonly vcenter: string;
   /**
   * vSphere Port for vCenter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#vcenter_port CloudCredential#vcenter_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#vcenter_port CloudCredential#vcenter_port}
   */
   readonly vcenterPort?: string;
 }
@@ -1613,7 +1613,7 @@ export class CloudCredentialVsphereCredentialConfigOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential rancher2_cloud_credential}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential rancher2_cloud_credential}
 */
 export class CloudCredential extends cdktf.TerraformResource {
 
@@ -1629,7 +1629,7 @@ export class CloudCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudCredential to import
-  * @param importFromId The id of the existing CloudCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1641,7 +1641,7 @@ export class CloudCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cloud_credential rancher2_cloud_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cloud_credential rancher2_cloud_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1652,8 +1652,8 @@ export class CloudCredential extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_cloud_credential',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

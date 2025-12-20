@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/sshkeys
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/sshkeys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataLinodeSshkeysConfig extends cdktf.TerraformMetaArguments {
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/sshkeys#order DataLinodeSshkeys#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/sshkeys#order DataLinodeSshkeys#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/sshkeys#order_by DataLinodeSshkeys#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/sshkeys#order_by DataLinodeSshkeys#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/sshkeys#filter DataLinodeSshkeys#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/sshkeys#filter DataLinodeSshkeys#filter}
   */
   readonly filter?: DataLinodeSshkeysFilter[] | cdktf.IResolvable;
 }
@@ -30,7 +30,7 @@ export interface DataLinodeSshkeysSshkeys {
   /**
   * A unique identifier for this datasource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/sshkeys#id DataLinodeSshkeys#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/sshkeys#id DataLinodeSshkeys#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ export interface DataLinodeSshkeysSshkeys {
   /**
   * The label of the Linode SSH Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/sshkeys#label DataLinodeSshkeys#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/sshkeys#label DataLinodeSshkeys#label}
   */
   readonly label: string;
 }
@@ -183,19 +183,19 @@ export interface DataLinodeSshkeysFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/sshkeys#match_by DataLinodeSshkeys#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/sshkeys#match_by DataLinodeSshkeys#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/sshkeys#name DataLinodeSshkeys#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/sshkeys#name DataLinodeSshkeys#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/sshkeys#values DataLinodeSshkeys#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/sshkeys#values DataLinodeSshkeys#values}
   */
   readonly values: string[];
 }
@@ -363,7 +363,7 @@ export class DataLinodeSshkeysFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/sshkeys linode_sshkeys}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/sshkeys linode_sshkeys}
 */
 export class DataLinodeSshkeys extends cdktf.TerraformDataSource {
 
@@ -379,7 +379,7 @@ export class DataLinodeSshkeys extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeSshkeys resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeSshkeys to import
-  * @param importFromId The id of the existing DataLinodeSshkeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/sshkeys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeSshkeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/sshkeys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeSshkeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -391,7 +391,7 @@ export class DataLinodeSshkeys extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/sshkeys linode_sshkeys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/sshkeys linode_sshkeys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -402,8 +402,8 @@ export class DataLinodeSshkeys extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_sshkeys',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

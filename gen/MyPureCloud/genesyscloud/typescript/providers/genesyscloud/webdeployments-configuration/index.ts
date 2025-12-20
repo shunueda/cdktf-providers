@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface WebdeploymentsConfigurationConfig extends cdktf.TerraformMetaAr
   /**
   * The default language to use for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#default_language WebdeploymentsConfiguration#default_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#default_language WebdeploymentsConfiguration#default_language}
   */
   readonly defaultLanguage: string;
   /**
   * Deployment description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#description WebdeploymentsConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#description WebdeploymentsConfiguration#description}
   */
   readonly description?: string;
   /**
   * Headless Mode Support which Controls UI components. When enabled, native UI components will be disabled and allows for custom-built UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#headless_mode_enabled WebdeploymentsConfiguration#headless_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#headless_mode_enabled WebdeploymentsConfiguration#headless_mode_enabled}
   */
   readonly headlessModeEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#id WebdeploymentsConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#id WebdeploymentsConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface WebdeploymentsConfigurationConfig extends cdktf.TerraformMetaAr
   /**
   * A list of languages supported on the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#languages WebdeploymentsConfiguration#languages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#languages WebdeploymentsConfiguration#languages}
   */
   readonly languages: string[];
   /**
   * Deployment name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#name WebdeploymentsConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#name WebdeploymentsConfiguration#name}
   */
   readonly name: string;
   /**
   * The current status of the deployment. Valid values: Pending, Active, Inactive, Error, Deleting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#status WebdeploymentsConfiguration#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#status WebdeploymentsConfiguration#status}
   */
   readonly status?: string;
   /**
   * authentication_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#authentication_settings WebdeploymentsConfiguration#authentication_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#authentication_settings WebdeploymentsConfiguration#authentication_settings}
   */
   readonly authenticationSettings?: WebdeploymentsConfigurationAuthenticationSettings;
   /**
   * cobrowse block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#cobrowse WebdeploymentsConfiguration#cobrowse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#cobrowse WebdeploymentsConfiguration#cobrowse}
   */
   readonly cobrowse?: WebdeploymentsConfigurationCobrowse;
   /**
   * custom_i18n_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#custom_i18n_labels WebdeploymentsConfiguration#custom_i18n_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#custom_i18n_labels WebdeploymentsConfiguration#custom_i18n_labels}
   */
   readonly customI18NLabels?: WebdeploymentsConfigurationCustomI18NLabels[] | cdktf.IResolvable;
   /**
   * journey_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#journey_events WebdeploymentsConfiguration#journey_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#journey_events WebdeploymentsConfiguration#journey_events}
   */
   readonly journeyEvents?: WebdeploymentsConfigurationJourneyEvents;
   /**
   * messenger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#messenger WebdeploymentsConfiguration#messenger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#messenger WebdeploymentsConfiguration#messenger}
   */
   readonly messenger?: WebdeploymentsConfigurationMessenger;
   /**
   * position block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#position WebdeploymentsConfiguration#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#position WebdeploymentsConfiguration#position}
   */
   readonly position?: WebdeploymentsConfigurationPosition;
   /**
   * support_center block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#support_center WebdeploymentsConfiguration#support_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#support_center WebdeploymentsConfiguration#support_center}
   */
   readonly supportCenter?: WebdeploymentsConfigurationSupportCenter;
   /**
   * video block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#video WebdeploymentsConfiguration#video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#video WebdeploymentsConfiguration#video}
   */
   readonly video?: WebdeploymentsConfigurationVideo;
 }
@@ -103,19 +103,19 @@ export interface WebdeploymentsConfigurationAuthenticationSettings {
   /**
   * Allow end-users to upgrade an anonymous session to authenticated conversation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#allow_session_upgrade WebdeploymentsConfiguration#allow_session_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#allow_session_upgrade WebdeploymentsConfiguration#allow_session_upgrade}
   */
   readonly allowSessionUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Indicate if these auth is required for this deployment. If, for example, this flag is set to true then webmessaging sessions can not send messages unless the end-user is authenticated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The integration identifier which contains the auth settings required on the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#integration_id WebdeploymentsConfiguration#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#integration_id WebdeploymentsConfiguration#integration_id}
   */
   readonly integrationId: string;
 }
@@ -253,13 +253,13 @@ export interface WebdeploymentsConfigurationCobrowsePauseCriteria {
   /**
   * The condition to be applied to the `url_fragment`. Conditions are 'includes', 'does_not_include', 'starts_with', 'ends_with', 'equals'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#condition WebdeploymentsConfiguration#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#condition WebdeploymentsConfiguration#condition}
   */
   readonly condition: string;
   /**
   * A string representing a part of the URL that, when matched according to the specified condition, will trigger a pause in the cobrowse session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#url_fragment WebdeploymentsConfiguration#url_fragment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#url_fragment WebdeploymentsConfiguration#url_fragment}
   */
   readonly urlFragment: string;
 }
@@ -400,49 +400,49 @@ export interface WebdeploymentsConfigurationCobrowse {
   /**
   * Whether agent can take control over customer's screen or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#allow_agent_control WebdeploymentsConfiguration#allow_agent_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#allow_agent_control WebdeploymentsConfiguration#allow_agent_control}
   */
   readonly allowAgentControl?: boolean | cdktf.IResolvable;
   /**
   * Whether agent can use navigation feature over customer's screen or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#allow_agent_navigation WebdeploymentsConfiguration#allow_agent_navigation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#allow_agent_navigation WebdeploymentsConfiguration#allow_agent_navigation}
   */
   readonly allowAgentNavigation?: boolean | cdktf.IResolvable;
   /**
   * Whether drawing is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#allow_draw WebdeploymentsConfiguration#allow_draw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#allow_draw WebdeploymentsConfiguration#allow_draw}
   */
   readonly allowDraw?: boolean | cdktf.IResolvable;
   /**
   * List of channels through which cobrowse is available (for now only Webmessaging and Voice)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#channels WebdeploymentsConfiguration#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#channels WebdeploymentsConfiguration#channels}
   */
   readonly channels?: string[];
   /**
   * Whether or not cobrowse is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of CSS selectors which should be masked when screen sharing is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#mask_selectors WebdeploymentsConfiguration#mask_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#mask_selectors WebdeploymentsConfiguration#mask_selectors}
   */
   readonly maskSelectors?: string[];
   /**
   * List of CSS selectors which should be read-only when screen sharing is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#readonly_selectors WebdeploymentsConfiguration#readonly_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#readonly_selectors WebdeploymentsConfiguration#readonly_selectors}
   */
   readonly readonlySelectors?: string[];
   /**
   * pause_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#pause_criteria WebdeploymentsConfiguration#pause_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#pause_criteria WebdeploymentsConfiguration#pause_criteria}
   */
   readonly pauseCriteria?: WebdeploymentsConfigurationCobrowsePauseCriteria[] | cdktf.IResolvable;
 }
@@ -731,13 +731,13 @@ export interface WebdeploymentsConfigurationCustomI18NLabelsLocalizedLabels {
   /**
   * Contains localized label key used in messenger homescreen
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#key WebdeploymentsConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#key WebdeploymentsConfiguration#key}
   */
   readonly key: string;
   /**
   * Contains localized label value used in messenger homescreen
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#value WebdeploymentsConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#value WebdeploymentsConfiguration#value}
   */
   readonly value: string;
 }
@@ -878,13 +878,13 @@ export interface WebdeploymentsConfigurationCustomI18NLabels {
   /**
   * Language of localized labels in homescreen app (eg. en-us, de-de)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#language WebdeploymentsConfiguration#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#language WebdeploymentsConfiguration#language}
   */
   readonly language?: string;
   /**
   * localized_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#localized_labels WebdeploymentsConfiguration#localized_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#localized_labels WebdeploymentsConfiguration#localized_labels}
   */
   readonly localizedLabels?: WebdeploymentsConfigurationCustomI18NLabelsLocalizedLabels[] | cdktf.IResolvable;
 }
@@ -1031,13 +1031,13 @@ export interface WebdeploymentsConfigurationJourneyEventsClickEvent {
   /**
   * Name of event triggered when element matching selector is interacted with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#event_name WebdeploymentsConfiguration#event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#event_name WebdeploymentsConfiguration#event_name}
   */
   readonly eventName: string;
   /**
   * Element that triggers event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#selector WebdeploymentsConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#selector WebdeploymentsConfiguration#selector}
   */
   readonly selector: string;
 }
@@ -1178,25 +1178,25 @@ export interface WebdeploymentsConfigurationJourneyEventsFormTrackEvent {
   /**
   * Whether to capture the form data in the form abandoned event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#capture_data_on_form_abandon WebdeploymentsConfiguration#capture_data_on_form_abandon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#capture_data_on_form_abandon WebdeploymentsConfiguration#capture_data_on_form_abandon}
   */
   readonly captureDataOnFormAbandon: boolean | cdktf.IResolvable;
   /**
   * Whether to capture the form data in the form submitted event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#capture_data_on_form_submit WebdeploymentsConfiguration#capture_data_on_form_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#capture_data_on_form_submit WebdeploymentsConfiguration#capture_data_on_form_submit}
   */
   readonly captureDataOnFormSubmit: boolean | cdktf.IResolvable;
   /**
   * Prefix for the form submitted or abandoned event name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#form_name WebdeploymentsConfiguration#form_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#form_name WebdeploymentsConfiguration#form_name}
   */
   readonly formName: string;
   /**
   * Form element that triggers the form submitted or abandoned event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#selector WebdeploymentsConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#selector WebdeploymentsConfiguration#selector}
   */
   readonly selector: string;
 }
@@ -1389,13 +1389,13 @@ export interface WebdeploymentsConfigurationJourneyEventsIdleEvent {
   /**
   * Name of event triggered after period of inactivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#event_name WebdeploymentsConfiguration#event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#event_name WebdeploymentsConfiguration#event_name}
   */
   readonly eventName: string;
   /**
   * Number of seconds of inactivity before an event is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#idle_after_seconds WebdeploymentsConfiguration#idle_after_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#idle_after_seconds WebdeploymentsConfiguration#idle_after_seconds}
   */
   readonly idleAfterSeconds?: number;
 }
@@ -1539,13 +1539,13 @@ export interface WebdeploymentsConfigurationJourneyEventsInViewportEvent {
   /**
   * Name of event triggered when element matching selector is interacted with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#event_name WebdeploymentsConfiguration#event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#event_name WebdeploymentsConfiguration#event_name}
   */
   readonly eventName: string;
   /**
   * Element that triggers event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#selector WebdeploymentsConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#selector WebdeploymentsConfiguration#selector}
   */
   readonly selector: string;
 }
@@ -1686,13 +1686,13 @@ export interface WebdeploymentsConfigurationJourneyEventsScrollDepthEvent {
   /**
   * Name of event triggered after scrolling to the specified percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#event_name WebdeploymentsConfiguration#event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#event_name WebdeploymentsConfiguration#event_name}
   */
   readonly eventName: string;
   /**
   * Percentage of a webpage at which an event is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#percentage WebdeploymentsConfiguration#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#percentage WebdeploymentsConfiguration#percentage}
   */
   readonly percentage: number;
 }
@@ -1833,61 +1833,61 @@ export interface WebdeploymentsConfigurationJourneyEvents {
   /**
   * Whether or not journey event collection is enabled Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * *DEPRECATED: This field has no effect and will be removed in a later version.* List of parameters to be excluded from the query string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#excluded_query_parameters WebdeploymentsConfiguration#excluded_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#excluded_query_parameters WebdeploymentsConfiguration#excluded_query_parameters}
   */
   readonly excludedQueryParameters?: string[];
   /**
   * Controls how the pageview events are tracked.Valid values: Auto, Once, Off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#pageview_config WebdeploymentsConfiguration#pageview_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#pageview_config WebdeploymentsConfiguration#pageview_config}
   */
   readonly pageviewConfig?: string;
   /**
   * *DEPRECATED: This field has no effect and will be removed in a later version.* List of query parameters used for search (e.g. 'q')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#search_query_parameters WebdeploymentsConfiguration#search_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#search_query_parameters WebdeploymentsConfiguration#search_query_parameters}
   */
   readonly searchQueryParameters?: string[];
   /**
   * *DEPRECATED: This field has no effect and will be removed in a later version.* Whether or not to keep the URL fragment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#should_keep_url_fragment WebdeploymentsConfiguration#should_keep_url_fragment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#should_keep_url_fragment WebdeploymentsConfiguration#should_keep_url_fragment}
   */
   readonly shouldKeepUrlFragment?: boolean | cdktf.IResolvable;
   /**
   * click_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#click_event WebdeploymentsConfiguration#click_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#click_event WebdeploymentsConfiguration#click_event}
   */
   readonly clickEvent?: WebdeploymentsConfigurationJourneyEventsClickEvent[] | cdktf.IResolvable;
   /**
   * form_track_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#form_track_event WebdeploymentsConfiguration#form_track_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#form_track_event WebdeploymentsConfiguration#form_track_event}
   */
   readonly formTrackEvent?: WebdeploymentsConfigurationJourneyEventsFormTrackEvent[] | cdktf.IResolvable;
   /**
   * idle_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#idle_event WebdeploymentsConfiguration#idle_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#idle_event WebdeploymentsConfiguration#idle_event}
   */
   readonly idleEvent?: WebdeploymentsConfigurationJourneyEventsIdleEvent[] | cdktf.IResolvable;
   /**
   * in_viewport_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#in_viewport_event WebdeploymentsConfiguration#in_viewport_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#in_viewport_event WebdeploymentsConfiguration#in_viewport_event}
   */
   readonly inViewportEvent?: WebdeploymentsConfigurationJourneyEventsInViewportEvent[] | cdktf.IResolvable;
   /**
   * scroll_depth_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#scroll_depth_event WebdeploymentsConfiguration#scroll_depth_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#scroll_depth_event WebdeploymentsConfiguration#scroll_depth_event}
   */
   readonly scrollDepthEvent?: WebdeploymentsConfigurationJourneyEventsScrollDepthEvent[] | cdktf.IResolvable;
 }
@@ -2234,13 +2234,13 @@ export interface WebdeploymentsConfigurationMessengerAppsConversationsConversati
   /**
   * whether or not conversation disconnect setting is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Conversation disconnect type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#type WebdeploymentsConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#type WebdeploymentsConfiguration#type}
   */
   readonly type?: string;
 }
@@ -2355,13 +2355,13 @@ export interface WebdeploymentsConfigurationMessengerAppsConversationsHumanizeBo
   /**
   * The avatar URL of the bot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#avatar_url WebdeploymentsConfiguration#avatar_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#avatar_url WebdeploymentsConfiguration#avatar_url}
   */
   readonly avatarUrl?: string;
   /**
   * The name of the bot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#name WebdeploymentsConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#name WebdeploymentsConfiguration#name}
   */
   readonly name?: string;
 }
@@ -2476,13 +2476,13 @@ export interface WebdeploymentsConfigurationMessengerAppsConversationsHumanize {
   /**
   * Whether or not humanize conversations setting is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * bot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#bot WebdeploymentsConfiguration#bot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#bot WebdeploymentsConfiguration#bot}
   */
   readonly bot?: WebdeploymentsConfigurationMessengerAppsConversationsHumanizeBot;
 }
@@ -2597,49 +2597,49 @@ export interface WebdeploymentsConfigurationMessengerAppsConversations {
   /**
   * The auto start for the messenger conversation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#auto_start_enabled WebdeploymentsConfiguration#auto_start_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#auto_start_enabled WebdeploymentsConfiguration#auto_start_enabled}
   */
   readonly autoStartEnabled?: boolean | cdktf.IResolvable;
   /**
   * The conversation clear settings for the messenger app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#conversation_clear_enabled WebdeploymentsConfiguration#conversation_clear_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#conversation_clear_enabled WebdeploymentsConfiguration#conversation_clear_enabled}
   */
   readonly conversationClearEnabled?: boolean | cdktf.IResolvable;
   /**
   * The toggle to enable or disable conversations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The markdown for the messenger app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#markdown_enabled WebdeploymentsConfiguration#markdown_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#markdown_enabled WebdeploymentsConfiguration#markdown_enabled}
   */
   readonly markdownEnabled?: boolean | cdktf.IResolvable;
   /**
   * The toggle to enable or disable typing indicator for messenger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#show_agent_typing_indicator WebdeploymentsConfiguration#show_agent_typing_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#show_agent_typing_indicator WebdeploymentsConfiguration#show_agent_typing_indicator}
   */
   readonly showAgentTypingIndicator?: boolean | cdktf.IResolvable;
   /**
   * The toggle to enable or disable typing indicator for messenger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#show_user_typing_indicator WebdeploymentsConfiguration#show_user_typing_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#show_user_typing_indicator WebdeploymentsConfiguration#show_user_typing_indicator}
   */
   readonly showUserTypingIndicator?: boolean | cdktf.IResolvable;
   /**
   * conversation_disconnect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#conversation_disconnect WebdeploymentsConfiguration#conversation_disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#conversation_disconnect WebdeploymentsConfiguration#conversation_disconnect}
   */
   readonly conversationDisconnect?: WebdeploymentsConfigurationMessengerAppsConversationsConversationDisconnect;
   /**
   * humanize block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#humanize WebdeploymentsConfiguration#humanize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#humanize WebdeploymentsConfiguration#humanize}
   */
   readonly humanize?: WebdeploymentsConfigurationMessengerAppsConversationsHumanize;
 }
@@ -2928,13 +2928,13 @@ export interface WebdeploymentsConfigurationMessengerAppsKnowledge {
   /**
   * whether or not knowledge base is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The knowledge base for messenger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#knowledge_base_id WebdeploymentsConfiguration#knowledge_base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#knowledge_base_id WebdeploymentsConfiguration#knowledge_base_id}
   */
   readonly knowledgeBaseId?: string;
 }
@@ -3049,13 +3049,13 @@ export interface WebdeploymentsConfigurationMessengerApps {
   /**
   * conversations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#conversations WebdeploymentsConfiguration#conversations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#conversations WebdeploymentsConfiguration#conversations}
   */
   readonly conversations?: WebdeploymentsConfigurationMessengerAppsConversations;
   /**
   * knowledge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#knowledge WebdeploymentsConfiguration#knowledge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#knowledge WebdeploymentsConfiguration#knowledge}
   */
   readonly knowledge?: WebdeploymentsConfigurationMessengerAppsKnowledge;
 }
@@ -3170,13 +3170,13 @@ export interface WebdeploymentsConfigurationMessengerFileUploadMode {
   /**
   * A list of supported content types for uploading files.Valid values: image/jpeg, image/gif, image/png
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#file_types WebdeploymentsConfiguration#file_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#file_types WebdeploymentsConfiguration#file_types}
   */
   readonly fileTypes?: string[];
   /**
   * The maximum file size for file uploads in kilobytes. Default is 10240 (10 MB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#max_file_size_kb WebdeploymentsConfiguration#max_file_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#max_file_size_kb WebdeploymentsConfiguration#max_file_size_kb}
   */
   readonly maxFileSizeKb?: number;
 }
@@ -3323,7 +3323,7 @@ export interface WebdeploymentsConfigurationMessengerFileUpload {
   /**
   * mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#mode WebdeploymentsConfiguration#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#mode WebdeploymentsConfiguration#mode}
   */
   readonly mode?: WebdeploymentsConfigurationMessengerFileUploadMode[] | cdktf.IResolvable;
 }
@@ -3409,13 +3409,13 @@ export interface WebdeploymentsConfigurationMessengerHomeScreen {
   /**
   * Whether or not home screen is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * URL for custom logo to appear in home screen
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#logo_url WebdeploymentsConfiguration#logo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#logo_url WebdeploymentsConfiguration#logo_url}
   */
   readonly logoUrl?: string;
 }
@@ -3530,7 +3530,7 @@ export interface WebdeploymentsConfigurationMessengerLauncherButton {
   /**
   * The visibility settings for the button.Valid values: On, Off, OnDemand
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#visibility WebdeploymentsConfiguration#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#visibility WebdeploymentsConfiguration#visibility}
   */
   readonly visibility?: string;
 }
@@ -3616,7 +3616,7 @@ export interface WebdeploymentsConfigurationMessengerStyles {
   /**
   * The primary color of messenger in hexadecimal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#primary_color WebdeploymentsConfiguration#primary_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#primary_color WebdeploymentsConfiguration#primary_color}
   */
   readonly primaryColor?: string;
 }
@@ -3702,37 +3702,37 @@ export interface WebdeploymentsConfigurationMessenger {
   /**
   * Whether or not messenger is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * apps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#apps WebdeploymentsConfiguration#apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#apps WebdeploymentsConfiguration#apps}
   */
   readonly apps?: WebdeploymentsConfigurationMessengerApps;
   /**
   * file_upload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#file_upload WebdeploymentsConfiguration#file_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#file_upload WebdeploymentsConfiguration#file_upload}
   */
   readonly fileUpload?: WebdeploymentsConfigurationMessengerFileUpload;
   /**
   * home_screen block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#home_screen WebdeploymentsConfiguration#home_screen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#home_screen WebdeploymentsConfiguration#home_screen}
   */
   readonly homeScreen?: WebdeploymentsConfigurationMessengerHomeScreen;
   /**
   * launcher_button block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#launcher_button WebdeploymentsConfiguration#launcher_button}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#launcher_button WebdeploymentsConfiguration#launcher_button}
   */
   readonly launcherButton?: WebdeploymentsConfigurationMessengerLauncherButton;
   /**
   * styles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#styles WebdeploymentsConfiguration#styles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#styles WebdeploymentsConfiguration#styles}
   */
   readonly styles?: WebdeploymentsConfigurationMessengerStyles;
 }
@@ -3963,19 +3963,19 @@ export interface WebdeploymentsConfigurationPosition {
   /**
   * The alignment for position
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#alignment WebdeploymentsConfiguration#alignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#alignment WebdeploymentsConfiguration#alignment}
   */
   readonly alignment?: string;
   /**
   * The bottomspace value for position
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#bottom_space WebdeploymentsConfiguration#bottom_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#bottom_space WebdeploymentsConfiguration#bottom_space}
   */
   readonly bottomSpace?: number;
   /**
   * The sidespace value for position
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#side_space WebdeploymentsConfiguration#side_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#side_space WebdeploymentsConfiguration#side_space}
   */
   readonly sideSpace?: number;
 }
@@ -4119,13 +4119,13 @@ export interface WebdeploymentsConfigurationSupportCenterCustomMessages {
   /**
   * Default value for the custom message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#default_value WebdeploymentsConfiguration#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#default_value WebdeploymentsConfiguration#default_value}
   */
   readonly defaultValue: string;
   /**
   * The custom message type. (Welcome or Fallback)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#type WebdeploymentsConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#type WebdeploymentsConfiguration#type}
   */
   readonly type: string;
 }
@@ -4266,13 +4266,13 @@ export interface WebdeploymentsConfigurationSupportCenterEnabledCategories {
   /**
   * The knowledge base category id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#category_id WebdeploymentsConfiguration#category_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#category_id WebdeploymentsConfiguration#category_id}
   */
   readonly categoryId: string;
   /**
   * Source URL for the featured category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#image_uri WebdeploymentsConfiguration#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#image_uri WebdeploymentsConfiguration#image_uri}
   */
   readonly imageUri?: string;
 }
@@ -4416,13 +4416,13 @@ export interface WebdeploymentsConfigurationSupportCenterScreensModuleSettingsDe
   /**
   * Whether the Support Center Detailed Category Module Template is active or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#active WebdeploymentsConfiguration#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#active WebdeploymentsConfiguration#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
   * Whether the Support Center Detailed Category Module Sidebar is active or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#sidebar_enabled WebdeploymentsConfiguration#sidebar_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#sidebar_enabled WebdeploymentsConfiguration#sidebar_enabled}
   */
   readonly sidebarEnabled: boolean | cdktf.IResolvable;
 }
@@ -4531,25 +4531,25 @@ export interface WebdeploymentsConfigurationSupportCenterScreensModuleSettings {
   /**
   * Whether the Support Center Compact Category Module Template is active or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#compact_category_module_template_active WebdeploymentsConfiguration#compact_category_module_template_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#compact_category_module_template_active WebdeploymentsConfiguration#compact_category_module_template_active}
   */
   readonly compactCategoryModuleTemplateActive?: boolean | cdktf.IResolvable;
   /**
   * Whether or not knowledge portal (previously support center) screen module is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Screen module type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#type WebdeploymentsConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#type WebdeploymentsConfiguration#type}
   */
   readonly type: string;
   /**
   * detailed_category_module_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#detailed_category_module_template WebdeploymentsConfiguration#detailed_category_module_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#detailed_category_module_template WebdeploymentsConfiguration#detailed_category_module_template}
   */
   readonly detailedCategoryModuleTemplate?: WebdeploymentsConfigurationSupportCenterScreensModuleSettingsDetailedCategoryModuleTemplate;
 }
@@ -4748,13 +4748,13 @@ export interface WebdeploymentsConfigurationSupportCenterScreens {
   /**
   * The type of the screen
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#type WebdeploymentsConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#type WebdeploymentsConfiguration#type}
   */
   readonly type: string;
   /**
   * module_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#module_settings WebdeploymentsConfiguration#module_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#module_settings WebdeploymentsConfiguration#module_settings}
   */
   readonly moduleSettings: WebdeploymentsConfigurationSupportCenterScreensModuleSettings[] | cdktf.IResolvable;
 }
@@ -4895,37 +4895,37 @@ export interface WebdeploymentsConfigurationSupportCenterStyleSettingGlobalStyle
   /**
   * Global background color, in hexadecimal format, eg #ffffff
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#background_color WebdeploymentsConfiguration#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#background_color WebdeploymentsConfiguration#background_color}
   */
   readonly backgroundColor: string;
   /**
   * Global font family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#font_family WebdeploymentsConfiguration#font_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#font_family WebdeploymentsConfiguration#font_family}
   */
   readonly fontFamily: string;
   /**
   * Global primary color, in hexadecimal format, eg #ffffff
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#primary_color WebdeploymentsConfiguration#primary_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#primary_color WebdeploymentsConfiguration#primary_color}
   */
   readonly primaryColor: string;
   /**
   * Global dark primary color, in hexadecimal format, eg #ffffff
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#primary_color_dark WebdeploymentsConfiguration#primary_color_dark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#primary_color_dark WebdeploymentsConfiguration#primary_color_dark}
   */
   readonly primaryColorDark: string;
   /**
   * Global light primary color, in hexadecimal format, eg #ffffff
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#primary_color_light WebdeploymentsConfiguration#primary_color_light}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#primary_color_light WebdeploymentsConfiguration#primary_color_light}
   */
   readonly primaryColorLight: string;
   /**
   * Global text color, in hexadecimal format, eg #ffffff
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#text_color WebdeploymentsConfiguration#text_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#text_color WebdeploymentsConfiguration#text_color}
   */
   readonly textColor: string;
 }
@@ -5138,19 +5138,19 @@ export interface WebdeploymentsConfigurationSupportCenterStyleSettingHeroStyleSe
   /**
   * Background color for hero section, in hexadecimal format, eg #ffffff
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#background_color WebdeploymentsConfiguration#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#background_color WebdeploymentsConfiguration#background_color}
   */
   readonly backgroundColor: string;
   /**
   * Background image for hero section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#image_uri WebdeploymentsConfiguration#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#image_uri WebdeploymentsConfiguration#image_uri}
   */
   readonly imageUri: string;
   /**
   * Text color for hero section, in hexadecimal format, eg #ffffff
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#text_color WebdeploymentsConfiguration#text_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#text_color WebdeploymentsConfiguration#text_color}
   */
   readonly textColor: string;
 }
@@ -5285,13 +5285,13 @@ export interface WebdeploymentsConfigurationSupportCenterStyleSetting {
   /**
   * global_style_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#global_style_setting WebdeploymentsConfiguration#global_style_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#global_style_setting WebdeploymentsConfiguration#global_style_setting}
   */
   readonly globalStyleSetting?: WebdeploymentsConfigurationSupportCenterStyleSettingGlobalStyleSetting;
   /**
   * hero_style_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#hero_style_setting WebdeploymentsConfiguration#hero_style_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#hero_style_setting WebdeploymentsConfiguration#hero_style_setting}
   */
   readonly heroStyleSetting?: WebdeploymentsConfigurationSupportCenterStyleSettingHeroStyleSetting;
 }
@@ -5406,49 +5406,49 @@ export interface WebdeploymentsConfigurationSupportCenter {
   /**
   * Whether or not knowledge portal (previously support center) is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Whether or not requesting customer feedback on article content and article search results is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#feedback_enabled WebdeploymentsConfiguration#feedback_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#feedback_enabled WebdeploymentsConfiguration#feedback_enabled}
   */
   readonly feedbackEnabled?: boolean | cdktf.IResolvable;
   /**
   * The knowledge base for knowledge portal (previously support center)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#knowledge_base_id WebdeploymentsConfiguration#knowledge_base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#knowledge_base_id WebdeploymentsConfiguration#knowledge_base_id}
   */
   readonly knowledgeBaseId?: string;
   /**
   * Router type for knowledge portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#router_type WebdeploymentsConfiguration#router_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#router_type WebdeploymentsConfiguration#router_type}
   */
   readonly routerType?: string;
   /**
   * custom_messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#custom_messages WebdeploymentsConfiguration#custom_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#custom_messages WebdeploymentsConfiguration#custom_messages}
   */
   readonly customMessages?: WebdeploymentsConfigurationSupportCenterCustomMessages[] | cdktf.IResolvable;
   /**
   * enabled_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#enabled_categories WebdeploymentsConfiguration#enabled_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#enabled_categories WebdeploymentsConfiguration#enabled_categories}
   */
   readonly enabledCategories?: WebdeploymentsConfigurationSupportCenterEnabledCategories[] | cdktf.IResolvable;
   /**
   * screens block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#screens WebdeploymentsConfiguration#screens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#screens WebdeploymentsConfiguration#screens}
   */
   readonly screens?: WebdeploymentsConfigurationSupportCenterScreens[] | cdktf.IResolvable;
   /**
   * style_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#style_setting WebdeploymentsConfiguration#style_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#style_setting WebdeploymentsConfiguration#style_setting}
   */
   readonly styleSetting?: WebdeploymentsConfigurationSupportCenterStyleSetting;
 }
@@ -5734,7 +5734,7 @@ export interface WebdeploymentsConfigurationVideoAgentBackgroundImage {
   /**
   * BackgroundImage URL for agent video settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#url WebdeploymentsConfiguration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#url WebdeploymentsConfiguration#url}
   */
   readonly url?: string;
 }
@@ -5820,31 +5820,31 @@ export interface WebdeploymentsConfigurationVideoAgent {
   /**
   * Whether or not agent camera is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#allow_camera WebdeploymentsConfiguration#allow_camera}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#allow_camera WebdeploymentsConfiguration#allow_camera}
   */
   readonly allowCamera?: boolean | cdktf.IResolvable;
   /**
   * Whether or not agent microphone is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#allow_microphone WebdeploymentsConfiguration#allow_microphone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#allow_microphone WebdeploymentsConfiguration#allow_microphone}
   */
   readonly allowMicrophone?: boolean | cdktf.IResolvable;
   /**
   * Whether or not agent screen share is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#allow_screen_share WebdeploymentsConfiguration#allow_screen_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#allow_screen_share WebdeploymentsConfiguration#allow_screen_share}
   */
   readonly allowScreenShare?: boolean | cdktf.IResolvable;
   /**
   * Background for agent. Valid values: BLUR, NONE, IMAGE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#background WebdeploymentsConfiguration#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#background WebdeploymentsConfiguration#background}
   */
   readonly background?: string;
   /**
   * background_image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#background_image WebdeploymentsConfiguration#background_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#background_image WebdeploymentsConfiguration#background_image}
   */
   readonly backgroundImage?: WebdeploymentsConfigurationVideoAgentBackgroundImage;
 }
@@ -6046,19 +6046,19 @@ export interface WebdeploymentsConfigurationVideoUser {
   /**
   * Whether or not user camera is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#allow_camera WebdeploymentsConfiguration#allow_camera}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#allow_camera WebdeploymentsConfiguration#allow_camera}
   */
   readonly allowCamera?: boolean | cdktf.IResolvable;
   /**
   * Whether or not user microphone is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#allow_microphone WebdeploymentsConfiguration#allow_microphone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#allow_microphone WebdeploymentsConfiguration#allow_microphone}
   */
   readonly allowMicrophone?: boolean | cdktf.IResolvable;
   /**
   * Whether or not user screen share is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#allow_screen_share WebdeploymentsConfiguration#allow_screen_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#allow_screen_share WebdeploymentsConfiguration#allow_screen_share}
   */
   readonly allowScreenShare?: boolean | cdktf.IResolvable;
 }
@@ -6202,19 +6202,19 @@ export interface WebdeploymentsConfigurationVideo {
   /**
   * Whether or not video is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#enabled WebdeploymentsConfiguration#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#agent WebdeploymentsConfiguration#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#agent WebdeploymentsConfiguration#agent}
   */
   readonly agent?: WebdeploymentsConfigurationVideoAgent;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#user WebdeploymentsConfiguration#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#user WebdeploymentsConfiguration#user}
   */
   readonly user?: WebdeploymentsConfigurationVideoUser;
 }
@@ -6356,7 +6356,7 @@ export class WebdeploymentsConfigurationVideoOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration genesyscloud_webdeployments_configuration}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration genesyscloud_webdeployments_configuration}
 */
 export class WebdeploymentsConfiguration extends cdktf.TerraformResource {
 
@@ -6372,7 +6372,7 @@ export class WebdeploymentsConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebdeploymentsConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebdeploymentsConfiguration to import
-  * @param importFromId The id of the existing WebdeploymentsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebdeploymentsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebdeploymentsConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6384,7 +6384,7 @@ export class WebdeploymentsConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/webdeployments_configuration genesyscloud_webdeployments_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/webdeployments_configuration genesyscloud_webdeployments_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6395,8 +6395,8 @@ export class WebdeploymentsConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_webdeployments_configuration',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

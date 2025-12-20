@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/sample_bucket
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/sample_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface SampleBucketConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/sample_bucket#cluster_id SampleBucket#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/sample_bucket#cluster_id SampleBucket#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The name of the sample dataset to be loaded. The name has to be one of the following sample datasets: "travel-sample", "gamesim-sample" or "beer-sample".
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/sample_bucket#name SampleBucket#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/sample_bucket#name SampleBucket#name}
   */
   readonly name: string;
   /**
-  * The GUID4 ID of the Capella organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/sample_bucket#organization_id SampleBucket#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/sample_bucket#organization_id SampleBucket#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/sample_bucket#project_id SampleBucket#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/sample_bucket#project_id SampleBucket#project_id}
   */
   readonly projectId: string;
 }
@@ -103,7 +95,7 @@ export class SampleBucketStatsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/sample_bucket couchbase-capella_sample_bucket}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/sample_bucket couchbase-capella_sample_bucket}
 */
 export class SampleBucket extends cdktf.TerraformResource {
 
@@ -119,7 +111,7 @@ export class SampleBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SampleBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SampleBucket to import
-  * @param importFromId The id of the existing SampleBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/sample_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SampleBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/sample_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SampleBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -131,7 +123,7 @@ export class SampleBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/sample_bucket couchbase-capella_sample_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/sample_bucket couchbase-capella_sample_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -142,8 +134,8 @@ export class SampleBucket extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_sample_bucket',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

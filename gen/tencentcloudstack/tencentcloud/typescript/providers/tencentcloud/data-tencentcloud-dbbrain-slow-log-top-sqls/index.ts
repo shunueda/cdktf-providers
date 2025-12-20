@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dbbrain_slow_log_top_sqls
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_slow_log_top_sqls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDbbrainSlowLogTopSqlsConfig extends cdktf.Terra
   /**
   * The deadline, such as `2019-09-11 10:13:14`, the interval between the deadline and the start time is less than 7 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dbbrain_slow_log_top_sqls#end_time DataTencentcloudDbbrainSlowLogTopSqls#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_slow_log_top_sqls#end_time DataTencentcloudDbbrainSlowLogTopSqls#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dbbrain_slow_log_top_sqls#id DataTencentcloudDbbrainSlowLogTopSqls#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_slow_log_top_sqls#id DataTencentcloudDbbrainSlowLogTopSqls#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface DataTencentcloudDbbrainSlowLogTopSqlsConfig extends cdktf.Terra
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dbbrain_slow_log_top_sqls#instance_id DataTencentcloudDbbrainSlowLogTopSqls#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_slow_log_top_sqls#instance_id DataTencentcloudDbbrainSlowLogTopSqls#instance_id}
   */
   readonly instanceId: string;
   /**
   * The sorting method supports ASC (ascending) and DESC (descending). The default is DESC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dbbrain_slow_log_top_sqls#order_by DataTencentcloudDbbrainSlowLogTopSqls#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_slow_log_top_sqls#order_by DataTencentcloudDbbrainSlowLogTopSqls#order_by}
   */
   readonly orderBy?: string;
   /**
   * Service product type, supported values include: `mysql` - cloud database MySQL, `cynosdb` - cloud database CynosDB for MySQL, the default is `mysql`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dbbrain_slow_log_top_sqls#product DataTencentcloudDbbrainSlowLogTopSqls#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_slow_log_top_sqls#product DataTencentcloudDbbrainSlowLogTopSqls#product}
   */
   readonly product?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dbbrain_slow_log_top_sqls#result_output_file DataTencentcloudDbbrainSlowLogTopSqls#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_slow_log_top_sqls#result_output_file DataTencentcloudDbbrainSlowLogTopSqls#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Sort key, currently supports sort keys such as QueryTime, ExecTimes, RowsSent, LockTime and RowsExamined, the default is QueryTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dbbrain_slow_log_top_sqls#sort_by DataTencentcloudDbbrainSlowLogTopSqls#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_slow_log_top_sqls#sort_by DataTencentcloudDbbrainSlowLogTopSqls#sort_by}
   */
   readonly sortBy?: string;
   /**
   * Start time, such as `2019-09-10 12:13:14`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dbbrain_slow_log_top_sqls#start_time DataTencentcloudDbbrainSlowLogTopSqls#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_slow_log_top_sqls#start_time DataTencentcloudDbbrainSlowLogTopSqls#start_time}
   */
   readonly startTime: string;
   /**
   * schema_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dbbrain_slow_log_top_sqls#schema_list DataTencentcloudDbbrainSlowLogTopSqls#schema_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_slow_log_top_sqls#schema_list DataTencentcloudDbbrainSlowLogTopSqls#schema_list}
   */
   readonly schemaList?: DataTencentcloudDbbrainSlowLogTopSqlsSchemaListStruct[] | cdktf.IResolvable;
 }
@@ -262,7 +262,7 @@ export interface DataTencentcloudDbbrainSlowLogTopSqlsSchemaListStruct {
   /**
   * DB name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dbbrain_slow_log_top_sqls#schema DataTencentcloudDbbrainSlowLogTopSqls#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_slow_log_top_sqls#schema DataTencentcloudDbbrainSlowLogTopSqls#schema}
   */
   readonly schema: string;
 }
@@ -375,7 +375,7 @@ export class DataTencentcloudDbbrainSlowLogTopSqlsSchemaListStructList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dbbrain_slow_log_top_sqls tencentcloud_dbbrain_slow_log_top_sqls}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_slow_log_top_sqls tencentcloud_dbbrain_slow_log_top_sqls}
 */
 export class DataTencentcloudDbbrainSlowLogTopSqls extends cdktf.TerraformDataSource {
 
@@ -391,7 +391,7 @@ export class DataTencentcloudDbbrainSlowLogTopSqls extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudDbbrainSlowLogTopSqls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDbbrainSlowLogTopSqls to import
-  * @param importFromId The id of the existing DataTencentcloudDbbrainSlowLogTopSqls that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dbbrain_slow_log_top_sqls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDbbrainSlowLogTopSqls that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_slow_log_top_sqls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDbbrainSlowLogTopSqls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -403,7 +403,7 @@ export class DataTencentcloudDbbrainSlowLogTopSqls extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dbbrain_slow_log_top_sqls tencentcloud_dbbrain_slow_log_top_sqls} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dbbrain_slow_log_top_sqls tencentcloud_dbbrain_slow_log_top_sqls} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -414,8 +414,8 @@ export class DataTencentcloudDbbrainSlowLogTopSqls extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_dbbrain_slow_log_top_sqls',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

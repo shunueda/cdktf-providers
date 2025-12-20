@@ -21,6 +21,7 @@ Object.defineProperty(exports, 'interfaceResource', { get: function () { return 
 Object.defineProperty(exports, 'ipv6Range', { get: function () { return require('./ipv6-range'); } });
 Object.defineProperty(exports, 'lkeCluster', { get: function () { return require('./lke-cluster'); } });
 Object.defineProperty(exports, 'lkeNodePool', { get: function () { return require('./lke-node-pool'); } });
+Object.defineProperty(exports, 'lock', { get: function () { return require('./lock'); } });
 Object.defineProperty(exports, 'networkingIp', { get: function () { return require('./networking-ip'); } });
 Object.defineProperty(exports, 'networkingIpAssignment', { get: function () { return require('./networking-ip-assignment'); } });
 Object.defineProperty(exports, 'nodebalancer', { get: function () { return require('./nodebalancer'); } });
@@ -80,6 +81,7 @@ Object.defineProperty(exports, 'dataLinodeInstanceNetworking', { get: function (
 Object.defineProperty(exports, 'dataLinodeInstanceType', { get: function () { return require('./data-linode-instance-type'); } });
 Object.defineProperty(exports, 'dataLinodeInstanceTypes', { get: function () { return require('./data-linode-instance-types'); } });
 Object.defineProperty(exports, 'dataLinodeInstances', { get: function () { return require('./data-linode-instances'); } });
+Object.defineProperty(exports, 'dataLinodeInterface', { get: function () { return require('./data-linode-interface'); } });
 Object.defineProperty(exports, 'dataLinodeIpv6Range', { get: function () { return require('./data-linode-ipv6-range'); } });
 Object.defineProperty(exports, 'dataLinodeIpv6Ranges', { get: function () { return require('./data-linode-ipv6-ranges'); } });
 Object.defineProperty(exports, 'dataLinodeKernel', { get: function () { return require('./data-linode-kernel'); } });
@@ -89,6 +91,8 @@ Object.defineProperty(exports, 'dataLinodeLkeClusters', { get: function () { ret
 Object.defineProperty(exports, 'dataLinodeLkeTypes', { get: function () { return require('./data-linode-lke-types'); } });
 Object.defineProperty(exports, 'dataLinodeLkeVersion', { get: function () { return require('./data-linode-lke-version'); } });
 Object.defineProperty(exports, 'dataLinodeLkeVersions', { get: function () { return require('./data-linode-lke-versions'); } });
+Object.defineProperty(exports, 'dataLinodeLock', { get: function () { return require('./data-linode-lock'); } });
+Object.defineProperty(exports, 'dataLinodeLocks', { get: function () { return require('./data-linode-locks'); } });
 Object.defineProperty(exports, 'dataLinodeMaintenancePolicies', { get: function () { return require('./data-linode-maintenance-policies'); } });
 Object.defineProperty(exports, 'dataLinodeNbTypes', { get: function () { return require('./data-linode-nb-types'); } });
 Object.defineProperty(exports, 'dataLinodeNetworkTransferPrices', { get: function () { return require('./data-linode-network-transfer-prices'); } });

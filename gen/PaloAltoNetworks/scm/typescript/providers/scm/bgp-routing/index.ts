@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_routing
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_routing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface BgpRoutingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Accept route over s c
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_routing#accept_route_over_sc BgpRouting#accept_route_over_sc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_routing#accept_route_over_sc BgpRouting#accept_route_over_sc}
   */
   readonly acceptRouteOverSc?: boolean | cdktf.IResolvable;
   /**
   * Add host route to ike peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_routing#add_host_route_to_ike_peer BgpRouting#add_host_route_to_ike_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_routing#add_host_route_to_ike_peer BgpRouting#add_host_route_to_ike_peer}
   */
   readonly addHostRouteToIkePeer?: boolean | cdktf.IResolvable;
   /**
   * Backbone routing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_routing#backbone_routing BgpRouting#backbone_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_routing#backbone_routing BgpRouting#backbone_routing}
   */
   readonly backboneRouting?: string;
   /**
   * Outbound routes for services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_routing#outbound_routes_for_services BgpRouting#outbound_routes_for_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_routing#outbound_routes_for_services BgpRouting#outbound_routes_for_services}
   */
   readonly outboundRoutesForServices?: string[];
   /**
   * Routing preference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_routing#routing_preference BgpRouting#routing_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_routing#routing_preference BgpRouting#routing_preference}
   */
   readonly routingPreference?: BgpRoutingRoutingPreference;
   /**
   * Withdraw static route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_routing#withdraw_static_route BgpRouting#withdraw_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_routing#withdraw_static_route BgpRouting#withdraw_static_route}
   */
   readonly withdrawStaticRoute?: boolean | cdktf.IResolvable;
 }
@@ -165,18 +165,16 @@ export class BgpRoutingRoutingPreferenceHotPotatoRoutingOutputReference extends 
 export interface BgpRoutingRoutingPreference {
   /**
   * Default
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `default` and `hot_potato_routing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_routing#default BgpRouting#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_routing#default BgpRouting#default}
   */
   readonly default?: BgpRoutingRoutingPreferenceDefault;
   /**
   * Hot potato routing
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `default` and `hot_potato_routing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_routing#hot_potato_routing BgpRouting#hot_potato_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_routing#hot_potato_routing BgpRouting#hot_potato_routing}
   */
   readonly hotPotatoRouting?: BgpRoutingRoutingPreferenceHotPotatoRouting;
 }
@@ -299,7 +297,7 @@ export class BgpRoutingRoutingPreferenceOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_routing scm_bgp_routing}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_routing scm_bgp_routing}
 */
 export class BgpRouting extends cdktf.TerraformResource {
 
@@ -315,7 +313,7 @@ export class BgpRouting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpRouting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpRouting to import
-  * @param importFromId The id of the existing BgpRouting that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_routing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpRouting that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_routing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpRouting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -327,7 +325,7 @@ export class BgpRouting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_routing scm_bgp_routing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_routing scm_bgp_routing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -338,8 +336,8 @@ export class BgpRouting extends cdktf.TerraformResource {
       terraformResourceType: 'scm_bgp_routing',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

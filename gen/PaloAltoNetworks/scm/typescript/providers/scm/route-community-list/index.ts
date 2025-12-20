@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,40 @@ export interface RouteCommunityListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#description RouteCommunityList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#description RouteCommunityList#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#device RouteCommunityList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#device RouteCommunityList#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#folder RouteCommunityList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#folder RouteCommunityList#folder}
   */
   readonly folder?: string;
   /**
   * Route community list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#name RouteCommunityList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#name RouteCommunityList#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#snippet RouteCommunityList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#snippet RouteCommunityList#snippet}
   */
   readonly snippet?: string;
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#type RouteCommunityList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#type RouteCommunityList#type}
   */
   readonly type?: RouteCommunityListType;
 }
@@ -54,19 +51,19 @@ export interface RouteCommunityListTypeExtendedExtendedEntry {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#action RouteCommunityList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#action RouteCommunityList#action}
   */
   readonly action?: string;
   /**
   * Extended community regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#lc_regex RouteCommunityList#lc_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#lc_regex RouteCommunityList#lc_regex}
   */
   readonly lcRegex?: string[];
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#name RouteCommunityList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#name RouteCommunityList#name}
   */
   readonly name?: number;
 }
@@ -242,7 +239,7 @@ export interface RouteCommunityListTypeExtended {
   /**
   * Extended community lists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#extended_entry RouteCommunityList#extended_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#extended_entry RouteCommunityList#extended_entry}
   */
   readonly extendedEntry?: RouteCommunityListTypeExtendedExtendedEntry[] | cdktf.IResolvable;
 }
@@ -338,19 +335,19 @@ export interface RouteCommunityListTypeLargeLargeEntry {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#action RouteCommunityList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#action RouteCommunityList#action}
   */
   readonly action?: string;
   /**
   * Large community regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#lc_regex RouteCommunityList#lc_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#lc_regex RouteCommunityList#lc_regex}
   */
   readonly lcRegex?: string[];
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#name RouteCommunityList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#name RouteCommunityList#name}
   */
   readonly name?: number;
 }
@@ -526,7 +523,7 @@ export interface RouteCommunityListTypeLarge {
   /**
   * Large community lists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#large_entry RouteCommunityList#large_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#large_entry RouteCommunityList#large_entry}
   */
   readonly largeEntry?: RouteCommunityListTypeLargeLargeEntry[] | cdktf.IResolvable;
 }
@@ -622,19 +619,19 @@ export interface RouteCommunityListTypeRegularRegularEntry {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#action RouteCommunityList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#action RouteCommunityList#action}
   */
   readonly action?: string;
   /**
   * Communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#community RouteCommunityList#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#community RouteCommunityList#community}
   */
   readonly community?: string[];
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#name RouteCommunityList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#name RouteCommunityList#name}
   */
   readonly name?: number;
 }
@@ -810,7 +807,7 @@ export interface RouteCommunityListTypeRegular {
   /**
   * Regular community lists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#regular_entry RouteCommunityList#regular_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#regular_entry RouteCommunityList#regular_entry}
   */
   readonly regularEntry?: RouteCommunityListTypeRegularRegularEntry[] | cdktf.IResolvable;
 }
@@ -905,26 +902,23 @@ export class RouteCommunityListTypeRegularOutputReference extends cdktf.ComplexO
 export interface RouteCommunityListType {
   /**
   * Extended
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `extended`, `large`, and `regular`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#extended RouteCommunityList#extended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#extended RouteCommunityList#extended}
   */
   readonly extended?: RouteCommunityListTypeExtended;
   /**
   * Large
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `extended`, `large`, and `regular`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#large RouteCommunityList#large}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#large RouteCommunityList#large}
   */
   readonly large?: RouteCommunityListTypeLarge;
   /**
   * Regular
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `extended`, `large`, and `regular`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#regular RouteCommunityList#regular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#regular RouteCommunityList#regular}
   */
   readonly regular?: RouteCommunityListTypeRegular;
 }
@@ -1076,7 +1070,7 @@ export class RouteCommunityListTypeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list scm_route_community_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list scm_route_community_list}
 */
 export class RouteCommunityList extends cdktf.TerraformResource {
 
@@ -1092,7 +1086,7 @@ export class RouteCommunityList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RouteCommunityList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouteCommunityList to import
-  * @param importFromId The id of the existing RouteCommunityList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouteCommunityList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouteCommunityList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1104,7 +1098,7 @@ export class RouteCommunityList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_community_list scm_route_community_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_community_list scm_route_community_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1115,8 +1109,8 @@ export class RouteCommunityList extends cdktf.TerraformResource {
       terraformResourceType: 'scm_route_community_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

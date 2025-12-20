@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,125 +10,125 @@ export interface DasbAclConfig extends cdktf.TerraformMetaArguments {
   /**
   * Associate high-risk DB template IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#ac_template_id_set DasbAcl#ac_template_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#ac_template_id_set DasbAcl#ac_template_id_set}
   */
   readonly acTemplateIdSet?: string[];
   /**
   * Associated accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#account_set DasbAcl#account_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#account_set DasbAcl#account_set}
   */
   readonly accountSet?: string[];
   /**
   * Allow access credential,default allow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#allow_access_credential DasbAcl#allow_access_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#allow_access_credential DasbAcl#allow_access_credential}
   */
   readonly allowAccessCredential?: boolean | cdktf.IResolvable;
   /**
   * Allow any account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#allow_any_account DasbAcl#allow_any_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#allow_any_account DasbAcl#allow_any_account}
   */
   readonly allowAnyAccount: boolean | cdktf.IResolvable;
   /**
   * Allow clip file down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#allow_clip_file_down DasbAcl#allow_clip_file_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#allow_clip_file_down DasbAcl#allow_clip_file_down}
   */
   readonly allowClipFileDown?: boolean | cdktf.IResolvable;
   /**
   * Allow clip file up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#allow_clip_file_up DasbAcl#allow_clip_file_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#allow_clip_file_up DasbAcl#allow_clip_file_up}
   */
   readonly allowClipFileUp?: boolean | cdktf.IResolvable;
   /**
   * Allow clip text down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#allow_clip_text_down DasbAcl#allow_clip_text_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#allow_clip_text_down DasbAcl#allow_clip_text_down}
   */
   readonly allowClipTextDown?: boolean | cdktf.IResolvable;
   /**
   * Allow clip text up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#allow_clip_text_up DasbAcl#allow_clip_text_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#allow_clip_text_up DasbAcl#allow_clip_text_up}
   */
   readonly allowClipTextUp?: boolean | cdktf.IResolvable;
   /**
   * Allow disk file download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#allow_disk_file_down DasbAcl#allow_disk_file_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#allow_disk_file_down DasbAcl#allow_disk_file_down}
   */
   readonly allowDiskFileDown?: boolean | cdktf.IResolvable;
   /**
   * Allow disk file upload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#allow_disk_file_up DasbAcl#allow_disk_file_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#allow_disk_file_up DasbAcl#allow_disk_file_up}
   */
   readonly allowDiskFileUp?: boolean | cdktf.IResolvable;
   /**
   * Allow disk redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#allow_disk_redirect DasbAcl#allow_disk_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#allow_disk_redirect DasbAcl#allow_disk_redirect}
   */
   readonly allowDiskRedirect: boolean | cdktf.IResolvable;
   /**
   * Allow sftp file delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#allow_file_del DasbAcl#allow_file_del}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#allow_file_del DasbAcl#allow_file_del}
   */
   readonly allowFileDel?: boolean | cdktf.IResolvable;
   /**
   * Allow sftp file download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#allow_file_down DasbAcl#allow_file_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#allow_file_down DasbAcl#allow_file_down}
   */
   readonly allowFileDown?: boolean | cdktf.IResolvable;
   /**
   * Allow sftp up file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#allow_file_up DasbAcl#allow_file_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#allow_file_up DasbAcl#allow_file_up}
   */
   readonly allowFileUp?: boolean | cdktf.IResolvable;
   /**
   * Allow shell file download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#allow_shell_file_down DasbAcl#allow_shell_file_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#allow_shell_file_down DasbAcl#allow_shell_file_down}
   */
   readonly allowShellFileDown?: boolean | cdktf.IResolvable;
   /**
   * Allow shell file upload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#allow_shell_file_up DasbAcl#allow_shell_file_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#allow_shell_file_up DasbAcl#allow_shell_file_up}
   */
   readonly allowShellFileUp?: boolean | cdktf.IResolvable;
   /**
   * Associated high-risk command template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#cmd_template_id_set DasbAcl#cmd_template_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#cmd_template_id_set DasbAcl#cmd_template_id_set}
   */
   readonly cmdTemplateIdSet?: number[];
   /**
   * Department id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#department_id DasbAcl#department_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#department_id DasbAcl#department_id}
   */
   readonly departmentId?: string;
   /**
   * Associated device group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#device_group_id_set DasbAcl#device_group_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#device_group_id_set DasbAcl#device_group_id_set}
   */
   readonly deviceGroupIdSet?: number[];
   /**
   * Associated collection of device IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#device_id_set DasbAcl#device_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#device_id_set DasbAcl#device_id_set}
   */
   readonly deviceIdSet?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#id DasbAcl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#id DasbAcl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,49 +137,49 @@ export interface DasbAclConfig extends cdktf.TerraformMetaArguments {
   /**
   * File transfer download size limit (reserved parameter, currently unused).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#max_file_down_size DasbAcl#max_file_down_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#max_file_down_size DasbAcl#max_file_down_size}
   */
   readonly maxFileDownSize?: number;
   /**
   * File upload transfer size limit (artifact parameter, currently unused).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#max_file_up_size DasbAcl#max_file_up_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#max_file_up_size DasbAcl#max_file_up_size}
   */
   readonly maxFileUpSize?: number;
   /**
   * Acl name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#name DasbAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#name DasbAcl#name}
   */
   readonly name: string;
   /**
   * Associated user group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#user_group_id_set DasbAcl#user_group_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#user_group_id_set DasbAcl#user_group_id_set}
   */
   readonly userGroupIdSet?: number[];
   /**
   * Associated set of user IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#user_id_set DasbAcl#user_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#user_id_set DasbAcl#user_id_set}
   */
   readonly userIdSet?: number[];
   /**
   * Access permission effective time, such as: 2021-09-22T00:00:00+08:00If the effective and expiry time are not filled in, the access rights will be valid for a long time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#validate_from DasbAcl#validate_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#validate_from DasbAcl#validate_from}
   */
   readonly validateFrom?: string;
   /**
   * Access permission expiration time, such as: 2021-09-23T00:00:00+08:00If the effective and expiry time are not filled in, the access rights will be valid for a long time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#validate_to DasbAcl#validate_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#validate_to DasbAcl#validate_to}
   */
   readonly validateTo?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl tencentcloud_dasb_acl}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl tencentcloud_dasb_acl}
 */
 export class DasbAcl extends cdktf.TerraformResource {
 
@@ -195,7 +195,7 @@ export class DasbAcl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DasbAcl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DasbAcl to import
-  * @param importFromId The id of the existing DasbAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DasbAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DasbAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DasbAcl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_acl tencentcloud_dasb_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dasb_acl tencentcloud_dasb_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class DasbAcl extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dasb_acl',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

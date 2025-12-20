@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/database_backups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataLinodeDatabaseBackupsConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the Managed Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#database_id DataLinodeDatabaseBackups#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/database_backups#database_id DataLinodeDatabaseBackups#database_id}
   */
   readonly databaseId: number;
   /**
   * The type of the Managed Database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#database_type DataLinodeDatabaseBackups#database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/database_backups#database_type DataLinodeDatabaseBackups#database_type}
   */
   readonly databaseType: string;
   /**
   * If true, only the latest engine version will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#latest DataLinodeDatabaseBackups#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/database_backups#latest DataLinodeDatabaseBackups#latest}
   */
   readonly latest?: boolean | cdktf.IResolvable;
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#order DataLinodeDatabaseBackups#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/database_backups#order DataLinodeDatabaseBackups#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#order_by DataLinodeDatabaseBackups#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/database_backups#order_by DataLinodeDatabaseBackups#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#filter DataLinodeDatabaseBackups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/database_backups#filter DataLinodeDatabaseBackups#filter}
   */
   readonly filter?: DataLinodeDatabaseBackupsFilter[] | cdktf.IResolvable;
 }
@@ -138,19 +138,19 @@ export interface DataLinodeDatabaseBackupsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#match_by DataLinodeDatabaseBackups#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/database_backups#match_by DataLinodeDatabaseBackups#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#name DataLinodeDatabaseBackups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/database_backups#name DataLinodeDatabaseBackups#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#values DataLinodeDatabaseBackups#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/database_backups#values DataLinodeDatabaseBackups#values}
   */
   readonly values: string[];
 }
@@ -318,7 +318,7 @@ export class DataLinodeDatabaseBackupsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups linode_database_backups}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/database_backups linode_database_backups}
 */
 export class DataLinodeDatabaseBackups extends cdktf.TerraformDataSource {
 
@@ -334,7 +334,7 @@ export class DataLinodeDatabaseBackups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeDatabaseBackups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeDatabaseBackups to import
-  * @param importFromId The id of the existing DataLinodeDatabaseBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeDatabaseBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/database_backups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeDatabaseBackups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -346,7 +346,7 @@ export class DataLinodeDatabaseBackups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/database_backups linode_database_backups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/database_backups linode_database_backups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,8 +357,8 @@ export class DataLinodeDatabaseBackups extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_database_backups',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

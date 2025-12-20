@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface NodePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#annotations NodePool#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#annotations NodePool#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#cluster_id NodePool#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#cluster_id NodePool#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#control_plane NodePool#control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#control_plane NodePool#control_plane}
   */
   readonly controlPlane?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#delete_not_ready_after_secs NodePool#delete_not_ready_after_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#delete_not_ready_after_secs NodePool#delete_not_ready_after_secs}
   */
   readonly deleteNotReadyAfterSecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#drain_before_delete NodePool#drain_before_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#drain_before_delete NodePool#drain_before_delete}
   */
   readonly drainBeforeDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#etcd NodePool#etcd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#etcd NodePool#etcd}
   */
   readonly etcd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#hostname_prefix NodePool#hostname_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#hostname_prefix NodePool#hostname_prefix}
   */
   readonly hostnamePrefix: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#id NodePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#id NodePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,53 +47,53 @@ export interface NodePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#labels NodePool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#labels NodePool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#name NodePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#name NodePool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#node_template_id NodePool#node_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#node_template_id NodePool#node_template_id}
   */
   readonly nodeTemplateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#quantity NodePool#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#quantity NodePool#quantity}
   */
   readonly quantity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#worker NodePool#worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#worker NodePool#worker}
   */
   readonly worker?: boolean | cdktf.IResolvable;
   /**
   * node_taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#node_taints NodePool#node_taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#node_taints NodePool#node_taints}
   */
   readonly nodeTaints?: NodePoolNodeTaints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#timeouts NodePool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#timeouts NodePool#timeouts}
   */
   readonly timeouts?: NodePoolTimeouts;
 }
 export interface NodePoolNodeTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#effect NodePool#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#effect NodePool#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#key NodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#key NodePool#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#time_added NodePool#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#time_added NodePool#time_added}
   */
   readonly timeAdded?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#value NodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#value NodePool#value}
   */
   readonly value: string;
 }
@@ -290,15 +290,15 @@ export class NodePoolNodeTaintsList extends cdktf.ComplexList {
 }
 export interface NodePoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#create NodePool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#create NodePool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#delete NodePool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#delete NodePool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#update NodePool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#update NodePool#update}
   */
   readonly update?: string;
 }
@@ -450,7 +450,7 @@ export class NodePoolTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool rancher2_node_pool}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool rancher2_node_pool}
 */
 export class NodePool extends cdktf.TerraformResource {
 
@@ -466,7 +466,7 @@ export class NodePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NodePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NodePool to import
-  * @param importFromId The id of the existing NodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NodePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -478,7 +478,7 @@ export class NodePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_pool rancher2_node_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_pool rancher2_node_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -489,8 +489,8 @@ export class NodePool extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

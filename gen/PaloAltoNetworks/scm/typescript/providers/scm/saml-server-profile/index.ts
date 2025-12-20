@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,82 @@ export interface SamlServerProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identity provider certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile#certificate SamlServerProfile#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile#certificate SamlServerProfile#certificate}
   */
   readonly certificate: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile#device SamlServerProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile#device SamlServerProfile#device}
   */
   readonly device?: string;
   /**
   * The identity provider ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile#entity_id SamlServerProfile#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile#entity_id SamlServerProfile#entity_id}
   */
   readonly entityId: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile#folder SamlServerProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile#folder SamlServerProfile#folder}
   */
   readonly folder?: string;
   /**
   * Maxiumum clock skew
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile#max_clock_skew SamlServerProfile#max_clock_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile#max_clock_skew SamlServerProfile#max_clock_skew}
   */
   readonly maxClockSkew?: number;
   /**
   * The name of the SAML server profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile#name SamlServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile#name SamlServerProfile#name}
   */
   readonly name: string;
   /**
   * SAML HTTP binding for SLO requests to the identity provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile#slo_bindings SamlServerProfile#slo_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile#slo_bindings SamlServerProfile#slo_bindings}
   */
   readonly sloBindings?: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile#snippet SamlServerProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile#snippet SamlServerProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * SAML HTTP binding for SSO requests to the identity provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile#sso_bindings SamlServerProfile#sso_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile#sso_bindings SamlServerProfile#sso_bindings}
   */
   readonly ssoBindings: string;
   /**
   * Identity provider SSO URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile#sso_url SamlServerProfile#sso_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile#sso_url SamlServerProfile#sso_url}
   */
   readonly ssoUrl: string;
   /**
   * Validate the identity provider certificate?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile#validate_idp_certificate SamlServerProfile#validate_idp_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile#validate_idp_certificate SamlServerProfile#validate_idp_certificate}
   */
   readonly validateIdpCertificate?: boolean | cdktf.IResolvable;
   /**
   * Sign SAML message to the identity provider?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile#want_auth_requests_signed SamlServerProfile#want_auth_requests_signed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile#want_auth_requests_signed SamlServerProfile#want_auth_requests_signed}
   */
   readonly wantAuthRequestsSigned?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile scm_saml_server_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile scm_saml_server_profile}
 */
 export class SamlServerProfile extends cdktf.TerraformResource {
 
@@ -104,7 +101,7 @@ export class SamlServerProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SamlServerProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SamlServerProfile to import
-  * @param importFromId The id of the existing SamlServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SamlServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SamlServerProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -116,7 +113,7 @@ export class SamlServerProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/saml_server_profile scm_saml_server_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/saml_server_profile scm_saml_server_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -127,8 +124,8 @@ export class SamlServerProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_saml_server_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

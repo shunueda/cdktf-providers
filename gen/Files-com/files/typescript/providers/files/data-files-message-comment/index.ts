@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.417/docs/data-sources/message_comment
+// https://registry.terraform.io/providers/files-com/files/0.1.419/docs/data-sources/message_comment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFilesMessageCommentConfig extends cdktf.TerraformMetaArgume
   /**
   * Message Comment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/data-sources/message_comment#id DataFilesMessageComment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/data-sources/message_comment#id DataFilesMessageComment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataFilesMessageCommentConfig extends cdktf.TerraformMetaArgume
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/data-sources/message_comment files_message_comment}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/data-sources/message_comment files_message_comment}
 */
 export class DataFilesMessageComment extends cdktf.TerraformDataSource {
 
@@ -35,7 +35,7 @@ export class DataFilesMessageComment extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFilesMessageComment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFilesMessageComment to import
-  * @param importFromId The id of the existing DataFilesMessageComment that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/data-sources/message_comment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFilesMessageComment that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/data-sources/message_comment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFilesMessageComment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -47,7 +47,7 @@ export class DataFilesMessageComment extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/data-sources/message_comment files_message_comment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/data-sources/message_comment files_message_comment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -58,8 +58,8 @@ export class DataFilesMessageComment extends cdktf.TerraformDataSource {
       terraformResourceType: 'files_message_comment',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.417',
-        providerVersionConstraint: '0.1.417'
+        providerVersion: '0.1.419',
+        providerVersionConstraint: '0.1.419'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "crowdstrike": "0.0.52"
+    "crowdstrike": "0.0.53"
   }
 }

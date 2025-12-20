@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_replace_certificate_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_replace_certificate_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface SslReplaceCertificateOperationConfig extends cdktf.TerraformMet
   /**
   * CSR encryption method, optional: RSA, ECC, SM2. (Selectable only if CsrType is Online), default is RSA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_replace_certificate_operation#cert_csr_encrypt_algo SslReplaceCertificateOperation#cert_csr_encrypt_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_replace_certificate_operation#cert_csr_encrypt_algo SslReplaceCertificateOperation#cert_csr_encrypt_algo}
   */
   readonly certCsrEncryptAlgo?: string;
   /**
   * CSR encryption parameter, when CsrEncryptAlgo is RSA, you can choose 2048, 4096, etc., and the default is 2048; when CsrEncryptAlgo is ECC, you can choose prime256v1, secp384r1, etc., and the default is prime256v1;.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_replace_certificate_operation#cert_csr_key_parameter SslReplaceCertificateOperation#cert_csr_key_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_replace_certificate_operation#cert_csr_key_parameter SslReplaceCertificateOperation#cert_csr_key_parameter}
   */
   readonly certCsrKeyParameter?: string;
   /**
   * Certificate ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_replace_certificate_operation#certificate_id SslReplaceCertificateOperation#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_replace_certificate_operation#certificate_id SslReplaceCertificateOperation#certificate_id}
   */
   readonly certificateId: string;
   /**
   * CSR Content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_replace_certificate_operation#csr_content SslReplaceCertificateOperation#csr_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_replace_certificate_operation#csr_content SslReplaceCertificateOperation#csr_content}
   */
   readonly csrContent?: string;
   /**
   * KEY Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_replace_certificate_operation#csr_key_password SslReplaceCertificateOperation#csr_key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_replace_certificate_operation#csr_key_password SslReplaceCertificateOperation#csr_key_password}
   */
   readonly csrKeyPassword?: string;
   /**
   * Type, default Original. Available options: Original = original certificate CSR, Upload = manual upload, Online = online generation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_replace_certificate_operation#csr_type SslReplaceCertificateOperation#csr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_replace_certificate_operation#csr_type SslReplaceCertificateOperation#csr_type}
   */
   readonly csrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_replace_certificate_operation#id SslReplaceCertificateOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_replace_certificate_operation#id SslReplaceCertificateOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,19 +53,19 @@ export interface SslReplaceCertificateOperationConfig extends cdktf.TerraformMet
   /**
   * Reason for reissue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_replace_certificate_operation#reason SslReplaceCertificateOperation#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_replace_certificate_operation#reason SslReplaceCertificateOperation#reason}
   */
   readonly reason?: string;
   /**
   * Verification type: DNS_AUTO = automatic DNS verification (this verification type is only supported for domain names that are resolved by Tencent Cloud and have normal resolution status), DNS = manual DNS verification, FILE = file verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_replace_certificate_operation#valid_type SslReplaceCertificateOperation#valid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_replace_certificate_operation#valid_type SslReplaceCertificateOperation#valid_type}
   */
   readonly validType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_replace_certificate_operation tencentcloud_ssl_replace_certificate_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_replace_certificate_operation tencentcloud_ssl_replace_certificate_operation}
 */
 export class SslReplaceCertificateOperation extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class SslReplaceCertificateOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SslReplaceCertificateOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslReplaceCertificateOperation to import
-  * @param importFromId The id of the existing SslReplaceCertificateOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_replace_certificate_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslReplaceCertificateOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_replace_certificate_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslReplaceCertificateOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class SslReplaceCertificateOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_replace_certificate_operation tencentcloud_ssl_replace_certificate_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_replace_certificate_operation tencentcloud_ssl_replace_certificate_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class SslReplaceCertificateOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ssl_replace_certificate_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

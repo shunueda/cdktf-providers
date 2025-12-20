@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_ondemand
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_ondemand
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterOnoffOndemandConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_ondemand#cluster_id ClusterOnoffOndemand#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_ondemand#cluster_id ClusterOnoffOndemand#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_ondemand#organization_id ClusterOnoffOndemand#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_ondemand#organization_id ClusterOnoffOndemand#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_ondemand#project_id ClusterOnoffOndemand#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_ondemand#project_id ClusterOnoffOndemand#project_id}
   */
   readonly projectId: string;
   /**
-  * State of the cluster. It can be `on` and `off`.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_ondemand#state ClusterOnoffOndemand#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_ondemand#state ClusterOnoffOndemand#state}
   */
   readonly state: string;
   /**
-  *  Whether to turn on the linked App Service when the cluster is turned on.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_ondemand#turn_on_linked_app_service ClusterOnoffOndemand#turn_on_linked_app_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_ondemand#turn_on_linked_app_service ClusterOnoffOndemand#turn_on_linked_app_service}
   */
   readonly turnOnLinkedAppService?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_ondemand couchbase-capella_cluster_onoff_ondemand}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_ondemand couchbase-capella_cluster_onoff_ondemand}
 */
 export class ClusterOnoffOndemand extends cdktf.TerraformResource {
 
@@ -56,7 +46,7 @@ export class ClusterOnoffOndemand extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterOnoffOndemand resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterOnoffOndemand to import
-  * @param importFromId The id of the existing ClusterOnoffOndemand that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_ondemand#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterOnoffOndemand that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_ondemand#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterOnoffOndemand to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +58,7 @@ export class ClusterOnoffOndemand extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_ondemand couchbase-capella_cluster_onoff_ondemand} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_ondemand couchbase-capella_cluster_onoff_ondemand} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +69,8 @@ export class ClusterOnoffOndemand extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_cluster_onoff_ondemand',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

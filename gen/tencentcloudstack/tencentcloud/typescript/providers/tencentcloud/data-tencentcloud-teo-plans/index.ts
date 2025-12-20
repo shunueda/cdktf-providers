@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/teo_plans
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/teo_plans
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudTeoPlansConfig extends cdktf.TerraformMetaArgum
   /**
   * Sorting direction, the possible values are: <li>asc: sort from small to large; </li><li>desc: sort from large to small. </li>If not filled in, the default value desc will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/teo_plans#direction DataTencentcloudTeoPlans#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/teo_plans#direction DataTencentcloudTeoPlans#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/teo_plans#id DataTencentcloudTeoPlans#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/teo_plans#id DataTencentcloudTeoPlans#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudTeoPlansConfig extends cdktf.TerraformMetaArgum
   /**
   * Sorting field, the values are: <li> enable-time: effective time; </li><li> expire-time: expiration time. </li> If not filled in, the default value enable-time will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/teo_plans#order DataTencentcloudTeoPlans#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/teo_plans#order DataTencentcloudTeoPlans#order}
   */
   readonly order?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/teo_plans#result_output_file DataTencentcloudTeoPlans#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/teo_plans#result_output_file DataTencentcloudTeoPlans#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/teo_plans#filters DataTencentcloudTeoPlans#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/teo_plans#filters DataTencentcloudTeoPlans#filters}
   */
   readonly filters?: DataTencentcloudTeoPlansFilters[] | cdktf.IResolvable;
 }
@@ -294,13 +294,13 @@ export interface DataTencentcloudTeoPlansFilters {
   /**
   * Filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/teo_plans#name DataTencentcloudTeoPlans#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/teo_plans#name DataTencentcloudTeoPlans#name}
   */
   readonly name: string;
   /**
   * Filter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/teo_plans#values DataTencentcloudTeoPlans#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/teo_plans#values DataTencentcloudTeoPlans#values}
   */
   readonly values: string[];
 }
@@ -439,7 +439,7 @@ export class DataTencentcloudTeoPlansFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/teo_plans tencentcloud_teo_plans}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/teo_plans tencentcloud_teo_plans}
 */
 export class DataTencentcloudTeoPlans extends cdktf.TerraformDataSource {
 
@@ -455,7 +455,7 @@ export class DataTencentcloudTeoPlans extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudTeoPlans resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTeoPlans to import
-  * @param importFromId The id of the existing DataTencentcloudTeoPlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/teo_plans#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTeoPlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/teo_plans#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTeoPlans to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -467,7 +467,7 @@ export class DataTencentcloudTeoPlans extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/teo_plans tencentcloud_teo_plans} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/teo_plans tencentcloud_teo_plans} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -478,8 +478,8 @@ export class DataTencentcloudTeoPlans extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_teo_plans',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

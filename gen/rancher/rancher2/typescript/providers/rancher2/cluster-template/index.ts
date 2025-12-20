@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ClusterTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#annotations ClusterTemplate#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#annotations ClusterTemplate#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Cluster template description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#description ClusterTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#description ClusterTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#id ClusterTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#id ClusterTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface ClusterTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#labels ClusterTemplate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#labels ClusterTemplate#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Cluster template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#name ClusterTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#name ClusterTemplate#name}
   */
   readonly name: string;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#members ClusterTemplate#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#members ClusterTemplate#members}
   */
   readonly members?: ClusterTemplateMembers[] | cdktf.IResolvable;
   /**
   * template_revisions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#template_revisions ClusterTemplate#template_revisions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#template_revisions ClusterTemplate#template_revisions}
   */
   readonly templateRevisions?: ClusterTemplateTemplateRevisions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#timeouts ClusterTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#timeouts ClusterTemplate#timeouts}
   */
   readonly timeouts?: ClusterTemplateTimeouts;
 }
@@ -61,19 +61,19 @@ export interface ClusterTemplateMembers {
   /**
   * Member access type: member, owner, read-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#access_type ClusterTemplate#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#access_type ClusterTemplate#access_type}
   */
   readonly accessType?: string;
   /**
   * Member group principal id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#group_principal_id ClusterTemplate#group_principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#group_principal_id ClusterTemplate#group_principal_id}
   */
   readonly groupPrincipalId?: string;
   /**
   * Member user principal id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#user_principal_id ClusterTemplate#user_principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#user_principal_id ClusterTemplate#user_principal_id}
   */
   readonly userPrincipalId?: string;
 }
@@ -247,15 +247,15 @@ export class ClusterTemplateMembersList extends cdktf.ComplexList {
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigClusterAuthEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ca_certs ClusterTemplate#ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ca_certs ClusterTemplate#ca_certs}
   */
   readonly caCerts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#enabled ClusterTemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#enabled ClusterTemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#fqdn ClusterTemplate#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#fqdn ClusterTemplate#fqdn}
   */
   readonly fqdn?: string;
 }
@@ -397,11 +397,11 @@ export class ClusterTemplateTemplateRevisionsClusterConfigClusterAuthEndpointOut
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#sans ClusterTemplate#sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#sans ClusterTemplate#sans}
   */
   readonly sans?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#strategy ClusterTemplate#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#strategy ClusterTemplate#strategy}
   */
   readonly strategy?: string;
 }
@@ -514,11 +514,11 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigAuthenticatio
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigAuthorization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#mode ClusterTemplate#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#mode ClusterTemplate#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#options ClusterTemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#options ClusterTemplate#options}
   */
   readonly options?: { [key: string]: string };
 }
@@ -631,27 +631,27 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigAuthorization
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigBastionHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#address ClusterTemplate#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#address ClusterTemplate#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#port ClusterTemplate#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#port ClusterTemplate#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ssh_agent_auth ClusterTemplate#ssh_agent_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ssh_agent_auth ClusterTemplate#ssh_agent_auth}
   */
   readonly sshAgentAuth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ssh_key ClusterTemplate#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ssh_key ClusterTemplate#ssh_key}
   */
   readonly sshKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ssh_key_path ClusterTemplate#ssh_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ssh_key_path ClusterTemplate#ssh_key_path}
   */
   readonly sshKeyPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#user ClusterTemplate#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#user ClusterTemplate#user}
   */
   readonly user: string;
 }
@@ -874,43 +874,43 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigBastionHostOu
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderAwsCloudProviderGlobal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#disable_security_group_ingress ClusterTemplate#disable_security_group_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#disable_security_group_ingress ClusterTemplate#disable_security_group_ingress}
   */
   readonly disableSecurityGroupIngress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#disable_strict_zone_check ClusterTemplate#disable_strict_zone_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#disable_strict_zone_check ClusterTemplate#disable_strict_zone_check}
   */
   readonly disableStrictZoneCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#elb_security_group ClusterTemplate#elb_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#elb_security_group ClusterTemplate#elb_security_group}
   */
   readonly elbSecurityGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#kubernetes_cluster_id ClusterTemplate#kubernetes_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#kubernetes_cluster_id ClusterTemplate#kubernetes_cluster_id}
   */
   readonly kubernetesClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#kubernetes_cluster_tag ClusterTemplate#kubernetes_cluster_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#kubernetes_cluster_tag ClusterTemplate#kubernetes_cluster_tag}
   */
   readonly kubernetesClusterTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#role_arn ClusterTemplate#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#role_arn ClusterTemplate#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#route_table_id ClusterTemplate#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#route_table_id ClusterTemplate#route_table_id}
   */
   readonly routeTableId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#subnet_id ClusterTemplate#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#subnet_id ClusterTemplate#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#vpc ClusterTemplate#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#vpc ClusterTemplate#vpc}
   */
   readonly vpc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#zone ClusterTemplate#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#zone ClusterTemplate#zone}
   */
   readonly zone?: string;
 }
@@ -1255,27 +1255,27 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderAwsCloudProviderServiceOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#region ClusterTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#region ClusterTemplate#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#service ClusterTemplate#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#service ClusterTemplate#service}
   */
   readonly service: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#signing_method ClusterTemplate#signing_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#signing_method ClusterTemplate#signing_method}
   */
   readonly signingMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#signing_name ClusterTemplate#signing_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#signing_name ClusterTemplate#signing_name}
   */
   readonly signingName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#signing_region ClusterTemplate#signing_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#signing_region ClusterTemplate#signing_region}
   */
   readonly signingRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#url ClusterTemplate#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#url ClusterTemplate#url}
   */
   readonly url?: string;
 }
@@ -1535,13 +1535,13 @@ export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProv
   /**
   * global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#global ClusterTemplate#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#global ClusterTemplate#global}
   */
   readonly global?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderAwsCloudProviderGlobal;
   /**
   * service_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#service_override ClusterTemplate#service_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#service_override ClusterTemplate#service_override}
   */
   readonly serviceOverride?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderAwsCloudProviderServiceOverride[] | cdktf.IResolvable;
 }
@@ -1654,121 +1654,121 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderAzureCloudProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#aad_client_cert_password ClusterTemplate#aad_client_cert_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#aad_client_cert_password ClusterTemplate#aad_client_cert_password}
   */
   readonly aadClientCertPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#aad_client_cert_path ClusterTemplate#aad_client_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#aad_client_cert_path ClusterTemplate#aad_client_cert_path}
   */
   readonly aadClientCertPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#aad_client_id ClusterTemplate#aad_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#aad_client_id ClusterTemplate#aad_client_id}
   */
   readonly aadClientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#aad_client_secret ClusterTemplate#aad_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#aad_client_secret ClusterTemplate#aad_client_secret}
   */
   readonly aadClientSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cloud ClusterTemplate#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cloud ClusterTemplate#cloud}
   */
   readonly cloud?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cloud_provider_backoff ClusterTemplate#cloud_provider_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cloud_provider_backoff ClusterTemplate#cloud_provider_backoff}
   */
   readonly cloudProviderBackoff?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cloud_provider_backoff_duration ClusterTemplate#cloud_provider_backoff_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cloud_provider_backoff_duration ClusterTemplate#cloud_provider_backoff_duration}
   */
   readonly cloudProviderBackoffDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cloud_provider_backoff_exponent ClusterTemplate#cloud_provider_backoff_exponent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cloud_provider_backoff_exponent ClusterTemplate#cloud_provider_backoff_exponent}
   */
   readonly cloudProviderBackoffExponent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cloud_provider_backoff_jitter ClusterTemplate#cloud_provider_backoff_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cloud_provider_backoff_jitter ClusterTemplate#cloud_provider_backoff_jitter}
   */
   readonly cloudProviderBackoffJitter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cloud_provider_backoff_retries ClusterTemplate#cloud_provider_backoff_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cloud_provider_backoff_retries ClusterTemplate#cloud_provider_backoff_retries}
   */
   readonly cloudProviderBackoffRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cloud_provider_rate_limit ClusterTemplate#cloud_provider_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cloud_provider_rate_limit ClusterTemplate#cloud_provider_rate_limit}
   */
   readonly cloudProviderRateLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cloud_provider_rate_limit_bucket ClusterTemplate#cloud_provider_rate_limit_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cloud_provider_rate_limit_bucket ClusterTemplate#cloud_provider_rate_limit_bucket}
   */
   readonly cloudProviderRateLimitBucket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cloud_provider_rate_limit_qps ClusterTemplate#cloud_provider_rate_limit_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cloud_provider_rate_limit_qps ClusterTemplate#cloud_provider_rate_limit_qps}
   */
   readonly cloudProviderRateLimitQps?: number;
   /**
   * Load balancer type (basic | standard). Must be standard for auto-scaling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#load_balancer_sku ClusterTemplate#load_balancer_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#load_balancer_sku ClusterTemplate#load_balancer_sku}
   */
   readonly loadBalancerSku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#location ClusterTemplate#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#location ClusterTemplate#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#maximum_load_balancer_rule_count ClusterTemplate#maximum_load_balancer_rule_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#maximum_load_balancer_rule_count ClusterTemplate#maximum_load_balancer_rule_count}
   */
   readonly maximumLoadBalancerRuleCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#primary_availability_set_name ClusterTemplate#primary_availability_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#primary_availability_set_name ClusterTemplate#primary_availability_set_name}
   */
   readonly primaryAvailabilitySetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#primary_scale_set_name ClusterTemplate#primary_scale_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#primary_scale_set_name ClusterTemplate#primary_scale_set_name}
   */
   readonly primaryScaleSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#resource_group ClusterTemplate#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#resource_group ClusterTemplate#resource_group}
   */
   readonly resourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#route_table_name ClusterTemplate#route_table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#route_table_name ClusterTemplate#route_table_name}
   */
   readonly routeTableName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#security_group_name ClusterTemplate#security_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#security_group_name ClusterTemplate#security_group_name}
   */
   readonly securityGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#subnet_name ClusterTemplate#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#subnet_name ClusterTemplate#subnet_name}
   */
   readonly subnetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#subscription_id ClusterTemplate#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#subscription_id ClusterTemplate#subscription_id}
   */
   readonly subscriptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#tenant_id ClusterTemplate#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#tenant_id ClusterTemplate#tenant_id}
   */
   readonly tenantId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#use_instance_metadata ClusterTemplate#use_instance_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#use_instance_metadata ClusterTemplate#use_instance_metadata}
   */
   readonly useInstanceMetadata?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#use_managed_identity_extension ClusterTemplate#use_managed_identity_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#use_managed_identity_extension ClusterTemplate#use_managed_identity_extension}
   */
   readonly useManagedIdentityExtension?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#vm_type ClusterTemplate#vm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#vm_type ClusterTemplate#vm_type}
   */
   readonly vmType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#vnet_name ClusterTemplate#vnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#vnet_name ClusterTemplate#vnet_name}
   */
   readonly vnetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#vnet_resource_group ClusterTemplate#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#vnet_resource_group ClusterTemplate#vnet_resource_group}
   */
   readonly vnetResourceGroup?: string;
 }
@@ -2652,15 +2652,15 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderOpenstackCloudProviderBlockStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#bs_version ClusterTemplate#bs_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#bs_version ClusterTemplate#bs_version}
   */
   readonly bsVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ignore_volume_az ClusterTemplate#ignore_volume_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ignore_volume_az ClusterTemplate#ignore_volume_az}
   */
   readonly ignoreVolumeAz?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#trust_device_path ClusterTemplate#trust_device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#trust_device_path ClusterTemplate#trust_device_path}
   */
   readonly trustDevicePath?: boolean | cdktf.IResolvable;
 }
@@ -2802,43 +2802,43 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderOpenstackCloudProviderGlobal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#auth_url ClusterTemplate#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#auth_url ClusterTemplate#auth_url}
   */
   readonly authUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ca_file ClusterTemplate#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ca_file ClusterTemplate#ca_file}
   */
   readonly caFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#domain_id ClusterTemplate#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#domain_id ClusterTemplate#domain_id}
   */
   readonly domainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#domain_name ClusterTemplate#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#domain_name ClusterTemplate#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#password ClusterTemplate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#password ClusterTemplate#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#region ClusterTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#region ClusterTemplate#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#tenant_id ClusterTemplate#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#tenant_id ClusterTemplate#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#tenant_name ClusterTemplate#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#tenant_name ClusterTemplate#tenant_name}
   */
   readonly tenantName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#trust_id ClusterTemplate#trust_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#trust_id ClusterTemplate#trust_id}
   */
   readonly trustId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#username ClusterTemplate#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#username ClusterTemplate#username}
   */
   readonly username: string;
 }
@@ -3174,47 +3174,47 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderOpenstackCloudProviderLoadBalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#create_monitor ClusterTemplate#create_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#create_monitor ClusterTemplate#create_monitor}
   */
   readonly createMonitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#floating_network_id ClusterTemplate#floating_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#floating_network_id ClusterTemplate#floating_network_id}
   */
   readonly floatingNetworkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#lb_method ClusterTemplate#lb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#lb_method ClusterTemplate#lb_method}
   */
   readonly lbMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#lb_provider ClusterTemplate#lb_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#lb_provider ClusterTemplate#lb_provider}
   */
   readonly lbProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#lb_version ClusterTemplate#lb_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#lb_version ClusterTemplate#lb_version}
   */
   readonly lbVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#manage_security_groups ClusterTemplate#manage_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#manage_security_groups ClusterTemplate#manage_security_groups}
   */
   readonly manageSecurityGroups?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#monitor_delay ClusterTemplate#monitor_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#monitor_delay ClusterTemplate#monitor_delay}
   */
   readonly monitorDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#monitor_max_retries ClusterTemplate#monitor_max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#monitor_max_retries ClusterTemplate#monitor_max_retries}
   */
   readonly monitorMaxRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#monitor_timeout ClusterTemplate#monitor_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#monitor_timeout ClusterTemplate#monitor_timeout}
   */
   readonly monitorTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#subnet_id ClusterTemplate#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#subnet_id ClusterTemplate#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#use_octavia ClusterTemplate#use_octavia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#use_octavia ClusterTemplate#use_octavia}
   */
   readonly useOctavia?: boolean | cdktf.IResolvable;
 }
@@ -3588,11 +3588,11 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderOpenstackCloudProviderMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#request_timeout ClusterTemplate#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#request_timeout ClusterTemplate#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#search_order ClusterTemplate#search_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#search_order ClusterTemplate#search_order}
   */
   readonly searchOrder?: string;
 }
@@ -3705,7 +3705,7 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderOpenstackCloudProviderRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#router_id ClusterTemplate#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#router_id ClusterTemplate#router_id}
   */
   readonly routerId?: string;
 }
@@ -3791,31 +3791,31 @@ export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProv
   /**
   * block_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#block_storage ClusterTemplate#block_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#block_storage ClusterTemplate#block_storage}
   */
   readonly blockStorage?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderOpenstackCloudProviderBlockStorage;
   /**
   * global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#global ClusterTemplate#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#global ClusterTemplate#global}
   */
   readonly global: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderOpenstackCloudProviderGlobal;
   /**
   * load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#load_balancer ClusterTemplate#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#load_balancer ClusterTemplate#load_balancer}
   */
   readonly loadBalancer?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderOpenstackCloudProviderLoadBalancer;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#metadata ClusterTemplate#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#metadata ClusterTemplate#metadata}
   */
   readonly metadata?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderOpenstackCloudProviderMetadata;
   /**
   * route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#route ClusterTemplate#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#route ClusterTemplate#route}
   */
   readonly route?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderOpenstackCloudProviderRoute;
 }
@@ -4012,7 +4012,7 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderVsphereCloudProviderDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#scsi_controller_type ClusterTemplate#scsi_controller_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#scsi_controller_type ClusterTemplate#scsi_controller_type}
   */
   readonly scsiControllerType?: string;
 }
@@ -4096,31 +4096,31 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderVsphereCloudProviderGlobal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#datacenters ClusterTemplate#datacenters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#datacenters ClusterTemplate#datacenters}
   */
   readonly datacenters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#graceful_shutdown_timeout ClusterTemplate#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#graceful_shutdown_timeout ClusterTemplate#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#insecure_flag ClusterTemplate#insecure_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#insecure_flag ClusterTemplate#insecure_flag}
   */
   readonly insecureFlag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#password ClusterTemplate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#password ClusterTemplate#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#port ClusterTemplate#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#port ClusterTemplate#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#soap_roundtrip_count ClusterTemplate#soap_roundtrip_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#soap_roundtrip_count ClusterTemplate#soap_roundtrip_count}
   */
   readonly soapRoundtripCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#user ClusterTemplate#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#user ClusterTemplate#user}
   */
   readonly user?: string;
 }
@@ -4378,7 +4378,7 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderVsphereCloudProviderNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#public_network ClusterTemplate#public_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#public_network ClusterTemplate#public_network}
   */
   readonly publicNetwork?: string;
 }
@@ -4462,27 +4462,27 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderVsphereCloudProviderVirtualCenter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#datacenters ClusterTemplate#datacenters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#datacenters ClusterTemplate#datacenters}
   */
   readonly datacenters: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#name ClusterTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#name ClusterTemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#password ClusterTemplate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#password ClusterTemplate#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#port ClusterTemplate#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#port ClusterTemplate#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#soap_roundtrip_count ClusterTemplate#soap_roundtrip_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#soap_roundtrip_count ClusterTemplate#soap_roundtrip_count}
   */
   readonly soapRoundtripCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#user ClusterTemplate#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#user ClusterTemplate#user}
   */
   readonly user: string;
 }
@@ -4731,23 +4731,23 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderVsphereCloudProviderWorkspace {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#datacenter ClusterTemplate#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#datacenter ClusterTemplate#datacenter}
   */
   readonly datacenter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#default_datastore ClusterTemplate#default_datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#default_datastore ClusterTemplate#default_datastore}
   */
   readonly defaultDatastore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#folder ClusterTemplate#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#folder ClusterTemplate#folder}
   */
   readonly folder: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#resourcepool_path ClusterTemplate#resourcepool_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#resourcepool_path ClusterTemplate#resourcepool_path}
   */
   readonly resourcepoolPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#server ClusterTemplate#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#server ClusterTemplate#server}
   */
   readonly server: string;
 }
@@ -4940,31 +4940,31 @@ export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProv
   /**
   * disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#disk ClusterTemplate#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#disk ClusterTemplate#disk}
   */
   readonly disk?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderVsphereCloudProviderDisk;
   /**
   * global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#global ClusterTemplate#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#global ClusterTemplate#global}
   */
   readonly global?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderVsphereCloudProviderGlobal;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#network ClusterTemplate#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#network ClusterTemplate#network}
   */
   readonly network?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderVsphereCloudProviderNetwork;
   /**
   * virtual_center block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#virtual_center ClusterTemplate#virtual_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#virtual_center ClusterTemplate#virtual_center}
   */
   readonly virtualCenter: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderVsphereCloudProviderVirtualCenter[] | cdktf.IResolvable;
   /**
   * workspace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#workspace ClusterTemplate#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#workspace ClusterTemplate#workspace}
   */
   readonly workspace: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderVsphereCloudProviderWorkspace;
 }
@@ -5158,35 +5158,35 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#custom_cloud_provider ClusterTemplate#custom_cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#custom_cloud_provider ClusterTemplate#custom_cloud_provider}
   */
   readonly customCloudProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#name ClusterTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#name ClusterTemplate#name}
   */
   readonly name?: string;
   /**
   * aws_cloud_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#aws_cloud_provider ClusterTemplate#aws_cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#aws_cloud_provider ClusterTemplate#aws_cloud_provider}
   */
   readonly awsCloudProvider?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderAwsCloudProvider;
   /**
   * azure_cloud_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#azure_cloud_provider ClusterTemplate#azure_cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#azure_cloud_provider ClusterTemplate#azure_cloud_provider}
   */
   readonly azureCloudProvider?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderAzureCloudProvider;
   /**
   * openstack_cloud_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#openstack_cloud_provider ClusterTemplate#openstack_cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#openstack_cloud_provider ClusterTemplate#openstack_cloud_provider}
   */
   readonly openstackCloudProvider?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderOpenstackCloudProvider;
   /**
   * vsphere_cloud_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#vsphere_cloud_provider ClusterTemplate#vsphere_cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#vsphere_cloud_provider ClusterTemplate#vsphere_cloud_provider}
   */
   readonly vsphereCloudProvider?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProviderVsphereCloudProvider;
 }
@@ -5415,23 +5415,23 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDnsLinearAutoscalerParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cores_per_replica ClusterTemplate#cores_per_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cores_per_replica ClusterTemplate#cores_per_replica}
   */
   readonly coresPerReplica?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#max ClusterTemplate#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#max ClusterTemplate#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#min ClusterTemplate#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#min ClusterTemplate#min}
   */
   readonly min?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#nodes_per_replica ClusterTemplate#nodes_per_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#nodes_per_replica ClusterTemplate#nodes_per_replica}
   */
   readonly nodesPerReplica?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#prevent_single_point_failure ClusterTemplate#prevent_single_point_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#prevent_single_point_failure ClusterTemplate#prevent_single_point_failure}
   */
   readonly preventSinglePointFailure?: boolean | cdktf.IResolvable;
 }
@@ -5631,13 +5631,13 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDnsLinearAuto
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDnsNodelocal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ip_address ClusterTemplate#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ip_address ClusterTemplate#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Node selector key pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#node_selector ClusterTemplate#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#node_selector ClusterTemplate#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
 }
@@ -5750,23 +5750,23 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDnsNodelocalO
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDnsTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#effect ClusterTemplate#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#effect ClusterTemplate#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#key ClusterTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#key ClusterTemplate#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#operator ClusterTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#operator ClusterTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#seconds ClusterTemplate#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#seconds ClusterTemplate#seconds}
   */
   readonly seconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#value ClusterTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#value ClusterTemplate#value}
   */
   readonly value?: string;
 }
@@ -5997,13 +5997,13 @@ export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDnsUpdate
   /**
   * Rolling update max surge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#max_surge ClusterTemplate#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#max_surge ClusterTemplate#max_surge}
   */
   readonly maxSurge?: number;
   /**
   * Rolling update max unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#max_unavailable ClusterTemplate#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#max_unavailable ClusterTemplate#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -6118,13 +6118,13 @@ export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDnsUpdate
   /**
   * Strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#strategy ClusterTemplate#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#strategy ClusterTemplate#strategy}
   */
   readonly strategy?: string;
   /**
   * rolling_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#rolling_update ClusterTemplate#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#rolling_update ClusterTemplate#rolling_update}
   */
   readonly rollingUpdate?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDnsUpdateStrategyRollingUpdate;
 }
@@ -6237,47 +6237,47 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDnsUpdateStra
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#node_selector ClusterTemplate#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#node_selector ClusterTemplate#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#options ClusterTemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#options ClusterTemplate#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#provider ClusterTemplate#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#provider ClusterTemplate#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#reverse_cidrs ClusterTemplate#reverse_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#reverse_cidrs ClusterTemplate#reverse_cidrs}
   */
   readonly reverseCidrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#upstream_nameservers ClusterTemplate#upstream_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#upstream_nameservers ClusterTemplate#upstream_nameservers}
   */
   readonly upstreamNameservers?: string[];
   /**
   * linear_autoscaler_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#linear_autoscaler_params ClusterTemplate#linear_autoscaler_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#linear_autoscaler_params ClusterTemplate#linear_autoscaler_params}
   */
   readonly linearAutoscalerParams?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDnsLinearAutoscalerParams;
   /**
   * nodelocal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#nodelocal ClusterTemplate#nodelocal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#nodelocal ClusterTemplate#nodelocal}
   */
   readonly nodelocal?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDnsNodelocal;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#tolerations ClusterTemplate#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#tolerations ClusterTemplate#tolerations}
   */
   readonly tolerations?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDnsTolerations[] | cdktf.IResolvable;
   /**
   * update_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#update_strategy ClusterTemplate#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#update_strategy ClusterTemplate#update_strategy}
   */
   readonly updateStrategy?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDnsUpdateStrategy;
 }
@@ -6593,23 +6593,23 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDnsOutputRefe
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigIngressTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#effect ClusterTemplate#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#effect ClusterTemplate#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#key ClusterTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#key ClusterTemplate#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#operator ClusterTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#operator ClusterTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#seconds ClusterTemplate#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#seconds ClusterTemplate#seconds}
   */
   readonly seconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#value ClusterTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#value ClusterTemplate#value}
   */
   readonly value?: string;
 }
@@ -6840,7 +6840,7 @@ export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigIngressUp
   /**
   * Rolling update max unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#max_unavailable ClusterTemplate#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#max_unavailable ClusterTemplate#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -6926,13 +6926,13 @@ export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigIngressUp
   /**
   * Strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#strategy ClusterTemplate#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#strategy ClusterTemplate#strategy}
   */
   readonly strategy?: string;
   /**
   * rolling_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#rolling_update ClusterTemplate#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#rolling_update ClusterTemplate#rolling_update}
   */
   readonly rollingUpdate?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigIngressUpdateStrategyRollingUpdate;
 }
@@ -7045,51 +7045,51 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigIngressUpdate
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigIngress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#default_backend ClusterTemplate#default_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#default_backend ClusterTemplate#default_backend}
   */
   readonly defaultBackend?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#dns_policy ClusterTemplate#dns_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#dns_policy ClusterTemplate#dns_policy}
   */
   readonly dnsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_args ClusterTemplate#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_args ClusterTemplate#extra_args}
   */
   readonly extraArgs?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#http_port ClusterTemplate#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#http_port ClusterTemplate#http_port}
   */
   readonly httpPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#https_port ClusterTemplate#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#https_port ClusterTemplate#https_port}
   */
   readonly httpsPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#network_mode ClusterTemplate#network_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#network_mode ClusterTemplate#network_mode}
   */
   readonly networkMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#node_selector ClusterTemplate#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#node_selector ClusterTemplate#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#options ClusterTemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#options ClusterTemplate#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#provider ClusterTemplate#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#provider ClusterTemplate#provider}
   */
   readonly provider?: string;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#tolerations ClusterTemplate#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#tolerations ClusterTemplate#tolerations}
   */
   readonly tolerations?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigIngressTolerations[] | cdktf.IResolvable;
   /**
   * update_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#update_strategy ClusterTemplate#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#update_strategy ClusterTemplate#update_strategy}
   */
   readonly updateStrategy?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigIngressUpdateStrategy;
 }
@@ -7463,23 +7463,23 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigIngressOutput
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigMonitoringTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#effect ClusterTemplate#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#effect ClusterTemplate#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#key ClusterTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#key ClusterTemplate#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#operator ClusterTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#operator ClusterTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#seconds ClusterTemplate#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#seconds ClusterTemplate#seconds}
   */
   readonly seconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#value ClusterTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#value ClusterTemplate#value}
   */
   readonly value?: string;
 }
@@ -7710,13 +7710,13 @@ export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigMonitorin
   /**
   * Rolling update max surge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#max_surge ClusterTemplate#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#max_surge ClusterTemplate#max_surge}
   */
   readonly maxSurge?: number;
   /**
   * Rolling update max unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#max_unavailable ClusterTemplate#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#max_unavailable ClusterTemplate#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -7831,13 +7831,13 @@ export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigMonitorin
   /**
   * Strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#strategy ClusterTemplate#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#strategy ClusterTemplate#strategy}
   */
   readonly strategy?: string;
   /**
   * rolling_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#rolling_update ClusterTemplate#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#rolling_update ClusterTemplate#rolling_update}
   */
   readonly rollingUpdate?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigMonitoringUpdateStrategyRollingUpdate;
 }
@@ -7950,31 +7950,31 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigMonitoringUpd
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigMonitoring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#node_selector ClusterTemplate#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#node_selector ClusterTemplate#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#options ClusterTemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#options ClusterTemplate#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#provider ClusterTemplate#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#provider ClusterTemplate#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#replicas ClusterTemplate#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#replicas ClusterTemplate#replicas}
   */
   readonly replicas?: number;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#tolerations ClusterTemplate#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#tolerations ClusterTemplate#tolerations}
   */
   readonly tolerations?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigMonitoringTolerations[] | cdktf.IResolvable;
   /**
   * update_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#update_strategy ClusterTemplate#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#update_strategy ClusterTemplate#update_strategy}
   */
   readonly updateStrategy?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigMonitoringUpdateStrategy;
 }
@@ -8203,299 +8203,299 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigMonitoringOut
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkAciNetworkProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#aep ClusterTemplate#aep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#aep ClusterTemplate#aep}
   */
   readonly aep: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#apic_hosts ClusterTemplate#apic_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#apic_hosts ClusterTemplate#apic_hosts}
   */
   readonly apicHosts: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#apic_refresh_ticker_adjust ClusterTemplate#apic_refresh_ticker_adjust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#apic_refresh_ticker_adjust ClusterTemplate#apic_refresh_ticker_adjust}
   */
   readonly apicRefreshTickerAdjust?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#apic_refresh_time ClusterTemplate#apic_refresh_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#apic_refresh_time ClusterTemplate#apic_refresh_time}
   */
   readonly apicRefreshTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#apic_subscription_delay ClusterTemplate#apic_subscription_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#apic_subscription_delay ClusterTemplate#apic_subscription_delay}
   */
   readonly apicSubscriptionDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#apic_user_crt ClusterTemplate#apic_user_crt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#apic_user_crt ClusterTemplate#apic_user_crt}
   */
   readonly apicUserCrt: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#apic_user_key ClusterTemplate#apic_user_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#apic_user_key ClusterTemplate#apic_user_key}
   */
   readonly apicUserKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#apic_user_name ClusterTemplate#apic_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#apic_user_name ClusterTemplate#apic_user_name}
   */
   readonly apicUserName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#capic ClusterTemplate#capic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#capic ClusterTemplate#capic}
   */
   readonly capic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#controller_log_level ClusterTemplate#controller_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#controller_log_level ClusterTemplate#controller_log_level}
   */
   readonly controllerLogLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#disable_periodic_snat_global_info_sync ClusterTemplate#disable_periodic_snat_global_info_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#disable_periodic_snat_global_info_sync ClusterTemplate#disable_periodic_snat_global_info_sync}
   */
   readonly disablePeriodicSnatGlobalInfoSync?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#disable_wait_for_network ClusterTemplate#disable_wait_for_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#disable_wait_for_network ClusterTemplate#disable_wait_for_network}
   */
   readonly disableWaitForNetwork?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#drop_log_enable ClusterTemplate#drop_log_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#drop_log_enable ClusterTemplate#drop_log_enable}
   */
   readonly dropLogEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#duration_wait_for_network ClusterTemplate#duration_wait_for_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#duration_wait_for_network ClusterTemplate#duration_wait_for_network}
   */
   readonly durationWaitForNetwork?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#enable_endpoint_slice ClusterTemplate#enable_endpoint_slice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#enable_endpoint_slice ClusterTemplate#enable_endpoint_slice}
   */
   readonly enableEndpointSlice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#encap_type ClusterTemplate#encap_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#encap_type ClusterTemplate#encap_type}
   */
   readonly encapType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ep_registry ClusterTemplate#ep_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ep_registry ClusterTemplate#ep_registry}
   */
   readonly epRegistry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extern_dynamic ClusterTemplate#extern_dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extern_dynamic ClusterTemplate#extern_dynamic}
   */
   readonly externDynamic: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extern_static ClusterTemplate#extern_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extern_static ClusterTemplate#extern_static}
   */
   readonly externStatic: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#gbp_pod_subnet ClusterTemplate#gbp_pod_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#gbp_pod_subnet ClusterTemplate#gbp_pod_subnet}
   */
   readonly gbpPodSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#host_agent_log_level ClusterTemplate#host_agent_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#host_agent_log_level ClusterTemplate#host_agent_log_level}
   */
   readonly hostAgentLogLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#image_pull_policy ClusterTemplate#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#image_pull_policy ClusterTemplate#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#image_pull_secret ClusterTemplate#image_pull_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#image_pull_secret ClusterTemplate#image_pull_secret}
   */
   readonly imagePullSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#infra_vlan ClusterTemplate#infra_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#infra_vlan ClusterTemplate#infra_vlan}
   */
   readonly infraVlan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#install_istio ClusterTemplate#install_istio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#install_istio ClusterTemplate#install_istio}
   */
   readonly installIstio?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#istio_profile ClusterTemplate#istio_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#istio_profile ClusterTemplate#istio_profile}
   */
   readonly istioProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#kafka_brokers ClusterTemplate#kafka_brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#kafka_brokers ClusterTemplate#kafka_brokers}
   */
   readonly kafkaBrokers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#kafka_client_crt ClusterTemplate#kafka_client_crt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#kafka_client_crt ClusterTemplate#kafka_client_crt}
   */
   readonly kafkaClientCrt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#kafka_client_key ClusterTemplate#kafka_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#kafka_client_key ClusterTemplate#kafka_client_key}
   */
   readonly kafkaClientKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#kube_api_vlan ClusterTemplate#kube_api_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#kube_api_vlan ClusterTemplate#kube_api_vlan}
   */
   readonly kubeApiVlan: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#l3out ClusterTemplate#l3out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#l3out ClusterTemplate#l3out}
   */
   readonly l3Out: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#l3out_external_networks ClusterTemplate#l3out_external_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#l3out_external_networks ClusterTemplate#l3out_external_networks}
   */
   readonly l3OutExternalNetworks: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#max_nodes_svc_graph ClusterTemplate#max_nodes_svc_graph}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#max_nodes_svc_graph ClusterTemplate#max_nodes_svc_graph}
   */
   readonly maxNodesSvcGraph?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#mcast_range_end ClusterTemplate#mcast_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#mcast_range_end ClusterTemplate#mcast_range_end}
   */
   readonly mcastRangeEnd: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#mcast_range_start ClusterTemplate#mcast_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#mcast_range_start ClusterTemplate#mcast_range_start}
   */
   readonly mcastRangeStart: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#mtu_head_room ClusterTemplate#mtu_head_room}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#mtu_head_room ClusterTemplate#mtu_head_room}
   */
   readonly mtuHeadRoom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#multus_disable ClusterTemplate#multus_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#multus_disable ClusterTemplate#multus_disable}
   */
   readonly multusDisable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#no_priority_class ClusterTemplate#no_priority_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#no_priority_class ClusterTemplate#no_priority_class}
   */
   readonly noPriorityClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#node_pod_if_enable ClusterTemplate#node_pod_if_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#node_pod_if_enable ClusterTemplate#node_pod_if_enable}
   */
   readonly nodePodIfEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#node_subnet ClusterTemplate#node_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#node_subnet ClusterTemplate#node_subnet}
   */
   readonly nodeSubnet: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#node_svc_subnet ClusterTemplate#node_svc_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#node_svc_subnet ClusterTemplate#node_svc_subnet}
   */
   readonly nodeSvcSubnet: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#opflex_client_ssl ClusterTemplate#opflex_client_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#opflex_client_ssl ClusterTemplate#opflex_client_ssl}
   */
   readonly opflexClientSsl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#opflex_device_delete_timeout ClusterTemplate#opflex_device_delete_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#opflex_device_delete_timeout ClusterTemplate#opflex_device_delete_timeout}
   */
   readonly opflexDeviceDeleteTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#opflex_log_level ClusterTemplate#opflex_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#opflex_log_level ClusterTemplate#opflex_log_level}
   */
   readonly opflexLogLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#opflex_mode ClusterTemplate#opflex_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#opflex_mode ClusterTemplate#opflex_mode}
   */
   readonly opflexMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#opflex_server_port ClusterTemplate#opflex_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#opflex_server_port ClusterTemplate#opflex_server_port}
   */
   readonly opflexServerPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#overlay_vrf_name ClusterTemplate#overlay_vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#overlay_vrf_name ClusterTemplate#overlay_vrf_name}
   */
   readonly overlayVrfName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ovs_memory_limit ClusterTemplate#ovs_memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ovs_memory_limit ClusterTemplate#ovs_memory_limit}
   */
   readonly ovsMemoryLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#pbr_tracking_non_snat ClusterTemplate#pbr_tracking_non_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#pbr_tracking_non_snat ClusterTemplate#pbr_tracking_non_snat}
   */
   readonly pbrTrackingNonSnat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#pod_subnet_chunk_size ClusterTemplate#pod_subnet_chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#pod_subnet_chunk_size ClusterTemplate#pod_subnet_chunk_size}
   */
   readonly podSubnetChunkSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#run_gbp_container ClusterTemplate#run_gbp_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#run_gbp_container ClusterTemplate#run_gbp_container}
   */
   readonly runGbpContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#run_opflex_server_container ClusterTemplate#run_opflex_server_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#run_opflex_server_container ClusterTemplate#run_opflex_server_container}
   */
   readonly runOpflexServerContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#service_monitor_interval ClusterTemplate#service_monitor_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#service_monitor_interval ClusterTemplate#service_monitor_interval}
   */
   readonly serviceMonitorInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#service_vlan ClusterTemplate#service_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#service_vlan ClusterTemplate#service_vlan}
   */
   readonly serviceVlan: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#snat_contract_scope ClusterTemplate#snat_contract_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#snat_contract_scope ClusterTemplate#snat_contract_scope}
   */
   readonly snatContractScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#snat_namespace ClusterTemplate#snat_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#snat_namespace ClusterTemplate#snat_namespace}
   */
   readonly snatNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#snat_port_range_end ClusterTemplate#snat_port_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#snat_port_range_end ClusterTemplate#snat_port_range_end}
   */
   readonly snatPortRangeEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#snat_port_range_start ClusterTemplate#snat_port_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#snat_port_range_start ClusterTemplate#snat_port_range_start}
   */
   readonly snatPortRangeStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#snat_ports_per_node ClusterTemplate#snat_ports_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#snat_ports_per_node ClusterTemplate#snat_ports_per_node}
   */
   readonly snatPortsPerNode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#sriov_enable ClusterTemplate#sriov_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#sriov_enable ClusterTemplate#sriov_enable}
   */
   readonly sriovEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#subnet_domain_name ClusterTemplate#subnet_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#subnet_domain_name ClusterTemplate#subnet_domain_name}
   */
   readonly subnetDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#system_id ClusterTemplate#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#system_id ClusterTemplate#system_id}
   */
   readonly systemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#tenant ClusterTemplate#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#tenant ClusterTemplate#tenant}
   */
   readonly tenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#token ClusterTemplate#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#token ClusterTemplate#token}
   */
   readonly token: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#use_aci_anywhere_crd ClusterTemplate#use_aci_anywhere_crd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#use_aci_anywhere_crd ClusterTemplate#use_aci_anywhere_crd}
   */
   readonly useAciAnywhereCrd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#use_aci_cni_priority_class ClusterTemplate#use_aci_cni_priority_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#use_aci_cni_priority_class ClusterTemplate#use_aci_cni_priority_class}
   */
   readonly useAciCniPriorityClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#use_cluster_role ClusterTemplate#use_cluster_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#use_cluster_role ClusterTemplate#use_cluster_role}
   */
   readonly useClusterRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#use_host_netns_volume ClusterTemplate#use_host_netns_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#use_host_netns_volume ClusterTemplate#use_host_netns_volume}
   */
   readonly useHostNetnsVolume?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#use_opflex_server_volume ClusterTemplate#use_opflex_server_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#use_opflex_server_volume ClusterTemplate#use_opflex_server_volume}
   */
   readonly useOpflexServerVolume?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#use_privileged_container ClusterTemplate#use_privileged_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#use_privileged_container ClusterTemplate#use_privileged_container}
   */
   readonly usePrivilegedContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#vmm_controller ClusterTemplate#vmm_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#vmm_controller ClusterTemplate#vmm_controller}
   */
   readonly vmmController?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#vmm_domain ClusterTemplate#vmm_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#vmm_domain ClusterTemplate#vmm_domain}
   */
   readonly vmmDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#vrf_name ClusterTemplate#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#vrf_name ClusterTemplate#vrf_name}
   */
   readonly vrfName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#vrf_tenant ClusterTemplate#vrf_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#vrf_tenant ClusterTemplate#vrf_tenant}
   */
   readonly vrfTenant: string;
 }
@@ -10636,7 +10636,7 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkAciNet
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkCalicoNetworkProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cloud_provider ClusterTemplate#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cloud_provider ClusterTemplate#cloud_provider}
   */
   readonly cloudProvider?: string;
 }
@@ -10720,7 +10720,7 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkCalico
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkCanalNetworkProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#iface ClusterTemplate#iface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#iface ClusterTemplate#iface}
   */
   readonly iface?: string;
 }
@@ -10804,7 +10804,7 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkCanalN
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkFlannelNetworkProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#iface ClusterTemplate#iface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#iface ClusterTemplate#iface}
   */
   readonly iface?: string;
 }
@@ -10888,23 +10888,23 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkFlanne
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#effect ClusterTemplate#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#effect ClusterTemplate#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#key ClusterTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#key ClusterTemplate#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#operator ClusterTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#operator ClusterTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#seconds ClusterTemplate#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#seconds ClusterTemplate#seconds}
   */
   readonly seconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#value ClusterTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#value ClusterTemplate#value}
   */
   readonly value?: string;
 }
@@ -11133,7 +11133,7 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkTolera
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkWeaveNetworkProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#password ClusterTemplate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#password ClusterTemplate#password}
   */
   readonly password: string;
 }
@@ -11214,51 +11214,51 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkWeaveN
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#mtu ClusterTemplate#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#mtu ClusterTemplate#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#options ClusterTemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#options ClusterTemplate#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#plugin ClusterTemplate#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#plugin ClusterTemplate#plugin}
   */
   readonly plugin?: string;
   /**
   * aci_network_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#aci_network_provider ClusterTemplate#aci_network_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#aci_network_provider ClusterTemplate#aci_network_provider}
   */
   readonly aciNetworkProvider?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkAciNetworkProvider;
   /**
   * calico_network_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#calico_network_provider ClusterTemplate#calico_network_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#calico_network_provider ClusterTemplate#calico_network_provider}
   */
   readonly calicoNetworkProvider?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkCalicoNetworkProvider;
   /**
   * canal_network_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#canal_network_provider ClusterTemplate#canal_network_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#canal_network_provider ClusterTemplate#canal_network_provider}
   */
   readonly canalNetworkProvider?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkCanalNetworkProvider;
   /**
   * flannel_network_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#flannel_network_provider ClusterTemplate#flannel_network_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#flannel_network_provider ClusterTemplate#flannel_network_provider}
   */
   readonly flannelNetworkProvider?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkFlannelNetworkProvider;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#tolerations ClusterTemplate#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#tolerations ClusterTemplate#tolerations}
   */
   readonly tolerations?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkTolerations[] | cdktf.IResolvable;
   /**
   * weave_network_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#weave_network_provider ClusterTemplate#weave_network_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#weave_network_provider ClusterTemplate#weave_network_provider}
   */
   readonly weaveNetworkProvider?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkWeaveNetworkProvider;
 }
@@ -11574,51 +11574,51 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetworkOutput
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#address ClusterTemplate#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#address ClusterTemplate#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#docker_socket ClusterTemplate#docker_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#docker_socket ClusterTemplate#docker_socket}
   */
   readonly dockerSocket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#hostname_override ClusterTemplate#hostname_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#hostname_override ClusterTemplate#hostname_override}
   */
   readonly hostnameOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#internal_address ClusterTemplate#internal_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#internal_address ClusterTemplate#internal_address}
   */
   readonly internalAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#labels ClusterTemplate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#labels ClusterTemplate#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#node_id ClusterTemplate#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#node_id ClusterTemplate#node_id}
   */
   readonly nodeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#port ClusterTemplate#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#port ClusterTemplate#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#role ClusterTemplate#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#role ClusterTemplate#role}
   */
   readonly role: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ssh_agent_auth ClusterTemplate#ssh_agent_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ssh_agent_auth ClusterTemplate#ssh_agent_auth}
   */
   readonly sshAgentAuth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ssh_key ClusterTemplate#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ssh_key ClusterTemplate#ssh_key}
   */
   readonly sshKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ssh_key_path ClusterTemplate#ssh_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ssh_key_path ClusterTemplate#ssh_key_path}
   */
   readonly sshKeyPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#user ClusterTemplate#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#user ClusterTemplate#user}
   */
   readonly user: string;
 }
@@ -12044,15 +12044,15 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNodesList ext
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigPrivateRegistriesEcrCredentialPlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#aws_access_key_id ClusterTemplate#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#aws_access_key_id ClusterTemplate#aws_access_key_id}
   */
   readonly awsAccessKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#aws_secret_access_key ClusterTemplate#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#aws_secret_access_key ClusterTemplate#aws_secret_access_key}
   */
   readonly awsSecretAccessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#aws_session_token ClusterTemplate#aws_session_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#aws_session_token ClusterTemplate#aws_session_token}
   */
   readonly awsSessionToken?: string;
 }
@@ -12194,25 +12194,25 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigPrivateRegist
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigPrivateRegistries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#is_default ClusterTemplate#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#is_default ClusterTemplate#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#password ClusterTemplate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#password ClusterTemplate#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#url ClusterTemplate#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#url ClusterTemplate#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#user ClusterTemplate#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#user ClusterTemplate#user}
   */
   readonly user?: string;
   /**
   * ecr_credential_plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ecr_credential_plugin ClusterTemplate#ecr_credential_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ecr_credential_plugin ClusterTemplate#ecr_credential_plugin}
   */
   readonly ecrCredentialPlugin?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigPrivateRegistriesEcrCredentialPlugin;
 }
@@ -12441,31 +12441,31 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigPrivateRegist
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesEtcdBackupConfigS3BackupConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#access_key ClusterTemplate#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#access_key ClusterTemplate#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#bucket_name ClusterTemplate#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#bucket_name ClusterTemplate#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#custom_ca ClusterTemplate#custom_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#custom_ca ClusterTemplate#custom_ca}
   */
   readonly customCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#endpoint ClusterTemplate#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#endpoint ClusterTemplate#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#folder ClusterTemplate#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#folder ClusterTemplate#folder}
   */
   readonly folder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#region ClusterTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#region ClusterTemplate#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#secret_key ClusterTemplate#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#secret_key ClusterTemplate#secret_key}
   */
   readonly secretKey?: string;
 }
@@ -12717,29 +12717,29 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesEtcdB
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesEtcdBackupConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#enabled ClusterTemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#enabled ClusterTemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#interval_hours ClusterTemplate#interval_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#interval_hours ClusterTemplate#interval_hours}
   */
   readonly intervalHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#retention ClusterTemplate#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#retention ClusterTemplate#retention}
   */
   readonly retention?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#safe_timestamp ClusterTemplate#safe_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#safe_timestamp ClusterTemplate#safe_timestamp}
   */
   readonly safeTimestamp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#timeout ClusterTemplate#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#timeout ClusterTemplate#timeout}
   */
   readonly timeout?: number;
   /**
   * s3_backup_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#s3_backup_config ClusterTemplate#s3_backup_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#s3_backup_config ClusterTemplate#s3_backup_config}
   */
   readonly s3BackupConfig?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesEtcdBackupConfigS3BackupConfig;
 }
@@ -12968,65 +12968,65 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesEtcdB
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesEtcd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ca_cert ClusterTemplate#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ca_cert ClusterTemplate#ca_cert}
   */
   readonly caCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cert ClusterTemplate#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cert ClusterTemplate#cert}
   */
   readonly cert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#creation ClusterTemplate#creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#creation ClusterTemplate#creation}
   */
   readonly creation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#external_urls ClusterTemplate#external_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#external_urls ClusterTemplate#external_urls}
   */
   readonly externalUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_args ClusterTemplate#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_args ClusterTemplate#extra_args}
   */
   readonly extraArgs?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_binds ClusterTemplate#extra_binds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_binds ClusterTemplate#extra_binds}
   */
   readonly extraBinds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_env ClusterTemplate#extra_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_env ClusterTemplate#extra_env}
   */
   readonly extraEnv?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#gid ClusterTemplate#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#gid ClusterTemplate#gid}
   */
   readonly gid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#image ClusterTemplate#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#image ClusterTemplate#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#key ClusterTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#key ClusterTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#path ClusterTemplate#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#path ClusterTemplate#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#retention ClusterTemplate#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#retention ClusterTemplate#retention}
   */
   readonly retention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#snapshot ClusterTemplate#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#snapshot ClusterTemplate#snapshot}
   */
   readonly snapshot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#uid ClusterTemplate#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#uid ClusterTemplate#uid}
   */
   readonly uid?: number;
   /**
   * backup_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#backup_config ClusterTemplate#backup_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#backup_config ClusterTemplate#backup_config}
   */
   readonly backupConfig?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesEtcdBackupConfig;
 }
@@ -13518,19 +13518,19 @@ export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesK
   /**
   * Plugin configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#configuration ClusterTemplate#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#configuration ClusterTemplate#configuration}
   */
   readonly configuration?: string;
   /**
   * Plugin name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#name ClusterTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#name ClusterTemplate#name}
   */
   readonly name?: string;
   /**
   * Plugin path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#path ClusterTemplate#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#path ClusterTemplate#path}
   */
   readonly path?: string;
 }
@@ -13706,19 +13706,19 @@ export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesK
   /**
   * Admission configuration ApiVersion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#api_version ClusterTemplate#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#api_version ClusterTemplate#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Admission configuration Kind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#kind ClusterTemplate#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#kind ClusterTemplate#kind}
   */
   readonly kind?: string;
   /**
   * plugins block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#plugins ClusterTemplate#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#plugins ClusterTemplate#plugins}
   */
   readonly plugins?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeApiAdmissionConfigurationPlugins[] | cdktf.IResolvable;
 }
@@ -13860,27 +13860,27 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeA
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeApiAuditLogConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#format ClusterTemplate#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#format ClusterTemplate#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#max_age ClusterTemplate#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#max_age ClusterTemplate#max_age}
   */
   readonly maxAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#max_backup ClusterTemplate#max_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#max_backup ClusterTemplate#max_backup}
   */
   readonly maxBackup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#max_size ClusterTemplate#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#max_size ClusterTemplate#max_size}
   */
   readonly maxSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#path ClusterTemplate#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#path ClusterTemplate#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#policy ClusterTemplate#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#policy ClusterTemplate#policy}
   */
   readonly policy?: string;
 }
@@ -14109,13 +14109,13 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeA
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeApiAuditLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#enabled ClusterTemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#enabled ClusterTemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#configuration ClusterTemplate#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#configuration ClusterTemplate#configuration}
   */
   readonly configuration?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeApiAuditLogConfiguration;
 }
@@ -14228,11 +14228,11 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeA
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeApiEventRateLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#configuration ClusterTemplate#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#configuration ClusterTemplate#configuration}
   */
   readonly configuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#enabled ClusterTemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#enabled ClusterTemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -14345,11 +14345,11 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeA
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeApiSecretsEncryptionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#custom_config ClusterTemplate#custom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#custom_config ClusterTemplate#custom_config}
   */
   readonly customConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#enabled ClusterTemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#enabled ClusterTemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -14462,55 +14462,55 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeA
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#always_pull_images ClusterTemplate#always_pull_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#always_pull_images ClusterTemplate#always_pull_images}
   */
   readonly alwaysPullImages?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_args ClusterTemplate#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_args ClusterTemplate#extra_args}
   */
   readonly extraArgs?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_binds ClusterTemplate#extra_binds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_binds ClusterTemplate#extra_binds}
   */
   readonly extraBinds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_env ClusterTemplate#extra_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_env ClusterTemplate#extra_env}
   */
   readonly extraEnv?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#image ClusterTemplate#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#image ClusterTemplate#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#service_cluster_ip_range ClusterTemplate#service_cluster_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#service_cluster_ip_range ClusterTemplate#service_cluster_ip_range}
   */
   readonly serviceClusterIpRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#service_node_port_range ClusterTemplate#service_node_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#service_node_port_range ClusterTemplate#service_node_port_range}
   */
   readonly serviceNodePortRange?: string;
   /**
   * admission_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#admission_configuration ClusterTemplate#admission_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#admission_configuration ClusterTemplate#admission_configuration}
   */
   readonly admissionConfiguration?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeApiAdmissionConfiguration;
   /**
   * audit_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#audit_log ClusterTemplate#audit_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#audit_log ClusterTemplate#audit_log}
   */
   readonly auditLog?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeApiAuditLog;
   /**
   * event_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#event_rate_limit ClusterTemplate#event_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#event_rate_limit ClusterTemplate#event_rate_limit}
   */
   readonly eventRateLimit?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeApiEventRateLimit;
   /**
   * secrets_encryption_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#secrets_encryption_config ClusterTemplate#secrets_encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#secrets_encryption_config ClusterTemplate#secrets_encryption_config}
   */
   readonly secretsEncryptionConfig?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeApiSecretsEncryptionConfig;
 }
@@ -14884,27 +14884,27 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeA
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cluster_cidr ClusterTemplate#cluster_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cluster_cidr ClusterTemplate#cluster_cidr}
   */
   readonly clusterCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_args ClusterTemplate#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_args ClusterTemplate#extra_args}
   */
   readonly extraArgs?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_binds ClusterTemplate#extra_binds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_binds ClusterTemplate#extra_binds}
   */
   readonly extraBinds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_env ClusterTemplate#extra_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_env ClusterTemplate#extra_env}
   */
   readonly extraEnv?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#image ClusterTemplate#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#image ClusterTemplate#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#service_cluster_ip_range ClusterTemplate#service_cluster_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#service_cluster_ip_range ClusterTemplate#service_cluster_ip_range}
   */
   readonly serviceClusterIpRange?: string;
 }
@@ -15133,39 +15133,39 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeC
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubelet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cluster_dns_server ClusterTemplate#cluster_dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cluster_dns_server ClusterTemplate#cluster_dns_server}
   */
   readonly clusterDnsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cluster_domain ClusterTemplate#cluster_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cluster_domain ClusterTemplate#cluster_domain}
   */
   readonly clusterDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_args ClusterTemplate#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_args ClusterTemplate#extra_args}
   */
   readonly extraArgs?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_binds ClusterTemplate#extra_binds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_binds ClusterTemplate#extra_binds}
   */
   readonly extraBinds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_env ClusterTemplate#extra_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_env ClusterTemplate#extra_env}
   */
   readonly extraEnv?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#fail_swap_on ClusterTemplate#fail_swap_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#fail_swap_on ClusterTemplate#fail_swap_on}
   */
   readonly failSwapOn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#generate_serving_certificate ClusterTemplate#generate_serving_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#generate_serving_certificate ClusterTemplate#generate_serving_certificate}
   */
   readonly generateServingCertificate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#image ClusterTemplate#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#image ClusterTemplate#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#infra_container_image ClusterTemplate#infra_container_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#infra_container_image ClusterTemplate#infra_container_image}
   */
   readonly infraContainerImage?: string;
 }
@@ -15481,19 +15481,19 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubel
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeproxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_args ClusterTemplate#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_args ClusterTemplate#extra_args}
   */
   readonly extraArgs?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_binds ClusterTemplate#extra_binds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_binds ClusterTemplate#extra_binds}
   */
   readonly extraBinds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_env ClusterTemplate#extra_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_env ClusterTemplate#extra_env}
   */
   readonly extraEnv?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#image ClusterTemplate#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#image ClusterTemplate#image}
   */
   readonly image?: string;
 }
@@ -15664,19 +15664,19 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubep
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesScheduler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_args ClusterTemplate#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_args ClusterTemplate#extra_args}
   */
   readonly extraArgs?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_binds ClusterTemplate#extra_binds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_binds ClusterTemplate#extra_binds}
   */
   readonly extraBinds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#extra_env ClusterTemplate#extra_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#extra_env ClusterTemplate#extra_env}
   */
   readonly extraEnv?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#image ClusterTemplate#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#image ClusterTemplate#image}
   */
   readonly image?: string;
 }
@@ -15849,37 +15849,37 @@ export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServices 
   /**
   * etcd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#etcd ClusterTemplate#etcd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#etcd ClusterTemplate#etcd}
   */
   readonly etcd?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesEtcd;
   /**
   * kube_api block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#kube_api ClusterTemplate#kube_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#kube_api ClusterTemplate#kube_api}
   */
   readonly kubeApi?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeApi;
   /**
   * kube_controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#kube_controller ClusterTemplate#kube_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#kube_controller ClusterTemplate#kube_controller}
   */
   readonly kubeController?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeController;
   /**
   * kubelet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#kubelet ClusterTemplate#kubelet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#kubelet ClusterTemplate#kubelet}
   */
   readonly kubelet?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubelet;
   /**
   * kubeproxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#kubeproxy ClusterTemplate#kubeproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#kubeproxy ClusterTemplate#kubeproxy}
   */
   readonly kubeproxy?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesKubeproxy;
   /**
   * scheduler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#scheduler ClusterTemplate#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#scheduler ClusterTemplate#scheduler}
   */
   readonly scheduler?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesScheduler;
 }
@@ -16108,23 +16108,23 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServicesOutpu
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigUpgradeStrategyDrainInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#delete_local_data ClusterTemplate#delete_local_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#delete_local_data ClusterTemplate#delete_local_data}
   */
   readonly deleteLocalData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#force ClusterTemplate#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#force ClusterTemplate#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#grace_period ClusterTemplate#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#grace_period ClusterTemplate#grace_period}
   */
   readonly gracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ignore_daemon_sets ClusterTemplate#ignore_daemon_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ignore_daemon_sets ClusterTemplate#ignore_daemon_sets}
   */
   readonly ignoreDaemonSets?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#timeout ClusterTemplate#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#timeout ClusterTemplate#timeout}
   */
   readonly timeout?: number;
 }
@@ -16324,21 +16324,21 @@ export class ClusterTemplateTemplateRevisionsClusterConfigRkeConfigUpgradeStrate
 }
 export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfigUpgradeStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#drain ClusterTemplate#drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#drain ClusterTemplate#drain}
   */
   readonly drain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#max_unavailable_controlplane ClusterTemplate#max_unavailable_controlplane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#max_unavailable_controlplane ClusterTemplate#max_unavailable_controlplane}
   */
   readonly maxUnavailableControlplane?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#max_unavailable_worker ClusterTemplate#max_unavailable_worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#max_unavailable_worker ClusterTemplate#max_unavailable_worker}
   */
   readonly maxUnavailableWorker?: string;
   /**
   * drain_input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#drain_input ClusterTemplate#drain_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#drain_input ClusterTemplate#drain_input}
   */
   readonly drainInput?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigUpgradeStrategyDrainInput;
 }
@@ -16511,139 +16511,139 @@ export interface ClusterTemplateTemplateRevisionsClusterConfigRkeConfig {
   /**
   * Optional duration in seconds of addon job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#addon_job_timeout ClusterTemplate#addon_job_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#addon_job_timeout ClusterTemplate#addon_job_timeout}
   */
   readonly addonJobTimeout?: number;
   /**
   * Optional addons descripton to deploy on rke cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#addons ClusterTemplate#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#addons ClusterTemplate#addons}
   */
   readonly addons?: string;
   /**
   * Optional addons yaml manisfest to deploy on rke cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#addons_include ClusterTemplate#addons_include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#addons_include ClusterTemplate#addons_include}
   */
   readonly addonsInclude?: string[];
   /**
   * Enable/disable using cri-dockerd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#enable_cri_dockerd ClusterTemplate#enable_cri_dockerd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#enable_cri_dockerd ClusterTemplate#enable_cri_dockerd}
   */
   readonly enableCriDockerd?: boolean | cdktf.IResolvable;
   /**
   * Optional ignore docker version on nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ignore_docker_version ClusterTemplate#ignore_docker_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ignore_docker_version ClusterTemplate#ignore_docker_version}
   */
   readonly ignoreDockerVersion?: boolean | cdktf.IResolvable;
   /**
   * Optional kubernetes version to deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#kubernetes_version ClusterTemplate#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#kubernetes_version ClusterTemplate#kubernetes_version}
   */
   readonly kubernetesVersion?: string;
   /**
   * Optional prefix to customize kubernetes path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#prefix_path ClusterTemplate#prefix_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#prefix_path ClusterTemplate#prefix_path}
   */
   readonly prefixPath?: string;
   /**
   * Optional use ssh agent auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ssh_agent_auth ClusterTemplate#ssh_agent_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ssh_agent_auth ClusterTemplate#ssh_agent_auth}
   */
   readonly sshAgentAuth?: boolean | cdktf.IResolvable;
   /**
   * Optional cluster level SSH certificate path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ssh_cert_path ClusterTemplate#ssh_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ssh_cert_path ClusterTemplate#ssh_cert_path}
   */
   readonly sshCertPath?: string;
   /**
   * Optional cluster level SSH private key path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ssh_key_path ClusterTemplate#ssh_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ssh_key_path ClusterTemplate#ssh_key_path}
   */
   readonly sshKeyPath?: string;
   /**
   * Optional prefix to customize kubernetes path for windows
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#win_prefix_path ClusterTemplate#win_prefix_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#win_prefix_path ClusterTemplate#win_prefix_path}
   */
   readonly winPrefixPath?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#authentication ClusterTemplate#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#authentication ClusterTemplate#authentication}
   */
   readonly authentication?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigAuthentication;
   /**
   * authorization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#authorization ClusterTemplate#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#authorization ClusterTemplate#authorization}
   */
   readonly authorization?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigAuthorization;
   /**
   * bastion_host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#bastion_host ClusterTemplate#bastion_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#bastion_host ClusterTemplate#bastion_host}
   */
   readonly bastionHost?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigBastionHost;
   /**
   * cloud_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cloud_provider ClusterTemplate#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cloud_provider ClusterTemplate#cloud_provider}
   */
   readonly cloudProvider?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigCloudProvider;
   /**
   * dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#dns ClusterTemplate#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#dns ClusterTemplate#dns}
   */
   readonly dns?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigDns;
   /**
   * ingress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#ingress ClusterTemplate#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#ingress ClusterTemplate#ingress}
   */
   readonly ingress?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigIngress;
   /**
   * monitoring block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#monitoring ClusterTemplate#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#monitoring ClusterTemplate#monitoring}
   */
   readonly monitoring?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigMonitoring;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#network ClusterTemplate#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#network ClusterTemplate#network}
   */
   readonly network?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNetwork;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#nodes ClusterTemplate#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#nodes ClusterTemplate#nodes}
   */
   readonly nodes?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigNodes[] | cdktf.IResolvable;
   /**
   * private_registries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#private_registries ClusterTemplate#private_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#private_registries ClusterTemplate#private_registries}
   */
   readonly privateRegistries?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigPrivateRegistries[] | cdktf.IResolvable;
   /**
   * services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#services ClusterTemplate#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#services ClusterTemplate#services}
   */
   readonly services?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigServices;
   /**
   * upgrade_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#upgrade_strategy ClusterTemplate#upgrade_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#upgrade_strategy ClusterTemplate#upgrade_strategy}
   */
   readonly upgradeStrategy?: ClusterTemplateTemplateRevisionsClusterConfigRkeConfigUpgradeStrategy;
 }
@@ -17367,55 +17367,55 @@ export interface ClusterTemplateTemplateRevisionsClusterConfig {
   /**
   * Default cluster role for project members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#default_cluster_role_for_project_members ClusterTemplate#default_cluster_role_for_project_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#default_cluster_role_for_project_members ClusterTemplate#default_cluster_role_for_project_members}
   */
   readonly defaultClusterRoleForProjectMembers?: string;
   /**
   * Default pod security admission configuration template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#default_pod_security_admission_configuration_template_name ClusterTemplate#default_pod_security_admission_configuration_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#default_pod_security_admission_configuration_template_name ClusterTemplate#default_pod_security_admission_configuration_template_name}
   */
   readonly defaultPodSecurityAdmissionConfigurationTemplateName?: string;
   /**
   * Desired agent image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#desired_agent_image ClusterTemplate#desired_agent_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#desired_agent_image ClusterTemplate#desired_agent_image}
   */
   readonly desiredAgentImage?: string;
   /**
   * Desired auth image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#desired_auth_image ClusterTemplate#desired_auth_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#desired_auth_image ClusterTemplate#desired_auth_image}
   */
   readonly desiredAuthImage?: string;
   /**
   * Docker Root Dir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#docker_root_dir ClusterTemplate#docker_root_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#docker_root_dir ClusterTemplate#docker_root_dir}
   */
   readonly dockerRootDir?: string;
   /**
   * Enable project network isolation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#enable_network_policy ClusterTemplate#enable_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#enable_network_policy ClusterTemplate#enable_network_policy}
   */
   readonly enableNetworkPolicy?: boolean | cdktf.IResolvable;
   /**
   * Windows prefered cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#windows_prefered_cluster ClusterTemplate#windows_prefered_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#windows_prefered_cluster ClusterTemplate#windows_prefered_cluster}
   */
   readonly windowsPreferedCluster?: boolean | cdktf.IResolvable;
   /**
   * cluster_auth_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cluster_auth_endpoint ClusterTemplate#cluster_auth_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cluster_auth_endpoint ClusterTemplate#cluster_auth_endpoint}
   */
   readonly clusterAuthEndpoint?: ClusterTemplateTemplateRevisionsClusterConfigClusterAuthEndpoint;
   /**
   * rke_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#rke_config ClusterTemplate#rke_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#rke_config ClusterTemplate#rke_config}
   */
   readonly rkeConfig: ClusterTemplateTemplateRevisionsClusterConfigRkeConfig;
 }
@@ -17730,25 +17730,25 @@ export interface ClusterTemplateTemplateRevisionsQuestions {
   /**
   * Default variable value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#default ClusterTemplate#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#default ClusterTemplate#default}
   */
   readonly default: string;
   /**
   * Required variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#required ClusterTemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#required ClusterTemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Variable type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#type ClusterTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#type ClusterTemplate#type}
   */
   readonly type?: string;
   /**
   * Variable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#variable ClusterTemplate#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#variable ClusterTemplate#variable}
   */
   readonly variable: string;
 }
@@ -17947,43 +17947,43 @@ export interface ClusterTemplateTemplateRevisions {
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#annotations ClusterTemplate#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#annotations ClusterTemplate#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Default cluster template revision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#default ClusterTemplate#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#default ClusterTemplate#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Enable cluster template revision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#enabled ClusterTemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#enabled ClusterTemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#labels ClusterTemplate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#labels ClusterTemplate#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Cluster template revision name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#name ClusterTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#name ClusterTemplate#name}
   */
   readonly name: string;
   /**
   * cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#cluster_config ClusterTemplate#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#cluster_config ClusterTemplate#cluster_config}
   */
   readonly clusterConfig: ClusterTemplateTemplateRevisionsClusterConfig;
   /**
   * questions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#questions ClusterTemplate#questions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#questions ClusterTemplate#questions}
   */
   readonly questions?: ClusterTemplateTemplateRevisionsQuestions[] | cdktf.IResolvable;
 }
@@ -18277,15 +18277,15 @@ export class ClusterTemplateTemplateRevisionsList extends cdktf.ComplexList {
 }
 export interface ClusterTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#create ClusterTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#create ClusterTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#delete ClusterTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#delete ClusterTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#update ClusterTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#update ClusterTemplate#update}
   */
   readonly update?: string;
 }
@@ -18437,7 +18437,7 @@ export class ClusterTemplateTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template rancher2_cluster_template}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template rancher2_cluster_template}
 */
 export class ClusterTemplate extends cdktf.TerraformResource {
 
@@ -18453,7 +18453,7 @@ export class ClusterTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterTemplate to import
-  * @param importFromId The id of the existing ClusterTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -18465,7 +18465,7 @@ export class ClusterTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_template rancher2_cluster_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_template rancher2_cluster_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -18476,8 +18476,8 @@ export class ClusterTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_cluster_template',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

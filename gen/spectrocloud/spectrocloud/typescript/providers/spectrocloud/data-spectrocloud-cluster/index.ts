@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cluster
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataSpectrocloudClusterConfig extends cdktf.TerraformMetaArgume
   /**
   * The context of the cluster. Allowed values are `project` or `tenant`. Defaults to `project`.If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cluster#context DataSpectrocloudCluster#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/cluster#context DataSpectrocloudCluster#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cluster#id DataSpectrocloudCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/cluster#id DataSpectrocloudCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataSpectrocloudClusterConfig extends cdktf.TerraformMetaArgume
   /**
   * The name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cluster#name DataSpectrocloudCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/cluster#name DataSpectrocloudCluster#name}
   */
   readonly name: string;
   /**
   * If set to true, the cluster will treated as a virtual cluster. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cluster#virtual DataSpectrocloudCluster#virtual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/cluster#virtual DataSpectrocloudCluster#virtual}
   */
   readonly virtual?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cluster spectrocloud_cluster}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/cluster spectrocloud_cluster}
 */
 export class DataSpectrocloudCluster extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataSpectrocloudCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpectrocloudCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpectrocloudCluster to import
-  * @param importFromId The id of the existing DataSpectrocloudCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpectrocloudCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpectrocloudCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataSpectrocloudCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cluster spectrocloud_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/cluster spectrocloud_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataSpectrocloudCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'spectrocloud_cluster',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.1',
-        providerVersionConstraint: '0.26.1'
+        providerVersion: '0.26.2',
+        providerVersionConstraint: '0.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/ipv6_ranges
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/ipv6_ranges
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataLinodeIpv6RangesConfig extends cdktf.TerraformMetaArguments
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/ipv6_ranges#filter DataLinodeIpv6Ranges#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/ipv6_ranges#filter DataLinodeIpv6Ranges#filter}
   */
   readonly filter?: DataLinodeIpv6RangesFilter[] | cdktf.IResolvable;
 }
@@ -108,19 +108,19 @@ export interface DataLinodeIpv6RangesFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/ipv6_ranges#match_by DataLinodeIpv6Ranges#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/ipv6_ranges#match_by DataLinodeIpv6Ranges#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/ipv6_ranges#name DataLinodeIpv6Ranges#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/ipv6_ranges#name DataLinodeIpv6Ranges#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/ipv6_ranges#values DataLinodeIpv6Ranges#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/ipv6_ranges#values DataLinodeIpv6Ranges#values}
   */
   readonly values: string[];
 }
@@ -288,7 +288,7 @@ export class DataLinodeIpv6RangesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/ipv6_ranges linode_ipv6_ranges}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/ipv6_ranges linode_ipv6_ranges}
 */
 export class DataLinodeIpv6Ranges extends cdktf.TerraformDataSource {
 
@@ -304,7 +304,7 @@ export class DataLinodeIpv6Ranges extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeIpv6Ranges resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeIpv6Ranges to import
-  * @param importFromId The id of the existing DataLinodeIpv6Ranges that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/ipv6_ranges#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeIpv6Ranges that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/ipv6_ranges#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeIpv6Ranges to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -316,7 +316,7 @@ export class DataLinodeIpv6Ranges extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/ipv6_ranges linode_ipv6_ranges} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/ipv6_ranges linode_ipv6_ranges} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -327,8 +327,8 @@ export class DataLinodeIpv6Ranges extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_ipv6_ranges',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

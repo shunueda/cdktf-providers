@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface NetworkAreaRegionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The regional IPv4 config of a network area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region#ipv4 NetworkAreaRegion#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region#ipv4 NetworkAreaRegion#ipv4}
   */
   readonly ipv4: NetworkAreaRegionIpv4;
   /**
   * The network area ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region#network_area_id NetworkAreaRegion#network_area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region#network_area_id NetworkAreaRegion#network_area_id}
   */
   readonly networkAreaId: string;
   /**
   * STACKIT organization ID to which the network area is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region#organization_id NetworkAreaRegion#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region#organization_id NetworkAreaRegion#organization_id}
   */
   readonly organizationId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region#region NetworkAreaRegion#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region#region NetworkAreaRegion#region}
   */
   readonly region?: string;
 }
@@ -36,7 +36,7 @@ export interface NetworkAreaRegionIpv4NetworkRanges {
   /**
   * Classless Inter-Domain Routing (CIDR).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region#prefix NetworkAreaRegion#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region#prefix NetworkAreaRegion#prefix}
   */
   readonly prefix: string;
 }
@@ -156,37 +156,37 @@ export interface NetworkAreaRegionIpv4 {
   /**
   * List of DNS Servers/Nameservers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region#default_nameservers NetworkAreaRegion#default_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region#default_nameservers NetworkAreaRegion#default_nameservers}
   */
   readonly defaultNameservers?: string[];
   /**
   * The default prefix length for networks in the network area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region#default_prefix_length NetworkAreaRegion#default_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region#default_prefix_length NetworkAreaRegion#default_prefix_length}
   */
   readonly defaultPrefixLength?: number;
   /**
   * The maximal prefix length for networks in the network area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region#max_prefix_length NetworkAreaRegion#max_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region#max_prefix_length NetworkAreaRegion#max_prefix_length}
   */
   readonly maxPrefixLength?: number;
   /**
   * The minimal prefix length for networks in the network area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region#min_prefix_length NetworkAreaRegion#min_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region#min_prefix_length NetworkAreaRegion#min_prefix_length}
   */
   readonly minPrefixLength?: number;
   /**
   * List of Network ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region#network_ranges NetworkAreaRegion#network_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region#network_ranges NetworkAreaRegion#network_ranges}
   */
   readonly networkRanges: NetworkAreaRegionIpv4NetworkRanges[] | cdktf.IResolvable;
   /**
   * IPv4 Classless Inter-Domain Routing (CIDR).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region#transfer_network NetworkAreaRegion#transfer_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region#transfer_network NetworkAreaRegion#transfer_network}
   */
   readonly transferNetwork: string;
 }
@@ -419,7 +419,7 @@ export class NetworkAreaRegionIpv4OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region stackit_network_area_region}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region stackit_network_area_region}
 */
 export class NetworkAreaRegion extends cdktf.TerraformResource {
 
@@ -435,7 +435,7 @@ export class NetworkAreaRegion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkAreaRegion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkAreaRegion to import
-  * @param importFromId The id of the existing NetworkAreaRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkAreaRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkAreaRegion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -447,7 +447,7 @@ export class NetworkAreaRegion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_region stackit_network_area_region} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_region stackit_network_area_region} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -458,8 +458,8 @@ export class NetworkAreaRegion extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_network_area_region',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.75.0',
-        providerVersionConstraint: '0.75.0'
+        providerVersion: '0.76.0',
+        providerVersionConstraint: '0.76.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

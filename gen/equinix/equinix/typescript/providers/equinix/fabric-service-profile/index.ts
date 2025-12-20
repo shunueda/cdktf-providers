@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FabricServiceProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * Array of contact emails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#allowed_emails FabricServiceProfile#allowed_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#allowed_emails FabricServiceProfile#allowed_emails}
   */
   readonly allowedEmails?: string[];
   /**
   * User-provided service description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#description FabricServiceProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#description FabricServiceProfile#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#id FabricServiceProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#id FabricServiceProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,97 +29,97 @@ export interface FabricServiceProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * Customer-assigned service profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#name FabricServiceProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#name FabricServiceProfile#name}
   */
   readonly name: string;
   /**
   * Self Profile indicating if the profile is created for customer's  self use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#self_profile FabricServiceProfile#self_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#self_profile FabricServiceProfile#self_profile}
   */
   readonly selfProfile?: boolean | cdktf.IResolvable;
   /**
   * Service profile state - ACTIVE, PENDING_APPROVAL, DELETED, REJECTED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#state FabricServiceProfile#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#state FabricServiceProfile#state}
   */
   readonly state?: string;
   /**
   * Tags attached to the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#tags FabricServiceProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#tags FabricServiceProfile#tags}
   */
   readonly tags?: string[];
   /**
-  * Service profile type - L2_PROFILE, L3_PROFILE, ECIA_PROFILE, ECMC_PROFILE, IA_PROFILE
+  * Service profile type - L2_PROFILE, L3_PROFILE, ECIA_PROFILE, ECMC_PROFILE, IA_PROFILE, IX_PROFILE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#type FabricServiceProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#type FabricServiceProfile#type}
   */
   readonly type: string;
   /**
   * Flips view between buyer and seller representation. Available values : aSide, zSide. Default value : aSide
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#view_point FabricServiceProfile#view_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#view_point FabricServiceProfile#view_point}
   */
   readonly viewPoint?: string;
   /**
   * Service profile visibility - PUBLIC, PRIVATE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#visibility FabricServiceProfile#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#visibility FabricServiceProfile#visibility}
   */
   readonly visibility?: string;
   /**
   * access_point_type_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#access_point_type_configs FabricServiceProfile#access_point_type_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#access_point_type_configs FabricServiceProfile#access_point_type_configs}
   */
   readonly accessPointTypeConfigs?: FabricServiceProfileAccessPointTypeConfigs[] | cdktf.IResolvable;
   /**
   * custom_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#custom_fields FabricServiceProfile#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#custom_fields FabricServiceProfile#custom_fields}
   */
   readonly customFields?: FabricServiceProfileCustomFields[] | cdktf.IResolvable;
   /**
   * marketing_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#marketing_info FabricServiceProfile#marketing_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#marketing_info FabricServiceProfile#marketing_info}
   */
   readonly marketingInfo?: FabricServiceProfileMarketingInfo;
   /**
   * metros block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#metros FabricServiceProfile#metros}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#metros FabricServiceProfile#metros}
   */
   readonly metros?: FabricServiceProfileMetros[] | cdktf.IResolvable;
   /**
   * notifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#notifications FabricServiceProfile#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#notifications FabricServiceProfile#notifications}
   */
   readonly notifications?: FabricServiceProfileNotifications[] | cdktf.IResolvable;
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#ports FabricServiceProfile#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#ports FabricServiceProfile#ports}
   */
   readonly ports?: FabricServiceProfilePorts[] | cdktf.IResolvable;
   /**
   * project block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#project FabricServiceProfile#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#project FabricServiceProfile#project}
   */
   readonly project?: FabricServiceProfileProject;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#timeouts FabricServiceProfile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#timeouts FabricServiceProfile#timeouts}
   */
   readonly timeouts?: FabricServiceProfileTimeouts;
   /**
   * virtual_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#virtual_devices FabricServiceProfile#virtual_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#virtual_devices FabricServiceProfile#virtual_devices}
   */
   readonly virtualDevices?: FabricServiceProfileVirtualDevices[] | cdktf.IResolvable;
 }
@@ -367,43 +367,43 @@ export interface FabricServiceProfileAccessPointTypeConfigsApiConfig {
   /**
   * Setting showing that oversubscription support is available (true) or not (false). The default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#allow_over_subscription FabricServiceProfile#allow_over_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#allow_over_subscription FabricServiceProfile#allow_over_subscription}
   */
   readonly allowOverSubscription?: boolean | cdktf.IResolvable;
   /**
   * Indicates if it's possible to establish connections based on the given service profile using the Equinix Fabric API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#api_available FabricServiceProfile#api_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#api_available FabricServiceProfile#api_available}
   */
   readonly apiAvailable?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the connection bandwidth can be obtained directly from the cloud service provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#bandwidth_from_api FabricServiceProfile#bandwidth_from_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#bandwidth_from_api FabricServiceProfile#bandwidth_from_api}
   */
   readonly bandwidthFromApi?: boolean | cdktf.IResolvable;
   /**
   * Setting indicating that the port is managed by Equinix (true) or not (false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#equinix_managed_port FabricServiceProfile#equinix_managed_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#equinix_managed_port FabricServiceProfile#equinix_managed_port}
   */
   readonly equinixManagedPort?: boolean | cdktf.IResolvable;
   /**
   * Setting indicating that the VLAN is managed by Equinix (true) or not (false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#equinix_managed_vlan FabricServiceProfile#equinix_managed_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#equinix_managed_vlan FabricServiceProfile#equinix_managed_vlan}
   */
   readonly equinixManagedVlan?: boolean | cdktf.IResolvable;
   /**
   * A unique identifier issued during onboarding and used to integrate the customer's service profile with the Equinix Fabric API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#integration_id FabricServiceProfile#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#integration_id FabricServiceProfile#integration_id}
   */
   readonly integrationId?: string;
   /**
   * Port bandwidth multiplier that determines the total bandwidth that can be allocated to users creating connections to your services. For example, a 10 Gbps port combined with an overSubscriptionLimit parameter value of 10 allows your subscribers to create connections with a total bandwidth of 100 Gbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#over_subscription_limit FabricServiceProfile#over_subscription_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#over_subscription_limit FabricServiceProfile#over_subscription_limit}
   */
   readonly overSubscriptionLimit?: number;
 }
@@ -663,19 +663,19 @@ export interface FabricServiceProfileAccessPointTypeConfigsAuthenticationKey {
   /**
   * Description of authorization key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#description FabricServiceProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#description FabricServiceProfile#description}
   */
   readonly description?: string;
   /**
   * Name of the parameter that must be provided to authorize the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#label FabricServiceProfile#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#label FabricServiceProfile#label}
   */
   readonly label?: string;
   /**
   * Requirement to configure an authentication key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#required FabricServiceProfile#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#required FabricServiceProfile#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
 }
@@ -819,19 +819,19 @@ export interface FabricServiceProfileAccessPointTypeConfigsLinkProtocolConfig {
   /**
   * Data frames encapsulation standard.UNTAGGED - Untagged encapsulation for EPL connections. DOT1Q - DOT1Q encapsulation standard. QINQ - QINQ encapsulation standard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#encapsulation FabricServiceProfile#encapsulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#encapsulation FabricServiceProfile#encapsulation}
   */
   readonly encapsulation?: string;
   /**
   * Additional tagging information required by the seller profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#encapsulation_strategy FabricServiceProfile#encapsulation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#encapsulation_strategy FabricServiceProfile#encapsulation_strategy}
   */
   readonly encapsulationStrategy?: string;
   /**
   * Automatically accept subsequent DOT1Q to QINQ connections that use the same authentication key. These connections will have the same VLAN S-tag assigned as the initial connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#reuse_vlan_s_tag FabricServiceProfile#reuse_vlan_s_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#reuse_vlan_s_tag FabricServiceProfile#reuse_vlan_s_tag}
   */
   readonly reuseVlanSTag?: boolean | cdktf.IResolvable;
 }
@@ -975,85 +975,85 @@ export interface FabricServiceProfileAccessPointTypeConfigs {
   /**
   * Setting to enable or disable the ability of the buyer to change connection bandwidth without approval of the seller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#allow_bandwidth_auto_approval FabricServiceProfile#allow_bandwidth_auto_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#allow_bandwidth_auto_approval FabricServiceProfile#allow_bandwidth_auto_approval}
   */
   readonly allowBandwidthAutoApproval?: boolean | cdktf.IResolvable;
   /**
   * Availability of a bandwidth upgrade. The default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#allow_bandwidth_upgrade FabricServiceProfile#allow_bandwidth_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#allow_bandwidth_upgrade FabricServiceProfile#allow_bandwidth_upgrade}
   */
   readonly allowBandwidthUpgrade?: boolean | cdktf.IResolvable;
   /**
   * Setting to enable or disable the ability of the buyer to customize the bandwidth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#allow_custom_bandwidth FabricServiceProfile#allow_custom_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#allow_custom_bandwidth FabricServiceProfile#allow_custom_bandwidth}
   */
   readonly allowCustomBandwidth?: boolean | cdktf.IResolvable;
   /**
   * Setting to allow or prohibit remote connections to the service profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#allow_remote_connections FabricServiceProfile#allow_remote_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#allow_remote_connections FabricServiceProfile#allow_remote_connections}
   */
   readonly allowRemoteConnections?: boolean | cdktf.IResolvable;
   /**
   * Percentage of port bandwidth at which an allocation alert is generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#bandwidth_alert_threshold FabricServiceProfile#bandwidth_alert_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#bandwidth_alert_threshold FabricServiceProfile#bandwidth_alert_threshold}
   */
   readonly bandwidthAlertThreshold?: number;
   /**
   * Custom name for Connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#connection_label FabricServiceProfile#connection_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#connection_label FabricServiceProfile#connection_label}
   */
   readonly connectionLabel?: string;
   /**
   * Mandate redundant connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#connection_redundancy_required FabricServiceProfile#connection_redundancy_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#connection_redundancy_required FabricServiceProfile#connection_redundancy_required}
   */
   readonly connectionRedundancyRequired?: boolean | cdktf.IResolvable;
   /**
   * Enable auto generate service key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#enable_auto_generate_service_key FabricServiceProfile#enable_auto_generate_service_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#enable_auto_generate_service_key FabricServiceProfile#enable_auto_generate_service_key}
   */
   readonly enableAutoGenerateServiceKey?: boolean | cdktf.IResolvable;
   /**
   * Optional redundant connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#selective_redundancy FabricServiceProfile#selective_redundancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#selective_redundancy FabricServiceProfile#selective_redundancy}
   */
   readonly selectiveRedundancy?: boolean | cdktf.IResolvable;
   /**
   * Supported bandwidths
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#supported_bandwidths FabricServiceProfile#supported_bandwidths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#supported_bandwidths FabricServiceProfile#supported_bandwidths}
   */
   readonly supportedBandwidths?: number[];
   /**
   * Type of access point type config - VD, COLO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#type FabricServiceProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#type FabricServiceProfile#type}
   */
   readonly type: string;
   /**
   * api_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#api_config FabricServiceProfile#api_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#api_config FabricServiceProfile#api_config}
   */
   readonly apiConfig?: FabricServiceProfileAccessPointTypeConfigsApiConfig;
   /**
   * authentication_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#authentication_key FabricServiceProfile#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#authentication_key FabricServiceProfile#authentication_key}
   */
   readonly authenticationKey?: FabricServiceProfileAccessPointTypeConfigsAuthenticationKey;
   /**
   * link_protocol_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#link_protocol_config FabricServiceProfile#link_protocol_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#link_protocol_config FabricServiceProfile#link_protocol_config}
   */
   readonly linkProtocolConfig?: FabricServiceProfileAccessPointTypeConfigsLinkProtocolConfig;
 }
@@ -1550,37 +1550,37 @@ export interface FabricServiceProfileCustomFields {
   /**
   * Required field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#capture_in_email FabricServiceProfile#capture_in_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#capture_in_email FabricServiceProfile#capture_in_email}
   */
   readonly captureInEmail?: boolean | cdktf.IResolvable;
   /**
   * Data type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#data_type FabricServiceProfile#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#data_type FabricServiceProfile#data_type}
   */
   readonly dataType: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#description FabricServiceProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#description FabricServiceProfile#description}
   */
   readonly description?: string;
   /**
   * Label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#label FabricServiceProfile#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#label FabricServiceProfile#label}
   */
   readonly label: string;
   /**
   * Options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#options FabricServiceProfile#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#options FabricServiceProfile#options}
   */
   readonly options?: string[];
   /**
   * Required field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#required FabricServiceProfile#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#required FabricServiceProfile#required}
   */
   readonly required: boolean | cdktf.IResolvable;
 }
@@ -1834,19 +1834,19 @@ export interface FabricServiceProfileMarketingInfoProcessStep {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#description FabricServiceProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#description FabricServiceProfile#description}
   */
   readonly description?: string;
   /**
   * Sub Title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#sub_title FabricServiceProfile#sub_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#sub_title FabricServiceProfile#sub_title}
   */
   readonly subTitle?: string;
   /**
   * Title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#title FabricServiceProfile#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#title FabricServiceProfile#title}
   */
   readonly title?: string;
 }
@@ -2022,19 +2022,19 @@ export interface FabricServiceProfileMarketingInfo {
   /**
   * Logo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#logo FabricServiceProfile#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#logo FabricServiceProfile#logo}
   */
   readonly logo?: string;
   /**
   * Promotion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#promotion FabricServiceProfile#promotion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#promotion FabricServiceProfile#promotion}
   */
   readonly promotion?: boolean | cdktf.IResolvable;
   /**
   * process_step block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#process_step FabricServiceProfile#process_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#process_step FabricServiceProfile#process_step}
   */
   readonly processStep?: FabricServiceProfileMarketingInfoProcessStep[] | cdktf.IResolvable;
 }
@@ -2178,37 +2178,37 @@ export interface FabricServiceProfileMetros {
   /**
   * Metro Code - Example SV
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#code FabricServiceProfile#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#code FabricServiceProfile#code}
   */
   readonly code?: string;
   /**
   * Display Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#display_name FabricServiceProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#display_name FabricServiceProfile#display_name}
   */
   readonly displayName?: string;
   /**
   * IBX- Equinix International Business Exchange list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#ibxs FabricServiceProfile#ibxs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#ibxs FabricServiceProfile#ibxs}
   */
   readonly ibxs?: string[];
   /**
   * In Trail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#in_trail FabricServiceProfile#in_trail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#in_trail FabricServiceProfile#in_trail}
   */
   readonly inTrail?: boolean | cdktf.IResolvable;
   /**
   * Metro Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#name FabricServiceProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#name FabricServiceProfile#name}
   */
   readonly name?: string;
   /**
   * Seller Regions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#seller_regions FabricServiceProfile#seller_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#seller_regions FabricServiceProfile#seller_regions}
   */
   readonly sellerRegions?: { [key: string]: string };
 }
@@ -2471,19 +2471,19 @@ export interface FabricServiceProfileNotifications {
   /**
   * Array of contact emails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#emails FabricServiceProfile#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#emails FabricServiceProfile#emails}
   */
   readonly emails: string[];
   /**
   * Send interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#send_interval FabricServiceProfile#send_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#send_interval FabricServiceProfile#send_interval}
   */
   readonly sendInterval?: string;
   /**
   * Notification Type - ALL,CONNECTION_APPROVAL,SALES_REP_NOTIFICATIONS, NOTIFICATIONS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#type FabricServiceProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#type FabricServiceProfile#type}
   */
   readonly type: string;
 }
@@ -2653,25 +2653,25 @@ export interface FabricServiceProfilePortsLocation {
   /**
   * IBX Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#ibx FabricServiceProfile#ibx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#ibx FabricServiceProfile#ibx}
   */
   readonly ibx?: string;
   /**
   * Access point metro code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#metro_code FabricServiceProfile#metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#metro_code FabricServiceProfile#metro_code}
   */
   readonly metroCode?: string;
   /**
   * Access point metro name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#metro_name FabricServiceProfile#metro_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#metro_name FabricServiceProfile#metro_name}
   */
   readonly metroName?: string;
   /**
   * Access point region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#region FabricServiceProfile#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#region FabricServiceProfile#region}
   */
   readonly region?: string;
 }
@@ -2844,37 +2844,37 @@ export interface FabricServiceProfilePorts {
   /**
   * Cross Connect Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#cross_connect_id FabricServiceProfile#cross_connect_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#cross_connect_id FabricServiceProfile#cross_connect_id}
   */
   readonly crossConnectId?: string;
   /**
   * Seller Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#seller_region FabricServiceProfile#seller_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#seller_region FabricServiceProfile#seller_region}
   */
   readonly sellerRegion?: string;
   /**
   * Seller Region details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#seller_region_description FabricServiceProfile#seller_region_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#seller_region_description FabricServiceProfile#seller_region_description}
   */
   readonly sellerRegionDescription?: string;
   /**
   * Colo/Port Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#type FabricServiceProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#type FabricServiceProfile#type}
   */
   readonly type: string;
   /**
   * Colo/Port Uuid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#uuid FabricServiceProfile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#uuid FabricServiceProfile#uuid}
   */
   readonly uuid: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#location FabricServiceProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#location FabricServiceProfile#location}
   */
   readonly location?: FabricServiceProfilePortsLocation;
 }
@@ -3131,7 +3131,7 @@ export interface FabricServiceProfileProject {
   /**
   * Project Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#project_id FabricServiceProfile#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#project_id FabricServiceProfile#project_id}
   */
   readonly projectId?: string;
 }
@@ -3220,19 +3220,19 @@ export class FabricServiceProfileProjectOutputReference extends cdktf.ComplexObj
 }
 export interface FabricServiceProfileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#create FabricServiceProfile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#create FabricServiceProfile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#delete FabricServiceProfile#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#delete FabricServiceProfile#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#read FabricServiceProfile#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#read FabricServiceProfile#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#update FabricServiceProfile#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#update FabricServiceProfile#update}
   */
   readonly update?: string;
 }
@@ -3415,25 +3415,25 @@ export interface FabricServiceProfileVirtualDevicesLocation {
   /**
   * IBX Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#ibx FabricServiceProfile#ibx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#ibx FabricServiceProfile#ibx}
   */
   readonly ibx?: string;
   /**
   * Access point metro code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#metro_code FabricServiceProfile#metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#metro_code FabricServiceProfile#metro_code}
   */
   readonly metroCode?: string;
   /**
   * Access point metro name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#metro_name FabricServiceProfile#metro_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#metro_name FabricServiceProfile#metro_name}
   */
   readonly metroName?: string;
   /**
   * Access point region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#region FabricServiceProfile#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#region FabricServiceProfile#region}
   */
   readonly region?: string;
 }
@@ -3606,25 +3606,25 @@ export interface FabricServiceProfileVirtualDevices {
   /**
   * Device Interface Uuid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#interface_uuid FabricServiceProfile#interface_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#interface_uuid FabricServiceProfile#interface_uuid}
   */
   readonly interfaceUuid?: string;
   /**
   * Virtual Device Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#type FabricServiceProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#type FabricServiceProfile#type}
   */
   readonly type: string;
   /**
   * Virtual Device Uuid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#uuid FabricServiceProfile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#uuid FabricServiceProfile#uuid}
   */
   readonly uuid: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#location FabricServiceProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#location FabricServiceProfile#location}
   */
   readonly location?: FabricServiceProfileVirtualDevicesLocation;
 }
@@ -3821,7 +3821,7 @@ export class FabricServiceProfileVirtualDevicesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile equinix_fabric_service_profile}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile equinix_fabric_service_profile}
 */
 export class FabricServiceProfile extends cdktf.TerraformResource {
 
@@ -3837,7 +3837,7 @@ export class FabricServiceProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricServiceProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricServiceProfile to import
-  * @param importFromId The id of the existing FabricServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricServiceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3849,7 +3849,7 @@ export class FabricServiceProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_service_profile equinix_fabric_service_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_service_profile equinix_fabric_service_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3860,8 +3860,8 @@ export class FabricServiceProfile extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_fabric_service_profile',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

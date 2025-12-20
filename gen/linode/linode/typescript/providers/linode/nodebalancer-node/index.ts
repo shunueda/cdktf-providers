@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_node
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/nodebalancer_node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface NodebalancerNodeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The private IP Address and port (IP:PORT) where this backend can be reached. This must be a private IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_node#address NodebalancerNode#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/nodebalancer_node#address NodebalancerNode#address}
   */
   readonly address: string;
   /**
   * The ID of the NodeBalancerConfig to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_node#config_id NodebalancerNode#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/nodebalancer_node#config_id NodebalancerNode#config_id}
   */
   readonly configId: number;
   /**
   * The label for this node. This is for display purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_node#label NodebalancerNode#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/nodebalancer_node#label NodebalancerNode#label}
   */
   readonly label: string;
   /**
   * The mode this NodeBalancer should use when sending traffic to this backend. If set to `accept` this backend is accepting traffic. If set to `reject` this backend will not receive traffic. If set to `drain` this backend will not receive new traffic, but connections already pinned to it will continue to be routed to it. If set to `backup` this backend will only accept traffic if all other nodes are down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_node#mode NodebalancerNode#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/nodebalancer_node#mode NodebalancerNode#mode}
   */
   readonly mode?: string;
   /**
   * The ID of the NodeBalancer to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_node#nodebalancer_id NodebalancerNode#nodebalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/nodebalancer_node#nodebalancer_id NodebalancerNode#nodebalancer_id}
   */
   readonly nodebalancerId: number;
   /**
   * The ID of the VPC subnet for this node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_node#subnet_id NodebalancerNode#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/nodebalancer_node#subnet_id NodebalancerNode#subnet_id}
   */
   readonly subnetId?: number;
   /**
   * Used when picking a backend to serve a request and is not pinned to a single backend yet. Nodes with a higher weight will receive more traffic. (1-255)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_node#weight NodebalancerNode#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/nodebalancer_node#weight NodebalancerNode#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_node linode_nodebalancer_node}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/nodebalancer_node linode_nodebalancer_node}
 */
 export class NodebalancerNode extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class NodebalancerNode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NodebalancerNode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NodebalancerNode to import
-  * @param importFromId The id of the existing NodebalancerNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NodebalancerNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/nodebalancer_node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NodebalancerNode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class NodebalancerNode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/nodebalancer_node linode_nodebalancer_node} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/nodebalancer_node linode_nodebalancer_node} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class NodebalancerNode extends cdktf.TerraformResource {
       terraformResourceType: 'linode_nodebalancer_node',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

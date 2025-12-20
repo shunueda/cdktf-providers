@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface Rancher2ProviderConfig {
   /**
   * API Key used to authenticate with the rancher server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs#access_key Rancher2Provider#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs#access_key Rancher2Provider#access_key}
   */
   readonly accessKey?: string;
   /**
   * The URL to the rancher API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs#api_url Rancher2Provider#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs#api_url Rancher2Provider#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Bootstrap rancher server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs#bootstrap Rancher2Provider#bootstrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs#bootstrap Rancher2Provider#bootstrap}
   */
   readonly bootstrap?: boolean | cdktf.IResolvable;
   /**
   * CA certificates used to sign rancher server tls certificates. Mandatory if self signed tls and insecure option false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs#ca_certs Rancher2Provider#ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs#ca_certs Rancher2Provider#ca_certs}
   */
   readonly caCerts?: string;
   /**
   * Allow insecure connections to Rancher. Mandatory if self signed tls and not ca_certs provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs#insecure Rancher2Provider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs#insecure Rancher2Provider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Rancher connection retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs#retries Rancher2Provider#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs#retries Rancher2Provider#retries}
   */
   readonly retries?: number;
   /**
   * API secret used to authenticate with the rancher server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs#secret_key Rancher2Provider#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs#secret_key Rancher2Provider#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Rancher connection timeout (retry every 5s). Golang duration format, ex: "60s"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs#timeout Rancher2Provider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs#timeout Rancher2Provider#timeout}
   */
   readonly timeout?: string;
   /**
   * API token used to authenticate with the rancher server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs#token_key Rancher2Provider#token_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs#token_key Rancher2Provider#token_key}
   */
   readonly tokenKey?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs#alias Rancher2Provider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs#alias Rancher2Provider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs rancher2}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs rancher2}
 */
 export class Rancher2Provider extends cdktf.TerraformProvider {
 
@@ -86,7 +86,7 @@ export class Rancher2Provider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a Rancher2Provider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Rancher2Provider to import
-  * @param importFromId The id of the existing Rancher2Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Rancher2Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Rancher2Provider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class Rancher2Provider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs rancher2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs rancher2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class Rancher2Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'rancher2',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       terraformProviderSource: 'rancher/rancher2'
     });

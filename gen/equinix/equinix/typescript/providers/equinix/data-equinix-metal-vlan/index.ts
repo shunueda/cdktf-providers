@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_vlan
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataEquinixMetalVlanConfig extends cdktf.TerraformMetaArguments
   /**
   * Facility where the VLAN is deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_vlan#facility DataEquinixMetalVlan#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_vlan#facility DataEquinixMetalVlan#facility}
   */
   readonly facility?: string;
   /**
   * Metro where the VLAN is deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_vlan#metro DataEquinixMetalVlan#metro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_vlan#metro DataEquinixMetalVlan#metro}
   */
   readonly metro?: string;
   /**
   * ID of parent project of the VLAN. Use together with vxlan and metro or facility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_vlan#project_id DataEquinixMetalVlan#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_vlan#project_id DataEquinixMetalVlan#project_id}
   */
   readonly projectId?: string;
   /**
   * Metal UUID of the VLAN resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_vlan#vlan_id DataEquinixMetalVlan#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_vlan#vlan_id DataEquinixMetalVlan#vlan_id}
   */
   readonly vlanId?: string;
   /**
   * VXLAN numner of the VLAN. Unique in a project and facility or metro. Use with project_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_vlan#vxlan DataEquinixMetalVlan#vxlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_vlan#vxlan DataEquinixMetalVlan#vxlan}
   */
   readonly vxlan?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_vlan equinix_metal_vlan}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_vlan equinix_metal_vlan}
 */
 export class DataEquinixMetalVlan extends cdktf.TerraformDataSource {
 
@@ -56,7 +56,7 @@ export class DataEquinixMetalVlan extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixMetalVlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixMetalVlan to import
-  * @param importFromId The id of the existing DataEquinixMetalVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixMetalVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixMetalVlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class DataEquinixMetalVlan extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_vlan equinix_metal_vlan} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_vlan equinix_metal_vlan} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class DataEquinixMetalVlan extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_metal_vlan',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

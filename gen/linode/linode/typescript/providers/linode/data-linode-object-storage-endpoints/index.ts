@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/object_storage_endpoints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataLinodeObjectStorageEndpointsConfig extends cdktf.TerraformM
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints#order DataLinodeObjectStorageEndpoints#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/object_storage_endpoints#order DataLinodeObjectStorageEndpoints#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints#order_by DataLinodeObjectStorageEndpoints#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/object_storage_endpoints#order_by DataLinodeObjectStorageEndpoints#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints#filter DataLinodeObjectStorageEndpoints#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/object_storage_endpoints#filter DataLinodeObjectStorageEndpoints#filter}
   */
   readonly filter?: DataLinodeObjectStorageEndpointsFilter[] | cdktf.IResolvable;
 }
@@ -115,19 +115,19 @@ export interface DataLinodeObjectStorageEndpointsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints#match_by DataLinodeObjectStorageEndpoints#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/object_storage_endpoints#match_by DataLinodeObjectStorageEndpoints#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints#name DataLinodeObjectStorageEndpoints#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/object_storage_endpoints#name DataLinodeObjectStorageEndpoints#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints#values DataLinodeObjectStorageEndpoints#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/object_storage_endpoints#values DataLinodeObjectStorageEndpoints#values}
   */
   readonly values: string[];
 }
@@ -295,7 +295,7 @@ export class DataLinodeObjectStorageEndpointsFilterList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints linode_object_storage_endpoints}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/object_storage_endpoints linode_object_storage_endpoints}
 */
 export class DataLinodeObjectStorageEndpoints extends cdktf.TerraformDataSource {
 
@@ -311,7 +311,7 @@ export class DataLinodeObjectStorageEndpoints extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataLinodeObjectStorageEndpoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeObjectStorageEndpoints to import
-  * @param importFromId The id of the existing DataLinodeObjectStorageEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeObjectStorageEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/object_storage_endpoints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeObjectStorageEndpoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -323,7 +323,7 @@ export class DataLinodeObjectStorageEndpoints extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/object_storage_endpoints linode_object_storage_endpoints} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/object_storage_endpoints linode_object_storage_endpoints} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -334,8 +334,8 @@ export class DataLinodeObjectStorageEndpoints extends cdktf.TerraformDataSource 
       terraformResourceType: 'linode_object_storage_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

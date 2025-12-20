@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface CatalogV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#annotations CatalogV2#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#annotations CatalogV2#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * CA certificate in base64-encoded DER format which will be used to validate the repo's certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#ca_bundle CatalogV2#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#ca_bundle CatalogV2#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * K8s cluster ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#cluster_id CatalogV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#cluster_id CatalogV2#cluster_id}
   */
   readonly clusterId: string;
   /**
   * If disabled the repo clone will not be updated or allowed to be installed from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#enabled CatalogV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#enabled CatalogV2#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of retries before returning error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#exponential_backoff_max_retries CatalogV2#exponential_backoff_max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#exponential_backoff_max_retries CatalogV2#exponential_backoff_max_retries}
   */
   readonly exponentialBackoffMaxRetries?: number;
   /**
   * Maximum amount of seconds to wait before retrying
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#exponential_backoff_max_wait CatalogV2#exponential_backoff_max_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#exponential_backoff_max_wait CatalogV2#exponential_backoff_max_wait}
   */
   readonly exponentialBackoffMaxWait?: number;
   /**
   * Minimum amount of seconds to wait before retrying
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#exponential_backoff_min_wait CatalogV2#exponential_backoff_min_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#exponential_backoff_min_wait CatalogV2#exponential_backoff_min_wait}
   */
   readonly exponentialBackoffMinWait?: number;
   /**
   * Git Repository branch containing Helm chart definitions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#git_branch CatalogV2#git_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#git_branch CatalogV2#git_branch}
   */
   readonly gitBranch?: string;
   /**
   * Git Repository containing Helm chart definitions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#git_repo CatalogV2#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#git_repo CatalogV2#git_repo}
   */
   readonly gitRepo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#id CatalogV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#id CatalogV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,75 +71,75 @@ export interface CatalogV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Use insecure HTTPS to download the repo's index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#insecure CatalogV2#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#insecure CatalogV2#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Only valid for OCI URL's. Allows insecure connections to registries without enforcing TLS checks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#insecure_plain_http CatalogV2#insecure_plain_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#insecure_plain_http CatalogV2#insecure_plain_http}
   */
   readonly insecurePlainHttp?: boolean | cdktf.IResolvable;
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#labels CatalogV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#labels CatalogV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * K8s Repo name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#name CatalogV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#name CatalogV2#name}
   */
   readonly name: string;
   /**
   * K8s secret name to be used to connect to the repo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#secret_name CatalogV2#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#secret_name CatalogV2#secret_name}
   */
   readonly secretName?: string;
   /**
   * K8s secret namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#secret_namespace CatalogV2#secret_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#secret_namespace CatalogV2#secret_namespace}
   */
   readonly secretNamespace?: string;
   /**
   * K8s service account used to deploy charts instead of the end users credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#service_account CatalogV2#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#service_account CatalogV2#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * K8s namsepace of the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#service_account_namespace CatalogV2#service_account_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#service_account_namespace CatalogV2#service_account_namespace}
   */
   readonly serviceAccountNamespace?: string;
   /**
   * URL to an index generated by Helm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#url CatalogV2#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#url CatalogV2#url}
   */
   readonly url?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#timeouts CatalogV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#timeouts CatalogV2#timeouts}
   */
   readonly timeouts?: CatalogV2Timeouts;
 }
 export interface CatalogV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#create CatalogV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#create CatalogV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#delete CatalogV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#delete CatalogV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#update CatalogV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#update CatalogV2#update}
   */
   readonly update?: string;
 }
@@ -291,7 +291,7 @@ export class CatalogV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2 rancher2_catalog_v2}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2 rancher2_catalog_v2}
 */
 export class CatalogV2 extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class CatalogV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CatalogV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CatalogV2 to import
-  * @param importFromId The id of the existing CatalogV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CatalogV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CatalogV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class CatalogV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/catalog_v2 rancher2_catalog_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/catalog_v2 rancher2_catalog_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class CatalogV2 extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_catalog_v2',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

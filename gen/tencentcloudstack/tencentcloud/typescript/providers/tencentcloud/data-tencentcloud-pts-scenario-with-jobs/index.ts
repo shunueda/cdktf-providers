@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudPtsScenarioWithJobsConfig extends cdktf.Terrafo
   /**
   * Whether to use ascending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs#ascend DataTencentcloudPtsScenarioWithJobs#ascend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs#ascend DataTencentcloudPtsScenarioWithJobs#ascend}
   */
   readonly ascend?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs#id DataTencentcloudPtsScenarioWithJobs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs#id DataTencentcloudPtsScenarioWithJobs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface DataTencentcloudPtsScenarioWithJobsConfig extends cdktf.Terrafo
   /**
   * Whether to ignore the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs#ignore_dataset DataTencentcloudPtsScenarioWithJobs#ignore_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs#ignore_dataset DataTencentcloudPtsScenarioWithJobs#ignore_dataset}
   */
   readonly ignoreDataset?: boolean | cdktf.IResolvable;
   /**
   * Whether to ignore the script content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs#ignore_script DataTencentcloudPtsScenarioWithJobs#ignore_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs#ignore_script DataTencentcloudPtsScenarioWithJobs#ignore_script}
   */
   readonly ignoreScript?: boolean | cdktf.IResolvable;
   /**
   * The field column used for ordering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs#order_by DataTencentcloudPtsScenarioWithJobs#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs#order_by DataTencentcloudPtsScenarioWithJobs#order_by}
   */
   readonly orderBy?: string;
   /**
   * The job owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs#owner DataTencentcloudPtsScenarioWithJobs#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs#owner DataTencentcloudPtsScenarioWithJobs#owner}
   */
   readonly owner?: string;
   /**
   * Project ID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs#project_ids DataTencentcloudPtsScenarioWithJobs#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs#project_ids DataTencentcloudPtsScenarioWithJobs#project_ids}
   */
   readonly projectIds: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs#result_output_file DataTencentcloudPtsScenarioWithJobs#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs#result_output_file DataTencentcloudPtsScenarioWithJobs#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Scenario ID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs#scenario_ids DataTencentcloudPtsScenarioWithJobs#scenario_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs#scenario_ids DataTencentcloudPtsScenarioWithJobs#scenario_ids}
   */
   readonly scenarioIds?: string[];
   /**
   * Scenario name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs#scenario_name DataTencentcloudPtsScenarioWithJobs#scenario_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs#scenario_name DataTencentcloudPtsScenarioWithJobs#scenario_name}
   */
   readonly scenarioName?: string;
   /**
   * Scenario type, e.g.: pts-http, pts-js, pts-trpc, pts-jmeter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs#scenario_type DataTencentcloudPtsScenarioWithJobs#scenario_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs#scenario_type DataTencentcloudPtsScenarioWithJobs#scenario_type}
   */
   readonly scenarioType?: string;
 }
@@ -4294,7 +4294,7 @@ export class DataTencentcloudPtsScenarioWithJobsScenarioWithJobsSetList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs tencentcloud_pts_scenario_with_jobs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs tencentcloud_pts_scenario_with_jobs}
 */
 export class DataTencentcloudPtsScenarioWithJobs extends cdktf.TerraformDataSource {
 
@@ -4310,7 +4310,7 @@ export class DataTencentcloudPtsScenarioWithJobs extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudPtsScenarioWithJobs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudPtsScenarioWithJobs to import
-  * @param importFromId The id of the existing DataTencentcloudPtsScenarioWithJobs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudPtsScenarioWithJobs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudPtsScenarioWithJobs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4322,7 +4322,7 @@ export class DataTencentcloudPtsScenarioWithJobs extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/pts_scenario_with_jobs tencentcloud_pts_scenario_with_jobs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/pts_scenario_with_jobs tencentcloud_pts_scenario_with_jobs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4333,8 +4333,8 @@ export class DataTencentcloudPtsScenarioWithJobs extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_pts_scenario_with_jobs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

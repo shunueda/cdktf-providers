@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_setting
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AutoVpnSettingConfig extends cdktf.TerraformMetaArguments {
   /**
   * As range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_setting#as_range AutoVpnSetting#as_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_setting#as_range AutoVpnSetting#as_range}
   */
   readonly asRange: AutoVpnSettingAsRange;
   /**
   * Enable mesh connection between hubs?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_setting#enable_mesh_between_hubs AutoVpnSetting#enable_mesh_between_hubs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_setting#enable_mesh_between_hubs AutoVpnSetting#enable_mesh_between_hubs}
   */
   readonly enableMeshBetweenHubs?: boolean | cdktf.IResolvable;
   /**
   * VPN address pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_setting#vpn_address_pool AutoVpnSetting#vpn_address_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_setting#vpn_address_pool AutoVpnSetting#vpn_address_pool}
   */
   readonly vpnAddressPool: string[];
 }
@@ -30,13 +30,13 @@ export interface AutoVpnSettingAsRange {
   /**
   * End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_setting#end AutoVpnSetting#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_setting#end AutoVpnSetting#end}
   */
   readonly end?: number;
   /**
   * Start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_setting#start AutoVpnSetting#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_setting#start AutoVpnSetting#start}
   */
   readonly start?: number;
 }
@@ -159,7 +159,7 @@ export class AutoVpnSettingAsRangeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_setting scm_auto_vpn_setting}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_setting scm_auto_vpn_setting}
 */
 export class AutoVpnSetting extends cdktf.TerraformResource {
 
@@ -175,7 +175,7 @@ export class AutoVpnSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutoVpnSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoVpnSetting to import
-  * @param importFromId The id of the existing AutoVpnSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoVpnSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoVpnSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +187,7 @@ export class AutoVpnSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_setting scm_auto_vpn_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_setting scm_auto_vpn_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +198,8 @@ export class AutoVpnSetting extends cdktf.TerraformResource {
       terraformResourceType: 'scm_auto_vpn_setting',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

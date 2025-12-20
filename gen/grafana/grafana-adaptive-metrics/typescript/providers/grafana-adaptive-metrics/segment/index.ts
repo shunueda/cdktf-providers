@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/segment
+// https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/segment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SegmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * WARNING: contact Grafana Cloud support before use. This feature is in private preview and may change without notice, including in ways that may break your configuration. Configurations related to auto-applying recommendations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/segment#auto_apply Segment#auto_apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/segment#auto_apply Segment#auto_apply}
   */
   readonly autoApply?: SegmentAutoApply;
   /**
   * Whether to fallback to the default segment if the selector does not match any segments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/segment#fallback_to_default Segment#fallback_to_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/segment#fallback_to_default Segment#fallback_to_default}
   */
   readonly fallbackToDefault?: boolean | cdktf.IResolvable;
   /**
   * The name of the segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/segment#name Segment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/segment#name Segment#name}
   */
   readonly name: string;
   /**
   * WARNING: contact Grafana Cloud support before use. This feature is in private preview and may change without notice, including in ways that may break your configuration. ID of the policy applied to this segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/segment#policy_id Segment#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/segment#policy_id Segment#policy_id}
   */
   readonly policyId?: string;
   /**
   * The selector that defines the segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/segment#selector Segment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/segment#selector Segment#selector}
   */
   readonly selector: string;
 }
@@ -42,7 +42,7 @@ export interface SegmentAutoApply {
   /**
   * WARNING: contact Grafana Cloud support before use. This feature is in private preview and may change without notice, including in ways that may break your configuration. Whether to automatically apply the generated recommendations in this segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/segment#enabled Segment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/segment#enabled Segment#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -136,7 +136,7 @@ export class SegmentAutoApplyOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/segment grafana-adaptive-metrics_segment}
+* Represents a {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/segment grafana-adaptive-metrics_segment}
 */
 export class Segment extends cdktf.TerraformResource {
 
@@ -152,7 +152,7 @@ export class Segment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Segment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Segment to import
-  * @param importFromId The id of the existing Segment that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/segment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Segment that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/segment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Segment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class Segment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/segment grafana-adaptive-metrics_segment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/segment grafana-adaptive-metrics_segment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,8 +175,8 @@ export class Segment extends cdktf.TerraformResource {
       terraformResourceType: 'grafana-adaptive-metrics_segment',
       terraformGeneratorMetadata: {
         providerName: 'grafana-adaptive-metrics',
-        providerVersion: '0.3.3',
-        providerVersionConstraint: '0.3.3'
+        providerVersion: '0.3.4',
+        providerVersionConstraint: '0.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs
+// https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface GrafanaAdaptiveMetricsProviderConfig {
   /**
   * Tenant ID and Access Policy Token (or API key) for Grafana Cloud in the format '<tenant-id>:<token-or-api-key>'. May alternatively be set via the `GRAFANA_AM_API_KEY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs#api_key GrafanaAdaptiveMetricsProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs#api_key GrafanaAdaptiveMetricsProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Whether to enable debug logging. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs#debug GrafanaAdaptiveMetricsProvider#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs#debug GrafanaAdaptiveMetricsProvider#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * HTTP headers mapping keys to values used for accessing Grafana Cloud APIs. May alternatively be set via the `GRAFANA_AM_HTTP_HEADERS` environment variable in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs#http_headers GrafanaAdaptiveMetricsProvider#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs#http_headers GrafanaAdaptiveMetricsProvider#http_headers}
   */
   readonly httpHeaders?: { [key: string]: string };
   /**
   * The amount of retries to use for Grafana API and Grafana Cloud API calls. Defaults to 3. May alternatively be set via the `GRAFANA_AM_RETRIES` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs#retries GrafanaAdaptiveMetricsProvider#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs#retries GrafanaAdaptiveMetricsProvider#retries}
   */
   readonly retries?: number;
   /**
   * Grafana Cloud's API URL. May alternatively be set via the `GRAFANA_AM_API_URL` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs#url GrafanaAdaptiveMetricsProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs#url GrafanaAdaptiveMetricsProvider#url}
   */
   readonly url?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs#alias GrafanaAdaptiveMetricsProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs#alias GrafanaAdaptiveMetricsProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs grafana-adaptive-metrics}
+* Represents a {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs grafana-adaptive-metrics}
 */
 export class GrafanaAdaptiveMetricsProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class GrafanaAdaptiveMetricsProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a GrafanaAdaptiveMetricsProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GrafanaAdaptiveMetricsProvider to import
-  * @param importFromId The id of the existing GrafanaAdaptiveMetricsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GrafanaAdaptiveMetricsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GrafanaAdaptiveMetricsProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class GrafanaAdaptiveMetricsProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs grafana-adaptive-metrics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs grafana-adaptive-metrics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class GrafanaAdaptiveMetricsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'grafana-adaptive-metrics',
       terraformGeneratorMetadata: {
         providerName: 'grafana-adaptive-metrics',
-        providerVersion: '0.3.3',
-        providerVersionConstraint: '0.3.3'
+        providerVersion: '0.3.4',
+        providerVersionConstraint: '0.3.4'
       },
       terraformProviderSource: 'grafana/grafana-adaptive-metrics'
     });

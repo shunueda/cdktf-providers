@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,46 @@ export interface ServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#description Service#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#description Service#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#device Service#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#device Service#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#folder Service#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#folder Service#folder}
   */
   readonly folder?: string;
   /**
   * The name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#name Service#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#name Service#name}
   */
   readonly name: string;
   /**
   * Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#protocol Service#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#protocol Service#protocol}
   */
   readonly protocol?: ServiceProtocol;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#snippet Service#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#snippet Service#snippet}
   */
   readonly snippet?: string;
   /**
   * Tags for service object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#tag Service#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#tag Service#tag}
   */
   readonly tag?: string[];
 }
@@ -60,19 +57,19 @@ export interface ServiceProtocolTcpOverride {
   /**
   * tcp session half-close timeout value (in second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#halfclose_timeout Service#halfclose_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#halfclose_timeout Service#halfclose_timeout}
   */
   readonly halfcloseTimeout?: number;
   /**
   * tcp session timeout value (in second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#timeout Service#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#timeout Service#timeout}
   */
   readonly timeout?: number;
   /**
   * tcp session time-wait timeout value (in second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#timewait_timeout Service#timewait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#timewait_timeout Service#timewait_timeout}
   */
   readonly timewaitTimeout?: number;
 }
@@ -226,19 +223,19 @@ export interface ServiceProtocolTcp {
   /**
   * Override
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#override Service#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#override Service#override}
   */
   readonly override?: ServiceProtocolTcpOverride;
   /**
   * Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#port Service#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#port Service#port}
   */
   readonly port: string;
   /**
   * Source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#source_port Service#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#source_port Service#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -340,7 +337,7 @@ export class ServiceProtocolTcpOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // override - computed: true, optional: true, required: false
+  // override - computed: false, optional: true, required: false
   private _override = new ServiceProtocolTcpOverrideOutputReference(this, "override");
   public get override() {
     return this._override;
@@ -356,7 +353,7 @@ export class ServiceProtocolTcpOutputReference extends cdktf.ComplexObject {
     return this._override.internalValue;
   }
 
-  // port - computed: true, optional: false, required: true
+  // port - computed: false, optional: false, required: true
   private _port?: string; 
   public get port() {
     return this.getStringAttribute('port');
@@ -369,7 +366,7 @@ export class ServiceProtocolTcpOutputReference extends cdktf.ComplexObject {
     return this._port;
   }
 
-  // source_port - computed: true, optional: true, required: false
+  // source_port - computed: false, optional: true, required: false
   private _sourcePort?: string; 
   public get sourcePort() {
     return this.getStringAttribute('source_port');
@@ -389,7 +386,7 @@ export interface ServiceProtocolUdpOverride {
   /**
   * udp session timeout value (in second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#timeout Service#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#timeout Service#timeout}
   */
   readonly timeout?: number;
 }
@@ -485,19 +482,19 @@ export interface ServiceProtocolUdp {
   /**
   * Override
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#override Service#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#override Service#override}
   */
   readonly override?: ServiceProtocolUdpOverride;
   /**
   * Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#port Service#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#port Service#port}
   */
   readonly port: string;
   /**
   * Source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#source_port Service#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#source_port Service#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -599,7 +596,7 @@ export class ServiceProtocolUdpOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // override - computed: true, optional: true, required: false
+  // override - computed: false, optional: true, required: false
   private _override = new ServiceProtocolUdpOverrideOutputReference(this, "override");
   public get override() {
     return this._override;
@@ -615,7 +612,7 @@ export class ServiceProtocolUdpOutputReference extends cdktf.ComplexObject {
     return this._override.internalValue;
   }
 
-  // port - computed: true, optional: false, required: true
+  // port - computed: false, optional: false, required: true
   private _port?: string; 
   public get port() {
     return this.getStringAttribute('port');
@@ -628,7 +625,7 @@ export class ServiceProtocolUdpOutputReference extends cdktf.ComplexObject {
     return this._port;
   }
 
-  // source_port - computed: true, optional: true, required: false
+  // source_port - computed: false, optional: true, required: false
   private _sourcePort?: string; 
   public get sourcePort() {
     return this.getStringAttribute('source_port');
@@ -647,18 +644,16 @@ export class ServiceProtocolUdpOutputReference extends cdktf.ComplexObject {
 export interface ServiceProtocol {
   /**
   * Tcp
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `tcp` and `udp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#tcp Service#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#tcp Service#tcp}
   */
   readonly tcp?: ServiceProtocolTcp;
   /**
   * Udp
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `tcp` and `udp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#udp Service#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#udp Service#udp}
   */
   readonly udp?: ServiceProtocolUdp;
 }
@@ -747,7 +742,7 @@ export class ServiceProtocolOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // tcp - computed: true, optional: true, required: false
+  // tcp - computed: false, optional: true, required: false
   private _tcp = new ServiceProtocolTcpOutputReference(this, "tcp");
   public get tcp() {
     return this._tcp;
@@ -763,7 +758,7 @@ export class ServiceProtocolOutputReference extends cdktf.ComplexObject {
     return this._tcp.internalValue;
   }
 
-  // udp - computed: true, optional: true, required: false
+  // udp - computed: false, optional: true, required: false
   private _udp = new ServiceProtocolUdpOutputReference(this, "udp");
   public get udp() {
     return this._udp;
@@ -781,7 +776,7 @@ export class ServiceProtocolOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service scm_service}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service scm_service}
 */
 export class Service extends cdktf.TerraformResource {
 
@@ -797,7 +792,7 @@ export class Service extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Service resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Service to import
-  * @param importFromId The id of the existing Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Service to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -809,7 +804,7 @@ export class Service extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/service scm_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/service scm_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -820,8 +815,8 @@ export class Service extends cdktf.TerraformResource {
       terraformResourceType: 'scm_service',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -910,7 +905,7 @@ export class Service extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // protocol - computed: true, optional: true, required: false
+  // protocol - computed: false, optional: true, required: false
   private _protocol = new ServiceProtocolOutputReference(this, "protocol");
   public get protocol() {
     return this._protocol;

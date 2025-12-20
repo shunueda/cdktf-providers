@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,83 +8,61 @@ import * as cdktf from 'cdktf';
 
 export interface BucketConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Conflict-resolution mechanism of the bucket.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket#bucket_conflict_resolution Bucket#bucket_conflict_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#bucket_conflict_resolution Bucket#bucket_conflict_resolution}
   */
   readonly bucketConflictResolution?: string;
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket#cluster_id Bucket#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#cluster_id Bucket#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Durability level of the bucket.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket#durability_level Bucket#durability_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#durability_level Bucket#durability_level}
   */
   readonly durabilityLevel?: string;
   /**
-  * Eviction policy for the bucket.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket#eviction_policy Bucket#eviction_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#eviction_policy Bucket#eviction_policy}
   */
   readonly evictionPolicy?: string;
   /**
-  * Determines whether the flushing is enabled in the bucket.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket#flush Bucket#flush}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#flush Bucket#flush}
   */
   readonly flush?: boolean | cdktf.IResolvable;
   /**
-  * Bucket size allocation in MB.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket#memory_allocation_in_mb Bucket#memory_allocation_in_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#memory_allocation_in_mb Bucket#memory_allocation_in_mb}
   */
   readonly memoryAllocationInMb?: number;
   /**
-  * Name of the Capella bucket
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket#name Bucket#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#name Bucket#name}
   */
   readonly name: string;
   /**
-  * The GUID4 ID of the organization
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket#organization_id Bucket#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#organization_id Bucket#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket#project_id Bucket#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#project_id Bucket#project_id}
   */
   readonly projectId: string;
   /**
-  * Number of replicas for the data.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket#replicas Bucket#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#replicas Bucket#replicas}
   */
   readonly replicas?: number;
   /**
-  * The bucket storage engine type (Magma or Couchstore).
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket#storage_backend Bucket#storage_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#storage_backend Bucket#storage_backend}
   */
   readonly storageBackend?: string;
   /**
-  * Time-to-live (TTL) for items in the bucket, in seconds.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket#time_to_live_in_seconds Bucket#time_to_live_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#time_to_live_in_seconds Bucket#time_to_live_in_seconds}
   */
   readonly timeToLiveInSeconds?: number;
   /**
-  * The bucket type (couchbase or ephemeral).
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket#type Bucket#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#type Bucket#type}
   */
   readonly type?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#vbuckets Bucket#vbuckets}
+  */
+  readonly vbuckets?: number;
 }
 export interface BucketStats {
 }
@@ -157,7 +135,7 @@ export class BucketStatsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket couchbase-capella_bucket}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket couchbase-capella_bucket}
 */
 export class Bucket extends cdktf.TerraformResource {
 
@@ -173,7 +151,7 @@ export class Bucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Bucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Bucket to import
-  * @param importFromId The id of the existing Bucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Bucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Bucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +163,7 @@ export class Bucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/bucket couchbase-capella_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/bucket couchbase-capella_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +174,8 @@ export class Bucket extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_bucket',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -220,6 +198,7 @@ export class Bucket extends cdktf.TerraformResource {
     this._storageBackend = config.storageBackend;
     this._timeToLiveInSeconds = config.timeToLiveInSeconds;
     this._type = config.type;
+    this._vbuckets = config.vbuckets;
   }
 
   // ==========
@@ -433,6 +412,22 @@ export class Bucket extends cdktf.TerraformResource {
     return this._type;
   }
 
+  // vbuckets - computed: true, optional: true, required: false
+  private _vbuckets?: number; 
+  public get vbuckets() {
+    return this.getNumberAttribute('vbuckets');
+  }
+  public set vbuckets(value: number) {
+    this._vbuckets = value;
+  }
+  public resetVbuckets() {
+    this._vbuckets = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vbucketsInput() {
+    return this._vbuckets;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -452,6 +447,7 @@ export class Bucket extends cdktf.TerraformResource {
       storage_backend: cdktf.stringToTerraform(this._storageBackend),
       time_to_live_in_seconds: cdktf.numberToTerraform(this._timeToLiveInSeconds),
       type: cdktf.stringToTerraform(this._type),
+      vbuckets: cdktf.numberToTerraform(this._vbuckets),
     };
   }
 
@@ -534,6 +530,12 @@ export class Bucket extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      vbuckets: {
+        value: cdktf.numberToHclTerraform(this._vbuckets),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
     };
 

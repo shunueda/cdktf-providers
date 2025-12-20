@@ -4,7 +4,7 @@ Object.defineProperty(exports, 'cloudAzureTenant', { get: function () { return r
 Object.defineProperty(exports, 'cloudAzureTenantEventhubSettings', { get: function () { return require('./cloud-azure-tenant-eventhub-settings'); } });
 Object.defineProperty(exports, 'cloudComplianceCustomFramework', { get: function () { return require('./cloud-compliance-custom-framework'); } });
 Object.defineProperty(exports, 'cloudGoogleRegistration', { get: function () { return require('./cloud-google-registration'); } });
-Object.defineProperty(exports, 'cloudGoogleRegistrationLoggingSettings', { get: function () { return require('./cloud-google-registration-logging-settings'); } });
+Object.defineProperty(exports, 'cloudGoogleRegistrationSettings', { get: function () { return require('./cloud-google-registration-settings'); } });
 Object.defineProperty(exports, 'cloudGroup', { get: function () { return require('./cloud-group'); } });
 Object.defineProperty(exports, 'cloudSecurityCustomRule', { get: function () { return require('./cloud-security-custom-rule'); } });
 Object.defineProperty(exports, 'contentUpdatePolicy', { get: function () { return require('./content-update-policy'); } });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/pod_security_admission_configuration_template
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/pod_security_admission_configuration_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataRancher2PodSecurityAdmissionConfigurationTemplateConfig ext
   /**
   * Annotations of the Pod Security Admission Configuration Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/pod_security_admission_configuration_template#annotations DataRancher2PodSecurityAdmissionConfigurationTemplate#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/pod_security_admission_configuration_template#annotations DataRancher2PodSecurityAdmissionConfigurationTemplate#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/pod_security_admission_configuration_template#id DataRancher2PodSecurityAdmissionConfigurationTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/pod_security_admission_configuration_template#id DataRancher2PodSecurityAdmissionConfigurationTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataRancher2PodSecurityAdmissionConfigurationTemplateConfig ext
   /**
   * Labels of the Pod Security Admission Configuration Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/pod_security_admission_configuration_template#labels DataRancher2PodSecurityAdmissionConfigurationTemplate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/pod_security_admission_configuration_template#labels DataRancher2PodSecurityAdmissionConfigurationTemplate#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Pod Security Admission Configuration Template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/pod_security_admission_configuration_template#name DataRancher2PodSecurityAdmissionConfigurationTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/pod_security_admission_configuration_template#name DataRancher2PodSecurityAdmissionConfigurationTemplate#name}
   */
   readonly name: string;
 }
@@ -220,7 +220,7 @@ export class DataRancher2PodSecurityAdmissionConfigurationTemplateExemptionsList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/pod_security_admission_configuration_template rancher2_pod_security_admission_configuration_template}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/pod_security_admission_configuration_template rancher2_pod_security_admission_configuration_template}
 */
 export class DataRancher2PodSecurityAdmissionConfigurationTemplate extends cdktf.TerraformDataSource {
 
@@ -236,7 +236,7 @@ export class DataRancher2PodSecurityAdmissionConfigurationTemplate extends cdktf
   * Generates CDKTF code for importing a DataRancher2PodSecurityAdmissionConfigurationTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRancher2PodSecurityAdmissionConfigurationTemplate to import
-  * @param importFromId The id of the existing DataRancher2PodSecurityAdmissionConfigurationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/pod_security_admission_configuration_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRancher2PodSecurityAdmissionConfigurationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/pod_security_admission_configuration_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRancher2PodSecurityAdmissionConfigurationTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +248,7 @@ export class DataRancher2PodSecurityAdmissionConfigurationTemplate extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/pod_security_admission_configuration_template rancher2_pod_security_admission_configuration_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/pod_security_admission_configuration_template rancher2_pod_security_admission_configuration_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +259,8 @@ export class DataRancher2PodSecurityAdmissionConfigurationTemplate extends cdktf
       terraformResourceType: 'rancher2_pod_security_admission_configuration_template',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

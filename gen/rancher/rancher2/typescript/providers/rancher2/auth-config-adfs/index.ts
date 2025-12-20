@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface AuthConfigAdfsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#access_mode AuthConfigAdfs#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#access_mode AuthConfigAdfs#access_mode}
   */
   readonly accessMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#allowed_principal_ids AuthConfigAdfs#allowed_principal_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#allowed_principal_ids AuthConfigAdfs#allowed_principal_ids}
   */
   readonly allowedPrincipalIds?: string[];
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#annotations AuthConfigAdfs#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#annotations AuthConfigAdfs#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#display_name_field AuthConfigAdfs#display_name_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#display_name_field AuthConfigAdfs#display_name_field}
   */
   readonly displayNameField: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#enabled AuthConfigAdfs#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#enabled AuthConfigAdfs#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#groups_field AuthConfigAdfs#groups_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#groups_field AuthConfigAdfs#groups_field}
   */
   readonly groupsField: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#id AuthConfigAdfs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#id AuthConfigAdfs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#idp_metadata_content AuthConfigAdfs#idp_metadata_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#idp_metadata_content AuthConfigAdfs#idp_metadata_content}
   */
   readonly idpMetadataContent: string;
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#labels AuthConfigAdfs#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#labels AuthConfigAdfs#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#rancher_api_host AuthConfigAdfs#rancher_api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#rancher_api_host AuthConfigAdfs#rancher_api_host}
   */
   readonly rancherApiHost: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#sp_cert AuthConfigAdfs#sp_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#sp_cert AuthConfigAdfs#sp_cert}
   */
   readonly spCert: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#sp_key AuthConfigAdfs#sp_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#sp_key AuthConfigAdfs#sp_key}
   */
   readonly spKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#uid_field AuthConfigAdfs#uid_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#uid_field AuthConfigAdfs#uid_field}
   */
   readonly uidField: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#user_name_field AuthConfigAdfs#user_name_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#user_name_field AuthConfigAdfs#user_name_field}
   */
   readonly userNameField: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs rancher2_auth_config_adfs}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs rancher2_auth_config_adfs}
 */
 export class AuthConfigAdfs extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class AuthConfigAdfs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthConfigAdfs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthConfigAdfs to import
-  * @param importFromId The id of the existing AuthConfigAdfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthConfigAdfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthConfigAdfs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class AuthConfigAdfs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_adfs rancher2_auth_config_adfs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_adfs rancher2_auth_config_adfs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class AuthConfigAdfs extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_auth_config_adfs',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

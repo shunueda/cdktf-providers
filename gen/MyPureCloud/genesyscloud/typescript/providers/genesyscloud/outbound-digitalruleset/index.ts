@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OutboundDigitalrulesetConfig extends cdktf.TerraformMetaArgumen
   /**
   * A ContactList to provide suggestions for contact columns on relevant conditions and actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#contact_list_id OutboundDigitalruleset#contact_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#contact_list_id OutboundDigitalruleset#contact_list_id}
   */
   readonly contactListId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#id OutboundDigitalruleset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#id OutboundDigitalruleset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface OutboundDigitalrulesetConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the digital rule set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#name OutboundDigitalruleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#name OutboundDigitalruleset#name}
   */
   readonly name?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#rules OutboundDigitalruleset#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#rules OutboundDigitalruleset#rules}
   */
   readonly rules: OutboundDigitalrulesetRules[] | cdktf.IResolvable;
 }
@@ -37,19 +37,19 @@ export interface OutboundDigitalrulesetRulesActionsAppendToDncActionSettings {
   /**
   * If 'expire' is set to true, how long to keep the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#expiration_duration OutboundDigitalruleset#expiration_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#expiration_duration OutboundDigitalruleset#expiration_duration}
   */
   readonly expirationDuration?: string;
   /**
   * Whether to expire the record appended to the DNC list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#expire OutboundDigitalruleset#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#expire OutboundDigitalruleset#expire}
   */
   readonly expire: boolean | cdktf.IResolvable;
   /**
   * The Dnc List Type to append entries to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#list_type OutboundDigitalruleset#list_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#list_type OutboundDigitalruleset#list_type}
   */
   readonly listType?: string;
 }
@@ -190,7 +190,7 @@ export interface OutboundDigitalrulesetRulesActionsMarkContactUncontactableActio
   /**
   * A list of media types to evaluate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#media_types OutboundDigitalruleset#media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#media_types OutboundDigitalruleset#media_types}
   */
   readonly mediaTypes: string[];
 }
@@ -273,13 +273,13 @@ export interface OutboundDigitalrulesetRulesActionsSetContentTemplateActionSetti
   /**
   * A string of email contentTemplateId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#email_content_template_id OutboundDigitalruleset#email_content_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#email_content_template_id OutboundDigitalruleset#email_content_template_id}
   */
   readonly emailContentTemplateId: string;
   /**
   * A string of sms contentTemplateId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#sms_content_template_id OutboundDigitalruleset#sms_content_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#sms_content_template_id OutboundDigitalruleset#sms_content_template_id}
   */
   readonly smsContentTemplateId: string;
 }
@@ -388,7 +388,7 @@ export interface OutboundDigitalrulesetRulesActionsSetSmsPhoneNumberActionSettin
   /**
   * The string address for the sms phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#sender_sms_phone_number OutboundDigitalruleset#sender_sms_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#sender_sms_phone_number OutboundDigitalruleset#sender_sms_phone_number}
   */
   readonly senderSmsPhoneNumber: string;
 }
@@ -471,13 +471,13 @@ export interface OutboundDigitalrulesetRulesActionsUpdateContactColumnActionSett
   /**
   * A map of key-value pairs pertinent to the DialerAction. Different types of DialerActions require different properties. MODIFY_CONTACT_ATTRIBUTE with an updateOption of SET takes a contact column as the key and accepts any value. SCHEDULE_CALLBACK takes a key 'callbackOffset' that specifies how far in the future the callback should be scheduled, in minutes. SET_CALLER_ID takes two keys: 'callerAddress', which should be the caller id phone number, and 'callerName'. For either key, you can also specify a column on the contact to get the value from. To do this, specify 'contact.Column', where 'Column' is the name of the contact column from which to get the value. SET_SKILLS takes a key 'skills' with an array of skill ids wrapped into a string (Example: {'skills': '['skillIdHere']'} ).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#properties OutboundDigitalruleset#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#properties OutboundDigitalruleset#properties}
   */
   readonly properties?: string;
   /**
   * The type of update to make to the specified contact column(s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#update_option OutboundDigitalruleset#update_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#update_option OutboundDigitalruleset#update_option}
   */
   readonly updateOption: string;
 }
@@ -589,43 +589,43 @@ export interface OutboundDigitalrulesetRulesActions {
   /**
   * The settings for a 'do not send' action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#do_not_send_action_settings OutboundDigitalruleset#do_not_send_action_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#do_not_send_action_settings OutboundDigitalruleset#do_not_send_action_settings}
   */
   readonly doNotSendActionSettings?: string;
   /**
   * The settings for an 'mark contact address uncontactable' action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#mark_contact_address_uncontactable_action_settings OutboundDigitalruleset#mark_contact_address_uncontactable_action_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#mark_contact_address_uncontactable_action_settings OutboundDigitalruleset#mark_contact_address_uncontactable_action_settings}
   */
   readonly markContactAddressUncontactableActionSettings?: string;
   /**
   * append_to_dnc_action_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#append_to_dnc_action_settings OutboundDigitalruleset#append_to_dnc_action_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#append_to_dnc_action_settings OutboundDigitalruleset#append_to_dnc_action_settings}
   */
   readonly appendToDncActionSettings?: OutboundDigitalrulesetRulesActionsAppendToDncActionSettings;
   /**
   * mark_contact_uncontactable_action_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#mark_contact_uncontactable_action_settings OutboundDigitalruleset#mark_contact_uncontactable_action_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#mark_contact_uncontactable_action_settings OutboundDigitalruleset#mark_contact_uncontactable_action_settings}
   */
   readonly markContactUncontactableActionSettings?: OutboundDigitalrulesetRulesActionsMarkContactUncontactableActionSettings;
   /**
   * set_content_template_action_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#set_content_template_action_settings OutboundDigitalruleset#set_content_template_action_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#set_content_template_action_settings OutboundDigitalruleset#set_content_template_action_settings}
   */
   readonly setContentTemplateActionSettings?: OutboundDigitalrulesetRulesActionsSetContentTemplateActionSettings;
   /**
   * set_sms_phone_number_action_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#set_sms_phone_number_action_settings OutboundDigitalruleset#set_sms_phone_number_action_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#set_sms_phone_number_action_settings OutboundDigitalruleset#set_sms_phone_number_action_settings}
   */
   readonly setSmsPhoneNumberActionSettings?: OutboundDigitalrulesetRulesActionsSetSmsPhoneNumberActionSettings;
   /**
   * update_contact_column_action_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#update_contact_column_action_settings OutboundDigitalruleset#update_contact_column_action_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#update_contact_column_action_settings OutboundDigitalruleset#update_contact_column_action_settings}
   */
   readonly updateContactColumnActionSettings?: OutboundDigitalrulesetRulesActionsUpdateContactColumnActionSettings;
 }
@@ -917,13 +917,13 @@ export interface OutboundDigitalrulesetRulesConditionsContactAddressConditionSet
   /**
   * The operator to use when comparing address values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#operator OutboundDigitalruleset#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#operator OutboundDigitalruleset#operator}
   */
   readonly operator: string;
   /**
   * The value to compare against the contact's address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#value OutboundDigitalruleset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#value OutboundDigitalruleset#value}
   */
   readonly value: string;
 }
@@ -1032,13 +1032,13 @@ export interface OutboundDigitalrulesetRulesConditionsContactAddressTypeConditio
   /**
   * The operator to use when comparing the address types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#operator OutboundDigitalruleset#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#operator OutboundDigitalruleset#operator}
   */
   readonly operator: string;
   /**
   * The type value to compare against the contact column type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#value OutboundDigitalruleset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#value OutboundDigitalruleset#value}
   */
   readonly value: string;
 }
@@ -1147,25 +1147,25 @@ export interface OutboundDigitalrulesetRulesConditionsContactColumnConditionSett
   /**
   * The name of the contact list column to evaluate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#column_name OutboundDigitalruleset#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#column_name OutboundDigitalruleset#column_name}
   */
   readonly columnName: string;
   /**
   * The operator to use when comparing values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#operator OutboundDigitalruleset#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#operator OutboundDigitalruleset#operator}
   */
   readonly operator: string;
   /**
   * The value to compare against the contact's data. If 'value_type' is Numeric or Period, value is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#value OutboundDigitalruleset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#value OutboundDigitalruleset#value}
   */
   readonly value?: string;
   /**
   * The data type the value should be treated as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#value_type OutboundDigitalruleset#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#value_type OutboundDigitalruleset#value_type}
   */
   readonly valueType: string;
 }
@@ -1329,13 +1329,13 @@ export interface OutboundDigitalrulesetRulesConditionsDataActionConditionSetting
   /**
   * The name of a contact column whose data will be passed to the data action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#contact_column_name OutboundDigitalruleset#contact_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#contact_column_name OutboundDigitalruleset#contact_column_name}
   */
   readonly contactColumnName: string;
   /**
   * The name of an input field from the data action that the contact column data will be passed to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#data_action_field OutboundDigitalruleset#data_action_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#data_action_field OutboundDigitalruleset#data_action_field}
   */
   readonly dataActionField: string;
 }
@@ -1476,31 +1476,31 @@ export interface OutboundDigitalrulesetRulesConditionsDataActionConditionSetting
   /**
   * The value to compare against for this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#comparison_value OutboundDigitalruleset#comparison_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#comparison_value OutboundDigitalruleset#comparison_value}
   */
   readonly comparisonValue: string;
   /**
   * If true, inverts the result of evaluating this Predicate. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#inverted OutboundDigitalruleset#inverted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#inverted OutboundDigitalruleset#inverted}
   */
   readonly inverted: boolean | cdktf.IResolvable;
   /**
   * The name of an output field from the data action's output to use for this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#output_field OutboundDigitalruleset#output_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#output_field OutboundDigitalruleset#output_field}
   */
   readonly outputField: string;
   /**
   * The result of this predicate if the requested output field is missing from the data action's result
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#output_field_missing_resolution OutboundDigitalruleset#output_field_missing_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#output_field_missing_resolution OutboundDigitalruleset#output_field_missing_resolution}
   */
   readonly outputFieldMissingResolution: boolean | cdktf.IResolvable;
   /**
   * The operation with which to evaluate this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#output_operator OutboundDigitalruleset#output_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#output_operator OutboundDigitalruleset#output_operator}
   */
   readonly outputOperator: string;
 }
@@ -1719,31 +1719,31 @@ export interface OutboundDigitalrulesetRulesConditionsDataActionConditionSetting
   /**
   * The input field from the data action that the contactId will be passed into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#contact_id_field OutboundDigitalruleset#contact_id_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#contact_id_field OutboundDigitalruleset#contact_id_field}
   */
   readonly contactIdField?: string;
   /**
   * The Data Action Id to use for this condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#data_action_id OutboundDigitalruleset#data_action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#data_action_id OutboundDigitalruleset#data_action_id}
   */
   readonly dataActionId: string;
   /**
   * The result of this condition if the data action returns a result indicating there was no data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#data_not_found_resolution OutboundDigitalruleset#data_not_found_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#data_not_found_resolution OutboundDigitalruleset#data_not_found_resolution}
   */
   readonly dataNotFoundResolution: boolean | cdktf.IResolvable;
   /**
   * contact_column_to_data_action_field_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#contact_column_to_data_action_field_mappings OutboundDigitalruleset#contact_column_to_data_action_field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#contact_column_to_data_action_field_mappings OutboundDigitalruleset#contact_column_to_data_action_field_mappings}
   */
   readonly contactColumnToDataActionFieldMappings?: OutboundDigitalrulesetRulesConditionsDataActionConditionSettingsContactColumnToDataActionFieldMappings[] | cdktf.IResolvable;
   /**
   * predicates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#predicates OutboundDigitalruleset#predicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#predicates OutboundDigitalruleset#predicates}
   */
   readonly predicates?: OutboundDigitalrulesetRulesConditionsDataActionConditionSettingsPredicates[] | cdktf.IResolvable;
 }
@@ -1939,25 +1939,25 @@ export interface OutboundDigitalrulesetRulesConditionsLastAttemptByColumnConditi
   /**
   * The name of the contact column to evaluate for Email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#email_column_name OutboundDigitalruleset#email_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#email_column_name OutboundDigitalruleset#email_column_name}
   */
   readonly emailColumnName?: string;
   /**
   * The operator to use when comparing values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#operator OutboundDigitalruleset#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#operator OutboundDigitalruleset#operator}
   */
   readonly operator: string;
   /**
   * The name of the contact column to evaluate for SMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#sms_column_name OutboundDigitalruleset#sms_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#sms_column_name OutboundDigitalruleset#sms_column_name}
   */
   readonly smsColumnName?: string;
   /**
   * The period value to compare against the contact's data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#value OutboundDigitalruleset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#value OutboundDigitalruleset#value}
   */
   readonly value: string;
 }
@@ -2124,19 +2124,19 @@ export interface OutboundDigitalrulesetRulesConditionsLastAttemptOverallConditio
   /**
   * A list of media types to evaluate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#media_types OutboundDigitalruleset#media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#media_types OutboundDigitalruleset#media_types}
   */
   readonly mediaTypes: string[];
   /**
   * The operator to use when comparing values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#operator OutboundDigitalruleset#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#operator OutboundDigitalruleset#operator}
   */
   readonly operator: string;
   /**
   * The period value to compare against the contact's data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#value OutboundDigitalruleset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#value OutboundDigitalruleset#value}
   */
   readonly value: string;
 }
@@ -2271,25 +2271,25 @@ export interface OutboundDigitalrulesetRulesConditionsLastResultByColumnConditio
   /**
   * The name of the contact column to evaluate for Email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#email_column_name OutboundDigitalruleset#email_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#email_column_name OutboundDigitalruleset#email_column_name}
   */
   readonly emailColumnName?: string;
   /**
   * A list of wrapup code identifiers to match for Email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#email_wrapup_codes OutboundDigitalruleset#email_wrapup_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#email_wrapup_codes OutboundDigitalruleset#email_wrapup_codes}
   */
   readonly emailWrapupCodes?: string[];
   /**
   * The name of the contact column to evaluate for SMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#sms_column_name OutboundDigitalruleset#sms_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#sms_column_name OutboundDigitalruleset#sms_column_name}
   */
   readonly smsColumnName?: string;
   /**
   * A list of wrapup code identifiers to match for SMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#sms_wrapup_codes OutboundDigitalruleset#sms_wrapup_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#sms_wrapup_codes OutboundDigitalruleset#sms_wrapup_codes}
   */
   readonly smsWrapupCodes?: string[];
 }
@@ -2462,13 +2462,13 @@ export interface OutboundDigitalrulesetRulesConditionsLastResultOverallCondition
   /**
   * A list of wrapup code identifiers to match for Email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#email_wrapup_codes OutboundDigitalruleset#email_wrapup_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#email_wrapup_codes OutboundDigitalruleset#email_wrapup_codes}
   */
   readonly emailWrapupCodes?: string[];
   /**
   * A list of wrapup code identifiers to match for SMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#sms_wrapup_codes OutboundDigitalruleset#sms_wrapup_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#sms_wrapup_codes OutboundDigitalruleset#sms_wrapup_codes}
   */
   readonly smsWrapupCodes?: string[];
 }
@@ -2583,55 +2583,55 @@ export interface OutboundDigitalrulesetRulesConditions {
   /**
   * If true, inverts the result of evaluating this condition. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#inverted OutboundDigitalruleset#inverted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#inverted OutboundDigitalruleset#inverted}
   */
   readonly inverted?: boolean | cdktf.IResolvable;
   /**
   * contact_address_condition_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#contact_address_condition_settings OutboundDigitalruleset#contact_address_condition_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#contact_address_condition_settings OutboundDigitalruleset#contact_address_condition_settings}
   */
   readonly contactAddressConditionSettings?: OutboundDigitalrulesetRulesConditionsContactAddressConditionSettings;
   /**
   * contact_address_type_condition_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#contact_address_type_condition_settings OutboundDigitalruleset#contact_address_type_condition_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#contact_address_type_condition_settings OutboundDigitalruleset#contact_address_type_condition_settings}
   */
   readonly contactAddressTypeConditionSettings?: OutboundDigitalrulesetRulesConditionsContactAddressTypeConditionSettings;
   /**
   * contact_column_condition_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#contact_column_condition_settings OutboundDigitalruleset#contact_column_condition_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#contact_column_condition_settings OutboundDigitalruleset#contact_column_condition_settings}
   */
   readonly contactColumnConditionSettings?: OutboundDigitalrulesetRulesConditionsContactColumnConditionSettings;
   /**
   * data_action_condition_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#data_action_condition_settings OutboundDigitalruleset#data_action_condition_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#data_action_condition_settings OutboundDigitalruleset#data_action_condition_settings}
   */
   readonly dataActionConditionSettings?: OutboundDigitalrulesetRulesConditionsDataActionConditionSettings;
   /**
   * last_attempt_by_column_condition_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#last_attempt_by_column_condition_settings OutboundDigitalruleset#last_attempt_by_column_condition_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#last_attempt_by_column_condition_settings OutboundDigitalruleset#last_attempt_by_column_condition_settings}
   */
   readonly lastAttemptByColumnConditionSettings?: OutboundDigitalrulesetRulesConditionsLastAttemptByColumnConditionSettings;
   /**
   * last_attempt_overall_condition_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#last_attempt_overall_condition_settings OutboundDigitalruleset#last_attempt_overall_condition_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#last_attempt_overall_condition_settings OutboundDigitalruleset#last_attempt_overall_condition_settings}
   */
   readonly lastAttemptOverallConditionSettings?: OutboundDigitalrulesetRulesConditionsLastAttemptOverallConditionSettings;
   /**
   * last_result_by_column_condition_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#last_result_by_column_condition_settings OutboundDigitalruleset#last_result_by_column_condition_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#last_result_by_column_condition_settings OutboundDigitalruleset#last_result_by_column_condition_settings}
   */
   readonly lastResultByColumnConditionSettings?: OutboundDigitalrulesetRulesConditionsLastResultByColumnConditionSettings;
   /**
   * last_result_overall_condition_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#last_result_overall_condition_settings OutboundDigitalruleset#last_result_overall_condition_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#last_result_overall_condition_settings OutboundDigitalruleset#last_result_overall_condition_settings}
   */
   readonly lastResultOverallConditionSettings?: OutboundDigitalrulesetRulesConditionsLastResultOverallConditionSettings;
 }
@@ -2981,31 +2981,31 @@ export interface OutboundDigitalrulesetRules {
   /**
   * The category of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#category OutboundDigitalruleset#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#category OutboundDigitalruleset#category}
   */
   readonly category: string;
   /**
   * The name of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#name OutboundDigitalruleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#name OutboundDigitalruleset#name}
   */
   readonly name: string;
   /**
   * The ranked order of the rule. Rules are processed from lowest number to highest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#order OutboundDigitalruleset#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#order OutboundDigitalruleset#order}
   */
   readonly order: number;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#actions OutboundDigitalruleset#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#actions OutboundDigitalruleset#actions}
   */
   readonly actions: OutboundDigitalrulesetRulesActions[] | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#conditions OutboundDigitalruleset#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#conditions OutboundDigitalruleset#conditions}
   */
   readonly conditions: OutboundDigitalrulesetRulesConditions[] | cdktf.IResolvable;
 }
@@ -3222,7 +3222,7 @@ export class OutboundDigitalrulesetRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset genesyscloud_outbound_digitalruleset}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset genesyscloud_outbound_digitalruleset}
 */
 export class OutboundDigitalruleset extends cdktf.TerraformResource {
 
@@ -3238,7 +3238,7 @@ export class OutboundDigitalruleset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundDigitalruleset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundDigitalruleset to import
-  * @param importFromId The id of the existing OutboundDigitalruleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundDigitalruleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundDigitalruleset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3250,7 +3250,7 @@ export class OutboundDigitalruleset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_digitalruleset genesyscloud_outbound_digitalruleset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_digitalruleset genesyscloud_outbound_digitalruleset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3261,8 +3261,8 @@ export class OutboundDigitalruleset extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_digitalruleset',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

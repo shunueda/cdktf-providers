@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/outbound_contact_list
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/outbound_contact_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataGenesyscloudOutboundContactListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/outbound_contact_list#id DataGenesyscloudOutboundContactList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/outbound_contact_list#id DataGenesyscloudOutboundContactList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataGenesyscloudOutboundContactListConfig extends cdktf.Terrafo
   /**
   * Contact List name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/outbound_contact_list#name DataGenesyscloudOutboundContactList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/outbound_contact_list#name DataGenesyscloudOutboundContactList#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/outbound_contact_list genesyscloud_outbound_contact_list}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/outbound_contact_list genesyscloud_outbound_contact_list}
 */
 export class DataGenesyscloudOutboundContactList extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataGenesyscloudOutboundContactList extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataGenesyscloudOutboundContactList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGenesyscloudOutboundContactList to import
-  * @param importFromId The id of the existing DataGenesyscloudOutboundContactList that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/outbound_contact_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGenesyscloudOutboundContactList that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/outbound_contact_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGenesyscloudOutboundContactList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataGenesyscloudOutboundContactList extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/outbound_contact_list genesyscloud_outbound_contact_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/outbound_contact_list genesyscloud_outbound_contact_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataGenesyscloudOutboundContactList extends cdktf.TerraformDataSour
       terraformResourceType: 'genesyscloud_outbound_contact_list',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

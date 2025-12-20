@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_tokens
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_tokens
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataEquinixFabricServiceTokensConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_tokens#id DataEquinixFabricServiceTokens#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_tokens#id DataEquinixFabricServiceTokens#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataEquinixFabricServiceTokensConfig extends cdktf.TerraformMet
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_tokens#filter DataEquinixFabricServiceTokens#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_tokens#filter DataEquinixFabricServiceTokens#filter}
   */
   readonly filter: DataEquinixFabricServiceTokensFilter[] | cdktf.IResolvable;
   /**
   * pagination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_tokens#pagination DataEquinixFabricServiceTokens#pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_tokens#pagination DataEquinixFabricServiceTokens#pagination}
   */
   readonly pagination?: DataEquinixFabricServiceTokensPagination;
 }
@@ -2394,19 +2394,19 @@ export interface DataEquinixFabricServiceTokensFilter {
   /**
   * Possible operators to use on the filter property. Can be one of the following: [ "=", "!=", "[NOT] LIKE", "[NOT] IN", "ILIKE" ]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_tokens#operator DataEquinixFabricServiceTokens#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_tokens#operator DataEquinixFabricServiceTokens#operator}
   */
   readonly operator: string;
   /**
   * The API response property which you want to filter your request on. Can be one of the following: "/type", "/name", "/project/projectId", "/uuid", "/state"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_tokens#property DataEquinixFabricServiceTokens#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_tokens#property DataEquinixFabricServiceTokens#property}
   */
   readonly property: string;
   /**
   * The values that you want to apply the property+operator combination to in order to filter your data search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_tokens#values DataEquinixFabricServiceTokens#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_tokens#values DataEquinixFabricServiceTokens#values}
   */
   readonly values: string[];
 }
@@ -2573,19 +2573,19 @@ export interface DataEquinixFabricServiceTokensPagination {
   /**
   * Number of elements to be requested per page. Number must be between 1 and 100. Default is 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_tokens#limit DataEquinixFabricServiceTokens#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_tokens#limit DataEquinixFabricServiceTokens#limit}
   */
   readonly limit?: number;
   /**
   * The page offset for the pagination request. Index of the first element. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_tokens#offset DataEquinixFabricServiceTokens#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_tokens#offset DataEquinixFabricServiceTokens#offset}
   */
   readonly offset?: number;
   /**
   * Total number of elements returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_tokens#total DataEquinixFabricServiceTokens#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_tokens#total DataEquinixFabricServiceTokens#total}
   */
   readonly total?: number;
 }
@@ -2737,7 +2737,7 @@ export class DataEquinixFabricServiceTokensPaginationOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_tokens equinix_fabric_service_tokens}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_tokens equinix_fabric_service_tokens}
 */
 export class DataEquinixFabricServiceTokens extends cdktf.TerraformDataSource {
 
@@ -2753,7 +2753,7 @@ export class DataEquinixFabricServiceTokens extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixFabricServiceTokens resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricServiceTokens to import
-  * @param importFromId The id of the existing DataEquinixFabricServiceTokens that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_tokens#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricServiceTokens that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_tokens#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricServiceTokens to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2765,7 +2765,7 @@ export class DataEquinixFabricServiceTokens extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_tokens equinix_fabric_service_tokens} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_tokens equinix_fabric_service_tokens} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2776,8 +2776,8 @@ export class DataEquinixFabricServiceTokens extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_fabric_service_tokens',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

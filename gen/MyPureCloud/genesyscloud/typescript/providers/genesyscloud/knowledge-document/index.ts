@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface KnowledgeDocumentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document#id KnowledgeDocument#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document#id KnowledgeDocument#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface KnowledgeDocumentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Knowledge base id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document#knowledge_base_id KnowledgeDocument#knowledge_base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document#knowledge_base_id KnowledgeDocument#knowledge_base_id}
   */
   readonly knowledgeBaseId: string;
   /**
   * *DEPRECATED: By Default a document created will be in Draft. In order to Publish a document, use knowledge_document_variation instead.* If true, the knowledge document will be published. If false, it will be a draft. The document can only be published if it has document variations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document#published KnowledgeDocument#published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document#published KnowledgeDocument#published}
   */
   readonly published?: boolean | cdktf.IResolvable;
   /**
   * knowledge_document block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document#knowledge_document KnowledgeDocument#knowledge_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document#knowledge_document KnowledgeDocument#knowledge_document}
   */
   readonly knowledgeDocument: KnowledgeDocumentKnowledgeDocument;
 }
@@ -37,13 +37,13 @@ export interface KnowledgeDocumentKnowledgeDocumentAlternatives {
   /**
   * Autocomplete enabled for the alternate phrase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document#autocomplete KnowledgeDocument#autocomplete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document#autocomplete KnowledgeDocument#autocomplete}
   */
   readonly autocomplete?: boolean | cdktf.IResolvable;
   /**
   * Alternate phrasing to the document title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document#phrase KnowledgeDocument#phrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document#phrase KnowledgeDocument#phrase}
   */
   readonly phrase: string;
 }
@@ -187,31 +187,31 @@ export interface KnowledgeDocumentKnowledgeDocument {
   /**
   * The name of the category associated with the document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document#category_name KnowledgeDocument#category_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document#category_name KnowledgeDocument#category_name}
   */
   readonly categoryName?: string;
   /**
   * The names of labels associated with the document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document#label_names KnowledgeDocument#label_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document#label_names KnowledgeDocument#label_names}
   */
   readonly labelNames?: string[];
   /**
   * Document title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document#title KnowledgeDocument#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document#title KnowledgeDocument#title}
   */
   readonly title: string;
   /**
   * Indicates if the knowledge document should be included in search results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document#visible KnowledgeDocument#visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document#visible KnowledgeDocument#visible}
   */
   readonly visible: boolean | cdktf.IResolvable;
   /**
   * alternatives block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document#alternatives KnowledgeDocument#alternatives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document#alternatives KnowledgeDocument#alternatives}
   */
   readonly alternatives?: KnowledgeDocumentKnowledgeDocumentAlternatives[] | cdktf.IResolvable;
 }
@@ -405,7 +405,7 @@ export class KnowledgeDocumentKnowledgeDocumentOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document genesyscloud_knowledge_document}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document genesyscloud_knowledge_document}
 */
 export class KnowledgeDocument extends cdktf.TerraformResource {
 
@@ -421,7 +421,7 @@ export class KnowledgeDocument extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KnowledgeDocument resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KnowledgeDocument to import
-  * @param importFromId The id of the existing KnowledgeDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KnowledgeDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KnowledgeDocument to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -433,7 +433,7 @@ export class KnowledgeDocument extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_document genesyscloud_knowledge_document} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_document genesyscloud_knowledge_document} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -444,8 +444,8 @@ export class KnowledgeDocument extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_knowledge_document',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

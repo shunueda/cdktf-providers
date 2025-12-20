@@ -1,3 +1,3 @@
 # `tencentcloud_vpn_gateway`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_vpn_gateway`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_gateway).
+Refer to the Terraform Registry for docs: [`tencentcloud_vpn_gateway`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_gateway).

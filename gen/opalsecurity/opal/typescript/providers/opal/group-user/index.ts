@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_user
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GroupUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The remote ID of the access level to grant to this user. If omitted, the default access level remote ID value (empty string) is used. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_user#access_level_remote_id GroupUser#access_level_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_user#access_level_remote_id GroupUser#access_level_remote_id}
   */
   readonly accessLevelRemoteId?: string;
   /**
   * Must be set to 0. Any nonzerovalue in terraform does not make sense. Default: 0; must be "0"; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_user#duration_minutes GroupUser#duration_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_user#duration_minutes GroupUser#duration_minutes}
   */
   readonly durationMinutes?: number;
   /**
   * The ID of the group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_user#group_id GroupUser#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_user#group_id GroupUser#group_id}
   */
   readonly groupId: string;
   /**
   * The ID of the user to add. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_user#user_id GroupUser#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_user#user_id GroupUser#user_id}
   */
   readonly userId: string;
 }
@@ -147,7 +147,7 @@ export class GroupUserPropagationStatusOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_user opal_group_user}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_user opal_group_user}
 */
 export class GroupUser extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class GroupUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupUser to import
-  * @param importFromId The id of the existing GroupUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class GroupUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_user opal_group_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_user opal_group_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class GroupUser extends cdktf.TerraformResource {
       terraformResourceType: 'opal_group_user',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

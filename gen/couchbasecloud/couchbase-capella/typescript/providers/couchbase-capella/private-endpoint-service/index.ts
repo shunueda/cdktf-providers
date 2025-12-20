@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoint_service
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoint_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface PrivateEndpointServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The GUID4 ID of the cluster where the private endpoint service will be enabled. This enables secure access to the cluster through your Cloud Service Provider's private network. This field cannot be changed after the private endpoint service is created.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoint_service#cluster_id PrivateEndpointService#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoint_service#cluster_id PrivateEndpointService#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Whether to enable or disable the private endpoint service for the cluster. When enabled, you can create private endpoints to connect your Cloud Service Provider's private network to the cluster. Note: Setting this to false during creation will result in an error as the service must be enabled to be managed.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoint_service#enabled PrivateEndpointService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoint_service#enabled PrivateEndpointService#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * The GUID4 ID of the organization where the private endpoint service will be enabled. This field cannot be changed after the private endpoint service is created.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoint_service#organization_id PrivateEndpointService#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoint_service#organization_id PrivateEndpointService#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project containing the cluster where the private endpoint service will be enabled. This field cannot be changed after the private endpoint service is created.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoint_service#project_id PrivateEndpointService#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoint_service#project_id PrivateEndpointService#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoint_service couchbase-capella_private_endpoint_service}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoint_service couchbase-capella_private_endpoint_service}
 */
 export class PrivateEndpointService extends cdktf.TerraformResource {
 
@@ -50,7 +42,7 @@ export class PrivateEndpointService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateEndpointService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateEndpointService to import
-  * @param importFromId The id of the existing PrivateEndpointService that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoint_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateEndpointService that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoint_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateEndpointService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +54,7 @@ export class PrivateEndpointService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoint_service couchbase-capella_private_endpoint_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoint_service couchbase-capella_private_endpoint_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +65,8 @@ export class PrivateEndpointService extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_private_endpoint_service',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

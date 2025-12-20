@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype_status
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/task_management_worktype_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface TaskManagementWorktypeStatusConfig extends cdktf.TerraformMetaA
   /**
   * The Category of the Status. Changing the category will cause the resource to be dropped and recreated with a new id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype_status#category TaskManagementWorktypeStatus#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/task_management_worktype_status#category TaskManagementWorktypeStatus#category}
   */
   readonly category: string;
   /**
   * This status is the default status for Workitems created from this Worktype. Only one status can be set as the default status at a time. Once set there must always be a default status. The default can not be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype_status#default TaskManagementWorktypeStatus#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/task_management_worktype_status#default TaskManagementWorktypeStatus#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * *DEPRECATED: Deprecated. Use default_destination_status_id in genesyscloud_task_management_worktype_status_transition instead* Default destination status to which this Status will transition to if auto status transition enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype_status#default_destination_status_id TaskManagementWorktypeStatus#default_destination_status_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/task_management_worktype_status#default_destination_status_id TaskManagementWorktypeStatus#default_destination_status_id}
   */
   readonly defaultDestinationStatusId?: string;
   /**
   * The description of the Status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype_status#description TaskManagementWorktypeStatus#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/task_management_worktype_status#description TaskManagementWorktypeStatus#description}
   */
   readonly description?: string;
   /**
   * *DEPRECATED: Deprecated. Use destination_status_ids in genesyscloud_task_management_worktype_status_transition instead* A list of destination Statuses where a Workitem with this Status can transition to. If the list is empty Workitems with this Status can transition to all other Statuses defined on the Worktype. A Status can have a maximum of 24 destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype_status#destination_status_ids TaskManagementWorktypeStatus#destination_status_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/task_management_worktype_status#destination_status_ids TaskManagementWorktypeStatus#destination_status_ids}
   */
   readonly destinationStatusIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype_status#id TaskManagementWorktypeStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/task_management_worktype_status#id TaskManagementWorktypeStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,31 +47,31 @@ export interface TaskManagementWorktypeStatusConfig extends cdktf.TerraformMetaA
   /**
   * Name of the status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype_status#name TaskManagementWorktypeStatus#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/task_management_worktype_status#name TaskManagementWorktypeStatus#name}
   */
   readonly name: string;
   /**
   * *DEPRECATED: Deprecated. Use status_transition_delay_seconds in genesyscloud_task_management_worktype_status_transition instead* Delay in seconds for auto status transition. Required if default_destination_status_id is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype_status#status_transition_delay_seconds TaskManagementWorktypeStatus#status_transition_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/task_management_worktype_status#status_transition_delay_seconds TaskManagementWorktypeStatus#status_transition_delay_seconds}
   */
   readonly statusTransitionDelaySeconds?: number;
   /**
   * *DEPRECATED: Deprecated. Use status_transition_time in genesyscloud_task_management_worktype_status_transition instead* Time is represented as an ISO-8601 string without a timezone. For example: HH:mm:ss
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype_status#status_transition_time TaskManagementWorktypeStatus#status_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/task_management_worktype_status#status_transition_time TaskManagementWorktypeStatus#status_transition_time}
   */
   readonly statusTransitionTime?: string;
   /**
   * The id of the worktype this status belongs to. Changing this attribute will cause the status to be dropped and recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype_status#worktype_id TaskManagementWorktypeStatus#worktype_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/task_management_worktype_status#worktype_id TaskManagementWorktypeStatus#worktype_id}
   */
   readonly worktypeId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype_status genesyscloud_task_management_worktype_status}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/task_management_worktype_status genesyscloud_task_management_worktype_status}
 */
 export class TaskManagementWorktypeStatus extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class TaskManagementWorktypeStatus extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TaskManagementWorktypeStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TaskManagementWorktypeStatus to import
-  * @param importFromId The id of the existing TaskManagementWorktypeStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TaskManagementWorktypeStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/task_management_worktype_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TaskManagementWorktypeStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class TaskManagementWorktypeStatus extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/task_management_worktype_status genesyscloud_task_management_worktype_status} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/task_management_worktype_status genesyscloud_task_management_worktype_status} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class TaskManagementWorktypeStatus extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_task_management_worktype_status',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

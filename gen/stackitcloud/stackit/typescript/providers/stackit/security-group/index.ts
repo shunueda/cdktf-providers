@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/security_group
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/security_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SecurityGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/security_group#description SecurityGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/security_group#description SecurityGroup#description}
   */
   readonly description?: string;
   /**
   * Labels are key-value string pairs which can be attached to a resource container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/security_group#labels SecurityGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/security_group#labels SecurityGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/security_group#name SecurityGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/security_group#name SecurityGroup#name}
   */
   readonly name: string;
   /**
   * STACKIT project ID to which the security group is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/security_group#project_id SecurityGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/security_group#project_id SecurityGroup#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/security_group#region SecurityGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/security_group#region SecurityGroup#region}
   */
   readonly region?: string;
   /**
   * Configures if a security group is stateful or stateless. There can only be one type of security groups per network interface/server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/security_group#stateful SecurityGroup#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/security_group#stateful SecurityGroup#stateful}
   */
   readonly stateful?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/security_group stackit_security_group}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/security_group stackit_security_group}
 */
 export class SecurityGroup extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class SecurityGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityGroup to import
-  * @param importFromId The id of the existing SecurityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/security_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/security_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class SecurityGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/security_group stackit_security_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/security_group stackit_security_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class SecurityGroup extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_security_group',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.75.0',
-        providerVersionConstraint: '0.75.0'
+        providerVersion: '0.76.0',
+        providerVersionConstraint: '0.76.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

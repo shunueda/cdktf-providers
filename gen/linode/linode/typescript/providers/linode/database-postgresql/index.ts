@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DatabasePostgresqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of IP addresses that can access the Managed Database. Each item can be a single IP address or a range in CIDR format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#allow_list DatabasePostgresql#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#allow_list DatabasePostgresql#allow_list}
   */
   readonly allowList?: string[];
   /**
   * The number of Linode Instance nodes deployed to the Managed Database. Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#cluster_size DatabasePostgresql#cluster_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#cluster_size DatabasePostgresql#cluster_size}
   */
   readonly clusterSize?: number;
   /**
   * Whether the Managed Databases is encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#encrypted DatabasePostgresql#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#encrypted DatabasePostgresql#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
   * The Managed Database engine in engine/version format. (e.g. mysql/8.0.30)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#engine_id DatabasePostgresql#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#engine_id DatabasePostgresql#engine_id}
   */
   readonly engineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#id DatabasePostgresql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#id DatabasePostgresql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,63 +41,63 @@ export interface DatabasePostgresqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * A unique, user-defined string referring to the Managed Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#label DatabasePostgresql#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#label DatabasePostgresql#label}
   */
   readonly label: string;
   /**
   * The region to use for the Managed Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#region DatabasePostgresql#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#region DatabasePostgresql#region}
   */
   readonly region: string;
   /**
   * The synchronization level of the replicating server.Must be `local` or `off` for the `asynch` replication type. Must be `on`, `remote_write`, or `remote_apply` for the `semi_synch` replication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#replication_commit_type DatabasePostgresql#replication_commit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#replication_commit_type DatabasePostgresql#replication_commit_type}
   */
   readonly replicationCommitType?: string;
   /**
   * The replication method used for the Managed Database. Must be `none` for a single node cluster. Must be `asynch` or `semi_synch` for a high availability cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#replication_type DatabasePostgresql#replication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#replication_type DatabasePostgresql#replication_type}
   */
   readonly replicationType?: string;
   /**
   * Whether to require SSL credentials to establish a connection to the Managed Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#ssl_connection DatabasePostgresql#ssl_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#ssl_connection DatabasePostgresql#ssl_connection}
   */
   readonly sslConnection?: boolean | cdktf.IResolvable;
   /**
   * The Linode Instance type used by the Managed Database for its nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#type DatabasePostgresql#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#type DatabasePostgresql#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#timeouts DatabasePostgresql#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#timeouts DatabasePostgresql#timeouts}
   */
   readonly timeouts?: DatabasePostgresqlTimeouts;
   /**
   * updates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#updates DatabasePostgresql#updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#updates DatabasePostgresql#updates}
   */
   readonly updates?: DatabasePostgresqlUpdates;
 }
 export interface DatabasePostgresqlTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#create DatabasePostgresql#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#create DatabasePostgresql#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#delete DatabasePostgresql#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#delete DatabasePostgresql#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#update DatabasePostgresql#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#update DatabasePostgresql#update}
   */
   readonly update?: string;
 }
@@ -251,31 +251,31 @@ export interface DatabasePostgresqlUpdates {
   /**
   * The day to perform maintenance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#day_of_week DatabasePostgresql#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#day_of_week DatabasePostgresql#day_of_week}
   */
   readonly dayOfWeek: string;
   /**
   * The maximum maintenance window time in hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#duration DatabasePostgresql#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#duration DatabasePostgresql#duration}
   */
   readonly duration: number;
   /**
   * Whether maintenance occurs on a weekly or monthly basis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#frequency DatabasePostgresql#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#frequency DatabasePostgresql#frequency}
   */
   readonly frequency: string;
   /**
   * The hour to begin maintenance based in UTC time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#hour_of_day DatabasePostgresql#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#hour_of_day DatabasePostgresql#hour_of_day}
   */
   readonly hourOfDay: number;
   /**
   * The week of the month to perform monthly frequency updates. Required for monthly frequency updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#week_of_month DatabasePostgresql#week_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#week_of_month DatabasePostgresql#week_of_month}
   */
   readonly weekOfMonth?: number;
 }
@@ -463,7 +463,7 @@ export class DatabasePostgresqlUpdatesOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql linode_database_postgresql}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql linode_database_postgresql}
 */
 export class DatabasePostgresql extends cdktf.TerraformResource {
 
@@ -479,7 +479,7 @@ export class DatabasePostgresql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabasePostgresql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabasePostgresql to import
-  * @param importFromId The id of the existing DatabasePostgresql that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabasePostgresql that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabasePostgresql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -491,7 +491,7 @@ export class DatabasePostgresql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_postgresql linode_database_postgresql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_postgresql linode_database_postgresql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -502,8 +502,8 @@ export class DatabasePostgresql extends cdktf.TerraformResource {
       terraformResourceType: 'linode_database_postgresql',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

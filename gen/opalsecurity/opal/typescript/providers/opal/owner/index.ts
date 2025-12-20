@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/owner
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/owner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface OwnerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The amount of time (in minutes) before the next reviewer is notified. Use 0 to remove escalation policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/owner#access_request_escalation_period Owner#access_request_escalation_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/owner#access_request_escalation_period Owner#access_request_escalation_period}
   */
   readonly accessRequestEscalationPeriod?: number;
   /**
   * A description of the owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/owner#description Owner#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/owner#description Owner#description}
   */
   readonly description?: string;
   /**
   * The name of the owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/owner#name Owner#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/owner#name Owner#name}
   */
   readonly name: string;
   /**
   * The message channel id for the reviewer channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/owner#reviewer_message_channel_id Owner#reviewer_message_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/owner#reviewer_message_channel_id Owner#reviewer_message_channel_id}
   */
   readonly reviewerMessageChannelId?: string;
   /**
   * Sync this owner's user list with a source group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/owner#source_group_id Owner#source_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/owner#source_group_id Owner#source_group_id}
   */
   readonly sourceGroupId?: string;
   /**
   * Users to add to the created owner. If setting a source_group_id this list must be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/owner#user_ids Owner#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/owner#user_ids Owner#user_ids}
   */
   readonly userIds: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/owner opal_owner}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/owner opal_owner}
 */
 export class Owner extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class Owner extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Owner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Owner to import
-  * @param importFromId The id of the existing Owner that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/owner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Owner that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/owner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Owner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class Owner extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/owner opal_owner} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/owner opal_owner} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class Owner extends cdktf.TerraformResource {
       terraformResourceType: 'opal_owner',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

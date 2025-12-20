@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_sync
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_sync
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ClusterSyncConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cluster id to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_sync#cluster_id ClusterSync#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_sync#cluster_id ClusterSync#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_sync#id ClusterSync#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_sync#id ClusterSync#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,29 +23,29 @@ export interface ClusterSyncConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cluster node pool ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_sync#node_pool_ids ClusterSync#node_pool_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_sync#node_pool_ids ClusterSync#node_pool_ids}
   */
   readonly nodePoolIds?: string[];
   /**
   * Wait until active status is confirmed a number of times (wait interval of 5s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_sync#state_confirm ClusterSync#state_confirm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_sync#state_confirm ClusterSync#state_confirm}
   */
   readonly stateConfirm?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_sync#synced ClusterSync#synced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_sync#synced ClusterSync#synced}
   */
   readonly synced?: boolean | cdktf.IResolvable;
   /**
   * Wait until all catalogs are downloaded and active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_sync#wait_catalogs ClusterSync#wait_catalogs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_sync#wait_catalogs ClusterSync#wait_catalogs}
   */
   readonly waitCatalogs?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_sync#timeouts ClusterSync#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_sync#timeouts ClusterSync#timeouts}
   */
   readonly timeouts?: ClusterSyncTimeouts;
 }
@@ -205,15 +205,15 @@ export class ClusterSyncNodesList extends cdktf.ComplexList {
 }
 export interface ClusterSyncTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_sync#create ClusterSync#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_sync#create ClusterSync#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_sync#delete ClusterSync#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_sync#delete ClusterSync#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_sync#update ClusterSync#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_sync#update ClusterSync#update}
   */
   readonly update?: string;
 }
@@ -365,7 +365,7 @@ export class ClusterSyncTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_sync rancher2_cluster_sync}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_sync rancher2_cluster_sync}
 */
 export class ClusterSync extends cdktf.TerraformResource {
 
@@ -381,7 +381,7 @@ export class ClusterSync extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterSync resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterSync to import
-  * @param importFromId The id of the existing ClusterSync that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_sync#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterSync that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_sync#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterSync to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class ClusterSync extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_sync rancher2_cluster_sync} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_sync rancher2_cluster_sync} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +404,8 @@ export class ClusterSync extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_cluster_sync',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

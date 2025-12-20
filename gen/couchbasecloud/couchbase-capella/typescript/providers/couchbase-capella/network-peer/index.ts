@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkPeerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The GUID4 ID of the cluster to set up network peering.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#cluster_id NetworkPeer#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#cluster_id NetworkPeer#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The name of the network peering relationship.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#name NetworkPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#name NetworkPeer#name}
   */
   readonly name: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#organization_id NetworkPeer#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#organization_id NetworkPeer#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#project_id NetworkPeer#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#project_id NetworkPeer#project_id}
   */
   readonly projectId: string;
   /**
-  * The Cloud Service Provider's specific configuration for the network peering. The 'accountId', 'vpcId', 'region', and 'cidr' fields are required for AWS VPC peering. For GCP, the 'networkName', 'projectId', 'serviceAccount', and 'cidr' fields are required for VPC peering. 
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#provider_config NetworkPeer#provider_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#provider_config NetworkPeer#provider_config}
   */
   readonly providerConfig: NetworkPeerProviderConfig;
   /**
-  * The Cloud Service Provider type for the network peering. Currently supporting AWS, GCP, or Azure.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#provider_type NetworkPeer#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#provider_type NetworkPeer#provider_type}
   */
   readonly providerType: string;
 }
@@ -120,27 +108,19 @@ export class NetworkPeerAuditOutputReference extends cdktf.ComplexObject {
 }
 export interface NetworkPeerProviderConfigAwsConfig {
   /**
-  * The numeric AWS Account ID or Owner ID.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#account_id NetworkPeer#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#account_id NetworkPeer#account_id}
   */
   readonly accountId?: string;
   /**
-  * The AWS VPC CIDR block of network in which your application runs. This cannot overlap with your Capella CIDR Block.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#cidr NetworkPeer#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#cidr NetworkPeer#cidr}
   */
   readonly cidr: string;
   /**
-  * The AWS region where your VPC is deployed.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#region NetworkPeer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#region NetworkPeer#region}
   */
   readonly region?: string;
   /**
-  * The alphanumeric VPC ID which starts with 'vpc-'. This is also known as the networkId.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#vpc_id NetworkPeer#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#vpc_id NetworkPeer#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -323,33 +303,23 @@ export class NetworkPeerProviderConfigAwsConfigOutputReference extends cdktf.Com
 }
 export interface NetworkPeerProviderConfigAzureConfig {
   /**
-  * The CIDR block from the virtual network that you created in Azure. This cannot overlap with your Capella CIDR Block.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#cidr NetworkPeer#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#cidr NetworkPeer#cidr}
   */
   readonly cidr: string;
   /**
-  * The resource group name holding the resource you're connecting with Capella.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#resource_group NetworkPeer#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#resource_group NetworkPeer#resource_group}
   */
   readonly resourceGroup?: string;
   /**
-  * The Azure subscription ID where the VNet exists.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#subscription_id NetworkPeer#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#subscription_id NetworkPeer#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
-  * The Azure tenant ID where the VNet exists.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#tenant_id NetworkPeer#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#tenant_id NetworkPeer#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * The VNet ID is the name of the virtual network peering in Azure.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#vnet_id NetworkPeer#vnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#vnet_id NetworkPeer#vnet_id}
   */
   readonly vnetId?: string;
 }
@@ -561,27 +531,19 @@ export class NetworkPeerProviderConfigAzureConfigOutputReference extends cdktf.C
 }
 export interface NetworkPeerProviderConfigGcpConfig {
   /**
-  * The GCP VPC CIDR block of network in which your application runs. This cannot overlap with your Capella CIDR Block.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#cidr NetworkPeer#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#cidr NetworkPeer#cidr}
   */
   readonly cidr: string;
   /**
-  * The name of the network that you want to peer with.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#network_name NetworkPeer#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#network_name NetworkPeer#network_name}
   */
   readonly networkName?: string;
   /**
-  * The unique identifier for your GCP project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#project_id NetworkPeer#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#project_id NetworkPeer#project_id}
   */
   readonly projectId?: string;
   /**
-  * ServiceAccount created or assigned on the external VPC project. GCP Service Account with DNS Admin and Compute.NetworkAdmin permissions. Must be in email form shown by 'gcloud iam service-accounts list'.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#service_account NetworkPeer#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#service_account NetworkPeer#service_account}
   */
   readonly serviceAccount?: string;
 }
@@ -764,21 +726,15 @@ export class NetworkPeerProviderConfigGcpConfigOutputReference extends cdktf.Com
 }
 export interface NetworkPeerProviderConfig {
   /**
-  * AWS-specific configuration for VPC peering.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#aws_config NetworkPeer#aws_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#aws_config NetworkPeer#aws_config}
   */
   readonly awsConfig?: NetworkPeerProviderConfigAwsConfig;
   /**
-  * Azure-specific configuration for VNet peering.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#azure_config NetworkPeer#azure_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#azure_config NetworkPeer#azure_config}
   */
   readonly azureConfig?: NetworkPeerProviderConfigAzureConfig;
   /**
-  * GCP-specific configuration for VPC network peering.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#gcp_config NetworkPeer#gcp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#gcp_config NetworkPeer#gcp_config}
   */
   readonly gcpConfig?: NetworkPeerProviderConfigGcpConfig;
 }
@@ -989,7 +945,7 @@ export class NetworkPeerStatusOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer couchbase-capella_network_peer}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer couchbase-capella_network_peer}
 */
 export class NetworkPeer extends cdktf.TerraformResource {
 
@@ -1005,7 +961,7 @@ export class NetworkPeer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkPeer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkPeer to import
-  * @param importFromId The id of the existing NetworkPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1017,7 +973,7 @@ export class NetworkPeer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/network_peer couchbase-capella_network_peer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/network_peer couchbase-capella_network_peer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1028,8 +984,8 @@ export class NetworkPeer extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_network_peer',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

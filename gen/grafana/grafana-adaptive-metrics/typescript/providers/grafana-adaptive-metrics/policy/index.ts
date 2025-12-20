@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/policy
+// https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The minimum number of query usages required for a metric to be considered for recommendations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/policy#min_query_usages Policy#min_query_usages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/policy#min_query_usages Policy#min_query_usages}
   */
   readonly minQueryUsages?: number;
   /**
   * The name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/policy#name Policy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/policy#name Policy#name}
   */
   readonly name: string;
   /**
   * The action to take for metrics with no recorded usage. Valid values are: drop_all_labels, drop_custom_labels, keep_custom_labels, best_guess.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/policy#unused_metrics_action Policy#unused_metrics_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/policy#unused_metrics_action Policy#unused_metrics_action}
   */
   readonly unusedMetricsAction?: string;
   /**
   * The list of custom labels to act on when unused_metrics_action is drop_custom_labels or keep_custom_labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/policy#unused_metrics_action_act_on_custom_labels Policy#unused_metrics_action_act_on_custom_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/policy#unused_metrics_action_act_on_custom_labels Policy#unused_metrics_action_act_on_custom_labels}
   */
   readonly unusedMetricsActionActOnCustomLabels?: string[];
   /**
   * The sources of usage data to consider when generating recommendations. Valid values are: dashboard, rules, queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/policy#usage_sources Policy#usage_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/policy#usage_sources Policy#usage_sources}
   */
   readonly usageSources?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/policy grafana-adaptive-metrics_policy}
+* Represents a {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/policy grafana-adaptive-metrics_policy}
 */
 export class Policy extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Policy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Policy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Policy to import
-  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Policy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Policy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/policy grafana-adaptive-metrics_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/policy grafana-adaptive-metrics_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Policy extends cdktf.TerraformResource {
       terraformResourceType: 'grafana-adaptive-metrics_policy',
       terraformGeneratorMetadata: {
         providerName: 'grafana-adaptive-metrics',
-        providerVersion: '0.3.3',
-        providerVersionConstraint: '0.3.3'
+        providerVersion: '0.3.4',
+        providerVersionConstraint: '0.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

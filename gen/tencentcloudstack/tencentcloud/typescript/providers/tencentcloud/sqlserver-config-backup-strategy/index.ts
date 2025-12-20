@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface SqlserverConfigBackupStrategyConfig extends cdktf.TerraformMeta
   /**
   * The days of the week on which backup will be performed when `BackupType` is weekly. If data backup retention period is less than 7 days, the values will be 1-7, indicating that backup will be performed everyday by default; if data backup retention period is greater than or equal to 7 days, the values will be at least any two days, indicating that backup will be performed at least twice in a week by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy#backup_cycle SqlserverConfigBackupStrategy#backup_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy#backup_cycle SqlserverConfigBackupStrategy#backup_cycle}
   */
   readonly backupCycle?: number[];
   /**
   * Backup interval in days when the BackupType is daily. The current value can only be 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy#backup_day SqlserverConfigBackupStrategy#backup_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy#backup_day SqlserverConfigBackupStrategy#backup_day}
   */
   readonly backupDay?: number;
   /**
   * Backup mode. Valid values: master_pkg (archive the backup files of the primary node), master_no_pkg (do not archive the backup files of the primary node), slave_pkg (archive the backup files of the replica node), slave_no_pkg (do not archive the backup files of the replica node). Backup files of the replica node are supported only when Always On disaster recovery is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy#backup_model SqlserverConfigBackupStrategy#backup_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy#backup_model SqlserverConfigBackupStrategy#backup_model}
   */
   readonly backupModel?: string;
   /**
   * Data (log) backup retention period. Value range: 3-1830 days, default value: 7 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy#backup_save_days SqlserverConfigBackupStrategy#backup_save_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy#backup_save_days SqlserverConfigBackupStrategy#backup_save_days}
   */
   readonly backupSaveDays?: number;
   /**
   * Backup time. Value range: an integer from 0 to 23.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy#backup_time SqlserverConfigBackupStrategy#backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy#backup_time SqlserverConfigBackupStrategy#backup_time}
   */
   readonly backupTime?: number;
   /**
   * Backup type. Valid values: weekly (when length(BackupDay) <=7 && length(BackupDay) >=2), daily (when length(BackupDay)=1). Default value: daily.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy#backup_type SqlserverConfigBackupStrategy#backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy#backup_type SqlserverConfigBackupStrategy#backup_type}
   */
   readonly backupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy#id SqlserverConfigBackupStrategy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy#id SqlserverConfigBackupStrategy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,43 +53,43 @@ export interface SqlserverConfigBackupStrategyConfig extends cdktf.TerraformMeta
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy#instance_id SqlserverConfigBackupStrategy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy#instance_id SqlserverConfigBackupStrategy#instance_id}
   */
   readonly instanceId: string;
   /**
   * The number of retained archive backups. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy#regular_backup_counts SqlserverConfigBackupStrategy#regular_backup_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy#regular_backup_counts SqlserverConfigBackupStrategy#regular_backup_counts}
   */
   readonly regularBackupCounts?: number;
   /**
   * Archive backup status. Valid values: enable (enabled); disable (disabled). Default value: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy#regular_backup_enable SqlserverConfigBackupStrategy#regular_backup_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy#regular_backup_enable SqlserverConfigBackupStrategy#regular_backup_enable}
   */
   readonly regularBackupEnable?: string;
   /**
   * Archive backup retention days. Value range: 90-3650 days. Default value: 365 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy#regular_backup_save_days SqlserverConfigBackupStrategy#regular_backup_save_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy#regular_backup_save_days SqlserverConfigBackupStrategy#regular_backup_save_days}
   */
   readonly regularBackupSaveDays?: number;
   /**
   * Archive backup start date in YYYY-MM-DD format, which is the current time by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy#regular_backup_start_time SqlserverConfigBackupStrategy#regular_backup_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy#regular_backup_start_time SqlserverConfigBackupStrategy#regular_backup_start_time}
   */
   readonly regularBackupStartTime?: string;
   /**
   * Archive backup policy. Valid values: years (yearly); quarters (quarterly); months(monthly); Default value: `months`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy#regular_backup_strategy SqlserverConfigBackupStrategy#regular_backup_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy#regular_backup_strategy SqlserverConfigBackupStrategy#regular_backup_strategy}
   */
   readonly regularBackupStrategy?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy tencentcloud_sqlserver_config_backup_strategy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy tencentcloud_sqlserver_config_backup_strategy}
 */
 export class SqlserverConfigBackupStrategy extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class SqlserverConfigBackupStrategy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverConfigBackupStrategy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverConfigBackupStrategy to import
-  * @param importFromId The id of the existing SqlserverConfigBackupStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverConfigBackupStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverConfigBackupStrategy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class SqlserverConfigBackupStrategy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_config_backup_strategy tencentcloud_sqlserver_config_backup_strategy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_config_backup_strategy tencentcloud_sqlserver_config_backup_strategy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class SqlserverConfigBackupStrategy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_config_backup_strategy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

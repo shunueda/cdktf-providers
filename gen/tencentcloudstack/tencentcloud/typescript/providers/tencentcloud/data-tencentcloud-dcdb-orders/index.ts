@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dcdb_orders
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dcdb_orders
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDcdbOrdersConfig extends cdktf.TerraformMetaArg
   /**
   * List of long order numbers to be queried, which are returned for the APIs for creating, renewing, or scaling instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dcdb_orders#deal_names DataTencentcloudDcdbOrders#deal_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dcdb_orders#deal_names DataTencentcloudDcdbOrders#deal_names}
   */
   readonly dealNames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dcdb_orders#id DataTencentcloudDcdbOrders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dcdb_orders#id DataTencentcloudDcdbOrders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudDcdbOrdersConfig extends cdktf.TerraformMetaArg
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dcdb_orders#result_output_file DataTencentcloudDcdbOrders#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dcdb_orders#result_output_file DataTencentcloudDcdbOrders#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -129,7 +129,7 @@ export class DataTencentcloudDcdbOrdersDealsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dcdb_orders tencentcloud_dcdb_orders}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dcdb_orders tencentcloud_dcdb_orders}
 */
 export class DataTencentcloudDcdbOrders extends cdktf.TerraformDataSource {
 
@@ -145,7 +145,7 @@ export class DataTencentcloudDcdbOrders extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudDcdbOrders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDcdbOrders to import
-  * @param importFromId The id of the existing DataTencentcloudDcdbOrders that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dcdb_orders#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDcdbOrders that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dcdb_orders#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDcdbOrders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -157,7 +157,7 @@ export class DataTencentcloudDcdbOrders extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dcdb_orders tencentcloud_dcdb_orders} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dcdb_orders tencentcloud_dcdb_orders} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -168,8 +168,8 @@ export class DataTencentcloudDcdbOrders extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dcdb_orders',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

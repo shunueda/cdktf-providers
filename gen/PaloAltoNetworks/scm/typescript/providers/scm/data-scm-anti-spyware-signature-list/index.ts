@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/anti_spyware_signature_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/anti_spyware_signature_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataScmAntiSpywareSignatureListConfig extends cdktf.TerraformMe
   /**
   * The device of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/anti_spyware_signature_list#device DataScmAntiSpywareSignatureList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/anti_spyware_signature_list#device DataScmAntiSpywareSignatureList#device}
   */
   readonly device?: string;
   /**
   * The folder of the item. Default: Shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/anti_spyware_signature_list#folder DataScmAntiSpywareSignatureList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/anti_spyware_signature_list#folder DataScmAntiSpywareSignatureList#folder}
   */
   readonly folder?: string;
   /**
   * The max number of items to return. Default: 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/anti_spyware_signature_list#limit DataScmAntiSpywareSignatureList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/anti_spyware_signature_list#limit DataScmAntiSpywareSignatureList#limit}
   */
   readonly limit?: number;
   /**
   * The name of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/anti_spyware_signature_list#name DataScmAntiSpywareSignatureList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/anti_spyware_signature_list#name DataScmAntiSpywareSignatureList#name}
   */
   readonly name?: string;
   /**
   * The offset of the first item to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/anti_spyware_signature_list#offset DataScmAntiSpywareSignatureList#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/anti_spyware_signature_list#offset DataScmAntiSpywareSignatureList#offset}
   */
   readonly offset?: number;
   /**
   * The snippet of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/anti_spyware_signature_list#snippet DataScmAntiSpywareSignatureList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/anti_spyware_signature_list#snippet DataScmAntiSpywareSignatureList#snippet}
   */
   readonly snippet?: string;
 }
@@ -1763,14 +1763,35 @@ export class DataScmAntiSpywareSignatureListDataSignatureOutputReference extends
 }
 export interface DataScmAntiSpywareSignatureListData {
   /**
+  * The device in which the resource is defined
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/anti_spyware_signature_list#device DataScmAntiSpywareSignatureList#device}
+  */
+  readonly device?: string;
+  /**
+  * The folder in which the resource is defined
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/anti_spyware_signature_list#folder DataScmAntiSpywareSignatureList#folder}
+  */
+  readonly folder?: string;
+  /**
   * UUID of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/anti_spyware_signature_list#id DataScmAntiSpywareSignatureList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/anti_spyware_signature_list#id DataScmAntiSpywareSignatureList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+  /**
+  * The snippet in which the resource is defined
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/anti_spyware_signature_list#snippet DataScmAntiSpywareSignatureList#snippet}
+  */
+  readonly snippet?: string;
 }
 
 export function dataScmAntiSpywareSignatureListDataToTerraform(struct?: DataScmAntiSpywareSignatureListData): any {
@@ -1779,7 +1800,10 @@ export function dataScmAntiSpywareSignatureListDataToTerraform(struct?: DataScmA
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    device: cdktf.stringToTerraform(struct!.device),
+    folder: cdktf.stringToTerraform(struct!.folder),
     id: cdktf.stringToTerraform(struct!.id),
+    snippet: cdktf.stringToTerraform(struct!.snippet),
   }
 }
 
@@ -1790,8 +1814,26 @@ export function dataScmAntiSpywareSignatureListDataToHclTerraform(struct?: DataS
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    device: {
+      value: cdktf.stringToHclTerraform(struct!.device),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    folder: {
+      value: cdktf.stringToHclTerraform(struct!.folder),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     id: {
       value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    snippet: {
+      value: cdktf.stringToHclTerraform(struct!.snippet),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1818,9 +1860,21 @@ export class DataScmAntiSpywareSignatureListDataOutputReference extends cdktf.Co
   public get internalValue(): DataScmAntiSpywareSignatureListData | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._device !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.device = this._device;
+    }
+    if (this._folder !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.folder = this._folder;
+    }
     if (this._id !== undefined) {
       hasAnyValues = true;
       internalValueResult.id = this._id;
+    }
+    if (this._snippet !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.snippet = this._snippet;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1828,11 +1882,17 @@ export class DataScmAntiSpywareSignatureListDataOutputReference extends cdktf.Co
   public set internalValue(value: DataScmAntiSpywareSignatureListData | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._device = undefined;
+      this._folder = undefined;
       this._id = undefined;
+      this._snippet = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._device = value.device;
+      this._folder = value.folder;
       this._id = value.id;
+      this._snippet = value.snippet;
     }
   }
 
@@ -1857,9 +1917,20 @@ export class DataScmAntiSpywareSignatureListDataOutputReference extends cdktf.Co
     return this._defaultAction;
   }
 
-  // device - computed: true, optional: false, required: false
+  // device - computed: true, optional: true, required: false
+  private _device?: string; 
   public get device() {
     return this.getStringAttribute('device');
+  }
+  public set device(value: string) {
+    this._device = value;
+  }
+  public resetDevice() {
+    this._device = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceInput() {
+    return this._device;
   }
 
   // direction - computed: true, optional: false, required: false
@@ -1867,9 +1938,20 @@ export class DataScmAntiSpywareSignatureListDataOutputReference extends cdktf.Co
     return this.getStringAttribute('direction');
   }
 
-  // folder - computed: true, optional: false, required: false
+  // folder - computed: true, optional: true, required: false
+  private _folder?: string; 
   public get folder() {
     return this.getStringAttribute('folder');
+  }
+  public set folder(value: string) {
+    this._folder = value;
+  }
+  public resetFolder() {
+    this._folder = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get folderInput() {
+    return this._folder;
   }
 
   // id - computed: true, optional: false, required: true
@@ -1901,9 +1983,20 @@ export class DataScmAntiSpywareSignatureListDataOutputReference extends cdktf.Co
     return this._signature;
   }
 
-  // snippet - computed: true, optional: false, required: false
+  // snippet - computed: true, optional: true, required: false
+  private _snippet?: string; 
   public get snippet() {
     return this.getStringAttribute('snippet');
+  }
+  public set snippet(value: string) {
+    this._snippet = value;
+  }
+  public resetSnippet() {
+    this._snippet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snippetInput() {
+    return this._snippet;
   }
 
   // tfid - computed: true, optional: false, required: false
@@ -1948,7 +2041,7 @@ export class DataScmAntiSpywareSignatureListDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/anti_spyware_signature_list scm_anti_spyware_signature_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/anti_spyware_signature_list scm_anti_spyware_signature_list}
 */
 export class DataScmAntiSpywareSignatureList extends cdktf.TerraformDataSource {
 
@@ -1964,7 +2057,7 @@ export class DataScmAntiSpywareSignatureList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmAntiSpywareSignatureList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmAntiSpywareSignatureList to import
-  * @param importFromId The id of the existing DataScmAntiSpywareSignatureList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/anti_spyware_signature_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmAntiSpywareSignatureList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/anti_spyware_signature_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmAntiSpywareSignatureList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1976,7 +2069,7 @@ export class DataScmAntiSpywareSignatureList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/anti_spyware_signature_list scm_anti_spyware_signature_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/anti_spyware_signature_list scm_anti_spyware_signature_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1987,8 +2080,8 @@ export class DataScmAntiSpywareSignatureList extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_anti_spyware_signature_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

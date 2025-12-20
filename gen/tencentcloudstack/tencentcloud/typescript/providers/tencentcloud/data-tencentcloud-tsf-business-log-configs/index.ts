@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_business_log_configs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_business_log_configs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudTsfBusinessLogConfigsConfig extends cdktf.Terra
   /**
   * Config Id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_business_log_configs#config_id_list DataTencentcloudTsfBusinessLogConfigs#config_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_business_log_configs#config_id_list DataTencentcloudTsfBusinessLogConfigs#config_id_list}
   */
   readonly configIdList?: string[];
   /**
   * Disable Program auth check or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_business_log_configs#disable_program_auth_check DataTencentcloudTsfBusinessLogConfigs#disable_program_auth_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_business_log_configs#disable_program_auth_check DataTencentcloudTsfBusinessLogConfigs#disable_program_auth_check}
   */
   readonly disableProgramAuthCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_business_log_configs#id DataTencentcloudTsfBusinessLogConfigs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_business_log_configs#id DataTencentcloudTsfBusinessLogConfigs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataTencentcloudTsfBusinessLogConfigsConfig extends cdktf.Terra
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_business_log_configs#result_output_file DataTencentcloudTsfBusinessLogConfigs#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_business_log_configs#result_output_file DataTencentcloudTsfBusinessLogConfigs#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * wild search word.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_business_log_configs#search_word DataTencentcloudTsfBusinessLogConfigs#search_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_business_log_configs#search_word DataTencentcloudTsfBusinessLogConfigs#search_word}
   */
   readonly searchWord?: string;
 }
@@ -469,7 +469,7 @@ export class DataTencentcloudTsfBusinessLogConfigsResultList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_business_log_configs tencentcloud_tsf_business_log_configs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_business_log_configs tencentcloud_tsf_business_log_configs}
 */
 export class DataTencentcloudTsfBusinessLogConfigs extends cdktf.TerraformDataSource {
 
@@ -485,7 +485,7 @@ export class DataTencentcloudTsfBusinessLogConfigs extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudTsfBusinessLogConfigs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTsfBusinessLogConfigs to import
-  * @param importFromId The id of the existing DataTencentcloudTsfBusinessLogConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_business_log_configs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTsfBusinessLogConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_business_log_configs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTsfBusinessLogConfigs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -497,7 +497,7 @@ export class DataTencentcloudTsfBusinessLogConfigs extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_business_log_configs tencentcloud_tsf_business_log_configs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_business_log_configs tencentcloud_tsf_business_log_configs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -508,8 +508,8 @@ export class DataTencentcloudTsfBusinessLogConfigs extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_tsf_business_log_configs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rules
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_route_aggregation_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataEquinixFabricRouteAggregationRulesConfig extends cdktf.Terr
   /**
   * Pagination details for the returned route aggregation rules list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rules#pagination DataEquinixFabricRouteAggregationRules#pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_route_aggregation_rules#pagination DataEquinixFabricRouteAggregationRules#pagination}
   */
   readonly pagination?: DataEquinixFabricRouteAggregationRulesPagination;
   /**
   * The uuid of the route aggregation rule this data source should retrieve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rules#route_aggregation_id DataEquinixFabricRouteAggregationRules#route_aggregation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_route_aggregation_rules#route_aggregation_id DataEquinixFabricRouteAggregationRules#route_aggregation_id}
   */
   readonly routeAggregationId: string;
 }
@@ -24,13 +24,13 @@ export interface DataEquinixFabricRouteAggregationRulesDataChange {
   /**
   * Equinix defined Route Aggregation Change Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rules#type DataEquinixFabricRouteAggregationRules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_route_aggregation_rules#type DataEquinixFabricRouteAggregationRules#type}
   */
   readonly type: string;
   /**
   * Equinix-assigned unique id for a change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rules#uuid DataEquinixFabricRouteAggregationRules#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_route_aggregation_rules#uuid DataEquinixFabricRouteAggregationRules#uuid}
   */
   readonly uuid: string;
 }
@@ -253,7 +253,7 @@ export interface DataEquinixFabricRouteAggregationRulesData {
   /**
   * Customer-provided route aggregation rule description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rules#description DataEquinixFabricRouteAggregationRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_route_aggregation_rules#description DataEquinixFabricRouteAggregationRules#description}
   */
   readonly description?: string;
 }
@@ -408,13 +408,13 @@ export interface DataEquinixFabricRouteAggregationRulesPagination {
   /**
   * Maximum number of search results returned per page. Number must be between 1 and 100, and the default is 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rules#limit DataEquinixFabricRouteAggregationRules#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_route_aggregation_rules#limit DataEquinixFabricRouteAggregationRules#limit}
   */
   readonly limit?: number;
   /**
   * Index of the first item returned in the response. The default is 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rules#offset DataEquinixFabricRouteAggregationRules#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_route_aggregation_rules#offset DataEquinixFabricRouteAggregationRules#offset}
   */
   readonly offset?: number;
 }
@@ -552,7 +552,7 @@ export class DataEquinixFabricRouteAggregationRulesPaginationOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rules equinix_fabric_route_aggregation_rules}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_route_aggregation_rules equinix_fabric_route_aggregation_rules}
 */
 export class DataEquinixFabricRouteAggregationRules extends cdktf.TerraformDataSource {
 
@@ -568,7 +568,7 @@ export class DataEquinixFabricRouteAggregationRules extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataEquinixFabricRouteAggregationRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricRouteAggregationRules to import
-  * @param importFromId The id of the existing DataEquinixFabricRouteAggregationRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricRouteAggregationRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_route_aggregation_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricRouteAggregationRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -580,7 +580,7 @@ export class DataEquinixFabricRouteAggregationRules extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_route_aggregation_rules equinix_fabric_route_aggregation_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_route_aggregation_rules equinix_fabric_route_aggregation_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -591,8 +591,8 @@ export class DataEquinixFabricRouteAggregationRules extends cdktf.TerraformDataS
       terraformResourceType: 'equinix_fabric_route_aggregation_rules',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

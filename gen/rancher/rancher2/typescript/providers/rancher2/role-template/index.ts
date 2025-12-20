@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface RoleTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Administrative role template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#administrative RoleTemplate#administrative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#administrative RoleTemplate#administrative}
   */
   readonly administrative?: boolean | cdktf.IResolvable;
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#annotations RoleTemplate#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#annotations RoleTemplate#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Context role template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#context RoleTemplate#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#context RoleTemplate#context}
   */
   readonly context?: string;
   /**
   * Default role template for new created cluster or project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#default_role RoleTemplate#default_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#default_role RoleTemplate#default_role}
   */
   readonly defaultRole?: boolean | cdktf.IResolvable;
   /**
   * Role template policy description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#description RoleTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#description RoleTemplate#description}
   */
   readonly description?: string;
   /**
   * External role template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#external RoleTemplate#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#external RoleTemplate#external}
   */
   readonly external?: boolean | cdktf.IResolvable;
   /**
   * Hidden role template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#hidden RoleTemplate#hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#hidden RoleTemplate#hidden}
   */
   readonly hidden?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#id RoleTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#id RoleTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,43 +59,43 @@ export interface RoleTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#labels RoleTemplate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#labels RoleTemplate#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Locked role template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#locked RoleTemplate#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#locked RoleTemplate#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * Role template policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#name RoleTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#name RoleTemplate#name}
   */
   readonly name: string;
   /**
   * Inherit role template IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#role_template_ids RoleTemplate#role_template_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#role_template_ids RoleTemplate#role_template_ids}
   */
   readonly roleTemplateIds?: string[];
   /**
   * external_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#external_rules RoleTemplate#external_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#external_rules RoleTemplate#external_rules}
   */
   readonly externalRules?: RoleTemplateExternalRules[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#rules RoleTemplate#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#rules RoleTemplate#rules}
   */
   readonly rules?: RoleTemplateRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#timeouts RoleTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#timeouts RoleTemplate#timeouts}
   */
   readonly timeouts?: RoleTemplateTimeouts;
 }
@@ -103,31 +103,31 @@ export interface RoleTemplateExternalRules {
   /**
   * Policy rule api groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#api_groups RoleTemplate#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#api_groups RoleTemplate#api_groups}
   */
   readonly apiGroups?: string[];
   /**
   * Policy rule non resource urls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#non_resource_urls RoleTemplate#non_resource_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#non_resource_urls RoleTemplate#non_resource_urls}
   */
   readonly nonResourceUrls?: string[];
   /**
   * Policy rule resource names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#resource_names RoleTemplate#resource_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#resource_names RoleTemplate#resource_names}
   */
   readonly resourceNames?: string[];
   /**
   * Policy rule resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#resources RoleTemplate#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#resources RoleTemplate#resources}
   */
   readonly resources?: string[];
   /**
   * Policy rule verbs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#verbs RoleTemplate#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#verbs RoleTemplate#verbs}
   */
   readonly verbs?: string[];
 }
@@ -361,31 +361,31 @@ export interface RoleTemplateRules {
   /**
   * Policy rule api groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#api_groups RoleTemplate#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#api_groups RoleTemplate#api_groups}
   */
   readonly apiGroups?: string[];
   /**
   * Policy rule non resource urls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#non_resource_urls RoleTemplate#non_resource_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#non_resource_urls RoleTemplate#non_resource_urls}
   */
   readonly nonResourceUrls?: string[];
   /**
   * Policy rule resource names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#resource_names RoleTemplate#resource_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#resource_names RoleTemplate#resource_names}
   */
   readonly resourceNames?: string[];
   /**
   * Policy rule resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#resources RoleTemplate#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#resources RoleTemplate#resources}
   */
   readonly resources?: string[];
   /**
   * Policy rule verbs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#verbs RoleTemplate#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#verbs RoleTemplate#verbs}
   */
   readonly verbs?: string[];
 }
@@ -617,15 +617,15 @@ export class RoleTemplateRulesList extends cdktf.ComplexList {
 }
 export interface RoleTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#create RoleTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#create RoleTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#delete RoleTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#delete RoleTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#update RoleTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#update RoleTemplate#update}
   */
   readonly update?: string;
 }
@@ -777,7 +777,7 @@ export class RoleTemplateTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template rancher2_role_template}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template rancher2_role_template}
 */
 export class RoleTemplate extends cdktf.TerraformResource {
 
@@ -793,7 +793,7 @@ export class RoleTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoleTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoleTemplate to import
-  * @param importFromId The id of the existing RoleTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoleTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoleTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -805,7 +805,7 @@ export class RoleTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/role_template rancher2_role_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/role_template rancher2_role_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -816,8 +816,8 @@ export class RoleTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_role_template',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

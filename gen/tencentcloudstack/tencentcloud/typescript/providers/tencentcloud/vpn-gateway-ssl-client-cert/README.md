@@ -1,3 +1,3 @@
 # `tencentcloud_vpn_gateway_ssl_client_cert`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_vpn_gateway_ssl_client_cert`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_gateway_ssl_client_cert).
+Refer to the Terraform Registry for docs: [`tencentcloud_vpn_gateway_ssl_client_cert`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_gateway_ssl_client_cert).

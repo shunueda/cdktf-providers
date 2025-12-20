@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CkafkaAclRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule#id CkafkaAclRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule#id CkafkaAclRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface CkafkaAclRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule#instance_id CkafkaAclRule#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule#instance_id CkafkaAclRule#instance_id}
   */
   readonly instanceId: string;
   /**
   * Whether the preset ACL rule is applied to the newly added topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule#is_applied CkafkaAclRule#is_applied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule#is_applied CkafkaAclRule#is_applied}
   */
   readonly isApplied?: number;
   /**
   * A value representing the prefix that the prefix matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule#pattern CkafkaAclRule#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule#pattern CkafkaAclRule#pattern}
   */
   readonly pattern?: string;
   /**
   * Match type, currently supports prefix matching and preset strategy, enumeration value list{PREFIXED/PRESET}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule#pattern_type CkafkaAclRule#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule#pattern_type CkafkaAclRule#pattern_type}
   */
   readonly patternType: string;
   /**
   * Acl resource type, currently only supports Topic, enumeration value list{Topic}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule#resource_type CkafkaAclRule#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule#resource_type CkafkaAclRule#resource_type}
   */
   readonly resourceType: string;
   /**
   * rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule#rule_name CkafkaAclRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule#rule_name CkafkaAclRule#rule_name}
   */
   readonly ruleName: string;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule#rule_list CkafkaAclRule#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule#rule_list CkafkaAclRule#rule_list}
   */
   readonly ruleList: CkafkaAclRuleRuleListStruct[] | cdktf.IResolvable;
 }
@@ -61,25 +61,25 @@ export interface CkafkaAclRuleRuleListStruct {
   /**
   * The default is *, which means that any host can be accessed. Currently, ckafka does not support host and ip network segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule#host CkafkaAclRule#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule#host CkafkaAclRule#host}
   */
   readonly host: string;
   /**
   * Acl operation mode, enumeration value (all operations All, read Read, write Write).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule#operation CkafkaAclRule#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule#operation CkafkaAclRule#operation}
   */
   readonly operation: string;
   /**
   * permission type, (Deny|Allow).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule#permission_type CkafkaAclRule#permission_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule#permission_type CkafkaAclRule#permission_type}
   */
   readonly permissionType: string;
   /**
   * User list, the default is User:, which means that any user can access, and the current user can only be the user included in the user list. The input format needs to be prefixed with [User:]. For example, user A is passed in as User:A.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule#principal CkafkaAclRule#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule#principal CkafkaAclRule#principal}
   */
   readonly principal: string;
 }
@@ -270,7 +270,7 @@ export class CkafkaAclRuleRuleListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule tencentcloud_ckafka_acl_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule tencentcloud_ckafka_acl_rule}
 */
 export class CkafkaAclRule extends cdktf.TerraformResource {
 
@@ -286,7 +286,7 @@ export class CkafkaAclRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CkafkaAclRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CkafkaAclRule to import
-  * @param importFromId The id of the existing CkafkaAclRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CkafkaAclRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CkafkaAclRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -298,7 +298,7 @@ export class CkafkaAclRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_acl_rule tencentcloud_ckafka_acl_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_acl_rule tencentcloud_ckafka_acl_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,8 +309,8 @@ export class CkafkaAclRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ckafka_acl_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

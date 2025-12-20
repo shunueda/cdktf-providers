@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_event_ids
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_event_ids
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DataCouchbaseCapellaAuditLogEventIdsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_event_ids#cluster_id DataCouchbaseCapellaAuditLogEventIds#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_event_ids#cluster_id DataCouchbaseCapellaAuditLogEventIds#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_event_ids#organization_id DataCouchbaseCapellaAuditLogEventIds#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_event_ids#organization_id DataCouchbaseCapellaAuditLogEventIds#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_event_ids#project_id DataCouchbaseCapellaAuditLogEventIds#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_event_ids#project_id DataCouchbaseCapellaAuditLogEventIds#project_id}
   */
   readonly projectId: string;
 }
@@ -118,7 +112,7 @@ export class DataCouchbaseCapellaAuditLogEventIdsDataList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_event_ids couchbase-capella_audit_log_event_ids}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_event_ids couchbase-capella_audit_log_event_ids}
 */
 export class DataCouchbaseCapellaAuditLogEventIds extends cdktf.TerraformDataSource {
 
@@ -134,7 +128,7 @@ export class DataCouchbaseCapellaAuditLogEventIds extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataCouchbaseCapellaAuditLogEventIds resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCouchbaseCapellaAuditLogEventIds to import
-  * @param importFromId The id of the existing DataCouchbaseCapellaAuditLogEventIds that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_event_ids#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCouchbaseCapellaAuditLogEventIds that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_event_ids#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCouchbaseCapellaAuditLogEventIds to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +140,7 @@ export class DataCouchbaseCapellaAuditLogEventIds extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_event_ids couchbase-capella_audit_log_event_ids} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_event_ids couchbase-capella_audit_log_event_ids} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +151,8 @@ export class DataCouchbaseCapellaAuditLogEventIds extends cdktf.TerraformDataSou
       terraformResourceType: 'couchbase-capella_audit_log_event_ids',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

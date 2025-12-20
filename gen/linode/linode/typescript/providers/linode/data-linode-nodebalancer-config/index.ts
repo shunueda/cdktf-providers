@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancer_config
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/nodebalancer_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataLinodeNodebalancerConfigAConfig extends cdktf.TerraformMeta
   /**
   * The ID of the NodeBalancer config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancer_config#id DataLinodeNodebalancerConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/nodebalancer_config#id DataLinodeNodebalancerConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataLinodeNodebalancerConfigAConfig extends cdktf.TerraformMeta
   /**
   * The ID of the NodeBalancer to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancer_config#nodebalancer_id DataLinodeNodebalancerConfigA#nodebalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/nodebalancer_config#nodebalancer_id DataLinodeNodebalancerConfigA#nodebalancer_id}
   */
   readonly nodebalancerId: number;
 }
@@ -105,7 +105,7 @@ export class DataLinodeNodebalancerConfigNodeStatusList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancer_config linode_nodebalancer_config}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/nodebalancer_config linode_nodebalancer_config}
 */
 export class DataLinodeNodebalancerConfigA extends cdktf.TerraformDataSource {
 
@@ -121,7 +121,7 @@ export class DataLinodeNodebalancerConfigA extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeNodebalancerConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeNodebalancerConfigA to import
-  * @param importFromId The id of the existing DataLinodeNodebalancerConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancer_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeNodebalancerConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/nodebalancer_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeNodebalancerConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -133,7 +133,7 @@ export class DataLinodeNodebalancerConfigA extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/nodebalancer_config linode_nodebalancer_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/nodebalancer_config linode_nodebalancer_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -144,8 +144,8 @@ export class DataLinodeNodebalancerConfigA extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_nodebalancer_config',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

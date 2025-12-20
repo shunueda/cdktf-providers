@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/classic_elastic_public_ipv6
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/classic_elastic_public_ipv6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ClassicElasticPublicIpv6Config extends cdktf.TerraformMetaArgum
   /**
   * Bandwidth package id, move the account up, and you need to pass in the ipv6 address to apply for bandwidth package charging mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/classic_elastic_public_ipv6#bandwidth_package_id ClassicElasticPublicIpv6#bandwidth_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/classic_elastic_public_ipv6#bandwidth_package_id ClassicElasticPublicIpv6#bandwidth_package_id}
   */
   readonly bandwidthPackageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/classic_elastic_public_ipv6#id ClassicElasticPublicIpv6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/classic_elastic_public_ipv6#id ClassicElasticPublicIpv6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ClassicElasticPublicIpv6Config extends cdktf.TerraformMetaArgum
   /**
   * Network billing model. IPV6 currently supports `TRAFFIC_POSTPAID_BY_HOUR` and `BANDWIDTH_PACKAGE`. The default network charging mode is `TRAFFIC_POSTPAID_BY_HOUR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/classic_elastic_public_ipv6#internet_charge_type ClassicElasticPublicIpv6#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/classic_elastic_public_ipv6#internet_charge_type ClassicElasticPublicIpv6#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
   * Bandwidth in Mbps. Default is 1Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/classic_elastic_public_ipv6#internet_max_bandwidth_out ClassicElasticPublicIpv6#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/classic_elastic_public_ipv6#internet_max_bandwidth_out ClassicElasticPublicIpv6#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
   * IPV6 addresses that require public network access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/classic_elastic_public_ipv6#ip6_address ClassicElasticPublicIpv6#ip6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/classic_elastic_public_ipv6#ip6_address ClassicElasticPublicIpv6#ip6_address}
   */
   readonly ip6Address: string;
   /**
   * Tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/classic_elastic_public_ipv6#tags ClassicElasticPublicIpv6#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/classic_elastic_public_ipv6#tags ClassicElasticPublicIpv6#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/classic_elastic_public_ipv6 tencentcloud_classic_elastic_public_ipv6}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/classic_elastic_public_ipv6 tencentcloud_classic_elastic_public_ipv6}
 */
 export class ClassicElasticPublicIpv6 extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ClassicElasticPublicIpv6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClassicElasticPublicIpv6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClassicElasticPublicIpv6 to import
-  * @param importFromId The id of the existing ClassicElasticPublicIpv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/classic_elastic_public_ipv6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClassicElasticPublicIpv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/classic_elastic_public_ipv6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClassicElasticPublicIpv6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ClassicElasticPublicIpv6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/classic_elastic_public_ipv6 tencentcloud_classic_elastic_public_ipv6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/classic_elastic_public_ipv6 tencentcloud_classic_elastic_public_ipv6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ClassicElasticPublicIpv6 extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_classic_elastic_public_ipv6',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

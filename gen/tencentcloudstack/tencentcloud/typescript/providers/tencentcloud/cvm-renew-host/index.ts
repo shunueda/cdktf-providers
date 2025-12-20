@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_renew_host
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CvmRenewHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * CDH instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_renew_host#host_id CvmRenewHost#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_host#host_id CvmRenewHost#host_id}
   */
   readonly hostId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_renew_host#id CvmRenewHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_host#id CvmRenewHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface CvmRenewHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * host_charge_prepaid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_renew_host#host_charge_prepaid CvmRenewHost#host_charge_prepaid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_host#host_charge_prepaid CvmRenewHost#host_charge_prepaid}
   */
   readonly hostChargePrepaid: CvmRenewHostHostChargePrepaid;
 }
@@ -31,13 +31,13 @@ export interface CvmRenewHostHostChargePrepaid {
   /**
   * The duration of purchasing an instance, unit: month. Value range: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 24, 36.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_renew_host#period CvmRenewHost#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_host#period CvmRenewHost#period}
   */
   readonly period: number;
   /**
   * Auto renewal flag. Valid values:&lt;br&gt;&lt;li&gt;NOTIFY_AND_AUTO_RENEW: notify upon expiration and renew automatically&lt;br&gt;&lt;li&gt;NOTIFY_AND_MANUAL_RENEW: notify upon expiration but do not renew automatically&lt;br&gt;&lt;li&gt;DISABLE_NOTIFY_AND_MANUAL_RENEW: neither notify upon expiration nor renew automatically&lt;br&gt;&lt;br&gt;Default value: NOTIFY_AND_AUTO_RENEW。If this parameter is specified as NOTIFY_AND_AUTO_RENEW, the instance will be automatically renewed on a monthly basis if the account balance is sufficient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_renew_host#renew_flag CvmRenewHost#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_host#renew_flag CvmRenewHost#renew_flag}
   */
   readonly renewFlag?: string;
 }
@@ -147,7 +147,7 @@ export class CvmRenewHostHostChargePrepaidOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_renew_host tencentcloud_cvm_renew_host}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_host tencentcloud_cvm_renew_host}
 */
 export class CvmRenewHost extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class CvmRenewHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CvmRenewHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CvmRenewHost to import
-  * @param importFromId The id of the existing CvmRenewHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_renew_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CvmRenewHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CvmRenewHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class CvmRenewHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_renew_host tencentcloud_cvm_renew_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_renew_host tencentcloud_cvm_renew_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class CvmRenewHost extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cvm_renew_host',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

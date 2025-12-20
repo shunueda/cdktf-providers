@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_ssl_server
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_ssl_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VpnSslServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Need compressed. Currently is not supports compress. Default value: False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_ssl_server#compress VpnSslServer#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_ssl_server#compress VpnSslServer#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * The encrypt algorithm. Valid values: AES-128-CBC, AES-192-CBC, AES-256-CBC.Default value: AES-128-CBC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_ssl_server#encrypt_algorithm VpnSslServer#encrypt_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_ssl_server#encrypt_algorithm VpnSslServer#encrypt_algorithm}
   */
   readonly encryptAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_ssl_server#id VpnSslServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_ssl_server#id VpnSslServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface VpnSslServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The integrity algorithm. Valid values: SHA1. Default value: SHA1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_ssl_server#integrity_algorithm VpnSslServer#integrity_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_ssl_server#integrity_algorithm VpnSslServer#integrity_algorithm}
   */
   readonly integrityAlgorithm?: string;
   /**
   * List of local CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_ssl_server#local_address VpnSslServer#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_ssl_server#local_address VpnSslServer#local_address}
   */
   readonly localAddress: string[];
   /**
   * Remote CIDR for client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_ssl_server#remote_address VpnSslServer#remote_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_ssl_server#remote_address VpnSslServer#remote_address}
   */
   readonly remoteAddress: string;
   /**
   * The port of ssl vpn. Currently only supports UDP. Default value: 1194.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_ssl_server#ssl_vpn_port VpnSslServer#ssl_vpn_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_ssl_server#ssl_vpn_port VpnSslServer#ssl_vpn_port}
   */
   readonly sslVpnPort?: number;
   /**
   * The protocol of ssl vpn. Default value: UDP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_ssl_server#ssl_vpn_protocol VpnSslServer#ssl_vpn_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_ssl_server#ssl_vpn_protocol VpnSslServer#ssl_vpn_protocol}
   */
   readonly sslVpnProtocol?: string;
   /**
   * The name of ssl vpn server to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_ssl_server#ssl_vpn_server_name VpnSslServer#ssl_vpn_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_ssl_server#ssl_vpn_server_name VpnSslServer#ssl_vpn_server_name}
   */
   readonly sslVpnServerName: string;
   /**
   * VPN gateway ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_ssl_server#vpn_gateway_id VpnSslServer#vpn_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_ssl_server#vpn_gateway_id VpnSslServer#vpn_gateway_id}
   */
   readonly vpnGatewayId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_ssl_server tencentcloud_vpn_ssl_server}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_ssl_server tencentcloud_vpn_ssl_server}
 */
 export class VpnSslServer extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class VpnSslServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnSslServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnSslServer to import
-  * @param importFromId The id of the existing VpnSslServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_ssl_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnSslServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_ssl_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnSslServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class VpnSslServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpn_ssl_server tencentcloud_vpn_ssl_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpn_ssl_server tencentcloud_vpn_ssl_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class VpnSslServer extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpn_ssl_server',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

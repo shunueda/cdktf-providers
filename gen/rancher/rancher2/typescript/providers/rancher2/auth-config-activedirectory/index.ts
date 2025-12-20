@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,69 +8,69 @@ import * as cdktf from 'cdktf';
 
 export interface AuthConfigActivedirectoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#access_mode AuthConfigActivedirectory#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#access_mode AuthConfigActivedirectory#access_mode}
   */
   readonly accessMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#allowed_principal_ids AuthConfigActivedirectory#allowed_principal_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#allowed_principal_ids AuthConfigActivedirectory#allowed_principal_ids}
   */
   readonly allowedPrincipalIds?: string[];
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#annotations AuthConfigActivedirectory#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#annotations AuthConfigActivedirectory#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#certificate AuthConfigActivedirectory#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#certificate AuthConfigActivedirectory#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#connection_timeout AuthConfigActivedirectory#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#connection_timeout AuthConfigActivedirectory#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#default_login_domain AuthConfigActivedirectory#default_login_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#default_login_domain AuthConfigActivedirectory#default_login_domain}
   */
   readonly defaultLoginDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#enabled AuthConfigActivedirectory#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#enabled AuthConfigActivedirectory#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#group_dn_attribute AuthConfigActivedirectory#group_dn_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#group_dn_attribute AuthConfigActivedirectory#group_dn_attribute}
   */
   readonly groupDnAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#group_member_mapping_attribute AuthConfigActivedirectory#group_member_mapping_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#group_member_mapping_attribute AuthConfigActivedirectory#group_member_mapping_attribute}
   */
   readonly groupMemberMappingAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#group_member_user_attribute AuthConfigActivedirectory#group_member_user_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#group_member_user_attribute AuthConfigActivedirectory#group_member_user_attribute}
   */
   readonly groupMemberUserAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#group_name_attribute AuthConfigActivedirectory#group_name_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#group_name_attribute AuthConfigActivedirectory#group_name_attribute}
   */
   readonly groupNameAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#group_object_class AuthConfigActivedirectory#group_object_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#group_object_class AuthConfigActivedirectory#group_object_class}
   */
   readonly groupObjectClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#group_search_attribute AuthConfigActivedirectory#group_search_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#group_search_attribute AuthConfigActivedirectory#group_search_attribute}
   */
   readonly groupSearchAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#group_search_base AuthConfigActivedirectory#group_search_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#group_search_base AuthConfigActivedirectory#group_search_base}
   */
   readonly groupSearchBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#group_search_filter AuthConfigActivedirectory#group_search_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#group_search_filter AuthConfigActivedirectory#group_search_filter}
   */
   readonly groupSearchFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#id AuthConfigActivedirectory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#id AuthConfigActivedirectory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,81 +79,81 @@ export interface AuthConfigActivedirectoryConfig extends cdktf.TerraformMetaArgu
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#labels AuthConfigActivedirectory#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#labels AuthConfigActivedirectory#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#nested_group_membership_enabled AuthConfigActivedirectory#nested_group_membership_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#nested_group_membership_enabled AuthConfigActivedirectory#nested_group_membership_enabled}
   */
   readonly nestedGroupMembershipEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#port AuthConfigActivedirectory#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#port AuthConfigActivedirectory#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#servers AuthConfigActivedirectory#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#servers AuthConfigActivedirectory#servers}
   */
   readonly servers: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#service_account_password AuthConfigActivedirectory#service_account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#service_account_password AuthConfigActivedirectory#service_account_password}
   */
   readonly serviceAccountPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#service_account_username AuthConfigActivedirectory#service_account_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#service_account_username AuthConfigActivedirectory#service_account_username}
   */
   readonly serviceAccountUsername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#start_tls AuthConfigActivedirectory#start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#start_tls AuthConfigActivedirectory#start_tls}
   */
   readonly startTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#test_password AuthConfigActivedirectory#test_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#test_password AuthConfigActivedirectory#test_password}
   */
   readonly testPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#test_username AuthConfigActivedirectory#test_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#test_username AuthConfigActivedirectory#test_username}
   */
   readonly testUsername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#tls AuthConfigActivedirectory#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#tls AuthConfigActivedirectory#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#user_disabled_bit_mask AuthConfigActivedirectory#user_disabled_bit_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#user_disabled_bit_mask AuthConfigActivedirectory#user_disabled_bit_mask}
   */
   readonly userDisabledBitMask?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#user_enabled_attribute AuthConfigActivedirectory#user_enabled_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#user_enabled_attribute AuthConfigActivedirectory#user_enabled_attribute}
   */
   readonly userEnabledAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#user_login_attribute AuthConfigActivedirectory#user_login_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#user_login_attribute AuthConfigActivedirectory#user_login_attribute}
   */
   readonly userLoginAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#user_name_attribute AuthConfigActivedirectory#user_name_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#user_name_attribute AuthConfigActivedirectory#user_name_attribute}
   */
   readonly userNameAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#user_object_class AuthConfigActivedirectory#user_object_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#user_object_class AuthConfigActivedirectory#user_object_class}
   */
   readonly userObjectClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#user_search_attribute AuthConfigActivedirectory#user_search_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#user_search_attribute AuthConfigActivedirectory#user_search_attribute}
   */
   readonly userSearchAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#user_search_base AuthConfigActivedirectory#user_search_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#user_search_base AuthConfigActivedirectory#user_search_base}
   */
   readonly userSearchBase: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#user_search_filter AuthConfigActivedirectory#user_search_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#user_search_filter AuthConfigActivedirectory#user_search_filter}
   */
   readonly userSearchFilter?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory rancher2_auth_config_activedirectory}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory rancher2_auth_config_activedirectory}
 */
 export class AuthConfigActivedirectory extends cdktf.TerraformResource {
 
@@ -169,7 +169,7 @@ export class AuthConfigActivedirectory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthConfigActivedirectory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthConfigActivedirectory to import
-  * @param importFromId The id of the existing AuthConfigActivedirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthConfigActivedirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthConfigActivedirectory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class AuthConfigActivedirectory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_activedirectory rancher2_auth_config_activedirectory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_activedirectory rancher2_auth_config_activedirectory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class AuthConfigActivedirectory extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_auth_config_activedirectory',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

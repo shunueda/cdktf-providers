@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/app_services_cidr
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/app_services_cidr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -200,7 +200,7 @@ export class DataCouchbaseCapellaAppServicesCidrDataList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/app_services_cidr couchbase-capella_app_services_cidr}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/app_services_cidr couchbase-capella_app_services_cidr}
 */
 export class DataCouchbaseCapellaAppServicesCidr extends cdktf.TerraformDataSource {
 
@@ -216,7 +216,7 @@ export class DataCouchbaseCapellaAppServicesCidr extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataCouchbaseCapellaAppServicesCidr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCouchbaseCapellaAppServicesCidr to import
-  * @param importFromId The id of the existing DataCouchbaseCapellaAppServicesCidr that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/app_services_cidr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCouchbaseCapellaAppServicesCidr that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/app_services_cidr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCouchbaseCapellaAppServicesCidr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class DataCouchbaseCapellaAppServicesCidr extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/app_services_cidr couchbase-capella_app_services_cidr} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/app_services_cidr couchbase-capella_app_services_cidr} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class DataCouchbaseCapellaAppServicesCidr extends cdktf.TerraformDataSour
       terraformResourceType: 'couchbase-capella_app_services_cidr',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

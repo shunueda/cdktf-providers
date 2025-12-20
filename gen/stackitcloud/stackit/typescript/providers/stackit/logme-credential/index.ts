@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_credential
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/logme_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface LogmeCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the LogMe instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_credential#instance_id LogmeCredential#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/logme_credential#instance_id LogmeCredential#instance_id}
   */
   readonly instanceId: string;
   /**
   * STACKIT Project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_credential#project_id LogmeCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/logme_credential#project_id LogmeCredential#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_credential stackit_logme_credential}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/logme_credential stackit_logme_credential}
 */
 export class LogmeCredential extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class LogmeCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogmeCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogmeCredential to import
-  * @param importFromId The id of the existing LogmeCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogmeCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/logme_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogmeCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class LogmeCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_credential stackit_logme_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/logme_credential stackit_logme_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class LogmeCredential extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_logme_credential',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.75.0',
-        providerVersionConstraint: '0.75.0'
+        providerVersion: '0.76.0',
+        providerVersionConstraint: '0.76.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

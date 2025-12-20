@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip_assignment
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/networking_ip_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkingIpAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip_assignment#assignments NetworkingIpAssignment#assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/networking_ip_assignment#assignments NetworkingIpAssignment#assignments}
   */
   readonly assignments?: NetworkingIpAssignmentAssignments[] | cdktf.IResolvable;
   /**
   * The region for the IP assignments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip_assignment#region NetworkingIpAssignment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/networking_ip_assignment#region NetworkingIpAssignment#region}
   */
   readonly region: string;
 }
 export interface NetworkingIpAssignmentAssignments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip_assignment#address NetworkingIpAssignment#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/networking_ip_assignment#address NetworkingIpAssignment#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip_assignment#linode_id NetworkingIpAssignment#linode_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/networking_ip_assignment#linode_id NetworkingIpAssignment#linode_id}
   */
   readonly linodeId?: number;
 }
@@ -169,7 +169,7 @@ export class NetworkingIpAssignmentAssignmentsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip_assignment linode_networking_ip_assignment}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/networking_ip_assignment linode_networking_ip_assignment}
 */
 export class NetworkingIpAssignment extends cdktf.TerraformResource {
 
@@ -185,7 +185,7 @@ export class NetworkingIpAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingIpAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingIpAssignment to import
-  * @param importFromId The id of the existing NetworkingIpAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingIpAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/networking_ip_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingIpAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class NetworkingIpAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/networking_ip_assignment linode_networking_ip_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/networking_ip_assignment linode_networking_ip_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class NetworkingIpAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'linode_networking_ip_assignment',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

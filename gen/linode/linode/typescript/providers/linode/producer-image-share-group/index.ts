@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/producer_image_share_group
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/producer_image_share_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ProducerImageShareGroupConfig extends cdktf.TerraformMetaArgume
   /**
   * The label of the Image Share Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/producer_image_share_group#description ProducerImageShareGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/producer_image_share_group#description ProducerImageShareGroup#description}
   */
   readonly description?: string;
   /**
   * The images to be shared using this Image Share Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/producer_image_share_group#images ProducerImageShareGroup#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/producer_image_share_group#images ProducerImageShareGroup#images}
   */
   readonly images?: ProducerImageShareGroupImages[] | cdktf.IResolvable;
   /**
   * The label of the Image Share Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/producer_image_share_group#label ProducerImageShareGroup#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/producer_image_share_group#label ProducerImageShareGroup#label}
   */
   readonly label: string;
 }
@@ -30,13 +30,13 @@ export interface ProducerImageShareGroupImages {
   /**
   * The description for the im_ImageShare row associated with this shared image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/producer_image_share_group#description ProducerImageShareGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/producer_image_share_group#description ProducerImageShareGroup#description}
   */
   readonly description?: string;
   /**
   * The ID of an image to share in this Image Share Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/producer_image_share_group#id ProducerImageShareGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/producer_image_share_group#id ProducerImageShareGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,7 +45,7 @@ export interface ProducerImageShareGroupImages {
   /**
   * The label for the im_ImageShare row associated with this shared image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/producer_image_share_group#label ProducerImageShareGroup#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/producer_image_share_group#label ProducerImageShareGroup#label}
   */
   readonly label?: string;
 }
@@ -216,7 +216,7 @@ export class ProducerImageShareGroupImagesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/producer_image_share_group linode_producer_image_share_group}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/producer_image_share_group linode_producer_image_share_group}
 */
 export class ProducerImageShareGroup extends cdktf.TerraformResource {
 
@@ -232,7 +232,7 @@ export class ProducerImageShareGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProducerImageShareGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProducerImageShareGroup to import
-  * @param importFromId The id of the existing ProducerImageShareGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/producer_image_share_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProducerImageShareGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/producer_image_share_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProducerImageShareGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -244,7 +244,7 @@ export class ProducerImageShareGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/producer_image_share_group linode_producer_image_share_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/producer_image_share_group linode_producer_image_share_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,8 +255,8 @@ export class ProducerImageShareGroup extends cdktf.TerraformResource {
       terraformResourceType: 'linode_producer_image_share_group',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

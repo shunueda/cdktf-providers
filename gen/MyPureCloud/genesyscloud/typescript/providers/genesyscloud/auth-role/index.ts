@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AuthRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Internal ID for an existing default role, e.g. 'employee'. This can be set to manage permissions on existing default roles.  Note: Changing the default_role_id attribute will cause this auth_role to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#default_role_id AuthRole#default_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#default_role_id AuthRole#default_role_id}
   */
   readonly defaultRoleId?: string;
   /**
   * Role description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#description AuthRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#description AuthRole#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#id AuthRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#id AuthRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface AuthRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Role name. This cannot be modified for default roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#name AuthRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#name AuthRole#name}
   */
   readonly name: string;
   /**
   * General role permissions. e.g. 'group_creation'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#permissions AuthRole#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#permissions AuthRole#permissions}
   */
   readonly permissions?: string[];
   /**
   * permission_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#permission_policies AuthRole#permission_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#permission_policies AuthRole#permission_policies}
   */
   readonly permissionPolicies?: AuthRolePermissionPolicies[] | cdktf.IResolvable;
 }
@@ -49,25 +49,25 @@ export interface AuthRolePermissionPoliciesConditionsTermsOperands {
   /**
   * Queue ID for QUEUE types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#queue_id AuthRole#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#queue_id AuthRole#queue_id}
   */
   readonly queueId?: string;
   /**
   * Value type (USER | QUEUE | SCALAR | VARIABLE).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#type AuthRole#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#type AuthRole#type}
   */
   readonly type: string;
   /**
   * User ID for USER types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#user_id AuthRole#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#user_id AuthRole#user_id}
   */
   readonly userId?: string;
   /**
   * Value for operand. For USER or QUEUE types, use user_id or queue_id instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#value AuthRole#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#value AuthRole#value}
   */
   readonly value?: string;
 }
@@ -269,19 +269,19 @@ export interface AuthRolePermissionPoliciesConditionsTerms {
   /**
   * Operator type (EQ | IN | GE | GT | LE | LT).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#operator AuthRole#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#operator AuthRole#operator}
   */
   readonly operator: string;
   /**
   * Variable name being compared. This varies depending on the permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#variable_name AuthRole#variable_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#variable_name AuthRole#variable_name}
   */
   readonly variableName: string;
   /**
   * operands block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#operands AuthRole#operands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#operands AuthRole#operands}
   */
   readonly operands: AuthRolePermissionPoliciesConditionsTermsOperands[] | cdktf.IResolvable;
 }
@@ -448,13 +448,13 @@ export interface AuthRolePermissionPoliciesConditions {
   /**
   * Conjunction for condition terms (AND | OR).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#conjunction AuthRole#conjunction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#conjunction AuthRole#conjunction}
   */
   readonly conjunction: string;
   /**
   * terms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#terms AuthRole#terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#terms AuthRole#terms}
   */
   readonly terms: AuthRolePermissionPoliciesConditionsTerms[] | cdktf.IResolvable;
 }
@@ -563,25 +563,25 @@ export interface AuthRolePermissionPolicies {
   /**
   * Actions allowed on the entity or '*' for all. e.g. 'add'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#action_set AuthRole#action_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#action_set AuthRole#action_set}
   */
   readonly actionSet: string[];
   /**
   * Permission domain. e.g 'directory'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#domain AuthRole#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#domain AuthRole#domain}
   */
   readonly domain: string;
   /**
   * Permission entity or '*' for all. e.g. 'user'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#entity_name AuthRole#entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#entity_name AuthRole#entity_name}
   */
   readonly entityName: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#conditions AuthRole#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#conditions AuthRole#conditions}
   */
   readonly conditions?: AuthRolePermissionPoliciesConditions;
 }
@@ -775,7 +775,7 @@ export class AuthRolePermissionPoliciesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role genesyscloud_auth_role}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role genesyscloud_auth_role}
 */
 export class AuthRole extends cdktf.TerraformResource {
 
@@ -791,7 +791,7 @@ export class AuthRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthRole to import
-  * @param importFromId The id of the existing AuthRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -803,7 +803,7 @@ export class AuthRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/auth_role genesyscloud_auth_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/auth_role genesyscloud_auth_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -814,8 +814,8 @@ export class AuthRole extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_auth_role',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

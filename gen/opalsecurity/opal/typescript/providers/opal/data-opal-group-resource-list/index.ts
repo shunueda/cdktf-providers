@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_resource_list
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_resource_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOpalGroupResourceListConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_resource_list#group_id DataOpalGroupResourceList#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_resource_list#group_id DataOpalGroupResourceList#group_id}
   */
   readonly groupId: string;
 }
@@ -161,7 +161,7 @@ export class DataOpalGroupResourceListGroupResourcesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_resource_list opal_group_resource_list}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_resource_list opal_group_resource_list}
 */
 export class DataOpalGroupResourceList extends cdktf.TerraformDataSource {
 
@@ -177,7 +177,7 @@ export class DataOpalGroupResourceList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpalGroupResourceList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalGroupResourceList to import
-  * @param importFromId The id of the existing DataOpalGroupResourceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_resource_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalGroupResourceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_resource_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalGroupResourceList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class DataOpalGroupResourceList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_resource_list opal_group_resource_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_resource_list opal_group_resource_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class DataOpalGroupResourceList extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_group_resource_list',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/idp_group_mappings
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/idp_group_mappings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,31 @@ export interface IdpGroupMappingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Okta app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/idp_group_mappings#app_resource_id IdpGroupMappings#app_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/idp_group_mappings#app_resource_id IdpGroupMappings#app_resource_id}
   */
   readonly appResourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/idp_group_mappings#mappings IdpGroupMappings#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/idp_group_mappings#mappings IdpGroupMappings#mappings}
   */
   readonly mappings: IdpGroupMappingsMappings[] | cdktf.IResolvable;
 }
 export interface IdpGroupMappingsMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/idp_group_mappings#alias IdpGroupMappings#alias}
+  * The alias of the group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/idp_group_mappings#alias IdpGroupMappings#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/idp_group_mappings#group_id IdpGroupMappings#group_id}
+  * The ID of the group.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/idp_group_mappings#group_id IdpGroupMappings#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/idp_group_mappings#hidden_from_end_user IdpGroupMappings#hidden_from_end_user}
+  * A bool representing whether or not the group is hidden from the end user.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/idp_group_mappings#hidden_from_end_user IdpGroupMappings#hidden_from_end_user}
   */
   readonly hiddenFromEndUser?: boolean | cdktf.IResolvable;
 }
@@ -207,7 +213,7 @@ export class IdpGroupMappingsMappingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/idp_group_mappings opal_idp_group_mappings}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/idp_group_mappings opal_idp_group_mappings}
 */
 export class IdpGroupMappings extends cdktf.TerraformResource {
 
@@ -223,7 +229,7 @@ export class IdpGroupMappings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdpGroupMappings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdpGroupMappings to import
-  * @param importFromId The id of the existing IdpGroupMappings that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/idp_group_mappings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdpGroupMappings that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/idp_group_mappings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdpGroupMappings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +241,7 @@ export class IdpGroupMappings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/idp_group_mappings opal_idp_group_mappings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/idp_group_mappings opal_idp_group_mappings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +252,8 @@ export class IdpGroupMappings extends cdktf.TerraformResource {
       terraformResourceType: 'opal_idp_group_mappings',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

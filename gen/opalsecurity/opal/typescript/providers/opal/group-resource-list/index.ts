@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_resource_list
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_resource_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GroupResourceListConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_resource_list#group_id GroupResourceList#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_resource_list#group_id GroupResourceList#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_resource_list#resources GroupResourceList#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_resource_list#resources GroupResourceList#resources}
   */
   readonly resources: GroupResourceListResources[] | cdktf.IResolvable;
 }
@@ -167,13 +167,13 @@ export interface GroupResourceListResources {
   /**
   * The ID of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_resource_list#access_level_remote_id GroupResourceList#access_level_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_resource_list#access_level_remote_id GroupResourceList#access_level_remote_id}
   */
   readonly accessLevelRemoteId?: string;
   /**
   * The ID of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_resource_list#resource_id GroupResourceList#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_resource_list#resource_id GroupResourceList#resource_id}
   */
   readonly resourceId: string;
 }
@@ -315,7 +315,7 @@ export class GroupResourceListResourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_resource_list opal_group_resource_list}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_resource_list opal_group_resource_list}
 */
 export class GroupResourceList extends cdktf.TerraformResource {
 
@@ -331,7 +331,7 @@ export class GroupResourceList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupResourceList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupResourceList to import
-  * @param importFromId The id of the existing GroupResourceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_resource_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupResourceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_resource_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupResourceList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -343,7 +343,7 @@ export class GroupResourceList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_resource_list opal_group_resource_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_resource_list opal_group_resource_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -354,8 +354,8 @@ export class GroupResourceList extends cdktf.TerraformResource {
       terraformResourceType: 'opal_group_resource_list',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

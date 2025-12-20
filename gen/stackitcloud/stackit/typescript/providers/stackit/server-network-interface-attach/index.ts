@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_network_interface_attach
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/server_network_interface_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ServerNetworkInterfaceAttachConfig extends cdktf.TerraformMetaA
   /**
   * The network interface ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_network_interface_attach#network_interface_id ServerNetworkInterfaceAttach#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/server_network_interface_attach#network_interface_id ServerNetworkInterfaceAttach#network_interface_id}
   */
   readonly networkInterfaceId: string;
   /**
   * STACKIT project ID to which the network interface attachment is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_network_interface_attach#project_id ServerNetworkInterfaceAttach#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/server_network_interface_attach#project_id ServerNetworkInterfaceAttach#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_network_interface_attach#region ServerNetworkInterfaceAttach#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/server_network_interface_attach#region ServerNetworkInterfaceAttach#region}
   */
   readonly region?: string;
   /**
   * The server ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_network_interface_attach#server_id ServerNetworkInterfaceAttach#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/server_network_interface_attach#server_id ServerNetworkInterfaceAttach#server_id}
   */
   readonly serverId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_network_interface_attach stackit_server_network_interface_attach}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/server_network_interface_attach stackit_server_network_interface_attach}
 */
 export class ServerNetworkInterfaceAttach extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ServerNetworkInterfaceAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerNetworkInterfaceAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerNetworkInterfaceAttach to import
-  * @param importFromId The id of the existing ServerNetworkInterfaceAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_network_interface_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerNetworkInterfaceAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/server_network_interface_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerNetworkInterfaceAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ServerNetworkInterfaceAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_network_interface_attach stackit_server_network_interface_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/server_network_interface_attach stackit_server_network_interface_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ServerNetworkInterfaceAttach extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_server_network_interface_attach',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.75.0',
-        providerVersionConstraint: '0.75.0'
+        providerVersion: '0.76.0',
+        providerVersionConstraint: '0.76.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

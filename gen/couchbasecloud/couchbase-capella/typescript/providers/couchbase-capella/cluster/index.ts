@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,81 +8,55 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Availability configuration for the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#availability Cluster#availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#availability Cluster#availability}
   */
   readonly availability: ClusterAvailability;
   /**
-  * The Cloud Service Provider where the cluster will be hosted. 
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#cloud_provider Cluster#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#cloud_provider Cluster#cloud_provider}
   */
   readonly cloudProvider: ClusterCloudProvider;
   /**
-  * The configuration type of the cluster. This field is deprecated.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#configuration_type Cluster#configuration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#configuration_type Cluster#configuration_type}
   */
   readonly configurationType?: string;
   /**
-  * Configuration for the Couchbase Server running on the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#couchbase_server Cluster#couchbase_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#couchbase_server Cluster#couchbase_server}
   */
   readonly couchbaseServer?: ClusterCouchbaseServer;
   /**
-  * Description of the cluster (up to 1024 characters).
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#description Cluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#description Cluster#description}
   */
   readonly description?: string;
   /**
-  * EnablePrivateDNSResolution signals that the cluster should have hostnames that are hosted in a public DNS zone that resolve to a private DNS address. This exists to support the use case of customers connecting from their own data centers where it is not possible to make use of a Cloud Service Provider DNS zone.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#enable_private_dns_resolution Cluster#enable_private_dns_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#enable_private_dns_resolution Cluster#enable_private_dns_resolution}
   */
   readonly enablePrivateDnsResolution?: boolean | cdktf.IResolvable;
   /**
-  * The If-Match header value used for optimistic concurrency control.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#if_match Cluster#if_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#if_match Cluster#if_match}
   */
   readonly ifMatch?: string;
   /**
-  * The name of the cluster (up to 256 characters).
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#name Cluster#name}
   */
   readonly name: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#organization_id Cluster#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#organization_id Cluster#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#project_id Cluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#project_id Cluster#project_id}
   */
   readonly projectId: string;
   /**
-  * Configuration for the Service Groups in the cluster. Each Service Group represents a set of nodes with the same configuration.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#service_groups Cluster#service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#service_groups Cluster#service_groups}
   */
   readonly serviceGroups: ClusterServiceGroups[] | cdktf.IResolvable;
   /**
-  * Support configuration for the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#support Cluster#support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#support Cluster#support}
   */
   readonly support: ClusterSupport;
   /**
-  * The Cloud Services Provider's availability zones for the cluster.For single availability zone clusters, only 1 zone is allowed in list.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#zones Cluster#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#zones Cluster#zones}
   */
   readonly zones?: string[];
 }
@@ -162,9 +136,7 @@ export class ClusterAuditOutputReference extends cdktf.ComplexObject {
 }
 export interface ClusterAvailability {
   /**
-  * The availability type of the cluster. Can be 'single' for Single Node or 'multi' for Multi Node.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -255,21 +227,15 @@ export class ClusterAvailabilityOutputReference extends cdktf.ComplexObject {
 }
 export interface ClusterCloudProvider {
   /**
-  * The CIDR block for the cluster's network.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#cidr Cluster#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#cidr Cluster#cidr}
   */
   readonly cidr: string;
   /**
-  * The region where the cluster will be hosted.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#region Cluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#region Cluster#region}
   */
   readonly region: string;
   /**
-  * The Cloud Service Provider type. Currently supporting AWS, GCP and Azure. For Single Node cluster, only the AWS type Cloud Service Provider is allowed.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -412,9 +378,7 @@ export class ClusterCloudProviderOutputReference extends cdktf.ComplexObject {
 }
 export interface ClusterCouchbaseServer {
   /**
-  * The version of Couchbase Server to run on the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#version Cluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#version Cluster#version}
   */
   readonly version?: string;
 }
@@ -508,15 +472,11 @@ export class ClusterCouchbaseServerOutputReference extends cdktf.ComplexObject {
 }
 export interface ClusterServiceGroupsNodeCompute {
   /**
-  * The number of CPU cores for the node. The value must be between 1 and 128.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#cpu Cluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#cpu Cluster#cpu}
   */
   readonly cpu: number;
   /**
-  * The amount of RAM in MB for the node.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#ram Cluster#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#ram Cluster#ram}
   */
   readonly ram: number;
 }
@@ -633,27 +593,19 @@ export class ClusterServiceGroupsNodeComputeOutputReference extends cdktf.Comple
 }
 export interface ClusterServiceGroupsNodeDisk {
   /**
-  * Enable or disable automatic disk expansion.  This can only be set for Azure.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#autoexpansion Cluster#autoexpansion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#autoexpansion Cluster#autoexpansion}
   */
   readonly autoexpansion?: boolean | cdktf.IResolvable;
   /**
-  * The number of IOPS for the disk. Only applicable for AWS and Azure.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#iops Cluster#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#iops Cluster#iops}
   */
   readonly iops?: number;
   /**
-  * The size of the disk in GB.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#storage Cluster#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#storage Cluster#storage}
   */
   readonly storage?: number;
   /**
-  * The type of disk to use. For AWS: gp3 or io2, for Azure: Premium or UltraSSD, for GCP: pd-ssd.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -831,15 +783,11 @@ export class ClusterServiceGroupsNodeDiskOutputReference extends cdktf.ComplexOb
 }
 export interface ClusterServiceGroupsNode {
   /**
-  * Compute resources configuration for the nodes.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#compute Cluster#compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#compute Cluster#compute}
   */
   readonly compute: ClusterServiceGroupsNodeCompute;
   /**
-  * The 'storage' and 'IOPS' fields are required for AWS. For Azure, only the 'disktype' field is required. For the Ultra disk type, you can provide storage, IOPS, and auto-expansion fields. For Premium type, you can only provide the auto-expansion field, others cannot be set. In the case of GCP, only 'pd ssd' disk type is available, and you cannot set the 'IOPS' field.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#disk Cluster#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#disk Cluster#disk}
   */
   readonly disk: ClusterServiceGroupsNodeDisk;
 }
@@ -956,21 +904,15 @@ export class ClusterServiceGroupsNodeOutputReference extends cdktf.ComplexObject
 }
 export interface ClusterServiceGroups {
   /**
-  * Node configuration for this Service Group.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#node Cluster#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#node Cluster#node}
   */
   readonly nodeAttribute: ClusterServiceGroupsNode;
   /**
-  * The number of nodes in this Service Group.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#num_of_nodes Cluster#num_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#num_of_nodes Cluster#num_of_nodes}
   */
   readonly numOfNodes: number;
   /**
-  * The list of Couchbase Services to run on the nodes in this Service Group.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#services Cluster#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#services Cluster#services}
   */
   readonly services: string[];
 }
@@ -1135,15 +1077,11 @@ export class ClusterServiceGroupsList extends cdktf.ComplexList {
 }
 export interface ClusterSupport {
   /**
-  * The support plan options include 'Basic', 'Developer Pro', or 'Enterprise'.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#plan Cluster#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#plan Cluster#plan}
   */
   readonly plan: string;
   /**
-  * The timezone for support coverage.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#timezone Cluster#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#timezone Cluster#timezone}
   */
   readonly timezone?: string;
 }
@@ -1263,7 +1201,7 @@ export class ClusterSupportOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster couchbase-capella_cluster}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster couchbase-capella_cluster}
 */
 export class Cluster extends cdktf.TerraformResource {
 
@@ -1279,7 +1217,7 @@ export class Cluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cluster to import
-  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1291,7 +1229,7 @@ export class Cluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster couchbase-capella_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster couchbase-capella_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1302,8 +1240,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_cluster',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

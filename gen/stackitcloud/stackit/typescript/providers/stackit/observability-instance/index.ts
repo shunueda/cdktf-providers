@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface ObservabilityInstanceConfig extends cdktf.TerraformMetaArgument
   /**
   * The access control list for this instance. Each entry is an IP address range that is permitted to access, in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#acl ObservabilityInstance#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#acl ObservabilityInstance#acl}
   */
   readonly acl?: string[];
   /**
   * Alert configuration for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#alert_config ObservabilityInstance#alert_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#alert_config ObservabilityInstance#alert_config}
   */
   readonly alertConfig?: ObservabilityInstanceAlertConfig;
   /**
   * Specifies for how many days the logs are kept. Default is set to `7`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#logs_retention_days ObservabilityInstance#logs_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#logs_retention_days ObservabilityInstance#logs_retention_days}
   */
   readonly logsRetentionDays?: number;
   /**
   * Specifies for how many days the raw metrics are kept. Default is set to `90`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#metrics_retention_days ObservabilityInstance#metrics_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#metrics_retention_days ObservabilityInstance#metrics_retention_days}
   */
   readonly metricsRetentionDays?: number;
   /**
   * Specifies for how many days the 1h downsampled metrics are kept. must be less than the value of the 5m downsampling retention. Default is set to `90`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#metrics_retention_days_1h_downsampling ObservabilityInstance#metrics_retention_days_1h_downsampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#metrics_retention_days_1h_downsampling ObservabilityInstance#metrics_retention_days_1h_downsampling}
   */
   readonly metricsRetentionDays1HDownsampling?: number;
   /**
   * Specifies for how many days the 5m downsampled metrics are kept. must be less than the value of the general retention. Default is set to `90`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#metrics_retention_days_5m_downsampling ObservabilityInstance#metrics_retention_days_5m_downsampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#metrics_retention_days_5m_downsampling ObservabilityInstance#metrics_retention_days_5m_downsampling}
   */
   readonly metricsRetentionDays5MDownsampling?: number;
   /**
   * The name of the Observability instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#name ObservabilityInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#name ObservabilityInstance#name}
   */
   readonly name: string;
   /**
   * Additional parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#parameters ObservabilityInstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#parameters ObservabilityInstance#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * Specifies the Observability plan. E.g. `Observability-Monitoring-Medium-EU01`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#plan_name ObservabilityInstance#plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#plan_name ObservabilityInstance#plan_name}
   */
   readonly planName: string;
   /**
   * STACKIT project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#project_id ObservabilityInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#project_id ObservabilityInstance#project_id}
   */
   readonly projectId: string;
   /**
   * Specifies for how many days the traces are kept. Default is set to `7`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#traces_retention_days ObservabilityInstance#traces_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#traces_retention_days ObservabilityInstance#traces_retention_days}
   */
   readonly tracesRetentionDays?: number;
 }
@@ -78,49 +78,49 @@ export interface ObservabilityInstanceAlertConfigGlobal {
   /**
   * The API key for OpsGenie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#opsgenie_api_key ObservabilityInstance#opsgenie_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#opsgenie_api_key ObservabilityInstance#opsgenie_api_key}
   */
   readonly opsgenieApiKey?: string;
   /**
   * The host to send OpsGenie API requests to. Must be a valid URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#opsgenie_api_url ObservabilityInstance#opsgenie_api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#opsgenie_api_url ObservabilityInstance#opsgenie_api_url}
   */
   readonly opsgenieApiUrl?: string;
   /**
   * The default value used by alertmanager if the alert does not include EndsAt. After this time passes, it can declare the alert as resolved if it has not been updated. This has no impact on alerts from Prometheus, as they always include EndsAt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#resolve_timeout ObservabilityInstance#resolve_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#resolve_timeout ObservabilityInstance#resolve_timeout}
   */
   readonly resolveTimeout?: string;
   /**
   * SMTP authentication information. Must be a valid email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#smtp_auth_identity ObservabilityInstance#smtp_auth_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#smtp_auth_identity ObservabilityInstance#smtp_auth_identity}
   */
   readonly smtpAuthIdentity?: string;
   /**
   * SMTP Auth using LOGIN and PLAIN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#smtp_auth_password ObservabilityInstance#smtp_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#smtp_auth_password ObservabilityInstance#smtp_auth_password}
   */
   readonly smtpAuthPassword?: string;
   /**
   * SMTP Auth using CRAM-MD5, LOGIN and PLAIN. If empty, Alertmanager doesn't authenticate to the SMTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#smtp_auth_username ObservabilityInstance#smtp_auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#smtp_auth_username ObservabilityInstance#smtp_auth_username}
   */
   readonly smtpAuthUsername?: string;
   /**
   * The default SMTP From header field. Must be a valid email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#smtp_from ObservabilityInstance#smtp_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#smtp_from ObservabilityInstance#smtp_from}
   */
   readonly smtpFrom?: string;
   /**
   * The default SMTP smarthost used for sending emails, including port number in format `host:port` (eg. `smtp.example.com:587`). Port number usually is 25, or 587 for SMTP over TLS (sometimes referred to as STARTTLS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#smtp_smart_host ObservabilityInstance#smtp_smart_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#smtp_smart_host ObservabilityInstance#smtp_smart_host}
   */
   readonly smtpSmartHost?: string;
 }
@@ -419,43 +419,43 @@ export interface ObservabilityInstanceAlertConfigReceiversEmailConfigs {
   /**
   * SMTP authentication information. Must be a valid email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#auth_identity ObservabilityInstance#auth_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#auth_identity ObservabilityInstance#auth_identity}
   */
   readonly authIdentity?: string;
   /**
   * SMTP authentication password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#auth_password ObservabilityInstance#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#auth_password ObservabilityInstance#auth_password}
   */
   readonly authPassword?: string;
   /**
   * SMTP authentication username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#auth_username ObservabilityInstance#auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#auth_username ObservabilityInstance#auth_username}
   */
   readonly authUsername?: string;
   /**
   * The sender email address. Must be a valid email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#from ObservabilityInstance#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#from ObservabilityInstance#from}
   */
   readonly from?: string;
   /**
   * Whether to notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#send_resolved ObservabilityInstance#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#send_resolved ObservabilityInstance#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * The SMTP host through which emails are sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#smart_host ObservabilityInstance#smart_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#smart_host ObservabilityInstance#smart_host}
   */
   readonly smartHost?: string;
   /**
   * The email address to send notifications to. Must be a valid email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#to ObservabilityInstance#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#to ObservabilityInstance#to}
   */
   readonly to?: string;
 }
@@ -747,31 +747,31 @@ export interface ObservabilityInstanceAlertConfigReceiversOpsgenieConfigs {
   /**
   * The API key for OpsGenie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#api_key ObservabilityInstance#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#api_key ObservabilityInstance#api_key}
   */
   readonly apiKey?: string;
   /**
   * The host to send OpsGenie API requests to. Must be a valid URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#api_url ObservabilityInstance#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#api_url ObservabilityInstance#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Priority of the alert. Possible values are: `P1`, `P2`, `P3`, `P4`, `P5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#priority ObservabilityInstance#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#priority ObservabilityInstance#priority}
   */
   readonly priority?: string;
   /**
   * Whether to notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#send_resolved ObservabilityInstance#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#send_resolved ObservabilityInstance#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * Comma separated list of tags attached to the notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#tags ObservabilityInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#tags ObservabilityInstance#tags}
   */
   readonly tags?: string;
 }
@@ -1005,25 +1005,25 @@ export interface ObservabilityInstanceAlertConfigReceiversWebhooksConfigs {
   /**
   * Google Chat webhooks require special handling, set this to true if the webhook is for Google Chat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#google_chat ObservabilityInstance#google_chat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#google_chat ObservabilityInstance#google_chat}
   */
   readonly googleChat?: boolean | cdktf.IResolvable;
   /**
   * Microsoft Teams webhooks require special handling, set this to true if the webhook is for Microsoft Teams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#ms_teams ObservabilityInstance#ms_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#ms_teams ObservabilityInstance#ms_teams}
   */
   readonly msTeams?: boolean | cdktf.IResolvable;
   /**
   * Whether to notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#send_resolved ObservabilityInstance#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#send_resolved ObservabilityInstance#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * The endpoint to send HTTP POST requests to. Must be a valid URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#url ObservabilityInstance#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#url ObservabilityInstance#url}
   */
   readonly url?: string;
 }
@@ -1228,25 +1228,25 @@ export interface ObservabilityInstanceAlertConfigReceivers {
   /**
   * List of email configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#email_configs ObservabilityInstance#email_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#email_configs ObservabilityInstance#email_configs}
   */
   readonly emailConfigs?: ObservabilityInstanceAlertConfigReceiversEmailConfigs[] | cdktf.IResolvable;
   /**
   * Name of the receiver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#name ObservabilityInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#name ObservabilityInstance#name}
   */
   readonly name: string;
   /**
   * List of OpsGenie configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#opsgenie_configs ObservabilityInstance#opsgenie_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#opsgenie_configs ObservabilityInstance#opsgenie_configs}
   */
   readonly opsgenieConfigs?: ObservabilityInstanceAlertConfigReceiversOpsgenieConfigs[] | cdktf.IResolvable;
   /**
   * List of Webhooks configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#webhooks_configs ObservabilityInstance#webhooks_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#webhooks_configs ObservabilityInstance#webhooks_configs}
   */
   readonly webhooksConfigs?: ObservabilityInstanceAlertConfigReceiversWebhooksConfigs[] | cdktf.IResolvable;
 }
@@ -1448,55 +1448,55 @@ export interface ObservabilityInstanceAlertConfigRouteRoutes {
   /**
   * Whether an alert should continue matching subsequent sibling nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#continue ObservabilityInstance#continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#continue ObservabilityInstance#continue}
   */
   readonly continue?: boolean | cdktf.IResolvable;
   /**
   * The labels by which incoming alerts are grouped together. For example, multiple alerts coming in for cluster=A and alertname=LatencyHigh would be batched into a single group. To aggregate by all possible labels use the special value '...' as the sole label name, for example: group_by: ['...']. This effectively disables aggregation entirely, passing through all alerts as-is. This is unlikely to be what you want, unless you have a very low alert volume or your upstream notification system performs its own grouping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#group_by ObservabilityInstance#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#group_by ObservabilityInstance#group_by}
   */
   readonly groupBy?: string[];
   /**
   * How long to wait before sending a notification about new alerts that are added to a group of alerts for which an initial notification has already been sent. (Usually ~5m or more.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#group_interval ObservabilityInstance#group_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#group_interval ObservabilityInstance#group_interval}
   */
   readonly groupInterval?: string;
   /**
   * How long to initially wait to send a notification for a group of alerts. Allows to wait for an inhibiting alert to arrive or collect more initial alerts for the same group. (Usually ~0s to few minutes.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#group_wait ObservabilityInstance#group_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#group_wait ObservabilityInstance#group_wait}
   */
   readonly groupWait?: string;
   /**
   * A set of equality matchers an alert has to fulfill to match the node. This field is deprecated and will be removed after 10th March 2026, use `matchers` in the `routes` instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#match ObservabilityInstance#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#match ObservabilityInstance#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * A set of regex-matchers an alert has to fulfill to match the node. This field is deprecated and will be removed after 10th March 2026, use `matchers` in the `routes` instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#match_regex ObservabilityInstance#match_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#match_regex ObservabilityInstance#match_regex}
   */
   readonly matchRegex?: { [key: string]: string };
   /**
   * A list of matchers that an alert has to fulfill to match the node. A matcher is a string with a syntax inspired by PromQL and OpenMetrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#matchers ObservabilityInstance#matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#matchers ObservabilityInstance#matchers}
   */
   readonly matchers?: string[];
   /**
   * The name of the receiver to route the alerts to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#receiver ObservabilityInstance#receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#receiver ObservabilityInstance#receiver}
   */
   readonly receiver: string;
   /**
   * How long to wait before sending a notification again if it has already been sent successfully for an alert. (Usually ~3h or more).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#repeat_interval ObservabilityInstance#repeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#repeat_interval ObservabilityInstance#repeat_interval}
   */
   readonly repeatInterval?: string;
 }
@@ -1843,37 +1843,37 @@ export interface ObservabilityInstanceAlertConfigRoute {
   /**
   * The labels by which incoming alerts are grouped together. For example, multiple alerts coming in for cluster=A and alertname=LatencyHigh would be batched into a single group. To aggregate by all possible labels use the special value '...' as the sole label name, for example: group_by: ['...']. This effectively disables aggregation entirely, passing through all alerts as-is. This is unlikely to be what you want, unless you have a very low alert volume or your upstream notification system performs its own grouping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#group_by ObservabilityInstance#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#group_by ObservabilityInstance#group_by}
   */
   readonly groupBy?: string[];
   /**
   * How long to wait before sending a notification about new alerts that are added to a group of alerts for which an initial notification has already been sent. (Usually ~5m or more.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#group_interval ObservabilityInstance#group_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#group_interval ObservabilityInstance#group_interval}
   */
   readonly groupInterval?: string;
   /**
   * How long to initially wait to send a notification for a group of alerts. Allows to wait for an inhibiting alert to arrive or collect more initial alerts for the same group. (Usually ~0s to few minutes.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#group_wait ObservabilityInstance#group_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#group_wait ObservabilityInstance#group_wait}
   */
   readonly groupWait?: string;
   /**
   * The name of the receiver to route the alerts to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#receiver ObservabilityInstance#receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#receiver ObservabilityInstance#receiver}
   */
   readonly receiver: string;
   /**
   * How long to wait before sending a notification again if it has already been sent successfully for an alert. (Usually ~3h or more).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#repeat_interval ObservabilityInstance#repeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#repeat_interval ObservabilityInstance#repeat_interval}
   */
   readonly repeatInterval?: string;
   /**
   * List of child routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#routes ObservabilityInstance#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#routes ObservabilityInstance#routes}
   */
   readonly routes?: ObservabilityInstanceAlertConfigRouteRoutes[] | cdktf.IResolvable;
 }
@@ -2111,19 +2111,19 @@ export interface ObservabilityInstanceAlertConfig {
   /**
   * Global configuration for the alerts. If nothing passed the default argus config will be used. It is only possible to update the entire global part, not individual attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#global ObservabilityInstance#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#global ObservabilityInstance#global}
   */
   readonly global?: ObservabilityInstanceAlertConfigGlobal;
   /**
   * List of alert receivers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#receivers ObservabilityInstance#receivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#receivers ObservabilityInstance#receivers}
   */
   readonly receivers: ObservabilityInstanceAlertConfigReceivers[] | cdktf.IResolvable;
   /**
   * Route configuration for the alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#route ObservabilityInstance#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#route ObservabilityInstance#route}
   */
   readonly route: ObservabilityInstanceAlertConfigRoute;
 }
@@ -2269,7 +2269,7 @@ export class ObservabilityInstanceAlertConfigOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance stackit_observability_instance}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance stackit_observability_instance}
 */
 export class ObservabilityInstance extends cdktf.TerraformResource {
 
@@ -2285,7 +2285,7 @@ export class ObservabilityInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObservabilityInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObservabilityInstance to import
-  * @param importFromId The id of the existing ObservabilityInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObservabilityInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObservabilityInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2297,7 +2297,7 @@ export class ObservabilityInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_instance stackit_observability_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/observability_instance stackit_observability_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2308,8 +2308,8 @@ export class ObservabilityInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_observability_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.75.0',
-        providerVersionConstraint: '0.75.0'
+        providerVersion: '0.76.0',
+        providerVersionConstraint: '0.76.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

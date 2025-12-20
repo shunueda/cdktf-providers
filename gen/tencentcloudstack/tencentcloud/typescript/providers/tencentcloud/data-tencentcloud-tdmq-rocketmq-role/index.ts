@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_rocketmq_role
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_rocketmq_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudTdmqRocketmqRoleConfig extends cdktf.TerraformM
   /**
   * Cluster ID (required).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_rocketmq_role#cluster_id DataTencentcloudTdmqRocketmqRole#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_rocketmq_role#cluster_id DataTencentcloudTdmqRocketmqRole#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_rocketmq_role#id DataTencentcloudTdmqRocketmqRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_rocketmq_role#id DataTencentcloudTdmqRocketmqRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudTdmqRocketmqRoleConfig extends cdktf.TerraformM
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_rocketmq_role#result_output_file DataTencentcloudTdmqRocketmqRole#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_rocketmq_role#result_output_file DataTencentcloudTdmqRocketmqRole#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Fuzzy query by role name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_rocketmq_role#role_name DataTencentcloudTdmqRocketmqRole#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_rocketmq_role#role_name DataTencentcloudTdmqRocketmqRole#role_name}
   */
   readonly roleName?: string;
 }
@@ -130,7 +130,7 @@ export class DataTencentcloudTdmqRocketmqRoleRoleSetsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_rocketmq_role tencentcloud_tdmq_rocketmq_role}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_rocketmq_role tencentcloud_tdmq_rocketmq_role}
 */
 export class DataTencentcloudTdmqRocketmqRole extends cdktf.TerraformDataSource {
 
@@ -146,7 +146,7 @@ export class DataTencentcloudTdmqRocketmqRole extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudTdmqRocketmqRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTdmqRocketmqRole to import
-  * @param importFromId The id of the existing DataTencentcloudTdmqRocketmqRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_rocketmq_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTdmqRocketmqRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_rocketmq_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTdmqRocketmqRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class DataTencentcloudTdmqRocketmqRole extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_rocketmq_role tencentcloud_tdmq_rocketmq_role} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_rocketmq_role tencentcloud_tdmq_rocketmq_role} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class DataTencentcloudTdmqRocketmqRole extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_tdmq_rocketmq_role',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

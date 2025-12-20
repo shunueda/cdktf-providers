@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface AuthConfigKeycloakConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#access_mode AuthConfigKeycloak#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#access_mode AuthConfigKeycloak#access_mode}
   */
   readonly accessMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#allowed_principal_ids AuthConfigKeycloak#allowed_principal_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#allowed_principal_ids AuthConfigKeycloak#allowed_principal_ids}
   */
   readonly allowedPrincipalIds?: string[];
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#annotations AuthConfigKeycloak#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#annotations AuthConfigKeycloak#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#display_name_field AuthConfigKeycloak#display_name_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#display_name_field AuthConfigKeycloak#display_name_field}
   */
   readonly displayNameField: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#enabled AuthConfigKeycloak#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#enabled AuthConfigKeycloak#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#entity_id AuthConfigKeycloak#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#entity_id AuthConfigKeycloak#entity_id}
   */
   readonly entityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#groups_field AuthConfigKeycloak#groups_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#groups_field AuthConfigKeycloak#groups_field}
   */
   readonly groupsField: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#id AuthConfigKeycloak#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#id AuthConfigKeycloak#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#idp_metadata_content AuthConfigKeycloak#idp_metadata_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#idp_metadata_content AuthConfigKeycloak#idp_metadata_content}
   */
   readonly idpMetadataContent: string;
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#labels AuthConfigKeycloak#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#labels AuthConfigKeycloak#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#rancher_api_host AuthConfigKeycloak#rancher_api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#rancher_api_host AuthConfigKeycloak#rancher_api_host}
   */
   readonly rancherApiHost: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#sp_cert AuthConfigKeycloak#sp_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#sp_cert AuthConfigKeycloak#sp_cert}
   */
   readonly spCert: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#sp_key AuthConfigKeycloak#sp_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#sp_key AuthConfigKeycloak#sp_key}
   */
   readonly spKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#uid_field AuthConfigKeycloak#uid_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#uid_field AuthConfigKeycloak#uid_field}
   */
   readonly uidField: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#user_name_field AuthConfigKeycloak#user_name_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#user_name_field AuthConfigKeycloak#user_name_field}
   */
   readonly userNameField: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak rancher2_auth_config_keycloak}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak rancher2_auth_config_keycloak}
 */
 export class AuthConfigKeycloak extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class AuthConfigKeycloak extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthConfigKeycloak resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthConfigKeycloak to import
-  * @param importFromId The id of the existing AuthConfigKeycloak that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthConfigKeycloak that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthConfigKeycloak to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class AuthConfigKeycloak extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_keycloak rancher2_auth_config_keycloak} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_keycloak rancher2_auth_config_keycloak} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class AuthConfigKeycloak extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_auth_config_keycloak',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

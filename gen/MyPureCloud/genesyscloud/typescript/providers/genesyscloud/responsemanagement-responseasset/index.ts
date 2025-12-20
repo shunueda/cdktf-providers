@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_responseasset
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/responsemanagement_responseasset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ResponsemanagementResponseassetConfig extends cdktf.TerraformMe
   /**
   * Division to associate to this asset. Can only be used with this division.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_responseasset#division_id ResponsemanagementResponseasset#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/responsemanagement_responseasset#division_id ResponsemanagementResponseasset#division_id}
   */
   readonly divisionId?: string;
   /**
   * Hash value of the response asset file content. Used to detect changes. Note: If the file content hash changes, the existing response asset will be dropped and recreated with a new ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_responseasset#file_content_hash ResponsemanagementResponseasset#file_content_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/responsemanagement_responseasset#file_content_hash ResponsemanagementResponseasset#file_content_hash}
   */
   readonly fileContentHash?: string;
   /**
   * Name of the file to upload. Changing the name attribute will cause the existing response asset to be dropped and recreated with a new ID. It must not start with a dot and not end with a forward slash. If the referenced file is stored on S3, it will be downloaded to temporary storage to satisfy API requirements. When referencing a local file, the following characters are not allowed: \{^}%`]">[~<#|
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_responseasset#filename ResponsemanagementResponseasset#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/responsemanagement_responseasset#filename ResponsemanagementResponseasset#filename}
   */
   readonly filename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_responseasset#id ResponsemanagementResponseasset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/responsemanagement_responseasset#id ResponsemanagementResponseasset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface ResponsemanagementResponseassetConfig extends cdktf.TerraformMe
   /**
   * Name of the response asset. Can be optionally defined to replace the name given in the filename. Changing the name attribute will cause the existing response asset to be dropped and recreated with a new ID. It must not start with a dot and not end with a forward slash. The following characters are not allowed: \{^}%`]">[~<#|,
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_responseasset#name ResponsemanagementResponseasset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/responsemanagement_responseasset#name ResponsemanagementResponseasset#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_responseasset genesyscloud_responsemanagement_responseasset}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/responsemanagement_responseasset genesyscloud_responsemanagement_responseasset}
 */
 export class ResponsemanagementResponseasset extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ResponsemanagementResponseasset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResponsemanagementResponseasset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResponsemanagementResponseasset to import
-  * @param importFromId The id of the existing ResponsemanagementResponseasset that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_responseasset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResponsemanagementResponseasset that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/responsemanagement_responseasset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResponsemanagementResponseasset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ResponsemanagementResponseasset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/responsemanagement_responseasset genesyscloud_responsemanagement_responseasset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/responsemanagement_responseasset genesyscloud_responsemanagement_responseasset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ResponsemanagementResponseasset extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_responsemanagement_responseasset',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

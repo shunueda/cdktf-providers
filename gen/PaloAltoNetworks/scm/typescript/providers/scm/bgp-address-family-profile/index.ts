@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,38 +9,35 @@ import * as cdktf from 'cdktf';
 export interface BgpAddressFamilyProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#device BgpAddressFamilyProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#device BgpAddressFamilyProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#folder BgpAddressFamilyProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#folder BgpAddressFamilyProfile#folder}
   */
   readonly folder?: string;
   /**
   * IPv4 Address Family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#ipv4 BgpAddressFamilyProfile#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#ipv4 BgpAddressFamilyProfile#ipv4}
   */
   readonly ipv4?: BgpAddressFamilyProfileIpv4;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#name BgpAddressFamilyProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#name BgpAddressFamilyProfile#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#snippet BgpAddressFamilyProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#snippet BgpAddressFamilyProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -48,13 +45,13 @@ export interface BgpAddressFamilyProfileIpv4MulticastAddPath {
   /**
   * Advertise all paths to peer?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#tx_all_paths BgpAddressFamilyProfile#tx_all_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#tx_all_paths BgpAddressFamilyProfile#tx_all_paths}
   */
   readonly txAllPaths?: boolean | cdktf.IResolvable;
   /**
   * Tx bestpath per a s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#tx_bestpath_per_as BgpAddressFamilyProfile#tx_bestpath_per_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#tx_bestpath_per_as BgpAddressFamilyProfile#tx_bestpath_per_as}
   */
   readonly txBestpathPerAs?: boolean | cdktf.IResolvable;
 }
@@ -237,18 +234,16 @@ export class BgpAddressFamilyProfileIpv4MulticastAllowasInOriginOutputReference 
 export interface BgpAddressFamilyProfileIpv4MulticastAllowasIn {
   /**
   * Number of times the firewalls own AS can be in an AS_PATH
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `occurrence` and `origin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#occurrence BgpAddressFamilyProfile#occurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#occurrence BgpAddressFamilyProfile#occurrence}
   */
   readonly occurrence?: number;
   /**
   * Origin
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `occurrence` and `origin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#origin BgpAddressFamilyProfile#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#origin BgpAddressFamilyProfile#origin}
   */
   readonly origin?: BgpAddressFamilyProfileIpv4MulticastAllowasInOrigin;
 }
@@ -373,7 +368,7 @@ export interface BgpAddressFamilyProfileIpv4MulticastMaximumPrefixActionRestart 
   /**
   * Restart interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#interval BgpAddressFamilyProfile#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#interval BgpAddressFamilyProfile#interval}
   */
   readonly interval?: number;
 }
@@ -527,18 +522,16 @@ export class BgpAddressFamilyProfileIpv4MulticastMaximumPrefixActionWarningOnlyO
 export interface BgpAddressFamilyProfileIpv4MulticastMaximumPrefixAction {
   /**
   * Restart
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `restart` and `warning_only`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#restart BgpAddressFamilyProfile#restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#restart BgpAddressFamilyProfile#restart}
   */
   readonly restart?: BgpAddressFamilyProfileIpv4MulticastMaximumPrefixActionRestart;
   /**
   * Warning only
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `restart` and `warning_only`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#warning_only BgpAddressFamilyProfile#warning_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#warning_only BgpAddressFamilyProfile#warning_only}
   */
   readonly warningOnly?: BgpAddressFamilyProfileIpv4MulticastMaximumPrefixActionWarningOnly;
 }
@@ -663,19 +656,19 @@ export interface BgpAddressFamilyProfileIpv4MulticastMaximumPrefix {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#action BgpAddressFamilyProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#action BgpAddressFamilyProfile#action}
   */
   readonly action?: BgpAddressFamilyProfileIpv4MulticastMaximumPrefixAction;
   /**
   * Maximum number of prefixes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#num_prefixes BgpAddressFamilyProfile#num_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#num_prefixes BgpAddressFamilyProfile#num_prefixes}
   */
   readonly numPrefixes?: number;
   /**
   * Threshold percentage of the maximum number of prefixes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#threshold BgpAddressFamilyProfile#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#threshold BgpAddressFamilyProfile#threshold}
   */
   readonly threshold?: number;
 }
@@ -946,18 +939,16 @@ export class BgpAddressFamilyProfileIpv4MulticastNextHopSelfForceOutputReference
 export interface BgpAddressFamilyProfileIpv4MulticastNextHop {
   /**
   * Self
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `self` and `self_force`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#self BgpAddressFamilyProfile#self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#self BgpAddressFamilyProfile#self}
   */
   readonly selfAttribute?: BgpAddressFamilyProfileIpv4MulticastNextHopSelf;
   /**
   * Self force
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `self` and `self_force`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#self_force BgpAddressFamilyProfile#self_force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#self_force BgpAddressFamilyProfile#self_force}
   */
   readonly selfForce?: BgpAddressFamilyProfileIpv4MulticastNextHopSelfForce;
 }
@@ -1082,7 +1073,7 @@ export interface BgpAddressFamilyProfileIpv4MulticastOrf {
   /**
   * ORF prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#orf_prefix_list BgpAddressFamilyProfile#orf_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#orf_prefix_list BgpAddressFamilyProfile#orf_prefix_list}
   */
   readonly orfPrefixList?: string;
 }
@@ -1296,13 +1287,13 @@ export interface BgpAddressFamilyProfileIpv4MulticastRemovePrivateAs {
   /**
   * All
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
   */
   readonly all?: BgpAddressFamilyProfileIpv4MulticastRemovePrivateAsAll;
   /**
   * Replace a s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#replace_as BgpAddressFamilyProfile#replace_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#replace_as BgpAddressFamilyProfile#replace_as}
   */
   readonly replaceAs?: BgpAddressFamilyProfileIpv4MulticastRemovePrivateAsReplaceAs;
 }
@@ -1721,42 +1712,37 @@ export class BgpAddressFamilyProfileIpv4MulticastSendCommunityStandardOutputRefe
 export interface BgpAddressFamilyProfileIpv4MulticastSendCommunity {
   /**
   * All
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `all`, `both`, `extended`, `large`, and `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
   */
   readonly all?: BgpAddressFamilyProfileIpv4MulticastSendCommunityAll;
   /**
   * Both
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `all`, `both`, `extended`, `large`, and `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#both BgpAddressFamilyProfile#both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#both BgpAddressFamilyProfile#both}
   */
   readonly both?: BgpAddressFamilyProfileIpv4MulticastSendCommunityBoth;
   /**
   * Extended
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `all`, `both`, `extended`, `large`, and `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#extended BgpAddressFamilyProfile#extended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#extended BgpAddressFamilyProfile#extended}
   */
   readonly extended?: BgpAddressFamilyProfileIpv4MulticastSendCommunityExtended;
   /**
   * Large
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `all`, `both`, `extended`, `large`, and `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#large BgpAddressFamilyProfile#large}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#large BgpAddressFamilyProfile#large}
   */
   readonly large?: BgpAddressFamilyProfileIpv4MulticastSendCommunityLarge;
   /**
   * Standard
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `all`, `both`, `extended`, `large`, and `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#standard BgpAddressFamilyProfile#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#standard BgpAddressFamilyProfile#standard}
   */
   readonly standard?: BgpAddressFamilyProfileIpv4MulticastSendCommunityStandard;
 }
@@ -1968,79 +1954,79 @@ export interface BgpAddressFamilyProfileIpv4Multicast {
   /**
   * Add path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#add_path BgpAddressFamilyProfile#add_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#add_path BgpAddressFamilyProfile#add_path}
   */
   readonly addPath?: BgpAddressFamilyProfileIpv4MulticastAddPath;
   /**
   * Allowas in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#allowas_in BgpAddressFamilyProfile#allowas_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#allowas_in BgpAddressFamilyProfile#allowas_in}
   */
   readonly allowasIn?: BgpAddressFamilyProfileIpv4MulticastAllowasIn;
   /**
   * Override ASNs in outbound updates if AS-Path equals Remote-AS?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#as_override BgpAddressFamilyProfile#as_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#as_override BgpAddressFamilyProfile#as_override}
   */
   readonly asOverride?: boolean | cdktf.IResolvable;
   /**
   * Originate default route?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#default_originate BgpAddressFamilyProfile#default_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#default_originate BgpAddressFamilyProfile#default_originate}
   */
   readonly defaultOriginate?: boolean | cdktf.IResolvable;
   /**
   * Default originate route map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#default_originate_map BgpAddressFamilyProfile#default_originate_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#default_originate_map BgpAddressFamilyProfile#default_originate_map}
   */
   readonly defaultOriginateMap?: string;
   /**
   * Enable?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#enable BgpAddressFamilyProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#enable BgpAddressFamilyProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Maximum prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#maximum_prefix BgpAddressFamilyProfile#maximum_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#maximum_prefix BgpAddressFamilyProfile#maximum_prefix}
   */
   readonly maximumPrefix?: BgpAddressFamilyProfileIpv4MulticastMaximumPrefix;
   /**
   * Next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#next_hop BgpAddressFamilyProfile#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#next_hop BgpAddressFamilyProfile#next_hop}
   */
   readonly nextHop?: BgpAddressFamilyProfileIpv4MulticastNextHop;
   /**
   * Orf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#orf BgpAddressFamilyProfile#orf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#orf BgpAddressFamilyProfile#orf}
   */
   readonly orf?: BgpAddressFamilyProfileIpv4MulticastOrf;
   /**
   * Remove private a s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#remove_private_as BgpAddressFamilyProfile#remove_private_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#remove_private_as BgpAddressFamilyProfile#remove_private_as}
   */
   readonly removePrivateAs?: BgpAddressFamilyProfileIpv4MulticastRemovePrivateAs;
   /**
   * Route reflector client?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#route_reflector_client BgpAddressFamilyProfile#route_reflector_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#route_reflector_client BgpAddressFamilyProfile#route_reflector_client}
   */
   readonly routeReflectorClient?: boolean | cdktf.IResolvable;
   /**
   * Send community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#send_community BgpAddressFamilyProfile#send_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#send_community BgpAddressFamilyProfile#send_community}
   */
   readonly sendCommunity?: BgpAddressFamilyProfileIpv4MulticastSendCommunity;
   /**
   * Soft reconfiguration of peer with stored routes?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#soft_reconfig_with_stored_info BgpAddressFamilyProfile#soft_reconfig_with_stored_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#soft_reconfig_with_stored_info BgpAddressFamilyProfile#soft_reconfig_with_stored_info}
   */
   readonly softReconfigWithStoredInfo?: boolean | cdktf.IResolvable;
 }
@@ -2484,13 +2470,13 @@ export interface BgpAddressFamilyProfileIpv4UnicastAddPath {
   /**
   * Advertise all paths to peer?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#tx_all_paths BgpAddressFamilyProfile#tx_all_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#tx_all_paths BgpAddressFamilyProfile#tx_all_paths}
   */
   readonly txAllPaths?: boolean | cdktf.IResolvable;
   /**
   * Tx bestpath per a s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#tx_bestpath_per_as BgpAddressFamilyProfile#tx_bestpath_per_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#tx_bestpath_per_as BgpAddressFamilyProfile#tx_bestpath_per_as}
   */
   readonly txBestpathPerAs?: boolean | cdktf.IResolvable;
 }
@@ -2673,18 +2659,16 @@ export class BgpAddressFamilyProfileIpv4UnicastAllowasInOriginOutputReference ex
 export interface BgpAddressFamilyProfileIpv4UnicastAllowasIn {
   /**
   * Number of times the firewalls own AS can be in an AS_PATH
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `occurrence` and `origin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#occurrence BgpAddressFamilyProfile#occurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#occurrence BgpAddressFamilyProfile#occurrence}
   */
   readonly occurrence?: number;
   /**
   * Origin
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `occurrence` and `origin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#origin BgpAddressFamilyProfile#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#origin BgpAddressFamilyProfile#origin}
   */
   readonly origin?: BgpAddressFamilyProfileIpv4UnicastAllowasInOrigin;
 }
@@ -2809,7 +2793,7 @@ export interface BgpAddressFamilyProfileIpv4UnicastMaximumPrefixActionRestart {
   /**
   * Restart interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#interval BgpAddressFamilyProfile#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#interval BgpAddressFamilyProfile#interval}
   */
   readonly interval?: number;
 }
@@ -2963,18 +2947,16 @@ export class BgpAddressFamilyProfileIpv4UnicastMaximumPrefixActionWarningOnlyOut
 export interface BgpAddressFamilyProfileIpv4UnicastMaximumPrefixAction {
   /**
   * Restart
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `restart` and `warning_only`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#restart BgpAddressFamilyProfile#restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#restart BgpAddressFamilyProfile#restart}
   */
   readonly restart?: BgpAddressFamilyProfileIpv4UnicastMaximumPrefixActionRestart;
   /**
   * Warning only
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `restart` and `warning_only`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#warning_only BgpAddressFamilyProfile#warning_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#warning_only BgpAddressFamilyProfile#warning_only}
   */
   readonly warningOnly?: BgpAddressFamilyProfileIpv4UnicastMaximumPrefixActionWarningOnly;
 }
@@ -3099,19 +3081,19 @@ export interface BgpAddressFamilyProfileIpv4UnicastMaximumPrefix {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#action BgpAddressFamilyProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#action BgpAddressFamilyProfile#action}
   */
   readonly action?: BgpAddressFamilyProfileIpv4UnicastMaximumPrefixAction;
   /**
   * Maximum number of prefixes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#num_prefixes BgpAddressFamilyProfile#num_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#num_prefixes BgpAddressFamilyProfile#num_prefixes}
   */
   readonly numPrefixes?: number;
   /**
   * Threshold percentage of the maximum number of prefixes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#threshold BgpAddressFamilyProfile#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#threshold BgpAddressFamilyProfile#threshold}
   */
   readonly threshold?: number;
 }
@@ -3382,18 +3364,16 @@ export class BgpAddressFamilyProfileIpv4UnicastNextHopSelfForceOutputReference e
 export interface BgpAddressFamilyProfileIpv4UnicastNextHop {
   /**
   * Self
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `self` and `self_force`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#self BgpAddressFamilyProfile#self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#self BgpAddressFamilyProfile#self}
   */
   readonly selfAttribute?: BgpAddressFamilyProfileIpv4UnicastNextHopSelf;
   /**
   * Self force
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `self` and `self_force`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#self_force BgpAddressFamilyProfile#self_force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#self_force BgpAddressFamilyProfile#self_force}
   */
   readonly selfForce?: BgpAddressFamilyProfileIpv4UnicastNextHopSelfForce;
 }
@@ -3518,7 +3498,7 @@ export interface BgpAddressFamilyProfileIpv4UnicastOrf {
   /**
   * ORF prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#orf_prefix_list BgpAddressFamilyProfile#orf_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#orf_prefix_list BgpAddressFamilyProfile#orf_prefix_list}
   */
   readonly orfPrefixList?: string;
 }
@@ -3732,13 +3712,13 @@ export interface BgpAddressFamilyProfileIpv4UnicastRemovePrivateAs {
   /**
   * All
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
   */
   readonly all?: BgpAddressFamilyProfileIpv4UnicastRemovePrivateAsAll;
   /**
   * Replace a s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#replace_as BgpAddressFamilyProfile#replace_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#replace_as BgpAddressFamilyProfile#replace_as}
   */
   readonly replaceAs?: BgpAddressFamilyProfileIpv4UnicastRemovePrivateAsReplaceAs;
 }
@@ -4157,42 +4137,37 @@ export class BgpAddressFamilyProfileIpv4UnicastSendCommunityStandardOutputRefere
 export interface BgpAddressFamilyProfileIpv4UnicastSendCommunity {
   /**
   * All
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `all`, `both`, `extended`, `large`, and `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
   */
   readonly all?: BgpAddressFamilyProfileIpv4UnicastSendCommunityAll;
   /**
   * Both
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `all`, `both`, `extended`, `large`, and `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#both BgpAddressFamilyProfile#both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#both BgpAddressFamilyProfile#both}
   */
   readonly both?: BgpAddressFamilyProfileIpv4UnicastSendCommunityBoth;
   /**
   * Extended
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `all`, `both`, `extended`, `large`, and `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#extended BgpAddressFamilyProfile#extended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#extended BgpAddressFamilyProfile#extended}
   */
   readonly extended?: BgpAddressFamilyProfileIpv4UnicastSendCommunityExtended;
   /**
   * Large
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `all`, `both`, `extended`, `large`, and `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#large BgpAddressFamilyProfile#large}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#large BgpAddressFamilyProfile#large}
   */
   readonly large?: BgpAddressFamilyProfileIpv4UnicastSendCommunityLarge;
   /**
   * Standard
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `all`, `both`, `extended`, `large`, and `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#standard BgpAddressFamilyProfile#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#standard BgpAddressFamilyProfile#standard}
   */
   readonly standard?: BgpAddressFamilyProfileIpv4UnicastSendCommunityStandard;
 }
@@ -4404,79 +4379,79 @@ export interface BgpAddressFamilyProfileIpv4Unicast {
   /**
   * Add path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#add_path BgpAddressFamilyProfile#add_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#add_path BgpAddressFamilyProfile#add_path}
   */
   readonly addPath?: BgpAddressFamilyProfileIpv4UnicastAddPath;
   /**
   * Allowas in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#allowas_in BgpAddressFamilyProfile#allowas_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#allowas_in BgpAddressFamilyProfile#allowas_in}
   */
   readonly allowasIn?: BgpAddressFamilyProfileIpv4UnicastAllowasIn;
   /**
   * Override ASNs in outbound updates if AS-Path equals Remote-AS?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#as_override BgpAddressFamilyProfile#as_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#as_override BgpAddressFamilyProfile#as_override}
   */
   readonly asOverride?: boolean | cdktf.IResolvable;
   /**
   * Originate default route?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#default_originate BgpAddressFamilyProfile#default_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#default_originate BgpAddressFamilyProfile#default_originate}
   */
   readonly defaultOriginate?: boolean | cdktf.IResolvable;
   /**
   * Default originate route map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#default_originate_map BgpAddressFamilyProfile#default_originate_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#default_originate_map BgpAddressFamilyProfile#default_originate_map}
   */
   readonly defaultOriginateMap?: string;
   /**
   * Enable?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#enable BgpAddressFamilyProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#enable BgpAddressFamilyProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Maximum prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#maximum_prefix BgpAddressFamilyProfile#maximum_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#maximum_prefix BgpAddressFamilyProfile#maximum_prefix}
   */
   readonly maximumPrefix?: BgpAddressFamilyProfileIpv4UnicastMaximumPrefix;
   /**
   * Next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#next_hop BgpAddressFamilyProfile#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#next_hop BgpAddressFamilyProfile#next_hop}
   */
   readonly nextHop?: BgpAddressFamilyProfileIpv4UnicastNextHop;
   /**
   * Orf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#orf BgpAddressFamilyProfile#orf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#orf BgpAddressFamilyProfile#orf}
   */
   readonly orf?: BgpAddressFamilyProfileIpv4UnicastOrf;
   /**
   * Remove private a s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#remove_private_as BgpAddressFamilyProfile#remove_private_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#remove_private_as BgpAddressFamilyProfile#remove_private_as}
   */
   readonly removePrivateAs?: BgpAddressFamilyProfileIpv4UnicastRemovePrivateAs;
   /**
   * Route reflector client?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#route_reflector_client BgpAddressFamilyProfile#route_reflector_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#route_reflector_client BgpAddressFamilyProfile#route_reflector_client}
   */
   readonly routeReflectorClient?: boolean | cdktf.IResolvable;
   /**
   * Send community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#send_community BgpAddressFamilyProfile#send_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#send_community BgpAddressFamilyProfile#send_community}
   */
   readonly sendCommunity?: BgpAddressFamilyProfileIpv4UnicastSendCommunity;
   /**
   * Soft reconfiguration of peer with stored routes?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#soft_reconfig_with_stored_info BgpAddressFamilyProfile#soft_reconfig_with_stored_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#soft_reconfig_with_stored_info BgpAddressFamilyProfile#soft_reconfig_with_stored_info}
   */
   readonly softReconfigWithStoredInfo?: boolean | cdktf.IResolvable;
 }
@@ -4920,13 +4895,13 @@ export interface BgpAddressFamilyProfileIpv4 {
   /**
   * Multicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#multicast BgpAddressFamilyProfile#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#multicast BgpAddressFamilyProfile#multicast}
   */
   readonly multicast?: BgpAddressFamilyProfileIpv4Multicast;
   /**
   * Unicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#unicast BgpAddressFamilyProfile#unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#unicast BgpAddressFamilyProfile#unicast}
   */
   readonly unicast?: BgpAddressFamilyProfileIpv4Unicast;
 }
@@ -5049,7 +5024,7 @@ export class BgpAddressFamilyProfileIpv4OutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile scm_bgp_address_family_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile scm_bgp_address_family_profile}
 */
 export class BgpAddressFamilyProfile extends cdktf.TerraformResource {
 
@@ -5065,7 +5040,7 @@ export class BgpAddressFamilyProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpAddressFamilyProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpAddressFamilyProfile to import
-  * @param importFromId The id of the existing BgpAddressFamilyProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpAddressFamilyProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpAddressFamilyProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5077,7 +5052,7 @@ export class BgpAddressFamilyProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_address_family_profile scm_bgp_address_family_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_address_family_profile scm_bgp_address_family_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5088,8 +5063,8 @@ export class BgpAddressFamilyProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_bgp_address_family_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

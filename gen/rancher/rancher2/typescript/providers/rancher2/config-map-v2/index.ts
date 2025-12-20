@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ConfigMapV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2#annotations ConfigMapV2#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2#annotations ConfigMapV2#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * K8s cluster ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2#cluster_id ConfigMapV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2#cluster_id ConfigMapV2#cluster_id}
   */
   readonly clusterId: string;
   /**
   * ConfigMap V2 data map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2#data ConfigMapV2#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2#data ConfigMapV2#data}
   */
   readonly data: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2#id ConfigMapV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2#id ConfigMapV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,45 +35,45 @@ export interface ConfigMapV2Config extends cdktf.TerraformMetaArguments {
   /**
   * If set to true, ensures that data stored in the ConfigMap cannot be updated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2#immutable ConfigMapV2#immutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2#immutable ConfigMapV2#immutable}
   */
   readonly immutable?: boolean | cdktf.IResolvable;
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2#labels ConfigMapV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2#labels ConfigMapV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * ConfigMap V2 name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2#name ConfigMapV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2#name ConfigMapV2#name}
   */
   readonly name: string;
   /**
   * ConfigMap V2 namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2#namespace ConfigMapV2#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2#namespace ConfigMapV2#namespace}
   */
   readonly namespace?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2#timeouts ConfigMapV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2#timeouts ConfigMapV2#timeouts}
   */
   readonly timeouts?: ConfigMapV2Timeouts;
 }
 export interface ConfigMapV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2#create ConfigMapV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2#create ConfigMapV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2#delete ConfigMapV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2#delete ConfigMapV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2#update ConfigMapV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2#update ConfigMapV2#update}
   */
   readonly update?: string;
 }
@@ -225,7 +225,7 @@ export class ConfigMapV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2 rancher2_config_map_v2}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2 rancher2_config_map_v2}
 */
 export class ConfigMapV2 extends cdktf.TerraformResource {
 
@@ -241,7 +241,7 @@ export class ConfigMapV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigMapV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigMapV2 to import
-  * @param importFromId The id of the existing ConfigMapV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigMapV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigMapV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +253,7 @@ export class ConfigMapV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/config_map_v2 rancher2_config_map_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/config_map_v2 rancher2_config_map_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,8 +264,8 @@ export class ConfigMapV2 extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_config_map_v2',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

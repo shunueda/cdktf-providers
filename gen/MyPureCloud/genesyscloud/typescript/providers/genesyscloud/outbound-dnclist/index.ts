@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,42 +10,42 @@ export interface OutboundDnclistConfig extends cdktf.TerraformMetaArguments {
   /**
   * A dnc.com campaignId. Optional if the dncSourceType is dnc.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist#campaign_id OutboundDnclist#campaign_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist#campaign_id OutboundDnclist#campaign_id}
   */
   readonly campaignId?: string;
   /**
   * The contact method. Required if dncSourceType is rds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist#contact_method OutboundDnclist#contact_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist#contact_method OutboundDnclist#contact_method}
   */
   readonly contactMethod?: string;
   /**
   * The column to evaluate exclusion against. Required if the dncSourceType is rds_custom. Since custom_exclusion_column cannot be updated, changing this value after deployment 
   * 				will cause the dnc list to be destroyed and recreated with a new GUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist#custom_exclusion_column OutboundDnclist#custom_exclusion_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist#custom_exclusion_column OutboundDnclist#custom_exclusion_column}
   */
   readonly customExclusionColumn?: string;
   /**
   * The division this DNC List belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist#division_id OutboundDnclist#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist#division_id OutboundDnclist#division_id}
   */
   readonly divisionId?: string;
   /**
   * The list of dnc.com codes to be treated as DNC. Required if the dncSourceType is dnc.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist#dnc_codes OutboundDnclist#dnc_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist#dnc_codes OutboundDnclist#dnc_codes}
   */
   readonly dncCodes?: string[];
   /**
   * The type of the DNC List. Changing the dnc_source_attribute will cause the outbound_dnclist object to be dropped and recreated with new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist#dnc_source_type OutboundDnclist#dnc_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist#dnc_source_type OutboundDnclist#dnc_source_type}
   */
   readonly dncSourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist#id OutboundDnclist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist#id OutboundDnclist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,25 +54,25 @@ export interface OutboundDnclistConfig extends cdktf.TerraformMetaArguments {
   /**
   * A gryphon license number. Required if the dncSourceType is gryphon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist#license_id OutboundDnclist#license_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist#license_id OutboundDnclist#license_id}
   */
   readonly licenseId?: string;
   /**
   * A dnc.com loginId. Required if the dncSourceType is dnc.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist#login_id OutboundDnclist#login_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist#login_id OutboundDnclist#login_id}
   */
   readonly loginId?: string;
   /**
   * The name of the DncList.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist#name OutboundDnclist#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist#name OutboundDnclist#name}
   */
   readonly name: string;
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist#entries OutboundDnclist#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist#entries OutboundDnclist#entries}
   */
   readonly entries?: OutboundDnclistEntries[] | cdktf.IResolvable;
 }
@@ -80,13 +80,13 @@ export interface OutboundDnclistEntries {
   /**
   * Expiration date for DNC phone numbers in yyyy-MM-ddTHH:mmZ format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist#expiration_date OutboundDnclist#expiration_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist#expiration_date OutboundDnclist#expiration_date}
   */
   readonly expirationDate?: string;
   /**
   * Phone numbers to add to a DNC list. Only possible if the dncSourceType is rds.  Phone numbers must be in an E.164 number format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist#phone_numbers OutboundDnclist#phone_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist#phone_numbers OutboundDnclist#phone_numbers}
   */
   readonly phoneNumbers?: string[];
 }
@@ -231,7 +231,7 @@ export class OutboundDnclistEntriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist genesyscloud_outbound_dnclist}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist genesyscloud_outbound_dnclist}
 */
 export class OutboundDnclist extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class OutboundDnclist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundDnclist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundDnclist to import
-  * @param importFromId The id of the existing OutboundDnclist that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundDnclist that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundDnclist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class OutboundDnclist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_dnclist genesyscloud_outbound_dnclist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_dnclist genesyscloud_outbound_dnclist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class OutboundDnclist extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_dnclist',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/user_api_key
+// https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/user_api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface UserApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Expiration of the API key (RFC3339). If left as null, the API key will not expire. Modify this attribute to re-create the API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/user_api_key#expiration UserApiKey#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/user_api_key#expiration UserApiKey#expiration}
   */
   readonly expiration?: string;
   /**
   * Name of the API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/user_api_key#name UserApiKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/user_api_key#name UserApiKey#name}
   */
   readonly name: string;
   /**
   * User ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/user_api_key#user_id UserApiKey#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/user_api_key#user_id UserApiKey#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/user_api_key prefect_user_api_key}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/user_api_key prefect_user_api_key}
 */
 export class UserApiKey extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class UserApiKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserApiKey to import
-  * @param importFromId The id of the existing UserApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/user_api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/user_api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class UserApiKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/user_api_key prefect_user_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/user_api_key prefect_user_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class UserApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_user_api_key',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.92.0',
-        providerVersionConstraint: '2.92.0'
+        providerVersion: '2.92.1',
+        providerVersionConstraint: '2.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

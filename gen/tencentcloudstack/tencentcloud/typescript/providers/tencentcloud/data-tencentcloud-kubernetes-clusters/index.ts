@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_clusters
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/kubernetes_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudKubernetesClustersConfig extends cdktf.Terrafor
   /**
   * ID of the cluster. Conflict with cluster_name, can not be set at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_clusters#cluster_id DataTencentcloudKubernetesClusters#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/kubernetes_clusters#cluster_id DataTencentcloudKubernetesClusters#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Name of the cluster. Conflict with cluster_id, can not be set at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_clusters#cluster_name DataTencentcloudKubernetesClusters#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/kubernetes_clusters#cluster_name DataTencentcloudKubernetesClusters#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_clusters#id DataTencentcloudKubernetesClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/kubernetes_clusters#id DataTencentcloudKubernetesClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTencentcloudKubernetesClustersConfig extends cdktf.Terrafor
   /**
   * The path prefix of kube config. You can store KubeConfig in a specified directory by specifying this field, such as ~/.kube/k8s, then public network access will use ~/.kube/k8s-clusterID-kubeconfig naming, and intranet access will use ~/.kube /k8s-clusterID-kubeconfig-intranet naming. If this field is not set, the KubeConfig will not be exported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_clusters#kube_config_file_prefix DataTencentcloudKubernetesClusters#kube_config_file_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/kubernetes_clusters#kube_config_file_prefix DataTencentcloudKubernetesClusters#kube_config_file_prefix}
   */
   readonly kubeConfigFilePrefix?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_clusters#result_output_file DataTencentcloudKubernetesClusters#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/kubernetes_clusters#result_output_file DataTencentcloudKubernetesClusters#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Tags of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_clusters#tags DataTencentcloudKubernetesClusters#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/kubernetes_clusters#tags DataTencentcloudKubernetesClusters#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -490,7 +490,7 @@ export class DataTencentcloudKubernetesClustersListStructList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_clusters tencentcloud_kubernetes_clusters}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/kubernetes_clusters tencentcloud_kubernetes_clusters}
 */
 export class DataTencentcloudKubernetesClusters extends cdktf.TerraformDataSource {
 
@@ -506,7 +506,7 @@ export class DataTencentcloudKubernetesClusters extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudKubernetesClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudKubernetesClusters to import
-  * @param importFromId The id of the existing DataTencentcloudKubernetesClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudKubernetesClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/kubernetes_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudKubernetesClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -518,7 +518,7 @@ export class DataTencentcloudKubernetesClusters extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_clusters tencentcloud_kubernetes_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/kubernetes_clusters tencentcloud_kubernetes_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -529,8 +529,8 @@ export class DataTencentcloudKubernetesClusters extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_kubernetes_clusters',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

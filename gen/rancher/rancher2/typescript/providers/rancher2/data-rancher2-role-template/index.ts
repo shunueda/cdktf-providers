@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/role_template
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/role_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataRancher2RoleTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * Context role template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/role_template#context DataRancher2RoleTemplate#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/role_template#context DataRancher2RoleTemplate#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/role_template#id DataRancher2RoleTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/role_template#id DataRancher2RoleTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataRancher2RoleTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * Role template policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/role_template#name DataRancher2RoleTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/role_template#name DataRancher2RoleTemplate#name}
   */
   readonly name: string;
   /**
   * external_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/role_template#external_rules DataRancher2RoleTemplate#external_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/role_template#external_rules DataRancher2RoleTemplate#external_rules}
   */
   readonly externalRules?: DataRancher2RoleTemplateExternalRules[] | cdktf.IResolvable;
 }
@@ -132,31 +132,31 @@ export interface DataRancher2RoleTemplateExternalRules {
   /**
   * Policy rule api groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/role_template#api_groups DataRancher2RoleTemplate#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/role_template#api_groups DataRancher2RoleTemplate#api_groups}
   */
   readonly apiGroups?: string[];
   /**
   * Policy rule non resource urls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/role_template#non_resource_urls DataRancher2RoleTemplate#non_resource_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/role_template#non_resource_urls DataRancher2RoleTemplate#non_resource_urls}
   */
   readonly nonResourceUrls?: string[];
   /**
   * Policy rule resource names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/role_template#resource_names DataRancher2RoleTemplate#resource_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/role_template#resource_names DataRancher2RoleTemplate#resource_names}
   */
   readonly resourceNames?: string[];
   /**
   * Policy rule resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/role_template#resources DataRancher2RoleTemplate#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/role_template#resources DataRancher2RoleTemplate#resources}
   */
   readonly resources?: string[];
   /**
   * Policy rule verbs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/role_template#verbs DataRancher2RoleTemplate#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/role_template#verbs DataRancher2RoleTemplate#verbs}
   */
   readonly verbs?: string[];
 }
@@ -388,7 +388,7 @@ export class DataRancher2RoleTemplateExternalRulesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/role_template rancher2_role_template}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/role_template rancher2_role_template}
 */
 export class DataRancher2RoleTemplate extends cdktf.TerraformDataSource {
 
@@ -404,7 +404,7 @@ export class DataRancher2RoleTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRancher2RoleTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRancher2RoleTemplate to import
-  * @param importFromId The id of the existing DataRancher2RoleTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/role_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRancher2RoleTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/role_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRancher2RoleTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -416,7 +416,7 @@ export class DataRancher2RoleTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/role_template rancher2_role_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/role_template rancher2_role_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -427,8 +427,8 @@ export class DataRancher2RoleTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'rancher2_role_template',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

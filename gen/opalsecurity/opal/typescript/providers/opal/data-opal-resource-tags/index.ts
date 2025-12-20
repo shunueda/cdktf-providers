@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resource_tags
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resource_tags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOpalResourceTagsConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of the resource whose tags to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resource_tags#resource_id DataOpalResourceTags#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resource_tags#resource_id DataOpalResourceTags#resource_id}
   */
   readonly resourceId: string;
 }
@@ -116,7 +116,7 @@ export class DataOpalResourceTagsTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resource_tags opal_resource_tags}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resource_tags opal_resource_tags}
 */
 export class DataOpalResourceTags extends cdktf.TerraformDataSource {
 
@@ -132,7 +132,7 @@ export class DataOpalResourceTags extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpalResourceTags resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalResourceTags to import
-  * @param importFromId The id of the existing DataOpalResourceTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resource_tags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalResourceTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resource_tags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalResourceTags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -144,7 +144,7 @@ export class DataOpalResourceTags extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resource_tags opal_resource_tags} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resource_tags opal_resource_tags} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -155,8 +155,8 @@ export class DataOpalResourceTags extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_resource_tags',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_plans
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_plans
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataEquinixMetalPlansConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_plans#id DataEquinixMetalPlans#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_plans#id DataEquinixMetalPlans#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataEquinixMetalPlansConfig extends cdktf.TerraformMetaArgument
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_plans#filter DataEquinixMetalPlans#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_plans#filter DataEquinixMetalPlans#filter}
   */
   readonly filter?: DataEquinixMetalPlansFilter[] | cdktf.IResolvable;
   /**
   * sort block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_plans#sort DataEquinixMetalPlans#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_plans#sort DataEquinixMetalPlans#sort}
   */
   readonly sort?: DataEquinixMetalPlansSort[] | cdktf.IResolvable;
 }
@@ -161,25 +161,25 @@ export interface DataEquinixMetalPlansFilter {
   /**
   * If is set to true, the values are joined with an AND, and the requests returns only the results that match all specified values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_plans#all DataEquinixMetalPlans#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_plans#all DataEquinixMetalPlans#all}
   */
   readonly all?: boolean | cdktf.IResolvable;
   /**
   * The attribute used to filter. Filter attributes are case-sensitive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_plans#attribute DataEquinixMetalPlans#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_plans#attribute DataEquinixMetalPlans#attribute}
   */
   readonly attribute: string;
   /**
   * The type of comparison to apply. One of: in (default), re, substring, less_than, less_than_or_equal, greater_than, greater_than_or_equal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_plans#match_by DataEquinixMetalPlans#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_plans#match_by DataEquinixMetalPlans#match_by}
   */
   readonly matchBy?: string;
   /**
   * The filter values. Filter values are case-sensitive. If you specify multiple values for a filter, the values are joined with an OR by default, and the request returns all results that match any of the specified values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_plans#values DataEquinixMetalPlans#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_plans#values DataEquinixMetalPlans#values}
   */
   readonly values: string[];
 }
@@ -378,13 +378,13 @@ export interface DataEquinixMetalPlansSort {
   /**
   * The attribute used to sort the results. Sort attributes are case-sensitive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_plans#attribute DataEquinixMetalPlans#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_plans#attribute DataEquinixMetalPlans#attribute}
   */
   readonly attribute: string;
   /**
   * Sort results in ascending or descending order. Strings are sorted in alphabetical order. One of: asc, desc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_plans#direction DataEquinixMetalPlans#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_plans#direction DataEquinixMetalPlans#direction}
   */
   readonly direction?: string;
 }
@@ -526,7 +526,7 @@ export class DataEquinixMetalPlansSortList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_plans equinix_metal_plans}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_plans equinix_metal_plans}
 */
 export class DataEquinixMetalPlans extends cdktf.TerraformDataSource {
 
@@ -542,7 +542,7 @@ export class DataEquinixMetalPlans extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixMetalPlans resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixMetalPlans to import
-  * @param importFromId The id of the existing DataEquinixMetalPlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_plans#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixMetalPlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_plans#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixMetalPlans to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -554,7 +554,7 @@ export class DataEquinixMetalPlans extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_plans equinix_metal_plans} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_plans equinix_metal_plans} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -565,8 +565,8 @@ export class DataEquinixMetalPlans extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_metal_plans',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

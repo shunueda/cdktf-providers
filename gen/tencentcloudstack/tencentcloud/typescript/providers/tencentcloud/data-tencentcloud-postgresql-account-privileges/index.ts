@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_account_privileges
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/postgresql_account_privileges
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudPostgresqlAccountPrivilegesConfig extends cdktf
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_account_privileges#db_instance_id DataTencentcloudPostgresqlAccountPrivileges#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/postgresql_account_privileges#db_instance_id DataTencentcloudPostgresqlAccountPrivileges#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_account_privileges#id DataTencentcloudPostgresqlAccountPrivileges#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/postgresql_account_privileges#id DataTencentcloudPostgresqlAccountPrivileges#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudPostgresqlAccountPrivilegesConfig extends cdktf
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_account_privileges#result_output_file DataTencentcloudPostgresqlAccountPrivileges#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/postgresql_account_privileges#result_output_file DataTencentcloudPostgresqlAccountPrivileges#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Instance username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_account_privileges#user_name DataTencentcloudPostgresqlAccountPrivileges#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/postgresql_account_privileges#user_name DataTencentcloudPostgresqlAccountPrivileges#user_name}
   */
   readonly userName: string;
   /**
   * database_object_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_account_privileges#database_object_set DataTencentcloudPostgresqlAccountPrivileges#database_object_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/postgresql_account_privileges#database_object_set DataTencentcloudPostgresqlAccountPrivileges#database_object_set}
   */
   readonly databaseObjectSet: DataTencentcloudPostgresqlAccountPrivilegesDatabaseObjectSet[] | cdktf.IResolvable;
 }
@@ -219,31 +219,31 @@ export interface DataTencentcloudPostgresqlAccountPrivilegesDatabaseObjectSet {
   /**
   * Database name to which the database object belongs. This parameter is mandatory when ObjectType is not database.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_account_privileges#database_name DataTencentcloudPostgresqlAccountPrivileges#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/postgresql_account_privileges#database_name DataTencentcloudPostgresqlAccountPrivileges#database_name}
   */
   readonly databaseName?: string;
   /**
   * Database object Name.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_account_privileges#object_name DataTencentcloudPostgresqlAccountPrivileges#object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/postgresql_account_privileges#object_name DataTencentcloudPostgresqlAccountPrivileges#object_name}
   */
   readonly objectName: string;
   /**
   * Supported database object types: account, database, schema, sequence, procedure, type, function, table, view, matview, column. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_account_privileges#object_type DataTencentcloudPostgresqlAccountPrivileges#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/postgresql_account_privileges#object_type DataTencentcloudPostgresqlAccountPrivileges#object_type}
   */
   readonly objectType: string;
   /**
   * Schema name to which the database object belongs. This parameter is mandatory when ObjectType is not database or schema.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_account_privileges#schema_name DataTencentcloudPostgresqlAccountPrivileges#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/postgresql_account_privileges#schema_name DataTencentcloudPostgresqlAccountPrivileges#schema_name}
   */
   readonly schemaName?: string;
   /**
   * Table name to which the database object belongs. This parameter is mandatory when ObjectType is column.Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_account_privileges#table_name DataTencentcloudPostgresqlAccountPrivileges#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/postgresql_account_privileges#table_name DataTencentcloudPostgresqlAccountPrivileges#table_name}
   */
   readonly tableName?: string;
 }
@@ -469,7 +469,7 @@ export class DataTencentcloudPostgresqlAccountPrivilegesDatabaseObjectSetList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_account_privileges tencentcloud_postgresql_account_privileges}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/postgresql_account_privileges tencentcloud_postgresql_account_privileges}
 */
 export class DataTencentcloudPostgresqlAccountPrivileges extends cdktf.TerraformDataSource {
 
@@ -485,7 +485,7 @@ export class DataTencentcloudPostgresqlAccountPrivileges extends cdktf.Terraform
   * Generates CDKTF code for importing a DataTencentcloudPostgresqlAccountPrivileges resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudPostgresqlAccountPrivileges to import
-  * @param importFromId The id of the existing DataTencentcloudPostgresqlAccountPrivileges that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_account_privileges#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudPostgresqlAccountPrivileges that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/postgresql_account_privileges#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudPostgresqlAccountPrivileges to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -497,7 +497,7 @@ export class DataTencentcloudPostgresqlAccountPrivileges extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_account_privileges tencentcloud_postgresql_account_privileges} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/postgresql_account_privileges tencentcloud_postgresql_account_privileges} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -508,8 +508,8 @@ export class DataTencentcloudPostgresqlAccountPrivileges extends cdktf.Terraform
       terraformResourceType: 'tencentcloud_postgresql_account_privileges',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface FreeTierClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The Cloud Service Provider details for the free tier cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster#cloud_provider FreeTierCluster#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster#cloud_provider FreeTierCluster#cloud_provider}
   */
   readonly cloudProvider: FreeTierClusterCloudProvider;
   /**
-  * Description of the free tier cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster#description FreeTierCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster#description FreeTierCluster#description}
   */
   readonly description?: string;
   /**
-  * Name of the free tier cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster#name FreeTierCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster#name FreeTierCluster#name}
   */
   readonly name: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster#organization_id FreeTierCluster#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster#organization_id FreeTierCluster#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster#project_id FreeTierCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster#project_id FreeTierCluster#project_id}
   */
   readonly projectId: string;
 }
@@ -168,21 +158,15 @@ export class FreeTierClusterAvailabilityOutputReference extends cdktf.ComplexObj
 }
 export interface FreeTierClusterCloudProvider {
   /**
-  * CIDR block for the Cloud Service Provider.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster#cidr FreeTierCluster#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster#cidr FreeTierCluster#cidr}
   */
   readonly cidr: string;
   /**
-  * The region for the Cloud Service Provider. This should be a valid region for the specified Cloud Service Provider. For example 'us-west-2'.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster#region FreeTierCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster#region FreeTierCluster#region}
   */
   readonly region: string;
   /**
-  * The Cloud Service Provider type. Currently supporting AWS, GCP and Azure.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster#type FreeTierCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster#type FreeTierCluster#type}
   */
   readonly type: string;
 }
@@ -713,7 +697,7 @@ export class FreeTierClusterSupportOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster couchbase-capella_free_tier_cluster}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster couchbase-capella_free_tier_cluster}
 */
 export class FreeTierCluster extends cdktf.TerraformResource {
 
@@ -729,7 +713,7 @@ export class FreeTierCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FreeTierCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FreeTierCluster to import
-  * @param importFromId The id of the existing FreeTierCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FreeTierCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FreeTierCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -741,7 +725,7 @@ export class FreeTierCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster couchbase-capella_free_tier_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster couchbase-capella_free_tier_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -752,8 +736,8 @@ export class FreeTierCluster extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_free_tier_cluster',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_index_monitor
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_index_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,51 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface DataCouchbaseCapellaQueryIndexMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The name of the bucket where the indexes exist. Specifies the bucket part of the key space.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_index_monitor#bucket_name DataCouchbaseCapellaQueryIndexMonitor#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_index_monitor#bucket_name DataCouchbaseCapellaQueryIndexMonitor#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_index_monitor#cluster_id DataCouchbaseCapellaQueryIndexMonitor#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_index_monitor#cluster_id DataCouchbaseCapellaQueryIndexMonitor#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The name of the collection where the indexes exist. Specifies the collection portion of the keyspace. If unspecified, this will be the default collection.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_index_monitor#collection_name DataCouchbaseCapellaQueryIndexMonitor#collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_index_monitor#collection_name DataCouchbaseCapellaQueryIndexMonitor#collection_name}
   */
-  readonly collectionName?: string;
+  readonly collectionName: string;
   /**
-  * Set of index names to monitor. These indexes must exist in the specified keyspace.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_index_monitor#indexes DataCouchbaseCapellaQueryIndexMonitor#indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_index_monitor#indexes DataCouchbaseCapellaQueryIndexMonitor#indexes}
   */
   readonly indexes: string[];
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_index_monitor#organization_id DataCouchbaseCapellaQueryIndexMonitor#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_index_monitor#organization_id DataCouchbaseCapellaQueryIndexMonitor#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_index_monitor#project_id DataCouchbaseCapellaQueryIndexMonitor#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_index_monitor#project_id DataCouchbaseCapellaQueryIndexMonitor#project_id}
   */
   readonly projectId: string;
   /**
-  * The name of the scope where the indexes exist. Specifies the scope portion of the keyspace. If unspecified, this will be the default scope.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_index_monitor#scope_name DataCouchbaseCapellaQueryIndexMonitor#scope_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_index_monitor#scope_name DataCouchbaseCapellaQueryIndexMonitor#scope_name}
   */
-  readonly scopeName?: string;
+  readonly scopeName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_index_monitor couchbase-capella_query_index_monitor}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_index_monitor couchbase-capella_query_index_monitor}
 */
 export class DataCouchbaseCapellaQueryIndexMonitor extends cdktf.TerraformDataSource {
 
@@ -68,7 +54,7 @@ export class DataCouchbaseCapellaQueryIndexMonitor extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataCouchbaseCapellaQueryIndexMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCouchbaseCapellaQueryIndexMonitor to import
-  * @param importFromId The id of the existing DataCouchbaseCapellaQueryIndexMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_index_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCouchbaseCapellaQueryIndexMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_index_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCouchbaseCapellaQueryIndexMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +66,7 @@ export class DataCouchbaseCapellaQueryIndexMonitor extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/query_index_monitor couchbase-capella_query_index_monitor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/query_index_monitor couchbase-capella_query_index_monitor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +77,8 @@ export class DataCouchbaseCapellaQueryIndexMonitor extends cdktf.TerraformDataSo
       terraformResourceType: 'couchbase-capella_query_index_monitor',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -141,16 +127,13 @@ export class DataCouchbaseCapellaQueryIndexMonitor extends cdktf.TerraformDataSo
     return this._clusterId;
   }
 
-  // collection_name - computed: false, optional: true, required: false
+  // collection_name - computed: false, optional: false, required: true
   private _collectionName?: string; 
   public get collectionName() {
     return this.getStringAttribute('collection_name');
   }
   public set collectionName(value: string) {
     this._collectionName = value;
-  }
-  public resetCollectionName() {
-    this._collectionName = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get collectionNameInput() {
@@ -196,16 +179,13 @@ export class DataCouchbaseCapellaQueryIndexMonitor extends cdktf.TerraformDataSo
     return this._projectId;
   }
 
-  // scope_name - computed: false, optional: true, required: false
+  // scope_name - computed: false, optional: false, required: true
   private _scopeName?: string; 
   public get scopeName() {
     return this.getStringAttribute('scope_name');
   }
   public set scopeName(value: string) {
     this._scopeName = value;
-  }
-  public resetScopeName() {
-    this._scopeName = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get scopeNameInput() {

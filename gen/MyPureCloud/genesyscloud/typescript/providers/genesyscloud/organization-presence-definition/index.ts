@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_presence_definition
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/organization_presence_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OrganizationPresenceDefinitionConfig extends cdktf.TerraformMet
   /**
   * If true, the presence definition is not active. If not set, the presence definition defaults to active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_presence_definition#deactivated OrganizationPresenceDefinition#deactivated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/organization_presence_definition#deactivated OrganizationPresenceDefinition#deactivated}
   */
   readonly deactivated?: boolean | cdktf.IResolvable;
   /**
   * The division to which the presence definition will belong. If not set, the presence definition will apply to all divisions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_presence_definition#division_id OrganizationPresenceDefinition#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/organization_presence_definition#division_id OrganizationPresenceDefinition#division_id}
   */
   readonly divisionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_presence_definition#id OrganizationPresenceDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/organization_presence_definition#id OrganizationPresenceDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface OrganizationPresenceDefinitionConfig extends cdktf.TerraformMet
   /**
   * The localized language labels for the presence definition. Valid labels include: ar, cs, da, de, en, en_US, es, fi, fr, he, hi, it, ja, ko, nl, no, pl, pt, pt_BR, pt_PT, ru, sv, th, tr, uk, zh_CN, zh_TW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_presence_definition#language_labels OrganizationPresenceDefinition#language_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/organization_presence_definition#language_labels OrganizationPresenceDefinition#language_labels}
   */
   readonly languageLabels: { [key: string]: string };
   /**
   * System presence to create presence definition for. Once presence definition is created, this cannot be changed. Valid presences include: Available, Away, Break, Busy, Meal, Meeting, Training, OnQueue, Offline, Idle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_presence_definition#system_presence OrganizationPresenceDefinition#system_presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/organization_presence_definition#system_presence OrganizationPresenceDefinition#system_presence}
   */
   readonly systemPresence: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_presence_definition genesyscloud_organization_presence_definition}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/organization_presence_definition genesyscloud_organization_presence_definition}
 */
 export class OrganizationPresenceDefinition extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class OrganizationPresenceDefinition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationPresenceDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationPresenceDefinition to import
-  * @param importFromId The id of the existing OrganizationPresenceDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_presence_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationPresenceDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/organization_presence_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationPresenceDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class OrganizationPresenceDefinition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/organization_presence_definition genesyscloud_organization_presence_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/organization_presence_definition genesyscloud_organization_presence_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class OrganizationPresenceDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_organization_presence_definition',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

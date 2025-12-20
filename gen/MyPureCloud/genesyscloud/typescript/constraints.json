@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "genesyscloud": "1.72.2"
+    "genesyscloud": "1.73.0"
   }
 }

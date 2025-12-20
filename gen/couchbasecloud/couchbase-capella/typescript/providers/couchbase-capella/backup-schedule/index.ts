@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,71 +8,49 @@ import * as cdktf from 'cdktf';
 
 export interface BackupScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The GUID4 ID of the bucket.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule#bucket_id BackupSchedule#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule#bucket_id BackupSchedule#bucket_id}
   */
   readonly bucketId: string;
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule#cluster_id BackupSchedule#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule#cluster_id BackupSchedule#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule#organization_id BackupSchedule#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule#organization_id BackupSchedule#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule#project_id BackupSchedule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule#project_id BackupSchedule#project_id}
   */
   readonly projectId: string;
   /**
-  * Type of the backup schedule.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule#type BackupSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule#type BackupSchedule#type}
   */
   readonly type: string;
   /**
-  * Schedule a full backup once a week with regular incrementals.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule#weekly_schedule BackupSchedule#weekly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule#weekly_schedule BackupSchedule#weekly_schedule}
   */
   readonly weeklySchedule: BackupScheduleWeeklySchedule;
 }
 export interface BackupScheduleWeeklySchedule {
   /**
-  * Optimize backup retention to reduce total cost of ownership (TCO). This gives the option to keep all but the last backup cycle of the month for thirty days; the last cycle will be kept for the defined retention period.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule#cost_optimized_retention BackupSchedule#cost_optimized_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule#cost_optimized_retention BackupSchedule#cost_optimized_retention}
   */
   readonly costOptimizedRetention: boolean | cdktf.IResolvable;
   /**
-  * Day of the week for the backup. Values can be "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", or "saturday"
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule#day_of_week BackupSchedule#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule#day_of_week BackupSchedule#day_of_week}
   */
   readonly dayOfWeek: string;
   /**
-  * Interval in hours for incremental backup. Integer value between 1 and 24.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule#incremental_every BackupSchedule#incremental_every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule#incremental_every BackupSchedule#incremental_every}
   */
   readonly incrementalEvery: number;
   /**
-  * Retention time in days. For example: 30days, 1year, 5years.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule#retention_time BackupSchedule#retention_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule#retention_time BackupSchedule#retention_time}
   */
   readonly retentionTime: string;
   /**
-  * The starting hour (in 24-Hour format). Integer value between 0 and 23.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule#start_at BackupSchedule#start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule#start_at BackupSchedule#start_at}
   */
   readonly startAt: number;
 }
@@ -267,7 +245,7 @@ export class BackupScheduleWeeklyScheduleOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule couchbase-capella_backup_schedule}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule couchbase-capella_backup_schedule}
 */
 export class BackupSchedule extends cdktf.TerraformResource {
 
@@ -283,7 +261,7 @@ export class BackupSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BackupSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupSchedule to import
-  * @param importFromId The id of the existing BackupSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +273,7 @@ export class BackupSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/backup_schedule couchbase-capella_backup_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/backup_schedule couchbase-capella_backup_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +284,8 @@ export class BackupSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_backup_schedule',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

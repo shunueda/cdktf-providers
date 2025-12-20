@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,100 @@ export interface HipObjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Anti malware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#anti_malware HipObject#anti_malware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#anti_malware HipObject#anti_malware}
   */
   readonly antiMalware?: HipObjectAntiMalware;
   /**
   * Certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#certificate HipObject#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#certificate HipObject#certificate}
   */
   readonly certificate?: HipObjectCertificate;
   /**
   * Custom checks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#custom_checks HipObject#custom_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#custom_checks HipObject#custom_checks}
   */
   readonly customChecks?: HipObjectCustomChecks;
   /**
   * Data loss prevention
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#data_loss_prevention HipObject#data_loss_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#data_loss_prevention HipObject#data_loss_prevention}
   */
   readonly dataLossPrevention?: HipObjectDataLossPrevention;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#description HipObject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#description HipObject#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#device HipObject#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#device HipObject#device}
   */
   readonly device?: string;
   /**
   * Disk backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#disk_backup HipObject#disk_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#disk_backup HipObject#disk_backup}
   */
   readonly diskBackup?: HipObjectDiskBackup;
   /**
   * Disk encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#disk_encryption HipObject#disk_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#disk_encryption HipObject#disk_encryption}
   */
   readonly diskEncryption?: HipObjectDiskEncryption;
   /**
   * Firewall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#firewall HipObject#firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#firewall HipObject#firewall}
   */
   readonly firewall?: HipObjectFirewall;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#folder HipObject#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#folder HipObject#folder}
   */
   readonly folder?: string;
   /**
   * Host info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#host_info HipObject#host_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#host_info HipObject#host_info}
   */
   readonly hostInfo?: HipObjectHostInfo;
   /**
   * Mobile device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#mobile_device HipObject#mobile_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#mobile_device HipObject#mobile_device}
   */
   readonly mobileDevice?: HipObjectMobileDevice;
   /**
   * The name of the HIP object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Network info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#network_info HipObject#network_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#network_info HipObject#network_info}
   */
   readonly networkInfo?: HipObjectNetworkInfo;
   /**
   * Patch management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#patch_management HipObject#patch_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#patch_management HipObject#patch_management}
   */
   readonly patchManagement?: HipObjectPatchManagement;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#snippet HipObject#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#snippet HipObject#snippet}
   */
   readonly snippet?: string;
 }
@@ -172,18 +169,16 @@ export class HipObjectAntiMalwareCriteriaLastScanTimeNotAvailableOutputReference
 export interface HipObjectAntiMalwareCriteriaLastScanTimeNotWithin {
   /**
   * specify time in days
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `days` and `hours`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#days HipObject#days}
   */
   readonly days?: number;
   /**
   * specify time in hours
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `days` and `hours`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#hours HipObject#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#hours HipObject#hours}
   */
   readonly hours?: number;
 }
@@ -272,7 +267,7 @@ export class HipObjectAntiMalwareCriteriaLastScanTimeNotWithinOutputReference ex
     }
   }
 
-  // days - computed: true, optional: true, required: false
+  // days - computed: false, optional: true, required: false
   private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
@@ -288,7 +283,7 @@ export class HipObjectAntiMalwareCriteriaLastScanTimeNotWithinOutputReference ex
     return this._days;
   }
 
-  // hours - computed: true, optional: true, required: false
+  // hours - computed: false, optional: true, required: false
   private _hours?: number; 
   public get hours() {
     return this.getNumberAttribute('hours');
@@ -307,18 +302,16 @@ export class HipObjectAntiMalwareCriteriaLastScanTimeNotWithinOutputReference ex
 export interface HipObjectAntiMalwareCriteriaLastScanTimeWithin {
   /**
   * specify time in days
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `days` and `hours`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#days HipObject#days}
   */
   readonly days?: number;
   /**
   * specify time in hours
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `days` and `hours`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#hours HipObject#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#hours HipObject#hours}
   */
   readonly hours?: number;
 }
@@ -407,7 +400,7 @@ export class HipObjectAntiMalwareCriteriaLastScanTimeWithinOutputReference exten
     }
   }
 
-  // days - computed: true, optional: true, required: false
+  // days - computed: false, optional: true, required: false
   private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
@@ -423,7 +416,7 @@ export class HipObjectAntiMalwareCriteriaLastScanTimeWithinOutputReference exten
     return this._days;
   }
 
-  // hours - computed: true, optional: true, required: false
+  // hours - computed: false, optional: true, required: false
   private _hours?: number; 
   public get hours() {
     return this.getNumberAttribute('hours');
@@ -442,26 +435,23 @@ export class HipObjectAntiMalwareCriteriaLastScanTimeWithinOutputReference exten
 export interface HipObjectAntiMalwareCriteriaLastScanTime {
   /**
   * Not available
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `not_available`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#not_available HipObject#not_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#not_available HipObject#not_available}
   */
   readonly notAvailable?: HipObjectAntiMalwareCriteriaLastScanTimeNotAvailable;
   /**
   * Not within
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `not_available`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#not_within HipObject#not_within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#not_within HipObject#not_within}
   */
   readonly notWithin?: HipObjectAntiMalwareCriteriaLastScanTimeNotWithin;
   /**
   * Within
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `not_available`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#within HipObject#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#within HipObject#within}
   */
   readonly within?: HipObjectAntiMalwareCriteriaLastScanTimeWithin;
 }
@@ -563,7 +553,7 @@ export class HipObjectAntiMalwareCriteriaLastScanTimeOutputReference extends cdk
     }
   }
 
-  // not_available - computed: true, optional: true, required: false
+  // not_available - computed: false, optional: true, required: false
   private _notAvailable = new HipObjectAntiMalwareCriteriaLastScanTimeNotAvailableOutputReference(this, "not_available");
   public get notAvailable() {
     return this._notAvailable;
@@ -579,7 +569,7 @@ export class HipObjectAntiMalwareCriteriaLastScanTimeOutputReference extends cdk
     return this._notAvailable.internalValue;
   }
 
-  // not_within - computed: true, optional: true, required: false
+  // not_within - computed: false, optional: true, required: false
   private _notWithin = new HipObjectAntiMalwareCriteriaLastScanTimeNotWithinOutputReference(this, "not_within");
   public get notWithin() {
     return this._notWithin;
@@ -595,7 +585,7 @@ export class HipObjectAntiMalwareCriteriaLastScanTimeOutputReference extends cdk
     return this._notWithin.internalValue;
   }
 
-  // within - computed: true, optional: true, required: false
+  // within - computed: false, optional: true, required: false
   private _within = new HipObjectAntiMalwareCriteriaLastScanTimeWithinOutputReference(this, "within");
   public get within() {
     return this._within;
@@ -615,7 +605,7 @@ export interface HipObjectAntiMalwareCriteriaProductVersionNotWithin {
   /**
   * versions range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#versions HipObject#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#versions HipObject#versions}
   */
   readonly versions: number;
 }
@@ -691,7 +681,7 @@ export class HipObjectAntiMalwareCriteriaProductVersionNotWithinOutputReference 
     }
   }
 
-  // versions - computed: true, optional: false, required: true
+  // versions - computed: false, optional: false, required: true
   private _versions?: number; 
   public get versions() {
     return this.getNumberAttribute('versions');
@@ -708,7 +698,7 @@ export interface HipObjectAntiMalwareCriteriaProductVersionWithin {
   /**
   * versions range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#versions HipObject#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#versions HipObject#versions}
   */
   readonly versions: number;
 }
@@ -784,7 +774,7 @@ export class HipObjectAntiMalwareCriteriaProductVersionWithinOutputReference ext
     }
   }
 
-  // versions - computed: true, optional: false, required: true
+  // versions - computed: false, optional: false, required: true
   private _versions?: number; 
   public get versions() {
     return this.getNumberAttribute('versions');
@@ -800,74 +790,65 @@ export class HipObjectAntiMalwareCriteriaProductVersionWithinOutputReference ext
 export interface HipObjectAntiMalwareCriteriaProductVersion {
   /**
   * Contains
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, `less_than`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Greater equal
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, `less_than`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#greater_equal HipObject#greater_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#greater_equal HipObject#greater_equal}
   */
   readonly greaterEqual?: string;
   /**
   * Greater than
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, `less_than`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#greater_than HipObject#greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#greater_than HipObject#greater_than}
   */
   readonly greaterThan?: string;
   /**
   * Is
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, `less_than`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, `less_than`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
   /**
   * Less equal
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, `less_than`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#less_equal HipObject#less_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#less_equal HipObject#less_equal}
   */
   readonly lessEqual?: string;
   /**
   * Less than
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, `less_than`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#less_than HipObject#less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#less_than HipObject#less_than}
   */
   readonly lessThan?: string;
   /**
   * Not within
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, `less_than`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#not_within HipObject#not_within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#not_within HipObject#not_within}
   */
   readonly notWithin?: HipObjectAntiMalwareCriteriaProductVersionNotWithin;
   /**
   * Within
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, `less_than`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#within HipObject#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#within HipObject#within}
   */
   readonly within?: HipObjectAntiMalwareCriteriaProductVersionWithin;
 }
@@ -1047,7 +1028,7 @@ export class HipObjectAntiMalwareCriteriaProductVersionOutputReference extends c
     }
   }
 
-  // contains - computed: true, optional: true, required: false
+  // contains - computed: false, optional: true, required: false
   private _contains?: string; 
   public get contains() {
     return this.getStringAttribute('contains');
@@ -1063,7 +1044,7 @@ export class HipObjectAntiMalwareCriteriaProductVersionOutputReference extends c
     return this._contains;
   }
 
-  // greater_equal - computed: true, optional: true, required: false
+  // greater_equal - computed: false, optional: true, required: false
   private _greaterEqual?: string; 
   public get greaterEqual() {
     return this.getStringAttribute('greater_equal');
@@ -1079,7 +1060,7 @@ export class HipObjectAntiMalwareCriteriaProductVersionOutputReference extends c
     return this._greaterEqual;
   }
 
-  // greater_than - computed: true, optional: true, required: false
+  // greater_than - computed: false, optional: true, required: false
   private _greaterThan?: string; 
   public get greaterThan() {
     return this.getStringAttribute('greater_than');
@@ -1095,7 +1076,7 @@ export class HipObjectAntiMalwareCriteriaProductVersionOutputReference extends c
     return this._greaterThan;
   }
 
-  // is - computed: true, optional: true, required: false
+  // is - computed: false, optional: true, required: false
   private _is?: string; 
   public get is() {
     return this.getStringAttribute('is');
@@ -1111,7 +1092,7 @@ export class HipObjectAntiMalwareCriteriaProductVersionOutputReference extends c
     return this._is;
   }
 
-  // is_not - computed: true, optional: true, required: false
+  // is_not - computed: false, optional: true, required: false
   private _isNot?: string; 
   public get isNot() {
     return this.getStringAttribute('is_not');
@@ -1127,7 +1108,7 @@ export class HipObjectAntiMalwareCriteriaProductVersionOutputReference extends c
     return this._isNot;
   }
 
-  // less_equal - computed: true, optional: true, required: false
+  // less_equal - computed: false, optional: true, required: false
   private _lessEqual?: string; 
   public get lessEqual() {
     return this.getStringAttribute('less_equal');
@@ -1143,7 +1124,7 @@ export class HipObjectAntiMalwareCriteriaProductVersionOutputReference extends c
     return this._lessEqual;
   }
 
-  // less_than - computed: true, optional: true, required: false
+  // less_than - computed: false, optional: true, required: false
   private _lessThan?: string; 
   public get lessThan() {
     return this.getStringAttribute('less_than');
@@ -1159,7 +1140,7 @@ export class HipObjectAntiMalwareCriteriaProductVersionOutputReference extends c
     return this._lessThan;
   }
 
-  // not_within - computed: true, optional: true, required: false
+  // not_within - computed: false, optional: true, required: false
   private _notWithin = new HipObjectAntiMalwareCriteriaProductVersionNotWithinOutputReference(this, "not_within");
   public get notWithin() {
     return this._notWithin;
@@ -1175,7 +1156,7 @@ export class HipObjectAntiMalwareCriteriaProductVersionOutputReference extends c
     return this._notWithin.internalValue;
   }
 
-  // within - computed: true, optional: true, required: false
+  // within - computed: false, optional: true, required: false
   private _within = new HipObjectAntiMalwareCriteriaProductVersionWithinOutputReference(this, "within");
   public get within() {
     return this._within;
@@ -1194,18 +1175,16 @@ export class HipObjectAntiMalwareCriteriaProductVersionOutputReference extends c
 export interface HipObjectAntiMalwareCriteriaVirdefVersionNotWithin {
   /**
   * specify time in days
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `days` and `versions`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#days HipObject#days}
   */
   readonly days?: number;
   /**
   * specify versions range
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `days` and `versions`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#versions HipObject#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#versions HipObject#versions}
   */
   readonly versions?: number;
 }
@@ -1294,7 +1273,7 @@ export class HipObjectAntiMalwareCriteriaVirdefVersionNotWithinOutputReference e
     }
   }
 
-  // days - computed: true, optional: true, required: false
+  // days - computed: false, optional: true, required: false
   private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
@@ -1310,7 +1289,7 @@ export class HipObjectAntiMalwareCriteriaVirdefVersionNotWithinOutputReference e
     return this._days;
   }
 
-  // versions - computed: true, optional: true, required: false
+  // versions - computed: false, optional: true, required: false
   private _versions?: number; 
   public get versions() {
     return this.getNumberAttribute('versions');
@@ -1329,18 +1308,16 @@ export class HipObjectAntiMalwareCriteriaVirdefVersionNotWithinOutputReference e
 export interface HipObjectAntiMalwareCriteriaVirdefVersionWithin {
   /**
   * specify time in days
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `days` and `versions`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#days HipObject#days}
   */
   readonly days?: number;
   /**
   * specify versions range
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `days` and `versions`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#versions HipObject#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#versions HipObject#versions}
   */
   readonly versions?: number;
 }
@@ -1429,7 +1406,7 @@ export class HipObjectAntiMalwareCriteriaVirdefVersionWithinOutputReference exte
     }
   }
 
-  // days - computed: true, optional: true, required: false
+  // days - computed: false, optional: true, required: false
   private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
@@ -1445,7 +1422,7 @@ export class HipObjectAntiMalwareCriteriaVirdefVersionWithinOutputReference exte
     return this._days;
   }
 
-  // versions - computed: true, optional: true, required: false
+  // versions - computed: false, optional: true, required: false
   private _versions?: number; 
   public get versions() {
     return this.getNumberAttribute('versions');
@@ -1464,18 +1441,16 @@ export class HipObjectAntiMalwareCriteriaVirdefVersionWithinOutputReference exte
 export interface HipObjectAntiMalwareCriteriaVirdefVersion {
   /**
   * Not within
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `not_within` and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#not_within HipObject#not_within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#not_within HipObject#not_within}
   */
   readonly notWithin?: HipObjectAntiMalwareCriteriaVirdefVersionNotWithin;
   /**
   * Within
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `not_within` and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#within HipObject#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#within HipObject#within}
   */
   readonly within?: HipObjectAntiMalwareCriteriaVirdefVersionWithin;
 }
@@ -1564,7 +1539,7 @@ export class HipObjectAntiMalwareCriteriaVirdefVersionOutputReference extends cd
     }
   }
 
-  // not_within - computed: true, optional: true, required: false
+  // not_within - computed: false, optional: true, required: false
   private _notWithin = new HipObjectAntiMalwareCriteriaVirdefVersionNotWithinOutputReference(this, "not_within");
   public get notWithin() {
     return this._notWithin;
@@ -1580,7 +1555,7 @@ export class HipObjectAntiMalwareCriteriaVirdefVersionOutputReference extends cd
     return this._notWithin.internalValue;
   }
 
-  // within - computed: true, optional: true, required: false
+  // within - computed: false, optional: true, required: false
   private _within = new HipObjectAntiMalwareCriteriaVirdefVersionWithinOutputReference(this, "within");
   public get within() {
     return this._within;
@@ -1600,31 +1575,31 @@ export interface HipObjectAntiMalwareCriteria {
   /**
   * Is Installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_installed HipObject#is_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_installed HipObject#is_installed}
   */
   readonly isInstalled?: boolean | cdktf.IResolvable;
   /**
   * Last scan time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#last_scan_time HipObject#last_scan_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#last_scan_time HipObject#last_scan_time}
   */
   readonly lastScanTime?: HipObjectAntiMalwareCriteriaLastScanTime;
   /**
   * Product version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#product_version HipObject#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#product_version HipObject#product_version}
   */
   readonly productVersion?: HipObjectAntiMalwareCriteriaProductVersion;
   /**
   * real time protection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#real_time_protection HipObject#real_time_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#real_time_protection HipObject#real_time_protection}
   */
   readonly realTimeProtection?: string;
   /**
   * Virdef version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#virdef_version HipObject#virdef_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#virdef_version HipObject#virdef_version}
   */
   readonly virdefVersion?: HipObjectAntiMalwareCriteriaVirdefVersion;
 }
@@ -1768,7 +1743,7 @@ export class HipObjectAntiMalwareCriteriaOutputReference extends cdktf.ComplexOb
     return this._isInstalled;
   }
 
-  // last_scan_time - computed: true, optional: true, required: false
+  // last_scan_time - computed: false, optional: true, required: false
   private _lastScanTime = new HipObjectAntiMalwareCriteriaLastScanTimeOutputReference(this, "last_scan_time");
   public get lastScanTime() {
     return this._lastScanTime;
@@ -1784,7 +1759,7 @@ export class HipObjectAntiMalwareCriteriaOutputReference extends cdktf.ComplexOb
     return this._lastScanTime.internalValue;
   }
 
-  // product_version - computed: true, optional: true, required: false
+  // product_version - computed: false, optional: true, required: false
   private _productVersion = new HipObjectAntiMalwareCriteriaProductVersionOutputReference(this, "product_version");
   public get productVersion() {
     return this._productVersion;
@@ -1800,7 +1775,7 @@ export class HipObjectAntiMalwareCriteriaOutputReference extends cdktf.ComplexOb
     return this._productVersion.internalValue;
   }
 
-  // real_time_protection - computed: true, optional: true, required: false
+  // real_time_protection - computed: false, optional: true, required: false
   private _realTimeProtection?: string; 
   public get realTimeProtection() {
     return this.getStringAttribute('real_time_protection');
@@ -1816,7 +1791,7 @@ export class HipObjectAntiMalwareCriteriaOutputReference extends cdktf.ComplexOb
     return this._realTimeProtection;
   }
 
-  // virdef_version - computed: true, optional: true, required: false
+  // virdef_version - computed: false, optional: true, required: false
   private _virdefVersion = new HipObjectAntiMalwareCriteriaVirdefVersionOutputReference(this, "virdef_version");
   public get virdefVersion() {
     return this._virdefVersion;
@@ -1836,13 +1811,13 @@ export interface HipObjectAntiMalwareVendor {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#product HipObject#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#product HipObject#product}
   */
   readonly product?: string[];
 }
@@ -1933,7 +1908,7 @@ export class HipObjectAntiMalwareVendorOutputReference extends cdktf.ComplexObje
     }
   }
 
-  // name - computed: true, optional: false, required: true
+  // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -1946,7 +1921,7 @@ export class HipObjectAntiMalwareVendorOutputReference extends cdktf.ComplexObje
     return this._name;
   }
 
-  // product - computed: true, optional: true, required: false
+  // product - computed: false, optional: true, required: false
   private _product?: string[]; 
   public get product() {
     return this.getListAttribute('product');
@@ -1986,19 +1961,19 @@ export interface HipObjectAntiMalware {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectAntiMalwareCriteria;
   /**
   * Exclude vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
   */
   readonly excludeVendor?: boolean | cdktf.IResolvable;
   /**
   * Vendor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#vendor HipObject#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#vendor HipObject#vendor}
   */
   readonly vendor?: HipObjectAntiMalwareVendor[] | cdktf.IResolvable;
 }
@@ -2100,7 +2075,7 @@ export class HipObjectAntiMalwareOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // criteria - computed: true, optional: true, required: false
+  // criteria - computed: false, optional: true, required: false
   private _criteria = new HipObjectAntiMalwareCriteriaOutputReference(this, "criteria");
   public get criteria() {
     return this._criteria;
@@ -2132,7 +2107,7 @@ export class HipObjectAntiMalwareOutputReference extends cdktf.ComplexObject {
     return this._excludeVendor;
   }
 
-  // vendor - computed: true, optional: true, required: false
+  // vendor - computed: false, optional: true, required: false
   private _vendor = new HipObjectAntiMalwareVendorList(this, "vendor", false);
   public get vendor() {
     return this._vendor;
@@ -2152,13 +2127,13 @@ export interface HipObjectCertificateCriteriaCertificateAttributes {
   /**
   * Attribute Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Key value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#value HipObject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#value HipObject#value}
   */
   readonly value?: string;
 }
@@ -2302,13 +2277,13 @@ export interface HipObjectCertificateCriteria {
   /**
   * Certificate attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#certificate_attributes HipObject#certificate_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#certificate_attributes HipObject#certificate_attributes}
   */
   readonly certificateAttributes?: HipObjectCertificateCriteriaCertificateAttributes[] | cdktf.IResolvable;
   /**
   * Profile for authenticating client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#certificate_profile HipObject#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#certificate_profile HipObject#certificate_profile}
   */
   readonly certificateProfile?: string;
 }
@@ -2433,7 +2408,7 @@ export interface HipObjectCertificate {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectCertificateCriteria;
 }
@@ -2529,19 +2504,19 @@ export interface HipObjectCustomChecksCriteriaPlistKey {
   /**
   * Key name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Value does not exist or match specified value data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#negate HipObject#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#negate HipObject#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Key value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#value HipObject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#value HipObject#value}
   */
   readonly value?: string;
 }
@@ -2714,19 +2689,19 @@ export interface HipObjectCustomChecksCriteriaPlistStruct {
   /**
   * Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#key HipObject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#key HipObject#key}
   */
   readonly key?: HipObjectCustomChecksCriteriaPlistKey[] | cdktf.IResolvable;
   /**
   * Preference list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Plist does not exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#negate HipObject#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#negate HipObject#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
 }
@@ -2899,13 +2874,13 @@ export interface HipObjectCustomChecksCriteriaProcessListStruct {
   /**
   * Process Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#running HipObject#running}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#running HipObject#running}
   */
   readonly running?: boolean | cdktf.IResolvable;
 }
@@ -3049,19 +3024,19 @@ export interface HipObjectCustomChecksCriteriaRegistryKeyRegistryValue {
   /**
   * Registry value name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Value does not exist or match specified value data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#negate HipObject#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#negate HipObject#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Registry value data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#value_data HipObject#value_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#value_data HipObject#value_data}
   */
   readonly valueData?: string;
 }
@@ -3234,25 +3209,25 @@ export interface HipObjectCustomChecksCriteriaRegistryKey {
   /**
   * Registry key default value data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#default_value_data HipObject#default_value_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#default_value_data HipObject#default_value_data}
   */
   readonly defaultValueData?: string;
   /**
   * Registry key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Key does not exist or match specified value data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#negate HipObject#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#negate HipObject#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Registry value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#registry_value HipObject#registry_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#registry_value HipObject#registry_value}
   */
   readonly registryValue?: HipObjectCustomChecksCriteriaRegistryKeyRegistryValue[] | cdktf.IResolvable;
 }
@@ -3454,19 +3429,19 @@ export interface HipObjectCustomChecksCriteria {
   /**
   * Plist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#plist HipObject#plist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#plist HipObject#plist}
   */
   readonly plist?: HipObjectCustomChecksCriteriaPlistStruct[] | cdktf.IResolvable;
   /**
   * Process list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#process_list HipObject#process_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#process_list HipObject#process_list}
   */
   readonly processList?: HipObjectCustomChecksCriteriaProcessListStruct[] | cdktf.IResolvable;
   /**
   * Registry key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#registry_key HipObject#registry_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#registry_key HipObject#registry_key}
   */
   readonly registryKey?: HipObjectCustomChecksCriteriaRegistryKey[] | cdktf.IResolvable;
 }
@@ -3620,7 +3595,7 @@ export interface HipObjectCustomChecks {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria: HipObjectCustomChecksCriteria;
 }
@@ -3713,13 +3688,13 @@ export interface HipObjectDataLossPreventionCriteria {
   /**
   * is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_enabled HipObject#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_enabled HipObject#is_enabled}
   */
   readonly isEnabled?: string;
   /**
   * Is Installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_installed HipObject#is_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_installed HipObject#is_installed}
   */
   readonly isInstalled?: boolean | cdktf.IResolvable;
 }
@@ -3808,7 +3783,7 @@ export class HipObjectDataLossPreventionCriteriaOutputReference extends cdktf.Co
     }
   }
 
-  // is_enabled - computed: true, optional: true, required: false
+  // is_enabled - computed: false, optional: true, required: false
   private _isEnabled?: string; 
   public get isEnabled() {
     return this.getStringAttribute('is_enabled');
@@ -3844,13 +3819,13 @@ export interface HipObjectDataLossPreventionVendor {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Product name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#product HipObject#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#product HipObject#product}
   */
   readonly product?: string[];
 }
@@ -3941,7 +3916,7 @@ export class HipObjectDataLossPreventionVendorOutputReference extends cdktf.Comp
     }
   }
 
-  // name - computed: true, optional: false, required: true
+  // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -3954,7 +3929,7 @@ export class HipObjectDataLossPreventionVendorOutputReference extends cdktf.Comp
     return this._name;
   }
 
-  // product - computed: true, optional: true, required: false
+  // product - computed: false, optional: true, required: false
   private _product?: string[]; 
   public get product() {
     return this.getListAttribute('product');
@@ -3994,19 +3969,19 @@ export interface HipObjectDataLossPrevention {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectDataLossPreventionCriteria;
   /**
   * Exclude vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
   */
   readonly excludeVendor?: boolean | cdktf.IResolvable;
   /**
   * Vendor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#vendor HipObject#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#vendor HipObject#vendor}
   */
   readonly vendor?: HipObjectDataLossPreventionVendor[] | cdktf.IResolvable;
 }
@@ -4108,7 +4083,7 @@ export class HipObjectDataLossPreventionOutputReference extends cdktf.ComplexObj
     }
   }
 
-  // criteria - computed: true, optional: true, required: false
+  // criteria - computed: false, optional: true, required: false
   private _criteria = new HipObjectDataLossPreventionCriteriaOutputReference(this, "criteria");
   public get criteria() {
     return this._criteria;
@@ -4140,7 +4115,7 @@ export class HipObjectDataLossPreventionOutputReference extends cdktf.ComplexObj
     return this._excludeVendor;
   }
 
-  // vendor - computed: true, optional: true, required: false
+  // vendor - computed: false, optional: true, required: false
   private _vendor = new HipObjectDataLossPreventionVendorList(this, "vendor", false);
   public get vendor() {
     return this._vendor;
@@ -4218,18 +4193,16 @@ export class HipObjectDiskBackupCriteriaLastBackupTimeNotAvailableOutputReferenc
 export interface HipObjectDiskBackupCriteriaLastBackupTimeNotWithin {
   /**
   * specify time in days
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `days` and `hours`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#days HipObject#days}
   */
   readonly days?: number;
   /**
   * specify time in hours
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `days` and `hours`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#hours HipObject#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#hours HipObject#hours}
   */
   readonly hours?: number;
 }
@@ -4318,7 +4291,7 @@ export class HipObjectDiskBackupCriteriaLastBackupTimeNotWithinOutputReference e
     }
   }
 
-  // days - computed: true, optional: true, required: false
+  // days - computed: false, optional: true, required: false
   private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
@@ -4334,7 +4307,7 @@ export class HipObjectDiskBackupCriteriaLastBackupTimeNotWithinOutputReference e
     return this._days;
   }
 
-  // hours - computed: true, optional: true, required: false
+  // hours - computed: false, optional: true, required: false
   private _hours?: number; 
   public get hours() {
     return this.getNumberAttribute('hours');
@@ -4353,18 +4326,16 @@ export class HipObjectDiskBackupCriteriaLastBackupTimeNotWithinOutputReference e
 export interface HipObjectDiskBackupCriteriaLastBackupTimeWithin {
   /**
   * specify time in days
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `days` and `hours`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#days HipObject#days}
   */
   readonly days?: number;
   /**
   * specify time in hours
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `days` and `hours`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#hours HipObject#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#hours HipObject#hours}
   */
   readonly hours?: number;
 }
@@ -4453,7 +4424,7 @@ export class HipObjectDiskBackupCriteriaLastBackupTimeWithinOutputReference exte
     }
   }
 
-  // days - computed: true, optional: true, required: false
+  // days - computed: false, optional: true, required: false
   private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
@@ -4469,7 +4440,7 @@ export class HipObjectDiskBackupCriteriaLastBackupTimeWithinOutputReference exte
     return this._days;
   }
 
-  // hours - computed: true, optional: true, required: false
+  // hours - computed: false, optional: true, required: false
   private _hours?: number; 
   public get hours() {
     return this.getNumberAttribute('hours');
@@ -4488,26 +4459,23 @@ export class HipObjectDiskBackupCriteriaLastBackupTimeWithinOutputReference exte
 export interface HipObjectDiskBackupCriteriaLastBackupTime {
   /**
   * Not available
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `not_available`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#not_available HipObject#not_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#not_available HipObject#not_available}
   */
   readonly notAvailable?: HipObjectDiskBackupCriteriaLastBackupTimeNotAvailable;
   /**
   * Not within
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `not_available`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#not_within HipObject#not_within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#not_within HipObject#not_within}
   */
   readonly notWithin?: HipObjectDiskBackupCriteriaLastBackupTimeNotWithin;
   /**
   * Within
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `not_available`, `not_within`, and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#within HipObject#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#within HipObject#within}
   */
   readonly within?: HipObjectDiskBackupCriteriaLastBackupTimeWithin;
 }
@@ -4609,7 +4577,7 @@ export class HipObjectDiskBackupCriteriaLastBackupTimeOutputReference extends cd
     }
   }
 
-  // not_available - computed: true, optional: true, required: false
+  // not_available - computed: false, optional: true, required: false
   private _notAvailable = new HipObjectDiskBackupCriteriaLastBackupTimeNotAvailableOutputReference(this, "not_available");
   public get notAvailable() {
     return this._notAvailable;
@@ -4625,7 +4593,7 @@ export class HipObjectDiskBackupCriteriaLastBackupTimeOutputReference extends cd
     return this._notAvailable.internalValue;
   }
 
-  // not_within - computed: true, optional: true, required: false
+  // not_within - computed: false, optional: true, required: false
   private _notWithin = new HipObjectDiskBackupCriteriaLastBackupTimeNotWithinOutputReference(this, "not_within");
   public get notWithin() {
     return this._notWithin;
@@ -4641,7 +4609,7 @@ export class HipObjectDiskBackupCriteriaLastBackupTimeOutputReference extends cd
     return this._notWithin.internalValue;
   }
 
-  // within - computed: true, optional: true, required: false
+  // within - computed: false, optional: true, required: false
   private _within = new HipObjectDiskBackupCriteriaLastBackupTimeWithinOutputReference(this, "within");
   public get within() {
     return this._within;
@@ -4661,13 +4629,13 @@ export interface HipObjectDiskBackupCriteria {
   /**
   * Is Installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_installed HipObject#is_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_installed HipObject#is_installed}
   */
   readonly isInstalled?: boolean | cdktf.IResolvable;
   /**
   * Last backup time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#last_backup_time HipObject#last_backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#last_backup_time HipObject#last_backup_time}
   */
   readonly lastBackupTime?: HipObjectDiskBackupCriteriaLastBackupTime;
 }
@@ -4772,7 +4740,7 @@ export class HipObjectDiskBackupCriteriaOutputReference extends cdktf.ComplexObj
     return this._isInstalled;
   }
 
-  // last_backup_time - computed: true, optional: true, required: false
+  // last_backup_time - computed: false, optional: true, required: false
   private _lastBackupTime = new HipObjectDiskBackupCriteriaLastBackupTimeOutputReference(this, "last_backup_time");
   public get lastBackupTime() {
     return this._lastBackupTime;
@@ -4792,13 +4760,13 @@ export interface HipObjectDiskBackupVendor {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#product HipObject#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#product HipObject#product}
   */
   readonly product?: string[];
 }
@@ -4889,7 +4857,7 @@ export class HipObjectDiskBackupVendorOutputReference extends cdktf.ComplexObjec
     }
   }
 
-  // name - computed: true, optional: false, required: true
+  // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -4902,7 +4870,7 @@ export class HipObjectDiskBackupVendorOutputReference extends cdktf.ComplexObjec
     return this._name;
   }
 
-  // product - computed: true, optional: true, required: false
+  // product - computed: false, optional: true, required: false
   private _product?: string[]; 
   public get product() {
     return this.getListAttribute('product');
@@ -4942,19 +4910,19 @@ export interface HipObjectDiskBackup {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectDiskBackupCriteria;
   /**
   * Exclude vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
   */
   readonly excludeVendor?: boolean | cdktf.IResolvable;
   /**
   * Vendor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#vendor HipObject#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#vendor HipObject#vendor}
   */
   readonly vendor?: HipObjectDiskBackupVendor[] | cdktf.IResolvable;
 }
@@ -5056,7 +5024,7 @@ export class HipObjectDiskBackupOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // criteria - computed: true, optional: true, required: false
+  // criteria - computed: false, optional: true, required: false
   private _criteria = new HipObjectDiskBackupCriteriaOutputReference(this, "criteria");
   public get criteria() {
     return this._criteria;
@@ -5088,7 +5056,7 @@ export class HipObjectDiskBackupOutputReference extends cdktf.ComplexObject {
     return this._excludeVendor;
   }
 
-  // vendor - computed: true, optional: true, required: false
+  // vendor - computed: false, optional: true, required: false
   private _vendor = new HipObjectDiskBackupVendorList(this, "vendor", false);
   public get vendor() {
     return this._vendor;
@@ -5107,18 +5075,16 @@ export class HipObjectDiskBackupOutputReference extends cdktf.ComplexObject {
 export interface HipObjectDiskEncryptionCriteriaEncryptedLocationsEncryptionState {
   /**
   * Is
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `is` and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `is` and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -5207,7 +5173,7 @@ export class HipObjectDiskEncryptionCriteriaEncryptedLocationsEncryptionStateOut
     }
   }
 
-  // is - computed: true, optional: true, required: false
+  // is - computed: false, optional: true, required: false
   private _is?: string; 
   public get is() {
     return this.getStringAttribute('is');
@@ -5223,7 +5189,7 @@ export class HipObjectDiskEncryptionCriteriaEncryptedLocationsEncryptionStateOut
     return this._is;
   }
 
-  // is_not - computed: true, optional: true, required: false
+  // is_not - computed: false, optional: true, required: false
   private _isNot?: string; 
   public get isNot() {
     return this.getStringAttribute('is_not');
@@ -5243,13 +5209,13 @@ export interface HipObjectDiskEncryptionCriteriaEncryptedLocations {
   /**
   * Encryption state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#encryption_state HipObject#encryption_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#encryption_state HipObject#encryption_state}
   */
   readonly encryptionState?: HipObjectDiskEncryptionCriteriaEncryptedLocationsEncryptionState;
   /**
   * Encryption location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
 }
@@ -5340,7 +5306,7 @@ export class HipObjectDiskEncryptionCriteriaEncryptedLocationsOutputReference ex
     }
   }
 
-  // encryption_state - computed: true, optional: true, required: false
+  // encryption_state - computed: false, optional: true, required: false
   private _encryptionState = new HipObjectDiskEncryptionCriteriaEncryptedLocationsEncryptionStateOutputReference(this, "encryption_state");
   public get encryptionState() {
     return this._encryptionState;
@@ -5356,7 +5322,7 @@ export class HipObjectDiskEncryptionCriteriaEncryptedLocationsOutputReference ex
     return this._encryptionState.internalValue;
   }
 
-  // name - computed: true, optional: false, required: true
+  // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -5393,13 +5359,13 @@ export interface HipObjectDiskEncryptionCriteria {
   /**
   * Encrypted locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#encrypted_locations HipObject#encrypted_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#encrypted_locations HipObject#encrypted_locations}
   */
   readonly encryptedLocations?: HipObjectDiskEncryptionCriteriaEncryptedLocations[] | cdktf.IResolvable;
   /**
   * Is Installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_installed HipObject#is_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_installed HipObject#is_installed}
   */
   readonly isInstalled?: boolean | cdktf.IResolvable;
 }
@@ -5488,7 +5454,7 @@ export class HipObjectDiskEncryptionCriteriaOutputReference extends cdktf.Comple
     }
   }
 
-  // encrypted_locations - computed: true, optional: true, required: false
+  // encrypted_locations - computed: false, optional: true, required: false
   private _encryptedLocations = new HipObjectDiskEncryptionCriteriaEncryptedLocationsList(this, "encrypted_locations", false);
   public get encryptedLocations() {
     return this._encryptedLocations;
@@ -5524,13 +5490,13 @@ export interface HipObjectDiskEncryptionVendor {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#product HipObject#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#product HipObject#product}
   */
   readonly product?: string[];
 }
@@ -5621,7 +5587,7 @@ export class HipObjectDiskEncryptionVendorOutputReference extends cdktf.ComplexO
     }
   }
 
-  // name - computed: true, optional: false, required: true
+  // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -5634,7 +5600,7 @@ export class HipObjectDiskEncryptionVendorOutputReference extends cdktf.ComplexO
     return this._name;
   }
 
-  // product - computed: true, optional: true, required: false
+  // product - computed: false, optional: true, required: false
   private _product?: string[]; 
   public get product() {
     return this.getListAttribute('product');
@@ -5674,19 +5640,19 @@ export interface HipObjectDiskEncryption {
   /**
   * Encryption locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectDiskEncryptionCriteria;
   /**
   * Exclude vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
   */
   readonly excludeVendor?: boolean | cdktf.IResolvable;
   /**
   * Vendor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#vendor HipObject#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#vendor HipObject#vendor}
   */
   readonly vendor?: HipObjectDiskEncryptionVendor[] | cdktf.IResolvable;
 }
@@ -5788,7 +5754,7 @@ export class HipObjectDiskEncryptionOutputReference extends cdktf.ComplexObject 
     }
   }
 
-  // criteria - computed: true, optional: true, required: false
+  // criteria - computed: false, optional: true, required: false
   private _criteria = new HipObjectDiskEncryptionCriteriaOutputReference(this, "criteria");
   public get criteria() {
     return this._criteria;
@@ -5820,7 +5786,7 @@ export class HipObjectDiskEncryptionOutputReference extends cdktf.ComplexObject 
     return this._excludeVendor;
   }
 
-  // vendor - computed: true, optional: true, required: false
+  // vendor - computed: false, optional: true, required: false
   private _vendor = new HipObjectDiskEncryptionVendorList(this, "vendor", false);
   public get vendor() {
     return this._vendor;
@@ -5840,13 +5806,13 @@ export interface HipObjectFirewallCriteria {
   /**
   * is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_enabled HipObject#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_enabled HipObject#is_enabled}
   */
   readonly isEnabled?: string;
   /**
   * Is Installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_installed HipObject#is_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_installed HipObject#is_installed}
   */
   readonly isInstalled?: boolean | cdktf.IResolvable;
 }
@@ -5935,7 +5901,7 @@ export class HipObjectFirewallCriteriaOutputReference extends cdktf.ComplexObjec
     }
   }
 
-  // is_enabled - computed: true, optional: true, required: false
+  // is_enabled - computed: false, optional: true, required: false
   private _isEnabled?: string; 
   public get isEnabled() {
     return this.getStringAttribute('is_enabled');
@@ -5971,13 +5937,13 @@ export interface HipObjectFirewallVendor {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#product HipObject#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#product HipObject#product}
   */
   readonly product?: string[];
 }
@@ -6068,7 +6034,7 @@ export class HipObjectFirewallVendorOutputReference extends cdktf.ComplexObject 
     }
   }
 
-  // name - computed: true, optional: false, required: true
+  // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -6081,7 +6047,7 @@ export class HipObjectFirewallVendorOutputReference extends cdktf.ComplexObject 
     return this._name;
   }
 
-  // product - computed: true, optional: true, required: false
+  // product - computed: false, optional: true, required: false
   private _product?: string[]; 
   public get product() {
     return this.getListAttribute('product');
@@ -6121,19 +6087,19 @@ export interface HipObjectFirewall {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectFirewallCriteria;
   /**
   * Exclude vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
   */
   readonly excludeVendor?: boolean | cdktf.IResolvable;
   /**
   * Vendor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#vendor HipObject#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#vendor HipObject#vendor}
   */
   readonly vendor?: HipObjectFirewallVendor[] | cdktf.IResolvable;
 }
@@ -6235,7 +6201,7 @@ export class HipObjectFirewallOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // criteria - computed: true, optional: true, required: false
+  // criteria - computed: false, optional: true, required: false
   private _criteria = new HipObjectFirewallCriteriaOutputReference(this, "criteria");
   public get criteria() {
     return this._criteria;
@@ -6267,7 +6233,7 @@ export class HipObjectFirewallOutputReference extends cdktf.ComplexObject {
     return this._excludeVendor;
   }
 
-  // vendor - computed: true, optional: true, required: false
+  // vendor - computed: false, optional: true, required: false
   private _vendor = new HipObjectFirewallVendorList(this, "vendor", false);
   public get vendor() {
     return this._vendor;
@@ -6286,26 +6252,23 @@ export class HipObjectFirewallOutputReference extends cdktf.ComplexObject {
 export interface HipObjectHostInfoCriteriaClientVersion {
   /**
   * Contains
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -6458,26 +6421,23 @@ export class HipObjectHostInfoCriteriaClientVersionOutputReference extends cdktf
 export interface HipObjectHostInfoCriteriaDomain {
   /**
   * Contains
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -6630,26 +6590,23 @@ export class HipObjectHostInfoCriteriaDomainOutputReference extends cdktf.Comple
 export interface HipObjectHostInfoCriteriaHostId {
   /**
   * Contains
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -6802,26 +6759,23 @@ export class HipObjectHostInfoCriteriaHostIdOutputReference extends cdktf.Comple
 export interface HipObjectHostInfoCriteriaHostName {
   /**
   * Contains
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -6975,31 +6929,31 @@ export interface HipObjectHostInfoCriteriaOsContains {
   /**
   * Apple
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#apple HipObject#apple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#apple HipObject#apple}
   */
   readonly apple?: string;
   /**
   * Google
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#google HipObject#google}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#google HipObject#google}
   */
   readonly google?: string;
   /**
   * Linux
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#linux HipObject#linux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#linux HipObject#linux}
   */
   readonly linux?: string;
   /**
   * Microsoft
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#microsoft HipObject#microsoft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#microsoft HipObject#microsoft}
   */
   readonly microsoft?: string;
   /**
   * Other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#other HipObject#other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#other HipObject#other}
   */
   readonly other?: string;
 }
@@ -7211,7 +7165,7 @@ export interface HipObjectHostInfoCriteriaOs {
   /**
   * Contains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: HipObjectHostInfoCriteriaOsContains;
 }
@@ -7306,26 +7260,23 @@ export class HipObjectHostInfoCriteriaOsOutputReference extends cdktf.ComplexObj
 export interface HipObjectHostInfoCriteriaSerialNumber {
   /**
   * Contains
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -7479,43 +7430,43 @@ export interface HipObjectHostInfoCriteria {
   /**
   * Client version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#client_version HipObject#client_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#client_version HipObject#client_version}
   */
   readonly clientVersion?: HipObjectHostInfoCriteriaClientVersion;
   /**
   * Domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#domain HipObject#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#domain HipObject#domain}
   */
   readonly domain?: HipObjectHostInfoCriteriaDomain;
   /**
   * Host id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#host_id HipObject#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#host_id HipObject#host_id}
   */
   readonly hostId?: HipObjectHostInfoCriteriaHostId;
   /**
   * Host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#host_name HipObject#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#host_name HipObject#host_name}
   */
   readonly hostName?: HipObjectHostInfoCriteriaHostName;
   /**
   * If device is managed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#managed HipObject#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#managed HipObject#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
   * Os
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#os HipObject#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#os HipObject#os}
   */
   readonly os?: HipObjectHostInfoCriteriaOs;
   /**
   * Serial number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#serial_number HipObject#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#serial_number HipObject#serial_number}
   */
   readonly serialNumber?: HipObjectHostInfoCriteriaSerialNumber;
 }
@@ -7785,7 +7736,7 @@ export interface HipObjectHostInfo {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria: HipObjectHostInfoCriteria;
 }
@@ -7937,19 +7888,19 @@ export interface HipObjectMobileDeviceCriteriaApplicationsHasMalwareYesExcludes 
   /**
   * application hash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#hash HipObject#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#hash HipObject#hash}
   */
   readonly hash?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * application package name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#package HipObject#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#package HipObject#package}
   */
   readonly package?: string;
 }
@@ -8122,7 +8073,7 @@ export interface HipObjectMobileDeviceCriteriaApplicationsHasMalwareYes {
   /**
   * Excludes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#excludes HipObject#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#excludes HipObject#excludes}
   */
   readonly excludes?: HipObjectMobileDeviceCriteriaApplicationsHasMalwareYesExcludes[] | cdktf.IResolvable;
 }
@@ -8217,18 +8168,16 @@ export class HipObjectMobileDeviceCriteriaApplicationsHasMalwareYesOutputReferen
 export interface HipObjectMobileDeviceCriteriaApplicationsHasMalware {
   /**
   * No
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `no` and `yes`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#no HipObject#no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#no HipObject#no}
   */
   readonly no?: HipObjectMobileDeviceCriteriaApplicationsHasMalwareNo;
   /**
   * Yes
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `no` and `yes`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#yes HipObject#yes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#yes HipObject#yes}
   */
   readonly yes?: HipObjectMobileDeviceCriteriaApplicationsHasMalwareYes;
 }
@@ -8353,19 +8302,19 @@ export interface HipObjectMobileDeviceCriteriaApplicationsIncludes {
   /**
   * application hash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#hash HipObject#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#hash HipObject#hash}
   */
   readonly hash?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * application package name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#package HipObject#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#package HipObject#package}
   */
   readonly package?: string;
 }
@@ -8538,19 +8487,19 @@ export interface HipObjectMobileDeviceCriteriaApplications {
   /**
   * Has malware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#has_malware HipObject#has_malware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#has_malware HipObject#has_malware}
   */
   readonly hasMalware?: HipObjectMobileDeviceCriteriaApplicationsHasMalware;
   /**
   * Has apps that are not managed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#has_unmanaged_app HipObject#has_unmanaged_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#has_unmanaged_app HipObject#has_unmanaged_app}
   */
   readonly hasUnmanagedApp?: boolean | cdktf.IResolvable;
   /**
   * Includes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#includes HipObject#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#includes HipObject#includes}
   */
   readonly includes?: HipObjectMobileDeviceCriteriaApplicationsIncludes[] | cdktf.IResolvable;
 }
@@ -8703,26 +8652,23 @@ export class HipObjectMobileDeviceCriteriaApplicationsOutputReference extends cd
 export interface HipObjectMobileDeviceCriteriaImei {
   /**
   * Contains
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -8876,7 +8822,7 @@ export interface HipObjectMobileDeviceCriteriaLastCheckinTimeNotWithin {
   /**
   * specify time in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#days HipObject#days}
   */
   readonly days: number;
 }
@@ -8969,7 +8915,7 @@ export interface HipObjectMobileDeviceCriteriaLastCheckinTimeWithin {
   /**
   * specify time in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#days HipObject#days}
   */
   readonly days: number;
 }
@@ -9061,18 +9007,16 @@ export class HipObjectMobileDeviceCriteriaLastCheckinTimeWithinOutputReference e
 export interface HipObjectMobileDeviceCriteriaLastCheckinTime {
   /**
   * Not within
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `not_within` and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#not_within HipObject#not_within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#not_within HipObject#not_within}
   */
   readonly notWithin?: HipObjectMobileDeviceCriteriaLastCheckinTimeNotWithin;
   /**
   * Within
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `not_within` and `within`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#within HipObject#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#within HipObject#within}
   */
   readonly within?: HipObjectMobileDeviceCriteriaLastCheckinTimeWithin;
 }
@@ -9196,26 +9140,23 @@ export class HipObjectMobileDeviceCriteriaLastCheckinTimeOutputReference extends
 export interface HipObjectMobileDeviceCriteriaModel {
   /**
   * Contains
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -9368,26 +9309,23 @@ export class HipObjectMobileDeviceCriteriaModelOutputReference extends cdktf.Com
 export interface HipObjectMobileDeviceCriteriaPhoneNumber {
   /**
   * Contains
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -9540,26 +9478,23 @@ export class HipObjectMobileDeviceCriteriaPhoneNumberOutputReference extends cdk
 export interface HipObjectMobileDeviceCriteriaTag {
   /**
   * Contains
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `contains`, `is`, and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -9713,55 +9648,55 @@ export interface HipObjectMobileDeviceCriteria {
   /**
   * Applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#applications HipObject#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#applications HipObject#applications}
   */
   readonly applications?: HipObjectMobileDeviceCriteriaApplications;
   /**
   * If device's disk is encrypted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#disk_encrypted HipObject#disk_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#disk_encrypted HipObject#disk_encrypted}
   */
   readonly diskEncrypted?: boolean | cdktf.IResolvable;
   /**
   * Imei
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#imei HipObject#imei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#imei HipObject#imei}
   */
   readonly imei?: HipObjectMobileDeviceCriteriaImei;
   /**
   * If device is by rooted/jailbroken
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#jailbroken HipObject#jailbroken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#jailbroken HipObject#jailbroken}
   */
   readonly jailbroken?: boolean | cdktf.IResolvable;
   /**
   * Last checkin time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#last_checkin_time HipObject#last_checkin_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#last_checkin_time HipObject#last_checkin_time}
   */
   readonly lastCheckinTime?: HipObjectMobileDeviceCriteriaLastCheckinTime;
   /**
   * Model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#model HipObject#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#model HipObject#model}
   */
   readonly model?: HipObjectMobileDeviceCriteriaModel;
   /**
   * If device's passcode is present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#passcode_set HipObject#passcode_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#passcode_set HipObject#passcode_set}
   */
   readonly passcodeSet?: boolean | cdktf.IResolvable;
   /**
   * Phone number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#phone_number HipObject#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#phone_number HipObject#phone_number}
   */
   readonly phoneNumber?: HipObjectMobileDeviceCriteriaPhoneNumber;
   /**
   * Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#tag HipObject#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#tag HipObject#tag}
   */
   readonly tag?: HipObjectMobileDeviceCriteriaTag;
 }
@@ -10089,7 +10024,7 @@ export interface HipObjectMobileDevice {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectMobileDeviceCriteria;
 }
@@ -10185,7 +10120,7 @@ export interface HipObjectNetworkInfoCriteriaNetworkIsMobile {
   /**
   * Carrier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#carrier HipObject#carrier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#carrier HipObject#carrier}
   */
   readonly carrier?: string;
 }
@@ -10340,7 +10275,7 @@ export interface HipObjectNetworkInfoCriteriaNetworkIsWifi {
   /**
   * SSID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#ssid HipObject#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#ssid HipObject#ssid}
   */
   readonly ssid?: string;
 }
@@ -10435,26 +10370,23 @@ export class HipObjectNetworkInfoCriteriaNetworkIsWifiOutputReference extends cd
 export interface HipObjectNetworkInfoCriteriaNetworkIs {
   /**
   * Mobile
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `mobile`, `unknown`, and `wifi`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#mobile HipObject#mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#mobile HipObject#mobile}
   */
   readonly mobile?: HipObjectNetworkInfoCriteriaNetworkIsMobile;
   /**
   * Unknown
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `mobile`, `unknown`, and `wifi`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#unknown HipObject#unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#unknown HipObject#unknown}
   */
   readonly unknown?: HipObjectNetworkInfoCriteriaNetworkIsUnknown;
   /**
   * Wifi
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `mobile`, `unknown`, and `wifi`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#wifi HipObject#wifi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#wifi HipObject#wifi}
   */
   readonly wifi?: HipObjectNetworkInfoCriteriaNetworkIsWifi;
 }
@@ -10667,7 +10599,7 @@ export interface HipObjectNetworkInfoCriteriaNetworkIsNotMobile {
   /**
   * Carrier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#carrier HipObject#carrier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#carrier HipObject#carrier}
   */
   readonly carrier?: string;
 }
@@ -10822,7 +10754,7 @@ export interface HipObjectNetworkInfoCriteriaNetworkIsNotWifi {
   /**
   * SSID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#ssid HipObject#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#ssid HipObject#ssid}
   */
   readonly ssid?: string;
 }
@@ -10917,34 +10849,30 @@ export class HipObjectNetworkInfoCriteriaNetworkIsNotWifiOutputReference extends
 export interface HipObjectNetworkInfoCriteriaNetworkIsNot {
   /**
   * Ethernet
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `ethernet`, `mobile`, `unknown`, and `wifi`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#ethernet HipObject#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#ethernet HipObject#ethernet}
   */
   readonly ethernet?: HipObjectNetworkInfoCriteriaNetworkIsNotEthernet;
   /**
   * Mobile
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `ethernet`, `mobile`, `unknown`, and `wifi`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#mobile HipObject#mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#mobile HipObject#mobile}
   */
   readonly mobile?: HipObjectNetworkInfoCriteriaNetworkIsNotMobile;
   /**
   * Unknown
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `ethernet`, `mobile`, `unknown`, and `wifi`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#unknown HipObject#unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#unknown HipObject#unknown}
   */
   readonly unknown?: HipObjectNetworkInfoCriteriaNetworkIsNotUnknown;
   /**
   * Wifi
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `ethernet`, `mobile`, `unknown`, and `wifi`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#wifi HipObject#wifi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#wifi HipObject#wifi}
   */
   readonly wifi?: HipObjectNetworkInfoCriteriaNetworkIsNotWifi;
 }
@@ -11126,18 +11054,16 @@ export class HipObjectNetworkInfoCriteriaNetworkIsNotOutputReference extends cdk
 export interface HipObjectNetworkInfoCriteriaNetwork {
   /**
   * Is
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `is` and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: HipObjectNetworkInfoCriteriaNetworkIs;
   /**
   * Is not
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `is` and `is_not`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: HipObjectNetworkInfoCriteriaNetworkIsNot;
 }
@@ -11262,7 +11188,7 @@ export interface HipObjectNetworkInfoCriteria {
   /**
   * Network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#network HipObject#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#network HipObject#network}
   */
   readonly network?: HipObjectNetworkInfoCriteriaNetwork;
 }
@@ -11358,7 +11284,7 @@ export interface HipObjectNetworkInfo {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectNetworkInfoCriteria;
 }
@@ -11453,50 +11379,44 @@ export class HipObjectNetworkInfoOutputReference extends cdktf.ComplexObject {
 export interface HipObjectPatchManagementCriteriaMissingPatchesSeverity {
   /**
   * Greater equal
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, and `less_than`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#greater_equal HipObject#greater_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#greater_equal HipObject#greater_equal}
   */
   readonly greaterEqual?: number;
   /**
   * Greater than
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, and `less_than`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#greater_than HipObject#greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#greater_than HipObject#greater_than}
   */
   readonly greaterThan?: number;
   /**
   * Is
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, and `less_than`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: number;
   /**
   * Is not
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, and `less_than`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: number;
   /**
   * Less equal
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, and `less_than`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#less_equal HipObject#less_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#less_equal HipObject#less_equal}
   */
   readonly lessEqual?: number;
   /**
   * Less than
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `greater_equal`, `greater_than`, `is`, `is_not`, `less_equal`, and `less_than`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#less_than HipObject#less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#less_than HipObject#less_than}
   */
   readonly lessThan?: number;
 }
@@ -11637,7 +11557,7 @@ export class HipObjectPatchManagementCriteriaMissingPatchesSeverityOutputReferen
     }
   }
 
-  // greater_equal - computed: true, optional: true, required: false
+  // greater_equal - computed: false, optional: true, required: false
   private _greaterEqual?: number; 
   public get greaterEqual() {
     return this.getNumberAttribute('greater_equal');
@@ -11653,7 +11573,7 @@ export class HipObjectPatchManagementCriteriaMissingPatchesSeverityOutputReferen
     return this._greaterEqual;
   }
 
-  // greater_than - computed: true, optional: true, required: false
+  // greater_than - computed: false, optional: true, required: false
   private _greaterThan?: number; 
   public get greaterThan() {
     return this.getNumberAttribute('greater_than');
@@ -11669,7 +11589,7 @@ export class HipObjectPatchManagementCriteriaMissingPatchesSeverityOutputReferen
     return this._greaterThan;
   }
 
-  // is - computed: true, optional: true, required: false
+  // is - computed: false, optional: true, required: false
   private _is?: number; 
   public get is() {
     return this.getNumberAttribute('is');
@@ -11685,7 +11605,7 @@ export class HipObjectPatchManagementCriteriaMissingPatchesSeverityOutputReferen
     return this._is;
   }
 
-  // is_not - computed: true, optional: true, required: false
+  // is_not - computed: false, optional: true, required: false
   private _isNot?: number; 
   public get isNot() {
     return this.getNumberAttribute('is_not');
@@ -11701,7 +11621,7 @@ export class HipObjectPatchManagementCriteriaMissingPatchesSeverityOutputReferen
     return this._isNot;
   }
 
-  // less_equal - computed: true, optional: true, required: false
+  // less_equal - computed: false, optional: true, required: false
   private _lessEqual?: number; 
   public get lessEqual() {
     return this.getNumberAttribute('less_equal');
@@ -11717,7 +11637,7 @@ export class HipObjectPatchManagementCriteriaMissingPatchesSeverityOutputReferen
     return this._lessEqual;
   }
 
-  // less_than - computed: true, optional: true, required: false
+  // less_than - computed: false, optional: true, required: false
   private _lessThan?: number; 
   public get lessThan() {
     return this.getNumberAttribute('less_than');
@@ -11737,19 +11657,19 @@ export interface HipObjectPatchManagementCriteriaMissingPatches {
   /**
   * Check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#check HipObject#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#check HipObject#check}
   */
   readonly check: string;
   /**
   * Patches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#patches HipObject#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#patches HipObject#patches}
   */
   readonly patches?: string[];
   /**
   * Severity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#severity HipObject#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#severity HipObject#severity}
   */
   readonly severity?: HipObjectPatchManagementCriteriaMissingPatchesSeverity;
 }
@@ -11851,7 +11771,7 @@ export class HipObjectPatchManagementCriteriaMissingPatchesOutputReference exten
     }
   }
 
-  // check - computed: true, optional: false, required: true
+  // check - computed: false, optional: false, required: true
   private _check?: string; 
   public get check() {
     return this.getStringAttribute('check');
@@ -11864,7 +11784,7 @@ export class HipObjectPatchManagementCriteriaMissingPatchesOutputReference exten
     return this._check;
   }
 
-  // patches - computed: true, optional: true, required: false
+  // patches - computed: false, optional: true, required: false
   private _patches?: string[]; 
   public get patches() {
     return this.getListAttribute('patches');
@@ -11880,7 +11800,7 @@ export class HipObjectPatchManagementCriteriaMissingPatchesOutputReference exten
     return this._patches;
   }
 
-  // severity - computed: true, optional: true, required: false
+  // severity - computed: false, optional: true, required: false
   private _severity = new HipObjectPatchManagementCriteriaMissingPatchesSeverityOutputReference(this, "severity");
   public get severity() {
     return this._severity;
@@ -11900,19 +11820,19 @@ export interface HipObjectPatchManagementCriteria {
   /**
   * is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_enabled HipObject#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_enabled HipObject#is_enabled}
   */
   readonly isEnabled?: string;
   /**
   * Is Installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#is_installed HipObject#is_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#is_installed HipObject#is_installed}
   */
   readonly isInstalled?: boolean | cdktf.IResolvable;
   /**
   * Missing patches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#missing_patches HipObject#missing_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#missing_patches HipObject#missing_patches}
   */
   readonly missingPatches?: HipObjectPatchManagementCriteriaMissingPatches;
 }
@@ -12014,7 +11934,7 @@ export class HipObjectPatchManagementCriteriaOutputReference extends cdktf.Compl
     }
   }
 
-  // is_enabled - computed: true, optional: true, required: false
+  // is_enabled - computed: false, optional: true, required: false
   private _isEnabled?: string; 
   public get isEnabled() {
     return this.getStringAttribute('is_enabled');
@@ -12046,7 +11966,7 @@ export class HipObjectPatchManagementCriteriaOutputReference extends cdktf.Compl
     return this._isInstalled;
   }
 
-  // missing_patches - computed: true, optional: true, required: false
+  // missing_patches - computed: false, optional: true, required: false
   private _missingPatches = new HipObjectPatchManagementCriteriaMissingPatchesOutputReference(this, "missing_patches");
   public get missingPatches() {
     return this._missingPatches;
@@ -12066,13 +11986,13 @@ export interface HipObjectPatchManagementVendor {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Product name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#product HipObject#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#product HipObject#product}
   */
   readonly product?: string[];
 }
@@ -12163,7 +12083,7 @@ export class HipObjectPatchManagementVendorOutputReference extends cdktf.Complex
     }
   }
 
-  // name - computed: true, optional: false, required: true
+  // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -12176,7 +12096,7 @@ export class HipObjectPatchManagementVendorOutputReference extends cdktf.Complex
     return this._name;
   }
 
-  // product - computed: true, optional: true, required: false
+  // product - computed: false, optional: true, required: false
   private _product?: string[]; 
   public get product() {
     return this.getListAttribute('product');
@@ -12216,19 +12136,19 @@ export interface HipObjectPatchManagement {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectPatchManagementCriteria;
   /**
   * Exclude vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
   */
   readonly excludeVendor?: boolean | cdktf.IResolvable;
   /**
   * Vendor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#vendor HipObject#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#vendor HipObject#vendor}
   */
   readonly vendor?: HipObjectPatchManagementVendor[] | cdktf.IResolvable;
 }
@@ -12330,7 +12250,7 @@ export class HipObjectPatchManagementOutputReference extends cdktf.ComplexObject
     }
   }
 
-  // criteria - computed: true, optional: true, required: false
+  // criteria - computed: false, optional: true, required: false
   private _criteria = new HipObjectPatchManagementCriteriaOutputReference(this, "criteria");
   public get criteria() {
     return this._criteria;
@@ -12362,7 +12282,7 @@ export class HipObjectPatchManagementOutputReference extends cdktf.ComplexObject
     return this._excludeVendor;
   }
 
-  // vendor - computed: true, optional: true, required: false
+  // vendor - computed: false, optional: true, required: false
   private _vendor = new HipObjectPatchManagementVendorList(this, "vendor", false);
   public get vendor() {
     return this._vendor;
@@ -12380,7 +12300,7 @@ export class HipObjectPatchManagementOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object scm_hip_object}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object scm_hip_object}
 */
 export class HipObject extends cdktf.TerraformResource {
 
@@ -12396,7 +12316,7 @@ export class HipObject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HipObject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HipObject to import
-  * @param importFromId The id of the existing HipObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HipObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HipObject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12408,7 +12328,7 @@ export class HipObject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/hip_object scm_hip_object} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/hip_object scm_hip_object} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12419,8 +12339,8 @@ export class HipObject extends cdktf.TerraformResource {
       terraformResourceType: 'scm_hip_object',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -12452,7 +12372,7 @@ export class HipObject extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // anti_malware - computed: true, optional: true, required: false
+  // anti_malware - computed: false, optional: true, required: false
   private _antiMalware = new HipObjectAntiMalwareOutputReference(this, "anti_malware");
   public get antiMalware() {
     return this._antiMalware;
@@ -12500,7 +12420,7 @@ export class HipObject extends cdktf.TerraformResource {
     return this._customChecks.internalValue;
   }
 
-  // data_loss_prevention - computed: true, optional: true, required: false
+  // data_loss_prevention - computed: false, optional: true, required: false
   private _dataLossPrevention = new HipObjectDataLossPreventionOutputReference(this, "data_loss_prevention");
   public get dataLossPrevention() {
     return this._dataLossPrevention;
@@ -12548,7 +12468,7 @@ export class HipObject extends cdktf.TerraformResource {
     return this._device;
   }
 
-  // disk_backup - computed: true, optional: true, required: false
+  // disk_backup - computed: false, optional: true, required: false
   private _diskBackup = new HipObjectDiskBackupOutputReference(this, "disk_backup");
   public get diskBackup() {
     return this._diskBackup;
@@ -12564,7 +12484,7 @@ export class HipObject extends cdktf.TerraformResource {
     return this._diskBackup.internalValue;
   }
 
-  // disk_encryption - computed: true, optional: true, required: false
+  // disk_encryption - computed: false, optional: true, required: false
   private _diskEncryption = new HipObjectDiskEncryptionOutputReference(this, "disk_encryption");
   public get diskEncryption() {
     return this._diskEncryption;
@@ -12580,7 +12500,7 @@ export class HipObject extends cdktf.TerraformResource {
     return this._diskEncryption.internalValue;
   }
 
-  // firewall - computed: true, optional: true, required: false
+  // firewall - computed: false, optional: true, required: false
   private _firewall = new HipObjectFirewallOutputReference(this, "firewall");
   public get firewall() {
     return this._firewall;
@@ -12678,7 +12598,7 @@ export class HipObject extends cdktf.TerraformResource {
     return this._networkInfo.internalValue;
   }
 
-  // patch_management - computed: true, optional: true, required: false
+  // patch_management - computed: false, optional: true, required: false
   private _patchManagement = new HipObjectPatchManagementOutputReference(this, "patch_management");
   public get patchManagement() {
     return this._patchManagement;

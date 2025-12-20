@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface JourneyActionMapConfig extends cdktf.TerraformMetaArguments {
   /**
   * Display name of the action map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#display_name JourneyActionMap#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#display_name JourneyActionMap#display_name}
   */
   readonly displayName: string;
   /**
   * Timestamp at which the action map is scheduled to stop firing. Date time is represented as an ISO-8601 string without a timezone. For example: 2006-01-02T15:04:05.000000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#end_date JourneyActionMap#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#end_date JourneyActionMap#end_date}
   */
   readonly endDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#id JourneyActionMap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#id JourneyActionMap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,73 +29,73 @@ export interface JourneyActionMapConfig extends cdktf.TerraformMetaArguments {
   /**
   * Override organization-level frequency cap and always offer web engagements from this action map. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#ignore_frequency_cap JourneyActionMap#ignore_frequency_cap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#ignore_frequency_cap JourneyActionMap#ignore_frequency_cap}
   */
   readonly ignoreFrequencyCap?: boolean | cdktf.IResolvable;
   /**
   * Whether the action map is active. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#is_active JourneyActionMap#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#is_active JourneyActionMap#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Timestamp at which the action map is scheduled to start firing. Date time is represented as an ISO-8601 string without a timezone. For example: 2006-01-02T15:04:05.000000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#start_date JourneyActionMap#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#start_date JourneyActionMap#start_date}
   */
   readonly startDate: string;
   /**
   * Trigger action map if any segment in the list is assigned to a given customer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#trigger_with_segments JourneyActionMap#trigger_with_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#trigger_with_segments JourneyActionMap#trigger_with_segments}
   */
   readonly triggerWithSegments?: string[];
   /**
   * Weight of the action map with higher number denoting higher weight. Low=1, Medium=2, High=3. Defaults to `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#weight JourneyActionMap#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#weight JourneyActionMap#weight}
   */
   readonly weight?: number;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#action JourneyActionMap#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#action JourneyActionMap#action}
   */
   readonly action: JourneyActionMapAction;
   /**
   * action_map_schedule_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#action_map_schedule_groups JourneyActionMap#action_map_schedule_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#action_map_schedule_groups JourneyActionMap#action_map_schedule_groups}
   */
   readonly actionMapScheduleGroups?: JourneyActionMapActionMapScheduleGroups;
   /**
   * activation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#activation JourneyActionMap#activation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#activation JourneyActionMap#activation}
   */
   readonly activation: JourneyActionMapActivation;
   /**
   * page_url_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#page_url_conditions JourneyActionMap#page_url_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#page_url_conditions JourneyActionMap#page_url_conditions}
   */
   readonly pageUrlConditions?: JourneyActionMapPageUrlConditions[] | cdktf.IResolvable;
   /**
   * trigger_with_event_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#trigger_with_event_conditions JourneyActionMap#trigger_with_event_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#trigger_with_event_conditions JourneyActionMap#trigger_with_event_conditions}
   */
   readonly triggerWithEventConditions?: JourneyActionMapTriggerWithEventConditions[] | cdktf.IResolvable;
   /**
   * trigger_with_outcome_probability_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#trigger_with_outcome_probability_conditions JourneyActionMap#trigger_with_outcome_probability_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#trigger_with_outcome_probability_conditions JourneyActionMap#trigger_with_outcome_probability_conditions}
   */
   readonly triggerWithOutcomeProbabilityConditions?: JourneyActionMapTriggerWithOutcomeProbabilityConditions[] | cdktf.IResolvable;
   /**
   * trigger_with_outcome_quantile_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#trigger_with_outcome_quantile_conditions JourneyActionMap#trigger_with_outcome_quantile_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#trigger_with_outcome_quantile_conditions JourneyActionMap#trigger_with_outcome_quantile_conditions}
   */
   readonly triggerWithOutcomeQuantileConditions?: JourneyActionMapTriggerWithOutcomeQuantileConditions[] | cdktf.IResolvable;
 }
@@ -103,25 +103,25 @@ export interface JourneyActionMapActionArchitectFlowFieldsFlowRequestMappings {
   /**
   * Type of the value supplied. Valid values: String, Number, Integer, Boolean.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#attribute_type JourneyActionMap#attribute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#attribute_type JourneyActionMap#attribute_type}
   */
   readonly attributeType: string;
   /**
   * Method of finding value to use with Attribute. Valid values: Lookup, HardCoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#mapping_type JourneyActionMap#mapping_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#mapping_type JourneyActionMap#mapping_type}
   */
   readonly mappingType: string;
   /**
   * Name of the Integration Action Attribute to supply the value for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#name JourneyActionMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#name JourneyActionMap#name}
   */
   readonly name: string;
   /**
   * Value to supply for the specified Attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#value JourneyActionMap#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#value JourneyActionMap#value}
   */
   readonly value: string;
 }
@@ -314,13 +314,13 @@ export interface JourneyActionMapActionArchitectFlowFields {
   /**
   * The architect flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#architect_flow_id JourneyActionMap#architect_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#architect_flow_id JourneyActionMap#architect_flow_id}
   */
   readonly architectFlowId: string;
   /**
   * flow_request_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#flow_request_mappings JourneyActionMap#flow_request_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#flow_request_mappings JourneyActionMap#flow_request_mappings}
   */
   readonly flowRequestMappings?: JourneyActionMapActionArchitectFlowFieldsFlowRequestMappings[] | cdktf.IResolvable;
 }
@@ -432,7 +432,7 @@ export interface JourneyActionMapActionOpenActionFieldsOpenAction {
   /**
   * Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#id JourneyActionMap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#id JourneyActionMap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -441,7 +441,7 @@ export interface JourneyActionMapActionOpenActionFieldsOpenAction {
   /**
   * Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#name JourneyActionMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#name JourneyActionMap#name}
   */
   readonly name: string;
 }
@@ -550,13 +550,13 @@ export interface JourneyActionMapActionOpenActionFields {
   /**
   * Custom fields defined in the schema referenced by the open action type selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#configuration_fields JourneyActionMap#configuration_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#configuration_fields JourneyActionMap#configuration_fields}
   */
   readonly configurationFields?: string;
   /**
   * open_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#open_action JourneyActionMap#open_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#open_action JourneyActionMap#open_action}
   */
   readonly openAction: JourneyActionMapActionOpenActionFieldsOpenAction;
 }
@@ -668,13 +668,13 @@ export interface JourneyActionMapActionWebMessagingOfferFields {
   /**
   * Flow to be invoked, overrides default flow when specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#architect_flow_id JourneyActionMap#architect_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#architect_flow_id JourneyActionMap#architect_flow_id}
   */
   readonly architectFlowId?: string;
   /**
   * Text value to be used when inviting a visitor to engage with a web messaging offer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#offer_text JourneyActionMap#offer_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#offer_text JourneyActionMap#offer_text}
   */
   readonly offerText?: string;
 }
@@ -789,37 +789,37 @@ export interface JourneyActionMapAction {
   /**
   * Action template associated with the action map. For media type contentOffer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#action_template_id JourneyActionMap#action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#action_template_id JourneyActionMap#action_template_id}
   */
   readonly actionTemplateId?: string;
   /**
   * Whether this action should be throttled. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#is_pacing_enabled JourneyActionMap#is_pacing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#is_pacing_enabled JourneyActionMap#is_pacing_enabled}
   */
   readonly isPacingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Media type of action. Valid values: webchat, webMessagingOffer, contentOffer, architectFlow, openAction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#media_type JourneyActionMap#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#media_type JourneyActionMap#media_type}
   */
   readonly mediaType: string;
   /**
   * architect_flow_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#architect_flow_fields JourneyActionMap#architect_flow_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#architect_flow_fields JourneyActionMap#architect_flow_fields}
   */
   readonly architectFlowFields?: JourneyActionMapActionArchitectFlowFields;
   /**
   * open_action_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#open_action_fields JourneyActionMap#open_action_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#open_action_fields JourneyActionMap#open_action_fields}
   */
   readonly openActionFields?: JourneyActionMapActionOpenActionFields;
   /**
   * web_messaging_offer_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#web_messaging_offer_fields JourneyActionMap#web_messaging_offer_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#web_messaging_offer_fields JourneyActionMap#web_messaging_offer_fields}
   */
   readonly webMessagingOfferFields?: JourneyActionMapActionWebMessagingOfferFields;
 }
@@ -1047,13 +1047,13 @@ export interface JourneyActionMapActionMapScheduleGroups {
   /**
   * The actions map's associated schedule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#action_map_schedule_group_id JourneyActionMap#action_map_schedule_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#action_map_schedule_group_id JourneyActionMap#action_map_schedule_group_id}
   */
   readonly actionMapScheduleGroupId: string;
   /**
   * The action map's associated emergency schedule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#emergency_action_map_schedule_group_id JourneyActionMap#emergency_action_map_schedule_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#emergency_action_map_schedule_group_id JourneyActionMap#emergency_action_map_schedule_group_id}
   */
   readonly emergencyActionMapScheduleGroupId?: string;
 }
@@ -1165,13 +1165,13 @@ export interface JourneyActionMapActivation {
   /**
   * Activation delay time amount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#delay_in_seconds JourneyActionMap#delay_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#delay_in_seconds JourneyActionMap#delay_in_seconds}
   */
   readonly delayInSeconds?: number;
   /**
   * Type of activation. Valid values: immediate, on-next-visit, on-next-session, delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#type JourneyActionMap#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#type JourneyActionMap#type}
   */
   readonly type: string;
 }
@@ -1283,13 +1283,13 @@ export interface JourneyActionMapPageUrlConditions {
   /**
   * The comparison operator. Valid values: containsAll, containsAny, notContainsAll, notContainsAny, equal, notEqual, greaterThan, greaterThanOrEqual, lessThan, lessThanOrEqual, startsWith, endsWith.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#operator JourneyActionMap#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#operator JourneyActionMap#operator}
   */
   readonly operator: string;
   /**
   * The URL condition value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#values JourneyActionMap#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#values JourneyActionMap#values}
   */
   readonly values: string[];
 }
@@ -1430,37 +1430,37 @@ export interface JourneyActionMapTriggerWithEventConditions {
   /**
   * The name of the event for which this condition can be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#event_name JourneyActionMap#event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#event_name JourneyActionMap#event_name}
   */
   readonly eventName?: string;
   /**
   * The event key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#key JourneyActionMap#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#key JourneyActionMap#key}
   */
   readonly key: string;
   /**
   * The comparison operator. Valid values: containsAll, containsAny, notContainsAll, notContainsAny, equal, notEqual, greaterThan, greaterThanOrEqual, lessThan, lessThanOrEqual, startsWith, endsWith. Defaults to `equal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#operator JourneyActionMap#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#operator JourneyActionMap#operator}
   */
   readonly operator?: string;
   /**
   * The session type for which this condition can be satisfied. Valid values: web, app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#session_type JourneyActionMap#session_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#session_type JourneyActionMap#session_type}
   */
   readonly sessionType: string;
   /**
   * The stream type for which this condition can be satisfied. Valid values: Web, App.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#stream_type JourneyActionMap#stream_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#stream_type JourneyActionMap#stream_type}
   */
   readonly streamType: string;
   /**
   * The event values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#values JourneyActionMap#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#values JourneyActionMap#values}
   */
   readonly values: string[];
 }
@@ -1711,19 +1711,19 @@ export interface JourneyActionMapTriggerWithOutcomeProbabilityConditions {
   /**
   * Probability value for the selected outcome at or above which the action map will trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#maximum_probability JourneyActionMap#maximum_probability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#maximum_probability JourneyActionMap#maximum_probability}
   */
   readonly maximumProbability: number;
   /**
   * The outcome ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#outcome_id JourneyActionMap#outcome_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#outcome_id JourneyActionMap#outcome_id}
   */
   readonly outcomeId: string;
   /**
   * Additional probability condition, where if set, the action map will trigger if the current outcome probability is lower or equal to the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#probability JourneyActionMap#probability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#probability JourneyActionMap#probability}
   */
   readonly probability?: number;
 }
@@ -1893,19 +1893,19 @@ export interface JourneyActionMapTriggerWithOutcomeQuantileConditions {
   /**
   * If set, this Condition is met when max_quantile_threshold is met, AND the current quantile of the OutcomeScore is below this fallback_quantile_threshold. Range 0.00-1.00
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#fallback_quantile_threshold JourneyActionMap#fallback_quantile_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#fallback_quantile_threshold JourneyActionMap#fallback_quantile_threshold}
   */
   readonly fallbackQuantileThreshold?: number;
   /**
   * This Outcome Quantile Condition is met when sessionMaxQuantile of the OutcomeScore is above this value, (unless fallbackQuantile is set). Range 0.00-1.00
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#max_quantile_threshold JourneyActionMap#max_quantile_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#max_quantile_threshold JourneyActionMap#max_quantile_threshold}
   */
   readonly maxQuantileThreshold: number;
   /**
   * The outcome ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#outcome_id JourneyActionMap#outcome_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#outcome_id JourneyActionMap#outcome_id}
   */
   readonly outcomeId: string;
 }
@@ -2073,7 +2073,7 @@ export class JourneyActionMapTriggerWithOutcomeQuantileConditionsList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map genesyscloud_journey_action_map}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map genesyscloud_journey_action_map}
 */
 export class JourneyActionMap extends cdktf.TerraformResource {
 
@@ -2089,7 +2089,7 @@ export class JourneyActionMap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JourneyActionMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JourneyActionMap to import
-  * @param importFromId The id of the existing JourneyActionMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JourneyActionMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JourneyActionMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2101,7 +2101,7 @@ export class JourneyActionMap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/journey_action_map genesyscloud_journey_action_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/journey_action_map genesyscloud_journey_action_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2112,8 +2112,8 @@ export class JourneyActionMap extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_journey_action_map',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

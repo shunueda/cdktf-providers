@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#annotations Namespace#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#annotations Namespace#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Description of the k8s namespace managed by rancher v2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#description Namespace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#description Namespace#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#id Namespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#id Namespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface NamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#labels Namespace#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#labels Namespace#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the k8s namespace managed by rancher v2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#name Namespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#name Namespace#name}
   */
   readonly name: string;
   /**
   * Project ID where k8s namespace belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#project_id Namespace#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#project_id Namespace#project_id}
   */
   readonly projectId: string;
   /**
   * Wait for cluster becomes active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#wait_for_cluster Namespace#wait_for_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#wait_for_cluster Namespace#wait_for_cluster}
   */
   readonly waitForCluster?: boolean | cdktf.IResolvable;
   /**
   * container_resource_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#container_resource_limit Namespace#container_resource_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#container_resource_limit Namespace#container_resource_limit}
   */
   readonly containerResourceLimit?: NamespaceContainerResourceLimit;
   /**
   * resource_quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#resource_quota Namespace#resource_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#resource_quota Namespace#resource_quota}
   */
   readonly resourceQuota?: NamespaceResourceQuota;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#timeouts Namespace#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#timeouts Namespace#timeouts}
   */
   readonly timeouts?: NamespaceTimeouts;
 }
 export interface NamespaceContainerResourceLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#limits_cpu Namespace#limits_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#limits_cpu Namespace#limits_cpu}
   */
   readonly limitsCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#limits_memory Namespace#limits_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#limits_memory Namespace#limits_memory}
   */
   readonly limitsMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#requests_cpu Namespace#requests_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#requests_cpu Namespace#requests_cpu}
   */
   readonly requestsCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#requests_memory Namespace#requests_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#requests_memory Namespace#requests_memory}
   */
   readonly requestsMemory?: string;
 }
@@ -254,55 +254,55 @@ export class NamespaceContainerResourceLimitOutputReference extends cdktf.Comple
 }
 export interface NamespaceResourceQuotaLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#config_maps Namespace#config_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#config_maps Namespace#config_maps}
   */
   readonly configMaps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#limits_cpu Namespace#limits_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#limits_cpu Namespace#limits_cpu}
   */
   readonly limitsCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#limits_memory Namespace#limits_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#limits_memory Namespace#limits_memory}
   */
   readonly limitsMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#persistent_volume_claims Namespace#persistent_volume_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#persistent_volume_claims Namespace#persistent_volume_claims}
   */
   readonly persistentVolumeClaims?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#pods Namespace#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#pods Namespace#pods}
   */
   readonly pods?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#replication_controllers Namespace#replication_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#replication_controllers Namespace#replication_controllers}
   */
   readonly replicationControllers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#requests_cpu Namespace#requests_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#requests_cpu Namespace#requests_cpu}
   */
   readonly requestsCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#requests_memory Namespace#requests_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#requests_memory Namespace#requests_memory}
   */
   readonly requestsMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#requests_storage Namespace#requests_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#requests_storage Namespace#requests_storage}
   */
   readonly requestsStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#secrets Namespace#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#secrets Namespace#secrets}
   */
   readonly secrets?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#services Namespace#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#services Namespace#services}
   */
   readonly services?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#services_load_balancers Namespace#services_load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#services_load_balancers Namespace#services_load_balancers}
   */
   readonly servicesLoadBalancers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#services_node_ports Namespace#services_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#services_node_ports Namespace#services_node_ports}
   */
   readonly servicesNodePorts?: string;
 }
@@ -736,7 +736,7 @@ export interface NamespaceResourceQuota {
   /**
   * limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#limit Namespace#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#limit Namespace#limit}
   */
   readonly limit: NamespaceResourceQuotaLimit;
 }
@@ -817,15 +817,15 @@ export class NamespaceResourceQuotaOutputReference extends cdktf.ComplexObject {
 }
 export interface NamespaceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#create Namespace#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#create Namespace#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#delete Namespace#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#delete Namespace#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#update Namespace#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#update Namespace#update}
   */
   readonly update?: string;
 }
@@ -977,7 +977,7 @@ export class NamespaceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace rancher2_namespace}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace rancher2_namespace}
 */
 export class Namespace extends cdktf.TerraformResource {
 
@@ -993,7 +993,7 @@ export class Namespace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Namespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Namespace to import
-  * @param importFromId The id of the existing Namespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Namespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Namespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1005,7 +1005,7 @@ export class Namespace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/namespace rancher2_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/namespace rancher2_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1016,8 +1016,8 @@ export class Namespace extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_namespace',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

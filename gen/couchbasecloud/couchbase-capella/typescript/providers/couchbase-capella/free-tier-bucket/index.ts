@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_bucket
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface FreeTierBucketConfig extends cdktf.TerraformMetaArguments {
   /**
-  *  The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_bucket#cluster_id FreeTierBucket#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_bucket#cluster_id FreeTierBucket#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Bucket size allocation in MB.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_bucket#memory_allocation_in_mb FreeTierBucket#memory_allocation_in_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_bucket#memory_allocation_in_mb FreeTierBucket#memory_allocation_in_mb}
   */
   readonly memoryAllocationInMb?: number;
   /**
-  * Name of the free tier bucket.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_bucket#name FreeTierBucket#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_bucket#name FreeTierBucket#name}
   */
   readonly name: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_bucket#organization_id FreeTierBucket#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_bucket#organization_id FreeTierBucket#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_bucket#project_id FreeTierBucket#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_bucket#project_id FreeTierBucket#project_id}
   */
   readonly projectId: string;
 }
@@ -109,7 +99,7 @@ export class FreeTierBucketStatsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_bucket couchbase-capella_free_tier_bucket}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_bucket couchbase-capella_free_tier_bucket}
 */
 export class FreeTierBucket extends cdktf.TerraformResource {
 
@@ -125,7 +115,7 @@ export class FreeTierBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FreeTierBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FreeTierBucket to import
-  * @param importFromId The id of the existing FreeTierBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FreeTierBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FreeTierBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +127,7 @@ export class FreeTierBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_bucket couchbase-capella_free_tier_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_bucket couchbase-capella_free_tier_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +138,8 @@ export class FreeTierBucket extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_free_tier_bucket',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

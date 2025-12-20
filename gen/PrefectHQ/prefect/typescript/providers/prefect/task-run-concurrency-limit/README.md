@@ -1,3 +1,3 @@
 # `prefect_task_run_concurrency_limit`
 
-Refer to the Terraform Registry for docs: [`prefect_task_run_concurrency_limit`](https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/task_run_concurrency_limit).
+Refer to the Terraform Registry for docs: [`prefect_task_run_concurrency_limit`](https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/task_run_concurrency_limit).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OutboundAttemptLimitConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#id OutboundAttemptLimit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#id OutboundAttemptLimit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface OutboundAttemptLimitConfig extends cdktf.TerraformMetaArguments
   /**
   * The maximum number of times a contact can be called within the resetPeriod. Required if maxAttemptsPerNumber is not defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#max_attempts_per_contact OutboundAttemptLimit#max_attempts_per_contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#max_attempts_per_contact OutboundAttemptLimit#max_attempts_per_contact}
   */
   readonly maxAttemptsPerContact?: number;
   /**
   * The maximum number of times a phone number can be called within the resetPeriod. Required if maxAttemptsPerContact is not defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#max_attempts_per_number OutboundAttemptLimit#max_attempts_per_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#max_attempts_per_number OutboundAttemptLimit#max_attempts_per_number}
   */
   readonly maxAttemptsPerNumber?: number;
   /**
   * The name for the attempt limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#name OutboundAttemptLimit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#name OutboundAttemptLimit#name}
   */
   readonly name?: string;
   /**
   * After how long the number of attempts will be set back to 0. Defaults to `NEVER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#reset_period OutboundAttemptLimit#reset_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#reset_period OutboundAttemptLimit#reset_period}
   */
   readonly resetPeriod?: string;
   /**
   * If the resetPeriod is TODAY, this specifies the timezone in which TODAY occurs. Required if the resetPeriod is TODAY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#time_zone_id OutboundAttemptLimit#time_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#time_zone_id OutboundAttemptLimit#time_zone_id}
   */
   readonly timeZoneId?: string;
   /**
   * recall_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#recall_entries OutboundAttemptLimit#recall_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#recall_entries OutboundAttemptLimit#recall_entries}
   */
   readonly recallEntries?: OutboundAttemptLimitRecallEntries;
 }
@@ -55,13 +55,13 @@ export interface OutboundAttemptLimitRecallEntriesAnsweringMachine {
   /**
   * Number of minutes between attempts. Must be greater than or equal to 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#minutes_between_attempts OutboundAttemptLimit#minutes_between_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#minutes_between_attempts OutboundAttemptLimit#minutes_between_attempts}
   */
   readonly minutesBetweenAttempts: number;
   /**
   * Number of recall attempts. Must be less than max_attempts_per_contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#nbr_attempts OutboundAttemptLimit#nbr_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#nbr_attempts OutboundAttemptLimit#nbr_attempts}
   */
   readonly nbrAttempts?: number;
 }
@@ -173,13 +173,13 @@ export interface OutboundAttemptLimitRecallEntriesBusy {
   /**
   * Number of minutes between attempts. Must be greater than or equal to 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#minutes_between_attempts OutboundAttemptLimit#minutes_between_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#minutes_between_attempts OutboundAttemptLimit#minutes_between_attempts}
   */
   readonly minutesBetweenAttempts: number;
   /**
   * Number of recall attempts. Must be less than max_attempts_per_contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#nbr_attempts OutboundAttemptLimit#nbr_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#nbr_attempts OutboundAttemptLimit#nbr_attempts}
   */
   readonly nbrAttempts?: number;
 }
@@ -291,13 +291,13 @@ export interface OutboundAttemptLimitRecallEntriesFax {
   /**
   * Number of minutes between attempts. Must be greater than or equal to 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#minutes_between_attempts OutboundAttemptLimit#minutes_between_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#minutes_between_attempts OutboundAttemptLimit#minutes_between_attempts}
   */
   readonly minutesBetweenAttempts: number;
   /**
   * Number of recall attempts. Must be less than max_attempts_per_contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#nbr_attempts OutboundAttemptLimit#nbr_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#nbr_attempts OutboundAttemptLimit#nbr_attempts}
   */
   readonly nbrAttempts?: number;
 }
@@ -409,13 +409,13 @@ export interface OutboundAttemptLimitRecallEntriesNoAnswer {
   /**
   * Number of minutes between attempts. Must be greater than or equal to 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#minutes_between_attempts OutboundAttemptLimit#minutes_between_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#minutes_between_attempts OutboundAttemptLimit#minutes_between_attempts}
   */
   readonly minutesBetweenAttempts: number;
   /**
   * Number of recall attempts. Must be less than max_attempts_per_contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#nbr_attempts OutboundAttemptLimit#nbr_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#nbr_attempts OutboundAttemptLimit#nbr_attempts}
   */
   readonly nbrAttempts?: number;
 }
@@ -527,25 +527,25 @@ export interface OutboundAttemptLimitRecallEntries {
   /**
   * answering_machine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#answering_machine OutboundAttemptLimit#answering_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#answering_machine OutboundAttemptLimit#answering_machine}
   */
   readonly answeringMachine?: OutboundAttemptLimitRecallEntriesAnsweringMachine;
   /**
   * busy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#busy OutboundAttemptLimit#busy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#busy OutboundAttemptLimit#busy}
   */
   readonly busy?: OutboundAttemptLimitRecallEntriesBusy;
   /**
   * fax block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#fax OutboundAttemptLimit#fax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#fax OutboundAttemptLimit#fax}
   */
   readonly fax?: OutboundAttemptLimitRecallEntriesFax;
   /**
   * no_answer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#no_answer OutboundAttemptLimit#no_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#no_answer OutboundAttemptLimit#no_answer}
   */
   readonly noAnswer?: OutboundAttemptLimitRecallEntriesNoAnswer;
 }
@@ -716,7 +716,7 @@ export class OutboundAttemptLimitRecallEntriesOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit genesyscloud_outbound_attempt_limit}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit genesyscloud_outbound_attempt_limit}
 */
 export class OutboundAttemptLimit extends cdktf.TerraformResource {
 
@@ -732,7 +732,7 @@ export class OutboundAttemptLimit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundAttemptLimit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundAttemptLimit to import
-  * @param importFromId The id of the existing OutboundAttemptLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundAttemptLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundAttemptLimit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -744,7 +744,7 @@ export class OutboundAttemptLimit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_attempt_limit genesyscloud_outbound_attempt_limit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_attempt_limit genesyscloud_outbound_attempt_limit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -755,8 +755,8 @@ export class OutboundAttemptLimit extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_attempt_limit',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

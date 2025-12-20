@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_auth_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_auth_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,44 +9,41 @@ import * as cdktf from 'cdktf';
 export interface BgpAuthProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_auth_profile#device BgpAuthProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_auth_profile#device BgpAuthProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_auth_profile#folder BgpAuthProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_auth_profile#folder BgpAuthProfile#folder}
   */
   readonly folder?: string;
   /**
   * Profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_auth_profile#name BgpAuthProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_auth_profile#name BgpAuthProfile#name}
   */
   readonly name: string;
   /**
   * BGP authentication key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_auth_profile#secret BgpAuthProfile#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_auth_profile#secret BgpAuthProfile#secret}
   */
   readonly secret?: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_auth_profile#snippet BgpAuthProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_auth_profile#snippet BgpAuthProfile#snippet}
   */
   readonly snippet?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_auth_profile scm_bgp_auth_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_auth_profile scm_bgp_auth_profile}
 */
 export class BgpAuthProfile extends cdktf.TerraformResource {
 
@@ -62,7 +59,7 @@ export class BgpAuthProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpAuthProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpAuthProfile to import
-  * @param importFromId The id of the existing BgpAuthProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_auth_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpAuthProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_auth_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpAuthProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +71,7 @@ export class BgpAuthProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_auth_profile scm_bgp_auth_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_auth_profile scm_bgp_auth_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +82,8 @@ export class BgpAuthProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_bgp_auth_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

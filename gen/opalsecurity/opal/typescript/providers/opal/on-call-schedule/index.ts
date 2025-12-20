@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/on_call_schedule
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/on_call_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface OnCallScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The remote ID of the on call schedule. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/on_call_schedule#remote_id OnCallSchedule#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/on_call_schedule#remote_id OnCallSchedule#remote_id}
   */
   readonly remoteId: string;
   /**
   * The third party provider of the on call schedule. must be one of ["OPSGENIE", "PAGER_DUTY"]; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/on_call_schedule#third_party_provider OnCallSchedule#third_party_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/on_call_schedule#third_party_provider OnCallSchedule#third_party_provider}
   */
   readonly thirdPartyProvider: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/on_call_schedule opal_on_call_schedule}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/on_call_schedule opal_on_call_schedule}
 */
 export class OnCallSchedule extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class OnCallSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OnCallSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OnCallSchedule to import
-  * @param importFromId The id of the existing OnCallSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/on_call_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OnCallSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/on_call_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OnCallSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class OnCallSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/on_call_schedule opal_on_call_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/on_call_schedule opal_on_call_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class OnCallSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'opal_on_call_schedule',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

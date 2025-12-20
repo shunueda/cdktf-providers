@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "equinix": "4.11.1"
+    "equinix": "4.12.0"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface GaapLayer7ListenerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authentication type of the layer7 listener. `0` is one-way authentication and `1` is mutual authentication. NOTES: Only supports listeners of `HTTPS` protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener#auth_type GaapLayer7Listener#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener#auth_type GaapLayer7Listener#auth_type}
   */
   readonly authType?: number;
   /**
   * Certificate ID of the layer7 listener. NOTES: Only supports listeners of `HTTPS` protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener#certificate_id GaapLayer7Listener#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener#certificate_id GaapLayer7Listener#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * ID of the client certificate. Set only when `auth_type` is specified as mutual authentication. NOTES: Only supports listeners of `HTTPS` protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener#client_certificate_id GaapLayer7Listener#client_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener#client_certificate_id GaapLayer7Listener#client_certificate_id}
   */
   readonly clientCertificateId?: string;
   /**
   * ID list of the client certificate. Set only when `auth_type` is specified as mutual authentication. NOTES: Only supports listeners of `HTTPS` protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener#client_certificate_ids GaapLayer7Listener#client_certificate_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener#client_certificate_ids GaapLayer7Listener#client_certificate_ids}
   */
   readonly clientCertificateIds?: string[];
   /**
   * Protocol type of the forwarding. Valid value: `HTTP` and `HTTPS`. NOTES: Only supports listeners of `HTTPS` protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener#forward_protocol GaapLayer7Listener#forward_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener#forward_protocol GaapLayer7Listener#forward_protocol}
   */
   readonly forwardProtocol?: string;
   /**
   * Group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener#group_id GaapLayer7Listener#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener#group_id GaapLayer7Listener#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener#id GaapLayer7Listener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener#id GaapLayer7Listener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,43 +53,43 @@ export interface GaapLayer7ListenerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the layer7 listener, the maximum length is 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener#name GaapLayer7Listener#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener#name GaapLayer7Listener#name}
   */
   readonly name: string;
   /**
   * Port of the layer7 listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener#port GaapLayer7Listener#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener#port GaapLayer7Listener#port}
   */
   readonly port: number;
   /**
   * Protocol of the layer7 listener. Valid value: `HTTP` and `HTTPS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener#protocol GaapLayer7Listener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener#protocol GaapLayer7Listener#protocol}
   */
   readonly protocol: string;
   /**
   * ID of the GAAP proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener#proxy_id GaapLayer7Listener#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener#proxy_id GaapLayer7Listener#proxy_id}
   */
   readonly proxyId?: string;
   /**
   * Password Suite, optional GAAP_TLS_CIPHERS_STRICT, GAAP_TLS_CIPHERS_GENERAL, GAAP_TLS_CIPHERS_WIDE(default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener#tls_ciphers GaapLayer7Listener#tls_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener#tls_ciphers GaapLayer7Listener#tls_ciphers}
   */
   readonly tlsCiphers?: string;
   /**
   * TLS version, optional TLSv1, TLSv1.1, TLSv1.2, TLSv1.3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener#tls_support_versions GaapLayer7Listener#tls_support_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener#tls_support_versions GaapLayer7Listener#tls_support_versions}
   */
   readonly tlsSupportVersions?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener tencentcloud_gaap_layer7_listener}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener tencentcloud_gaap_layer7_listener}
 */
 export class GaapLayer7Listener extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class GaapLayer7Listener extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaapLayer7Listener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaapLayer7Listener to import
-  * @param importFromId The id of the existing GaapLayer7Listener that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaapLayer7Listener that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaapLayer7Listener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class GaapLayer7Listener extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_layer7_listener tencentcloud_gaap_layer7_listener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_layer7_listener tencentcloud_gaap_layer7_listener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class GaapLayer7Listener extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_gaap_layer7_listener',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

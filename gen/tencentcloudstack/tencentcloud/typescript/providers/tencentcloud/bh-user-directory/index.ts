@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BhUserDirectoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Directory ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory#dir_id BhUserDirectory#dir_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory#dir_id BhUserDirectory#dir_id}
   */
   readonly dirId: number;
   /**
   * Directory name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory#dir_name BhUserDirectory#dir_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory#dir_name BhUserDirectory#dir_name}
   */
   readonly dirName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory#id BhUserDirectory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory#id BhUserDirectory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface BhUserDirectoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * IOA associated user source type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory#source BhUserDirectory#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory#source BhUserDirectory#source}
   */
   readonly source: number;
   /**
   * IOA associated user source name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory#source_name BhUserDirectory#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory#source_name BhUserDirectory#source_name}
   */
   readonly sourceName: string;
   /**
   * user_org_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory#user_org_set BhUserDirectory#user_org_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory#user_org_set BhUserDirectory#user_org_set}
   */
   readonly userOrgSet: BhUserDirectoryUserOrgSet[] | cdktf.IResolvable;
 }
@@ -49,31 +49,31 @@ export interface BhUserDirectoryUserOrgSet {
   /**
   * IOA user organization ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory#org_id BhUserDirectory#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory#org_id BhUserDirectory#org_id}
   */
   readonly orgId: number;
   /**
   * IOA user organization ID path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory#org_id_path BhUserDirectory#org_id_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory#org_id_path BhUserDirectory#org_id_path}
   */
   readonly orgIdPath: string;
   /**
   * IOA user organization name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory#org_name BhUserDirectory#org_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory#org_name BhUserDirectory#org_name}
   */
   readonly orgName: string;
   /**
   * IOA user organization name path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory#org_name_path BhUserDirectory#org_name_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory#org_name_path BhUserDirectory#org_name_path}
   */
   readonly orgNamePath: string;
   /**
   * Number of users under the IOA user organization ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory#user_total BhUserDirectory#user_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory#user_total BhUserDirectory#user_total}
   */
   readonly userTotal?: number;
 }
@@ -293,7 +293,7 @@ export class BhUserDirectoryUserOrgSetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory tencentcloud_bh_user_directory}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory tencentcloud_bh_user_directory}
 */
 export class BhUserDirectory extends cdktf.TerraformResource {
 
@@ -309,7 +309,7 @@ export class BhUserDirectory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BhUserDirectory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BhUserDirectory to import
-  * @param importFromId The id of the existing BhUserDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BhUserDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BhUserDirectory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -321,7 +321,7 @@ export class BhUserDirectory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user_directory tencentcloud_bh_user_directory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user_directory tencentcloud_bh_user_directory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -332,8 +332,8 @@ export class BhUserDirectory extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_bh_user_directory',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

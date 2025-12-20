@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudWedataTaskInstancesConfig extends cdktf.Terrafo
   /**
   * Task cycle type * ONEOFF_CYCLE: One-time * YEAR_CYCLE: Year * MONTH_CYCLE: Month * WEEK_CYCLE: Week * DAY_CYCLE: Day * HOUR_CYCLE: Hour * MINUTE_CYCLE: Minute * CRONTAB_CYCLE: Crontab expression type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#cycle_type DataTencentcloudWedataTaskInstances#cycle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#cycle_type DataTencentcloudWedataTaskInstances#cycle_type}
   */
   readonly cycleType?: string;
   /**
   * Executor resource group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#executor_group_id DataTencentcloudWedataTaskInstances#executor_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#executor_group_id DataTencentcloudWedataTaskInstances#executor_group_id}
   */
   readonly executorGroupId?: string;
   /**
   * Task folder ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#folder_id DataTencentcloudWedataTaskInstances#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#folder_id DataTencentcloudWedataTaskInstances#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#id DataTencentcloudWedataTaskInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#id DataTencentcloudWedataTaskInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,103 +35,103 @@ export interface DataTencentcloudWedataTaskInstancesConfig extends cdktf.Terrafo
   /**
   * Instance status - WAIT_EVENT: Waiting for event - WAIT_UPSTREAM: Waiting for upstream - WAIT_RUN: Waiting to run - RUNNING: Running - SKIP_RUNNING: Skipped running - FAILED_RETRY: Failed retry - EXPIRED: Failed - COMPLETED: Success.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#instance_state DataTencentcloudWedataTaskInstances#instance_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#instance_state DataTencentcloudWedataTaskInstances#instance_state}
   */
   readonly instanceState?: string;
   /**
   * Instance type - 0: Backfill type - 1: Periodic instance - 2: Non-periodic instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#instance_type DataTencentcloudWedataTaskInstances#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#instance_type DataTencentcloudWedataTaskInstances#instance_type}
   */
   readonly instanceType?: number;
   /**
   * Task name or Task ID. Supports fuzzy search filtering. Multiple values separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#keyword DataTencentcloudWedataTaskInstances#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#keyword DataTencentcloudWedataTaskInstances#keyword}
   */
   readonly keyword?: string;
   /**
   * Instance last update time filter condition.Start time, format yyyy-MM-dd HH:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#last_update_time_from DataTencentcloudWedataTaskInstances#last_update_time_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#last_update_time_from DataTencentcloudWedataTaskInstances#last_update_time_from}
   */
   readonly lastUpdateTimeFrom?: string;
   /**
   * Instance last update time filter condition.End time, format yyyy-MM-dd HH:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#last_update_time_to DataTencentcloudWedataTaskInstances#last_update_time_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#last_update_time_to DataTencentcloudWedataTaskInstances#last_update_time_to}
   */
   readonly lastUpdateTimeTo?: string;
   /**
   * Task owner ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#owner_uin DataTencentcloudWedataTaskInstances#owner_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#owner_uin DataTencentcloudWedataTaskInstances#owner_uin}
   */
   readonly ownerUin?: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#project_id DataTencentcloudWedataTaskInstances#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#project_id DataTencentcloudWedataTaskInstances#project_id}
   */
   readonly projectId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#result_output_file DataTencentcloudWedataTaskInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#result_output_file DataTencentcloudWedataTaskInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Instance scheduled time filter condition Start time, format yyyy-MM-dd HH:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#schedule_time_from DataTencentcloudWedataTaskInstances#schedule_time_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#schedule_time_from DataTencentcloudWedataTaskInstances#schedule_time_from}
   */
   readonly scheduleTimeFrom?: string;
   /**
   * Instance scheduled time filter condition End time, format yyyy-MM-dd HH:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#schedule_time_to DataTencentcloudWedataTaskInstances#schedule_time_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#schedule_time_to DataTencentcloudWedataTaskInstances#schedule_time_to}
   */
   readonly scheduleTimeTo?: string;
   /**
   * Result sorting field- SCHEDULE_DATE: Sort by scheduled time- START_TIME: Sort by execution start time- END_TIME: Sort by execution end time- COST_TIME: Sort by execution duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#sort_column DataTencentcloudWedataTaskInstances#sort_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#sort_column DataTencentcloudWedataTaskInstances#sort_column}
   */
   readonly sortColumn?: string;
   /**
   * Sorting order: - ASC; - DESC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#sort_type DataTencentcloudWedataTaskInstances#sort_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#sort_type DataTencentcloudWedataTaskInstances#sort_type}
   */
   readonly sortType?: string;
   /**
   * Instance execution start time filter condition Start time, format yyyy-MM-dd HH:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#start_time_from DataTencentcloudWedataTaskInstances#start_time_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#start_time_from DataTencentcloudWedataTaskInstances#start_time_from}
   */
   readonly startTimeFrom?: string;
   /**
   * Instance execution start time filter condition.End time, format yyyy-MM-dd HH:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#start_time_to DataTencentcloudWedataTaskInstances#start_time_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#start_time_to DataTencentcloudWedataTaskInstances#start_time_to}
   */
   readonly startTimeTo?: string;
   /**
   * Task type ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#task_type_id DataTencentcloudWedataTaskInstances#task_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#task_type_id DataTencentcloudWedataTaskInstances#task_type_id}
   */
   readonly taskTypeId?: number;
   /**
   * Time zone. The time zone of the input time string, default UTC+8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#time_zone DataTencentcloudWedataTaskInstances#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#time_zone DataTencentcloudWedataTaskInstances#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Task workflow ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#workflow_id DataTencentcloudWedataTaskInstances#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#workflow_id DataTencentcloudWedataTaskInstances#workflow_id}
   */
   readonly workflowId?: string;
 }
@@ -428,7 +428,7 @@ export class DataTencentcloudWedataTaskInstancesDataList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances tencentcloud_wedata_task_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances tencentcloud_wedata_task_instances}
 */
 export class DataTencentcloudWedataTaskInstances extends cdktf.TerraformDataSource {
 
@@ -444,7 +444,7 @@ export class DataTencentcloudWedataTaskInstances extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudWedataTaskInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataTaskInstances to import
-  * @param importFromId The id of the existing DataTencentcloudWedataTaskInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataTaskInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataTaskInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -456,7 +456,7 @@ export class DataTencentcloudWedataTaskInstances extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/wedata_task_instances tencentcloud_wedata_task_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/wedata_task_instances tencentcloud_wedata_task_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -467,8 +467,8 @@ export class DataTencentcloudWedataTaskInstances extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_wedata_task_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

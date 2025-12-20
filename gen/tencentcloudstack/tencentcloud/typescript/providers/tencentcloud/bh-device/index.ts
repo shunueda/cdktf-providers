@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface BhDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cloud account ID to which the asset belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#account_id BhDevice#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#account_id BhDevice#account_id}
   */
   readonly accountId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#id BhDevice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#id BhDevice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface BhDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * device_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#device_set BhDevice#device_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#device_set BhDevice#device_set}
   */
   readonly deviceSet: BhDeviceDeviceSet;
 }
@@ -31,91 +31,91 @@ export interface BhDeviceDeviceSet {
   /**
   * Region to which the asset belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#ap_code BhDevice#ap_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#ap_code BhDevice#ap_code}
   */
   readonly apCode?: string;
   /**
   * Region name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#ap_name BhDevice#ap_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#ap_name BhDevice#ap_name}
   */
   readonly apName?: string;
   /**
   * Department ID to which the asset belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#department_id BhDevice#department_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#department_id BhDevice#department_id}
   */
   readonly departmentId?: string;
   /**
   * Whether to enable SSL, 1: enable, 0: disable, only supports Redis assets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#enable_ssl BhDevice#enable_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#enable_ssl BhDevice#enable_ssl}
   */
   readonly enableSsl?: number;
   /**
   * Asset instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#instance_id BhDevice#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#instance_id BhDevice#instance_id}
   */
   readonly instanceId?: string;
   /**
   * IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#ip BhDevice#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#ip BhDevice#ip}
   */
   readonly ip: string;
   /**
   * Asset multi-node: IP and port fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#ip_port_set BhDevice#ip_port_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#ip_port_set BhDevice#ip_port_set}
   */
   readonly ipPortSet?: string[];
   /**
   * Host name, can be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#name BhDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#name BhDevice#name}
   */
   readonly name?: string;
   /**
   * Operating system name, can only be Linux, Windows or MySQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#os_name BhDevice#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#os_name BhDevice#os_name}
   */
   readonly osName: string;
   /**
   * Management port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#port BhDevice#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#port BhDevice#port}
   */
   readonly port: number;
   /**
   * Public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#public_ip BhDevice#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#public_ip BhDevice#public_ip}
   */
   readonly publicIp?: string;
   /**
   * SSL certificate, required when EnableSSL is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#ssl_cert BhDevice#ssl_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#ssl_cert BhDevice#ssl_cert}
   */
   readonly sslCert?: string;
   /**
   * SSL certificate name, required when EnableSSL is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#ssl_cert_name BhDevice#ssl_cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#ssl_cert_name BhDevice#ssl_cert_name}
   */
   readonly sslCertName?: string;
   /**
   * Subnet to which the asset belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#subnet_id BhDevice#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#subnet_id BhDevice#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * VPC to which the asset belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#vpc_id BhDevice#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#vpc_id BhDevice#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -596,7 +596,7 @@ export class BhDeviceDeviceSetOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device tencentcloud_bh_device}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device tencentcloud_bh_device}
 */
 export class BhDevice extends cdktf.TerraformResource {
 
@@ -612,7 +612,7 @@ export class BhDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BhDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BhDevice to import
-  * @param importFromId The id of the existing BhDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BhDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BhDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -624,7 +624,7 @@ export class BhDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_device tencentcloud_bh_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_device tencentcloud_bh_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -635,8 +635,8 @@ export class BhDevice extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_bh_device',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

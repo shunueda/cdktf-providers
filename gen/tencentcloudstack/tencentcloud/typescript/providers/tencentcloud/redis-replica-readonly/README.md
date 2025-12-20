@@ -1,3 +1,3 @@
 # `tencentcloud_redis_replica_readonly`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_redis_replica_readonly`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/redis_replica_readonly).
+Refer to the Terraform Registry for docs: [`tencentcloud_redis_replica_readonly`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/redis_replica_readonly).

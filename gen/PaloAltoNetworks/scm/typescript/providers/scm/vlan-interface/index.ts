@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,89 +10,84 @@ export interface VlanInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * ARP configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#arp VlanInterface#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#arp VlanInterface#arp}
   */
   readonly arp?: VlanInterfaceArp[] | cdktf.IResolvable;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#comment VlanInterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#comment VlanInterface#comment}
   */
   readonly comment?: string;
   /**
   * Dynamic DNS configuration specific to the Vlan Interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#ddns_config VlanInterface#ddns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#ddns_config VlanInterface#ddns_config}
   */
   readonly ddnsConfig?: VlanInterfaceDdnsConfig;
   /**
   * Default interface assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#default_value VlanInterface#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#default_value VlanInterface#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#device VlanInterface#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#device VlanInterface#device}
   */
   readonly device?: string;
   /**
   * Vlan interfaces DHCP Client Object
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `dhcp_client` and `ip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#dhcp_client VlanInterface#dhcp_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#dhcp_client VlanInterface#dhcp_client}
   */
   readonly dhcpClient?: VlanInterfaceDhcpClient;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#folder VlanInterface#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#folder VlanInterface#folder}
   */
   readonly folder?: string;
   /**
   * Interface management profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#interface_management_profile VlanInterface#interface_management_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#interface_management_profile VlanInterface#interface_management_profile}
   */
   readonly interfaceManagementProfile?: string;
   /**
   * VLAN Interface IP Parent
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `dhcp_client` and `ip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#ip VlanInterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#ip VlanInterface#ip}
   */
   readonly ip?: VlanInterfaceIp[] | cdktf.IResolvable;
   /**
   * MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#mtu VlanInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#mtu VlanInterface#mtu}
   */
   readonly mtu?: number;
   /**
   * L3 sub-interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#name VlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#name VlanInterface#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#snippet VlanInterface#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#snippet VlanInterface#snippet}
   */
   readonly snippet?: string;
   /**
   * VLAN tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#vlan_tag VlanInterface#vlan_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#vlan_tag VlanInterface#vlan_tag}
   */
   readonly vlanTag?: string;
 }
@@ -100,19 +95,19 @@ export interface VlanInterfaceArp {
   /**
   * MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#hw_address VlanInterface#hw_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#hw_address VlanInterface#hw_address}
   */
   readonly hwAddress?: string;
   /**
   * ARP interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#interface VlanInterface#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#interface VlanInterface#interface}
   */
   readonly interface?: string;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#name VlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#name VlanInterface#name}
   */
   readonly name?: string;
 }
@@ -288,43 +283,43 @@ export interface VlanInterfaceDdnsConfig {
   /**
   * Certificate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#ddns_cert_profile VlanInterface#ddns_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#ddns_cert_profile VlanInterface#ddns_cert_profile}
   */
   readonly ddnsCertProfile: string;
   /**
   * Enable DDNS?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#ddns_enabled VlanInterface#ddns_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#ddns_enabled VlanInterface#ddns_enabled}
   */
   readonly ddnsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Ddns hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#ddns_hostname VlanInterface#ddns_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#ddns_hostname VlanInterface#ddns_hostname}
   */
   readonly ddnsHostname: string;
   /**
   * IP to register (static only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#ddns_ip VlanInterface#ddns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#ddns_ip VlanInterface#ddns_ip}
   */
   readonly ddnsIp?: string;
   /**
   * Update interval (days)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#ddns_update_interval VlanInterface#ddns_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#ddns_update_interval VlanInterface#ddns_update_interval}
   */
   readonly ddnsUpdateInterval?: number;
   /**
   * DDNS vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#ddns_vendor VlanInterface#ddns_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#ddns_vendor VlanInterface#ddns_vendor}
   */
   readonly ddnsVendor: string;
   /**
   * DDNS vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#ddns_vendor_config VlanInterface#ddns_vendor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#ddns_vendor_config VlanInterface#ddns_vendor_config}
   */
   readonly ddnsVendorConfig: string;
 }
@@ -478,7 +473,7 @@ export class VlanInterfaceDdnsConfigOutputReference extends cdktf.ComplexObject 
     }
   }
 
-  // ddns_cert_profile - computed: true, optional: false, required: true
+  // ddns_cert_profile - computed: false, optional: false, required: true
   private _ddnsCertProfile?: string; 
   public get ddnsCertProfile() {
     return this.getStringAttribute('ddns_cert_profile');
@@ -507,7 +502,7 @@ export class VlanInterfaceDdnsConfigOutputReference extends cdktf.ComplexObject 
     return this._ddnsEnabled;
   }
 
-  // ddns_hostname - computed: true, optional: false, required: true
+  // ddns_hostname - computed: false, optional: false, required: true
   private _ddnsHostname?: string; 
   public get ddnsHostname() {
     return this.getStringAttribute('ddns_hostname');
@@ -520,7 +515,7 @@ export class VlanInterfaceDdnsConfigOutputReference extends cdktf.ComplexObject 
     return this._ddnsHostname;
   }
 
-  // ddns_ip - computed: true, optional: true, required: false
+  // ddns_ip - computed: false, optional: true, required: false
   private _ddnsIp?: string; 
   public get ddnsIp() {
     return this.getStringAttribute('ddns_ip');
@@ -552,7 +547,7 @@ export class VlanInterfaceDdnsConfigOutputReference extends cdktf.ComplexObject 
     return this._ddnsUpdateInterval;
   }
 
-  // ddns_vendor - computed: true, optional: false, required: true
+  // ddns_vendor - computed: false, optional: false, required: true
   private _ddnsVendor?: string; 
   public get ddnsVendor() {
     return this.getStringAttribute('ddns_vendor');
@@ -565,7 +560,7 @@ export class VlanInterfaceDdnsConfigOutputReference extends cdktf.ComplexObject 
     return this._ddnsVendor;
   }
 
-  // ddns_vendor_config - computed: true, optional: false, required: true
+  // ddns_vendor_config - computed: false, optional: false, required: true
   private _ddnsVendorConfig?: string; 
   public get ddnsVendorConfig() {
     return this.getStringAttribute('ddns_vendor_config');
@@ -582,13 +577,13 @@ export interface VlanInterfaceDhcpClientSendHostname {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#enable VlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#enable VlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set interface hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#hostname VlanInterface#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#hostname VlanInterface#hostname}
   */
   readonly hostname?: string;
 }
@@ -713,25 +708,25 @@ export interface VlanInterfaceDhcpClient {
   /**
   * Automatically create default route pointing to default gateway provided by server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#create_default_route VlanInterface#create_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#create_default_route VlanInterface#create_default_route}
   */
   readonly createDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Metric of the default route created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#default_route_metric VlanInterface#default_route_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#default_route_metric VlanInterface#default_route_metric}
   */
   readonly defaultRouteMetric?: number;
   /**
   * Enable DHCP?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#enable VlanInterface#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#enable VlanInterface#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Send hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#send_hostname VlanInterface#send_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#send_hostname VlanInterface#send_hostname}
   */
   readonly sendHostname?: VlanInterfaceDhcpClientSendHostname;
 }
@@ -894,7 +889,7 @@ export class VlanInterfaceDhcpClientOutputReference extends cdktf.ComplexObject 
     return this._enable;
   }
 
-  // send_hostname - computed: true, optional: true, required: false
+  // send_hostname - computed: false, optional: true, required: false
   private _sendHostname = new VlanInterfaceDhcpClientSendHostnameOutputReference(this, "send_hostname");
   public get sendHostname() {
     return this._sendHostname;
@@ -914,7 +909,7 @@ export interface VlanInterfaceIp {
   /**
   * VLAN Interface IP address(es)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#name VlanInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#name VlanInterface#name}
   */
   readonly name: string;
 }
@@ -1027,7 +1022,7 @@ export class VlanInterfaceIpList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface scm_vlan_interface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface scm_vlan_interface}
 */
 export class VlanInterface extends cdktf.TerraformResource {
 
@@ -1043,7 +1038,7 @@ export class VlanInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VlanInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VlanInterface to import
-  * @param importFromId The id of the existing VlanInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VlanInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VlanInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1055,7 +1050,7 @@ export class VlanInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/vlan_interface scm_vlan_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/vlan_interface scm_vlan_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1066,8 +1061,8 @@ export class VlanInterface extends cdktf.TerraformResource {
       terraformResourceType: 'scm_vlan_interface',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1128,7 +1123,7 @@ export class VlanInterface extends cdktf.TerraformResource {
     return this._comment;
   }
 
-  // ddns_config - computed: true, optional: true, required: false
+  // ddns_config - computed: false, optional: true, required: false
   private _ddnsConfig = new VlanInterfaceDdnsConfigOutputReference(this, "ddns_config");
   public get ddnsConfig() {
     return this._ddnsConfig;
@@ -1176,7 +1171,7 @@ export class VlanInterface extends cdktf.TerraformResource {
     return this._device;
   }
 
-  // dhcp_client - computed: true, optional: true, required: false
+  // dhcp_client - computed: false, optional: true, required: false
   private _dhcpClient = new VlanInterfaceDhcpClientOutputReference(this, "dhcp_client");
   public get dhcpClient() {
     return this._dhcpClient;

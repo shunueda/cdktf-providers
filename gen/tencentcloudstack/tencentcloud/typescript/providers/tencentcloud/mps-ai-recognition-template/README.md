@@ -1,3 +1,3 @@
 # `tencentcloud_mps_ai_recognition_template`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_mps_ai_recognition_template`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_ai_recognition_template).
+Refer to the Terraform Registry for docs: [`tencentcloud_mps_ai_recognition_template`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mps_ai_recognition_template).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_nat_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CfwNatInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Off-site disaster recovery 1: use off-site disaster recovery; 0: do not use off-site disaster recovery; if empty, the default is not to use off-site disaster recovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_instance#cross_a_zone CfwNatInstance#cross_a_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_nat_instance#cross_a_zone CfwNatInstance#cross_a_zone}
   */
   readonly crossAZone?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_instance#id CfwNatInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_nat_instance#id CfwNatInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface CfwNatInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Mode 1: access mode; 0: new mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_instance#mode CfwNatInstance#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_nat_instance#mode CfwNatInstance#mode}
   */
   readonly mode: number;
   /**
   * Firewall instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_instance#name CfwNatInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_nat_instance#name CfwNatInstance#name}
   */
   readonly name: string;
   /**
   * A list of nat gateways connected to the access mode, at least one of NewModeItems and NatgwList is passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_instance#nat_gw_list CfwNatInstance#nat_gw_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_nat_instance#nat_gw_list CfwNatInstance#nat_gw_list}
   */
   readonly natGwList?: string[];
   /**
   * Bandwidth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_instance#width CfwNatInstance#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_nat_instance#width CfwNatInstance#width}
   */
   readonly width: number;
   /**
   * Zone list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_instance#zone_set CfwNatInstance#zone_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_nat_instance#zone_set CfwNatInstance#zone_set}
   */
   readonly zoneSet: string[];
   /**
   * new_mode_items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_instance#new_mode_items CfwNatInstance#new_mode_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_nat_instance#new_mode_items CfwNatInstance#new_mode_items}
   */
   readonly newModeItems?: CfwNatInstanceNewModeItems;
 }
@@ -61,13 +61,13 @@ export interface CfwNatInstanceNewModeItems {
   /**
   * List of egress elastic public network IPs bound in the new mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_instance#eips CfwNatInstance#eips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_nat_instance#eips CfwNatInstance#eips}
   */
   readonly eips: string[];
   /**
   * List of vpcs connected in new mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_instance#vpc_list CfwNatInstance#vpc_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_nat_instance#vpc_list CfwNatInstance#vpc_list}
   */
   readonly vpcList: string[];
 }
@@ -174,7 +174,7 @@ export class CfwNatInstanceNewModeItemsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_instance tencentcloud_cfw_nat_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_nat_instance tencentcloud_cfw_nat_instance}
 */
 export class CfwNatInstance extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class CfwNatInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwNatInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwNatInstance to import
-  * @param importFromId The id of the existing CfwNatInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwNatInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_nat_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwNatInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class CfwNatInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_instance tencentcloud_cfw_nat_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cfw_nat_instance tencentcloud_cfw_nat_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class CfwNatInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cfw_nat_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

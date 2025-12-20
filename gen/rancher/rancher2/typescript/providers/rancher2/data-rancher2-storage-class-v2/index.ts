@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/storage_class_v2
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/storage_class_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataRancher2StorageClassV2Config extends cdktf.TerraformMetaArg
   /**
   * K8s cluster ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/storage_class_v2#cluster_id DataRancher2StorageClassV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/storage_class_v2#cluster_id DataRancher2StorageClassV2#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/storage_class_v2#id DataRancher2StorageClassV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/storage_class_v2#id DataRancher2StorageClassV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataRancher2StorageClassV2Config extends cdktf.TerraformMetaArg
   /**
   * StorageClass name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/storage_class_v2#name DataRancher2StorageClassV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/storage_class_v2#name DataRancher2StorageClassV2#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/storage_class_v2 rancher2_storage_class_v2}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/storage_class_v2 rancher2_storage_class_v2}
 */
 export class DataRancher2StorageClassV2 extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataRancher2StorageClassV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRancher2StorageClassV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRancher2StorageClassV2 to import
-  * @param importFromId The id of the existing DataRancher2StorageClassV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/storage_class_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRancher2StorageClassV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/storage_class_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRancher2StorageClassV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataRancher2StorageClassV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/storage_class_v2 rancher2_storage_class_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/storage_class_v2 rancher2_storage_class_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataRancher2StorageClassV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'rancher2_storage_class_v2',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_tag
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface GroupTagConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the group to apply the tag to. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_tag#group_id GroupTag#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_tag#group_id GroupTag#group_id}
   */
   readonly groupId: string;
   /**
   * The ID of the tag to apply. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_tag#tag_id GroupTag#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_tag#tag_id GroupTag#tag_id}
   */
   readonly tagId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_tag opal_group_tag}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_tag opal_group_tag}
 */
 export class GroupTag extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class GroupTag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupTag to import
-  * @param importFromId The id of the existing GroupTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class GroupTag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_tag opal_group_tag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_tag opal_group_tag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class GroupTag extends cdktf.TerraformResource {
       terraformResourceType: 'opal_group_tag',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

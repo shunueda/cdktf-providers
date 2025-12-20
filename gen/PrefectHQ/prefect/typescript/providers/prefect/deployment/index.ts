@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment
+// https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,133 +10,133 @@ export interface DeploymentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID), defaults to the account set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#account_id Deployment#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#account_id Deployment#account_id}
   */
   readonly accountId?: string;
   /**
   * The deployment's concurrency limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#concurrency_limit Deployment#concurrency_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#concurrency_limit Deployment#concurrency_limit}
   */
   readonly concurrencyLimit?: number;
   /**
   * Concurrency options for the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#concurrency_options Deployment#concurrency_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#concurrency_options Deployment#concurrency_options}
   */
   readonly concurrencyOptions?: DeploymentConcurrencyOptions;
   /**
   * A description for the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#description Deployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#description Deployment#description}
   */
   readonly description?: string;
   /**
   * Whether or not the deployment should enforce the parameter schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#enforce_parameter_schema Deployment#enforce_parameter_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#enforce_parameter_schema Deployment#enforce_parameter_schema}
   */
   readonly enforceParameterSchema?: boolean | cdktf.IResolvable;
   /**
   * The path to the entrypoint for the workflow, relative to the path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#entrypoint Deployment#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#entrypoint Deployment#entrypoint}
   */
   readonly entrypoint?: string;
   /**
   * Flow ID (UUID) to associate deployment to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#flow_id Deployment#flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#flow_id Deployment#flow_id}
   */
   readonly flowId: string;
   /**
   * The ID of a global concurrency limit to apply to this deployment. This is the recommended way to set concurrency limits. Mutually exclusive with concurrency_limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#global_concurrency_limit_id Deployment#global_concurrency_limit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#global_concurrency_limit_id Deployment#global_concurrency_limit_id}
   */
   readonly globalConcurrencyLimitId?: string;
   /**
   * Overrides for the flow's infrastructure configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#job_variables Deployment#job_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#job_variables Deployment#job_variables}
   */
   readonly jobVariables?: string;
   /**
   * The path to the flow's manifest file, relative to the chosen storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#manifest_path Deployment#manifest_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#manifest_path Deployment#manifest_path}
   */
   readonly manifestPath?: string;
   /**
   * Name of the deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#name Deployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#name Deployment#name}
   */
   readonly name: string;
   /**
   * The parameter schema of the flow, including defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#parameter_openapi_schema Deployment#parameter_openapi_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#parameter_openapi_schema Deployment#parameter_openapi_schema}
   */
   readonly parameterOpenapiSchema?: string;
   /**
   * Parameters for flow runs scheduled by the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#parameters Deployment#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#parameters Deployment#parameters}
   */
   readonly parameters?: string;
   /**
   * The path to the working directory for the workflow, relative to remote storage or an absolute path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#path Deployment#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#path Deployment#path}
   */
   readonly path?: string;
   /**
   * Whether or not the deployment is paused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#paused Deployment#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#paused Deployment#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * Pull steps to prepare flows for a deployment run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#pull_steps Deployment#pull_steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#pull_steps Deployment#pull_steps}
   */
   readonly pullSteps?: DeploymentPullSteps[] | cdktf.IResolvable;
   /**
   * ID of the associated storage document (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#storage_document_id Deployment#storage_document_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#storage_document_id Deployment#storage_document_id}
   */
   readonly storageDocumentId?: string;
   /**
   * Tags associated with the deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#tags Deployment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#tags Deployment#tags}
   */
   readonly tags?: string[];
   /**
   * An optional version for the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#version Deployment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#version Deployment#version}
   */
   readonly version?: string;
   /**
   * The name of the deployment's work pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#work_pool_name Deployment#work_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#work_pool_name Deployment#work_pool_name}
   */
   readonly workPoolName?: string;
   /**
   * The work queue for the deployment. If no work queue is set, work will not be scheduled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#work_queue_name Deployment#work_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#work_queue_name Deployment#work_queue_name}
   */
   readonly workQueueName?: string;
   /**
   * Workspace ID (UUID) to associate deployment to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#workspace_id Deployment#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#workspace_id Deployment#workspace_id}
   */
   readonly workspaceId?: string;
 }
@@ -144,7 +144,7 @@ export interface DeploymentConcurrencyOptions {
   /**
   * Enumeration of concurrency collision strategies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#collision_strategy Deployment#collision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#collision_strategy Deployment#collision_strategy}
   */
   readonly collisionStrategy: string;
 }
@@ -237,67 +237,67 @@ export interface DeploymentPullSteps {
   /**
   * (For type 'git_clone') Access token for the repository. Refer to a credentials block for security purposes. Used in leiu of 'credentials'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#access_token Deployment#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#access_token Deployment#access_token}
   */
   readonly accessToken?: string;
   /**
   * (For type 'git_clone') The branch to clone. If not provided, the default branch is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#branch Deployment#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#branch Deployment#branch}
   */
   readonly branch?: string;
   /**
   * (For type 'pull_from_s3' and 'pull_from_gcs') The name of the bucket where files are stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#bucket Deployment#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#bucket Deployment#bucket}
   */
   readonly bucket?: string;
   /**
   * (For type 'pull_from_azure_blob_storage') The name of the container where files are stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#container Deployment#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#container Deployment#container}
   */
   readonly container?: string;
   /**
   * Credentials to use for the pull step. Refer to a {GitHub,GitLab,BitBucket} credentials block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#credentials Deployment#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#credentials Deployment#credentials}
   */
   readonly credentials?: string;
   /**
   * (For type 'set_working_directory') The directory to set as the working directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#directory Deployment#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#directory Deployment#directory}
   */
   readonly directory?: string;
   /**
   * (For type 'pull_from_*') The folder in the bucket/container where files are stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#folder Deployment#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#folder Deployment#folder}
   */
   readonly folder?: string;
   /**
   * (For type 'git_clone') Whether to include submodules when cloning the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#include_submodules Deployment#include_submodules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#include_submodules Deployment#include_submodules}
   */
   readonly includeSubmodules?: boolean | cdktf.IResolvable;
   /**
   * (For type 'git_clone') The URL of the repository to clone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#repository Deployment#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#repository Deployment#repository}
   */
   readonly repository?: string;
   /**
   * A list of Python package dependencies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#requires Deployment#requires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#requires Deployment#requires}
   */
   readonly requires?: string;
   /**
   * The type of pull step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#type Deployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#type Deployment#type}
   */
   readonly type: string;
 }
@@ -700,7 +700,7 @@ export class DeploymentPullStepsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment prefect_deployment}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment prefect_deployment}
 */
 export class Deployment extends cdktf.TerraformResource {
 
@@ -716,7 +716,7 @@ export class Deployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Deployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Deployment to import
-  * @param importFromId The id of the existing Deployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Deployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Deployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -728,7 +728,7 @@ export class Deployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/deployment prefect_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/deployment prefect_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -739,8 +739,8 @@ export class Deployment extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_deployment',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.92.0',
-        providerVersionConstraint: '2.92.0'
+        providerVersion: '2.92.1',
+        providerVersionConstraint: '2.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

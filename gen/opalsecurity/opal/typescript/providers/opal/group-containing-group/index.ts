@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_containing_group
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_containing_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface GroupContainingGroupConfig extends cdktf.TerraformMetaArguments
   /**
   * The groupID of the containing group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_containing_group#containing_group_id GroupContainingGroup#containing_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_containing_group#containing_group_id GroupContainingGroup#containing_group_id}
   */
   readonly containingGroupId: string;
   /**
   * The ID of the group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_containing_group#group_id GroupContainingGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_containing_group#group_id GroupContainingGroup#group_id}
   */
   readonly groupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_containing_group opal_group_containing_group}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_containing_group opal_group_containing_group}
 */
 export class GroupContainingGroup extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class GroupContainingGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupContainingGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupContainingGroup to import
-  * @param importFromId The id of the existing GroupContainingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_containing_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupContainingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_containing_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupContainingGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class GroupContainingGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_containing_group opal_group_containing_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_containing_group opal_group_containing_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class GroupContainingGroup extends cdktf.TerraformResource {
       terraformResourceType: 'opal_group_containing_group',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

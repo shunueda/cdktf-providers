@@ -21,7 +21,7 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface CkafkaDatahubTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_datahub_task#id CkafkaDatahubTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_datahub_task#id CkafkaDatahubTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,49 +30,49 @@ export interface CkafkaDatahubTaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * SchemaId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_datahub_task#schema_id CkafkaDatahubTask#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_datahub_task#schema_id CkafkaDatahubTask#schema_id}
   */
   readonly schemaId?: string;
   /**
   * name of the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_datahub_task#task_name CkafkaDatahubTask#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_datahub_task#task_name CkafkaDatahubTask#task_name}
   */
   readonly taskName: string;
   /**
   * type of the task, SOURCE(data input), SINK(data output).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_datahub_task#task_type CkafkaDatahubTask#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_datahub_task#task_type CkafkaDatahubTask#task_type}
   */
   readonly taskType: string;
   /**
   * source_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_datahub_task#source_resource CkafkaDatahubTask#source_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_datahub_task#source_resource CkafkaDatahubTask#source_resource}
   */
   readonly sourceResource?: CkafkaDatahubTaskSourceResource;
   /**
   * target_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_datahub_task#target_resource CkafkaDatahubTask#target_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_datahub_task#target_resource CkafkaDatahubTask#target_resource}
   */
   readonly targetResource?: CkafkaDatahubTaskTargetResource;
   /**
   * transform_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_datahub_task#transform_param CkafkaDatahubTask#transform_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_datahub_task#transform_param CkafkaDatahubTask#transform_param}
   */
   readonly transformParam?: CkafkaDatahubTaskTransformParam;
   /**
   * transforms_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_datahub_task#transforms_param CkafkaDatahubTask#transforms_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_datahub_task#transforms_param CkafkaDatahubTask#transforms_param}
   */
   readonly transformsParam?: CkafkaDatahubTaskTransformsParam;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_datahub_task tencentcloud_ckafka_datahub_task}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_datahub_task tencentcloud_ckafka_datahub_task}
 */
 export class CkafkaDatahubTask extends cdktf.TerraformResource {
 
@@ -88,7 +88,7 @@ export class CkafkaDatahubTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CkafkaDatahubTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CkafkaDatahubTask to import
-  * @param importFromId The id of the existing CkafkaDatahubTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_datahub_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CkafkaDatahubTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_datahub_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CkafkaDatahubTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -100,7 +100,7 @@ export class CkafkaDatahubTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ckafka_datahub_task tencentcloud_ckafka_datahub_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ckafka_datahub_task tencentcloud_ckafka_datahub_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -111,8 +111,8 @@ export class CkafkaDatahubTask extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ckafka_datahub_task',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

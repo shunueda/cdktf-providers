@@ -15,6 +15,7 @@ Object.defineProperty(exports, 'formFieldSet', { get: function () { return requi
 Object.defineProperty(exports, 'gpgKey', { get: function () { return require('./gpg-key'); } });
 Object.defineProperty(exports, 'group', { get: function () { return require('./group'); } });
 Object.defineProperty(exports, 'groupUser', { get: function () { return require('./group-user'); } });
+Object.defineProperty(exports, 'keyLifecycleRule', { get: function () { return require('./key-lifecycle-rule'); } });
 Object.defineProperty(exports, 'lock', { get: function () { return require('./lock'); } });
 Object.defineProperty(exports, 'message', { get: function () { return require('./message'); } });
 Object.defineProperty(exports, 'messageComment', { get: function () { return require('./message-comment'); } });
@@ -60,6 +61,7 @@ Object.defineProperty(exports, 'dataFilesGroup', { get: function () { return req
 Object.defineProperty(exports, 'dataFilesGroupUser', { get: function () { return require('./data-files-group-user'); } });
 Object.defineProperty(exports, 'dataFilesHistoryExport', { get: function () { return require('./data-files-history-export'); } });
 Object.defineProperty(exports, 'dataFilesInvoice', { get: function () { return require('./data-files-invoice'); } });
+Object.defineProperty(exports, 'dataFilesKeyLifecycleRule', { get: function () { return require('./data-files-key-lifecycle-rule'); } });
 Object.defineProperty(exports, 'dataFilesLock', { get: function () { return require('./data-files-lock'); } });
 Object.defineProperty(exports, 'dataFilesMessage', { get: function () { return require('./data-files-message'); } });
 Object.defineProperty(exports, 'dataFilesMessageComment', { get: function () { return require('./data-files-message-comment'); } });

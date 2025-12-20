@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_check_data_engine_config_pairs_validity
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_check_data_engine_config_pairs_validity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDlcCheckDataEngineConfigPairsValidityConfig ext
   /**
   * ID of the minor version of the engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_check_data_engine_config_pairs_validity#child_image_version_id DataTencentcloudDlcCheckDataEngineConfigPairsValidity#child_image_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_check_data_engine_config_pairs_validity#child_image_version_id DataTencentcloudDlcCheckDataEngineConfigPairsValidity#child_image_version_id}
   */
   readonly childImageVersionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_check_data_engine_config_pairs_validity#id DataTencentcloudDlcCheckDataEngineConfigPairsValidity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_check_data_engine_config_pairs_validity#id DataTencentcloudDlcCheckDataEngineConfigPairsValidity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudDlcCheckDataEngineConfigPairsValidityConfig ext
   /**
   * ID of the major version of the engine. If there is the ID of the minor version, only the ID of the minor version needs to be input. If not, the latest ID of the minor version under the major version will be acquired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_check_data_engine_config_pairs_validity#image_version_id DataTencentcloudDlcCheckDataEngineConfigPairsValidity#image_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_check_data_engine_config_pairs_validity#image_version_id DataTencentcloudDlcCheckDataEngineConfigPairsValidity#image_version_id}
   */
   readonly imageVersionId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_check_data_engine_config_pairs_validity#result_output_file DataTencentcloudDlcCheckDataEngineConfigPairsValidity#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_check_data_engine_config_pairs_validity#result_output_file DataTencentcloudDlcCheckDataEngineConfigPairsValidity#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * data_engine_config_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_check_data_engine_config_pairs_validity#data_engine_config_pairs DataTencentcloudDlcCheckDataEngineConfigPairsValidity#data_engine_config_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_check_data_engine_config_pairs_validity#data_engine_config_pairs DataTencentcloudDlcCheckDataEngineConfigPairsValidity#data_engine_config_pairs}
   */
   readonly dataEngineConfigPairs?: DataTencentcloudDlcCheckDataEngineConfigPairsValidityDataEngineConfigPairs[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface DataTencentcloudDlcCheckDataEngineConfigPairsValidityDataEngine
   /**
   * Configuration item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_check_data_engine_config_pairs_validity#config_item DataTencentcloudDlcCheckDataEngineConfigPairsValidity#config_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_check_data_engine_config_pairs_validity#config_item DataTencentcloudDlcCheckDataEngineConfigPairsValidity#config_item}
   */
   readonly configItem: string;
   /**
   * Configuration value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_check_data_engine_config_pairs_validity#config_value DataTencentcloudDlcCheckDataEngineConfigPairsValidity#config_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_check_data_engine_config_pairs_validity#config_value DataTencentcloudDlcCheckDataEngineConfigPairsValidity#config_value}
   */
   readonly configValue: string;
 }
@@ -188,7 +188,7 @@ export class DataTencentcloudDlcCheckDataEngineConfigPairsValidityDataEngineConf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_check_data_engine_config_pairs_validity tencentcloud_dlc_check_data_engine_config_pairs_validity}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_check_data_engine_config_pairs_validity tencentcloud_dlc_check_data_engine_config_pairs_validity}
 */
 export class DataTencentcloudDlcCheckDataEngineConfigPairsValidity extends cdktf.TerraformDataSource {
 
@@ -204,7 +204,7 @@ export class DataTencentcloudDlcCheckDataEngineConfigPairsValidity extends cdktf
   * Generates CDKTF code for importing a DataTencentcloudDlcCheckDataEngineConfigPairsValidity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDlcCheckDataEngineConfigPairsValidity to import
-  * @param importFromId The id of the existing DataTencentcloudDlcCheckDataEngineConfigPairsValidity that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_check_data_engine_config_pairs_validity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDlcCheckDataEngineConfigPairsValidity that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_check_data_engine_config_pairs_validity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDlcCheckDataEngineConfigPairsValidity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class DataTencentcloudDlcCheckDataEngineConfigPairsValidity extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_check_data_engine_config_pairs_validity tencentcloud_dlc_check_data_engine_config_pairs_validity} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_check_data_engine_config_pairs_validity tencentcloud_dlc_check_data_engine_config_pairs_validity} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class DataTencentcloudDlcCheckDataEngineConfigPairsValidity extends cdktf
       terraformResourceType: 'tencentcloud_dlc_check_data_engine_config_pairs_validity',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

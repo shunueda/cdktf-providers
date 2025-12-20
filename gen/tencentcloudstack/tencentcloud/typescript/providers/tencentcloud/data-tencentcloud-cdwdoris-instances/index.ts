@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdwdoris_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cdwdoris_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudCdwdorisInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdwdoris_instances#id DataTencentcloudCdwdorisInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cdwdoris_instances#id DataTencentcloudCdwdorisInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudCdwdorisInstancesConfig extends cdktf.Terraform
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdwdoris_instances#result_output_file DataTencentcloudCdwdorisInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cdwdoris_instances#result_output_file DataTencentcloudCdwdorisInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The name of the cluster ID for the search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdwdoris_instances#search_instance_id DataTencentcloudCdwdorisInstances#search_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cdwdoris_instances#search_instance_id DataTencentcloudCdwdorisInstances#search_instance_id}
   */
   readonly searchInstanceId?: string;
   /**
   * The cluster name for the search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdwdoris_instances#search_instance_name DataTencentcloudCdwdorisInstances#search_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cdwdoris_instances#search_instance_name DataTencentcloudCdwdorisInstances#search_instance_name}
   */
   readonly searchInstanceName?: string;
   /**
   * search_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdwdoris_instances#search_tags DataTencentcloudCdwdorisInstances#search_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cdwdoris_instances#search_tags DataTencentcloudCdwdorisInstances#search_tags}
   */
   readonly searchTags?: DataTencentcloudCdwdorisInstancesSearchTags[] | cdktf.IResolvable;
 }
@@ -888,19 +888,19 @@ export interface DataTencentcloudCdwdorisInstancesSearchTags {
   /**
   * 1 means only the tag key is entered without a value, and 0 means both the key and the value are entered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdwdoris_instances#all_value DataTencentcloudCdwdorisInstances#all_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cdwdoris_instances#all_value DataTencentcloudCdwdorisInstances#all_value}
   */
   readonly allValue?: number;
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdwdoris_instances#tag_key DataTencentcloudCdwdorisInstances#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cdwdoris_instances#tag_key DataTencentcloudCdwdorisInstances#tag_key}
   */
   readonly tagKey?: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdwdoris_instances#tag_value DataTencentcloudCdwdorisInstances#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cdwdoris_instances#tag_value DataTencentcloudCdwdorisInstances#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -1074,7 +1074,7 @@ export class DataTencentcloudCdwdorisInstancesSearchTagsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdwdoris_instances tencentcloud_cdwdoris_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cdwdoris_instances tencentcloud_cdwdoris_instances}
 */
 export class DataTencentcloudCdwdorisInstances extends cdktf.TerraformDataSource {
 
@@ -1090,7 +1090,7 @@ export class DataTencentcloudCdwdorisInstances extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudCdwdorisInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCdwdorisInstances to import
-  * @param importFromId The id of the existing DataTencentcloudCdwdorisInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdwdoris_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCdwdorisInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cdwdoris_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCdwdorisInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1102,7 +1102,7 @@ export class DataTencentcloudCdwdorisInstances extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdwdoris_instances tencentcloud_cdwdoris_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/cdwdoris_instances tencentcloud_cdwdoris_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1113,8 +1113,8 @@ export class DataTencentcloudCdwdorisInstances extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_cdwdoris_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_site_outbound_route
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/telephony_providers_edges_site_outbound_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRouteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_site_outbound_route#id DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/telephony_providers_edges_site_outbound_route#id DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRouteConfig 
   /**
   * Outbound Route name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_site_outbound_route#name DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/telephony_providers_edges_site_outbound_route#name DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute#name}
   */
   readonly name: string;
   /**
   * Site Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_site_outbound_route#site_id DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/telephony_providers_edges_site_outbound_route#site_id DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute#site_id}
   */
   readonly siteId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_site_outbound_route genesyscloud_telephony_providers_edges_site_outbound_route}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/telephony_providers_edges_site_outbound_route genesyscloud_telephony_providers_edges_site_outbound_route}
 */
 export class DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute extends cd
   * Generates CDKTF code for importing a DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute to import
-  * @param importFromId The id of the existing DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_site_outbound_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/telephony_providers_edges_site_outbound_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/telephony_providers_edges_site_outbound_route genesyscloud_telephony_providers_edges_site_outbound_route} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/telephony_providers_edges_site_outbound_route genesyscloud_telephony_providers_edges_site_outbound_route} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataGenesyscloudTelephonyProvidersEdgesSiteOutboundRoute extends cd
       terraformResourceType: 'genesyscloud_telephony_providers_edges_site_outbound_route',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

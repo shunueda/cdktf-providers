@@ -1,3 +1,3 @@
 # `data_prefect_account`
 
-Refer to the Terraform Registry for docs: [`data_prefect_account`](https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/data-sources/account).
+Refer to the Terraform Registry for docs: [`data_prefect_account`](https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/data-sources/account).

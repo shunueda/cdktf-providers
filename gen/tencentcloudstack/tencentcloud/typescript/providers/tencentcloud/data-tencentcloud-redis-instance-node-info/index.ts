@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/redis_instance_node_info
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_instance_node_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudRedisInstanceNodeInfoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/redis_instance_node_info#id DataTencentcloudRedisInstanceNodeInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_instance_node_info#id DataTencentcloudRedisInstanceNodeInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudRedisInstanceNodeInfoConfig extends cdktf.Terra
   /**
   * The ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/redis_instance_node_info#instance_id DataTencentcloudRedisInstanceNodeInfo#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_instance_node_info#instance_id DataTencentcloudRedisInstanceNodeInfo#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/redis_instance_node_info#result_output_file DataTencentcloudRedisInstanceNodeInfo#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_instance_node_info#result_output_file DataTencentcloudRedisInstanceNodeInfo#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -199,7 +199,7 @@ export class DataTencentcloudRedisInstanceNodeInfoRedisList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/redis_instance_node_info tencentcloud_redis_instance_node_info}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_instance_node_info tencentcloud_redis_instance_node_info}
 */
 export class DataTencentcloudRedisInstanceNodeInfo extends cdktf.TerraformDataSource {
 
@@ -215,7 +215,7 @@ export class DataTencentcloudRedisInstanceNodeInfo extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudRedisInstanceNodeInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudRedisInstanceNodeInfo to import
-  * @param importFromId The id of the existing DataTencentcloudRedisInstanceNodeInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/redis_instance_node_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudRedisInstanceNodeInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_instance_node_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudRedisInstanceNodeInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DataTencentcloudRedisInstanceNodeInfo extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/redis_instance_node_info tencentcloud_redis_instance_node_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/redis_instance_node_info tencentcloud_redis_instance_node_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class DataTencentcloudRedisInstanceNodeInfo extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_redis_instance_node_info',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

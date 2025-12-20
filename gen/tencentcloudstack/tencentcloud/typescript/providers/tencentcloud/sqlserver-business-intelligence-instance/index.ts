@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SqlserverBusinessIntelligenceInstanceConfig extends cdktf.Terra
   /**
   * The number of CPU cores of the instance you want to purchase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#cpu SqlserverBusinessIntelligenceInstance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#cpu SqlserverBusinessIntelligenceInstance#cpu}
   */
   readonly cpu: number;
   /**
   * Supported versions of business intelligence server. Valid values: 201603 (SQL Server 2016 Integration Services), 201703 (SQL Server 2017 Integration Services), 201903 (SQL Server 2019 Integration Services). Default value: 201903. As the purchasable versions are region-specific, you can use the DescribeProductConfig API to query the information of purchasable versions in each region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#db_version SqlserverBusinessIntelligenceInstance#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#db_version SqlserverBusinessIntelligenceInstance#db_version}
   */
   readonly dbVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#id SqlserverBusinessIntelligenceInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#id SqlserverBusinessIntelligenceInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,79 +29,79 @@ export interface SqlserverBusinessIntelligenceInstanceConfig extends cdktf.Terra
   /**
   * Instance Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#instance_name SqlserverBusinessIntelligenceInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#instance_name SqlserverBusinessIntelligenceInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * The host type of purchased instance. Valid values: CLOUD_PREMIUM (virtual machine with premium cloud disk), CLOUD_SSD (virtual machine with SSD).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#machine_type SqlserverBusinessIntelligenceInstance#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#machine_type SqlserverBusinessIntelligenceInstance#machine_type}
   */
   readonly machineType: string;
   /**
   * Instance memory size in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#memory SqlserverBusinessIntelligenceInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#memory SqlserverBusinessIntelligenceInstance#memory}
   */
   readonly memory: number;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#project_id SqlserverBusinessIntelligenceInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#project_id SqlserverBusinessIntelligenceInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * Security group list, which contains security group IDs in the format of sg-xxx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#security_group_list SqlserverBusinessIntelligenceInstance#security_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#security_group_list SqlserverBusinessIntelligenceInstance#security_group_list}
   */
   readonly securityGroupList?: string[];
   /**
   * Configuration of the maintenance window, which specifies the maintenance duration in hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#span SqlserverBusinessIntelligenceInstance#span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#span SqlserverBusinessIntelligenceInstance#span}
   */
   readonly span?: number;
   /**
   * Configuration of the maintenance window, which specifies the start time of daily maintenance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#start_time SqlserverBusinessIntelligenceInstance#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#start_time SqlserverBusinessIntelligenceInstance#start_time}
   */
   readonly startTime?: string;
   /**
   * Instance disk size in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#storage SqlserverBusinessIntelligenceInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#storage SqlserverBusinessIntelligenceInstance#storage}
   */
   readonly storage: number;
   /**
   * VPC subnet ID in the format of subnet-bdoe83fa. Both SubnetId and VpcId need to be set or unset at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#subnet_id SqlserverBusinessIntelligenceInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#subnet_id SqlserverBusinessIntelligenceInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * VPC ID in the format of vpc-dsp338hz. Both SubnetId and VpcId need to be set or unset at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#vpc_id SqlserverBusinessIntelligenceInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#vpc_id SqlserverBusinessIntelligenceInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * Configuration of the maintenance window, which specifies the day of the week when maintenance can be performed. Valid values: 1 (Monday), 2 (Tuesday), 3 (Wednesday), 4 (Thursday), 5 (Friday), 6 (Saturday), 7 (Sunday).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#weekly SqlserverBusinessIntelligenceInstance#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#weekly SqlserverBusinessIntelligenceInstance#weekly}
   */
   readonly weekly?: number[];
   /**
   * Instance AZ, such as ap-guangzhou-1 (Guangzhou Zone 1). Purchasable AZs for an instance can be obtained through theDescribeZones API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#zone SqlserverBusinessIntelligenceInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#zone SqlserverBusinessIntelligenceInstance#zone}
   */
   readonly zone: string;
   /**
   * resource_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#resource_tags SqlserverBusinessIntelligenceInstance#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#resource_tags SqlserverBusinessIntelligenceInstance#resource_tags}
   */
   readonly resourceTags?: SqlserverBusinessIntelligenceInstanceResourceTags[] | cdktf.IResolvable;
 }
@@ -109,13 +109,13 @@ export interface SqlserverBusinessIntelligenceInstanceResourceTags {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#tag_key SqlserverBusinessIntelligenceInstance#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#tag_key SqlserverBusinessIntelligenceInstance#tag_key}
   */
   readonly tagKey?: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#tag_value SqlserverBusinessIntelligenceInstance#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#tag_value SqlserverBusinessIntelligenceInstance#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -260,7 +260,7 @@ export class SqlserverBusinessIntelligenceInstanceResourceTagsList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance tencentcloud_sqlserver_business_intelligence_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance tencentcloud_sqlserver_business_intelligence_instance}
 */
 export class SqlserverBusinessIntelligenceInstance extends cdktf.TerraformResource {
 
@@ -276,7 +276,7 @@ export class SqlserverBusinessIntelligenceInstance extends cdktf.TerraformResour
   * Generates CDKTF code for importing a SqlserverBusinessIntelligenceInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverBusinessIntelligenceInstance to import
-  * @param importFromId The id of the existing SqlserverBusinessIntelligenceInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverBusinessIntelligenceInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverBusinessIntelligenceInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -288,7 +288,7 @@ export class SqlserverBusinessIntelligenceInstance extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_business_intelligence_instance tencentcloud_sqlserver_business_intelligence_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_business_intelligence_instance tencentcloud_sqlserver_business_intelligence_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -299,8 +299,8 @@ export class SqlserverBusinessIntelligenceInstance extends cdktf.TerraformResour
       terraformResourceType: 'tencentcloud_sqlserver_business_intelligence_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/maintenance_policies
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/maintenance_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataLinodeMaintenancePoliciesConfig extends cdktf.TerraformMeta
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/maintenance_policies#filter DataLinodeMaintenancePolicies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/maintenance_policies#filter DataLinodeMaintenancePolicies#filter}
   */
   readonly filter?: DataLinodeMaintenancePoliciesFilter[] | cdktf.IResolvable;
 }
@@ -118,19 +118,19 @@ export interface DataLinodeMaintenancePoliciesFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/maintenance_policies#match_by DataLinodeMaintenancePolicies#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/maintenance_policies#match_by DataLinodeMaintenancePolicies#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/maintenance_policies#name DataLinodeMaintenancePolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/maintenance_policies#name DataLinodeMaintenancePolicies#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/maintenance_policies#values DataLinodeMaintenancePolicies#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/maintenance_policies#values DataLinodeMaintenancePolicies#values}
   */
   readonly values: string[];
 }
@@ -298,7 +298,7 @@ export class DataLinodeMaintenancePoliciesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/maintenance_policies linode_maintenance_policies}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/maintenance_policies linode_maintenance_policies}
 */
 export class DataLinodeMaintenancePolicies extends cdktf.TerraformDataSource {
 
@@ -314,7 +314,7 @@ export class DataLinodeMaintenancePolicies extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeMaintenancePolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeMaintenancePolicies to import
-  * @param importFromId The id of the existing DataLinodeMaintenancePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/maintenance_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeMaintenancePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/maintenance_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeMaintenancePolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -326,7 +326,7 @@ export class DataLinodeMaintenancePolicies extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/maintenance_policies linode_maintenance_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/maintenance_policies linode_maintenance_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -337,8 +337,8 @@ export class DataLinodeMaintenancePolicies extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_maintenance_policies',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

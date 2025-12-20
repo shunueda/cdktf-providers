@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,65 @@ import * as cdktf from 'cdktf';
 
 export interface AuthConfigOpenldapConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#access_mode AuthConfigOpenldap#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#access_mode AuthConfigOpenldap#access_mode}
   */
   readonly accessMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#allowed_principal_ids AuthConfigOpenldap#allowed_principal_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#allowed_principal_ids AuthConfigOpenldap#allowed_principal_ids}
   */
   readonly allowedPrincipalIds?: string[];
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#annotations AuthConfigOpenldap#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#annotations AuthConfigOpenldap#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#certificate AuthConfigOpenldap#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#certificate AuthConfigOpenldap#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#connection_timeout AuthConfigOpenldap#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#connection_timeout AuthConfigOpenldap#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#enabled AuthConfigOpenldap#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#enabled AuthConfigOpenldap#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#group_dn_attribute AuthConfigOpenldap#group_dn_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#group_dn_attribute AuthConfigOpenldap#group_dn_attribute}
   */
   readonly groupDnAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#group_member_mapping_attribute AuthConfigOpenldap#group_member_mapping_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#group_member_mapping_attribute AuthConfigOpenldap#group_member_mapping_attribute}
   */
   readonly groupMemberMappingAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#group_member_user_attribute AuthConfigOpenldap#group_member_user_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#group_member_user_attribute AuthConfigOpenldap#group_member_user_attribute}
   */
   readonly groupMemberUserAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#group_name_attribute AuthConfigOpenldap#group_name_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#group_name_attribute AuthConfigOpenldap#group_name_attribute}
   */
   readonly groupNameAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#group_object_class AuthConfigOpenldap#group_object_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#group_object_class AuthConfigOpenldap#group_object_class}
   */
   readonly groupObjectClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#group_search_attribute AuthConfigOpenldap#group_search_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#group_search_attribute AuthConfigOpenldap#group_search_attribute}
   */
   readonly groupSearchAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#group_search_base AuthConfigOpenldap#group_search_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#group_search_base AuthConfigOpenldap#group_search_base}
   */
   readonly groupSearchBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#group_search_filter AuthConfigOpenldap#group_search_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#group_search_filter AuthConfigOpenldap#group_search_filter}
   */
   readonly groupSearchFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#id AuthConfigOpenldap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#id AuthConfigOpenldap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,85 +75,85 @@ export interface AuthConfigOpenldapConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#labels AuthConfigOpenldap#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#labels AuthConfigOpenldap#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#nested_group_membership_enabled AuthConfigOpenldap#nested_group_membership_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#nested_group_membership_enabled AuthConfigOpenldap#nested_group_membership_enabled}
   */
   readonly nestedGroupMembershipEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#port AuthConfigOpenldap#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#port AuthConfigOpenldap#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#servers AuthConfigOpenldap#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#servers AuthConfigOpenldap#servers}
   */
   readonly servers: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#service_account_distinguished_name AuthConfigOpenldap#service_account_distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#service_account_distinguished_name AuthConfigOpenldap#service_account_distinguished_name}
   */
   readonly serviceAccountDistinguishedName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#service_account_password AuthConfigOpenldap#service_account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#service_account_password AuthConfigOpenldap#service_account_password}
   */
   readonly serviceAccountPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#start_tls AuthConfigOpenldap#start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#start_tls AuthConfigOpenldap#start_tls}
   */
   readonly startTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#test_password AuthConfigOpenldap#test_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#test_password AuthConfigOpenldap#test_password}
   */
   readonly testPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#test_username AuthConfigOpenldap#test_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#test_username AuthConfigOpenldap#test_username}
   */
   readonly testUsername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#tls AuthConfigOpenldap#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#tls AuthConfigOpenldap#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#user_disabled_bit_mask AuthConfigOpenldap#user_disabled_bit_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#user_disabled_bit_mask AuthConfigOpenldap#user_disabled_bit_mask}
   */
   readonly userDisabledBitMask?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#user_enabled_attribute AuthConfigOpenldap#user_enabled_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#user_enabled_attribute AuthConfigOpenldap#user_enabled_attribute}
   */
   readonly userEnabledAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#user_login_attribute AuthConfigOpenldap#user_login_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#user_login_attribute AuthConfigOpenldap#user_login_attribute}
   */
   readonly userLoginAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#user_member_attribute AuthConfigOpenldap#user_member_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#user_member_attribute AuthConfigOpenldap#user_member_attribute}
   */
   readonly userMemberAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#user_name_attribute AuthConfigOpenldap#user_name_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#user_name_attribute AuthConfigOpenldap#user_name_attribute}
   */
   readonly userNameAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#user_object_class AuthConfigOpenldap#user_object_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#user_object_class AuthConfigOpenldap#user_object_class}
   */
   readonly userObjectClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#user_search_attribute AuthConfigOpenldap#user_search_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#user_search_attribute AuthConfigOpenldap#user_search_attribute}
   */
   readonly userSearchAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#user_search_base AuthConfigOpenldap#user_search_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#user_search_base AuthConfigOpenldap#user_search_base}
   */
   readonly userSearchBase: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#user_search_filter AuthConfigOpenldap#user_search_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#user_search_filter AuthConfigOpenldap#user_search_filter}
   */
   readonly userSearchFilter?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap rancher2_auth_config_openldap}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap rancher2_auth_config_openldap}
 */
 export class AuthConfigOpenldap extends cdktf.TerraformResource {
 
@@ -169,7 +169,7 @@ export class AuthConfigOpenldap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthConfigOpenldap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthConfigOpenldap to import
-  * @param importFromId The id of the existing AuthConfigOpenldap that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthConfigOpenldap that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthConfigOpenldap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class AuthConfigOpenldap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_openldap rancher2_auth_config_openldap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_openldap rancher2_auth_config_openldap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class AuthConfigOpenldap extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_auth_config_openldap',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

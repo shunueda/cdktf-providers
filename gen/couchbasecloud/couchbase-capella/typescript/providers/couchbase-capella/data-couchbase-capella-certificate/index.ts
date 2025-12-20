@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/certificate
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DataCouchbaseCapellaCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/certificate#cluster_id DataCouchbaseCapellaCertificate#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/certificate#cluster_id DataCouchbaseCapellaCertificate#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/certificate#organization_id DataCouchbaseCapellaCertificate#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/certificate#organization_id DataCouchbaseCapellaCertificate#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/certificate#project_id DataCouchbaseCapellaCertificate#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/certificate#project_id DataCouchbaseCapellaCertificate#project_id}
   */
   readonly projectId: string;
 }
@@ -103,7 +97,7 @@ export class DataCouchbaseCapellaCertificateDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/certificate couchbase-capella_certificate}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/certificate couchbase-capella_certificate}
 */
 export class DataCouchbaseCapellaCertificate extends cdktf.TerraformDataSource {
 
@@ -119,7 +113,7 @@ export class DataCouchbaseCapellaCertificate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCouchbaseCapellaCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCouchbaseCapellaCertificate to import
-  * @param importFromId The id of the existing DataCouchbaseCapellaCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCouchbaseCapellaCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCouchbaseCapellaCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -131,7 +125,7 @@ export class DataCouchbaseCapellaCertificate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/certificate couchbase-capella_certificate} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/certificate couchbase-capella_certificate} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -142,8 +136,8 @@ export class DataCouchbaseCapellaCertificate extends cdktf.TerraformDataSource {
       terraformResourceType: 'couchbase-capella_certificate',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

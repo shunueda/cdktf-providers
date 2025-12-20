@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,101 +8,69 @@ import * as cdktf from 'cdktf';
 
 export interface QueryIndexesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The name of the bucket where the index will be created. Specifies the bucket part of the key space.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#bucket_name QueryIndexes#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#bucket_name QueryIndexes#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * List of index names to build.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#build_indexes QueryIndexes#build_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#build_indexes QueryIndexes#build_indexes}
   */
   readonly buildIndexes?: string[];
   /**
-  * The GUID4 ID of the cluster where the index will be created.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#cluster_id QueryIndexes#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#cluster_id QueryIndexes#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Specifies the collection part of the key space. If unspecified, this will be the default collection.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#collection_name QueryIndexes#collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#collection_name QueryIndexes#collection_name}
   */
   readonly collectionName?: string;
   /**
-  * List of document fields to index.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#index_keys QueryIndexes#index_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#index_keys QueryIndexes#index_keys}
   */
   readonly indexKeys?: string[];
   /**
-  * The name of the index.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#index_name QueryIndexes#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#index_name QueryIndexes#index_name}
   */
   readonly indexName?: string;
   /**
-  * Specifies whether this is a primary index.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#is_primary QueryIndexes#is_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#is_primary QueryIndexes#is_primary}
   */
   readonly isPrimary?: boolean | cdktf.IResolvable;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#organization_id QueryIndexes#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#organization_id QueryIndexes#organization_id}
   */
   readonly organizationId: string;
   /**
-  * List of fields to partition the index by.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#partition_by QueryIndexes#partition_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#partition_by QueryIndexes#partition_by}
   */
   readonly partitionBy?: string[];
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#project_id QueryIndexes#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#project_id QueryIndexes#project_id}
   */
   readonly projectId: string;
   /**
-  * The name of the scope where the index will be created. Specifies the scope part of the key space. If unspecified, this will be the default scope.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#scope_name QueryIndexes#scope_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#scope_name QueryIndexes#scope_name}
   */
   readonly scopeName?: string;
   /**
-  * WHERE clause for the index.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#where QueryIndexes#where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#where QueryIndexes#where}
   */
   readonly where?: string;
   /**
-  * Additional index configuration options.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#with QueryIndexes#with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#with QueryIndexes#with}
   */
   readonly with?: QueryIndexesWith;
 }
 export interface QueryIndexesWith {
   /**
-  * If true, the index will not be built immediately after creation.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#defer_build QueryIndexes#defer_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#defer_build QueryIndexes#defer_build}
   */
   readonly deferBuild?: boolean | cdktf.IResolvable;
   /**
-  * Number of partitions for the index.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#num_partition QueryIndexes#num_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#num_partition QueryIndexes#num_partition}
   */
   readonly numPartition?: number;
   /**
-  * Number of index replicas to create.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#num_replica QueryIndexes#num_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#num_replica QueryIndexes#num_replica}
   */
   readonly numReplica?: number;
 }
@@ -254,7 +222,7 @@ export class QueryIndexesWithOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes couchbase-capella_query_indexes}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes couchbase-capella_query_indexes}
 */
 export class QueryIndexes extends cdktf.TerraformResource {
 
@@ -270,7 +238,7 @@ export class QueryIndexes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QueryIndexes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QueryIndexes to import
-  * @param importFromId The id of the existing QueryIndexes that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QueryIndexes that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QueryIndexes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -282,7 +250,7 @@ export class QueryIndexes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/query_indexes couchbase-capella_query_indexes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/query_indexes couchbase-capella_query_indexes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -293,8 +261,8 @@ export class QueryIndexes extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_query_indexes',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

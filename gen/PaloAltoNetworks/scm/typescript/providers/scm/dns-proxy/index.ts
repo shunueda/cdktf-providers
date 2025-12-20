@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,76 @@ export interface DnsProxyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#cache DnsProxy#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#cache DnsProxy#cache}
   */
   readonly cache?: DnsProxyCache;
   /**
   * Default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#default DnsProxy#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#default DnsProxy#default}
   */
   readonly default: DnsProxyDefault;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#device DnsProxy#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#device DnsProxy#device}
   */
   readonly device?: string;
   /**
   * DNS proxy rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#domain_servers DnsProxy#domain_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#domain_servers DnsProxy#domain_servers}
   */
   readonly domainServers?: DnsProxyDomainServers[] | cdktf.IResolvable;
   /**
   * Enable DNS proxy?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#enabled DnsProxy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#enabled DnsProxy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#folder DnsProxy#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#folder DnsProxy#folder}
   */
   readonly folder?: string;
   /**
   * Interfaces on which to enable DNS proxy service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#interface DnsProxy#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#interface DnsProxy#interface}
   */
   readonly interface?: string[];
   /**
   * DNS proxy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#snippet DnsProxy#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#snippet DnsProxy#snippet}
   */
   readonly snippet?: string;
   /**
   * Static entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#static_entries DnsProxy#static_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#static_entries DnsProxy#static_entries}
   */
   readonly staticEntries?: DnsProxyStaticEntries[] | cdktf.IResolvable;
   /**
   * Tcp queries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#tcp_queries DnsProxy#tcp_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#tcp_queries DnsProxy#tcp_queries}
   */
   readonly tcpQueries?: DnsProxyTcpQueries;
   /**
   * Udp queries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#udp_queries DnsProxy#udp_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#udp_queries DnsProxy#udp_queries}
   */
   readonly udpQueries?: DnsProxyUdpQueries;
 }
@@ -90,13 +87,13 @@ export interface DnsProxyCacheMaxTtl {
   /**
   * Enable max ttl for this DNS object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#enabled DnsProxy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#enabled DnsProxy#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Time in seconds after which entry is cleared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#time_to_live DnsProxy#time_to_live}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#time_to_live DnsProxy#time_to_live}
   */
   readonly timeToLive?: number;
 }
@@ -185,7 +182,7 @@ export class DnsProxyCacheMaxTtlOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // enabled - computed: true, optional: false, required: true
+  // enabled - computed: false, optional: false, required: true
   private _enabled?: boolean | cdktf.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
@@ -198,7 +195,7 @@ export class DnsProxyCacheMaxTtlOutputReference extends cdktf.ComplexObject {
     return this._enabled;
   }
 
-  // time_to_live - computed: true, optional: true, required: false
+  // time_to_live - computed: false, optional: true, required: false
   private _timeToLive?: number; 
   public get timeToLive() {
     return this.getNumberAttribute('time_to_live');
@@ -218,19 +215,19 @@ export interface DnsProxyCache {
   /**
   * Cache EDNS UDP response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#cache_edns DnsProxy#cache_edns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#cache_edns DnsProxy#cache_edns}
   */
   readonly cacheEdns?: boolean | cdktf.IResolvable;
   /**
   * Turn on caching for this DNS object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#enabled DnsProxy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#enabled DnsProxy#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Max ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#max_ttl DnsProxy#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#max_ttl DnsProxy#max_ttl}
   */
   readonly maxTtl?: DnsProxyCacheMaxTtl;
 }
@@ -348,7 +345,7 @@ export class DnsProxyCacheOutputReference extends cdktf.ComplexObject {
     return this._cacheEdns;
   }
 
-  // enabled - computed: true, optional: false, required: true
+  // enabled - computed: false, optional: false, required: true
   private _enabled?: boolean | cdktf.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
@@ -361,7 +358,7 @@ export class DnsProxyCacheOutputReference extends cdktf.ComplexObject {
     return this._enabled;
   }
 
-  // max_ttl - computed: true, optional: true, required: false
+  // max_ttl - computed: false, optional: true, required: false
   private _maxTtl = new DnsProxyCacheMaxTtlOutputReference(this, "max_ttl");
   public get maxTtl() {
     return this._maxTtl;
@@ -381,7 +378,7 @@ export interface DnsProxyDefaultInheritance {
   /**
   * Dynamic interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#source DnsProxy#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#source DnsProxy#source}
   */
   readonly source?: string;
 }
@@ -477,19 +474,19 @@ export interface DnsProxyDefault {
   /**
   * Inheritance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#inheritance DnsProxy#inheritance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#inheritance DnsProxy#inheritance}
   */
   readonly inheritance?: DnsProxyDefaultInheritance;
   /**
   * Primary DNS Name server IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#primary DnsProxy#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#primary DnsProxy#primary}
   */
   readonly primary: string;
   /**
   * Secondary DNS Name server IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#secondary DnsProxy#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#secondary DnsProxy#secondary}
   */
   readonly secondary?: string;
 }
@@ -640,31 +637,31 @@ export interface DnsProxyDomainServers {
   /**
   * Enable caching for this DNS proxy rule?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#cacheable DnsProxy#cacheable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#cacheable DnsProxy#cacheable}
   */
   readonly cacheable?: boolean | cdktf.IResolvable;
   /**
   * Domain names(s) that will be matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#domain_name DnsProxy#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#domain_name DnsProxy#domain_name}
   */
   readonly domainName?: string[];
   /**
   * Proxy rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name: string;
   /**
   * Primary DNS server IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#primary DnsProxy#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#primary DnsProxy#primary}
   */
   readonly primary: string;
   /**
   * Secondary DNS server IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#secondary DnsProxy#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#secondary DnsProxy#secondary}
   */
   readonly secondary?: string;
 }
@@ -892,19 +889,19 @@ export interface DnsProxyStaticEntries {
   /**
   * Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#address DnsProxy#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#address DnsProxy#address}
   */
   readonly address: string[];
   /**
   * Fully qualified domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#domain DnsProxy#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#domain DnsProxy#domain}
   */
   readonly domain: string;
   /**
   * Static entry name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#name DnsProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#name DnsProxy#name}
   */
   readonly name: string;
 }
@@ -1071,13 +1068,13 @@ export interface DnsProxyTcpQueries {
   /**
   * Turn on forwarding of TCP DNS queries?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#enabled DnsProxy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#enabled DnsProxy#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Upper limit on number of concurrent TCP DNS requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#max_pending_requests DnsProxy#max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#max_pending_requests DnsProxy#max_pending_requests}
   */
   readonly maxPendingRequests?: number;
 }
@@ -1166,7 +1163,7 @@ export class DnsProxyTcpQueriesOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // enabled - computed: true, optional: false, required: true
+  // enabled - computed: false, optional: false, required: true
   private _enabled?: boolean | cdktf.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
@@ -1199,13 +1196,13 @@ export interface DnsProxyUdpQueriesRetries {
   /**
   * Maximum number of retries before trying next name server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#attempts DnsProxy#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#attempts DnsProxy#attempts}
   */
   readonly attempts?: number;
   /**
   * Time in seconds for another request to be sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#interval DnsProxy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#interval DnsProxy#interval}
   */
   readonly interval?: number;
 }
@@ -1330,7 +1327,7 @@ export interface DnsProxyUdpQueries {
   /**
   * Retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#retries DnsProxy#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#retries DnsProxy#retries}
   */
   readonly retries?: DnsProxyUdpQueriesRetries;
 }
@@ -1406,7 +1403,7 @@ export class DnsProxyUdpQueriesOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // retries - computed: true, optional: true, required: false
+  // retries - computed: false, optional: true, required: false
   private _retries = new DnsProxyUdpQueriesRetriesOutputReference(this, "retries");
   public get retries() {
     return this._retries;
@@ -1424,7 +1421,7 @@ export class DnsProxyUdpQueriesOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy scm_dns_proxy}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy scm_dns_proxy}
 */
 export class DnsProxy extends cdktf.TerraformResource {
 
@@ -1440,7 +1437,7 @@ export class DnsProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsProxy to import
-  * @param importFromId The id of the existing DnsProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1452,7 +1449,7 @@ export class DnsProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dns_proxy scm_dns_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dns_proxy scm_dns_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1463,8 +1460,8 @@ export class DnsProxy extends cdktf.TerraformResource {
       terraformResourceType: 'scm_dns_proxy',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1492,7 +1489,7 @@ export class DnsProxy extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // cache - computed: true, optional: true, required: false
+  // cache - computed: false, optional: true, required: false
   private _cache = new DnsProxyCacheOutputReference(this, "cache");
   public get cache() {
     return this._cache;
@@ -1651,7 +1648,7 @@ export class DnsProxy extends cdktf.TerraformResource {
     return this._staticEntries.internalValue;
   }
 
-  // tcp_queries - computed: true, optional: true, required: false
+  // tcp_queries - computed: false, optional: true, required: false
   private _tcpQueries = new DnsProxyTcpQueriesOutputReference(this, "tcp_queries");
   public get tcpQueries() {
     return this._tcpQueries;
@@ -1672,7 +1669,7 @@ export class DnsProxy extends cdktf.TerraformResource {
     return this.getStringAttribute('tfid');
   }
 
-  // udp_queries - computed: true, optional: true, required: false
+  // udp_queries - computed: false, optional: true, required: false
   private _udpQueries = new DnsProxyUdpQueriesOutputReference(this, "udp_queries");
   public get udpQueries() {
     return this._udpQueries;

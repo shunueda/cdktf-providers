@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PasswordPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of days before the password expiry to send the first reminder to the user. Default is `5` days before expiry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy#first_reminder_days PasswordPolicy#first_reminder_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy#first_reminder_days PasswordPolicy#first_reminder_days}
   */
   readonly firstReminderDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy#id PasswordPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy#id PasswordPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,63 +23,63 @@ export interface PasswordPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The minimum number of numeric digits (0-9) required in the password. Ensures that passwords contain numerical characters. Minimum length of digit should be `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy#min_digits PasswordPolicy#min_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy#min_digits PasswordPolicy#min_digits}
   */
   readonly minDigits?: number;
   /**
   * The minimum number of lowercase letters (a-z) required in the password. Ensures that lowercase characters are included for password complexity. Minimum length of lower case should be `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy#min_lowercase_letters PasswordPolicy#min_lowercase_letters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy#min_lowercase_letters PasswordPolicy#min_lowercase_letters}
   */
   readonly minLowercaseLetters?: number;
   /**
   * The minimum length required for the password. Enforces a stronger password policy by ensuring a minimum number of characters.  Default minimum length is `6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy#min_password_length PasswordPolicy#min_password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy#min_password_length PasswordPolicy#min_password_length}
   */
   readonly minPasswordLength?: number;
   /**
   * The minimum number of special characters (e.g., !, @, #, $, %) required in the password. This increases the password's security level by including symbols. Minimum special characters should be `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy#min_special_characters PasswordPolicy#min_special_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy#min_special_characters PasswordPolicy#min_special_characters}
   */
   readonly minSpecialCharacters?: number;
   /**
   * The minimum number of uppercase letters (A-Z) required in the password. Helps ensure password complexity with a mix of case-sensitive characters. Minimum length of upper case should be `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy#min_uppercase_letters PasswordPolicy#min_uppercase_letters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy#min_uppercase_letters PasswordPolicy#min_uppercase_letters}
   */
   readonly minUppercaseLetters?: number;
   /**
   * The number of days before the password expires. Must be between 1 and 1000 days. Defines how often passwords must be changed.  Default is `999` days for expiry. Conflicts with `min_password_length`, `min_uppercase_letters`, `min_digits`, `min_lowercase_letters`, `min_special_characters`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy#password_expiry_days PasswordPolicy#password_expiry_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy#password_expiry_days PasswordPolicy#password_expiry_days}
   */
   readonly passwordExpiryDays?: number;
   /**
   * A regular expression (regex) to define custom password patterns, such as enforcing specific characters or sequences in the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy#password_regex PasswordPolicy#password_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy#password_regex PasswordPolicy#password_regex}
   */
   readonly passwordRegex?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy#timeouts PasswordPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy#timeouts PasswordPolicy#timeouts}
   */
   readonly timeouts?: PasswordPolicyTimeouts;
 }
 export interface PasswordPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy#create PasswordPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy#create PasswordPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy#delete PasswordPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy#delete PasswordPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy#update PasswordPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy#update PasswordPolicy#update}
   */
   readonly update?: string;
 }
@@ -231,7 +231,7 @@ export class PasswordPolicyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy spectrocloud_password_policy}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy spectrocloud_password_policy}
 */
 export class PasswordPolicy extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class PasswordPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PasswordPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PasswordPolicy to import
-  * @param importFromId The id of the existing PasswordPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PasswordPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PasswordPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class PasswordPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/password_policy spectrocloud_password_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/password_policy spectrocloud_password_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class PasswordPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_password_policy',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.1',
-        providerVersionConstraint: '0.26.1'
+        providerVersion: '0.26.2',
+        providerVersionConstraint: '0.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

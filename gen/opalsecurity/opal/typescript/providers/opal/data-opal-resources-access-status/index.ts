@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_access_status
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_access_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataOpalResourcesAccessStatusConfig extends cdktf.TerraformMeta
   /**
   * The remote ID of the access level that you wish to query for the resource. If omitted, the default access level remote ID value (empty string) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_access_status#access_level_remote_id DataOpalResourcesAccessStatus#access_level_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_access_status#access_level_remote_id DataOpalResourcesAccessStatus#access_level_remote_id}
   */
   readonly accessLevelRemoteId?: string;
   /**
   * The pagination cursor value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_access_status#cursor DataOpalResourcesAccessStatus#cursor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_access_status#cursor DataOpalResourcesAccessStatus#cursor}
   */
   readonly cursor?: string;
   /**
   * Number of results to return per page. Default is 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_access_status#page_size DataOpalResourcesAccessStatus#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_access_status#page_size DataOpalResourcesAccessStatus#page_size}
   */
   readonly pageSize?: number;
   /**
   * The ID of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_access_status#resource_id DataOpalResourcesAccessStatus#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_access_status#resource_id DataOpalResourcesAccessStatus#resource_id}
   */
   readonly resourceId: string;
   /**
   * The ID of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_access_status#user_id DataOpalResourcesAccessStatus#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_access_status#user_id DataOpalResourcesAccessStatus#user_id}
   */
   readonly userId: string;
 }
@@ -99,7 +99,7 @@ export class DataOpalResourcesAccessStatusAccessLevelOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_access_status opal_resources_access_status}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_access_status opal_resources_access_status}
 */
 export class DataOpalResourcesAccessStatus extends cdktf.TerraformDataSource {
 
@@ -115,7 +115,7 @@ export class DataOpalResourcesAccessStatus extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpalResourcesAccessStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalResourcesAccessStatus to import
-  * @param importFromId The id of the existing DataOpalResourcesAccessStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_access_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalResourcesAccessStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_access_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalResourcesAccessStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -127,7 +127,7 @@ export class DataOpalResourcesAccessStatus extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_access_status opal_resources_access_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_access_status opal_resources_access_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -138,8 +138,8 @@ export class DataOpalResourcesAccessStatus extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_resources_access_status',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

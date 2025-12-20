@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface DataCouchbaseCapellaDatabaseCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials#cluster_id DataCouchbaseCapellaDatabaseCredentials#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials#cluster_id DataCouchbaseCapellaDatabaseCredentials#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials#organization_id DataCouchbaseCapellaDatabaseCredentials#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials#organization_id DataCouchbaseCapellaDatabaseCredentials#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials#project_id DataCouchbaseCapellaDatabaseCredentials#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials#project_id DataCouchbaseCapellaDatabaseCredentials#project_id}
   */
   readonly projectId: string;
 }
 export interface DataCouchbaseCapellaDatabaseCredentialsDataAccessResourcesBucketsScopes {
   /**
-  * The collections under a scope.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials#collections DataCouchbaseCapellaDatabaseCredentials#collections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials#collections DataCouchbaseCapellaDatabaseCredentials#collections}
   */
   readonly collections?: string[];
   /**
-  * The name of the scope.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials#name DataCouchbaseCapellaDatabaseCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials#name DataCouchbaseCapellaDatabaseCredentials#name}
   */
   readonly name: string;
 }
@@ -178,15 +168,11 @@ export class DataCouchbaseCapellaDatabaseCredentialsDataAccessResourcesBucketsSc
 }
 export interface DataCouchbaseCapellaDatabaseCredentialsDataAccessResourcesBuckets {
   /**
-  * The name of the bucket.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials#name DataCouchbaseCapellaDatabaseCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials#name DataCouchbaseCapellaDatabaseCredentials#name}
   */
   readonly name: string;
   /**
-  * The scopes under a bucket.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials#scopes DataCouchbaseCapellaDatabaseCredentials#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials#scopes DataCouchbaseCapellaDatabaseCredentials#scopes}
   */
   readonly scopes?: DataCouchbaseCapellaDatabaseCredentialsDataAccessResourcesBucketsScopes[] | cdktf.IResolvable;
 }
@@ -328,7 +314,7 @@ export class DataCouchbaseCapellaDatabaseCredentialsDataAccessResourcesBucketsLi
 }
 export interface DataCouchbaseCapellaDatabaseCredentialsDataAccessResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials#buckets DataCouchbaseCapellaDatabaseCredentials#buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials#buckets DataCouchbaseCapellaDatabaseCredentials#buckets}
   */
   readonly buckets?: DataCouchbaseCapellaDatabaseCredentialsDataAccessResourcesBuckets[] | cdktf.IResolvable;
 }
@@ -422,15 +408,11 @@ export class DataCouchbaseCapellaDatabaseCredentialsDataAccessResourcesOutputRef
 }
 export interface DataCouchbaseCapellaDatabaseCredentialsDataAccess {
   /**
-  * The privileges field in this API represents the privilege level for users.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials#privileges DataCouchbaseCapellaDatabaseCredentials#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials#privileges DataCouchbaseCapellaDatabaseCredentials#privileges}
   */
   readonly privileges: string[];
   /**
-  * The resources for which access will be granted on. Leaving this empty will grant access to all buckets.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials#resources DataCouchbaseCapellaDatabaseCredentials#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials#resources DataCouchbaseCapellaDatabaseCredentials#resources}
   */
   readonly resources?: DataCouchbaseCapellaDatabaseCredentialsDataAccessResources;
 }
@@ -646,9 +628,7 @@ export class DataCouchbaseCapellaDatabaseCredentialsDataAuditOutputReference ext
 }
 export interface DataCouchbaseCapellaDatabaseCredentialsData {
   /**
-  * Describes the access information of the database credential.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials#access DataCouchbaseCapellaDatabaseCredentials#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials#access DataCouchbaseCapellaDatabaseCredentials#access}
   */
   readonly access?: DataCouchbaseCapellaDatabaseCredentialsDataAccess[] | cdktf.IResolvable;
 }
@@ -785,7 +765,7 @@ export class DataCouchbaseCapellaDatabaseCredentialsDataList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials couchbase-capella_database_credentials}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials couchbase-capella_database_credentials}
 */
 export class DataCouchbaseCapellaDatabaseCredentials extends cdktf.TerraformDataSource {
 
@@ -801,7 +781,7 @@ export class DataCouchbaseCapellaDatabaseCredentials extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataCouchbaseCapellaDatabaseCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCouchbaseCapellaDatabaseCredentials to import
-  * @param importFromId The id of the existing DataCouchbaseCapellaDatabaseCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCouchbaseCapellaDatabaseCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCouchbaseCapellaDatabaseCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -813,7 +793,7 @@ export class DataCouchbaseCapellaDatabaseCredentials extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/database_credentials couchbase-capella_database_credentials} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/database_credentials couchbase-capella_database_credentials} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -824,8 +804,8 @@ export class DataCouchbaseCapellaDatabaseCredentials extends cdktf.TerraformData
       terraformResourceType: 'couchbase-capella_database_credentials',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

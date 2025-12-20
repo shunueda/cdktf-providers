@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataEquinixFabricServiceProfilesConfig extends cdktf.TerraformM
   /**
   * Optional boolean flag to indicate if the filters will be AND'd together. Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles#and_filters DataEquinixFabricServiceProfiles#and_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles#and_filters DataEquinixFabricServiceProfiles#and_filters}
   */
   readonly andFilters?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles#id DataEquinixFabricServiceProfiles#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles#id DataEquinixFabricServiceProfiles#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataEquinixFabricServiceProfilesConfig extends cdktf.TerraformM
   /**
   * flips view between buyer and seller representation. Available values : aSide, zSide. Default value : aSide
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles#view_point DataEquinixFabricServiceProfiles#view_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles#view_point DataEquinixFabricServiceProfiles#view_point}
   */
   readonly viewPoint?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles#filter DataEquinixFabricServiceProfiles#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles#filter DataEquinixFabricServiceProfiles#filter}
   */
   readonly filter: DataEquinixFabricServiceProfilesFilter[] | cdktf.IResolvable;
   /**
   * pagination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles#pagination DataEquinixFabricServiceProfiles#pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles#pagination DataEquinixFabricServiceProfiles#pagination}
   */
   readonly pagination?: DataEquinixFabricServiceProfilesPagination;
   /**
   * sort block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles#sort DataEquinixFabricServiceProfiles#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles#sort DataEquinixFabricServiceProfiles#sort}
   */
   readonly sort?: DataEquinixFabricServiceProfilesSort[] | cdktf.IResolvable;
 }
@@ -1806,19 +1806,19 @@ export interface DataEquinixFabricServiceProfilesFilter {
   /**
   * Operators to use on your filtered field with the values given. One of [=]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles#operator DataEquinixFabricServiceProfiles#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles#operator DataEquinixFabricServiceProfiles#operator}
   */
   readonly operator: string;
   /**
   * Property to apply operator and values to. One of [/name /uuid /state /metros/code /visibility /type /project/projectId]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles#property DataEquinixFabricServiceProfiles#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles#property DataEquinixFabricServiceProfiles#property}
   */
   readonly property: string;
   /**
   * The values that you want to apply the property+operator combination to in order to filter your data search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles#values DataEquinixFabricServiceProfiles#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles#values DataEquinixFabricServiceProfiles#values}
   */
   readonly values: string[];
 }
@@ -1985,13 +1985,13 @@ export interface DataEquinixFabricServiceProfilesPagination {
   /**
   * Number of elements to be requested per page. Number must be between 1 and 100. Default is 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles#limit DataEquinixFabricServiceProfiles#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles#limit DataEquinixFabricServiceProfiles#limit}
   */
   readonly limit?: number;
   /**
   * The page offset for the pagination request. Index of the first element. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles#offset DataEquinixFabricServiceProfiles#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles#offset DataEquinixFabricServiceProfiles#offset}
   */
   readonly offset?: number;
 }
@@ -2106,13 +2106,13 @@ export interface DataEquinixFabricServiceProfilesSort {
   /**
   * The sorting direction. Can be one of: [DESC, ASC], Defaults to DESC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles#direction DataEquinixFabricServiceProfiles#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles#direction DataEquinixFabricServiceProfiles#direction}
   */
   readonly direction?: string;
   /**
   * The property name to use in sorting. One of [/name /uuid /state /location/metroCode /location/metroName /package/code /changeLog/createdDateTime /changeLog/updatedDateTime]. Defaults to /changeLog/updatedDateTime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles#property DataEquinixFabricServiceProfiles#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles#property DataEquinixFabricServiceProfiles#property}
   */
   readonly property?: string;
 }
@@ -2257,7 +2257,7 @@ export class DataEquinixFabricServiceProfilesSortList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles equinix_fabric_service_profiles}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles equinix_fabric_service_profiles}
 */
 export class DataEquinixFabricServiceProfiles extends cdktf.TerraformDataSource {
 
@@ -2273,7 +2273,7 @@ export class DataEquinixFabricServiceProfiles extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataEquinixFabricServiceProfiles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricServiceProfiles to import
-  * @param importFromId The id of the existing DataEquinixFabricServiceProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricServiceProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricServiceProfiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2285,7 +2285,7 @@ export class DataEquinixFabricServiceProfiles extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_service_profiles equinix_fabric_service_profiles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_service_profiles equinix_fabric_service_profiles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2296,8 +2296,8 @@ export class DataEquinixFabricServiceProfiles extends cdktf.TerraformDataSource 
       terraformResourceType: 'equinix_fabric_service_profiles',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

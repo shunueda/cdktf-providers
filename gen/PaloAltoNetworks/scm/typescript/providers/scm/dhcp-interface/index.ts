@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,48 +9,43 @@ import * as cdktf from 'cdktf';
 export interface DhcpInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#device DhcpInterface#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#device DhcpInterface#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#folder DhcpInterface#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#folder DhcpInterface#folder}
   */
   readonly folder?: string;
   /**
   * Interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#name DhcpInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#name DhcpInterface#name}
   */
   readonly name: string;
   /**
   * Relay
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `relay` and `server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#relay DhcpInterface#relay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#relay DhcpInterface#relay}
   */
   readonly relay?: DhcpInterfaceRelay;
   /**
   * Server
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `relay` and `server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#server DhcpInterface#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#server DhcpInterface#server}
   */
   readonly server?: DhcpInterfaceServer;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#snippet DhcpInterface#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#snippet DhcpInterface#snippet}
   */
   readonly snippet?: string;
 }
@@ -58,13 +53,13 @@ export interface DhcpInterfaceRelayIp {
   /**
   * Enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#enabled DhcpInterface#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#enabled DhcpInterface#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#server DhcpInterface#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#server DhcpInterface#server}
   */
   readonly server: string[];
 }
@@ -183,7 +178,7 @@ export interface DhcpInterfaceRelay {
   /**
   * Ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#ip DhcpInterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#ip DhcpInterface#ip}
   */
   readonly ip: DhcpInterfaceRelayIp;
 }
@@ -276,13 +271,13 @@ export interface DhcpInterfaceServerOptionDns {
   /**
   * Primary DNS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#primary DhcpInterface#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#primary DhcpInterface#primary}
   */
   readonly primary?: string;
   /**
   * Secondary DNS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#secondary DhcpInterface#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#secondary DhcpInterface#secondary}
   */
   readonly secondary?: string;
 }
@@ -407,7 +402,7 @@ export interface DhcpInterfaceServerOptionInheritance {
   /**
   * Interface from which to inherit lease options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#source DhcpInterface#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#source DhcpInterface#source}
   */
   readonly source?: string;
 }
@@ -561,18 +556,16 @@ export class DhcpInterfaceServerOptionLeaseUnlimitedOutputReference extends cdkt
 export interface DhcpInterfaceServerOptionLease {
   /**
   * DHCP lease timeout (minutes)
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `timeout` and `unlimited`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#timeout DhcpInterface#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#timeout DhcpInterface#timeout}
   */
   readonly timeout?: number;
   /**
   * Unlimited
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `timeout` and `unlimited`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#unlimited DhcpInterface#unlimited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#unlimited DhcpInterface#unlimited}
   */
   readonly unlimited?: DhcpInterfaceServerOptionLeaseUnlimited;
 }
@@ -697,13 +690,13 @@ export interface DhcpInterfaceServerOptionNis {
   /**
   * Primary NIS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#primary DhcpInterface#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#primary DhcpInterface#primary}
   */
   readonly primary?: string;
   /**
   * Secondary NIS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#secondary DhcpInterface#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#secondary DhcpInterface#secondary}
   */
   readonly secondary?: string;
 }
@@ -828,13 +821,13 @@ export interface DhcpInterfaceServerOptionNtp {
   /**
   * Primary NTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#primary DhcpInterface#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#primary DhcpInterface#primary}
   */
   readonly primary?: string;
   /**
   * Secondary NTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#secondary DhcpInterface#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#secondary DhcpInterface#secondary}
   */
   readonly secondary?: string;
 }
@@ -959,37 +952,37 @@ export interface DhcpInterfaceServerOptionUserDefined {
   /**
   * Ascii
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#ascii DhcpInterface#ascii}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#ascii DhcpInterface#ascii}
   */
   readonly ascii?: string[];
   /**
   * Option code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#code DhcpInterface#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#code DhcpInterface#code}
   */
   readonly code?: number;
   /**
   * Hex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#hex DhcpInterface#hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#hex DhcpInterface#hex}
   */
   readonly hex?: string[];
   /**
   * Inherited from DHCP server inheritance source?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#inherited DhcpInterface#inherited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#inherited DhcpInterface#inherited}
   */
   readonly inherited: boolean | cdktf.IResolvable;
   /**
   * Ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#ip DhcpInterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#ip DhcpInterface#ip}
   */
   readonly ip?: string[];
   /**
   * Option name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#name DhcpInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#name DhcpInterface#name}
   */
   readonly name: string;
 }
@@ -1246,13 +1239,13 @@ export interface DhcpInterfaceServerOptionWins {
   /**
   * Primary WINS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#primary DhcpInterface#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#primary DhcpInterface#primary}
   */
   readonly primary?: string;
   /**
   * Secondary WINS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#secondary DhcpInterface#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#secondary DhcpInterface#secondary}
   */
   readonly secondary?: string;
 }
@@ -1377,73 +1370,73 @@ export interface DhcpInterfaceServerOption {
   /**
   * Dns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#dns DhcpInterface#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#dns DhcpInterface#dns}
   */
   readonly dns?: DhcpInterfaceServerOptionDns;
   /**
   * DNS suffix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#dns_suffix DhcpInterface#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#dns_suffix DhcpInterface#dns_suffix}
   */
   readonly dnsSuffix?: string;
   /**
   * Default gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#gateway DhcpInterface#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#gateway DhcpInterface#gateway}
   */
   readonly gateway?: string;
   /**
   * Inheritance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#inheritance DhcpInterface#inheritance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#inheritance DhcpInterface#inheritance}
   */
   readonly inheritance?: DhcpInterfaceServerOptionInheritance;
   /**
   * Lease
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#lease DhcpInterface#lease}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#lease DhcpInterface#lease}
   */
   readonly lease?: DhcpInterfaceServerOptionLease;
   /**
   * Nis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#nis DhcpInterface#nis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#nis DhcpInterface#nis}
   */
   readonly nis?: DhcpInterfaceServerOptionNis;
   /**
   * Ntp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#ntp DhcpInterface#ntp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#ntp DhcpInterface#ntp}
   */
   readonly ntp?: DhcpInterfaceServerOptionNtp;
   /**
   * POP3 server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#pop3_server DhcpInterface#pop3_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#pop3_server DhcpInterface#pop3_server}
   */
   readonly pop3Server?: string;
   /**
   * SMTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#smtp_server DhcpInterface#smtp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#smtp_server DhcpInterface#smtp_server}
   */
   readonly smtpServer?: string;
   /**
   * Subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#subnet_mask DhcpInterface#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#subnet_mask DhcpInterface#subnet_mask}
   */
   readonly subnetMask?: string;
   /**
   * Custom DHCP options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#user_defined DhcpInterface#user_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#user_defined DhcpInterface#user_defined}
   */
   readonly userDefined?: DhcpInterfaceServerOptionUserDefined[] | cdktf.IResolvable;
   /**
   * Wins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#wins DhcpInterface#wins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#wins DhcpInterface#wins}
   */
   readonly wins?: DhcpInterfaceServerOptionWins;
 }
@@ -1858,19 +1851,19 @@ export interface DhcpInterfaceServerReserved {
   /**
   * Reservation description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#description DhcpInterface#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#description DhcpInterface#description}
   */
   readonly description?: string;
   /**
   * Reserved MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#mac DhcpInterface#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#mac DhcpInterface#mac}
   */
   readonly mac?: string;
   /**
   * Reserved IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#name DhcpInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#name DhcpInterface#name}
   */
   readonly name?: string;
 }
@@ -2046,31 +2039,31 @@ export interface DhcpInterfaceServer {
   /**
   * List of IP address pools
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#ip_pool DhcpInterface#ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#ip_pool DhcpInterface#ip_pool}
   */
   readonly ipPool?: string[];
   /**
   * DHCP server mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#mode DhcpInterface#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#mode DhcpInterface#mode}
   */
   readonly mode?: string;
   /**
   * Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#option DhcpInterface#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#option DhcpInterface#option}
   */
   readonly option?: DhcpInterfaceServerOption;
   /**
   * Ping IP before allocating?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#probe_ip DhcpInterface#probe_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#probe_ip DhcpInterface#probe_ip}
   */
   readonly probeIp?: boolean | cdktf.IResolvable;
   /**
   * List of IP reservations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#reserved DhcpInterface#reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#reserved DhcpInterface#reserved}
   */
   readonly reserved?: DhcpInterfaceServerReserved[] | cdktf.IResolvable;
 }
@@ -2280,7 +2273,7 @@ export class DhcpInterfaceServerOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface scm_dhcp_interface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface scm_dhcp_interface}
 */
 export class DhcpInterface extends cdktf.TerraformResource {
 
@@ -2296,7 +2289,7 @@ export class DhcpInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DhcpInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DhcpInterface to import
-  * @param importFromId The id of the existing DhcpInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DhcpInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DhcpInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2308,7 +2301,7 @@ export class DhcpInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dhcp_interface scm_dhcp_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dhcp_interface scm_dhcp_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2319,8 +2312,8 @@ export class DhcpInterface extends cdktf.TerraformResource {
       terraformResourceType: 'scm_dhcp_interface',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

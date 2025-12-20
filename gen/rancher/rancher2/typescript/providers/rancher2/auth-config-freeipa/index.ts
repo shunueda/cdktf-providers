@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,65 @@ import * as cdktf from 'cdktf';
 
 export interface AuthConfigFreeipaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#access_mode AuthConfigFreeipa#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#access_mode AuthConfigFreeipa#access_mode}
   */
   readonly accessMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#allowed_principal_ids AuthConfigFreeipa#allowed_principal_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#allowed_principal_ids AuthConfigFreeipa#allowed_principal_ids}
   */
   readonly allowedPrincipalIds?: string[];
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#annotations AuthConfigFreeipa#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#annotations AuthConfigFreeipa#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#certificate AuthConfigFreeipa#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#certificate AuthConfigFreeipa#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#connection_timeout AuthConfigFreeipa#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#connection_timeout AuthConfigFreeipa#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#enabled AuthConfigFreeipa#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#enabled AuthConfigFreeipa#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#group_dn_attribute AuthConfigFreeipa#group_dn_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#group_dn_attribute AuthConfigFreeipa#group_dn_attribute}
   */
   readonly groupDnAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#group_member_mapping_attribute AuthConfigFreeipa#group_member_mapping_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#group_member_mapping_attribute AuthConfigFreeipa#group_member_mapping_attribute}
   */
   readonly groupMemberMappingAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#group_member_user_attribute AuthConfigFreeipa#group_member_user_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#group_member_user_attribute AuthConfigFreeipa#group_member_user_attribute}
   */
   readonly groupMemberUserAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#group_name_attribute AuthConfigFreeipa#group_name_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#group_name_attribute AuthConfigFreeipa#group_name_attribute}
   */
   readonly groupNameAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#group_object_class AuthConfigFreeipa#group_object_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#group_object_class AuthConfigFreeipa#group_object_class}
   */
   readonly groupObjectClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#group_search_attribute AuthConfigFreeipa#group_search_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#group_search_attribute AuthConfigFreeipa#group_search_attribute}
   */
   readonly groupSearchAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#group_search_base AuthConfigFreeipa#group_search_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#group_search_base AuthConfigFreeipa#group_search_base}
   */
   readonly groupSearchBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#group_search_filter AuthConfigFreeipa#group_search_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#group_search_filter AuthConfigFreeipa#group_search_filter}
   */
   readonly groupSearchFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#id AuthConfigFreeipa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#id AuthConfigFreeipa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,85 +75,85 @@ export interface AuthConfigFreeipaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#labels AuthConfigFreeipa#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#labels AuthConfigFreeipa#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#nested_group_membership_enabled AuthConfigFreeipa#nested_group_membership_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#nested_group_membership_enabled AuthConfigFreeipa#nested_group_membership_enabled}
   */
   readonly nestedGroupMembershipEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#port AuthConfigFreeipa#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#port AuthConfigFreeipa#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#servers AuthConfigFreeipa#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#servers AuthConfigFreeipa#servers}
   */
   readonly servers: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#service_account_distinguished_name AuthConfigFreeipa#service_account_distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#service_account_distinguished_name AuthConfigFreeipa#service_account_distinguished_name}
   */
   readonly serviceAccountDistinguishedName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#service_account_password AuthConfigFreeipa#service_account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#service_account_password AuthConfigFreeipa#service_account_password}
   */
   readonly serviceAccountPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#start_tls AuthConfigFreeipa#start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#start_tls AuthConfigFreeipa#start_tls}
   */
   readonly startTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#test_password AuthConfigFreeipa#test_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#test_password AuthConfigFreeipa#test_password}
   */
   readonly testPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#test_username AuthConfigFreeipa#test_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#test_username AuthConfigFreeipa#test_username}
   */
   readonly testUsername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#tls AuthConfigFreeipa#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#tls AuthConfigFreeipa#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#user_disabled_bit_mask AuthConfigFreeipa#user_disabled_bit_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#user_disabled_bit_mask AuthConfigFreeipa#user_disabled_bit_mask}
   */
   readonly userDisabledBitMask?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#user_enabled_attribute AuthConfigFreeipa#user_enabled_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#user_enabled_attribute AuthConfigFreeipa#user_enabled_attribute}
   */
   readonly userEnabledAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#user_login_attribute AuthConfigFreeipa#user_login_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#user_login_attribute AuthConfigFreeipa#user_login_attribute}
   */
   readonly userLoginAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#user_member_attribute AuthConfigFreeipa#user_member_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#user_member_attribute AuthConfigFreeipa#user_member_attribute}
   */
   readonly userMemberAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#user_name_attribute AuthConfigFreeipa#user_name_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#user_name_attribute AuthConfigFreeipa#user_name_attribute}
   */
   readonly userNameAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#user_object_class AuthConfigFreeipa#user_object_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#user_object_class AuthConfigFreeipa#user_object_class}
   */
   readonly userObjectClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#user_search_attribute AuthConfigFreeipa#user_search_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#user_search_attribute AuthConfigFreeipa#user_search_attribute}
   */
   readonly userSearchAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#user_search_base AuthConfigFreeipa#user_search_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#user_search_base AuthConfigFreeipa#user_search_base}
   */
   readonly userSearchBase: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#user_search_filter AuthConfigFreeipa#user_search_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#user_search_filter AuthConfigFreeipa#user_search_filter}
   */
   readonly userSearchFilter?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa rancher2_auth_config_freeipa}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa rancher2_auth_config_freeipa}
 */
 export class AuthConfigFreeipa extends cdktf.TerraformResource {
 
@@ -169,7 +169,7 @@ export class AuthConfigFreeipa extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthConfigFreeipa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthConfigFreeipa to import
-  * @param importFromId The id of the existing AuthConfigFreeipa that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthConfigFreeipa that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthConfigFreeipa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class AuthConfigFreeipa extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/auth_config_freeipa rancher2_auth_config_freeipa} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/auth_config_freeipa rancher2_auth_config_freeipa} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class AuthConfigFreeipa extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_auth_config_freeipa',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

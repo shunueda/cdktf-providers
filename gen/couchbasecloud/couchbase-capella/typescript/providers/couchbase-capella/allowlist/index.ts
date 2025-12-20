@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/allowlist
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/allowlist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface AllowlistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The trusted CIDR to allow the database connections from.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/allowlist#cidr Allowlist#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/allowlist#cidr Allowlist#cidr}
   */
   readonly cidr: string;
   /**
-  * The ID of the Capella cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/allowlist#cluster_id Allowlist#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/allowlist#cluster_id Allowlist#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * A short description of the allowed CIDR.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/allowlist#comment Allowlist#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/allowlist#comment Allowlist#comment}
   */
   readonly comment?: string;
   /**
-  * An RFC3339 timestamp determining when the allowed CIDR will expire. If this field is omitted then the allowed CIDR is permanent and will never automatically expire.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/allowlist#expires_at Allowlist#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/allowlist#expires_at Allowlist#expires_at}
   */
   readonly expiresAt?: string;
   /**
-  * The ID of the Capella organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/allowlist#organization_id Allowlist#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/allowlist#organization_id Allowlist#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The ID of the Capella project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/allowlist#project_id Allowlist#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/allowlist#project_id Allowlist#project_id}
   */
   readonly projectId: string;
 }
@@ -120,7 +108,7 @@ export class AllowlistAuditOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/allowlist couchbase-capella_allowlist}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/allowlist couchbase-capella_allowlist}
 */
 export class Allowlist extends cdktf.TerraformResource {
 
@@ -136,7 +124,7 @@ export class Allowlist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Allowlist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Allowlist to import
-  * @param importFromId The id of the existing Allowlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/allowlist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Allowlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/allowlist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Allowlist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -148,7 +136,7 @@ export class Allowlist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/allowlist couchbase-capella_allowlist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/allowlist couchbase-capella_allowlist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -159,8 +147,8 @@ export class Allowlist extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_allowlist',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

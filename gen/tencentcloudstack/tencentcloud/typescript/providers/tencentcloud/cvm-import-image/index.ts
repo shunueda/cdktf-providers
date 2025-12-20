@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CvmImportImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * OS architecture of the image to be imported, `x86_64` or `i386`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#architecture CvmImportImage#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#architecture CvmImportImage#architecture}
   */
   readonly architecture: string;
   /**
   * Boot mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#boot_mode CvmImportImage#boot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#boot_mode CvmImportImage#boot_mode}
   */
   readonly bootMode?: string;
   /**
   * Dry run to check the parameters without performing the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#dry_run CvmImportImage#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#dry_run CvmImportImage#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
   * Whether to force import the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#force CvmImportImage#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#force CvmImportImage#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#id CvmImportImage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#id CvmImportImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface CvmImportImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Image description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#image_description CvmImportImage#image_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#image_description CvmImportImage#image_description}
   */
   readonly imageDescription?: string;
   /**
   * Image name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#image_name CvmImportImage#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#image_name CvmImportImage#image_name}
   */
   readonly imageName: string;
   /**
   * Address on COS where the image to be imported is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#image_url CvmImportImage#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#image_url CvmImportImage#image_url}
   */
   readonly imageUrl: string;
   /**
   * The license type used to activate the OS after importing an image. Valid values: TencentCloud: Tencent Cloud official license BYOL: Bring Your Own License.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#license_type CvmImportImage#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#license_type CvmImportImage#license_type}
   */
   readonly licenseType?: string;
   /**
   * OS type of the image to be imported. You can call `DescribeImportImageOs` to obtain the list of supported operating systems.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#os_type CvmImportImage#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#os_type CvmImportImage#os_type}
   */
   readonly osType: string;
   /**
   * OS version of the image to be imported. You can call `DescribeImportImageOs` to obtain the list of supported operating systems.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#os_version CvmImportImage#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#os_version CvmImportImage#os_version}
   */
   readonly osVersion: string;
   /**
   * tag_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#tag_specification CvmImportImage#tag_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#tag_specification CvmImportImage#tag_specification}
   */
   readonly tagSpecification?: CvmImportImageTagSpecification[] | cdktf.IResolvable;
 }
@@ -85,13 +85,13 @@ export interface CvmImportImageTagSpecificationTags {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#key CvmImportImage#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#key CvmImportImage#key}
   */
   readonly key: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#value CvmImportImage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#value CvmImportImage#value}
   */
   readonly value: string;
 }
@@ -232,13 +232,13 @@ export interface CvmImportImageTagSpecification {
   /**
   * Resource type. Valid values: instance (CVM), host (CDH), image (for image), and keypair (for key). Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#resource_type CvmImportImage#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#resource_type CvmImportImage#resource_type}
   */
   readonly resourceType: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#tags CvmImportImage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#tags CvmImportImage#tags}
   */
   readonly tags: CvmImportImageTagSpecificationTags[] | cdktf.IResolvable;
 }
@@ -377,7 +377,7 @@ export class CvmImportImageTagSpecificationList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image tencentcloud_cvm_import_image}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image tencentcloud_cvm_import_image}
 */
 export class CvmImportImage extends cdktf.TerraformResource {
 
@@ -393,7 +393,7 @@ export class CvmImportImage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CvmImportImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CvmImportImage to import
-  * @param importFromId The id of the existing CvmImportImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CvmImportImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CvmImportImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -405,7 +405,7 @@ export class CvmImportImage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cvm_import_image tencentcloud_cvm_import_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cvm_import_image tencentcloud_cvm_import_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,8 +416,8 @@ export class CvmImportImage extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cvm_import_image',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface NodeTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#annotations NodeTemplate#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#annotations NodeTemplate#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#auth_certificate_authority NodeTemplate#auth_certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#auth_certificate_authority NodeTemplate#auth_certificate_authority}
   */
   readonly authCertificateAuthority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#auth_key NodeTemplate#auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#auth_key NodeTemplate#auth_key}
   */
   readonly authKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#cloud_credential_id NodeTemplate#cloud_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#cloud_credential_id NodeTemplate#cloud_credential_id}
   */
   readonly cloudCredentialId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#description NodeTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#description NodeTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#driver_id NodeTemplate#driver_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#driver_id NodeTemplate#driver_id}
   */
   readonly driverId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#engine_env NodeTemplate#engine_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#engine_env NodeTemplate#engine_env}
   */
   readonly engineEnv?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#engine_insecure_registry NodeTemplate#engine_insecure_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#engine_insecure_registry NodeTemplate#engine_insecure_registry}
   */
   readonly engineInsecureRegistry?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#engine_install_url NodeTemplate#engine_install_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#engine_install_url NodeTemplate#engine_install_url}
   */
   readonly engineInstallUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#engine_label NodeTemplate#engine_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#engine_label NodeTemplate#engine_label}
   */
   readonly engineLabel?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#engine_opt NodeTemplate#engine_opt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#engine_opt NodeTemplate#engine_opt}
   */
   readonly engineOpt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#engine_registry_mirror NodeTemplate#engine_registry_mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#engine_registry_mirror NodeTemplate#engine_registry_mirror}
   */
   readonly engineRegistryMirror?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#engine_storage_driver NodeTemplate#engine_storage_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#engine_storage_driver NodeTemplate#engine_storage_driver}
   */
   readonly engineStorageDriver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#id NodeTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#id NodeTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,87 +71,87 @@ export interface NodeTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#labels NodeTemplate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#labels NodeTemplate#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#name NodeTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#name NodeTemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#use_internal_ip_address NodeTemplate#use_internal_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#use_internal_ip_address NodeTemplate#use_internal_ip_address}
   */
   readonly useInternalIpAddress?: boolean | cdktf.IResolvable;
   /**
   * amazonec2_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#amazonec2_config NodeTemplate#amazonec2_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#amazonec2_config NodeTemplate#amazonec2_config}
   */
   readonly amazonec2Config?: NodeTemplateAmazonec2Config;
   /**
   * azure_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#azure_config NodeTemplate#azure_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#azure_config NodeTemplate#azure_config}
   */
   readonly azureConfig?: NodeTemplateAzureConfig;
   /**
   * digitalocean_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#digitalocean_config NodeTemplate#digitalocean_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#digitalocean_config NodeTemplate#digitalocean_config}
   */
   readonly digitaloceanConfig?: NodeTemplateDigitaloceanConfig;
   /**
   * harvester_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#harvester_config NodeTemplate#harvester_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#harvester_config NodeTemplate#harvester_config}
   */
   readonly harvesterConfig?: NodeTemplateHarvesterConfig;
   /**
   * hetzner_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#hetzner_config NodeTemplate#hetzner_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#hetzner_config NodeTemplate#hetzner_config}
   */
   readonly hetznerConfig?: NodeTemplateHetznerConfig;
   /**
   * linode_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#linode_config NodeTemplate#linode_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#linode_config NodeTemplate#linode_config}
   */
   readonly linodeConfig?: NodeTemplateLinodeConfig;
   /**
   * node_taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#node_taints NodeTemplate#node_taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#node_taints NodeTemplate#node_taints}
   */
   readonly nodeTaints?: NodeTemplateNodeTaints[] | cdktf.IResolvable;
   /**
   * opennebula_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#opennebula_config NodeTemplate#opennebula_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#opennebula_config NodeTemplate#opennebula_config}
   */
   readonly opennebulaConfig?: NodeTemplateOpennebulaConfig;
   /**
   * openstack_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#openstack_config NodeTemplate#openstack_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#openstack_config NodeTemplate#openstack_config}
   */
   readonly openstackConfig?: NodeTemplateOpenstackConfig;
   /**
   * outscale_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#outscale_config NodeTemplate#outscale_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#outscale_config NodeTemplate#outscale_config}
   */
   readonly outscaleConfig?: NodeTemplateOutscaleConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#timeouts NodeTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#timeouts NodeTemplate#timeouts}
   */
   readonly timeouts?: NodeTemplateTimeouts;
   /**
   * vsphere_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#vsphere_config NodeTemplate#vsphere_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#vsphere_config NodeTemplate#vsphere_config}
   */
   readonly vsphereConfig?: NodeTemplateVsphereConfig;
 }
@@ -159,205 +159,205 @@ export interface NodeTemplateAmazonec2Config {
   /**
   * AWS Access Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#access_key NodeTemplate#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#access_key NodeTemplate#access_key}
   */
   readonly accessKey?: string;
   /**
   * AWS machine image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ami NodeTemplate#ami}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ami NodeTemplate#ami}
   */
   readonly ami: string;
   /**
   * AWS spot instance duration in minutes (60, 120, 180, 240, 300, or 360)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#block_duration_minutes NodeTemplate#block_duration_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#block_duration_minutes NodeTemplate#block_duration_minutes}
   */
   readonly blockDurationMinutes?: string;
   /**
   * AWS root device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#device_name NodeTemplate#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#device_name NodeTemplate#device_name}
   */
   readonly deviceName?: string;
   /**
   * Encrypt EBS volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#encrypt_ebs_volume NodeTemplate#encrypt_ebs_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#encrypt_ebs_volume NodeTemplate#encrypt_ebs_volume}
   */
   readonly encryptEbsVolume?: boolean | cdktf.IResolvable;
   /**
   * Optional endpoint URL (hostname only or fully qualified URI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#endpoint NodeTemplate#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#endpoint NodeTemplate#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Enables or disables the HTTP metadata endpoint on your instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#http_endpoint NodeTemplate#http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#http_endpoint NodeTemplate#http_endpoint}
   */
   readonly httpEndpoint?: string;
   /**
   * The state of token usage for your instance metadata requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#http_tokens NodeTemplate#http_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#http_tokens NodeTemplate#http_tokens}
   */
   readonly httpTokens?: string;
   /**
   * AWS IAM Instance Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#iam_instance_profile NodeTemplate#iam_instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#iam_instance_profile NodeTemplate#iam_instance_profile}
   */
   readonly iamInstanceProfile?: string;
   /**
   * Disable SSL when sending requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#insecure_transport NodeTemplate#insecure_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#insecure_transport NodeTemplate#insecure_transport}
   */
   readonly insecureTransport?: boolean | cdktf.IResolvable;
   /**
   * AWS instance type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#instance_type NodeTemplate#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#instance_type NodeTemplate#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Custom KMS key ID using the AWS Managed CMK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#kms_key NodeTemplate#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#kms_key NodeTemplate#kms_key}
   */
   readonly kmsKey?: string;
   /**
   * Set this flag to enable CloudWatch monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#monitoring NodeTemplate#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#monitoring NodeTemplate#monitoring}
   */
   readonly monitoring?: boolean | cdktf.IResolvable;
   /**
   * Make the specified port number accessible from the Internet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#open_port NodeTemplate#open_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#open_port NodeTemplate#open_port}
   */
   readonly openPort?: string[];
   /**
   * Only use a private IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#private_address_only NodeTemplate#private_address_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#private_address_only NodeTemplate#private_address_only}
   */
   readonly privateAddressOnly?: boolean | cdktf.IResolvable;
   /**
   * AWS Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#region NodeTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#region NodeTemplate#region}
   */
   readonly region: string;
   /**
   * Set this flag to request spot instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#request_spot_instance NodeTemplate#request_spot_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#request_spot_instance NodeTemplate#request_spot_instance}
   */
   readonly requestSpotInstance?: boolean | cdktf.IResolvable;
   /**
   * Set retry count for recoverable failures (use -1 to disable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#retries NodeTemplate#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#retries NodeTemplate#retries}
   */
   readonly retries?: string;
   /**
   * AWS root disk size (in GB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#root_size NodeTemplate#root_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#root_size NodeTemplate#root_size}
   */
   readonly rootSize?: string;
   /**
   * AWS Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#secret_key NodeTemplate#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#secret_key NodeTemplate#secret_key}
   */
   readonly secretKey?: string;
   /**
   * AWS VPC security group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#security_group NodeTemplate#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#security_group NodeTemplate#security_group}
   */
   readonly securityGroup: string[];
   /**
   * Skip adding default rules to security groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#security_group_readonly NodeTemplate#security_group_readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#security_group_readonly NodeTemplate#security_group_readonly}
   */
   readonly securityGroupReadonly?: boolean | cdktf.IResolvable;
   /**
   * AWS Session Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#session_token NodeTemplate#session_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#session_token NodeTemplate#session_token}
   */
   readonly sessionToken?: string;
   /**
   * AWS spot instance bid price (in dollar)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#spot_price NodeTemplate#spot_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#spot_price NodeTemplate#spot_price}
   */
   readonly spotPrice?: string;
   /**
   * SSH Key for Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_keypath NodeTemplate#ssh_keypath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_keypath NodeTemplate#ssh_keypath}
   */
   readonly sshKeypath?: string;
   /**
   * Set the name of the ssh user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
   */
   readonly sshUser?: string;
   /**
   * AWS VPC subnet id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#subnet_id NodeTemplate#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#subnet_id NodeTemplate#subnet_id}
   */
   readonly subnetId: string;
   /**
   * AWS Tags (e.g. key1,value1,key2,value2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#tags NodeTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#tags NodeTemplate#tags}
   */
   readonly tags?: string;
   /**
   * Create an EBS optimized instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#use_ebs_optimized_instance NodeTemplate#use_ebs_optimized_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#use_ebs_optimized_instance NodeTemplate#use_ebs_optimized_instance}
   */
   readonly useEbsOptimizedInstance?: boolean | cdktf.IResolvable;
   /**
   * Force the usage of private IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#use_private_address NodeTemplate#use_private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#use_private_address NodeTemplate#use_private_address}
   */
   readonly usePrivateAddress?: boolean | cdktf.IResolvable;
   /**
   * Path to file with cloud-init user data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#userdata NodeTemplate#userdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#userdata NodeTemplate#userdata}
   */
   readonly userdata?: string;
   /**
   * Amazon EBS volume type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#volume_type NodeTemplate#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#volume_type NodeTemplate#volume_type}
   */
   readonly volumeType?: string;
   /**
   * AWS VPC id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#vpc_id NodeTemplate#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#vpc_id NodeTemplate#vpc_id}
   */
   readonly vpcId: string;
   /**
   * AWS zone for instance (i.e. a,b,c,d,e)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#zone NodeTemplate#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#zone NodeTemplate#zone}
   */
   readonly zone: string;
 }
@@ -1382,193 +1382,193 @@ export interface NodeTemplateAzureConfig {
   /**
   * Enable Accelerated Networking when creating an Azure Network Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#accelerated_networking NodeTemplate#accelerated_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#accelerated_networking NodeTemplate#accelerated_networking}
   */
   readonly acceleratedNetworking?: boolean | cdktf.IResolvable;
   /**
   * Azure Availability Set to place the virtual machine into
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#availability_set NodeTemplate#availability_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#availability_set NodeTemplate#availability_set}
   */
   readonly availabilitySet?: string;
   /**
   * The Azure Availability Zone the VM should be created in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#availability_zone NodeTemplate#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#availability_zone NodeTemplate#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Azure Service Principal Account ID (optional, browser auth is used if not specified)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#client_id NodeTemplate#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#client_id NodeTemplate#client_id}
   */
   readonly clientId?: string;
   /**
   * Azure Service Principal Account password (optional, browser auth is used if not specified)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#client_secret NodeTemplate#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#client_secret NodeTemplate#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Path to file with custom-data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#custom_data NodeTemplate#custom_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#custom_data NodeTemplate#custom_data}
   */
   readonly customData?: string;
   /**
   * Disk size if using managed disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#disk_size NodeTemplate#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#disk_size NodeTemplate#disk_size}
   */
   readonly diskSize?: string;
   /**
   * A unique DNS label for the public IP adddress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#dns NodeTemplate#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#dns NodeTemplate#dns}
   */
   readonly dns?: string;
   /**
   * Port number for Docker engine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#docker_port NodeTemplate#docker_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#docker_port NodeTemplate#docker_port}
   */
   readonly dockerPort?: string;
   /**
   * Azure environment (e.g. AzurePublicCloud, AzureChinaCloud)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#environment NodeTemplate#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#environment NodeTemplate#environment}
   */
   readonly environment?: string;
   /**
   * Fault domain count to use for availability set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#fault_domain_count NodeTemplate#fault_domain_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#fault_domain_count NodeTemplate#fault_domain_count}
   */
   readonly faultDomainCount?: string;
   /**
   * Azure virtual machine OS image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#image NodeTemplate#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#image NodeTemplate#image}
   */
   readonly image?: string;
   /**
   * Azure region to create the virtual machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#location NodeTemplate#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#location NodeTemplate#location}
   */
   readonly location?: string;
   /**
   * Configures VM and availability set for managed disks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#managed_disks NodeTemplate#managed_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#managed_disks NodeTemplate#managed_disks}
   */
   readonly managedDisks?: boolean | cdktf.IResolvable;
   /**
   * Do not create a public IP address for the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#no_public_ip NodeTemplate#no_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#no_public_ip NodeTemplate#no_public_ip}
   */
   readonly noPublicIp?: boolean | cdktf.IResolvable;
   /**
   * Azure Network Security Group to assign this node to (accepts either a name or resource ID, default is to create a new NSG for each machine)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#nsg NodeTemplate#nsg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#nsg NodeTemplate#nsg}
   */
   readonly nsg?: string;
   /**
   * Make the specified port number accessible from the Internet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#open_port NodeTemplate#open_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#open_port NodeTemplate#open_port}
   */
   readonly openPort?: string[];
   /**
   * Purchase plan for Azure Virtual Machine (in <publisher>:<product>:<plan> format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#plan NodeTemplate#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#plan NodeTemplate#plan}
   */
   readonly plan?: string;
   /**
   * Specify a static private IP address for the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#private_ip_address NodeTemplate#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#private_ip_address NodeTemplate#private_ip_address}
   */
   readonly privateIpAddress?: string;
   /**
   * Azure Resource Group name (will be created if missing)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#resource_group NodeTemplate#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#resource_group NodeTemplate#resource_group}
   */
   readonly resourceGroup?: string;
   /**
   * Size for Azure Virtual Machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#size NodeTemplate#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#size NodeTemplate#size}
   */
   readonly size?: string;
   /**
   * Username for SSH login
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
   */
   readonly sshUser?: string;
   /**
   * Assign a static public IP address to the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#static_public_ip NodeTemplate#static_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#static_public_ip NodeTemplate#static_public_ip}
   */
   readonly staticPublicIp?: boolean | cdktf.IResolvable;
   /**
   * Type of Storage Account to host the OS Disk for the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#storage_type NodeTemplate#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#storage_type NodeTemplate#storage_type}
   */
   readonly storageType?: string;
   /**
   * Azure Subnet Name to be used within the Virtual Network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#subnet NodeTemplate#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#subnet NodeTemplate#subnet}
   */
   readonly subnet?: string;
   /**
   * Private CIDR block to be used for the new subnet, should comply RFC 1918
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#subnet_prefix NodeTemplate#subnet_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#subnet_prefix NodeTemplate#subnet_prefix}
   */
   readonly subnetPrefix?: string;
   /**
   * Azure Subscription ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#subscription_id NodeTemplate#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#subscription_id NodeTemplate#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
   * Tags to be applied to the Azure VM instance (e.g. key1,value1,key2,value2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#tags NodeTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#tags NodeTemplate#tags}
   */
   readonly tags?: string;
   /**
   * Update domain count to use for availability set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#update_domain_count NodeTemplate#update_domain_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#update_domain_count NodeTemplate#update_domain_count}
   */
   readonly updateDomainCount?: string;
   /**
   * Use private IP address of the machine to connect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#use_private_ip NodeTemplate#use_private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#use_private_ip NodeTemplate#use_private_ip}
   */
   readonly usePrivateIp?: boolean | cdktf.IResolvable;
   /**
   * Use the Standard SKU when creating a public IP for an Azure VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#use_public_ip_standard_sku NodeTemplate#use_public_ip_standard_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#use_public_ip_standard_sku NodeTemplate#use_public_ip_standard_sku}
   */
   readonly usePublicIpStandardSku?: boolean | cdktf.IResolvable;
   /**
   * Azure Virtual Network name to connect the virtual machine (in [resourcegroup:]name format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#vnet NodeTemplate#vnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#vnet NodeTemplate#vnet}
   */
   readonly vnet?: string;
 }
@@ -2553,85 +2553,85 @@ export interface NodeTemplateDigitaloceanConfig {
   /**
   * Digital Ocean access token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#access_token NodeTemplate#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#access_token NodeTemplate#access_token}
   */
   readonly accessToken?: string;
   /**
   * Enable backups for droplet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#backups NodeTemplate#backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#backups NodeTemplate#backups}
   */
   readonly backups?: boolean | cdktf.IResolvable;
   /**
   * Digital Ocean Image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#image NodeTemplate#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#image NodeTemplate#image}
   */
   readonly image?: string;
   /**
   * Enable ipv6 for droplet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ipv6 NodeTemplate#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ipv6 NodeTemplate#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
   /**
   * Enable monitoring for droplet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#monitoring NodeTemplate#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#monitoring NodeTemplate#monitoring}
   */
   readonly monitoring?: boolean | cdktf.IResolvable;
   /**
   * Enable private networking for droplet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#private_networking NodeTemplate#private_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#private_networking NodeTemplate#private_networking}
   */
   readonly privateNetworking?: boolean | cdktf.IResolvable;
   /**
   * Digital Ocean region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#region NodeTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#region NodeTemplate#region}
   */
   readonly region?: string;
   /**
   * Digital Ocean size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#size NodeTemplate#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#size NodeTemplate#size}
   */
   readonly size?: string;
   /**
   * SSH key fingerprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_key_fingerprint NodeTemplate#ssh_key_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_key_fingerprint NodeTemplate#ssh_key_fingerprint}
   */
   readonly sshKeyFingerprint?: string;
   /**
   * SSH private key path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_key_path NodeTemplate#ssh_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_key_path NodeTemplate#ssh_key_path}
   */
   readonly sshKeyPath?: string;
   /**
   * SSH port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_port NodeTemplate#ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_port NodeTemplate#ssh_port}
   */
   readonly sshPort?: string;
   /**
   * SSH username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
   */
   readonly sshUser?: string;
   /**
   * Comma-separated list of tags to apply to the Droplet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#tags NodeTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#tags NodeTemplate#tags}
   */
   readonly tags?: string;
   /**
   * Path to file with cloud-init user-data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#userdata NodeTemplate#userdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#userdata NodeTemplate#userdata}
   */
   readonly userdata?: string;
 }
@@ -3094,91 +3094,91 @@ export interface NodeTemplateHarvesterConfig {
   /**
   * CPU count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#cpu_count NodeTemplate#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#cpu_count NodeTemplate#cpu_count}
   */
   readonly cpuCount?: string;
   /**
   * Disk bus
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#disk_bus NodeTemplate#disk_bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#disk_bus NodeTemplate#disk_bus}
   */
   readonly diskBus?: string;
   /**
   * A JSON string specifying info for the disks e.g. `{"disks":[{"imageName":"harvester-public/image-57hzg","bootOrder":1,"size":40},{"storageClassName":"node-driver-test","bootOrder":2,"size":1}]}`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#disk_info NodeTemplate#disk_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#disk_info NodeTemplate#disk_info}
   */
   readonly diskInfo?: string;
   /**
   * Disk size (in GiB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#disk_size NodeTemplate#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#disk_size NodeTemplate#disk_size}
   */
   readonly diskSize?: string;
   /**
   * Image name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#image_name NodeTemplate#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#image_name NodeTemplate#image_name}
   */
   readonly imageName?: string;
   /**
   * Memory size (in GiB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#memory_size NodeTemplate#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#memory_size NodeTemplate#memory_size}
   */
   readonly memorySize?: string;
   /**
   * NetworkData content of cloud-init, base64 is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#network_data NodeTemplate#network_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#network_data NodeTemplate#network_data}
   */
   readonly networkData?: string;
   /**
   * A JSON string specifying info for the networks e.g. `{"interfaces":[{"networkName":"harvester-public/vlan1"},{"networkName":"harvester-public/vlan2"}]}`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#network_info NodeTemplate#network_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#network_info NodeTemplate#network_info}
   */
   readonly networkInfo?: string;
   /**
   * Network model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#network_model NodeTemplate#network_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#network_model NodeTemplate#network_model}
   */
   readonly networkModel?: string;
   /**
   * Network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#network_name NodeTemplate#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#network_name NodeTemplate#network_name}
   */
   readonly networkName?: string;
   /**
   * SSH password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_password NodeTemplate#ssh_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_password NodeTemplate#ssh_password}
   */
   readonly sshPassword?: string;
   /**
   * SSH username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
   */
   readonly sshUser: string;
   /**
   * UserData content of cloud-init, base64 is supported. If the image does not contain the qemu-guest-agent package, you must install and start qemu-guest-agent using userdata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#user_data NodeTemplate#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#user_data NodeTemplate#user_data}
   */
   readonly userData?: string;
   /**
   * VM affinity, base64 is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#vm_affinity NodeTemplate#vm_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#vm_affinity NodeTemplate#vm_affinity}
   */
   readonly vmAffinity?: string;
   /**
   * Virtual machine namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#vm_namespace NodeTemplate#vm_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#vm_namespace NodeTemplate#vm_namespace}
   */
   readonly vmNamespace: string;
 }
@@ -3664,55 +3664,55 @@ export interface NodeTemplateHetznerConfig {
   /**
   * Hetzner Cloud project API token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#api_token NodeTemplate#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#api_token NodeTemplate#api_token}
   */
   readonly apiToken: string;
   /**
   * Hetzner Cloud server image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#image NodeTemplate#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#image NodeTemplate#image}
   */
   readonly image?: string;
   /**
   * Comma-separated list of network IDs or names which should be attached to the server private network interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#networks NodeTemplate#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#networks NodeTemplate#networks}
   */
   readonly networks?: string;
   /**
   * Map of the labels which will be assigned to the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#server_labels NodeTemplate#server_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#server_labels NodeTemplate#server_labels}
   */
   readonly serverLabels?: { [key: string]: string };
   /**
   * Hetzner Cloud datacenter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#server_location NodeTemplate#server_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#server_location NodeTemplate#server_location}
   */
   readonly serverLocation?: string;
   /**
   * Hetzner Cloud server type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#server_type NodeTemplate#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#server_type NodeTemplate#server_type}
   */
   readonly serverType?: string;
   /**
   * Use private network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#use_private_network NodeTemplate#use_private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#use_private_network NodeTemplate#use_private_network}
   */
   readonly usePrivateNetwork?: boolean | cdktf.IResolvable;
   /**
   * Path to file with cloud-init user-data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#userdata NodeTemplate#userdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#userdata NodeTemplate#userdata}
   */
   readonly userdata?: string;
   /**
   * Comma-separated list of volume IDs or names which should be attached to the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#volumes NodeTemplate#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#volumes NodeTemplate#volumes}
   */
   readonly volumes?: string;
 }
@@ -4027,97 +4027,97 @@ export interface NodeTemplateLinodeConfig {
   /**
   * Linode user accounts (seperated by commas) whose Linode SSH keys will be permitted root access to the created node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#authorized_users NodeTemplate#authorized_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#authorized_users NodeTemplate#authorized_users}
   */
   readonly authorizedUsers?: string;
   /**
   * Create private IP for the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#create_private_ip NodeTemplate#create_private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#create_private_ip NodeTemplate#create_private_ip}
   */
   readonly createPrivateIp?: boolean | cdktf.IResolvable;
   /**
   * Docker Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#docker_port NodeTemplate#docker_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#docker_port NodeTemplate#docker_port}
   */
   readonly dockerPort?: string;
   /**
   * Specifies the Linode Instance image which determines the OS distribution and base files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#image NodeTemplate#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#image NodeTemplate#image}
   */
   readonly image?: string;
   /**
   * Specifies the Linode Instance type which determines CPU, memory, disk size, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#instance_type NodeTemplate#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#instance_type NodeTemplate#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Linode Instance Label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#label NodeTemplate#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#label NodeTemplate#label}
   */
   readonly label?: string;
   /**
   * Specifies the region (location) of the Linode instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#region NodeTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#region NodeTemplate#region}
   */
   readonly region?: string;
   /**
   * Root Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#root_pass NodeTemplate#root_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#root_pass NodeTemplate#root_pass}
   */
   readonly rootPass?: string;
   /**
   * Linode Instance SSH Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_port NodeTemplate#ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_port NodeTemplate#ssh_port}
   */
   readonly sshPort?: string;
   /**
   * Specifies the user as which docker-machine should log in to the Linode instance to install Docker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
   */
   readonly sshUser?: string;
   /**
   * Specifies the Linode StackScript to use to create the instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#stackscript NodeTemplate#stackscript}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#stackscript NodeTemplate#stackscript}
   */
   readonly stackscript?: string;
   /**
   * A JSON string specifying data for the selected StackScript
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#stackscript_data NodeTemplate#stackscript_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#stackscript_data NodeTemplate#stackscript_data}
   */
   readonly stackscriptData?: string;
   /**
   * Linode Instance Swap Size (MB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#swap_size NodeTemplate#swap_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#swap_size NodeTemplate#swap_size}
   */
   readonly swapSize?: string;
   /**
   * A comma separated list of tags to apply to the the Linode resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#tags NodeTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#tags NodeTemplate#tags}
   */
   readonly tags?: string;
   /**
   * Linode API Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#token NodeTemplate#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#token NodeTemplate#token}
   */
   readonly token?: string;
   /**
   * Prefix the User-Agent in Linode API calls with some 'product/version'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ua_prefix NodeTemplate#ua_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ua_prefix NodeTemplate#ua_prefix}
   */
   readonly uaPrefix?: string;
 }
@@ -4636,19 +4636,19 @@ export class NodeTemplateLinodeConfigOutputReference extends cdktf.ComplexObject
 }
 export interface NodeTemplateNodeTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#effect NodeTemplate#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#effect NodeTemplate#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#key NodeTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#key NodeTemplate#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#time_added NodeTemplate#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#time_added NodeTemplate#time_added}
   */
   readonly timeAdded?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#value NodeTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#value NodeTemplate#value}
   */
   readonly value: string;
 }
@@ -4845,79 +4845,79 @@ export class NodeTemplateNodeTaintsList extends cdktf.ComplexList {
 }
 export interface NodeTemplateOpennebulaConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#b2d_size NodeTemplate#b2d_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#b2d_size NodeTemplate#b2d_size}
   */
   readonly b2DSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#cpu NodeTemplate#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#cpu NodeTemplate#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#dev_prefix NodeTemplate#dev_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#dev_prefix NodeTemplate#dev_prefix}
   */
   readonly devPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#disable_vnc NodeTemplate#disable_vnc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#disable_vnc NodeTemplate#disable_vnc}
   */
   readonly disableVnc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#disk_resize NodeTemplate#disk_resize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#disk_resize NodeTemplate#disk_resize}
   */
   readonly diskResize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#image_id NodeTemplate#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#image_id NodeTemplate#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#image_name NodeTemplate#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#image_name NodeTemplate#image_name}
   */
   readonly imageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#image_owner NodeTemplate#image_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#image_owner NodeTemplate#image_owner}
   */
   readonly imageOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#memory NodeTemplate#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#memory NodeTemplate#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#network_id NodeTemplate#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#network_id NodeTemplate#network_id}
   */
   readonly networkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#network_name NodeTemplate#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#network_name NodeTemplate#network_name}
   */
   readonly networkName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#network_owner NodeTemplate#network_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#network_owner NodeTemplate#network_owner}
   */
   readonly networkOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#password NodeTemplate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#password NodeTemplate#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
   */
   readonly sshUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#template_id NodeTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#template_id NodeTemplate#template_id}
   */
   readonly templateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#template_name NodeTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#template_name NodeTemplate#template_name}
   */
   readonly templateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#user NodeTemplate#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#user NodeTemplate#user}
   */
   readonly user: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#vcpu NodeTemplate#vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#vcpu NodeTemplate#vcpu}
   */
   readonly vcpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#xml_rpc_url NodeTemplate#xml_rpc_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#xml_rpc_url NodeTemplate#xml_rpc_url}
   */
   readonly xmlRpcUrl: string;
 }
@@ -5514,155 +5514,155 @@ export class NodeTemplateOpennebulaConfigOutputReference extends cdktf.ComplexOb
 }
 export interface NodeTemplateOpenstackConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#active_timeout NodeTemplate#active_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#active_timeout NodeTemplate#active_timeout}
   */
   readonly activeTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#application_credential_id NodeTemplate#application_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#application_credential_id NodeTemplate#application_credential_id}
   */
   readonly applicationCredentialId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#application_credential_name NodeTemplate#application_credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#application_credential_name NodeTemplate#application_credential_name}
   */
   readonly applicationCredentialName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#application_credential_secret NodeTemplate#application_credential_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#application_credential_secret NodeTemplate#application_credential_secret}
   */
   readonly applicationCredentialSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#auth_url NodeTemplate#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#auth_url NodeTemplate#auth_url}
   */
   readonly authUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#availability_zone NodeTemplate#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#availability_zone NodeTemplate#availability_zone}
   */
   readonly availabilityZone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#boot_from_volume NodeTemplate#boot_from_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#boot_from_volume NodeTemplate#boot_from_volume}
   */
   readonly bootFromVolume?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#cacert NodeTemplate#cacert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#cacert NodeTemplate#cacert}
   */
   readonly cacert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#config_drive NodeTemplate#config_drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#config_drive NodeTemplate#config_drive}
   */
   readonly configDrive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#domain_id NodeTemplate#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#domain_id NodeTemplate#domain_id}
   */
   readonly domainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#domain_name NodeTemplate#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#domain_name NodeTemplate#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#endpoint_type NodeTemplate#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#endpoint_type NodeTemplate#endpoint_type}
   */
   readonly endpointType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#flavor_id NodeTemplate#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#flavor_id NodeTemplate#flavor_id}
   */
   readonly flavorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#flavor_name NodeTemplate#flavor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#flavor_name NodeTemplate#flavor_name}
   */
   readonly flavorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#floating_ip_pool NodeTemplate#floating_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#floating_ip_pool NodeTemplate#floating_ip_pool}
   */
   readonly floatingIpPool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#image_id NodeTemplate#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#image_id NodeTemplate#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#image_name NodeTemplate#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#image_name NodeTemplate#image_name}
   */
   readonly imageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#insecure NodeTemplate#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#insecure NodeTemplate#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ip_version NodeTemplate#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ip_version NodeTemplate#ip_version}
   */
   readonly ipVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#keypair_name NodeTemplate#keypair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#keypair_name NodeTemplate#keypair_name}
   */
   readonly keypairName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#net_id NodeTemplate#net_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#net_id NodeTemplate#net_id}
   */
   readonly netId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#net_name NodeTemplate#net_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#net_name NodeTemplate#net_name}
   */
   readonly netName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#nova_network NodeTemplate#nova_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#nova_network NodeTemplate#nova_network}
   */
   readonly novaNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#password NodeTemplate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#password NodeTemplate#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#private_key_file NodeTemplate#private_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#private_key_file NodeTemplate#private_key_file}
   */
   readonly privateKeyFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#region NodeTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#region NodeTemplate#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#sec_groups NodeTemplate#sec_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#sec_groups NodeTemplate#sec_groups}
   */
   readonly secGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_port NodeTemplate#ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_port NodeTemplate#ssh_port}
   */
   readonly sshPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
   */
   readonly sshUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#tenant_id NodeTemplate#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#tenant_id NodeTemplate#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#tenant_name NodeTemplate#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#tenant_name NodeTemplate#tenant_name}
   */
   readonly tenantName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#user_data_file NodeTemplate#user_data_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#user_data_file NodeTemplate#user_data_file}
   */
   readonly userDataFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#username NodeTemplate#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#username NodeTemplate#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#volume_device_path NodeTemplate#volume_device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#volume_device_path NodeTemplate#volume_device_path}
   */
   readonly volumeDevicePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#volume_id NodeTemplate#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#volume_id NodeTemplate#volume_id}
   */
   readonly volumeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#volume_name NodeTemplate#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#volume_name NodeTemplate#volume_name}
   */
   readonly volumeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#volume_size NodeTemplate#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#volume_size NodeTemplate#volume_size}
   */
   readonly volumeSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#volume_type NodeTemplate#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#volume_type NodeTemplate#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -6812,67 +6812,67 @@ export interface NodeTemplateOutscaleConfig {
   /**
   * Outscale Access Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#access_key NodeTemplate#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#access_key NodeTemplate#access_key}
   */
   readonly accessKey: string;
   /**
   * Extra tags for all created resources (e.g. key1=value1,key2=value2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#extra_tags_all NodeTemplate#extra_tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#extra_tags_all NodeTemplate#extra_tags_all}
   */
   readonly extraTagsAll?: string[];
   /**
   * Extra tags only for instances (e.g. key1=value1,key2=value2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#extra_tags_instances NodeTemplate#extra_tags_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#extra_tags_instances NodeTemplate#extra_tags_instances}
   */
   readonly extraTagsInstances?: string[];
   /**
   * Outscale VM type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#instance_type NodeTemplate#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#instance_type NodeTemplate#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Outscale Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#region NodeTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#region NodeTemplate#region}
   */
   readonly region?: string;
   /**
   * Iops for io1 Root Disk. From 1 to 13000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#root_disk_iops NodeTemplate#root_disk_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#root_disk_iops NodeTemplate#root_disk_iops}
   */
   readonly rootDiskIops?: number;
   /**
   * Size of the Root Disk (in GB). From 1 to 14901.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#root_disk_size NodeTemplate#root_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#root_disk_size NodeTemplate#root_disk_size}
   */
   readonly rootDiskSize?: number;
   /**
   * Type of the Root Disk. Possible values are :'standard', 'gp2' or 'io1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#root_disk_type NodeTemplate#root_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#root_disk_type NodeTemplate#root_disk_type}
   */
   readonly rootDiskType?: string;
   /**
   * Outscale Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#secret_key NodeTemplate#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#secret_key NodeTemplate#secret_key}
   */
   readonly secretKey: string;
   /**
   * Ids of user defined Security Groups to add to the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#security_group_ids NodeTemplate#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#security_group_ids NodeTemplate#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Outscale Machine Image to use as bootstrap for the VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#source_omi NodeTemplate#source_omi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#source_omi NodeTemplate#source_omi}
   */
   readonly sourceOmi?: string;
 }
@@ -7240,15 +7240,15 @@ export class NodeTemplateOutscaleConfigOutputReference extends cdktf.ComplexObje
 }
 export interface NodeTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#create NodeTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#create NodeTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#delete NodeTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#delete NodeTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#update NodeTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#update NodeTemplate#update}
   */
   readonly update?: string;
 }
@@ -7402,193 +7402,193 @@ export interface NodeTemplateVsphereConfig {
   /**
   * vSphere URL for boot2docker image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#boot2docker_url NodeTemplate#boot2docker_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#boot2docker_url NodeTemplate#boot2docker_url}
   */
   readonly boot2DockerUrl?: string;
   /**
   * vSphere vm configuration parameters (used for guestinfo)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#cfgparam NodeTemplate#cfgparam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#cfgparam NodeTemplate#cfgparam}
   */
   readonly cfgparam?: string[];
   /**
   * If you choose creation type clone a name of what you want to clone is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#clone_from NodeTemplate#clone_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#clone_from NodeTemplate#clone_from}
   */
   readonly cloneFrom?: string;
   /**
   * Filepath to a cloud-config yaml file to put into the ISO user-data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#cloud_config NodeTemplate#cloud_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#cloud_config NodeTemplate#cloud_config}
   */
   readonly cloudConfig?: string;
   /**
   * vSphere cloud-init filepath or url to add to guestinfo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#cloudinit NodeTemplate#cloudinit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#cloudinit NodeTemplate#cloudinit}
   */
   readonly cloudinit?: string;
   /**
   * If you choose to clone from a content library template specify the name of the library
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#content_library NodeTemplate#content_library}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#content_library NodeTemplate#content_library}
   */
   readonly contentLibrary?: string;
   /**
   * vSphere CPU number for docker VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#cpu_count NodeTemplate#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#cpu_count NodeTemplate#cpu_count}
   */
   readonly cpuCount?: string;
   /**
   * Creation type when creating a new virtual machine. Supported values: vm, template, library, legacy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#creation_type NodeTemplate#creation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#creation_type NodeTemplate#creation_type}
   */
   readonly creationType?: string;
   /**
   * vSphere custom attributes, format key/value e.g. '200=my custom value'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#custom_attributes NodeTemplate#custom_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#custom_attributes NodeTemplate#custom_attributes}
   */
   readonly customAttributes?: string[];
   /**
   * vSphere datacenter for virtual machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#datacenter NodeTemplate#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#datacenter NodeTemplate#datacenter}
   */
   readonly datacenter?: string;
   /**
   * vSphere datastore for virtual machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#datastore NodeTemplate#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#datastore NodeTemplate#datastore}
   */
   readonly datastore?: string;
   /**
   * vSphere datastore cluster for virtual machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#datastore_cluster NodeTemplate#datastore_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#datastore_cluster NodeTemplate#datastore_cluster}
   */
   readonly datastoreCluster?: string;
   /**
   * vSphere size of disk for docker VM (in MB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#disk_size NodeTemplate#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#disk_size NodeTemplate#disk_size}
   */
   readonly diskSize?: string;
   /**
   * vSphere folder for the docker VM. This folder must already exist in the datacenter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#folder NodeTemplate#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#folder NodeTemplate#folder}
   */
   readonly folder?: string;
   /**
   * Duration in seconds before the graceful shutdown of the VM times out and the VM is destroyed. A force destroy will be performed when the value is zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#graceful_shutdown_timeout NodeTemplate#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#graceful_shutdown_timeout NodeTemplate#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * vSphere compute resource where the docker VM will be instantiated. This can be omitted if using a cluster with DRS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#hostsystem NodeTemplate#hostsystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#hostsystem NodeTemplate#hostsystem}
   */
   readonly hostsystem?: string;
   /**
   * vSphere size of memory for docker VM (in MB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#memory_size NodeTemplate#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#memory_size NodeTemplate#memory_size}
   */
   readonly memorySize?: string;
   /**
   * vSphere network where the virtual machine will be attached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#network NodeTemplate#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#network NodeTemplate#network}
   */
   readonly network?: string[];
   /**
   * vSphere password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#password NodeTemplate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#password NodeTemplate#password}
   */
   readonly password?: string;
   /**
   * vSphere resource pool for docker VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#pool NodeTemplate#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#pool NodeTemplate#pool}
   */
   readonly pool?: string;
   /**
   * If using a non-B2D image you can specify the ssh password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_password NodeTemplate#ssh_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_password NodeTemplate#ssh_password}
   */
   readonly sshPassword?: string;
   /**
   * If using a non-B2D image you can specify the ssh port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_port NodeTemplate#ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_port NodeTemplate#ssh_port}
   */
   readonly sshPort?: string;
   /**
   * If using a non-B2D image you can specify the ssh user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_user NodeTemplate#ssh_user}
   */
   readonly sshUser?: string;
   /**
   * If using a non-B2D image the uploaded keys will need chown'ed, defaults to staff e.g. docker:staff
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#ssh_user_group NodeTemplate#ssh_user_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#ssh_user_group NodeTemplate#ssh_user_group}
   */
   readonly sshUserGroup?: string;
   /**
   * vSphere tags id e.g. urn:xxx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#tags NodeTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#tags NodeTemplate#tags}
   */
   readonly tags?: string[];
   /**
   * vSphere username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#username NodeTemplate#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#username NodeTemplate#username}
   */
   readonly username?: string;
   /**
   * vSphere vApp IP allocation policy. Supported values are: dhcp, fixed, transient and fixedAllocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#vapp_ip_allocation_policy NodeTemplate#vapp_ip_allocation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#vapp_ip_allocation_policy NodeTemplate#vapp_ip_allocation_policy}
   */
   readonly vappIpAllocationPolicy?: string;
   /**
   * vSphere vApp IP protocol for this deployment. Supported values are: IPv4 and IPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#vapp_ip_protocol NodeTemplate#vapp_ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#vapp_ip_protocol NodeTemplate#vapp_ip_protocol}
   */
   readonly vappIpProtocol?: string;
   /**
   * vSphere vApp properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#vapp_property NodeTemplate#vapp_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#vapp_property NodeTemplate#vapp_property}
   */
   readonly vappProperty?: string[];
   /**
   * vSphere OVF environment transports to use for properties. Supported values are: iso and com.vmware.guestInfo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#vapp_transport NodeTemplate#vapp_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#vapp_transport NodeTemplate#vapp_transport}
   */
   readonly vappTransport?: string;
   /**
   * vSphere IP/hostname for vCenter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#vcenter NodeTemplate#vcenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#vcenter NodeTemplate#vcenter}
   */
   readonly vcenter?: string;
   /**
   * vSphere Port for vCenter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#vcenter_port NodeTemplate#vcenter_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#vcenter_port NodeTemplate#vcenter_port}
   */
   readonly vcenterPort?: string;
 }
@@ -8571,7 +8571,7 @@ export class NodeTemplateVsphereConfigOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template rancher2_node_template}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template rancher2_node_template}
 */
 export class NodeTemplate extends cdktf.TerraformResource {
 
@@ -8587,7 +8587,7 @@ export class NodeTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NodeTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NodeTemplate to import
-  * @param importFromId The id of the existing NodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NodeTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8599,7 +8599,7 @@ export class NodeTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/node_template rancher2_node_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/node_template rancher2_node_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8610,8 +8610,8 @@ export class NodeTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_node_template',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

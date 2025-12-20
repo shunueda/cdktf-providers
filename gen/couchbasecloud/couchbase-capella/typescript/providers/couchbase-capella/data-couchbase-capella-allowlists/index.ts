@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/allowlists
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/allowlists
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DataCouchbaseCapellaAllowlistsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The ID of the Capella cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/allowlists#cluster_id DataCouchbaseCapellaAllowlists#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/allowlists#cluster_id DataCouchbaseCapellaAllowlists#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The ID of the Capella organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/allowlists#organization_id DataCouchbaseCapellaAllowlists#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/allowlists#organization_id DataCouchbaseCapellaAllowlists#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The ID of the Capella project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/allowlists#project_id DataCouchbaseCapellaAllowlists#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/allowlists#project_id DataCouchbaseCapellaAllowlists#project_id}
   */
   readonly projectId: string;
 }
@@ -213,7 +207,7 @@ export class DataCouchbaseCapellaAllowlistsDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/allowlists couchbase-capella_allowlists}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/allowlists couchbase-capella_allowlists}
 */
 export class DataCouchbaseCapellaAllowlists extends cdktf.TerraformDataSource {
 
@@ -229,7 +223,7 @@ export class DataCouchbaseCapellaAllowlists extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCouchbaseCapellaAllowlists resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCouchbaseCapellaAllowlists to import
-  * @param importFromId The id of the existing DataCouchbaseCapellaAllowlists that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/allowlists#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCouchbaseCapellaAllowlists that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/allowlists#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCouchbaseCapellaAllowlists to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +235,7 @@ export class DataCouchbaseCapellaAllowlists extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/allowlists couchbase-capella_allowlists} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/allowlists couchbase-capella_allowlists} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +246,8 @@ export class DataCouchbaseCapellaAllowlists extends cdktf.TerraformDataSource {
       terraformResourceType: 'couchbase-capella_allowlists',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

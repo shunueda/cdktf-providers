@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,223 +10,223 @@ export interface DatabaseMysqlV2Config extends cdktf.TerraformMetaArguments {
   /**
   * A list of IP addresses that can access the Managed Database. Each item can be a single IP address or a range in CIDR format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#allow_list DatabaseMysqlV2#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#allow_list DatabaseMysqlV2#allow_list}
   */
   readonly allowList?: string[];
   /**
   * The number of Linode instance nodes deployed to the Managed Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#cluster_size DatabaseMysqlV2#cluster_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#cluster_size DatabaseMysqlV2#cluster_size}
   */
   readonly clusterSize?: number;
   /**
   * The minimum amount of time in seconds to keep binlog entries before deletion. This may be extended for services that require binlog entries for longer than the default for example if using the MySQL Debezium Kafka connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_binlog_retention_period DatabaseMysqlV2#engine_config_binlog_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_binlog_retention_period DatabaseMysqlV2#engine_config_binlog_retention_period}
   */
   readonly engineConfigBinlogRetentionPeriod?: number;
   /**
   * The number of seconds that the mysqld server waits for a connect packet before responding with Bad handshake.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_connect_timeout DatabaseMysqlV2#engine_config_mysql_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_connect_timeout DatabaseMysqlV2#engine_config_mysql_connect_timeout}
   */
   readonly engineConfigMysqlConnectTimeout?: number;
   /**
   * Default server time zone as an offset from UTC (from -12:00 to +12:00), a time zone name, or 'SYSTEM' to use the MySQL server default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_default_time_zone DatabaseMysqlV2#engine_config_mysql_default_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_default_time_zone DatabaseMysqlV2#engine_config_mysql_default_time_zone}
   */
   readonly engineConfigMysqlDefaultTimeZone?: string;
   /**
   * The maximum permitted result length in bytes for the GROUP_CONCAT() function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_group_concat_max_len DatabaseMysqlV2#engine_config_mysql_group_concat_max_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_group_concat_max_len DatabaseMysqlV2#engine_config_mysql_group_concat_max_len}
   */
   readonly engineConfigMysqlGroupConcatMaxLen?: number;
   /**
   * The time, in seconds, before cached statistics expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_information_schema_stats_expiry DatabaseMysqlV2#engine_config_mysql_information_schema_stats_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_information_schema_stats_expiry DatabaseMysqlV2#engine_config_mysql_information_schema_stats_expiry}
   */
   readonly engineConfigMysqlInformationSchemaStatsExpiry?: number;
   /**
   * Maximum size for the InnoDB change buffer, as a percentage of the total size of the buffer pool. Default is 25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_change_buffer_max_size DatabaseMysqlV2#engine_config_mysql_innodb_change_buffer_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_change_buffer_max_size DatabaseMysqlV2#engine_config_mysql_innodb_change_buffer_max_size}
   */
   readonly engineConfigMysqlInnodbChangeBufferMaxSize?: number;
   /**
   * Specifies whether flushing a page from the InnoDB buffer pool also flushes other dirty pages in the same extent (default is 1): 0 - dirty pages in the same extent are not flushed, 1 - flush contiguous dirty pages in the same extent, 2 - flush dirty pages in the same extent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_flush_neighbors DatabaseMysqlV2#engine_config_mysql_innodb_flush_neighbors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_flush_neighbors DatabaseMysqlV2#engine_config_mysql_innodb_flush_neighbors}
   */
   readonly engineConfigMysqlInnodbFlushNeighbors?: number;
   /**
   * Minimum length of words that are stored in an InnoDB FULLTEXT index. Changing this parameter will lead to a restart of the MySQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_ft_min_token_size DatabaseMysqlV2#engine_config_mysql_innodb_ft_min_token_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_ft_min_token_size DatabaseMysqlV2#engine_config_mysql_innodb_ft_min_token_size}
   */
   readonly engineConfigMysqlInnodbFtMinTokenSize?: number;
   /**
   * This option is used to specify your own InnoDB FULLTEXT index stopword list for all InnoDB tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_ft_server_stopword_table DatabaseMysqlV2#engine_config_mysql_innodb_ft_server_stopword_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_ft_server_stopword_table DatabaseMysqlV2#engine_config_mysql_innodb_ft_server_stopword_table}
   */
   readonly engineConfigMysqlInnodbFtServerStopwordTable?: string;
   /**
   * The length of time in seconds an InnoDB transaction waits for a row lock before giving up. Default is 120.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_lock_wait_timeout DatabaseMysqlV2#engine_config_mysql_innodb_lock_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_lock_wait_timeout DatabaseMysqlV2#engine_config_mysql_innodb_lock_wait_timeout}
   */
   readonly engineConfigMysqlInnodbLockWaitTimeout?: number;
   /**
   * The size in bytes of the buffer that InnoDB uses to write to the log files on disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_log_buffer_size DatabaseMysqlV2#engine_config_mysql_innodb_log_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_log_buffer_size DatabaseMysqlV2#engine_config_mysql_innodb_log_buffer_size}
   */
   readonly engineConfigMysqlInnodbLogBufferSize?: number;
   /**
   * The upper limit in bytes on the size of the temporary log files used during online DDL operations for InnoDB tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_online_alter_log_max_size DatabaseMysqlV2#engine_config_mysql_innodb_online_alter_log_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_online_alter_log_max_size DatabaseMysqlV2#engine_config_mysql_innodb_online_alter_log_max_size}
   */
   readonly engineConfigMysqlInnodbOnlineAlterLogMaxSize?: number;
   /**
   * The number of I/O threads for read operations in InnoDB. Default is 4. Changing this parameter will lead to a restart of the MySQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_read_io_threads DatabaseMysqlV2#engine_config_mysql_innodb_read_io_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_read_io_threads DatabaseMysqlV2#engine_config_mysql_innodb_read_io_threads}
   */
   readonly engineConfigMysqlInnodbReadIoThreads?: number;
   /**
   * When enabled a transaction timeout causes InnoDB to abort and roll back the entire transaction. Changing this parameter will lead to a restart of the MySQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_rollback_on_timeout DatabaseMysqlV2#engine_config_mysql_innodb_rollback_on_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_rollback_on_timeout DatabaseMysqlV2#engine_config_mysql_innodb_rollback_on_timeout}
   */
   readonly engineConfigMysqlInnodbRollbackOnTimeout?: boolean | cdktf.IResolvable;
   /**
   * Defines the maximum number of threads permitted inside of InnoDB. Default is 0 (infinite concurrency - no limit).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_thread_concurrency DatabaseMysqlV2#engine_config_mysql_innodb_thread_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_thread_concurrency DatabaseMysqlV2#engine_config_mysql_innodb_thread_concurrency}
   */
   readonly engineConfigMysqlInnodbThreadConcurrency?: number;
   /**
   * The number of I/O threads for write operations in InnoDB. Default is 4. Changing this parameter will lead to a restart of the MySQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_write_io_threads DatabaseMysqlV2#engine_config_mysql_innodb_write_io_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_innodb_write_io_threads DatabaseMysqlV2#engine_config_mysql_innodb_write_io_threads}
   */
   readonly engineConfigMysqlInnodbWriteIoThreads?: number;
   /**
   * The number of seconds the server waits for activity on an interactive connection before closing it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_interactive_timeout DatabaseMysqlV2#engine_config_mysql_interactive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_interactive_timeout DatabaseMysqlV2#engine_config_mysql_interactive_timeout}
   */
   readonly engineConfigMysqlInteractiveTimeout?: number;
   /**
   * The storage engine for in-memory internal temporary tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_internal_tmp_mem_storage_engine DatabaseMysqlV2#engine_config_mysql_internal_tmp_mem_storage_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_internal_tmp_mem_storage_engine DatabaseMysqlV2#engine_config_mysql_internal_tmp_mem_storage_engine}
   */
   readonly engineConfigMysqlInternalTmpMemStorageEngine?: string;
   /**
   * Size of the largest message in bytes that can be received by the server. Default is 67108864 (64M).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_max_allowed_packet DatabaseMysqlV2#engine_config_mysql_max_allowed_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_max_allowed_packet DatabaseMysqlV2#engine_config_mysql_max_allowed_packet}
   */
   readonly engineConfigMysqlMaxAllowedPacket?: number;
   /**
   * Limits the size of internal in-memory tables. Also set tmp_table_size. Default is 16777216 (16M).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_max_heap_table_size DatabaseMysqlV2#engine_config_mysql_max_heap_table_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_max_heap_table_size DatabaseMysqlV2#engine_config_mysql_max_heap_table_size}
   */
   readonly engineConfigMysqlMaxHeapTableSize?: number;
   /**
   * Start sizes of connection buffer and result buffer. Default is 16384 (16K). Changing this parameter will lead to a restart of the MySQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_net_buffer_length DatabaseMysqlV2#engine_config_mysql_net_buffer_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_net_buffer_length DatabaseMysqlV2#engine_config_mysql_net_buffer_length}
   */
   readonly engineConfigMysqlNetBufferLength?: number;
   /**
   * The number of seconds to wait for more data from a connection before aborting the read.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_net_read_timeout DatabaseMysqlV2#engine_config_mysql_net_read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_net_read_timeout DatabaseMysqlV2#engine_config_mysql_net_read_timeout}
   */
   readonly engineConfigMysqlNetReadTimeout?: number;
   /**
   * The number of seconds to wait for a block to be written to a connection before aborting the write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_net_write_timeout DatabaseMysqlV2#engine_config_mysql_net_write_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_net_write_timeout DatabaseMysqlV2#engine_config_mysql_net_write_timeout}
   */
   readonly engineConfigMysqlNetWriteTimeout?: number;
   /**
   * Sort buffer size in bytes for ORDER BY optimization. Default is 262144 (256K).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_sort_buffer_size DatabaseMysqlV2#engine_config_mysql_sort_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_sort_buffer_size DatabaseMysqlV2#engine_config_mysql_sort_buffer_size}
   */
   readonly engineConfigMysqlSortBufferSize?: number;
   /**
   * Global SQL mode. Set to empty to use MySQL server defaults. When creating a new service and not setting this field Aiven default SQL mode (strict, SQL standard compliant) will be assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_sql_mode DatabaseMysqlV2#engine_config_mysql_sql_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_sql_mode DatabaseMysqlV2#engine_config_mysql_sql_mode}
   */
   readonly engineConfigMysqlSqlMode?: string;
   /**
   * Require primary key to be defined for new tables or old tables modified with ALTER TABLE and fail if missing. It is recommended to always have primary keys because various functionality may break if any large table is missing them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_sql_require_primary_key DatabaseMysqlV2#engine_config_mysql_sql_require_primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_sql_require_primary_key DatabaseMysqlV2#engine_config_mysql_sql_require_primary_key}
   */
   readonly engineConfigMysqlSqlRequirePrimaryKey?: boolean | cdktf.IResolvable;
   /**
   * Limits the size of internal in-memory tables. Also set max_heap_table_size. Default is 16777216 (16M).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_tmp_table_size DatabaseMysqlV2#engine_config_mysql_tmp_table_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_tmp_table_size DatabaseMysqlV2#engine_config_mysql_tmp_table_size}
   */
   readonly engineConfigMysqlTmpTableSize?: number;
   /**
   * The number of seconds the server waits for activity on a noninteractive connection before closing it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_config_mysql_wait_timeout DatabaseMysqlV2#engine_config_mysql_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_config_mysql_wait_timeout DatabaseMysqlV2#engine_config_mysql_wait_timeout}
   */
   readonly engineConfigMysqlWaitTimeout?: number;
   /**
   * The unique ID of the database engine and version to use. (e.g. mysql/8)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#engine_id DatabaseMysqlV2#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#engine_id DatabaseMysqlV2#engine_id}
   */
   readonly engineId: string;
   /**
   * The database timestamp from which it was restored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#fork_restore_time DatabaseMysqlV2#fork_restore_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#fork_restore_time DatabaseMysqlV2#fork_restore_time}
   */
   readonly forkRestoreTime?: string;
   /**
   * The ID of the database that was forked from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#fork_source DatabaseMysqlV2#fork_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#fork_source DatabaseMysqlV2#fork_source}
   */
   readonly forkSource?: number;
   /**
   * A unique, user-defined string referring to the Managed Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#label DatabaseMysqlV2#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#label DatabaseMysqlV2#label}
   */
   readonly label: string;
   /**
   * Restricts access to this database using a virtual private cloud (VPC) that you've configured in the region where the database will live.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#private_network DatabaseMysqlV2#private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#private_network DatabaseMysqlV2#private_network}
   */
   readonly privateNetwork?: DatabaseMysqlV2PrivateNetwork;
   /**
   * The Region ID for the Managed Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#region DatabaseMysqlV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#region DatabaseMysqlV2#region}
   */
   readonly region: string;
   /**
   * Whether this database is suspended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#suspended DatabaseMysqlV2#suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#suspended DatabaseMysqlV2#suspended}
   */
   readonly suspended?: boolean | cdktf.IResolvable;
   /**
@@ -234,19 +234,19 @@ export interface DatabaseMysqlV2Config extends cdktf.TerraformMetaArguments {
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#type DatabaseMysqlV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#type DatabaseMysqlV2#type}
   */
   readonly type: string;
   /**
   * Configuration settings for automated patch update maintenance for the Managed Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#updates DatabaseMysqlV2#updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#updates DatabaseMysqlV2#updates}
   */
   readonly updates?: DatabaseMysqlV2Updates;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#timeouts DatabaseMysqlV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#timeouts DatabaseMysqlV2#timeouts}
   */
   readonly timeouts?: DatabaseMysqlV2Timeouts;
 }
@@ -339,19 +339,19 @@ export interface DatabaseMysqlV2PrivateNetwork {
   /**
   * Set to `true` to allow clients outside of the VPC to connect to the database using a public IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#public_access DatabaseMysqlV2#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#public_access DatabaseMysqlV2#public_access}
   */
   readonly publicAccess?: boolean | cdktf.IResolvable;
   /**
   * The ID of the VPC subnet to restrict access to this database using.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#subnet_id DatabaseMysqlV2#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#subnet_id DatabaseMysqlV2#subnet_id}
   */
   readonly subnetId: number;
   /**
   *  The ID of the virtual private cloud (VPC) to restrict access to this database using.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#vpc_id DatabaseMysqlV2#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#vpc_id DatabaseMysqlV2#vpc_id}
   */
   readonly vpcId: number;
 }
@@ -499,25 +499,25 @@ export interface DatabaseMysqlV2Updates {
   /**
   * The numeric reference for the day of the week to perform maintenance. 1 is Monday, 2 is Tuesday, through to 7 which is Sunday.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#day_of_week DatabaseMysqlV2#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#day_of_week DatabaseMysqlV2#day_of_week}
   */
   readonly dayOfWeek?: number;
   /**
   * The maximum maintenance window time in hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#duration DatabaseMysqlV2#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#duration DatabaseMysqlV2#duration}
   */
   readonly duration?: number;
   /**
   * How frequently maintenance occurs. Currently can only be weekly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#frequency DatabaseMysqlV2#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#frequency DatabaseMysqlV2#frequency}
   */
   readonly frequency?: string;
   /**
   * How frequently maintenance occurs. Currently can only be weekly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#hour_of_day DatabaseMysqlV2#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#hour_of_day DatabaseMysqlV2#hour_of_day}
   */
   readonly hourOfDay?: number;
 }
@@ -700,19 +700,19 @@ export interface DatabaseMysqlV2Timeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#create DatabaseMysqlV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#create DatabaseMysqlV2#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#delete DatabaseMysqlV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#delete DatabaseMysqlV2#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#update DatabaseMysqlV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#update DatabaseMysqlV2#update}
   */
   readonly update?: string;
 }
@@ -864,7 +864,7 @@ export class DatabaseMysqlV2TimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2 linode_database_mysql_v2}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2 linode_database_mysql_v2}
 */
 export class DatabaseMysqlV2 extends cdktf.TerraformResource {
 
@@ -880,7 +880,7 @@ export class DatabaseMysqlV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseMysqlV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseMysqlV2 to import
-  * @param importFromId The id of the existing DatabaseMysqlV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseMysqlV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseMysqlV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -892,7 +892,7 @@ export class DatabaseMysqlV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql_v2 linode_database_mysql_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql_v2 linode_database_mysql_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -903,8 +903,8 @@ export class DatabaseMysqlV2 extends cdktf.TerraformResource {
       terraformResourceType: 'linode_database_mysql_v2',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

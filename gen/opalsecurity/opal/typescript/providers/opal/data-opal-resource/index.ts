@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resource
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOpalResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resource#id DataOpalResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resource#id DataOpalResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1606,6 +1606,114 @@ export class DataOpalResourceRemoteInfoDatastaxAstraRoleOutputReference extends 
   }
 
   public set internalValue(value: DataOpalResourceRemoteInfoDatastaxAstraRole | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // role_id - computed: true, optional: false, required: false
+  public get roleId() {
+    return this.getStringAttribute('role_id');
+  }
+}
+export interface DataOpalResourceRemoteInfoDevinOrganization {
+}
+
+export function dataOpalResourceRemoteInfoDevinOrganizationToTerraform(struct?: DataOpalResourceRemoteInfoDevinOrganization): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOpalResourceRemoteInfoDevinOrganizationToHclTerraform(struct?: DataOpalResourceRemoteInfoDevinOrganization): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOpalResourceRemoteInfoDevinOrganizationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataOpalResourceRemoteInfoDevinOrganization | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOpalResourceRemoteInfoDevinOrganization | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // org_id - computed: true, optional: false, required: false
+  public get orgId() {
+    return this.getStringAttribute('org_id');
+  }
+}
+export interface DataOpalResourceRemoteInfoDevinRole {
+}
+
+export function dataOpalResourceRemoteInfoDevinRoleToTerraform(struct?: DataOpalResourceRemoteInfoDevinRole): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOpalResourceRemoteInfoDevinRoleToHclTerraform(struct?: DataOpalResourceRemoteInfoDevinRole): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOpalResourceRemoteInfoDevinRoleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataOpalResourceRemoteInfoDevinRole | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOpalResourceRemoteInfoDevinRole | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -3623,6 +3731,18 @@ export class DataOpalResourceRemoteInfoOutputReference extends cdktf.ComplexObje
     return this._datastaxAstraRole;
   }
 
+  // devin_organization - computed: true, optional: false, required: false
+  private _devinOrganization = new DataOpalResourceRemoteInfoDevinOrganizationOutputReference(this, "devin_organization");
+  public get devinOrganization() {
+    return this._devinOrganization;
+  }
+
+  // devin_role - computed: true, optional: false, required: false
+  private _devinRole = new DataOpalResourceRemoteInfoDevinRoleOutputReference(this, "devin_role");
+  public get devinRole() {
+    return this._devinRole;
+  }
+
   // gcp_big_query_dataset - computed: true, optional: false, required: false
   private _gcpBigQueryDataset = new DataOpalResourceRemoteInfoGcpBigQueryDatasetOutputReference(this, "gcp_big_query_dataset");
   public get gcpBigQueryDataset() {
@@ -4162,7 +4282,7 @@ export class DataOpalResourceTicketPropagationOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resource opal_resource}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resource opal_resource}
 */
 export class DataOpalResource extends cdktf.TerraformDataSource {
 
@@ -4178,7 +4298,7 @@ export class DataOpalResource extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpalResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalResource to import
-  * @param importFromId The id of the existing DataOpalResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4190,7 +4310,7 @@ export class DataOpalResource extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resource opal_resource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resource opal_resource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4201,8 +4321,8 @@ export class DataOpalResource extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_resource',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

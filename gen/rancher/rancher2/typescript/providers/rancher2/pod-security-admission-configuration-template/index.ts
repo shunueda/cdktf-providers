@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PodSecurityAdmissionConfigurationTemplateConfig extends cdktf.T
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#annotations PodSecurityAdmissionConfigurationTemplate#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#annotations PodSecurityAdmissionConfigurationTemplate#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Pod Security Admission Configuration template description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#description PodSecurityAdmissionConfigurationTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#description PodSecurityAdmissionConfigurationTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#id PodSecurityAdmissionConfigurationTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#id PodSecurityAdmissionConfigurationTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface PodSecurityAdmissionConfigurationTemplateConfig extends cdktf.T
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#labels PodSecurityAdmissionConfigurationTemplate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#labels PodSecurityAdmissionConfigurationTemplate#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Pod Security Admission Configuration template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#name PodSecurityAdmissionConfigurationTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#name PodSecurityAdmissionConfigurationTemplate#name}
   */
   readonly name: string;
   /**
   * defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#defaults PodSecurityAdmissionConfigurationTemplate#defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#defaults PodSecurityAdmissionConfigurationTemplate#defaults}
   */
   readonly defaults: PodSecurityAdmissionConfigurationTemplateDefaults;
   /**
   * exemptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#exemptions PodSecurityAdmissionConfigurationTemplate#exemptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#exemptions PodSecurityAdmissionConfigurationTemplate#exemptions}
   */
   readonly exemptions?: PodSecurityAdmissionConfigurationTemplateExemptions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#timeouts PodSecurityAdmissionConfigurationTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#timeouts PodSecurityAdmissionConfigurationTemplate#timeouts}
   */
   readonly timeouts?: PodSecurityAdmissionConfigurationTemplateTimeouts;
 }
@@ -61,37 +61,37 @@ export interface PodSecurityAdmissionConfigurationTemplateDefaults {
   /**
   * Pod Security Admission Configuration audit. This audits a pod in violation of privileged, baseline, or restricted policy (default: privileged)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#audit PodSecurityAdmissionConfigurationTemplate#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#audit PodSecurityAdmissionConfigurationTemplate#audit}
   */
   readonly audit?: string;
   /**
   * Pod Security Admission Configuration audit version (default: latest)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#audit_version PodSecurityAdmissionConfigurationTemplate#audit_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#audit_version PodSecurityAdmissionConfigurationTemplate#audit_version}
   */
   readonly auditVersion?: string;
   /**
   * Pod Security Admission Configuration enforce. This rejects a pod in violation of privileged, baseline, or restricted policy (default: privileged)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#enforce PodSecurityAdmissionConfigurationTemplate#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#enforce PodSecurityAdmissionConfigurationTemplate#enforce}
   */
   readonly enforce?: string;
   /**
   * Pod Security Admission Configuration enforce version (default: latest)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#enforce_version PodSecurityAdmissionConfigurationTemplate#enforce_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#enforce_version PodSecurityAdmissionConfigurationTemplate#enforce_version}
   */
   readonly enforceVersion?: string;
   /**
   * Pod Security Admission Configuration warn. This warns the user about a pod in violation of privileged, baseline, or restricted policy (default: privileged)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#warn PodSecurityAdmissionConfigurationTemplate#warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#warn PodSecurityAdmissionConfigurationTemplate#warn}
   */
   readonly warn?: string;
   /**
   * Pod Security Admission Configuration warn version (default: latest)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#warn_version PodSecurityAdmissionConfigurationTemplate#warn_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#warn_version PodSecurityAdmissionConfigurationTemplate#warn_version}
   */
   readonly warnVersion?: string;
 }
@@ -322,19 +322,19 @@ export interface PodSecurityAdmissionConfigurationTemplateExemptions {
   /**
   * Pod Security Admission Configuration namespace exemptions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#namespaces PodSecurityAdmissionConfigurationTemplate#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#namespaces PodSecurityAdmissionConfigurationTemplate#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Pod Security Admission Configuration runtime class exemptions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#runtime_classes PodSecurityAdmissionConfigurationTemplate#runtime_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#runtime_classes PodSecurityAdmissionConfigurationTemplate#runtime_classes}
   */
   readonly runtimeClasses?: string[];
   /**
   * Pod Security Admission Configuration username exemptions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#usernames PodSecurityAdmissionConfigurationTemplate#usernames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#usernames PodSecurityAdmissionConfigurationTemplate#usernames}
   */
   readonly usernames?: string[];
 }
@@ -476,15 +476,15 @@ export class PodSecurityAdmissionConfigurationTemplateExemptionsOutputReference 
 }
 export interface PodSecurityAdmissionConfigurationTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#create PodSecurityAdmissionConfigurationTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#create PodSecurityAdmissionConfigurationTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#delete PodSecurityAdmissionConfigurationTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#delete PodSecurityAdmissionConfigurationTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#update PodSecurityAdmissionConfigurationTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#update PodSecurityAdmissionConfigurationTemplate#update}
   */
   readonly update?: string;
 }
@@ -636,7 +636,7 @@ export class PodSecurityAdmissionConfigurationTemplateTimeoutsOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template rancher2_pod_security_admission_configuration_template}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template rancher2_pod_security_admission_configuration_template}
 */
 export class PodSecurityAdmissionConfigurationTemplate extends cdktf.TerraformResource {
 
@@ -652,7 +652,7 @@ export class PodSecurityAdmissionConfigurationTemplate extends cdktf.TerraformRe
   * Generates CDKTF code for importing a PodSecurityAdmissionConfigurationTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PodSecurityAdmissionConfigurationTemplate to import
-  * @param importFromId The id of the existing PodSecurityAdmissionConfigurationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PodSecurityAdmissionConfigurationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PodSecurityAdmissionConfigurationTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -664,7 +664,7 @@ export class PodSecurityAdmissionConfigurationTemplate extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/pod_security_admission_configuration_template rancher2_pod_security_admission_configuration_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/pod_security_admission_configuration_template rancher2_pod_security_admission_configuration_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -675,8 +675,8 @@ export class PodSecurityAdmissionConfigurationTemplate extends cdktf.TerraformRe
       terraformResourceType: 'rancher2_pod_security_admission_configuration_template',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

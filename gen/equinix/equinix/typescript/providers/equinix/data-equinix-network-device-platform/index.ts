@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_platform
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/network_device_platform
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataEquinixNetworkDevicePlatformConfig extends cdktf.TerraformM
   /**
   * Number of CPU cores used to limit platform search results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_platform#core_count DataEquinixNetworkDevicePlatform#core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/network_device_platform#core_count DataEquinixNetworkDevicePlatform#core_count}
   */
   readonly coreCount?: number;
   /**
   * Device type code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_platform#device_type DataEquinixNetworkDevicePlatform#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/network_device_platform#device_type DataEquinixNetworkDevicePlatform#device_type}
   */
   readonly deviceType: string;
   /**
   * Device platform flavor that determines number of CPU cores and memory. Supported values: small, medium, large, xlarge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_platform#flavor DataEquinixNetworkDevicePlatform#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/network_device_platform#flavor DataEquinixNetworkDevicePlatform#flavor}
   */
   readonly flavor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_platform#id DataEquinixNetworkDevicePlatform#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/network_device_platform#id DataEquinixNetworkDevicePlatform#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface DataEquinixNetworkDevicePlatformConfig extends cdktf.TerraformM
   /**
   * List of device licensing options to limit platform search result. Supported values: BYOL (Bring Your Own License), Sub (license subscription)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_platform#license_options DataEquinixNetworkDevicePlatform#license_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/network_device_platform#license_options DataEquinixNetworkDevicePlatform#license_options}
   */
   readonly licenseOptions?: string[];
   /**
   * List of device management types to limit platform search results. Supported values: EQUINIX-CONFIGURED, SELF-CONFIGURED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_platform#management_types DataEquinixNetworkDevicePlatform#management_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/network_device_platform#management_types DataEquinixNetworkDevicePlatform#management_types}
   */
   readonly managementTypes?: string[];
   /**
   * List of software package codes to limit platform search results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_platform#packages DataEquinixNetworkDevicePlatform#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/network_device_platform#packages DataEquinixNetworkDevicePlatform#packages}
   */
   readonly packages?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_platform equinix_network_device_platform}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/network_device_platform equinix_network_device_platform}
 */
 export class DataEquinixNetworkDevicePlatform extends cdktf.TerraformDataSource {
 
@@ -69,7 +69,7 @@ export class DataEquinixNetworkDevicePlatform extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataEquinixNetworkDevicePlatform resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixNetworkDevicePlatform to import
-  * @param importFromId The id of the existing DataEquinixNetworkDevicePlatform that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_platform#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixNetworkDevicePlatform that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/network_device_platform#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixNetworkDevicePlatform to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DataEquinixNetworkDevicePlatform extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/network_device_platform equinix_network_device_platform} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/network_device_platform equinix_network_device_platform} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DataEquinixNetworkDevicePlatform extends cdktf.TerraformDataSource 
       terraformResourceType: 'equinix_network_device_platform',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

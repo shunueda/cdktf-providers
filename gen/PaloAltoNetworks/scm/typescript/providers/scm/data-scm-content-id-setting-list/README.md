@@ -1,0 +1,3 @@
+# `data_scm_content_id_setting_list`
+
+Refer to the Terraform Registry for docs: [`data_scm_content_id_setting_list`](https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/content_id_setting_list).

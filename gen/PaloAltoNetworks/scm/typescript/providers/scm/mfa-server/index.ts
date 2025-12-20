@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,44 +9,41 @@ import * as cdktf from 'cdktf';
 export interface MfaServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#device MfaServer#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#device MfaServer#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#folder MfaServer#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#folder MfaServer#folder}
   */
   readonly folder?: string;
   /**
   * The MFA server certificate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#mfa_cert_profile MfaServer#mfa_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#mfa_cert_profile MfaServer#mfa_cert_profile}
   */
   readonly mfaCertProfile: string;
   /**
   * The MFA vendor type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#mfa_vendor_type MfaServer#mfa_vendor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#mfa_vendor_type MfaServer#mfa_vendor_type}
   */
   readonly mfaVendorType?: MfaServerMfaVendorType;
   /**
   * The name of the MFA server profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#name MfaServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#name MfaServer#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#snippet MfaServer#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#snippet MfaServer#snippet}
   */
   readonly snippet?: string;
 }
@@ -54,31 +51,31 @@ export interface MfaServerMfaVendorTypeDuoSecurityV2 {
   /**
   * Duo Security API hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#duo_api_host MfaServer#duo_api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#duo_api_host MfaServer#duo_api_host}
   */
   readonly duoApiHost: string;
   /**
   * Duo Security API base URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#duo_baseuri MfaServer#duo_baseuri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#duo_baseuri MfaServer#duo_baseuri}
   */
   readonly duoBaseuri: string;
   /**
   * Duo Security integration key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#duo_integration_key MfaServer#duo_integration_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#duo_integration_key MfaServer#duo_integration_key}
   */
   readonly duoIntegrationKey: string;
   /**
   * Duo Security secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#duo_secret_key MfaServer#duo_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#duo_secret_key MfaServer#duo_secret_key}
   */
   readonly duoSecretKey: string;
   /**
   * Duo Security timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#duo_timeout MfaServer#duo_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#duo_timeout MfaServer#duo_timeout}
   */
   readonly duoTimeout: number;
 }
@@ -206,7 +203,7 @@ export class MfaServerMfaVendorTypeDuoSecurityV2OutputReference extends cdktf.Co
     }
   }
 
-  // duo_api_host - computed: true, optional: false, required: true
+  // duo_api_host - computed: false, optional: false, required: true
   private _duoApiHost?: string; 
   public get duoApiHost() {
     return this.getStringAttribute('duo_api_host');
@@ -219,7 +216,7 @@ export class MfaServerMfaVendorTypeDuoSecurityV2OutputReference extends cdktf.Co
     return this._duoApiHost;
   }
 
-  // duo_baseuri - computed: true, optional: false, required: true
+  // duo_baseuri - computed: false, optional: false, required: true
   private _duoBaseuri?: string; 
   public get duoBaseuri() {
     return this.getStringAttribute('duo_baseuri');
@@ -232,7 +229,7 @@ export class MfaServerMfaVendorTypeDuoSecurityV2OutputReference extends cdktf.Co
     return this._duoBaseuri;
   }
 
-  // duo_integration_key - computed: true, optional: false, required: true
+  // duo_integration_key - computed: false, optional: false, required: true
   private _duoIntegrationKey?: string; 
   public get duoIntegrationKey() {
     return this.getStringAttribute('duo_integration_key');
@@ -245,7 +242,7 @@ export class MfaServerMfaVendorTypeDuoSecurityV2OutputReference extends cdktf.Co
     return this._duoIntegrationKey;
   }
 
-  // duo_secret_key - computed: true, optional: false, required: true
+  // duo_secret_key - computed: false, optional: false, required: true
   private _duoSecretKey?: string; 
   public get duoSecretKey() {
     return this.getStringAttribute('duo_secret_key');
@@ -258,7 +255,7 @@ export class MfaServerMfaVendorTypeDuoSecurityV2OutputReference extends cdktf.Co
     return this._duoSecretKey;
   }
 
-  // duo_timeout - computed: true, optional: false, required: true
+  // duo_timeout - computed: false, optional: false, required: true
   private _duoTimeout?: number; 
   public get duoTimeout() {
     return this.getNumberAttribute('duo_timeout');
@@ -275,31 +272,31 @@ export interface MfaServerMfaVendorTypeOktaAdaptiveV1 {
   /**
   * Okta API hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#okta_api_host MfaServer#okta_api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#okta_api_host MfaServer#okta_api_host}
   */
   readonly oktaApiHost: string;
   /**
   * Okta baseuri
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#okta_baseuri MfaServer#okta_baseuri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#okta_baseuri MfaServer#okta_baseuri}
   */
   readonly oktaBaseuri: string;
   /**
   * Okta organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#okta_org MfaServer#okta_org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#okta_org MfaServer#okta_org}
   */
   readonly oktaOrg: string;
   /**
   * Okta timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#okta_timeout MfaServer#okta_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#okta_timeout MfaServer#okta_timeout}
   */
   readonly oktaTimeout: number;
   /**
   * Okta API token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#okta_token MfaServer#okta_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#okta_token MfaServer#okta_token}
   */
   readonly oktaToken: string;
 }
@@ -427,7 +424,7 @@ export class MfaServerMfaVendorTypeOktaAdaptiveV1OutputReference extends cdktf.C
     }
   }
 
-  // okta_api_host - computed: true, optional: false, required: true
+  // okta_api_host - computed: false, optional: false, required: true
   private _oktaApiHost?: string; 
   public get oktaApiHost() {
     return this.getStringAttribute('okta_api_host');
@@ -440,7 +437,7 @@ export class MfaServerMfaVendorTypeOktaAdaptiveV1OutputReference extends cdktf.C
     return this._oktaApiHost;
   }
 
-  // okta_baseuri - computed: true, optional: false, required: true
+  // okta_baseuri - computed: false, optional: false, required: true
   private _oktaBaseuri?: string; 
   public get oktaBaseuri() {
     return this.getStringAttribute('okta_baseuri');
@@ -453,7 +450,7 @@ export class MfaServerMfaVendorTypeOktaAdaptiveV1OutputReference extends cdktf.C
     return this._oktaBaseuri;
   }
 
-  // okta_org - computed: true, optional: false, required: true
+  // okta_org - computed: false, optional: false, required: true
   private _oktaOrg?: string; 
   public get oktaOrg() {
     return this.getStringAttribute('okta_org');
@@ -466,7 +463,7 @@ export class MfaServerMfaVendorTypeOktaAdaptiveV1OutputReference extends cdktf.C
     return this._oktaOrg;
   }
 
-  // okta_timeout - computed: true, optional: false, required: true
+  // okta_timeout - computed: false, optional: false, required: true
   private _oktaTimeout?: number; 
   public get oktaTimeout() {
     return this.getNumberAttribute('okta_timeout');
@@ -479,7 +476,7 @@ export class MfaServerMfaVendorTypeOktaAdaptiveV1OutputReference extends cdktf.C
     return this._oktaTimeout;
   }
 
-  // okta_token - computed: true, optional: false, required: true
+  // okta_token - computed: false, optional: false, required: true
   private _oktaToken?: string; 
   public get oktaToken() {
     return this.getStringAttribute('okta_token');
@@ -496,37 +493,37 @@ export interface MfaServerMfaVendorTypePingIdentityV1 {
   /**
   * Ping Identity API hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#ping_api_host MfaServer#ping_api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#ping_api_host MfaServer#ping_api_host}
   */
   readonly pingApiHost: string;
   /**
   * Ping Identity API base URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#ping_baseuri MfaServer#ping_baseuri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#ping_baseuri MfaServer#ping_baseuri}
   */
   readonly pingBaseuri: string;
   /**
   * Ping Identity client organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#ping_org_alias MfaServer#ping_org_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#ping_org_alias MfaServer#ping_org_alias}
   */
   readonly pingOrgAlias?: string;
   /**
   * Ping Identity timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#ping_timeout MfaServer#ping_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#ping_timeout MfaServer#ping_timeout}
   */
   readonly pingTimeout: number;
   /**
   * Ping Identity API token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#ping_token MfaServer#ping_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#ping_token MfaServer#ping_token}
   */
   readonly pingToken: string;
   /**
   * Ping Identity Base64 key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#ping_use_base64_key MfaServer#ping_use_base64_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#ping_use_base64_key MfaServer#ping_use_base64_key}
   */
   readonly pingUseBase64Key: string;
 }
@@ -667,7 +664,7 @@ export class MfaServerMfaVendorTypePingIdentityV1OutputReference extends cdktf.C
     }
   }
 
-  // ping_api_host - computed: true, optional: false, required: true
+  // ping_api_host - computed: false, optional: false, required: true
   private _pingApiHost?: string; 
   public get pingApiHost() {
     return this.getStringAttribute('ping_api_host');
@@ -680,7 +677,7 @@ export class MfaServerMfaVendorTypePingIdentityV1OutputReference extends cdktf.C
     return this._pingApiHost;
   }
 
-  // ping_baseuri - computed: true, optional: false, required: true
+  // ping_baseuri - computed: false, optional: false, required: true
   private _pingBaseuri?: string; 
   public get pingBaseuri() {
     return this.getStringAttribute('ping_baseuri');
@@ -693,7 +690,7 @@ export class MfaServerMfaVendorTypePingIdentityV1OutputReference extends cdktf.C
     return this._pingBaseuri;
   }
 
-  // ping_org_alias - computed: true, optional: true, required: false
+  // ping_org_alias - computed: false, optional: true, required: false
   private _pingOrgAlias?: string; 
   public get pingOrgAlias() {
     return this.getStringAttribute('ping_org_alias');
@@ -709,7 +706,7 @@ export class MfaServerMfaVendorTypePingIdentityV1OutputReference extends cdktf.C
     return this._pingOrgAlias;
   }
 
-  // ping_timeout - computed: true, optional: false, required: true
+  // ping_timeout - computed: false, optional: false, required: true
   private _pingTimeout?: number; 
   public get pingTimeout() {
     return this.getNumberAttribute('ping_timeout');
@@ -722,7 +719,7 @@ export class MfaServerMfaVendorTypePingIdentityV1OutputReference extends cdktf.C
     return this._pingTimeout;
   }
 
-  // ping_token - computed: true, optional: false, required: true
+  // ping_token - computed: false, optional: false, required: true
   private _pingToken?: string; 
   public get pingToken() {
     return this.getStringAttribute('ping_token');
@@ -735,7 +732,7 @@ export class MfaServerMfaVendorTypePingIdentityV1OutputReference extends cdktf.C
     return this._pingToken;
   }
 
-  // ping_use_base64_key - computed: true, optional: false, required: true
+  // ping_use_base64_key - computed: false, optional: false, required: true
   private _pingUseBase64Key?: string; 
   public get pingUseBase64Key() {
     return this.getStringAttribute('ping_use_base64_key');
@@ -752,37 +749,37 @@ export interface MfaServerMfaVendorTypeRsaSecuridAccessV1 {
   /**
   * RSA SecurID access ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#rsa_accessid MfaServer#rsa_accessid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#rsa_accessid MfaServer#rsa_accessid}
   */
   readonly rsaAccessid?: string;
   /**
   * RSA SecurID access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#rsa_accesskey MfaServer#rsa_accesskey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#rsa_accesskey MfaServer#rsa_accesskey}
   */
   readonly rsaAccesskey?: string;
   /**
   * RSA SecurID hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#rsa_api_host MfaServer#rsa_api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#rsa_api_host MfaServer#rsa_api_host}
   */
   readonly rsaApiHost?: string;
   /**
   * RSA SecurID assurance level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#rsa_assurancepolicyid MfaServer#rsa_assurancepolicyid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#rsa_assurancepolicyid MfaServer#rsa_assurancepolicyid}
   */
   readonly rsaAssurancepolicyid?: string;
   /**
   * RSA SecurID API base URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#rsa_baseuri MfaServer#rsa_baseuri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#rsa_baseuri MfaServer#rsa_baseuri}
   */
   readonly rsaBaseuri?: string;
   /**
   * RSA SecurID timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#rsa_timeout MfaServer#rsa_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#rsa_timeout MfaServer#rsa_timeout}
   */
   readonly rsaTimeout?: number;
 }
@@ -923,7 +920,7 @@ export class MfaServerMfaVendorTypeRsaSecuridAccessV1OutputReference extends cdk
     }
   }
 
-  // rsa_accessid - computed: true, optional: true, required: false
+  // rsa_accessid - computed: false, optional: true, required: false
   private _rsaAccessid?: string; 
   public get rsaAccessid() {
     return this.getStringAttribute('rsa_accessid');
@@ -939,7 +936,7 @@ export class MfaServerMfaVendorTypeRsaSecuridAccessV1OutputReference extends cdk
     return this._rsaAccessid;
   }
 
-  // rsa_accesskey - computed: true, optional: true, required: false
+  // rsa_accesskey - computed: false, optional: true, required: false
   private _rsaAccesskey?: string; 
   public get rsaAccesskey() {
     return this.getStringAttribute('rsa_accesskey');
@@ -955,7 +952,7 @@ export class MfaServerMfaVendorTypeRsaSecuridAccessV1OutputReference extends cdk
     return this._rsaAccesskey;
   }
 
-  // rsa_api_host - computed: true, optional: true, required: false
+  // rsa_api_host - computed: false, optional: true, required: false
   private _rsaApiHost?: string; 
   public get rsaApiHost() {
     return this.getStringAttribute('rsa_api_host');
@@ -971,7 +968,7 @@ export class MfaServerMfaVendorTypeRsaSecuridAccessV1OutputReference extends cdk
     return this._rsaApiHost;
   }
 
-  // rsa_assurancepolicyid - computed: true, optional: true, required: false
+  // rsa_assurancepolicyid - computed: false, optional: true, required: false
   private _rsaAssurancepolicyid?: string; 
   public get rsaAssurancepolicyid() {
     return this.getStringAttribute('rsa_assurancepolicyid');
@@ -1023,34 +1020,30 @@ export interface MfaServerMfaVendorType {
   /**
   * Integration with [Duo Security](https://duo.com/product)
   * 
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `duo_security_v2`, `okta_adaptive_v1`, `ping_identity_v1`, and `rsa_securid_access_v1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#duo_security_v2 MfaServer#duo_security_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#duo_security_v2 MfaServer#duo_security_v2}
   */
   readonly duoSecurityV2?: MfaServerMfaVendorTypeDuoSecurityV2;
   /**
   * Integration with [Okta Adaptive MFA](https://www.okta.com/products/adaptive-multi-factor-authentication)
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `duo_security_v2`, `okta_adaptive_v1`, `ping_identity_v1`, and `rsa_securid_access_v1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#okta_adaptive_v1 MfaServer#okta_adaptive_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#okta_adaptive_v1 MfaServer#okta_adaptive_v1}
   */
   readonly oktaAdaptiveV1?: MfaServerMfaVendorTypeOktaAdaptiveV1;
   /**
   * Integation with [Ping Identity](https://www.pingidentity.com/en/platform.html)
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `duo_security_v2`, `okta_adaptive_v1`, `ping_identity_v1`, and `rsa_securid_access_v1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#ping_identity_v1 MfaServer#ping_identity_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#ping_identity_v1 MfaServer#ping_identity_v1}
   */
   readonly pingIdentityV1?: MfaServerMfaVendorTypePingIdentityV1;
   /**
   * Integration with [RSA SecurID](https://www.rsa.com/products/securid/)
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `duo_security_v2`, `okta_adaptive_v1`, `ping_identity_v1`, and `rsa_securid_access_v1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#rsa_securid_access_v1 MfaServer#rsa_securid_access_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#rsa_securid_access_v1 MfaServer#rsa_securid_access_v1}
   */
   readonly rsaSecuridAccessV1?: MfaServerMfaVendorTypeRsaSecuridAccessV1;
 }
@@ -1165,7 +1158,7 @@ export class MfaServerMfaVendorTypeOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // duo_security_v2 - computed: true, optional: true, required: false
+  // duo_security_v2 - computed: false, optional: true, required: false
   private _duoSecurityV2 = new MfaServerMfaVendorTypeDuoSecurityV2OutputReference(this, "duo_security_v2");
   public get duoSecurityV2() {
     return this._duoSecurityV2;
@@ -1181,7 +1174,7 @@ export class MfaServerMfaVendorTypeOutputReference extends cdktf.ComplexObject {
     return this._duoSecurityV2.internalValue;
   }
 
-  // okta_adaptive_v1 - computed: true, optional: true, required: false
+  // okta_adaptive_v1 - computed: false, optional: true, required: false
   private _oktaAdaptiveV1 = new MfaServerMfaVendorTypeOktaAdaptiveV1OutputReference(this, "okta_adaptive_v1");
   public get oktaAdaptiveV1() {
     return this._oktaAdaptiveV1;
@@ -1197,7 +1190,7 @@ export class MfaServerMfaVendorTypeOutputReference extends cdktf.ComplexObject {
     return this._oktaAdaptiveV1.internalValue;
   }
 
-  // ping_identity_v1 - computed: true, optional: true, required: false
+  // ping_identity_v1 - computed: false, optional: true, required: false
   private _pingIdentityV1 = new MfaServerMfaVendorTypePingIdentityV1OutputReference(this, "ping_identity_v1");
   public get pingIdentityV1() {
     return this._pingIdentityV1;
@@ -1213,7 +1206,7 @@ export class MfaServerMfaVendorTypeOutputReference extends cdktf.ComplexObject {
     return this._pingIdentityV1.internalValue;
   }
 
-  // rsa_securid_access_v1 - computed: true, optional: true, required: false
+  // rsa_securid_access_v1 - computed: false, optional: true, required: false
   private _rsaSecuridAccessV1 = new MfaServerMfaVendorTypeRsaSecuridAccessV1OutputReference(this, "rsa_securid_access_v1");
   public get rsaSecuridAccessV1() {
     return this._rsaSecuridAccessV1;
@@ -1231,7 +1224,7 @@ export class MfaServerMfaVendorTypeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server scm_mfa_server}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server scm_mfa_server}
 */
 export class MfaServer extends cdktf.TerraformResource {
 
@@ -1247,7 +1240,7 @@ export class MfaServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MfaServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MfaServer to import
-  * @param importFromId The id of the existing MfaServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MfaServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MfaServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1259,7 +1252,7 @@ export class MfaServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/mfa_server scm_mfa_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/mfa_server scm_mfa_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1270,8 +1263,8 @@ export class MfaServer extends cdktf.TerraformResource {
       terraformResourceType: 'scm_mfa_server',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1349,7 +1342,7 @@ export class MfaServer extends cdktf.TerraformResource {
     return this._mfaCertProfile;
   }
 
-  // mfa_vendor_type - computed: true, optional: true, required: false
+  // mfa_vendor_type - computed: false, optional: true, required: false
   private _mfaVendorType = new MfaServerMfaVendorTypeOutputReference(this, "mfa_vendor_type");
   public get mfaVendorType() {
     return this._mfaVendorType;

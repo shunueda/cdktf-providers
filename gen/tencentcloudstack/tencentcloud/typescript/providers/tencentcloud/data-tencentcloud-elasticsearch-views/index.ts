@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_views
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_views
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudElasticsearchViewsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_views#id DataTencentcloudElasticsearchViews#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_views#id DataTencentcloudElasticsearchViews#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudElasticsearchViewsConfig extends cdktf.Terrafor
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_views#instance_id DataTencentcloudElasticsearchViews#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_views#instance_id DataTencentcloudElasticsearchViews#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_views#result_output_file DataTencentcloudElasticsearchViews#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_views#result_output_file DataTencentcloudElasticsearchViews#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -484,7 +484,7 @@ export class DataTencentcloudElasticsearchViewsNodesViewList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_views tencentcloud_elasticsearch_views}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_views tencentcloud_elasticsearch_views}
 */
 export class DataTencentcloudElasticsearchViews extends cdktf.TerraformDataSource {
 
@@ -500,7 +500,7 @@ export class DataTencentcloudElasticsearchViews extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudElasticsearchViews resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudElasticsearchViews to import
-  * @param importFromId The id of the existing DataTencentcloudElasticsearchViews that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_views#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudElasticsearchViews that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_views#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudElasticsearchViews to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -512,7 +512,7 @@ export class DataTencentcloudElasticsearchViews extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_views tencentcloud_elasticsearch_views} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_views tencentcloud_elasticsearch_views} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -523,8 +523,8 @@ export class DataTencentcloudElasticsearchViews extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_elasticsearch_views',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

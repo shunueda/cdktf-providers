@@ -8,49 +8,49 @@ export interface DataScmLogicalRouterListConfig extends cdktf.TerraformMetaArgum
   /**
   * The device of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/logical_router_list#device DataScmLogicalRouterList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/logical_router_list#device DataScmLogicalRouterList#device}
   */
   readonly device?: string;
   /**
   * The folder of the item. Default: Shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/logical_router_list#folder DataScmLogicalRouterList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/logical_router_list#folder DataScmLogicalRouterList#folder}
   */
   readonly folder?: string;
   /**
   * The max number of items to return. Default: 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/logical_router_list#limit DataScmLogicalRouterList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/logical_router_list#limit DataScmLogicalRouterList#limit}
   */
   readonly limit?: number;
   /**
   * The name of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/logical_router_list#name DataScmLogicalRouterList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/logical_router_list#name DataScmLogicalRouterList#name}
   */
   readonly name?: string;
   /**
   * The offset of the first item to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/logical_router_list#offset DataScmLogicalRouterList#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/logical_router_list#offset DataScmLogicalRouterList#offset}
   */
   readonly offset?: number;
   /**
   * The parameter to mention if the response should be paginated. By default, its set to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/logical_router_list#pagination DataScmLogicalRouterList#pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/logical_router_list#pagination DataScmLogicalRouterList#pagination}
   */
   readonly pagination?: boolean | cdktf.IResolvable;
   /**
   * The snippet of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/logical_router_list#snippet DataScmLogicalRouterList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/logical_router_list#snippet DataScmLogicalRouterList#snippet}
   */
   readonly snippet?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/logical_router_list scm_logical_router_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/logical_router_list scm_logical_router_list}
 */
 export class DataScmLogicalRouterList extends cdktf.TerraformDataSource {
 
@@ -66,7 +66,7 @@ export class DataScmLogicalRouterList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmLogicalRouterList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmLogicalRouterList to import
-  * @param importFromId The id of the existing DataScmLogicalRouterList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/logical_router_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmLogicalRouterList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/logical_router_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmLogicalRouterList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -78,7 +78,7 @@ export class DataScmLogicalRouterList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/logical_router_list scm_logical_router_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/logical_router_list scm_logical_router_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -89,8 +89,8 @@ export class DataScmLogicalRouterList extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_logical_router_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/ruleset
+// https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/ruleset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface RulesetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/ruleset#rules Ruleset#rules}
+  * The complete list of aggregation rules for this segment. This will replace all existing rules in the segment.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/ruleset#rules Ruleset#rules}
   */
   readonly rules: RulesetRules[] | cdktf.IResolvable;
   /**
   * The name of the segment to aggregate metrics for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/ruleset#segment Ruleset#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/ruleset#segment Ruleset#segment}
   */
   readonly segment?: string;
 }
@@ -22,49 +24,49 @@ export interface RulesetRules {
   /**
   * The delay until aggregation is performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/ruleset#aggregation_delay Ruleset#aggregation_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/ruleset#aggregation_delay Ruleset#aggregation_delay}
   */
   readonly aggregationDelay?: string;
   /**
   * The interval at which to generate the aggregated series.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/ruleset#aggregation_interval Ruleset#aggregation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/ruleset#aggregation_interval Ruleset#aggregation_interval}
   */
   readonly aggregationInterval?: string;
   /**
   * The array of aggregation types to calculate for this metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/ruleset#aggregations Ruleset#aggregations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/ruleset#aggregations Ruleset#aggregations}
   */
   readonly aggregations?: string[];
   /**
   * Set to true to skip both ingestion and aggregation and drop the metric entirely.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/ruleset#drop Ruleset#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/ruleset#drop Ruleset#drop}
   */
   readonly drop?: boolean | cdktf.IResolvable;
   /**
   * The array of labels that will be aggregated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/ruleset#drop_labels Ruleset#drop_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/ruleset#drop_labels Ruleset#drop_labels}
   */
   readonly dropLabels?: string[];
   /**
   * The array of labels to keep; labels not in this array will be aggregated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/ruleset#keep_labels Ruleset#keep_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/ruleset#keep_labels Ruleset#keep_labels}
   */
   readonly keepLabels?: string[];
   /**
   * Specifies how the metric field matches to incoming metric names. Can be 'prefix', 'suffix', or 'exact', defaults to 'exact'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/ruleset#match_type Ruleset#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/ruleset#match_type Ruleset#match_type}
   */
   readonly matchType?: string;
   /**
   * The name of the metric to be aggregated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/ruleset#metric Ruleset#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/ruleset#metric Ruleset#metric}
   */
   readonly metric: string;
 }
@@ -380,7 +382,7 @@ export class RulesetRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/ruleset grafana-adaptive-metrics_ruleset}
+* Represents a {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/ruleset grafana-adaptive-metrics_ruleset}
 */
 export class Ruleset extends cdktf.TerraformResource {
 
@@ -396,7 +398,7 @@ export class Ruleset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ruleset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ruleset to import
-  * @param importFromId The id of the existing Ruleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/ruleset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ruleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/ruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ruleset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -408,7 +410,7 @@ export class Ruleset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/ruleset grafana-adaptive-metrics_ruleset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/ruleset grafana-adaptive-metrics_ruleset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -419,8 +421,8 @@ export class Ruleset extends cdktf.TerraformResource {
       terraformResourceType: 'grafana-adaptive-metrics_ruleset',
       terraformGeneratorMetadata: {
         providerName: 'grafana-adaptive-metrics',
-        providerVersion: '0.3.3',
-        providerVersionConstraint: '0.3.3'
+        providerVersion: '0.3.4',
+        providerVersionConstraint: '0.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

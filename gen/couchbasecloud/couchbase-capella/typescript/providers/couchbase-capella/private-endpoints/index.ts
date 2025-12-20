@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoints
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface PrivateEndpointsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The GUID4 ID of the operational cluster to create the private endpoint for. This enables secure access to the cluster through your Cloud Service Provider's private network.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoints#cluster_id PrivateEndpoints#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoints#cluster_id PrivateEndpoints#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The ID of the private endpoint in your cloud provider.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoints#endpoint_id PrivateEndpoints#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoints#endpoint_id PrivateEndpoints#endpoint_id}
   */
   readonly endpointId: string;
   /**
-  * The GUID4 ID of the organization where the private endpoint will be created.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoints#organization_id PrivateEndpoints#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoints#organization_id PrivateEndpoints#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project containing the cluster where the private endpoint will be created.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoints#project_id PrivateEndpoints#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoints#project_id PrivateEndpoints#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoints couchbase-capella_private_endpoints}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoints couchbase-capella_private_endpoints}
 */
 export class PrivateEndpoints extends cdktf.TerraformResource {
 
@@ -50,7 +42,7 @@ export class PrivateEndpoints extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateEndpoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateEndpoints to import
-  * @param importFromId The id of the existing PrivateEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateEndpoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +54,7 @@ export class PrivateEndpoints extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/private_endpoints couchbase-capella_private_endpoints} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/private_endpoints couchbase-capella_private_endpoints} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +65,8 @@ export class PrivateEndpoints extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_private_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -144,6 +136,11 @@ export class PrivateEndpoints extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get projectIdInput() {
     return this._projectId;
+  }
+
+  // service_name - computed: true, optional: false, required: false
+  public get serviceName() {
+    return this.getStringAttribute('service_name');
   }
 
   // status - computed: true, optional: false, required: false

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/knowledge_knowledgebase
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/knowledge_knowledgebase
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataGenesyscloudKnowledgeKnowledgebaseConfig extends cdktf.Terr
   /**
   * Core language for knowledge base in which initial content must be created, language codes [en-US, en-UK, en-AU, de-DE] are supported currently, however the new DX knowledge will support all these language codes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/knowledge_knowledgebase#core_language DataGenesyscloudKnowledgeKnowledgebase#core_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/knowledge_knowledgebase#core_language DataGenesyscloudKnowledgeKnowledgebase#core_language}
   */
   readonly coreLanguage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/knowledge_knowledgebase#id DataGenesyscloudKnowledgeKnowledgebase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/knowledge_knowledgebase#id DataGenesyscloudKnowledgeKnowledgebase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataGenesyscloudKnowledgeKnowledgebaseConfig extends cdktf.Terr
   /**
   * Knowledge base name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/knowledge_knowledgebase#name DataGenesyscloudKnowledgeKnowledgebase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/knowledge_knowledgebase#name DataGenesyscloudKnowledgeKnowledgebase#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/knowledge_knowledgebase genesyscloud_knowledge_knowledgebase}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/knowledge_knowledgebase genesyscloud_knowledge_knowledgebase}
 */
 export class DataGenesyscloudKnowledgeKnowledgebase extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataGenesyscloudKnowledgeKnowledgebase extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataGenesyscloudKnowledgeKnowledgebase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGenesyscloudKnowledgeKnowledgebase to import
-  * @param importFromId The id of the existing DataGenesyscloudKnowledgeKnowledgebase that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/knowledge_knowledgebase#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGenesyscloudKnowledgeKnowledgebase that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/knowledge_knowledgebase#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGenesyscloudKnowledgeKnowledgebase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataGenesyscloudKnowledgeKnowledgebase extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/knowledge_knowledgebase genesyscloud_knowledge_knowledgebase} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/knowledge_knowledgebase genesyscloud_knowledge_knowledgebase} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataGenesyscloudKnowledgeKnowledgebase extends cdktf.TerraformDataS
       terraformResourceType: 'genesyscloud_knowledge_knowledgebase',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

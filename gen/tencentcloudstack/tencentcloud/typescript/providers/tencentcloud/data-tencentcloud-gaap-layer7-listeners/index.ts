@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_layer7_listeners
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_layer7_listeners
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudGaapLayer7ListenersConfig extends cdktf.Terrafo
   /**
   * Group id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_layer7_listeners#group_id DataTencentcloudGaapLayer7Listeners#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_layer7_listeners#group_id DataTencentcloudGaapLayer7Listeners#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_layer7_listeners#id DataTencentcloudGaapLayer7Listeners#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_layer7_listeners#id DataTencentcloudGaapLayer7Listeners#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DataTencentcloudGaapLayer7ListenersConfig extends cdktf.Terrafo
   /**
   * ID of the layer7 listener to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_layer7_listeners#listener_id DataTencentcloudGaapLayer7Listeners#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_layer7_listeners#listener_id DataTencentcloudGaapLayer7Listeners#listener_id}
   */
   readonly listenerId?: string;
   /**
   * Name of the layer7 listener to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_layer7_listeners#listener_name DataTencentcloudGaapLayer7Listeners#listener_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_layer7_listeners#listener_name DataTencentcloudGaapLayer7Listeners#listener_name}
   */
   readonly listenerName?: string;
   /**
   * Port of the layer7 listener to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_layer7_listeners#port DataTencentcloudGaapLayer7Listeners#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_layer7_listeners#port DataTencentcloudGaapLayer7Listeners#port}
   */
   readonly port?: number;
   /**
   * Protocol of the layer7 listener to be queried. Valid values: `HTTP` and `HTTPS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_layer7_listeners#protocol DataTencentcloudGaapLayer7Listeners#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_layer7_listeners#protocol DataTencentcloudGaapLayer7Listeners#protocol}
   */
   readonly protocol: string;
   /**
   * ID of the GAAP proxy to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_layer7_listeners#proxy_id DataTencentcloudGaapLayer7Listeners#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_layer7_listeners#proxy_id DataTencentcloudGaapLayer7Listeners#proxy_id}
   */
   readonly proxyId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_layer7_listeners#result_output_file DataTencentcloudGaapLayer7Listeners#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_layer7_listeners#result_output_file DataTencentcloudGaapLayer7Listeners#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -199,7 +199,7 @@ export class DataTencentcloudGaapLayer7ListenersListenersList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_layer7_listeners tencentcloud_gaap_layer7_listeners}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_layer7_listeners tencentcloud_gaap_layer7_listeners}
 */
 export class DataTencentcloudGaapLayer7Listeners extends cdktf.TerraformDataSource {
 
@@ -215,7 +215,7 @@ export class DataTencentcloudGaapLayer7Listeners extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudGaapLayer7Listeners resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudGaapLayer7Listeners to import
-  * @param importFromId The id of the existing DataTencentcloudGaapLayer7Listeners that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_layer7_listeners#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudGaapLayer7Listeners that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_layer7_listeners#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudGaapLayer7Listeners to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DataTencentcloudGaapLayer7Listeners extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_layer7_listeners tencentcloud_gaap_layer7_listeners} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/gaap_layer7_listeners tencentcloud_gaap_layer7_listeners} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class DataTencentcloudGaapLayer7Listeners extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_gaap_layer7_listeners',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

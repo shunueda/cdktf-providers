@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface IntegrationActionDraftConfig extends cdktf.TerraformMetaArgumen
   /**
   * Category of action. Can be up to 256 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#category IntegrationActionDraft#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#category IntegrationActionDraft#category}
   */
   readonly category: string;
   /**
   * Optional 1-60 second timeout enforced on the execution or test of this action. This setting is invalid for Custom Authentication Actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#config_timeout_seconds IntegrationActionDraft#config_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#config_timeout_seconds IntegrationActionDraft#config_timeout_seconds}
   */
   readonly configTimeoutSeconds?: number;
   /**
   * JSON Schema that defines the body of the request that the client (edge/architect/postman) is sending to the service, on the /execute path. Changing the contract_input attribute will cause the existing integration_action to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#contract_input IntegrationActionDraft#contract_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#contract_input IntegrationActionDraft#contract_input}
   */
   readonly contractInput: string;
   /**
   * JSON schema that defines the transformed, successful result that will be sent back to the caller. Changing the contract_output attribute will cause the existing integration_action to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#contract_output IntegrationActionDraft#contract_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#contract_output IntegrationActionDraft#contract_output}
   */
   readonly contractOutput: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#id IntegrationActionDraft#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#id IntegrationActionDraft#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface IntegrationActionDraftConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of the integration this action is associated with. Changing the integration_id attribute will cause the existing integration_action to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#integration_id IntegrationActionDraft#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#integration_id IntegrationActionDraft#integration_id}
   */
   readonly integrationId: string;
   /**
   * Name of the action. Can be up to 256 characters long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#name IntegrationActionDraft#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#name IntegrationActionDraft#name}
   */
   readonly name: string;
   /**
   * Indication of whether or not the action is designed to accept sensitive data. Changing the secure attribute will cause the existing integration_action to be dropped and recreated with a new ID. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#secure IntegrationActionDraft#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#secure IntegrationActionDraft#secure}
   */
   readonly secure?: boolean | cdktf.IResolvable;
   /**
   * config_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#config_request IntegrationActionDraft#config_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#config_request IntegrationActionDraft#config_request}
   */
   readonly configRequest?: IntegrationActionDraftConfigRequest;
   /**
   * config_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#config_response IntegrationActionDraft#config_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#config_response IntegrationActionDraft#config_response}
   */
   readonly configResponse?: IntegrationActionDraftConfigResponse;
 }
@@ -73,25 +73,25 @@ export interface IntegrationActionDraftConfigRequest {
   /**
   * Map of headers in name, value pairs to include in request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#headers IntegrationActionDraft#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#headers IntegrationActionDraft#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Velocity template to define request body sent to 3rd party service. Any instances of '${' must be properly escaped as '$${'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#request_template IntegrationActionDraft#request_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#request_template IntegrationActionDraft#request_template}
   */
   readonly requestTemplate?: string;
   /**
   * HTTP method to use for request (GET | PUT | POST | PATCH | DELETE).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#request_type IntegrationActionDraft#request_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#request_type IntegrationActionDraft#request_type}
   */
   readonly requestType: string;
   /**
   * URL that may include placeholders for requests to 3rd party service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#request_url_template IntegrationActionDraft#request_url_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#request_url_template IntegrationActionDraft#request_url_template}
   */
   readonly requestUrlTemplate: string;
 }
@@ -258,19 +258,19 @@ export interface IntegrationActionDraftConfigResponse {
   /**
   * Velocity template to build response to return from Action. Any instances of '${' must be properly escaped as '$${'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#success_template IntegrationActionDraft#success_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#success_template IntegrationActionDraft#success_template}
   */
   readonly successTemplate?: string;
   /**
   * Map 'attribute name' and 'JSON path' pairs used to extract data from REST response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#translation_map IntegrationActionDraft#translation_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#translation_map IntegrationActionDraft#translation_map}
   */
   readonly translationMap?: { [key: string]: string };
   /**
   * Map 'attribute name' and 'default value' pairs used as fallback values if JSON path extraction fails for specified key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#translation_map_defaults IntegrationActionDraft#translation_map_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#translation_map_defaults IntegrationActionDraft#translation_map_defaults}
   */
   readonly translationMapDefaults?: { [key: string]: string };
 }
@@ -412,7 +412,7 @@ export class IntegrationActionDraftConfigResponseOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft genesyscloud_integration_action_draft}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft genesyscloud_integration_action_draft}
 */
 export class IntegrationActionDraft extends cdktf.TerraformResource {
 
@@ -428,7 +428,7 @@ export class IntegrationActionDraft extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationActionDraft resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationActionDraft to import
-  * @param importFromId The id of the existing IntegrationActionDraft that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationActionDraft that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationActionDraft to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -440,7 +440,7 @@ export class IntegrationActionDraft extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_action_draft genesyscloud_integration_action_draft} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_action_draft genesyscloud_integration_action_draft} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -451,8 +451,8 @@ export class IntegrationActionDraft extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_integration_action_draft',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

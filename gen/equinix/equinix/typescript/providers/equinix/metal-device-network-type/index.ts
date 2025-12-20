@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device_network_type
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_device_network_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MetalDeviceNetworkTypeConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of the device on which the network type should be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device_network_type#device_id MetalDeviceNetworkType#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_device_network_type#device_id MetalDeviceNetworkType#device_id}
   */
   readonly deviceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device_network_type#id MetalDeviceNetworkType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_device_network_type#id MetalDeviceNetworkType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface MetalDeviceNetworkTypeConfig extends cdktf.TerraformMetaArgumen
   /**
   * Network type to set. Must be one of layer3, hybrid, hybrid-bonded, layer2-individual, layer2-bonded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device_network_type#type MetalDeviceNetworkType#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_device_network_type#type MetalDeviceNetworkType#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device_network_type equinix_metal_device_network_type}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_device_network_type equinix_metal_device_network_type}
 */
 export class MetalDeviceNetworkType extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class MetalDeviceNetworkType extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalDeviceNetworkType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalDeviceNetworkType to import
-  * @param importFromId The id of the existing MetalDeviceNetworkType that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device_network_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalDeviceNetworkType that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_device_network_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalDeviceNetworkType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class MetalDeviceNetworkType extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_device_network_type equinix_metal_device_network_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_device_network_type equinix_metal_device_network_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class MetalDeviceNetworkType extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_device_network_type',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

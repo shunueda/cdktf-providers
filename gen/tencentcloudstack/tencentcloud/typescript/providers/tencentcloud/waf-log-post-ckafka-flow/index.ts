@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface WafLogPostCkafkaFlowConfig extends cdktf.TerraformMetaArguments
   /**
   * The supporting environment is IP:PORT, The external network environment is domain:PORT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#brokers WafLogPostCkafkaFlow#brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#brokers WafLogPostCkafkaFlow#brokers}
   */
   readonly brokers: string;
   /**
   * CKafka ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#ckafka_id WafLogPostCkafkaFlow#ckafka_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#ckafka_id WafLogPostCkafkaFlow#ckafka_id}
   */
   readonly ckafkaId: string;
   /**
   * The region where CKafka is located for delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#ckafka_region WafLogPostCkafkaFlow#ckafka_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#ckafka_region WafLogPostCkafkaFlow#ckafka_region}
   */
   readonly ckafkaRegion: string;
   /**
   * Default to none, supports snappy, gzip, and lz4 compression, recommended snappy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#compression WafLogPostCkafkaFlow#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#compression WafLogPostCkafkaFlow#compression}
   */
   readonly compression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#id WafLogPostCkafkaFlow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#id WafLogPostCkafkaFlow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface WafLogPostCkafkaFlowConfig extends cdktf.TerraformMetaArguments
   /**
   * Version number of Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#kafka_version WafLogPostCkafkaFlow#kafka_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#kafka_version WafLogPostCkafkaFlow#kafka_version}
   */
   readonly kafkaVersion: string;
   /**
   * 1- Access log, 2- Attack log, the default is access log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#log_type WafLogPostCkafkaFlow#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#log_type WafLogPostCkafkaFlow#log_type}
   */
   readonly logType: number;
   /**
   * Whether to enable SASL verification, default not enabled, 0-off, 1-on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#sasl_enable WafLogPostCkafkaFlow#sasl_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#sasl_enable WafLogPostCkafkaFlow#sasl_enable}
   */
   readonly saslEnable?: number;
   /**
   * SASL password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#sasl_password WafLogPostCkafkaFlow#sasl_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#sasl_password WafLogPostCkafkaFlow#sasl_password}
   */
   readonly saslPassword?: string;
   /**
   * SASL username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#sasl_user WafLogPostCkafkaFlow#sasl_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#sasl_user WafLogPostCkafkaFlow#sasl_user}
   */
   readonly saslUser?: string;
   /**
   * Theme name, default not to pass or pass empty string, default value is waf_post_access_log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#topic WafLogPostCkafkaFlow#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#topic WafLogPostCkafkaFlow#topic}
   */
   readonly topic: string;
   /**
   * 1. External network TGW, 2. Supporting environment, default is supporting environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#vip_type WafLogPostCkafkaFlow#vip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#vip_type WafLogPostCkafkaFlow#vip_type}
   */
   readonly vipType: number;
   /**
   * write_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#write_config WafLogPostCkafkaFlow#write_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#write_config WafLogPostCkafkaFlow#write_config}
   */
   readonly writeConfig?: WafLogPostCkafkaFlowWriteConfig;
 }
@@ -91,19 +91,19 @@ export interface WafLogPostCkafkaFlowWriteConfig {
   /**
   * 1: Enable 0: Do not enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#enable_body WafLogPostCkafkaFlow#enable_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#enable_body WafLogPostCkafkaFlow#enable_body}
   */
   readonly enableBody?: number;
   /**
   * 1: Enable 0: Do not enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#enable_bot WafLogPostCkafkaFlow#enable_bot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#enable_bot WafLogPostCkafkaFlow#enable_bot}
   */
   readonly enableBot?: number;
   /**
   * 1: Enable 0: Do not enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#enable_headers WafLogPostCkafkaFlow#enable_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#enable_headers WafLogPostCkafkaFlow#enable_headers}
   */
   readonly enableHeaders?: number;
 }
@@ -245,7 +245,7 @@ export class WafLogPostCkafkaFlowWriteConfigOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow tencentcloud_waf_log_post_ckafka_flow}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow tencentcloud_waf_log_post_ckafka_flow}
 */
 export class WafLogPostCkafkaFlow extends cdktf.TerraformResource {
 
@@ -261,7 +261,7 @@ export class WafLogPostCkafkaFlow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafLogPostCkafkaFlow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafLogPostCkafkaFlow to import
-  * @param importFromId The id of the existing WafLogPostCkafkaFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafLogPostCkafkaFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafLogPostCkafkaFlow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -273,7 +273,7 @@ export class WafLogPostCkafkaFlow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_log_post_ckafka_flow tencentcloud_waf_log_post_ckafka_flow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_log_post_ckafka_flow tencentcloud_waf_log_post_ckafka_flow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -284,8 +284,8 @@ export class WafLogPostCkafkaFlow extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_log_post_ckafka_flow',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

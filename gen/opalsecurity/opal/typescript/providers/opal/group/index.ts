@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the owner of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#admin_owner_id Group#admin_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#admin_owner_id Group#admin_owner_id}
   */
   readonly adminOwnerId?: string;
   /**
   * The ID of the app for the group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#app_id Group#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#app_id Group#app_id}
   */
   readonly appId: string;
   /**
-  * Custom request notification sent upon request approval.
+  * Custom request notification sent to the requester when the request is approved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#custom_request_notification Group#custom_request_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#custom_request_notification Group#custom_request_notification}
   */
   readonly customRequestNotification?: string;
   /**
-  * A description of the remote group.
+  * A description of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#description Group#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#description Group#description}
   */
   readonly description?: string;
   /**
   * The duration for which access can be extended (in minutes). Deprecated, set the extension duration in the request_configuration you want it to apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#extensions_duration_in_minutes Group#extensions_duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#extensions_duration_in_minutes Group#extensions_duration_in_minutes}
   */
   readonly extensionsDurationInMinutes?: number;
   /**
   * A list of User IDs for the group leaders of the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_leader_user_ids Group#group_leader_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_leader_user_ids Group#group_leader_user_ids}
   */
   readonly groupLeaderUserIds?: string[];
   /**
-  * The type of the group. must be one of ["ACTIVE_DIRECTORY_GROUP", "AWS_SSO_GROUP", "DATABRICKS_ACCOUNT_GROUP", "DUO_GROUP", "GIT_HUB_TEAM", "GIT_LAB_GROUP", "GOOGLE_GROUPS_GROUP", "GOOGLE_GROUPS_GKE_GROUP", "LDAP_GROUP", "OKTA_GROUP", "OKTA_GROUP_RULE", "TAILSCALE_GROUP", "OPAL_GROUP", "OPAL_ACCESS_RULE", "AZURE_AD_SECURITY_GROUP", "AZURE_AD_MICROSOFT_365_GROUP", "CONNECTOR_GROUP", "SNOWFLAKE_ROLE", "WORKDAY_USER_SECURITY_GROUP"]; Requires replacement if changed.
+  * The type of the group. must be one of ["ACTIVE_DIRECTORY_GROUP", "AWS_SSO_GROUP", "DATABRICKS_ACCOUNT_GROUP", "DUO_GROUP", "GIT_HUB_TEAM", "GIT_LAB_GROUP", "GOOGLE_GROUPS_GROUP", "GOOGLE_GROUPS_GKE_GROUP", "LDAP_GROUP", "OKTA_GROUP", "OKTA_GROUP_RULE", "TAILSCALE_GROUP", "OPAL_GROUP", "OPAL_ACCESS_RULE", "AZURE_AD_SECURITY_GROUP", "AZURE_AD_MICROSOFT_365_GROUP", "CONNECTOR_GROUP", "SNOWFLAKE_ROLE", "WORKDAY_USER_SECURITY_GROUP", "PAGERDUTY_ON_CALL_SCHEDULE", "INCIDENTIO_ON_CALL_SCHEDULE", "DEVIN_GROUP"]; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_type Group#group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_type Group#group_type}
   */
   readonly groupType: string;
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#message_channel_ids Group#message_channel_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#message_channel_ids Group#message_channel_ids}
   */
   readonly messageChannelIds?: string[];
   /**
-  * The name of the remote group.
+  * The name of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#on_call_schedule_ids Group#on_call_schedule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#on_call_schedule_ids Group#on_call_schedule_ids}
   */
   readonly onCallScheduleIds?: string[];
   /**
   * Information that defines the remote group. This replaces the deprecated remote_id and metadata fields. If remote_info is provided, a group will be imported into Opal. For group types that support group creation through Opal, a new group will be created if remote_info is not provided. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#remote_info Group#remote_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#remote_info Group#remote_info}
   */
   readonly remoteInfo?: GroupRemoteInfo;
   /**
   * The request configuration list of the configuration template. If not provided, the default request configuration will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#request_configurations Group#request_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#request_configurations Group#request_configurations}
   */
   readonly requestConfigurations: GroupRequestConfigurations[] | cdktf.IResolvable;
   /**
   * A bool representing whether or not to require MFA for reviewers to approve requests for this group. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#require_mfa_to_approve Group#require_mfa_to_approve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#require_mfa_to_approve Group#require_mfa_to_approve}
   */
   readonly requireMfaToApprove?: boolean | cdktf.IResolvable;
   /**
   * Indicates the level of potential impact misuse or unauthorized access may incur. must be one of ["UNKNOWN", "CRITICAL", "HIGH", "MEDIUM", "LOW", "NONE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#risk_sensitivity_override Group#risk_sensitivity_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#risk_sensitivity_override Group#risk_sensitivity_override}
   */
   readonly riskSensitivityOverride?: string;
   /**
   * The visibility level of the entity. must be one of ["GLOBAL", "LIMITED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#visibility Group#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#visibility Group#visibility}
   */
   readonly visibility: string;
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#visibility_group_ids Group#visibility_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#visibility_group_ids Group#visibility_group_ids}
   */
   readonly visibilityGroupIds?: string[];
 }
@@ -472,7 +472,7 @@ export interface GroupRemoteInfoActiveDirectoryGroup {
   /**
   * The id of the Google group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_id Group#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_id Group#group_id}
   */
   readonly groupId?: string;
 }
@@ -568,7 +568,7 @@ export interface GroupRemoteInfoAwsSsoGroup {
   /**
   * The id of the AWS SSO group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_id Group#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_id Group#group_id}
   */
   readonly groupId?: string;
 }
@@ -664,7 +664,7 @@ export interface GroupRemoteInfoAzureAdMicrosoft365Group {
   /**
   * The id of the Microsoft Entra ID Microsoft 365 group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_id Group#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_id Group#group_id}
   */
   readonly groupId?: string;
 }
@@ -760,7 +760,7 @@ export interface GroupRemoteInfoAzureAdSecurityGroup {
   /**
   * The id of the Microsoft Entra ID Security group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_id Group#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_id Group#group_id}
   */
   readonly groupId?: string;
 }
@@ -856,7 +856,7 @@ export interface GroupRemoteInfoConnectorGroup {
   /**
   * The id of the Connector group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_id Group#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_id Group#group_id}
   */
   readonly groupId?: string;
 }
@@ -952,7 +952,7 @@ export interface GroupRemoteInfoDatabricksAccountGroup {
   /**
   * The id of the Databricks account group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_id Group#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_id Group#group_id}
   */
   readonly groupId?: string;
 }
@@ -1044,11 +1044,107 @@ export class GroupRemoteInfoDatabricksAccountGroupOutputReference extends cdktf.
     return this._groupId;
   }
 }
+export interface GroupRemoteInfoDevinGroup {
+  /**
+  * The name of the Devin group. Not Null; Requires replacement if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_name Group#group_name}
+  */
+  readonly groupName?: string;
+}
+
+export function groupRemoteInfoDevinGroupToTerraform(struct?: GroupRemoteInfoDevinGroup | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    group_name: cdktf.stringToTerraform(struct!.groupName),
+  }
+}
+
+
+export function groupRemoteInfoDevinGroupToHclTerraform(struct?: GroupRemoteInfoDevinGroup | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    group_name: {
+      value: cdktf.stringToHclTerraform(struct!.groupName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupRemoteInfoDevinGroupOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupRemoteInfoDevinGroup | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._groupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.groupName = this._groupName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupRemoteInfoDevinGroup | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._groupName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._groupName = value.groupName;
+    }
+  }
+
+  // group_name - computed: true, optional: true, required: false
+  private _groupName?: string; 
+  public get groupName() {
+    return this.getStringAttribute('group_name');
+  }
+  public set groupName(value: string) {
+    this._groupName = value;
+  }
+  public resetGroupName() {
+    this._groupName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupNameInput() {
+    return this._groupName;
+  }
+}
 export interface GroupRemoteInfoDuoGroup {
   /**
   * The id of the Duo Security group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_id Group#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_id Group#group_id}
   */
   readonly groupId?: string;
 }
@@ -1144,7 +1240,7 @@ export interface GroupRemoteInfoGithubTeam {
   /**
   * The slug of the GitHub team. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#team_slug Group#team_slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#team_slug Group#team_slug}
   */
   readonly teamSlug?: string;
 }
@@ -1240,7 +1336,7 @@ export interface GroupRemoteInfoGitlabGroup {
   /**
   * The id of the Gitlab group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_id Group#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_id Group#group_id}
   */
   readonly groupId?: string;
 }
@@ -1336,7 +1432,7 @@ export interface GroupRemoteInfoGoogleGroup {
   /**
   * The id of the Google group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_id Group#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_id Group#group_id}
   */
   readonly groupId?: string;
 }
@@ -1428,11 +1524,107 @@ export class GroupRemoteInfoGoogleGroupOutputReference extends cdktf.ComplexObje
     return this._groupId;
   }
 }
+export interface GroupRemoteInfoIncidentioOnCallSchedule {
+  /**
+  * The id of the Incident.io on-call schedule. Not Null; Requires replacement if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#schedule_id Group#schedule_id}
+  */
+  readonly scheduleId?: string;
+}
+
+export function groupRemoteInfoIncidentioOnCallScheduleToTerraform(struct?: GroupRemoteInfoIncidentioOnCallSchedule | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    schedule_id: cdktf.stringToTerraform(struct!.scheduleId),
+  }
+}
+
+
+export function groupRemoteInfoIncidentioOnCallScheduleToHclTerraform(struct?: GroupRemoteInfoIncidentioOnCallSchedule | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    schedule_id: {
+      value: cdktf.stringToHclTerraform(struct!.scheduleId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupRemoteInfoIncidentioOnCallScheduleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupRemoteInfoIncidentioOnCallSchedule | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._scheduleId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scheduleId = this._scheduleId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupRemoteInfoIncidentioOnCallSchedule | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._scheduleId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._scheduleId = value.scheduleId;
+    }
+  }
+
+  // schedule_id - computed: true, optional: true, required: false
+  private _scheduleId?: string; 
+  public get scheduleId() {
+    return this.getStringAttribute('schedule_id');
+  }
+  public set scheduleId(value: string) {
+    this._scheduleId = value;
+  }
+  public resetScheduleId() {
+    this._scheduleId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scheduleIdInput() {
+    return this._scheduleId;
+  }
+}
 export interface GroupRemoteInfoLdapGroup {
   /**
   * The id of the LDAP group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_id Group#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_id Group#group_id}
   */
   readonly groupId?: string;
 }
@@ -1528,7 +1720,7 @@ export interface GroupRemoteInfoOktaGroup {
   /**
   * The id of the Okta Directory group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_id Group#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_id Group#group_id}
   */
   readonly groupId?: string;
 }
@@ -1624,7 +1816,7 @@ export interface GroupRemoteInfoOktaGroupRule {
   /**
   * The id of the Okta group rule. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#rule_id Group#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#rule_id Group#rule_id}
   */
   readonly ruleId?: string;
 }
@@ -1716,11 +1908,107 @@ export class GroupRemoteInfoOktaGroupRuleOutputReference extends cdktf.ComplexOb
     return this._ruleId;
   }
 }
+export interface GroupRemoteInfoPagerdutyOnCallSchedule {
+  /**
+  * The id of the PagerDuty on-call schedule. Not Null; Requires replacement if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#schedule_id Group#schedule_id}
+  */
+  readonly scheduleId?: string;
+}
+
+export function groupRemoteInfoPagerdutyOnCallScheduleToTerraform(struct?: GroupRemoteInfoPagerdutyOnCallSchedule | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    schedule_id: cdktf.stringToTerraform(struct!.scheduleId),
+  }
+}
+
+
+export function groupRemoteInfoPagerdutyOnCallScheduleToHclTerraform(struct?: GroupRemoteInfoPagerdutyOnCallSchedule | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    schedule_id: {
+      value: cdktf.stringToHclTerraform(struct!.scheduleId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GroupRemoteInfoPagerdutyOnCallScheduleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GroupRemoteInfoPagerdutyOnCallSchedule | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._scheduleId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scheduleId = this._scheduleId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GroupRemoteInfoPagerdutyOnCallSchedule | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._scheduleId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._scheduleId = value.scheduleId;
+    }
+  }
+
+  // schedule_id - computed: true, optional: true, required: false
+  private _scheduleId?: string; 
+  public get scheduleId() {
+    return this.getStringAttribute('schedule_id');
+  }
+  public set scheduleId(value: string) {
+    this._scheduleId = value;
+  }
+  public resetScheduleId() {
+    this._scheduleId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scheduleIdInput() {
+    return this._scheduleId;
+  }
+}
 export interface GroupRemoteInfoSnowflakeRole {
   /**
   * The id of the Snowflake role. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#role_id Group#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#role_id Group#role_id}
   */
   readonly roleId?: string;
 }
@@ -1816,7 +2104,7 @@ export interface GroupRemoteInfoTailscaleGroup {
   /**
   * The id of the Tailscale group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_id Group#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_id Group#group_id}
   */
   readonly groupId?: string;
 }
@@ -1912,7 +2200,7 @@ export interface GroupRemoteInfoWorkdayUserSecurityGroup {
   /**
   * The id of the Workday User Security group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_id Group#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_id Group#group_id}
   */
   readonly groupId?: string;
 }
@@ -2008,97 +2296,115 @@ export interface GroupRemoteInfo {
   /**
   * Remote info for Active Directory group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#active_directory_group Group#active_directory_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#active_directory_group Group#active_directory_group}
   */
   readonly activeDirectoryGroup?: GroupRemoteInfoActiveDirectoryGroup;
   /**
   * Remote info for AWS SSO group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#aws_sso_group Group#aws_sso_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#aws_sso_group Group#aws_sso_group}
   */
   readonly awsSsoGroup?: GroupRemoteInfoAwsSsoGroup;
   /**
   * Remote info for Microsoft Entra ID Microsoft 365 group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#azure_ad_microsoft_365_group Group#azure_ad_microsoft_365_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#azure_ad_microsoft_365_group Group#azure_ad_microsoft_365_group}
   */
   readonly azureAdMicrosoft365Group?: GroupRemoteInfoAzureAdMicrosoft365Group;
   /**
   * Remote info for Microsoft Entra ID Security group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#azure_ad_security_group Group#azure_ad_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#azure_ad_security_group Group#azure_ad_security_group}
   */
   readonly azureAdSecurityGroup?: GroupRemoteInfoAzureAdSecurityGroup;
   /**
   * Remote info for Connector group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#connector_group Group#connector_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#connector_group Group#connector_group}
   */
   readonly connectorGroup?: GroupRemoteInfoConnectorGroup;
   /**
   * Remote info for Databricks account group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#databricks_account_group Group#databricks_account_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#databricks_account_group Group#databricks_account_group}
   */
   readonly databricksAccountGroup?: GroupRemoteInfoDatabricksAccountGroup;
   /**
+  * Remote info for Devin group. Requires replacement if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#devin_group Group#devin_group}
+  */
+  readonly devinGroup?: GroupRemoteInfoDevinGroup;
+  /**
   * Remote info for Duo Security group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#duo_group Group#duo_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#duo_group Group#duo_group}
   */
   readonly duoGroup?: GroupRemoteInfoDuoGroup;
   /**
   * Remote info for GitHub team. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#github_team Group#github_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#github_team Group#github_team}
   */
   readonly githubTeam?: GroupRemoteInfoGithubTeam;
   /**
   * Remote info for Gitlab group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#gitlab_group Group#gitlab_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#gitlab_group Group#gitlab_group}
   */
   readonly gitlabGroup?: GroupRemoteInfoGitlabGroup;
   /**
   * Remote info for Google group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#google_group Group#google_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#google_group Group#google_group}
   */
   readonly googleGroup?: GroupRemoteInfoGoogleGroup;
   /**
+  * Remote info for Incident.io on-call schedule group. Requires replacement if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#incidentio_on_call_schedule Group#incidentio_on_call_schedule}
+  */
+  readonly incidentioOnCallSchedule?: GroupRemoteInfoIncidentioOnCallSchedule;
+  /**
   * Remote info for LDAP group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#ldap_group Group#ldap_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#ldap_group Group#ldap_group}
   */
   readonly ldapGroup?: GroupRemoteInfoLdapGroup;
   /**
   * Remote info for Okta Directory group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#okta_group Group#okta_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#okta_group Group#okta_group}
   */
   readonly oktaGroup?: GroupRemoteInfoOktaGroup;
   /**
   * Remote info for Okta Directory group rule. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#okta_group_rule Group#okta_group_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#okta_group_rule Group#okta_group_rule}
   */
   readonly oktaGroupRule?: GroupRemoteInfoOktaGroupRule;
   /**
+  * Remote info for PagerDuty on-call schedule group. Requires replacement if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#pagerduty_on_call_schedule Group#pagerduty_on_call_schedule}
+  */
+  readonly pagerdutyOnCallSchedule?: GroupRemoteInfoPagerdutyOnCallSchedule;
+  /**
   * Remote info for Snowflake role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#snowflake_role Group#snowflake_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#snowflake_role Group#snowflake_role}
   */
   readonly snowflakeRole?: GroupRemoteInfoSnowflakeRole;
   /**
   * Remote info for Tailscale group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#tailscale_group Group#tailscale_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#tailscale_group Group#tailscale_group}
   */
   readonly tailscaleGroup?: GroupRemoteInfoTailscaleGroup;
   /**
   * Remote info for Workday User Security group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#workday_user_security_group Group#workday_user_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#workday_user_security_group Group#workday_user_security_group}
   */
   readonly workdayUserSecurityGroup?: GroupRemoteInfoWorkdayUserSecurityGroup;
 }
@@ -2115,13 +2421,16 @@ export function groupRemoteInfoToTerraform(struct?: GroupRemoteInfo | cdktf.IRes
     azure_ad_security_group: groupRemoteInfoAzureAdSecurityGroupToTerraform(struct!.azureAdSecurityGroup),
     connector_group: groupRemoteInfoConnectorGroupToTerraform(struct!.connectorGroup),
     databricks_account_group: groupRemoteInfoDatabricksAccountGroupToTerraform(struct!.databricksAccountGroup),
+    devin_group: groupRemoteInfoDevinGroupToTerraform(struct!.devinGroup),
     duo_group: groupRemoteInfoDuoGroupToTerraform(struct!.duoGroup),
     github_team: groupRemoteInfoGithubTeamToTerraform(struct!.githubTeam),
     gitlab_group: groupRemoteInfoGitlabGroupToTerraform(struct!.gitlabGroup),
     google_group: groupRemoteInfoGoogleGroupToTerraform(struct!.googleGroup),
+    incidentio_on_call_schedule: groupRemoteInfoIncidentioOnCallScheduleToTerraform(struct!.incidentioOnCallSchedule),
     ldap_group: groupRemoteInfoLdapGroupToTerraform(struct!.ldapGroup),
     okta_group: groupRemoteInfoOktaGroupToTerraform(struct!.oktaGroup),
     okta_group_rule: groupRemoteInfoOktaGroupRuleToTerraform(struct!.oktaGroupRule),
+    pagerduty_on_call_schedule: groupRemoteInfoPagerdutyOnCallScheduleToTerraform(struct!.pagerdutyOnCallSchedule),
     snowflake_role: groupRemoteInfoSnowflakeRoleToTerraform(struct!.snowflakeRole),
     tailscale_group: groupRemoteInfoTailscaleGroupToTerraform(struct!.tailscaleGroup),
     workday_user_security_group: groupRemoteInfoWorkdayUserSecurityGroupToTerraform(struct!.workdayUserSecurityGroup),
@@ -2171,6 +2480,12 @@ export function groupRemoteInfoToHclTerraform(struct?: GroupRemoteInfo | cdktf.I
       type: "struct",
       storageClassType: "GroupRemoteInfoDatabricksAccountGroup",
     },
+    devin_group: {
+      value: groupRemoteInfoDevinGroupToHclTerraform(struct!.devinGroup),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupRemoteInfoDevinGroup",
+    },
     duo_group: {
       value: groupRemoteInfoDuoGroupToHclTerraform(struct!.duoGroup),
       isBlock: true,
@@ -2195,6 +2510,12 @@ export function groupRemoteInfoToHclTerraform(struct?: GroupRemoteInfo | cdktf.I
       type: "struct",
       storageClassType: "GroupRemoteInfoGoogleGroup",
     },
+    incidentio_on_call_schedule: {
+      value: groupRemoteInfoIncidentioOnCallScheduleToHclTerraform(struct!.incidentioOnCallSchedule),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupRemoteInfoIncidentioOnCallSchedule",
+    },
     ldap_group: {
       value: groupRemoteInfoLdapGroupToHclTerraform(struct!.ldapGroup),
       isBlock: true,
@@ -2212,6 +2533,12 @@ export function groupRemoteInfoToHclTerraform(struct?: GroupRemoteInfo | cdktf.I
       isBlock: true,
       type: "struct",
       storageClassType: "GroupRemoteInfoOktaGroupRule",
+    },
+    pagerduty_on_call_schedule: {
+      value: groupRemoteInfoPagerdutyOnCallScheduleToHclTerraform(struct!.pagerdutyOnCallSchedule),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GroupRemoteInfoPagerdutyOnCallSchedule",
     },
     snowflake_role: {
       value: groupRemoteInfoSnowflakeRoleToHclTerraform(struct!.snowflakeRole),
@@ -2279,6 +2606,10 @@ export class GroupRemoteInfoOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.databricksAccountGroup = this._databricksAccountGroup?.internalValue;
     }
+    if (this._devinGroup?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.devinGroup = this._devinGroup?.internalValue;
+    }
     if (this._duoGroup?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.duoGroup = this._duoGroup?.internalValue;
@@ -2295,6 +2626,10 @@ export class GroupRemoteInfoOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.googleGroup = this._googleGroup?.internalValue;
     }
+    if (this._incidentioOnCallSchedule?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.incidentioOnCallSchedule = this._incidentioOnCallSchedule?.internalValue;
+    }
     if (this._ldapGroup?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.ldapGroup = this._ldapGroup?.internalValue;
@@ -2306,6 +2641,10 @@ export class GroupRemoteInfoOutputReference extends cdktf.ComplexObject {
     if (this._oktaGroupRule?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.oktaGroupRule = this._oktaGroupRule?.internalValue;
+    }
+    if (this._pagerdutyOnCallSchedule?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pagerdutyOnCallSchedule = this._pagerdutyOnCallSchedule?.internalValue;
     }
     if (this._snowflakeRole?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -2332,13 +2671,16 @@ export class GroupRemoteInfoOutputReference extends cdktf.ComplexObject {
       this._azureAdSecurityGroup.internalValue = undefined;
       this._connectorGroup.internalValue = undefined;
       this._databricksAccountGroup.internalValue = undefined;
+      this._devinGroup.internalValue = undefined;
       this._duoGroup.internalValue = undefined;
       this._githubTeam.internalValue = undefined;
       this._gitlabGroup.internalValue = undefined;
       this._googleGroup.internalValue = undefined;
+      this._incidentioOnCallSchedule.internalValue = undefined;
       this._ldapGroup.internalValue = undefined;
       this._oktaGroup.internalValue = undefined;
       this._oktaGroupRule.internalValue = undefined;
+      this._pagerdutyOnCallSchedule.internalValue = undefined;
       this._snowflakeRole.internalValue = undefined;
       this._tailscaleGroup.internalValue = undefined;
       this._workdayUserSecurityGroup.internalValue = undefined;
@@ -2356,13 +2698,16 @@ export class GroupRemoteInfoOutputReference extends cdktf.ComplexObject {
       this._azureAdSecurityGroup.internalValue = value.azureAdSecurityGroup;
       this._connectorGroup.internalValue = value.connectorGroup;
       this._databricksAccountGroup.internalValue = value.databricksAccountGroup;
+      this._devinGroup.internalValue = value.devinGroup;
       this._duoGroup.internalValue = value.duoGroup;
       this._githubTeam.internalValue = value.githubTeam;
       this._gitlabGroup.internalValue = value.gitlabGroup;
       this._googleGroup.internalValue = value.googleGroup;
+      this._incidentioOnCallSchedule.internalValue = value.incidentioOnCallSchedule;
       this._ldapGroup.internalValue = value.ldapGroup;
       this._oktaGroup.internalValue = value.oktaGroup;
       this._oktaGroupRule.internalValue = value.oktaGroupRule;
+      this._pagerdutyOnCallSchedule.internalValue = value.pagerdutyOnCallSchedule;
       this._snowflakeRole.internalValue = value.snowflakeRole;
       this._tailscaleGroup.internalValue = value.tailscaleGroup;
       this._workdayUserSecurityGroup.internalValue = value.workdayUserSecurityGroup;
@@ -2465,6 +2810,22 @@ export class GroupRemoteInfoOutputReference extends cdktf.ComplexObject {
     return this._databricksAccountGroup.internalValue;
   }
 
+  // devin_group - computed: true, optional: true, required: false
+  private _devinGroup = new GroupRemoteInfoDevinGroupOutputReference(this, "devin_group");
+  public get devinGroup() {
+    return this._devinGroup;
+  }
+  public putDevinGroup(value: GroupRemoteInfoDevinGroup) {
+    this._devinGroup.internalValue = value;
+  }
+  public resetDevinGroup() {
+    this._devinGroup.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get devinGroupInput() {
+    return this._devinGroup.internalValue;
+  }
+
   // duo_group - computed: true, optional: true, required: false
   private _duoGroup = new GroupRemoteInfoDuoGroupOutputReference(this, "duo_group");
   public get duoGroup() {
@@ -2529,6 +2890,22 @@ export class GroupRemoteInfoOutputReference extends cdktf.ComplexObject {
     return this._googleGroup.internalValue;
   }
 
+  // incidentio_on_call_schedule - computed: true, optional: true, required: false
+  private _incidentioOnCallSchedule = new GroupRemoteInfoIncidentioOnCallScheduleOutputReference(this, "incidentio_on_call_schedule");
+  public get incidentioOnCallSchedule() {
+    return this._incidentioOnCallSchedule;
+  }
+  public putIncidentioOnCallSchedule(value: GroupRemoteInfoIncidentioOnCallSchedule) {
+    this._incidentioOnCallSchedule.internalValue = value;
+  }
+  public resetIncidentioOnCallSchedule() {
+    this._incidentioOnCallSchedule.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get incidentioOnCallScheduleInput() {
+    return this._incidentioOnCallSchedule.internalValue;
+  }
+
   // ldap_group - computed: true, optional: true, required: false
   private _ldapGroup = new GroupRemoteInfoLdapGroupOutputReference(this, "ldap_group");
   public get ldapGroup() {
@@ -2575,6 +2952,22 @@ export class GroupRemoteInfoOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get oktaGroupRuleInput() {
     return this._oktaGroupRule.internalValue;
+  }
+
+  // pagerduty_on_call_schedule - computed: true, optional: true, required: false
+  private _pagerdutyOnCallSchedule = new GroupRemoteInfoPagerdutyOnCallScheduleOutputReference(this, "pagerduty_on_call_schedule");
+  public get pagerdutyOnCallSchedule() {
+    return this._pagerdutyOnCallSchedule;
+  }
+  public putPagerdutyOnCallSchedule(value: GroupRemoteInfoPagerdutyOnCallSchedule) {
+    this._pagerdutyOnCallSchedule.internalValue = value;
+  }
+  public resetPagerdutyOnCallSchedule() {
+    this._pagerdutyOnCallSchedule.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pagerdutyOnCallScheduleInput() {
+    return this._pagerdutyOnCallSchedule.internalValue;
   }
 
   // snowflake_role - computed: true, optional: true, required: false
@@ -2629,13 +3022,13 @@ export interface GroupRequestConfigurationsCondition {
   /**
   * The list of group IDs to match. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#group_ids Group#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#group_ids Group#group_ids}
   */
   readonly groupIds?: string[];
   /**
   * The list of role remote IDs to match. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#role_remote_ids Group#role_remote_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#role_remote_ids Group#role_remote_ids}
   */
   readonly roleRemoteIds?: string[];
 }
@@ -2760,25 +3153,25 @@ export interface GroupRequestConfigurationsReviewerStages {
   /**
   * The operator of the reviewer stage. Admin and manager approval are also treated as reviewers. Default: "AND"; must be one of ["AND", "OR"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#operator Group#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#operator Group#operator}
   */
   readonly operator?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#owner_ids Group#owner_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#owner_ids Group#owner_ids}
   */
   readonly ownerIds?: string[];
   /**
   * Whether this reviewer stage should require admin approval. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#require_admin_approval Group#require_admin_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#require_admin_approval Group#require_admin_approval}
   */
   readonly requireAdminApproval?: boolean | cdktf.IResolvable;
   /**
   * Whether this reviewer stage should require manager approval. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#require_manager_approval Group#require_manager_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#require_manager_approval Group#require_manager_approval}
   */
   readonly requireManagerApproval?: boolean | cdktf.IResolvable;
 }
@@ -2983,67 +3376,67 @@ export interface GroupRequestConfigurations {
   /**
   * A bool representing whether or not to allow requests for this resource. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#allow_requests Group#allow_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#allow_requests Group#allow_requests}
   */
   readonly allowRequests?: boolean | cdktf.IResolvable;
   /**
   * A bool representing whether or not to automatically approve requests for this resource. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#auto_approval Group#auto_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#auto_approval Group#auto_approval}
   */
   readonly autoApproval?: boolean | cdktf.IResolvable;
   /**
   * The condition for the request configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#condition Group#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#condition Group#condition}
   */
   readonly condition?: GroupRequestConfigurationsCondition;
   /**
   * The duration for which access can be extended (in minutes). Set to 0 to disable extensions. When > 0, extensions are enabled for the specified duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#extensions_duration_in_minutes Group#extensions_duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#extensions_duration_in_minutes Group#extensions_duration_in_minutes}
   */
   readonly extensionsDurationInMinutes?: number;
   /**
   * The maximum duration for which the resource can be requested (in minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#max_duration Group#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#max_duration Group#max_duration}
   */
   readonly maxDuration?: number;
   /**
   * The priority of the request configuration. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#priority Group#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#priority Group#priority}
   */
   readonly priority?: number;
   /**
   * The recommended duration for which the resource should be requested (in minutes). -1 represents an indefinite duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#recommended_duration Group#recommended_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#recommended_duration Group#recommended_duration}
   */
   readonly recommendedDuration?: number;
   /**
   * The ID of the associated request template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#request_template_id Group#request_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#request_template_id Group#request_template_id}
   */
   readonly requestTemplateId?: string;
   /**
   * A bool representing whether or not to require MFA for requesting access to this resource. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#require_mfa_to_request Group#require_mfa_to_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#require_mfa_to_request Group#require_mfa_to_request}
   */
   readonly requireMfaToRequest?: boolean | cdktf.IResolvable;
   /**
   * A bool representing whether or not access requests to the resource require an access ticket. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#require_support_ticket Group#require_support_ticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#require_support_ticket Group#require_support_ticket}
   */
   readonly requireSupportTicket?: boolean | cdktf.IResolvable;
   /**
   * The list of reviewer stages for the request configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#reviewer_stages Group#reviewer_stages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#reviewer_stages Group#reviewer_stages}
   */
   readonly reviewerStages?: GroupRequestConfigurationsReviewerStages[] | cdktf.IResolvable;
 }
@@ -3449,7 +3842,7 @@ export class GroupRequestConfigurationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group opal_group}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group opal_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -3465,7 +3858,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3477,7 +3870,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group opal_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group opal_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3488,8 +3881,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'opal_group',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

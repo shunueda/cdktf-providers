@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CouchbaseCapellaProviderConfig {
   /**
   * Capella API Token that serves as an authentication mechanism.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs#authentication_token CouchbaseCapellaProvider#authentication_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs#authentication_token CouchbaseCapellaProvider#authentication_token}
   */
   readonly authenticationToken?: string;
   /**
   * Capella Public API HTTPS Host URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs#host CouchbaseCapellaProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs#host CouchbaseCapellaProvider#host}
   */
   readonly host?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs#alias CouchbaseCapellaProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs#alias CouchbaseCapellaProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs couchbase-capella}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs couchbase-capella}
 */
 export class CouchbaseCapellaProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class CouchbaseCapellaProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CouchbaseCapellaProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CouchbaseCapellaProvider to import
-  * @param importFromId The id of the existing CouchbaseCapellaProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CouchbaseCapellaProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CouchbaseCapellaProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class CouchbaseCapellaProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs couchbase-capella} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs couchbase-capella} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class CouchbaseCapellaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'couchbase-capella',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       terraformProviderSource: 'couchbasecloud/couchbase-capella'
     });

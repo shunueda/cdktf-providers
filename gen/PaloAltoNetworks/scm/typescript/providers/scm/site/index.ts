@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface SiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * The address in which the site exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#address_line_1 Site#address_line_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#address_line_1 Site#address_line_1}
   */
   readonly addressLine1?: string;
   /**
   * The address in which the site exists (continued)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#address_line_2 Site#address_line_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#address_line_2 Site#address_line_2}
   */
   readonly addressLine2?: string;
   /**
   * The city in which the site exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#city Site#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#city Site#city}
   */
   readonly city?: string;
   /**
   * The country in which the site exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#country Site#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#country Site#country}
   */
   readonly country?: string;
   /**
   * The latitude coordinate for the site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#latitude Site#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#latitude Site#latitude}
   */
   readonly latitude?: string;
   /**
   * The license type of the site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#license_type Site#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#license_type Site#license_type}
   */
   readonly licenseType?: string;
   /**
   * The longitude coordinate for the site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#longitude Site#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#longitude Site#longitude}
   */
   readonly longitude?: string;
   /**
   * Members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#members Site#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#members Site#members}
   */
   readonly members?: SiteMembers[] | cdktf.IResolvable;
   /**
   * The name of the site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#name Site#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#name Site#name}
   */
   readonly name: string;
   /**
   * Qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#qos Site#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#qos Site#qos}
   */
   readonly qos?: SiteQos;
   /**
   * The state in which the site exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#state Site#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#state Site#state}
   */
   readonly state?: string;
   /**
   * The site type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#type Site#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#type Site#type}
   */
   readonly type?: string;
   /**
   * The postal code in which the site exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#zip_code Site#zip_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#zip_code Site#zip_code}
   */
   readonly zipCode?: string;
 }
@@ -90,19 +90,19 @@ export interface SiteMembers {
   /**
   * The mode of the remote network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#mode Site#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#mode Site#mode}
   */
   readonly mode: string;
   /**
   * The member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#name Site#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#name Site#name}
   */
   readonly name: string;
   /**
   * The remote network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#remote_network Site#remote_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#remote_network Site#remote_network}
   */
   readonly remoteNetwork?: string;
 }
@@ -277,19 +277,19 @@ export interface SiteQos {
   /**
   * The backup CIR in Mbps. This is distributed equally for all tunnels in the site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#backup_cir Site#backup_cir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#backup_cir Site#backup_cir}
   */
   readonly backupCir?: number;
   /**
   * The CIR in Mbps. This is distributed equally for all tunnels in the site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#cir Site#cir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#cir Site#cir}
   */
   readonly cir?: number;
   /**
   * The name of the site QoS profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#profile Site#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#profile Site#profile}
   */
   readonly profile?: string;
 }
@@ -441,7 +441,7 @@ export class SiteQosOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site scm_site}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site scm_site}
 */
 export class Site extends cdktf.TerraformResource {
 
@@ -457,7 +457,7 @@ export class Site extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Site resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Site to import
-  * @param importFromId The id of the existing Site that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Site that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Site to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -469,7 +469,7 @@ export class Site extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/site scm_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/site scm_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -480,8 +480,8 @@ export class Site extends cdktf.TerraformResource {
       terraformResourceType: 'scm_site',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -572,6 +572,11 @@ export class Site extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get countryInput() {
     return this._country;
+  }
+
+  // folder - computed: true, optional: false, required: false
+  public get folder() {
+    return this.getStringAttribute('folder');
   }
 
   // id - computed: true, optional: false, required: false

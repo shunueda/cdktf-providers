@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,52 +9,49 @@ import * as cdktf from 'cdktf';
 export interface ExternalDynamicListConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#device ExternalDynamicList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#device ExternalDynamicList#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#folder ExternalDynamicList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#folder ExternalDynamicList#folder}
   */
   readonly folder?: string;
   /**
   * The name of the external dynamic list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#name ExternalDynamicList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#name ExternalDynamicList#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#snippet ExternalDynamicList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#snippet ExternalDynamicList#snippet}
   */
   readonly snippet?: string;
   /**
-  * Type
+  * Type configuration for External Dynamic List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#type ExternalDynamicList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#type ExternalDynamicList#type}
   */
   readonly type?: ExternalDynamicListType;
 }
 export interface ExternalDynamicListTypeDomainAuth {
   /**
-  * Password
+  * Password for Custom Domain authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
   */
   readonly password: string;
   /**
-  * Username
+  * Username for Custom Domain authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
   */
   readonly username: string;
 }
@@ -143,7 +140,7 @@ export class ExternalDynamicListTypeDomainAuthOutputReference extends cdktf.Comp
     }
   }
 
-  // password - computed: true, optional: false, required: true
+  // password - computed: false, optional: false, required: true
   private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
@@ -156,7 +153,7 @@ export class ExternalDynamicListTypeDomainAuthOutputReference extends cdktf.Comp
     return this._password;
   }
 
-  // username - computed: true, optional: false, required: true
+  // username - computed: false, optional: false, required: true
   private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
@@ -171,9 +168,9 @@ export class ExternalDynamicListTypeDomainAuthOutputReference extends cdktf.Comp
 }
 export interface ExternalDynamicListTypeDomainRecurringDaily {
   /**
-  * Time specification hh (e.g. 20)
+  * Daily Time specification hh (e.g. 20) for Domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
 }
@@ -249,7 +246,7 @@ export class ExternalDynamicListTypeDomainRecurringDailyOutputReference extends 
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -382,15 +379,15 @@ export class ExternalDynamicListTypeDomainRecurringHourlyOutputReference extends
 }
 export interface ExternalDynamicListTypeDomainRecurringMonthly {
   /**
-  * Time specification hh (e.g. 20)
+  * Monthly Time specification hh (e.g. 20) for domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
   /**
-  * Day of month
+  * Day setting for monthly Domain updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
   */
   readonly dayOfMonth: number;
 }
@@ -479,7 +476,7 @@ export class ExternalDynamicListTypeDomainRecurringMonthlyOutputReference extend
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -492,7 +489,7 @@ export class ExternalDynamicListTypeDomainRecurringMonthlyOutputReference extend
     return this._at;
   }
 
-  // day_of_month - computed: true, optional: false, required: true
+  // day_of_month - computed: false, optional: false, required: true
   private _dayOfMonth?: number; 
   public get dayOfMonth() {
     return this.getNumberAttribute('day_of_month');
@@ -507,15 +504,15 @@ export class ExternalDynamicListTypeDomainRecurringMonthlyOutputReference extend
 }
 export interface ExternalDynamicListTypeDomainRecurringWeekly {
   /**
-  * Time specification hh (e.g. 20)
+  * Weekly Time specification hh (e.g. 20) for Domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
   /**
   * Day of week
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
   */
   readonly dayOfWeek: string;
 }
@@ -604,7 +601,7 @@ export class ExternalDynamicListTypeDomainRecurringWeeklyOutputReference extends
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -617,7 +614,7 @@ export class ExternalDynamicListTypeDomainRecurringWeeklyOutputReference extends
     return this._at;
   }
 
-  // day_of_week - computed: true, optional: false, required: true
+  // day_of_week - computed: false, optional: false, required: true
   private _dayOfWeek?: string; 
   public get dayOfWeek() {
     return this.getStringAttribute('day_of_week');
@@ -632,48 +629,43 @@ export class ExternalDynamicListTypeDomainRecurringWeeklyOutputReference extends
 }
 export interface ExternalDynamicListTypeDomainRecurring {
   /**
-  * Daily
-  * 
+  * Daily settings for Domain recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
   */
   readonly daily?: ExternalDynamicListTypeDomainRecurringDaily;
   /**
-  * Five minute
-  * 
+  * Five minute settings for Domain recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
   */
   readonly fiveMinute?: ExternalDynamicListTypeDomainRecurringFiveMinute;
   /**
-  * Hourly
-  * 
+  * Hourly settings for Domain recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
   */
   readonly hourly?: ExternalDynamicListTypeDomainRecurringHourly;
   /**
-  * Monthly
-  * 
+  * Monthly settings for Domain recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
   */
   readonly monthly?: ExternalDynamicListTypeDomainRecurringMonthly;
   /**
-  * Weekly
-  * 
+  * Weekly settings for Domain recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
   */
   readonly weekly?: ExternalDynamicListTypeDomainRecurringWeekly;
 }
 
-export function externalDynamicListTypeDomainRecurringToTerraform(struct?: ExternalDynamicListTypeDomainRecurring): any {
+export function externalDynamicListTypeDomainRecurringToTerraform(struct?: ExternalDynamicListTypeDomainRecurring | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -688,7 +680,7 @@ export function externalDynamicListTypeDomainRecurringToTerraform(struct?: Exter
 }
 
 
-export function externalDynamicListTypeDomainRecurringToHclTerraform(struct?: ExternalDynamicListTypeDomainRecurring): any {
+export function externalDynamicListTypeDomainRecurringToHclTerraform(struct?: ExternalDynamicListTypeDomainRecurring | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -732,6 +724,7 @@ export function externalDynamicListTypeDomainRecurringToHclTerraform(struct?: Ex
 
 export class ExternalDynamicListTypeDomainRecurringOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -741,7 +734,10 @@ export class ExternalDynamicListTypeDomainRecurringOutputReference extends cdktf
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): ExternalDynamicListTypeDomainRecurring | undefined {
+  public get internalValue(): ExternalDynamicListTypeDomainRecurring | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._daily?.internalValue !== undefined) {
@@ -767,17 +763,23 @@ export class ExternalDynamicListTypeDomainRecurringOutputReference extends cdktf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ExternalDynamicListTypeDomainRecurring | undefined) {
+  public set internalValue(value: ExternalDynamicListTypeDomainRecurring | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
       this._daily.internalValue = undefined;
       this._fiveMinute.internalValue = undefined;
       this._hourly.internalValue = undefined;
       this._monthly.internalValue = undefined;
       this._weekly.internalValue = undefined;
     }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
       this._daily.internalValue = value.daily;
       this._fiveMinute.internalValue = value.fiveMinute;
       this._hourly.internalValue = value.hourly;
@@ -786,7 +788,7 @@ export class ExternalDynamicListTypeDomainRecurringOutputReference extends cdktf
     }
   }
 
-  // daily - computed: true, optional: true, required: false
+  // daily - computed: false, optional: true, required: false
   private _daily = new ExternalDynamicListTypeDomainRecurringDailyOutputReference(this, "daily");
   public get daily() {
     return this._daily;
@@ -802,7 +804,7 @@ export class ExternalDynamicListTypeDomainRecurringOutputReference extends cdktf
     return this._daily.internalValue;
   }
 
-  // five_minute - computed: true, optional: true, required: false
+  // five_minute - computed: false, optional: true, required: false
   private _fiveMinute = new ExternalDynamicListTypeDomainRecurringFiveMinuteOutputReference(this, "five_minute");
   public get fiveMinute() {
     return this._fiveMinute;
@@ -818,7 +820,7 @@ export class ExternalDynamicListTypeDomainRecurringOutputReference extends cdktf
     return this._fiveMinute.internalValue;
   }
 
-  // hourly - computed: true, optional: true, required: false
+  // hourly - computed: false, optional: true, required: false
   private _hourly = new ExternalDynamicListTypeDomainRecurringHourlyOutputReference(this, "hourly");
   public get hourly() {
     return this._hourly;
@@ -834,7 +836,7 @@ export class ExternalDynamicListTypeDomainRecurringOutputReference extends cdktf
     return this._hourly.internalValue;
   }
 
-  // monthly - computed: true, optional: true, required: false
+  // monthly - computed: false, optional: true, required: false
   private _monthly = new ExternalDynamicListTypeDomainRecurringMonthlyOutputReference(this, "monthly");
   public get monthly() {
     return this._monthly;
@@ -850,7 +852,7 @@ export class ExternalDynamicListTypeDomainRecurringOutputReference extends cdktf
     return this._monthly.internalValue;
   }
 
-  // weekly - computed: true, optional: true, required: false
+  // weekly - computed: false, optional: true, required: false
   private _weekly = new ExternalDynamicListTypeDomainRecurringWeeklyOutputReference(this, "weekly");
   public get weekly() {
     return this._weekly;
@@ -868,45 +870,45 @@ export class ExternalDynamicListTypeDomainRecurringOutputReference extends cdktf
 }
 export interface ExternalDynamicListTypeDomain {
   /**
-  * Auth
+  * Authentication settings for Custom Domain type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
   */
   readonly auth?: ExternalDynamicListTypeDomainAuth;
   /**
   * Profile for authenticating client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
   */
   readonly description?: string;
   /**
-  * Exception list
+  * Domain Exception List for Custom Domain type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
   */
   readonly exceptionList?: string[];
   /**
   * Enable/Disable expand domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#expand_domain ExternalDynamicList#expand_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#expand_domain ExternalDynamicList#expand_domain}
   */
   readonly expandDomain?: boolean | cdktf.IResolvable;
   /**
-  * Recurring
+  * Update Schedule for Custom Domain type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
   */
   readonly recurring: ExternalDynamicListTypeDomainRecurring;
   /**
-  * Url
+  * External URL for Custom Domain type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url: string;
 }
@@ -1060,7 +1062,7 @@ export class ExternalDynamicListTypeDomainOutputReference extends cdktf.ComplexO
     }
   }
 
-  // auth - computed: true, optional: true, required: false
+  // auth - computed: false, optional: true, required: false
   private _auth = new ExternalDynamicListTypeDomainAuthOutputReference(this, "auth");
   public get auth() {
     return this._auth;
@@ -1092,7 +1094,7 @@ export class ExternalDynamicListTypeDomainOutputReference extends cdktf.ComplexO
     return this._certificateProfile;
   }
 
-  // description - computed: true, optional: true, required: false
+  // description - computed: false, optional: true, required: false
   private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
@@ -1108,7 +1110,7 @@ export class ExternalDynamicListTypeDomainOutputReference extends cdktf.ComplexO
     return this._description;
   }
 
-  // exception_list - computed: true, optional: true, required: false
+  // exception_list - computed: false, optional: true, required: false
   private _exceptionList?: string[]; 
   public get exceptionList() {
     return this.getListAttribute('exception_list');
@@ -1140,7 +1142,7 @@ export class ExternalDynamicListTypeDomainOutputReference extends cdktf.ComplexO
     return this._expandDomain;
   }
 
-  // recurring - computed: true, optional: false, required: true
+  // recurring - computed: false, optional: false, required: true
   private _recurring = new ExternalDynamicListTypeDomainRecurringOutputReference(this, "recurring");
   public get recurring() {
     return this._recurring;
@@ -1153,7 +1155,7 @@ export class ExternalDynamicListTypeDomainOutputReference extends cdktf.ComplexO
     return this._recurring.internalValue;
   }
 
-  // url - computed: true, optional: false, required: true
+  // url - computed: false, optional: false, required: true
   private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
@@ -1168,15 +1170,15 @@ export class ExternalDynamicListTypeDomainOutputReference extends cdktf.ComplexO
 }
 export interface ExternalDynamicListTypeImeiAuth {
   /**
-  * Password
+  * IMEI Auth Password for Custom IMEI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
   */
   readonly password: string;
   /**
-  * Username
+  * IMEI Auth username for Custom IMEI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
   */
   readonly username: string;
 }
@@ -1265,7 +1267,7 @@ export class ExternalDynamicListTypeImeiAuthOutputReference extends cdktf.Comple
     }
   }
 
-  // password - computed: true, optional: false, required: true
+  // password - computed: false, optional: false, required: true
   private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
@@ -1278,7 +1280,7 @@ export class ExternalDynamicListTypeImeiAuthOutputReference extends cdktf.Comple
     return this._password;
   }
 
-  // username - computed: true, optional: false, required: true
+  // username - computed: false, optional: false, required: true
   private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
@@ -1293,9 +1295,9 @@ export class ExternalDynamicListTypeImeiAuthOutputReference extends cdktf.Comple
 }
 export interface ExternalDynamicListTypeImeiRecurringDaily {
   /**
-  * Time specification hh (e.g. 20)
+  * Daily Time specification hh (e.g. 20) for IMEI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
 }
@@ -1371,7 +1373,7 @@ export class ExternalDynamicListTypeImeiRecurringDailyOutputReference extends cd
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -1504,15 +1506,15 @@ export class ExternalDynamicListTypeImeiRecurringHourlyOutputReference extends c
 }
 export interface ExternalDynamicListTypeImeiRecurringMonthly {
   /**
-  * Time specification hh (e.g. 20)
+  * Monthly Time specification hh (e.g. 20) for IMEI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
   /**
-  * Day of month
+  * Day of month for IMEI updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
   */
   readonly dayOfMonth: number;
 }
@@ -1601,7 +1603,7 @@ export class ExternalDynamicListTypeImeiRecurringMonthlyOutputReference extends 
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -1614,7 +1616,7 @@ export class ExternalDynamicListTypeImeiRecurringMonthlyOutputReference extends 
     return this._at;
   }
 
-  // day_of_month - computed: true, optional: false, required: true
+  // day_of_month - computed: false, optional: false, required: true
   private _dayOfMonth?: number; 
   public get dayOfMonth() {
     return this.getNumberAttribute('day_of_month');
@@ -1629,15 +1631,15 @@ export class ExternalDynamicListTypeImeiRecurringMonthlyOutputReference extends 
 }
 export interface ExternalDynamicListTypeImeiRecurringWeekly {
   /**
-  * Time specification hh (e.g. 20)
+  * Weekly Time specification hh (e.g. 20) for IMEI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
   /**
   * Day of week
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
   */
   readonly dayOfWeek: string;
 }
@@ -1726,7 +1728,7 @@ export class ExternalDynamicListTypeImeiRecurringWeeklyOutputReference extends c
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -1739,7 +1741,7 @@ export class ExternalDynamicListTypeImeiRecurringWeeklyOutputReference extends c
     return this._at;
   }
 
-  // day_of_week - computed: true, optional: false, required: true
+  // day_of_week - computed: false, optional: false, required: true
   private _dayOfWeek?: string; 
   public get dayOfWeek() {
     return this.getStringAttribute('day_of_week');
@@ -1754,48 +1756,43 @@ export class ExternalDynamicListTypeImeiRecurringWeeklyOutputReference extends c
 }
 export interface ExternalDynamicListTypeImeiRecurring {
   /**
-  * Daily
-  * 
+  * Daily interval settings for IMEI updates
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
   */
   readonly daily?: ExternalDynamicListTypeImeiRecurringDaily;
   /**
-  * Five minute
-  * 
+  * Five-minute interval settings for IMEI updates
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
   */
   readonly fiveMinute?: ExternalDynamicListTypeImeiRecurringFiveMinute;
   /**
-  * Hourly
-  * 
+  * Hourly interval settings for IMEI updates
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
   */
   readonly hourly?: ExternalDynamicListTypeImeiRecurringHourly;
   /**
-  * Monthly
-  * 
+  * Monthly interval settings for IMEI updates
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
   */
   readonly monthly?: ExternalDynamicListTypeImeiRecurringMonthly;
   /**
-  * Weekly
-  * 
+  * Weekly interval settings for IMEI updates
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
   */
   readonly weekly?: ExternalDynamicListTypeImeiRecurringWeekly;
 }
 
-export function externalDynamicListTypeImeiRecurringToTerraform(struct?: ExternalDynamicListTypeImeiRecurring): any {
+export function externalDynamicListTypeImeiRecurringToTerraform(struct?: ExternalDynamicListTypeImeiRecurring | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1810,7 +1807,7 @@ export function externalDynamicListTypeImeiRecurringToTerraform(struct?: Externa
 }
 
 
-export function externalDynamicListTypeImeiRecurringToHclTerraform(struct?: ExternalDynamicListTypeImeiRecurring): any {
+export function externalDynamicListTypeImeiRecurringToHclTerraform(struct?: ExternalDynamicListTypeImeiRecurring | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1854,6 +1851,7 @@ export function externalDynamicListTypeImeiRecurringToHclTerraform(struct?: Exte
 
 export class ExternalDynamicListTypeImeiRecurringOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1863,7 +1861,10 @@ export class ExternalDynamicListTypeImeiRecurringOutputReference extends cdktf.C
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): ExternalDynamicListTypeImeiRecurring | undefined {
+  public get internalValue(): ExternalDynamicListTypeImeiRecurring | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._daily?.internalValue !== undefined) {
@@ -1889,17 +1890,23 @@ export class ExternalDynamicListTypeImeiRecurringOutputReference extends cdktf.C
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ExternalDynamicListTypeImeiRecurring | undefined) {
+  public set internalValue(value: ExternalDynamicListTypeImeiRecurring | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
       this._daily.internalValue = undefined;
       this._fiveMinute.internalValue = undefined;
       this._hourly.internalValue = undefined;
       this._monthly.internalValue = undefined;
       this._weekly.internalValue = undefined;
     }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
       this._daily.internalValue = value.daily;
       this._fiveMinute.internalValue = value.fiveMinute;
       this._hourly.internalValue = value.hourly;
@@ -1908,7 +1915,7 @@ export class ExternalDynamicListTypeImeiRecurringOutputReference extends cdktf.C
     }
   }
 
-  // daily - computed: true, optional: true, required: false
+  // daily - computed: false, optional: true, required: false
   private _daily = new ExternalDynamicListTypeImeiRecurringDailyOutputReference(this, "daily");
   public get daily() {
     return this._daily;
@@ -1924,7 +1931,7 @@ export class ExternalDynamicListTypeImeiRecurringOutputReference extends cdktf.C
     return this._daily.internalValue;
   }
 
-  // five_minute - computed: true, optional: true, required: false
+  // five_minute - computed: false, optional: true, required: false
   private _fiveMinute = new ExternalDynamicListTypeImeiRecurringFiveMinuteOutputReference(this, "five_minute");
   public get fiveMinute() {
     return this._fiveMinute;
@@ -1940,7 +1947,7 @@ export class ExternalDynamicListTypeImeiRecurringOutputReference extends cdktf.C
     return this._fiveMinute.internalValue;
   }
 
-  // hourly - computed: true, optional: true, required: false
+  // hourly - computed: false, optional: true, required: false
   private _hourly = new ExternalDynamicListTypeImeiRecurringHourlyOutputReference(this, "hourly");
   public get hourly() {
     return this._hourly;
@@ -1956,7 +1963,7 @@ export class ExternalDynamicListTypeImeiRecurringOutputReference extends cdktf.C
     return this._hourly.internalValue;
   }
 
-  // monthly - computed: true, optional: true, required: false
+  // monthly - computed: false, optional: true, required: false
   private _monthly = new ExternalDynamicListTypeImeiRecurringMonthlyOutputReference(this, "monthly");
   public get monthly() {
     return this._monthly;
@@ -1972,7 +1979,7 @@ export class ExternalDynamicListTypeImeiRecurringOutputReference extends cdktf.C
     return this._monthly.internalValue;
   }
 
-  // weekly - computed: true, optional: true, required: false
+  // weekly - computed: false, optional: true, required: false
   private _weekly = new ExternalDynamicListTypeImeiRecurringWeeklyOutputReference(this, "weekly");
   public get weekly() {
     return this._weekly;
@@ -1990,39 +1997,39 @@ export class ExternalDynamicListTypeImeiRecurringOutputReference extends cdktf.C
 }
 export interface ExternalDynamicListTypeImei {
   /**
-  * Auth
+  * IMEI Auth Cnfig for Custom IMEI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
   */
   readonly auth?: ExternalDynamicListTypeImeiAuth;
   /**
-  * Profile for authenticating client certificates
+  * IMEI Certificate Profile for Custom IMEI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
-  * Description
+  * IMEI Description for Custom IMEI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
   */
   readonly description?: string;
   /**
-  * Exception list
+  * IMEI Exception List for Custom IMEI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
   */
   readonly exceptionList?: string[];
   /**
-  * Recurring
+  * Recurring interval for IMEI updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
   */
   readonly recurring: ExternalDynamicListTypeImeiRecurring;
   /**
-  * Url
+  * IMEI URL for Custom IMEI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url: string;
 }
@@ -2163,7 +2170,7 @@ export class ExternalDynamicListTypeImeiOutputReference extends cdktf.ComplexObj
     }
   }
 
-  // auth - computed: true, optional: true, required: false
+  // auth - computed: false, optional: true, required: false
   private _auth = new ExternalDynamicListTypeImeiAuthOutputReference(this, "auth");
   public get auth() {
     return this._auth;
@@ -2195,7 +2202,7 @@ export class ExternalDynamicListTypeImeiOutputReference extends cdktf.ComplexObj
     return this._certificateProfile;
   }
 
-  // description - computed: true, optional: true, required: false
+  // description - computed: false, optional: true, required: false
   private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
@@ -2211,7 +2218,7 @@ export class ExternalDynamicListTypeImeiOutputReference extends cdktf.ComplexObj
     return this._description;
   }
 
-  // exception_list - computed: true, optional: true, required: false
+  // exception_list - computed: false, optional: true, required: false
   private _exceptionList?: string[]; 
   public get exceptionList() {
     return this.getListAttribute('exception_list');
@@ -2227,7 +2234,7 @@ export class ExternalDynamicListTypeImeiOutputReference extends cdktf.ComplexObj
     return this._exceptionList;
   }
 
-  // recurring - computed: true, optional: false, required: true
+  // recurring - computed: false, optional: false, required: true
   private _recurring = new ExternalDynamicListTypeImeiRecurringOutputReference(this, "recurring");
   public get recurring() {
     return this._recurring;
@@ -2240,7 +2247,7 @@ export class ExternalDynamicListTypeImeiOutputReference extends cdktf.ComplexObj
     return this._recurring.internalValue;
   }
 
-  // url - computed: true, optional: false, required: true
+  // url - computed: false, optional: false, required: true
   private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
@@ -2255,15 +2262,15 @@ export class ExternalDynamicListTypeImeiOutputReference extends cdktf.ComplexObj
 }
 export interface ExternalDynamicListTypeImsiAuth {
   /**
-  * Password
+  * IMSI Auth Password for Custom IMSI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
   */
   readonly password: string;
   /**
-  * Username
+  * IMSI Auth Username for Custom IMSI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
   */
   readonly username: string;
 }
@@ -2352,7 +2359,7 @@ export class ExternalDynamicListTypeImsiAuthOutputReference extends cdktf.Comple
     }
   }
 
-  // password - computed: true, optional: false, required: true
+  // password - computed: false, optional: false, required: true
   private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
@@ -2365,7 +2372,7 @@ export class ExternalDynamicListTypeImsiAuthOutputReference extends cdktf.Comple
     return this._password;
   }
 
-  // username - computed: true, optional: false, required: true
+  // username - computed: false, optional: false, required: true
   private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
@@ -2380,9 +2387,9 @@ export class ExternalDynamicListTypeImsiAuthOutputReference extends cdktf.Comple
 }
 export interface ExternalDynamicListTypeImsiRecurringDaily {
   /**
-  * Time specification hh (e.g. 20)
+  * Daily Time specification hh (e.g. 20) for IMSI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
 }
@@ -2458,7 +2465,7 @@ export class ExternalDynamicListTypeImsiRecurringDailyOutputReference extends cd
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -2591,15 +2598,15 @@ export class ExternalDynamicListTypeImsiRecurringHourlyOutputReference extends c
 }
 export interface ExternalDynamicListTypeImsiRecurringMonthly {
   /**
-  * Time specification hh (e.g. 20)
+  * Monthly Time specification hh (e.g. 20) for IMSI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
   /**
-  * Day of month
+  * Day of the month for monthly IMSI updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
   */
   readonly dayOfMonth: number;
 }
@@ -2688,7 +2695,7 @@ export class ExternalDynamicListTypeImsiRecurringMonthlyOutputReference extends 
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -2701,7 +2708,7 @@ export class ExternalDynamicListTypeImsiRecurringMonthlyOutputReference extends 
     return this._at;
   }
 
-  // day_of_month - computed: true, optional: false, required: true
+  // day_of_month - computed: false, optional: false, required: true
   private _dayOfMonth?: number; 
   public get dayOfMonth() {
     return this.getNumberAttribute('day_of_month');
@@ -2716,15 +2723,15 @@ export class ExternalDynamicListTypeImsiRecurringMonthlyOutputReference extends 
 }
 export interface ExternalDynamicListTypeImsiRecurringWeekly {
   /**
-  * Time specification hh (e.g. 20)
+  * Weekly Time specification hh (e.g. 20) for IMSI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
   /**
   * Day of week
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
   */
   readonly dayOfWeek: string;
 }
@@ -2813,7 +2820,7 @@ export class ExternalDynamicListTypeImsiRecurringWeeklyOutputReference extends c
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -2826,7 +2833,7 @@ export class ExternalDynamicListTypeImsiRecurringWeeklyOutputReference extends c
     return this._at;
   }
 
-  // day_of_week - computed: true, optional: false, required: true
+  // day_of_week - computed: false, optional: false, required: true
   private _dayOfWeek?: string; 
   public get dayOfWeek() {
     return this.getStringAttribute('day_of_week');
@@ -2841,48 +2848,43 @@ export class ExternalDynamicListTypeImsiRecurringWeeklyOutputReference extends c
 }
 export interface ExternalDynamicListTypeImsiRecurring {
   /**
-  * Daily
-  * 
+  * Daily interval settings for IMSI updates
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
   */
   readonly daily?: ExternalDynamicListTypeImsiRecurringDaily;
   /**
-  * Five minute
-  * 
+  * Five-minute interval settings for IMSI updates
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
   */
   readonly fiveMinute?: ExternalDynamicListTypeImsiRecurringFiveMinute;
   /**
-  * Hourly
-  * 
+  * Hourly interval settings for IMSI updates
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
   */
   readonly hourly?: ExternalDynamicListTypeImsiRecurringHourly;
   /**
-  * Monthly
-  * 
+  * Monthly interval settings for IMSI updates
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
   */
   readonly monthly?: ExternalDynamicListTypeImsiRecurringMonthly;
   /**
-  * Weekly
-  * 
+  * Weekly interval settings for IMSI updates
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
   */
   readonly weekly?: ExternalDynamicListTypeImsiRecurringWeekly;
 }
 
-export function externalDynamicListTypeImsiRecurringToTerraform(struct?: ExternalDynamicListTypeImsiRecurring): any {
+export function externalDynamicListTypeImsiRecurringToTerraform(struct?: ExternalDynamicListTypeImsiRecurring | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2897,7 +2899,7 @@ export function externalDynamicListTypeImsiRecurringToTerraform(struct?: Externa
 }
 
 
-export function externalDynamicListTypeImsiRecurringToHclTerraform(struct?: ExternalDynamicListTypeImsiRecurring): any {
+export function externalDynamicListTypeImsiRecurringToHclTerraform(struct?: ExternalDynamicListTypeImsiRecurring | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2941,6 +2943,7 @@ export function externalDynamicListTypeImsiRecurringToHclTerraform(struct?: Exte
 
 export class ExternalDynamicListTypeImsiRecurringOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2950,7 +2953,10 @@ export class ExternalDynamicListTypeImsiRecurringOutputReference extends cdktf.C
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): ExternalDynamicListTypeImsiRecurring | undefined {
+  public get internalValue(): ExternalDynamicListTypeImsiRecurring | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._daily?.internalValue !== undefined) {
@@ -2976,17 +2982,23 @@ export class ExternalDynamicListTypeImsiRecurringOutputReference extends cdktf.C
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ExternalDynamicListTypeImsiRecurring | undefined) {
+  public set internalValue(value: ExternalDynamicListTypeImsiRecurring | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
       this._daily.internalValue = undefined;
       this._fiveMinute.internalValue = undefined;
       this._hourly.internalValue = undefined;
       this._monthly.internalValue = undefined;
       this._weekly.internalValue = undefined;
     }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
       this._daily.internalValue = value.daily;
       this._fiveMinute.internalValue = value.fiveMinute;
       this._hourly.internalValue = value.hourly;
@@ -2995,7 +3007,7 @@ export class ExternalDynamicListTypeImsiRecurringOutputReference extends cdktf.C
     }
   }
 
-  // daily - computed: true, optional: true, required: false
+  // daily - computed: false, optional: true, required: false
   private _daily = new ExternalDynamicListTypeImsiRecurringDailyOutputReference(this, "daily");
   public get daily() {
     return this._daily;
@@ -3011,7 +3023,7 @@ export class ExternalDynamicListTypeImsiRecurringOutputReference extends cdktf.C
     return this._daily.internalValue;
   }
 
-  // five_minute - computed: true, optional: true, required: false
+  // five_minute - computed: false, optional: true, required: false
   private _fiveMinute = new ExternalDynamicListTypeImsiRecurringFiveMinuteOutputReference(this, "five_minute");
   public get fiveMinute() {
     return this._fiveMinute;
@@ -3027,7 +3039,7 @@ export class ExternalDynamicListTypeImsiRecurringOutputReference extends cdktf.C
     return this._fiveMinute.internalValue;
   }
 
-  // hourly - computed: true, optional: true, required: false
+  // hourly - computed: false, optional: true, required: false
   private _hourly = new ExternalDynamicListTypeImsiRecurringHourlyOutputReference(this, "hourly");
   public get hourly() {
     return this._hourly;
@@ -3043,7 +3055,7 @@ export class ExternalDynamicListTypeImsiRecurringOutputReference extends cdktf.C
     return this._hourly.internalValue;
   }
 
-  // monthly - computed: true, optional: true, required: false
+  // monthly - computed: false, optional: true, required: false
   private _monthly = new ExternalDynamicListTypeImsiRecurringMonthlyOutputReference(this, "monthly");
   public get monthly() {
     return this._monthly;
@@ -3059,7 +3071,7 @@ export class ExternalDynamicListTypeImsiRecurringOutputReference extends cdktf.C
     return this._monthly.internalValue;
   }
 
-  // weekly - computed: true, optional: true, required: false
+  // weekly - computed: false, optional: true, required: false
   private _weekly = new ExternalDynamicListTypeImsiRecurringWeeklyOutputReference(this, "weekly");
   public get weekly() {
     return this._weekly;
@@ -3077,39 +3089,39 @@ export class ExternalDynamicListTypeImsiRecurringOutputReference extends cdktf.C
 }
 export interface ExternalDynamicListTypeImsi {
   /**
-  * Auth
+  * IMSI Auth Config for Custom IMSI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
   */
   readonly auth?: ExternalDynamicListTypeImsiAuth;
   /**
-  * Profile for authenticating client certificates
+  * IMSI Certificate Profile for Custom IMSI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
-  * Description
+  * IMSI Description for Custom IMSI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
   */
   readonly description?: string;
   /**
-  * Exception list
+  * IMSI Exception List for Custom IMSI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
   */
   readonly exceptionList?: string[];
   /**
-  * Recurring
+  * IMSI Recuring Config for Custom IMSI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
   */
   readonly recurring: ExternalDynamicListTypeImsiRecurring;
   /**
-  * Url
+  * IMSI URL for Custom IMSI type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url: string;
 }
@@ -3250,7 +3262,7 @@ export class ExternalDynamicListTypeImsiOutputReference extends cdktf.ComplexObj
     }
   }
 
-  // auth - computed: true, optional: true, required: false
+  // auth - computed: false, optional: true, required: false
   private _auth = new ExternalDynamicListTypeImsiAuthOutputReference(this, "auth");
   public get auth() {
     return this._auth;
@@ -3282,7 +3294,7 @@ export class ExternalDynamicListTypeImsiOutputReference extends cdktf.ComplexObj
     return this._certificateProfile;
   }
 
-  // description - computed: true, optional: true, required: false
+  // description - computed: false, optional: true, required: false
   private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
@@ -3298,7 +3310,7 @@ export class ExternalDynamicListTypeImsiOutputReference extends cdktf.ComplexObj
     return this._description;
   }
 
-  // exception_list - computed: true, optional: true, required: false
+  // exception_list - computed: false, optional: true, required: false
   private _exceptionList?: string[]; 
   public get exceptionList() {
     return this.getListAttribute('exception_list');
@@ -3314,7 +3326,7 @@ export class ExternalDynamicListTypeImsiOutputReference extends cdktf.ComplexObj
     return this._exceptionList;
   }
 
-  // recurring - computed: true, optional: false, required: true
+  // recurring - computed: false, optional: false, required: true
   private _recurring = new ExternalDynamicListTypeImsiRecurringOutputReference(this, "recurring");
   public get recurring() {
     return this._recurring;
@@ -3327,7 +3339,7 @@ export class ExternalDynamicListTypeImsiOutputReference extends cdktf.ComplexObj
     return this._recurring.internalValue;
   }
 
-  // url - computed: true, optional: false, required: true
+  // url - computed: false, optional: false, required: true
   private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
@@ -3342,15 +3354,15 @@ export class ExternalDynamicListTypeImsiOutputReference extends cdktf.ComplexObj
 }
 export interface ExternalDynamicListTypeIpAuth {
   /**
-  * Password
+  * Password for Custom IP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
   */
   readonly password: string;
   /**
-  * Username
+  * Username for Custom IP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
   */
   readonly username: string;
 }
@@ -3439,7 +3451,7 @@ export class ExternalDynamicListTypeIpAuthOutputReference extends cdktf.ComplexO
     }
   }
 
-  // password - computed: true, optional: false, required: true
+  // password - computed: false, optional: false, required: true
   private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
@@ -3452,7 +3464,7 @@ export class ExternalDynamicListTypeIpAuthOutputReference extends cdktf.ComplexO
     return this._password;
   }
 
-  // username - computed: true, optional: false, required: true
+  // username - computed: false, optional: false, required: true
   private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
@@ -3467,9 +3479,9 @@ export class ExternalDynamicListTypeIpAuthOutputReference extends cdktf.ComplexO
 }
 export interface ExternalDynamicListTypeIpRecurringDaily {
   /**
-  * Time specification hh (e.g. 20)
+  * Daily Time specification hh (e.g. 20) for IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
 }
@@ -3545,7 +3557,7 @@ export class ExternalDynamicListTypeIpRecurringDailyOutputReference extends cdkt
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -3678,15 +3690,15 @@ export class ExternalDynamicListTypeIpRecurringHourlyOutputReference extends cdk
 }
 export interface ExternalDynamicListTypeIpRecurringMonthly {
   /**
-  * Time specification hh (e.g. 20)
+  * Monthly Time specification hh (e.g. 20) for IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
   /**
-  * Day of month
+  * Day setting for monthly IP updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
   */
   readonly dayOfMonth: number;
 }
@@ -3775,7 +3787,7 @@ export class ExternalDynamicListTypeIpRecurringMonthlyOutputReference extends cd
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -3788,7 +3800,7 @@ export class ExternalDynamicListTypeIpRecurringMonthlyOutputReference extends cd
     return this._at;
   }
 
-  // day_of_month - computed: true, optional: false, required: true
+  // day_of_month - computed: false, optional: false, required: true
   private _dayOfMonth?: number; 
   public get dayOfMonth() {
     return this.getNumberAttribute('day_of_month');
@@ -3803,15 +3815,15 @@ export class ExternalDynamicListTypeIpRecurringMonthlyOutputReference extends cd
 }
 export interface ExternalDynamicListTypeIpRecurringWeekly {
   /**
-  * Time specification hh (e.g. 20)
+  * Weekly Time specification hh (e.g. 20) for IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
   /**
   * Day of week
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
   */
   readonly dayOfWeek: string;
 }
@@ -3900,7 +3912,7 @@ export class ExternalDynamicListTypeIpRecurringWeeklyOutputReference extends cdk
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -3913,7 +3925,7 @@ export class ExternalDynamicListTypeIpRecurringWeeklyOutputReference extends cdk
     return this._at;
   }
 
-  // day_of_week - computed: true, optional: false, required: true
+  // day_of_week - computed: false, optional: false, required: true
   private _dayOfWeek?: string; 
   public get dayOfWeek() {
     return this.getStringAttribute('day_of_week');
@@ -3928,48 +3940,43 @@ export class ExternalDynamicListTypeIpRecurringWeeklyOutputReference extends cdk
 }
 export interface ExternalDynamicListTypeIpRecurring {
   /**
-  * Daily
-  * 
+  * Daily settings for IP recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
   */
   readonly daily?: ExternalDynamicListTypeIpRecurringDaily;
   /**
-  * Five minute
-  * 
+  * Five minute settings for IP recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
   */
   readonly fiveMinute?: ExternalDynamicListTypeIpRecurringFiveMinute;
   /**
-  * Hourly
-  * 
+  * Hourly settings for IP recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
   */
   readonly hourly?: ExternalDynamicListTypeIpRecurringHourly;
   /**
-  * Monthly
-  * 
+  * Monthly settings for IP recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
   */
   readonly monthly?: ExternalDynamicListTypeIpRecurringMonthly;
   /**
-  * Weekly
-  * 
+  * Weekly settings for IP recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
   */
   readonly weekly?: ExternalDynamicListTypeIpRecurringWeekly;
 }
 
-export function externalDynamicListTypeIpRecurringToTerraform(struct?: ExternalDynamicListTypeIpRecurring): any {
+export function externalDynamicListTypeIpRecurringToTerraform(struct?: ExternalDynamicListTypeIpRecurring | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -3984,7 +3991,7 @@ export function externalDynamicListTypeIpRecurringToTerraform(struct?: ExternalD
 }
 
 
-export function externalDynamicListTypeIpRecurringToHclTerraform(struct?: ExternalDynamicListTypeIpRecurring): any {
+export function externalDynamicListTypeIpRecurringToHclTerraform(struct?: ExternalDynamicListTypeIpRecurring | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -4028,6 +4035,7 @@ export function externalDynamicListTypeIpRecurringToHclTerraform(struct?: Extern
 
 export class ExternalDynamicListTypeIpRecurringOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -4037,7 +4045,10 @@ export class ExternalDynamicListTypeIpRecurringOutputReference extends cdktf.Com
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): ExternalDynamicListTypeIpRecurring | undefined {
+  public get internalValue(): ExternalDynamicListTypeIpRecurring | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._daily?.internalValue !== undefined) {
@@ -4063,17 +4074,23 @@ export class ExternalDynamicListTypeIpRecurringOutputReference extends cdktf.Com
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ExternalDynamicListTypeIpRecurring | undefined) {
+  public set internalValue(value: ExternalDynamicListTypeIpRecurring | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
       this._daily.internalValue = undefined;
       this._fiveMinute.internalValue = undefined;
       this._hourly.internalValue = undefined;
       this._monthly.internalValue = undefined;
       this._weekly.internalValue = undefined;
     }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
       this._daily.internalValue = value.daily;
       this._fiveMinute.internalValue = value.fiveMinute;
       this._hourly.internalValue = value.hourly;
@@ -4082,7 +4099,7 @@ export class ExternalDynamicListTypeIpRecurringOutputReference extends cdktf.Com
     }
   }
 
-  // daily - computed: true, optional: true, required: false
+  // daily - computed: false, optional: true, required: false
   private _daily = new ExternalDynamicListTypeIpRecurringDailyOutputReference(this, "daily");
   public get daily() {
     return this._daily;
@@ -4098,7 +4115,7 @@ export class ExternalDynamicListTypeIpRecurringOutputReference extends cdktf.Com
     return this._daily.internalValue;
   }
 
-  // five_minute - computed: true, optional: true, required: false
+  // five_minute - computed: false, optional: true, required: false
   private _fiveMinute = new ExternalDynamicListTypeIpRecurringFiveMinuteOutputReference(this, "five_minute");
   public get fiveMinute() {
     return this._fiveMinute;
@@ -4114,7 +4131,7 @@ export class ExternalDynamicListTypeIpRecurringOutputReference extends cdktf.Com
     return this._fiveMinute.internalValue;
   }
 
-  // hourly - computed: true, optional: true, required: false
+  // hourly - computed: false, optional: true, required: false
   private _hourly = new ExternalDynamicListTypeIpRecurringHourlyOutputReference(this, "hourly");
   public get hourly() {
     return this._hourly;
@@ -4130,7 +4147,7 @@ export class ExternalDynamicListTypeIpRecurringOutputReference extends cdktf.Com
     return this._hourly.internalValue;
   }
 
-  // monthly - computed: true, optional: true, required: false
+  // monthly - computed: false, optional: true, required: false
   private _monthly = new ExternalDynamicListTypeIpRecurringMonthlyOutputReference(this, "monthly");
   public get monthly() {
     return this._monthly;
@@ -4146,7 +4163,7 @@ export class ExternalDynamicListTypeIpRecurringOutputReference extends cdktf.Com
     return this._monthly.internalValue;
   }
 
-  // weekly - computed: true, optional: true, required: false
+  // weekly - computed: false, optional: true, required: false
   private _weekly = new ExternalDynamicListTypeIpRecurringWeeklyOutputReference(this, "weekly");
   public get weekly() {
     return this._weekly;
@@ -4164,39 +4181,39 @@ export class ExternalDynamicListTypeIpRecurringOutputReference extends cdktf.Com
 }
 export interface ExternalDynamicListTypeIp {
   /**
-  * Auth
+  * Authentication settings for Custom IP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
   */
   readonly auth?: ExternalDynamicListTypeIpAuth;
   /**
   * Profile for authenticating client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
   */
   readonly description?: string;
   /**
-  * Exception list
+  * IP Exception List for Custom IP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
   */
   readonly exceptionList?: string[];
   /**
-  * Recurring
+  * Update Schedule for Custom IP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
   */
   readonly recurring: ExternalDynamicListTypeIpRecurring;
   /**
-  * Url
+  * External URL for Custom IP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url: string;
 }
@@ -4337,7 +4354,7 @@ export class ExternalDynamicListTypeIpOutputReference extends cdktf.ComplexObjec
     }
   }
 
-  // auth - computed: true, optional: true, required: false
+  // auth - computed: false, optional: true, required: false
   private _auth = new ExternalDynamicListTypeIpAuthOutputReference(this, "auth");
   public get auth() {
     return this._auth;
@@ -4369,7 +4386,7 @@ export class ExternalDynamicListTypeIpOutputReference extends cdktf.ComplexObjec
     return this._certificateProfile;
   }
 
-  // description - computed: true, optional: true, required: false
+  // description - computed: false, optional: true, required: false
   private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
@@ -4385,7 +4402,7 @@ export class ExternalDynamicListTypeIpOutputReference extends cdktf.ComplexObjec
     return this._description;
   }
 
-  // exception_list - computed: true, optional: true, required: false
+  // exception_list - computed: false, optional: true, required: false
   private _exceptionList?: string[]; 
   public get exceptionList() {
     return this.getListAttribute('exception_list');
@@ -4401,7 +4418,7 @@ export class ExternalDynamicListTypeIpOutputReference extends cdktf.ComplexObjec
     return this._exceptionList;
   }
 
-  // recurring - computed: true, optional: false, required: true
+  // recurring - computed: false, optional: false, required: true
   private _recurring = new ExternalDynamicListTypeIpRecurringOutputReference(this, "recurring");
   public get recurring() {
     return this._recurring;
@@ -4414,7 +4431,7 @@ export class ExternalDynamicListTypeIpOutputReference extends cdktf.ComplexObjec
     return this._recurring.internalValue;
   }
 
-  // url - computed: true, optional: false, required: true
+  // url - computed: false, optional: false, required: true
   private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
@@ -4431,19 +4448,19 @@ export interface ExternalDynamicListTypePredefinedIp {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
   */
   readonly description?: string;
   /**
-  * Exception list
+  * IP Exception List for Predefined IP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
   */
   readonly exceptionList?: string[];
   /**
-  * Url
+  * URL source for Predefined IP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url: string;
 }
@@ -4545,7 +4562,7 @@ export class ExternalDynamicListTypePredefinedIpOutputReference extends cdktf.Co
     }
   }
 
-  // description - computed: true, optional: true, required: false
+  // description - computed: false, optional: true, required: false
   private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
@@ -4561,7 +4578,7 @@ export class ExternalDynamicListTypePredefinedIpOutputReference extends cdktf.Co
     return this._description;
   }
 
-  // exception_list - computed: true, optional: true, required: false
+  // exception_list - computed: false, optional: true, required: false
   private _exceptionList?: string[]; 
   public get exceptionList() {
     return this.getListAttribute('exception_list');
@@ -4577,7 +4594,7 @@ export class ExternalDynamicListTypePredefinedIpOutputReference extends cdktf.Co
     return this._exceptionList;
   }
 
-  // url - computed: true, optional: false, required: true
+  // url - computed: false, optional: false, required: true
   private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
@@ -4594,19 +4611,19 @@ export interface ExternalDynamicListTypePredefinedUrl {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
   */
   readonly description?: string;
   /**
-  * Exception list
+  * URL Exception List for Predefined URL type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
   */
   readonly exceptionList?: string[];
   /**
-  * Url
+  * URL source for Predefined URL type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url: string;
 }
@@ -4708,7 +4725,7 @@ export class ExternalDynamicListTypePredefinedUrlOutputReference extends cdktf.C
     }
   }
 
-  // description - computed: true, optional: true, required: false
+  // description - computed: false, optional: true, required: false
   private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
@@ -4724,7 +4741,7 @@ export class ExternalDynamicListTypePredefinedUrlOutputReference extends cdktf.C
     return this._description;
   }
 
-  // exception_list - computed: true, optional: true, required: false
+  // exception_list - computed: false, optional: true, required: false
   private _exceptionList?: string[]; 
   public get exceptionList() {
     return this.getListAttribute('exception_list');
@@ -4740,7 +4757,7 @@ export class ExternalDynamicListTypePredefinedUrlOutputReference extends cdktf.C
     return this._exceptionList;
   }
 
-  // url - computed: true, optional: false, required: true
+  // url - computed: false, optional: false, required: true
   private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
@@ -4755,15 +4772,15 @@ export class ExternalDynamicListTypePredefinedUrlOutputReference extends cdktf.C
 }
 export interface ExternalDynamicListTypeUrlAuth {
   /**
-  * Password
+  * Password for Custom URL authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#password ExternalDynamicList#password}
   */
   readonly password: string;
   /**
-  * Username
+  * Username for Custom URL authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#username ExternalDynamicList#username}
   */
   readonly username: string;
 }
@@ -4852,7 +4869,7 @@ export class ExternalDynamicListTypeUrlAuthOutputReference extends cdktf.Complex
     }
   }
 
-  // password - computed: true, optional: false, required: true
+  // password - computed: false, optional: false, required: true
   private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
@@ -4865,7 +4882,7 @@ export class ExternalDynamicListTypeUrlAuthOutputReference extends cdktf.Complex
     return this._password;
   }
 
-  // username - computed: true, optional: false, required: true
+  // username - computed: false, optional: false, required: true
   private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
@@ -4880,9 +4897,9 @@ export class ExternalDynamicListTypeUrlAuthOutputReference extends cdktf.Complex
 }
 export interface ExternalDynamicListTypeUrlRecurringDaily {
   /**
-  * Time specification hh (e.g. 20)
+  * Daily Time specification hh (e.g. 20) for URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
 }
@@ -4958,7 +4975,7 @@ export class ExternalDynamicListTypeUrlRecurringDailyOutputReference extends cdk
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -5091,15 +5108,15 @@ export class ExternalDynamicListTypeUrlRecurringHourlyOutputReference extends cd
 }
 export interface ExternalDynamicListTypeUrlRecurringMonthly {
   /**
-  * Time specification hh (e.g. 20)
+  * Monthly Time specification hh (e.g. 20) for URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
   /**
-  * Day of month
+  * Day setting for monthly URL updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#day_of_month ExternalDynamicList#day_of_month}
   */
   readonly dayOfMonth: number;
 }
@@ -5188,7 +5205,7 @@ export class ExternalDynamicListTypeUrlRecurringMonthlyOutputReference extends c
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -5201,7 +5218,7 @@ export class ExternalDynamicListTypeUrlRecurringMonthlyOutputReference extends c
     return this._at;
   }
 
-  // day_of_month - computed: true, optional: false, required: true
+  // day_of_month - computed: false, optional: false, required: true
   private _dayOfMonth?: number; 
   public get dayOfMonth() {
     return this.getNumberAttribute('day_of_month');
@@ -5216,15 +5233,15 @@ export class ExternalDynamicListTypeUrlRecurringMonthlyOutputReference extends c
 }
 export interface ExternalDynamicListTypeUrlRecurringWeekly {
   /**
-  * Time specification hh (e.g. 20)
+  * Weekly Time specification hh (e.g. 20) for URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#at ExternalDynamicList#at}
   */
   readonly at: string;
   /**
   * Day of week
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#day_of_week ExternalDynamicList#day_of_week}
   */
   readonly dayOfWeek: string;
 }
@@ -5313,7 +5330,7 @@ export class ExternalDynamicListTypeUrlRecurringWeeklyOutputReference extends cd
     }
   }
 
-  // at - computed: true, optional: false, required: true
+  // at - computed: false, optional: false, required: true
   private _at?: string; 
   public get at() {
     return this.getStringAttribute('at');
@@ -5326,7 +5343,7 @@ export class ExternalDynamicListTypeUrlRecurringWeeklyOutputReference extends cd
     return this._at;
   }
 
-  // day_of_week - computed: true, optional: false, required: true
+  // day_of_week - computed: false, optional: false, required: true
   private _dayOfWeek?: string; 
   public get dayOfWeek() {
     return this.getStringAttribute('day_of_week');
@@ -5341,48 +5358,43 @@ export class ExternalDynamicListTypeUrlRecurringWeeklyOutputReference extends cd
 }
 export interface ExternalDynamicListTypeUrlRecurring {
   /**
-  * Daily
-  * 
+  * Daily settings for URL recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#daily ExternalDynamicList#daily}
   */
   readonly daily?: ExternalDynamicListTypeUrlRecurringDaily;
   /**
-  * Five minute
-  * 
+  * Five minute settings for URL recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#five_minute ExternalDynamicList#five_minute}
   */
   readonly fiveMinute?: ExternalDynamicListTypeUrlRecurringFiveMinute;
   /**
-  * Hourly
-  * 
+  * Hourly settings for URL recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#hourly ExternalDynamicList#hourly}
   */
   readonly hourly?: ExternalDynamicListTypeUrlRecurringHourly;
   /**
-  * Monthly
-  * 
+  * Monthly settings for URL recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#monthly ExternalDynamicList#monthly}
   */
   readonly monthly?: ExternalDynamicListTypeUrlRecurringMonthly;
   /**
-  * Weekly
-  * 
+  * Weekly settings for URL recurring
   * > ℹ️ **Note:** You must specify exactly one of `daily`, `five_minute`, `hourly`, `monthly`, and `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#weekly ExternalDynamicList#weekly}
   */
   readonly weekly?: ExternalDynamicListTypeUrlRecurringWeekly;
 }
 
-export function externalDynamicListTypeUrlRecurringToTerraform(struct?: ExternalDynamicListTypeUrlRecurring): any {
+export function externalDynamicListTypeUrlRecurringToTerraform(struct?: ExternalDynamicListTypeUrlRecurring | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -5397,7 +5409,7 @@ export function externalDynamicListTypeUrlRecurringToTerraform(struct?: External
 }
 
 
-export function externalDynamicListTypeUrlRecurringToHclTerraform(struct?: ExternalDynamicListTypeUrlRecurring): any {
+export function externalDynamicListTypeUrlRecurringToHclTerraform(struct?: ExternalDynamicListTypeUrlRecurring | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -5441,6 +5453,7 @@ export function externalDynamicListTypeUrlRecurringToHclTerraform(struct?: Exter
 
 export class ExternalDynamicListTypeUrlRecurringOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -5450,7 +5463,10 @@ export class ExternalDynamicListTypeUrlRecurringOutputReference extends cdktf.Co
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): ExternalDynamicListTypeUrlRecurring | undefined {
+  public get internalValue(): ExternalDynamicListTypeUrlRecurring | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._daily?.internalValue !== undefined) {
@@ -5476,17 +5492,23 @@ export class ExternalDynamicListTypeUrlRecurringOutputReference extends cdktf.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ExternalDynamicListTypeUrlRecurring | undefined) {
+  public set internalValue(value: ExternalDynamicListTypeUrlRecurring | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
       this._daily.internalValue = undefined;
       this._fiveMinute.internalValue = undefined;
       this._hourly.internalValue = undefined;
       this._monthly.internalValue = undefined;
       this._weekly.internalValue = undefined;
     }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
       this._daily.internalValue = value.daily;
       this._fiveMinute.internalValue = value.fiveMinute;
       this._hourly.internalValue = value.hourly;
@@ -5495,7 +5517,7 @@ export class ExternalDynamicListTypeUrlRecurringOutputReference extends cdktf.Co
     }
   }
 
-  // daily - computed: true, optional: true, required: false
+  // daily - computed: false, optional: true, required: false
   private _daily = new ExternalDynamicListTypeUrlRecurringDailyOutputReference(this, "daily");
   public get daily() {
     return this._daily;
@@ -5511,7 +5533,7 @@ export class ExternalDynamicListTypeUrlRecurringOutputReference extends cdktf.Co
     return this._daily.internalValue;
   }
 
-  // five_minute - computed: true, optional: true, required: false
+  // five_minute - computed: false, optional: true, required: false
   private _fiveMinute = new ExternalDynamicListTypeUrlRecurringFiveMinuteOutputReference(this, "five_minute");
   public get fiveMinute() {
     return this._fiveMinute;
@@ -5527,7 +5549,7 @@ export class ExternalDynamicListTypeUrlRecurringOutputReference extends cdktf.Co
     return this._fiveMinute.internalValue;
   }
 
-  // hourly - computed: true, optional: true, required: false
+  // hourly - computed: false, optional: true, required: false
   private _hourly = new ExternalDynamicListTypeUrlRecurringHourlyOutputReference(this, "hourly");
   public get hourly() {
     return this._hourly;
@@ -5543,7 +5565,7 @@ export class ExternalDynamicListTypeUrlRecurringOutputReference extends cdktf.Co
     return this._hourly.internalValue;
   }
 
-  // monthly - computed: true, optional: true, required: false
+  // monthly - computed: false, optional: true, required: false
   private _monthly = new ExternalDynamicListTypeUrlRecurringMonthlyOutputReference(this, "monthly");
   public get monthly() {
     return this._monthly;
@@ -5559,7 +5581,7 @@ export class ExternalDynamicListTypeUrlRecurringOutputReference extends cdktf.Co
     return this._monthly.internalValue;
   }
 
-  // weekly - computed: true, optional: true, required: false
+  // weekly - computed: false, optional: true, required: false
   private _weekly = new ExternalDynamicListTypeUrlRecurringWeeklyOutputReference(this, "weekly");
   public get weekly() {
     return this._weekly;
@@ -5577,39 +5599,39 @@ export class ExternalDynamicListTypeUrlRecurringOutputReference extends cdktf.Co
 }
 export interface ExternalDynamicListTypeUrl {
   /**
-  * Auth
+  * Authentication settings for Custom URL type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#auth ExternalDynamicList#auth}
   */
   readonly auth?: ExternalDynamicListTypeUrlAuth;
   /**
   * Profile for authenticating client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#certificate_profile ExternalDynamicList#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#description ExternalDynamicList#description}
   */
   readonly description?: string;
   /**
-  * Exception list
+  * URL Exception List for Custom URL type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#exception_list ExternalDynamicList#exception_list}
   */
   readonly exceptionList?: string[];
   /**
-  * Recurring
+  * Update Schedule for Custom URL type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#recurring ExternalDynamicList#recurring}
   */
   readonly recurring: ExternalDynamicListTypeUrlRecurring;
   /**
-  * Url
+  * External URL for Custom URL type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url: string;
 }
@@ -5750,7 +5772,7 @@ export class ExternalDynamicListTypeUrlOutputReference extends cdktf.ComplexObje
     }
   }
 
-  // auth - computed: true, optional: true, required: false
+  // auth - computed: false, optional: true, required: false
   private _auth = new ExternalDynamicListTypeUrlAuthOutputReference(this, "auth");
   public get auth() {
     return this._auth;
@@ -5782,7 +5804,7 @@ export class ExternalDynamicListTypeUrlOutputReference extends cdktf.ComplexObje
     return this._certificateProfile;
   }
 
-  // description - computed: true, optional: true, required: false
+  // description - computed: false, optional: true, required: false
   private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
@@ -5798,7 +5820,7 @@ export class ExternalDynamicListTypeUrlOutputReference extends cdktf.ComplexObje
     return this._description;
   }
 
-  // exception_list - computed: true, optional: true, required: false
+  // exception_list - computed: false, optional: true, required: false
   private _exceptionList?: string[]; 
   public get exceptionList() {
     return this.getListAttribute('exception_list');
@@ -5814,7 +5836,7 @@ export class ExternalDynamicListTypeUrlOutputReference extends cdktf.ComplexObje
     return this._exceptionList;
   }
 
-  // recurring - computed: true, optional: false, required: true
+  // recurring - computed: false, optional: false, required: true
   private _recurring = new ExternalDynamicListTypeUrlRecurringOutputReference(this, "recurring");
   public get recurring() {
     return this._recurring;
@@ -5827,7 +5849,7 @@ export class ExternalDynamicListTypeUrlOutputReference extends cdktf.ComplexObje
     return this._recurring.internalValue;
   }
 
-  // url - computed: true, optional: false, required: true
+  // url - computed: false, optional: false, required: true
   private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
@@ -5842,59 +5864,52 @@ export class ExternalDynamicListTypeUrlOutputReference extends cdktf.ComplexObje
 }
 export interface ExternalDynamicListType {
   /**
-  * Domain
-  * 
+  * Domain settings for Custom Domain type
   * > ℹ️ **Note:** You must specify exactly one of `domain`, `imei`, `imsi`, `ip`, `predefined_ip`, `predefined_url`, and `url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#domain ExternalDynamicList#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#domain ExternalDynamicList#domain}
   */
   readonly domain?: ExternalDynamicListTypeDomain;
   /**
-  * Imei
-  * 
+  * IMEI Configuration settings
   * > ℹ️ **Note:** You must specify exactly one of `domain`, `imei`, `imsi`, `ip`, `predefined_ip`, `predefined_url`, and `url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#imei ExternalDynamicList#imei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#imei ExternalDynamicList#imei}
   */
   readonly imei?: ExternalDynamicListTypeImei;
   /**
-  * Imsi
-  * 
+  * IMSI Config for Custom IMSI type
   * > ℹ️ **Note:** You must specify exactly one of `domain`, `imei`, `imsi`, `ip`, `predefined_ip`, `predefined_url`, and `url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#imsi ExternalDynamicList#imsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#imsi ExternalDynamicList#imsi}
   */
   readonly imsi?: ExternalDynamicListTypeImsi;
   /**
-  * Ip
-  * 
+  * IP settings for Custom IP type
   * > ℹ️ **Note:** You must specify exactly one of `domain`, `imei`, `imsi`, `ip`, `predefined_ip`, `predefined_url`, and `url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#ip ExternalDynamicList#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#ip ExternalDynamicList#ip}
   */
   readonly ip?: ExternalDynamicListTypeIp;
   /**
-  * Predefined ip
-  * 
+  * Predefined IP settings for EDL type
   * > ℹ️ **Note:** You must specify exactly one of `domain`, `imei`, `imsi`, `ip`, `predefined_ip`, `predefined_url`, and `url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#predefined_ip ExternalDynamicList#predefined_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#predefined_ip ExternalDynamicList#predefined_ip}
   */
   readonly predefinedIp?: ExternalDynamicListTypePredefinedIp;
   /**
-  * Predefined url
-  * 
+  * Predefined URL settings for EDL type
   * > ℹ️ **Note:** You must specify exactly one of `domain`, `imei`, `imsi`, `ip`, `predefined_ip`, `predefined_url`, and `url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#predefined_url ExternalDynamicList#predefined_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#predefined_url ExternalDynamicList#predefined_url}
   */
   readonly predefinedUrl?: ExternalDynamicListTypePredefinedUrl;
   /**
-  * Url
-  * 
+  * URL settings for Custom URL type
   * > ℹ️ **Note:** You must specify exactly one of `domain`, `imei`, `imsi`, `ip`, `predefined_ip`, `predefined_url`, and `url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#url ExternalDynamicList#url}
   */
   readonly url?: ExternalDynamicListTypeUrl;
 }
@@ -6048,7 +6063,7 @@ export class ExternalDynamicListTypeOutputReference extends cdktf.ComplexObject 
     }
   }
 
-  // domain - computed: true, optional: true, required: false
+  // domain - computed: false, optional: true, required: false
   private _domain = new ExternalDynamicListTypeDomainOutputReference(this, "domain");
   public get domain() {
     return this._domain;
@@ -6064,7 +6079,7 @@ export class ExternalDynamicListTypeOutputReference extends cdktf.ComplexObject 
     return this._domain.internalValue;
   }
 
-  // imei - computed: true, optional: true, required: false
+  // imei - computed: false, optional: true, required: false
   private _imei = new ExternalDynamicListTypeImeiOutputReference(this, "imei");
   public get imei() {
     return this._imei;
@@ -6080,7 +6095,7 @@ export class ExternalDynamicListTypeOutputReference extends cdktf.ComplexObject 
     return this._imei.internalValue;
   }
 
-  // imsi - computed: true, optional: true, required: false
+  // imsi - computed: false, optional: true, required: false
   private _imsi = new ExternalDynamicListTypeImsiOutputReference(this, "imsi");
   public get imsi() {
     return this._imsi;
@@ -6096,7 +6111,7 @@ export class ExternalDynamicListTypeOutputReference extends cdktf.ComplexObject 
     return this._imsi.internalValue;
   }
 
-  // ip - computed: true, optional: true, required: false
+  // ip - computed: false, optional: true, required: false
   private _ip = new ExternalDynamicListTypeIpOutputReference(this, "ip");
   public get ip() {
     return this._ip;
@@ -6112,7 +6127,7 @@ export class ExternalDynamicListTypeOutputReference extends cdktf.ComplexObject 
     return this._ip.internalValue;
   }
 
-  // predefined_ip - computed: true, optional: true, required: false
+  // predefined_ip - computed: false, optional: true, required: false
   private _predefinedIp = new ExternalDynamicListTypePredefinedIpOutputReference(this, "predefined_ip");
   public get predefinedIp() {
     return this._predefinedIp;
@@ -6128,7 +6143,7 @@ export class ExternalDynamicListTypeOutputReference extends cdktf.ComplexObject 
     return this._predefinedIp.internalValue;
   }
 
-  // predefined_url - computed: true, optional: true, required: false
+  // predefined_url - computed: false, optional: true, required: false
   private _predefinedUrl = new ExternalDynamicListTypePredefinedUrlOutputReference(this, "predefined_url");
   public get predefinedUrl() {
     return this._predefinedUrl;
@@ -6144,7 +6159,7 @@ export class ExternalDynamicListTypeOutputReference extends cdktf.ComplexObject 
     return this._predefinedUrl.internalValue;
   }
 
-  // url - computed: true, optional: true, required: false
+  // url - computed: false, optional: true, required: false
   private _url = new ExternalDynamicListTypeUrlOutputReference(this, "url");
   public get url() {
     return this._url;
@@ -6162,7 +6177,7 @@ export class ExternalDynamicListTypeOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list scm_external_dynamic_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list scm_external_dynamic_list}
 */
 export class ExternalDynamicList extends cdktf.TerraformResource {
 
@@ -6178,7 +6193,7 @@ export class ExternalDynamicList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExternalDynamicList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExternalDynamicList to import
-  * @param importFromId The id of the existing ExternalDynamicList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExternalDynamicList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExternalDynamicList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6190,7 +6205,7 @@ export class ExternalDynamicList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/external_dynamic_list scm_external_dynamic_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/external_dynamic_list scm_external_dynamic_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6201,8 +6216,8 @@ export class ExternalDynamicList extends cdktf.TerraformResource {
       terraformResourceType: 'scm_external_dynamic_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -6300,7 +6315,7 @@ export class ExternalDynamicList extends cdktf.TerraformResource {
     return this.getStringAttribute('tfid');
   }
 
-  // type - computed: true, optional: true, required: false
+  // type - computed: false, optional: true, required: false
   private _type = new ExternalDynamicListTypeOutputReference(this, "type");
   public get type() {
     return this._type;

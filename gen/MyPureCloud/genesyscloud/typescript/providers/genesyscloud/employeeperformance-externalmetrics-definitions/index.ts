@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/employeeperformance_externalmetrics_definitions
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/employeeperformance_externalmetrics_definitions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EmployeeperformanceExternalmetricsDefinitionsConfig extends cdk
   /**
   * The default objective type of the External Metric Definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/employeeperformance_externalmetrics_definitions#default_objective_type EmployeeperformanceExternalmetricsDefinitions#default_objective_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/employeeperformance_externalmetrics_definitions#default_objective_type EmployeeperformanceExternalmetricsDefinitions#default_objective_type}
   */
   readonly defaultObjectiveType: string;
   /**
   * True if the External Metric Definition is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/employeeperformance_externalmetrics_definitions#enabled EmployeeperformanceExternalmetricsDefinitions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/employeeperformance_externalmetrics_definitions#enabled EmployeeperformanceExternalmetricsDefinitions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/employeeperformance_externalmetrics_definitions#id EmployeeperformanceExternalmetricsDefinitions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/employeeperformance_externalmetrics_definitions#id EmployeeperformanceExternalmetricsDefinitions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface EmployeeperformanceExternalmetricsDefinitionsConfig extends cdk
   /**
   * The name of the External Metric Definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/employeeperformance_externalmetrics_definitions#name EmployeeperformanceExternalmetricsDefinitions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/employeeperformance_externalmetrics_definitions#name EmployeeperformanceExternalmetricsDefinitions#name}
   */
   readonly name: string;
   /**
   * The decimal precision of the External Metric Definition. Must be at least 0 and at most 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/employeeperformance_externalmetrics_definitions#precision EmployeeperformanceExternalmetricsDefinitions#precision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/employeeperformance_externalmetrics_definitions#precision EmployeeperformanceExternalmetricsDefinitions#precision}
   */
   readonly precision: number;
   /**
   * The unit of the External Metric Definition. Note: Changing the unit property will cause the external metric object to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/employeeperformance_externalmetrics_definitions#unit EmployeeperformanceExternalmetricsDefinitions#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/employeeperformance_externalmetrics_definitions#unit EmployeeperformanceExternalmetricsDefinitions#unit}
   */
   readonly unit: string;
   /**
   * The unit definition of the External Metric Definition. Note: Changing the unit definition property will cause the external metric object to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/employeeperformance_externalmetrics_definitions#unit_definition EmployeeperformanceExternalmetricsDefinitions#unit_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/employeeperformance_externalmetrics_definitions#unit_definition EmployeeperformanceExternalmetricsDefinitions#unit_definition}
   */
   readonly unitDefinition?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/employeeperformance_externalmetrics_definitions genesyscloud_employeeperformance_externalmetrics_definitions}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/employeeperformance_externalmetrics_definitions genesyscloud_employeeperformance_externalmetrics_definitions}
 */
 export class EmployeeperformanceExternalmetricsDefinitions extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class EmployeeperformanceExternalmetricsDefinitions extends cdktf.Terrafo
   * Generates CDKTF code for importing a EmployeeperformanceExternalmetricsDefinitions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmployeeperformanceExternalmetricsDefinitions to import
-  * @param importFromId The id of the existing EmployeeperformanceExternalmetricsDefinitions that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/employeeperformance_externalmetrics_definitions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmployeeperformanceExternalmetricsDefinitions that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/employeeperformance_externalmetrics_definitions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmployeeperformanceExternalmetricsDefinitions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class EmployeeperformanceExternalmetricsDefinitions extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/employeeperformance_externalmetrics_definitions genesyscloud_employeeperformance_externalmetrics_definitions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/employeeperformance_externalmetrics_definitions genesyscloud_employeeperformance_externalmetrics_definitions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class EmployeeperformanceExternalmetricsDefinitions extends cdktf.Terrafo
       terraformResourceType: 'genesyscloud_employeeperformance_externalmetrics_definitions',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

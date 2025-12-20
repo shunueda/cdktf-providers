@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/affinity_group
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/affinity_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataStackitAffinityGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * The affinity group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/affinity_group#affinity_group_id DataStackitAffinityGroup#affinity_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/affinity_group#affinity_group_id DataStackitAffinityGroup#affinity_group_id}
   */
   readonly affinityGroupId: string;
   /**
   * STACKIT Project ID to which the affinity group is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/affinity_group#project_id DataStackitAffinityGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/affinity_group#project_id DataStackitAffinityGroup#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/affinity_group#region DataStackitAffinityGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/affinity_group#region DataStackitAffinityGroup#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/affinity_group stackit_affinity_group}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/affinity_group stackit_affinity_group}
 */
 export class DataStackitAffinityGroup extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataStackitAffinityGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitAffinityGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitAffinityGroup to import
-  * @param importFromId The id of the existing DataStackitAffinityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/affinity_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitAffinityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/affinity_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitAffinityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataStackitAffinityGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/affinity_group stackit_affinity_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/affinity_group stackit_affinity_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataStackitAffinityGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_affinity_group',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.75.0',
-        providerVersionConstraint: '0.75.0'
+        providerVersion: '0.76.0',
+        providerVersionConstraint: '0.76.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/address
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,81 +10,74 @@ export interface AddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the address object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/address#description Address#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/address#description Address#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/address#device Address#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/address#device Address#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/address#folder Address#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/address#folder Address#folder}
   */
   readonly folder?: string;
   /**
   * Fully qualified domain name
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `fqdn`, `ip_netmask`, `ip_range`, and `ip_wildcard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/address#fqdn Address#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/address#fqdn Address#fqdn}
   */
   readonly fqdn?: string;
   /**
   * IP address with or without CIDR notation
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `fqdn`, `ip_netmask`, `ip_range`, and `ip_wildcard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/address#ip_netmask Address#ip_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/address#ip_netmask Address#ip_netmask}
   */
   readonly ipNetmask?: string;
   /**
   * Ip range
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `fqdn`, `ip_netmask`, `ip_range`, and `ip_wildcard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/address#ip_range Address#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/address#ip_range Address#ip_range}
   */
   readonly ipRange?: string;
   /**
   * IP wildcard mask
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `fqdn`, `ip_netmask`, `ip_range`, and `ip_wildcard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/address#ip_wildcard Address#ip_wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/address#ip_wildcard Address#ip_wildcard}
   */
   readonly ipWildcard?: string;
   /**
   * The name of the address object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/address#name Address#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/address#name Address#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/address#snippet Address#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/address#snippet Address#snippet}
   */
   readonly snippet?: string;
   /**
   * Tags assocaited with the address object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/address#tag Address#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/address#tag Address#tag}
   */
   readonly tag?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/address scm_address}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/address scm_address}
 */
 export class Address extends cdktf.TerraformResource {
 
@@ -100,7 +93,7 @@ export class Address extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Address resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Address to import
-  * @param importFromId The id of the existing Address that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Address that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Address to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -112,7 +105,7 @@ export class Address extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/address scm_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/address scm_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -123,8 +116,8 @@ export class Address extends cdktf.TerraformResource {
       terraformResourceType: 'scm_address',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

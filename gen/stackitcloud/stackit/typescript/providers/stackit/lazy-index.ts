@@ -64,6 +64,9 @@ Object.defineProperty(exports, 'serverVolumeAttach', { get: function () { return
 Object.defineProperty(exports, 'serviceAccount', { get: function () { return require('./service-account'); } });
 Object.defineProperty(exports, 'serviceAccountAccessToken', { get: function () { return require('./service-account-access-token'); } });
 Object.defineProperty(exports, 'serviceAccountKey', { get: function () { return require('./service-account-key'); } });
+Object.defineProperty(exports, 'sfsExportPolicy', { get: function () { return require('./sfs-export-policy'); } });
+Object.defineProperty(exports, 'sfsResourcePool', { get: function () { return require('./sfs-resource-pool'); } });
+Object.defineProperty(exports, 'sfsShare', { get: function () { return require('./sfs-share'); } });
 Object.defineProperty(exports, 'skeCluster', { get: function () { return require('./ske-cluster'); } });
 Object.defineProperty(exports, 'skeKubeconfig', { get: function () { return require('./ske-kubeconfig'); } });
 Object.defineProperty(exports, 'sqlserverflexInstance', { get: function () { return require('./sqlserverflex-instance'); } });
@@ -132,6 +135,10 @@ Object.defineProperty(exports, 'dataStackitServerBackupSchedules', { get: functi
 Object.defineProperty(exports, 'dataStackitServerUpdateSchedule', { get: function () { return require('./data-stackit-server-update-schedule'); } });
 Object.defineProperty(exports, 'dataStackitServerUpdateSchedules', { get: function () { return require('./data-stackit-server-update-schedules'); } });
 Object.defineProperty(exports, 'dataStackitServiceAccount', { get: function () { return require('./data-stackit-service-account'); } });
+Object.defineProperty(exports, 'dataStackitSfsExportPolicy', { get: function () { return require('./data-stackit-sfs-export-policy'); } });
+Object.defineProperty(exports, 'dataStackitSfsResourcePool', { get: function () { return require('./data-stackit-sfs-resource-pool'); } });
+Object.defineProperty(exports, 'dataStackitSfsResourcePoolSnapshot', { get: function () { return require('./data-stackit-sfs-resource-pool-snapshot'); } });
+Object.defineProperty(exports, 'dataStackitSfsShare', { get: function () { return require('./data-stackit-sfs-share'); } });
 Object.defineProperty(exports, 'dataStackitSkeCluster', { get: function () { return require('./data-stackit-ske-cluster'); } });
 Object.defineProperty(exports, 'dataStackitSqlserverflexInstance', { get: function () { return require('./data-stackit-sqlserverflex-instance'); } });
 Object.defineProperty(exports, 'dataStackitSqlserverflexUser', { get: function () { return require('./data-stackit-sqlserverflex-user'); } });

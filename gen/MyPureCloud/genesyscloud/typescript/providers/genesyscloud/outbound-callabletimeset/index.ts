@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_callabletimeset
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_callabletimeset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OutboundCallabletimesetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_callabletimeset#id OutboundCallabletimeset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_callabletimeset#id OutboundCallabletimeset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface OutboundCallabletimesetConfig extends cdktf.TerraformMetaArgume
   /**
   * The name of the CallableTimeSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_callabletimeset#name OutboundCallabletimeset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_callabletimeset#name OutboundCallabletimeset#name}
   */
   readonly name: string;
   /**
   * callable_times block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_callabletimeset#callable_times OutboundCallabletimeset#callable_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_callabletimeset#callable_times OutboundCallabletimeset#callable_times}
   */
   readonly callableTimes?: OutboundCallabletimesetCallableTimes[] | cdktf.IResolvable;
 }
@@ -31,19 +31,19 @@ export interface OutboundCallabletimesetCallableTimesTimeSlots {
   /**
   * The day of the interval. Valid values: [1-7], representing Monday through Sunday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_callabletimeset#day OutboundCallabletimeset#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_callabletimeset#day OutboundCallabletimeset#day}
   */
   readonly day: number;
   /**
   * The start time of the interval as an ISO-8601 string, i.e. HH:mm:ss
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_callabletimeset#start_time OutboundCallabletimeset#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_callabletimeset#start_time OutboundCallabletimeset#start_time}
   */
   readonly startTime: string;
   /**
   * The end time of the interval as an ISO-8601 string, i.e. HH:mm:ss
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_callabletimeset#stop_time OutboundCallabletimeset#stop_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_callabletimeset#stop_time OutboundCallabletimeset#stop_time}
   */
   readonly stopTime: string;
 }
@@ -210,13 +210,13 @@ export interface OutboundCallabletimesetCallableTimes {
   /**
   * The time zone for the time slots; for example, Africa/Abidjan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_callabletimeset#time_zone_id OutboundCallabletimeset#time_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_callabletimeset#time_zone_id OutboundCallabletimeset#time_zone_id}
   */
   readonly timeZoneId: string;
   /**
   * time_slots block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_callabletimeset#time_slots OutboundCallabletimeset#time_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_callabletimeset#time_slots OutboundCallabletimeset#time_slots}
   */
   readonly timeSlots: OutboundCallabletimesetCallableTimesTimeSlots[] | cdktf.IResolvable;
 }
@@ -355,7 +355,7 @@ export class OutboundCallabletimesetCallableTimesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_callabletimeset genesyscloud_outbound_callabletimeset}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_callabletimeset genesyscloud_outbound_callabletimeset}
 */
 export class OutboundCallabletimeset extends cdktf.TerraformResource {
 
@@ -371,7 +371,7 @@ export class OutboundCallabletimeset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundCallabletimeset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundCallabletimeset to import
-  * @param importFromId The id of the existing OutboundCallabletimeset that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_callabletimeset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundCallabletimeset that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_callabletimeset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundCallabletimeset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -383,7 +383,7 @@ export class OutboundCallabletimeset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/outbound_callabletimeset genesyscloud_outbound_callabletimeset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/outbound_callabletimeset genesyscloud_outbound_callabletimeset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -394,8 +394,8 @@ export class OutboundCallabletimeset extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_callabletimeset',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IdpGsuiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * PEM or DER encoded public X.509 certificates for SAML signature validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite#certificates IdpGsuite#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite#certificates IdpGsuite#certificates}
   */
   readonly certificates: string[];
   /**
   * True if GSuite is disabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite#disabled IdpGsuite#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite#disabled IdpGsuite#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite#id IdpGsuite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite#id IdpGsuite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,59 +29,59 @@ export interface IdpGsuiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Issuer URI provided by GSuite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite#issuer_uri IdpGsuite#issuer_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite#issuer_uri IdpGsuite#issuer_uri}
   */
   readonly issuerUri: string;
   /**
   * Name of the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite#name IdpGsuite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite#name IdpGsuite#name}
   */
   readonly name?: string;
   /**
   * String used to identify Genesys Cloud to GSuite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite#relying_party_identifier IdpGsuite#relying_party_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite#relying_party_identifier IdpGsuite#relying_party_identifier}
   */
   readonly relyingPartyIdentifier?: string;
   /**
   * True if the Genesys Cloud authentication request should be signed. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite#sign_authn_requests IdpGsuite#sign_authn_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite#sign_authn_requests IdpGsuite#sign_authn_requests}
   */
   readonly signAuthnRequests?: boolean | cdktf.IResolvable;
   /**
   * Valid values: HTTP Redirect, HTTP Post
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite#slo_binding IdpGsuite#slo_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite#slo_binding IdpGsuite#slo_binding}
   */
   readonly sloBinding?: string;
   /**
   * Provided on app creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite#slo_uri IdpGsuite#slo_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite#slo_uri IdpGsuite#slo_uri}
   */
   readonly sloUri?: string;
   /**
   * Target URI provided by GSuite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite#target_uri IdpGsuite#target_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite#target_uri IdpGsuite#target_uri}
   */
   readonly targetUri?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite#timeouts IdpGsuite#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite#timeouts IdpGsuite#timeouts}
   */
   readonly timeouts?: IdpGsuiteTimeouts;
 }
 export interface IdpGsuiteTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite#read IdpGsuite#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite#read IdpGsuite#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite#update IdpGsuite#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite#update IdpGsuite#update}
   */
   readonly update?: string;
 }
@@ -204,7 +204,7 @@ export class IdpGsuiteTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite genesyscloud_idp_gsuite}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite genesyscloud_idp_gsuite}
 */
 export class IdpGsuite extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class IdpGsuite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdpGsuite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdpGsuite to import
-  * @param importFromId The id of the existing IdpGsuite that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdpGsuite that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdpGsuite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class IdpGsuite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_gsuite genesyscloud_idp_gsuite} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_gsuite genesyscloud_idp_gsuite} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class IdpGsuite extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_idp_gsuite',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

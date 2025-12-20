@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcmq_topic
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcmq_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TcmqTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Used to specify the message match policy for the topic. `1`: tag match policy (default value); `2`: routing match policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcmq_topic#filter_type TcmqTopic#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcmq_topic#filter_type TcmqTopic#filter_type}
   */
   readonly filterType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcmq_topic#id TcmqTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcmq_topic#id TcmqTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface TcmqTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum message length. Value range: 1024-65536 bytes (i.e., 1-64 KB). Default value: 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcmq_topic#max_msg_size TcmqTopic#max_msg_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcmq_topic#max_msg_size TcmqTopic#max_msg_size}
   */
   readonly maxMsgSize?: number;
   /**
   * Message retention period. Value range: 60-86400 seconds (i.e., 1 minute-1 day). Default value: 86400.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcmq_topic#msg_retention_seconds TcmqTopic#msg_retention_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcmq_topic#msg_retention_seconds TcmqTopic#msg_retention_seconds}
   */
   readonly msgRetentionSeconds?: number;
   /**
   * Topic name, which must be unique in the same topic under the same account in the same region. It can contain up to 64 letters, digits, and hyphens and must begin with a letter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcmq_topic#topic_name TcmqTopic#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcmq_topic#topic_name TcmqTopic#topic_name}
   */
   readonly topicName: string;
   /**
   * Whether to enable message trace. true: yes; false: no. If this field is left empty, the feature will not be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcmq_topic#trace TcmqTopic#trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcmq_topic#trace TcmqTopic#trace}
   */
   readonly trace?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcmq_topic tencentcloud_tcmq_topic}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcmq_topic tencentcloud_tcmq_topic}
 */
 export class TcmqTopic extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class TcmqTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcmqTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcmqTopic to import
-  * @param importFromId The id of the existing TcmqTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcmq_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcmqTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcmq_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcmqTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class TcmqTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcmq_topic tencentcloud_tcmq_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcmq_topic tencentcloud_tcmq_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class TcmqTopic extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcmq_topic',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

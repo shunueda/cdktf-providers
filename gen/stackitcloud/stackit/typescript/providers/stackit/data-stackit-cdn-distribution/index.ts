@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/cdn_distribution
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/cdn_distribution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataStackitCdnDistributionConfig extends cdktf.TerraformMetaArg
   /**
   * STACKIT project ID associated with the distribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/cdn_distribution#distribution_id DataStackitCdnDistribution#distribution_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/cdn_distribution#distribution_id DataStackitCdnDistribution#distribution_id}
   */
   readonly distributionId: string;
   /**
   * STACKIT project ID associated with the distribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/cdn_distribution#project_id DataStackitCdnDistribution#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/cdn_distribution#project_id DataStackitCdnDistribution#project_id}
   */
   readonly projectId: string;
 }
@@ -149,7 +149,7 @@ export interface DataStackitCdnDistributionConfigA {
   /**
   * The configured countries where distribution of content is blocked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/cdn_distribution#blocked_countries DataStackitCdnDistribution#blocked_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/cdn_distribution#blocked_countries DataStackitCdnDistribution#blocked_countries}
   */
   readonly blockedCountries?: string[];
 }
@@ -340,7 +340,7 @@ export class DataStackitCdnDistributionDomainsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/cdn_distribution stackit_cdn_distribution}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/cdn_distribution stackit_cdn_distribution}
 */
 export class DataStackitCdnDistribution extends cdktf.TerraformDataSource {
 
@@ -356,7 +356,7 @@ export class DataStackitCdnDistribution extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitCdnDistribution resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitCdnDistribution to import
-  * @param importFromId The id of the existing DataStackitCdnDistribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/cdn_distribution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitCdnDistribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/cdn_distribution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitCdnDistribution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -368,7 +368,7 @@ export class DataStackitCdnDistribution extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/cdn_distribution stackit_cdn_distribution} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/cdn_distribution stackit_cdn_distribution} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,8 +379,8 @@ export class DataStackitCdnDistribution extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_cdn_distribution',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.75.0',
-        providerVersionConstraint: '0.75.0'
+        providerVersion: '0.76.0',
+        providerVersionConstraint: '0.76.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

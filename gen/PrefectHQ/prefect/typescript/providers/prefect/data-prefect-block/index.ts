@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/data-sources/block
+// https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/data-sources/block
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataPrefectBlockConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID), defaults to the account set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/data-sources/block#account_id DataPrefectBlock#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/data-sources/block#account_id DataPrefectBlock#account_id}
   */
   readonly accountId?: string;
   /**
   * Block ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/data-sources/block#id DataPrefectBlock#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/data-sources/block#id DataPrefectBlock#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,25 +25,25 @@ export interface DataPrefectBlockConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/data-sources/block#name DataPrefectBlock#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/data-sources/block#name DataPrefectBlock#name}
   */
   readonly name?: string;
   /**
   * Block type slug
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/data-sources/block#type_slug DataPrefectBlock#type_slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/data-sources/block#type_slug DataPrefectBlock#type_slug}
   */
   readonly typeSlug?: string;
   /**
   * Workspace ID (UUID), defaults to the workspace set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/data-sources/block#workspace_id DataPrefectBlock#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/data-sources/block#workspace_id DataPrefectBlock#workspace_id}
   */
   readonly workspaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/data-sources/block prefect_block}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/data-sources/block prefect_block}
 */
 export class DataPrefectBlock extends cdktf.TerraformDataSource {
 
@@ -59,7 +59,7 @@ export class DataPrefectBlock extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPrefectBlock resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPrefectBlock to import
-  * @param importFromId The id of the existing DataPrefectBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/data-sources/block#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPrefectBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/data-sources/block#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPrefectBlock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class DataPrefectBlock extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/data-sources/block prefect_block} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/data-sources/block prefect_block} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class DataPrefectBlock extends cdktf.TerraformDataSource {
       terraformResourceType: 'prefect_block',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.92.0',
-        providerVersionConstraint: '2.92.0'
+        providerVersion: '2.92.1',
+        providerVersionConstraint: '2.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

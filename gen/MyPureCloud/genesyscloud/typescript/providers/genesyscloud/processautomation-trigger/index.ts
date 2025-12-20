@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ProcessautomationTriggerConfig extends cdktf.TerraformMetaArgum
   /**
   * How long to delay processing of a trigger after an event passes the match criteria. Must be an number between 60 and 900 inclusive. Only one of event_ttl_seconds or delay_by_seconds can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger#delay_by_seconds ProcessautomationTrigger#delay_by_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger#delay_by_seconds ProcessautomationTrigger#delay_by_seconds}
   */
   readonly delayBySeconds?: number;
   /**
   * A description of the trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger#description ProcessautomationTrigger#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger#description ProcessautomationTrigger#description}
   */
   readonly description?: string;
   /**
   * Whether or not the trigger should be fired on events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger#enabled ProcessautomationTrigger#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger#enabled ProcessautomationTrigger#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * How old an event can be to fire the trigger. Must be an number greater than or equal to 10. Only one of event_ttl_seconds or delay_by_seconds can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger#event_ttl_seconds ProcessautomationTrigger#event_ttl_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger#event_ttl_seconds ProcessautomationTrigger#event_ttl_seconds}
   */
   readonly eventTtlSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger#id ProcessautomationTrigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger#id ProcessautomationTrigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface ProcessautomationTriggerConfig extends cdktf.TerraformMetaArgum
   /**
   * Match criteria that controls when the trigger will fire. NOTE: The match_criteria field type has changed from a complex object to a string. This was done to allow for complex JSON object definitions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger#match_criteria ProcessautomationTrigger#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger#match_criteria ProcessautomationTrigger#match_criteria}
   */
   readonly matchCriteria?: string;
   /**
   * Name of the Trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger#name ProcessautomationTrigger#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger#name ProcessautomationTrigger#name}
   */
   readonly name: string;
   /**
   * Topic name that will fire trigger. Changing the topic_name attribute will cause the processautomation_trigger object to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger#topic_name ProcessautomationTrigger#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger#topic_name ProcessautomationTrigger#topic_name}
   */
   readonly topicName: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger#target ProcessautomationTrigger#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger#target ProcessautomationTrigger#target}
   */
   readonly target: ProcessautomationTriggerTarget;
 }
@@ -67,7 +67,7 @@ export interface ProcessautomationTriggerTargetWorkflowTargetSettings {
   /**
   * The data format to use when invoking target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger#data_format ProcessautomationTrigger#data_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger#data_format ProcessautomationTrigger#data_format}
   */
   readonly dataFormat?: string;
 }
@@ -153,7 +153,7 @@ export interface ProcessautomationTriggerTarget {
   /**
   * Id of the target the trigger is configured to hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger#id ProcessautomationTrigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger#id ProcessautomationTrigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -162,13 +162,13 @@ export interface ProcessautomationTriggerTarget {
   /**
   * Type of the target the trigger is configured to hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger#type ProcessautomationTrigger#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger#type ProcessautomationTrigger#type}
   */
   readonly type: string;
   /**
   * workflow_target_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger#workflow_target_settings ProcessautomationTrigger#workflow_target_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger#workflow_target_settings ProcessautomationTrigger#workflow_target_settings}
   */
   readonly workflowTargetSettings?: ProcessautomationTriggerTargetWorkflowTargetSettings;
 }
@@ -304,7 +304,7 @@ export class ProcessautomationTriggerTargetOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger genesyscloud_processautomation_trigger}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger genesyscloud_processautomation_trigger}
 */
 export class ProcessautomationTrigger extends cdktf.TerraformResource {
 
@@ -320,7 +320,7 @@ export class ProcessautomationTrigger extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProcessautomationTrigger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProcessautomationTrigger to import
-  * @param importFromId The id of the existing ProcessautomationTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProcessautomationTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProcessautomationTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -332,7 +332,7 @@ export class ProcessautomationTrigger extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/processautomation_trigger genesyscloud_processautomation_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/processautomation_trigger genesyscloud_processautomation_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -343,8 +343,8 @@ export class ProcessautomationTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_processautomation_trigger',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

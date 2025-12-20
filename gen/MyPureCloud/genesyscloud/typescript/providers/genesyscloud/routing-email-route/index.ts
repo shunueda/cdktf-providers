@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface RoutingEmailRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Control if multiple actions are allowed on this route. When true the disconnect has to be done manually. When false a conversation will be disconnected by the system after every action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#allow_multiple_actions RoutingEmailRoute#allow_multiple_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#allow_multiple_actions RoutingEmailRoute#allow_multiple_actions}
   */
   readonly allowMultipleActions?: boolean | cdktf.IResolvable;
   /**
   * ID of the routing domain such as: 'example.com'. Changing the domain_id attribute will cause the email_route object to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#domain_id RoutingEmailRoute#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#domain_id RoutingEmailRoute#domain_id}
   */
   readonly domainId: string;
   /**
   * The flow to use for processing the email. This should not be set if a queue_id is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#flow_id RoutingEmailRoute#flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#flow_id RoutingEmailRoute#flow_id}
   */
   readonly flowId?: string;
   /**
   * The sender email to use for outgoing replies. This should not be set if reply_email_address is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#from_email RoutingEmailRoute#from_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#from_email RoutingEmailRoute#from_email}
   */
   readonly fromEmail?: string;
   /**
   * The sender name to use for outgoing replies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#from_name RoutingEmailRoute#from_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#from_name RoutingEmailRoute#from_name}
   */
   readonly fromName: string;
   /**
   * The configuration to indicate how the history of a conversation has to be included in a draft. Defaults to `Optional`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#history_inclusion RoutingEmailRoute#history_inclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#history_inclusion RoutingEmailRoute#history_inclusion}
   */
   readonly historyInclusion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#id RoutingEmailRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#id RoutingEmailRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,49 +53,49 @@ export interface RoutingEmailRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * The language to use for routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#language_id RoutingEmailRoute#language_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#language_id RoutingEmailRoute#language_id}
   */
   readonly languageId?: string;
   /**
   * The search pattern that the mailbox name should match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#pattern RoutingEmailRoute#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#pattern RoutingEmailRoute#pattern}
   */
   readonly pattern: string;
   /**
   * The priority to use for routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#priority RoutingEmailRoute#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#priority RoutingEmailRoute#priority}
   */
   readonly priority?: number;
   /**
   * The queue to route the emails to. This should not be set if a flow_id is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#queue_id RoutingEmailRoute#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#queue_id RoutingEmailRoute#queue_id}
   */
   readonly queueId?: string;
   /**
   * The skills to use for routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#skill_ids RoutingEmailRoute#skill_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#skill_ids RoutingEmailRoute#skill_ids}
   */
   readonly skillIds?: string[];
   /**
   * The flow to use for processing inbound emails that have been marked as spam.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#spam_flow_id RoutingEmailRoute#spam_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#spam_flow_id RoutingEmailRoute#spam_flow_id}
   */
   readonly spamFlowId?: string;
   /**
   * auto_bcc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#auto_bcc RoutingEmailRoute#auto_bcc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#auto_bcc RoutingEmailRoute#auto_bcc}
   */
   readonly autoBcc?: RoutingEmailRouteAutoBcc[] | cdktf.IResolvable;
   /**
   * reply_email_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#reply_email_address RoutingEmailRoute#reply_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#reply_email_address RoutingEmailRoute#reply_email_address}
   */
   readonly replyEmailAddress?: RoutingEmailRouteReplyEmailAddress;
 }
@@ -103,13 +103,13 @@ export interface RoutingEmailRouteAutoBcc {
   /**
   * Email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#email RoutingEmailRoute#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#email RoutingEmailRoute#email}
   */
   readonly email: string;
   /**
   * Name associated with the email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#name RoutingEmailRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#name RoutingEmailRoute#name}
   */
   readonly name?: string;
 }
@@ -253,20 +253,20 @@ export interface RoutingEmailRouteReplyEmailAddress {
   /**
   * Domain of the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#domain_id RoutingEmailRoute#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#domain_id RoutingEmailRoute#domain_id}
   */
   readonly domainId?: string;
   /**
   * ID of the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#route_id RoutingEmailRoute#route_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#route_id RoutingEmailRoute#route_id}
   */
   readonly routeId?: string;
   /**
   * Use this route as the reply email address. If true you will use the route id for this resource as the reply and you
   * 							              can not set a route. If you set this value to false (or leave the attribute off) you must set a route id and matching domain. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#self_reference_route RoutingEmailRoute#self_reference_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#self_reference_route RoutingEmailRoute#self_reference_route}
   */
   readonly selfReferenceRoute?: boolean | cdktf.IResolvable;
 }
@@ -408,7 +408,7 @@ export class RoutingEmailRouteReplyEmailAddressOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route genesyscloud_routing_email_route}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route genesyscloud_routing_email_route}
 */
 export class RoutingEmailRoute extends cdktf.TerraformResource {
 
@@ -424,7 +424,7 @@ export class RoutingEmailRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingEmailRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingEmailRoute to import
-  * @param importFromId The id of the existing RoutingEmailRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingEmailRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingEmailRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -436,7 +436,7 @@ export class RoutingEmailRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_email_route genesyscloud_routing_email_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_email_route genesyscloud_routing_email_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -447,8 +447,8 @@ export class RoutingEmailRoute extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_routing_email_route',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

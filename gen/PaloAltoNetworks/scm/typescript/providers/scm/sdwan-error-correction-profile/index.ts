@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,40 @@ export interface SdwanErrorCorrectionProfileConfig extends cdktf.TerraformMetaAr
   /**
   * Activation threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile#activation_threshold SdwanErrorCorrectionProfile#activation_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile#activation_threshold SdwanErrorCorrectionProfile#activation_threshold}
   */
   readonly activationThreshold: number;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile#device SdwanErrorCorrectionProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile#device SdwanErrorCorrectionProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile#folder SdwanErrorCorrectionProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile#folder SdwanErrorCorrectionProfile#folder}
   */
   readonly folder?: string;
   /**
   * Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile#mode SdwanErrorCorrectionProfile#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile#mode SdwanErrorCorrectionProfile#mode}
   */
   readonly mode: SdwanErrorCorrectionProfileMode;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile#name SdwanErrorCorrectionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile#name SdwanErrorCorrectionProfile#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile#snippet SdwanErrorCorrectionProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile#snippet SdwanErrorCorrectionProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -54,13 +51,13 @@ export interface SdwanErrorCorrectionProfileModeForwardErrorCorrection {
   /**
   * Ratio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile#ratio SdwanErrorCorrectionProfile#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile#ratio SdwanErrorCorrectionProfile#ratio}
   */
   readonly ratio: string;
   /**
   * Recovery duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile#recovery_duration SdwanErrorCorrectionProfile#recovery_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile#recovery_duration SdwanErrorCorrectionProfile#recovery_duration}
   */
   readonly recoveryDuration: number;
 }
@@ -179,7 +176,7 @@ export interface SdwanErrorCorrectionProfileModePacketDuplication {
   /**
   * Recovery duration pd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile#recovery_duration_pd SdwanErrorCorrectionProfile#recovery_duration_pd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile#recovery_duration_pd SdwanErrorCorrectionProfile#recovery_duration_pd}
   */
   readonly recoveryDurationPd: number;
 }
@@ -271,18 +268,16 @@ export class SdwanErrorCorrectionProfileModePacketDuplicationOutputReference ext
 export interface SdwanErrorCorrectionProfileMode {
   /**
   * Forward error correction
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `forward_error_correction` and `packet_duplication`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile#forward_error_correction SdwanErrorCorrectionProfile#forward_error_correction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile#forward_error_correction SdwanErrorCorrectionProfile#forward_error_correction}
   */
   readonly forwardErrorCorrection?: SdwanErrorCorrectionProfileModeForwardErrorCorrection;
   /**
   * Packet duplication
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `forward_error_correction` and `packet_duplication`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile#packet_duplication SdwanErrorCorrectionProfile#packet_duplication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile#packet_duplication SdwanErrorCorrectionProfile#packet_duplication}
   */
   readonly packetDuplication?: SdwanErrorCorrectionProfileModePacketDuplication;
 }
@@ -405,7 +400,7 @@ export class SdwanErrorCorrectionProfileModeOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile scm_sdwan_error_correction_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile scm_sdwan_error_correction_profile}
 */
 export class SdwanErrorCorrectionProfile extends cdktf.TerraformResource {
 
@@ -421,7 +416,7 @@ export class SdwanErrorCorrectionProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SdwanErrorCorrectionProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SdwanErrorCorrectionProfile to import
-  * @param importFromId The id of the existing SdwanErrorCorrectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SdwanErrorCorrectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SdwanErrorCorrectionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -433,7 +428,7 @@ export class SdwanErrorCorrectionProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/sdwan_error_correction_profile scm_sdwan_error_correction_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/sdwan_error_correction_profile scm_sdwan_error_correction_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -444,8 +439,8 @@ export class SdwanErrorCorrectionProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_sdwan_error_correction_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential
+// https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,187 +10,187 @@ export interface RemoteServerCredentialConfig extends cdktf.TerraformMetaArgumen
   /**
   * AWS Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#aws_access_key RemoteServerCredential#aws_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#aws_access_key RemoteServerCredential#aws_access_key}
   */
   readonly awsAccessKey?: string;
   /**
   * AWS: secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#aws_secret_key RemoteServerCredential#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#aws_secret_key RemoteServerCredential#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
   * Azure Blob Storage: Access Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#azure_blob_storage_access_key RemoteServerCredential#azure_blob_storage_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#azure_blob_storage_access_key RemoteServerCredential#azure_blob_storage_access_key}
   */
   readonly azureBlobStorageAccessKey?: string;
   /**
   * Azure Blob Storage: Account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#azure_blob_storage_account RemoteServerCredential#azure_blob_storage_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#azure_blob_storage_account RemoteServerCredential#azure_blob_storage_account}
   */
   readonly azureBlobStorageAccount?: string;
   /**
   * Azure Blob Storage: Shared Access Signature (SAS) token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#azure_blob_storage_sas_token RemoteServerCredential#azure_blob_storage_sas_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#azure_blob_storage_sas_token RemoteServerCredential#azure_blob_storage_sas_token}
   */
   readonly azureBlobStorageSasToken?: string;
   /**
   * Azure File Storage: Access Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#azure_files_storage_access_key RemoteServerCredential#azure_files_storage_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#azure_files_storage_access_key RemoteServerCredential#azure_files_storage_access_key}
   */
   readonly azureFilesStorageAccessKey?: string;
   /**
   * Azure Files: Storage Account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#azure_files_storage_account RemoteServerCredential#azure_files_storage_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#azure_files_storage_account RemoteServerCredential#azure_files_storage_account}
   */
   readonly azureFilesStorageAccount?: string;
   /**
   * Azure File Storage: Shared Access Signature (SAS) token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#azure_files_storage_sas_token RemoteServerCredential#azure_files_storage_sas_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#azure_files_storage_sas_token RemoteServerCredential#azure_files_storage_sas_token}
   */
   readonly azureFilesStorageSasToken?: string;
   /**
   * Backblaze B2 Cloud Storage: applicationKey
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#backblaze_b2_application_key RemoteServerCredential#backblaze_b2_application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#backblaze_b2_application_key RemoteServerCredential#backblaze_b2_application_key}
   */
   readonly backblazeB2ApplicationKey?: string;
   /**
   * Backblaze B2 Cloud Storage: keyID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#backblaze_b2_key_id RemoteServerCredential#backblaze_b2_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#backblaze_b2_key_id RemoteServerCredential#backblaze_b2_key_id}
   */
   readonly backblazeB2KeyId?: string;
   /**
   * Cloudflare: Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#cloudflare_access_key RemoteServerCredential#cloudflare_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#cloudflare_access_key RemoteServerCredential#cloudflare_access_key}
   */
   readonly cloudflareAccessKey?: string;
   /**
   * Cloudflare: Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#cloudflare_secret_key RemoteServerCredential#cloudflare_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#cloudflare_secret_key RemoteServerCredential#cloudflare_secret_key}
   */
   readonly cloudflareSecretKey?: string;
   /**
   * Internal description for your reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#description RemoteServerCredential#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#description RemoteServerCredential#description}
   */
   readonly description?: string;
   /**
   * Filebase: Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#filebase_access_key RemoteServerCredential#filebase_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#filebase_access_key RemoteServerCredential#filebase_access_key}
   */
   readonly filebaseAccessKey?: string;
   /**
   * Filebase: Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#filebase_secret_key RemoteServerCredential#filebase_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#filebase_secret_key RemoteServerCredential#filebase_secret_key}
   */
   readonly filebaseSecretKey?: string;
   /**
   * Google Cloud Storage: JSON file that contains the private key. To generate see https://cloud.google.com/storage/docs/json_api/v1/how-tos/authorizing#APIKey
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#google_cloud_storage_credentials_json RemoteServerCredential#google_cloud_storage_credentials_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#google_cloud_storage_credentials_json RemoteServerCredential#google_cloud_storage_credentials_json}
   */
   readonly googleCloudStorageCredentialsJson?: string;
   /**
   * Google Cloud Storage: S3-compatible Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#google_cloud_storage_s3_compatible_access_key RemoteServerCredential#google_cloud_storage_s3_compatible_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#google_cloud_storage_s3_compatible_access_key RemoteServerCredential#google_cloud_storage_s3_compatible_access_key}
   */
   readonly googleCloudStorageS3CompatibleAccessKey?: string;
   /**
   * Google Cloud Storage: S3-compatible secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#google_cloud_storage_s3_compatible_secret_key RemoteServerCredential#google_cloud_storage_s3_compatible_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#google_cloud_storage_s3_compatible_secret_key RemoteServerCredential#google_cloud_storage_s3_compatible_secret_key}
   */
   readonly googleCloudStorageS3CompatibleSecretKey?: string;
   /**
   * Linode: Access Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#linode_access_key RemoteServerCredential#linode_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#linode_access_key RemoteServerCredential#linode_access_key}
   */
   readonly linodeAccessKey?: string;
   /**
   * Linode: Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#linode_secret_key RemoteServerCredential#linode_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#linode_secret_key RemoteServerCredential#linode_secret_key}
   */
   readonly linodeSecretKey?: string;
   /**
   * Internal name for your reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#name RemoteServerCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#name RemoteServerCredential#name}
   */
   readonly name?: string;
   /**
   * Password, if needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#password RemoteServerCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#password RemoteServerCredential#password}
   */
   readonly password?: string;
   /**
   * Private key, if needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#private_key RemoteServerCredential#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#private_key RemoteServerCredential#private_key}
   */
   readonly privateKey?: string;
   /**
   * Passphrase for private key if needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#private_key_passphrase RemoteServerCredential#private_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#private_key_passphrase RemoteServerCredential#private_key_passphrase}
   */
   readonly privateKeyPassphrase?: string;
   /**
   * S3-compatible: Access Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#s3_compatible_access_key RemoteServerCredential#s3_compatible_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#s3_compatible_access_key RemoteServerCredential#s3_compatible_access_key}
   */
   readonly s3CompatibleAccessKey?: string;
   /**
   * S3-compatible: Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#s3_compatible_secret_key RemoteServerCredential#s3_compatible_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#s3_compatible_secret_key RemoteServerCredential#s3_compatible_secret_key}
   */
   readonly s3CompatibleSecretKey?: string;
   /**
   * Remote server type.  Remote Server Credentials are only valid for a single type of Remote Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#server_type RemoteServerCredential#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#server_type RemoteServerCredential#server_type}
   */
   readonly serverType?: string;
   /**
   * Remote server username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#username RemoteServerCredential#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#username RemoteServerCredential#username}
   */
   readonly username?: string;
   /**
   * Wasabi: Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#wasabi_access_key RemoteServerCredential#wasabi_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#wasabi_access_key RemoteServerCredential#wasabi_access_key}
   */
   readonly wasabiAccessKey?: string;
   /**
   * Wasabi: Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#wasabi_secret_key RemoteServerCredential#wasabi_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#wasabi_secret_key RemoteServerCredential#wasabi_secret_key}
   */
   readonly wasabiSecretKey?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential files_remote_server_credential}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential files_remote_server_credential}
 */
 export class RemoteServerCredential extends cdktf.TerraformResource {
 
@@ -206,7 +206,7 @@ export class RemoteServerCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RemoteServerCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RemoteServerCredential to import
-  * @param importFromId The id of the existing RemoteServerCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RemoteServerCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RemoteServerCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class RemoteServerCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server_credential files_remote_server_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.419/docs/resources/remote_server_credential files_remote_server_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class RemoteServerCredential extends cdktf.TerraformResource {
       terraformResourceType: 'files_remote_server_credential',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.417',
-        providerVersionConstraint: '0.1.417'
+        providerVersion: '0.1.419',
+        providerVersionConstraint: '0.1.419'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

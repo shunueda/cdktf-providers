@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/apps
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/apps
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOpalAppsConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of app types to filter by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/apps#app_type_filter DataOpalApps#app_type_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/apps#app_type_filter DataOpalApps#app_type_filter}
   */
   readonly appTypeFilter?: string[];
   /**
   * An owner ID to filter by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/apps#owner_filter DataOpalApps#owner_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/apps#owner_filter DataOpalApps#owner_filter}
   */
   readonly ownerFilter?: string;
 }
@@ -228,7 +228,7 @@ export class DataOpalAppsAppsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/apps opal_apps}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/apps opal_apps}
 */
 export class DataOpalApps extends cdktf.TerraformDataSource {
 
@@ -244,7 +244,7 @@ export class DataOpalApps extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpalApps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalApps to import
-  * @param importFromId The id of the existing DataOpalApps that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/apps#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalApps that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/apps#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalApps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class DataOpalApps extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/apps opal_apps} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/apps opal_apps} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class DataOpalApps extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_apps',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

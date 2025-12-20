@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volumes
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volumes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataLinodeVolumesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volumes#order DataLinodeVolumes#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volumes#order DataLinodeVolumes#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volumes#order_by DataLinodeVolumes#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volumes#order_by DataLinodeVolumes#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volumes#filter DataLinodeVolumes#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volumes#filter DataLinodeVolumes#filter}
   */
   readonly filter?: DataLinodeVolumesFilter[] | cdktf.IResolvable;
 }
@@ -30,7 +30,7 @@ export interface DataLinodeVolumesVolumes {
   /**
   * The unique id of this Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volumes#id DataLinodeVolumes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volumes#id DataLinodeVolumes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -188,19 +188,19 @@ export interface DataLinodeVolumesFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volumes#match_by DataLinodeVolumes#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volumes#match_by DataLinodeVolumes#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volumes#name DataLinodeVolumes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volumes#name DataLinodeVolumes#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volumes#values DataLinodeVolumes#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volumes#values DataLinodeVolumes#values}
   */
   readonly values: string[];
 }
@@ -368,7 +368,7 @@ export class DataLinodeVolumesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volumes linode_volumes}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volumes linode_volumes}
 */
 export class DataLinodeVolumes extends cdktf.TerraformDataSource {
 
@@ -384,7 +384,7 @@ export class DataLinodeVolumes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeVolumes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeVolumes to import
-  * @param importFromId The id of the existing DataLinodeVolumes that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volumes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeVolumes that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volumes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeVolumes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -396,7 +396,7 @@ export class DataLinodeVolumes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/volumes linode_volumes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/volumes linode_volumes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -407,8 +407,8 @@ export class DataLinodeVolumes extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_volumes',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

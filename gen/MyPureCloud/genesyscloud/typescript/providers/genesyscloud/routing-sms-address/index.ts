@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_sms_address
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_sms_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface RoutingSmsAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * This is used when the address is created. If the value is not set or true, then the system will, if necessary, auto-correct the address you provide. Set this value to false if the system should not auto-correct the address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_sms_address#auto_correct_address RoutingSmsAddress#auto_correct_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_sms_address#auto_correct_address RoutingSmsAddress#auto_correct_address}
   */
   readonly autoCorrectAddress?: boolean | cdktf.IResolvable;
   /**
   * The city in which this address is in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_sms_address#city RoutingSmsAddress#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_sms_address#city RoutingSmsAddress#city}
   */
   readonly city: string;
   /**
   * The ISO country code of this address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_sms_address#country_code RoutingSmsAddress#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_sms_address#country_code RoutingSmsAddress#country_code}
   */
   readonly countryCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_sms_address#id RoutingSmsAddress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_sms_address#id RoutingSmsAddress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface RoutingSmsAddressConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name associated with this address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_sms_address#name RoutingSmsAddress#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_sms_address#name RoutingSmsAddress#name}
   */
   readonly name?: string;
   /**
   * The postal code this address is in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_sms_address#postal_code RoutingSmsAddress#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_sms_address#postal_code RoutingSmsAddress#postal_code}
   */
   readonly postalCode: string;
   /**
   * The state or region this address is in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_sms_address#region RoutingSmsAddress#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_sms_address#region RoutingSmsAddress#region}
   */
   readonly region: string;
   /**
   * The number and street address where this address is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_sms_address#street RoutingSmsAddress#street}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_sms_address#street RoutingSmsAddress#street}
   */
   readonly street: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_sms_address genesyscloud_routing_sms_address}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_sms_address genesyscloud_routing_sms_address}
 */
 export class RoutingSmsAddress extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class RoutingSmsAddress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingSmsAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingSmsAddress to import
-  * @param importFromId The id of the existing RoutingSmsAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_sms_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingSmsAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_sms_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingSmsAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class RoutingSmsAddress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_sms_address genesyscloud_routing_sms_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_sms_address genesyscloud_routing_sms_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class RoutingSmsAddress extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_routing_sms_address',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

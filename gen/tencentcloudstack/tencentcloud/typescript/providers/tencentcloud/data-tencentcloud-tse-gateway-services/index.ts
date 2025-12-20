@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tse_gateway_services
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tse_gateway_services
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudTseGatewayServicesConfig extends cdktf.Terrafor
   /**
   * gateway ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tse_gateway_services#gateway_id DataTencentcloudTseGatewayServices#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tse_gateway_services#gateway_id DataTencentcloudTseGatewayServices#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tse_gateway_services#id DataTencentcloudTseGatewayServices#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tse_gateway_services#id DataTencentcloudTseGatewayServices#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudTseGatewayServicesConfig extends cdktf.Terrafor
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tse_gateway_services#result_output_file DataTencentcloudTseGatewayServices#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tse_gateway_services#result_output_file DataTencentcloudTseGatewayServices#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tse_gateway_services#filters DataTencentcloudTseGatewayServices#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tse_gateway_services#filters DataTencentcloudTseGatewayServices#filters}
   */
   readonly filters?: DataTencentcloudTseGatewayServicesFilters[] | cdktf.IResolvable;
 }
@@ -490,13 +490,13 @@ export interface DataTencentcloudTseGatewayServicesFilters {
   /**
   * filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tse_gateway_services#key DataTencentcloudTseGatewayServices#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tse_gateway_services#key DataTencentcloudTseGatewayServices#key}
   */
   readonly key?: string;
   /**
   * filter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tse_gateway_services#value DataTencentcloudTseGatewayServices#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tse_gateway_services#value DataTencentcloudTseGatewayServices#value}
   */
   readonly value?: string;
 }
@@ -641,7 +641,7 @@ export class DataTencentcloudTseGatewayServicesFiltersList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tse_gateway_services tencentcloud_tse_gateway_services}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tse_gateway_services tencentcloud_tse_gateway_services}
 */
 export class DataTencentcloudTseGatewayServices extends cdktf.TerraformDataSource {
 
@@ -657,7 +657,7 @@ export class DataTencentcloudTseGatewayServices extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudTseGatewayServices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTseGatewayServices to import
-  * @param importFromId The id of the existing DataTencentcloudTseGatewayServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tse_gateway_services#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTseGatewayServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tse_gateway_services#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTseGatewayServices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -669,7 +669,7 @@ export class DataTencentcloudTseGatewayServices extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tse_gateway_services tencentcloud_tse_gateway_services} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tse_gateway_services tencentcloud_tse_gateway_services} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -680,8 +680,8 @@ export class DataTencentcloudTseGatewayServices extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_tse_gateway_services',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

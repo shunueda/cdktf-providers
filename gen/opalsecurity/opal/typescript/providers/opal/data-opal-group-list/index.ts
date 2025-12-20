@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_list
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataOpalGroupListConfig extends cdktf.TerraformMetaArguments {
   /**
   * The group ids to filter by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_list#group_ids DataOpalGroupList#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_list#group_ids DataOpalGroupList#group_ids}
   */
   readonly groupIds?: string[];
   /**
   * Group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_list#group_name DataOpalGroupList#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_list#group_name DataOpalGroupList#group_name}
   */
   readonly groupName?: string;
   /**
-  * The group type to filter by. must be one of ["ACTIVE_DIRECTORY_GROUP", "AWS_SSO_GROUP", "DATABRICKS_ACCOUNT_GROUP", "DUO_GROUP", "GIT_HUB_TEAM", "GIT_LAB_GROUP", "GOOGLE_GROUPS_GROUP", "GOOGLE_GROUPS_GKE_GROUP", "LDAP_GROUP", "OKTA_GROUP", "OKTA_GROUP_RULE", "TAILSCALE_GROUP", "OPAL_GROUP", "OPAL_ACCESS_RULE", "AZURE_AD_SECURITY_GROUP", "AZURE_AD_MICROSOFT_365_GROUP", "CONNECTOR_GROUP", "SNOWFLAKE_ROLE", "WORKDAY_USER_SECURITY_GROUP"]
+  * The group type to filter by. must be one of ["ACTIVE_DIRECTORY_GROUP", "AWS_SSO_GROUP", "DATABRICKS_ACCOUNT_GROUP", "DUO_GROUP", "GIT_HUB_TEAM", "GIT_LAB_GROUP", "GOOGLE_GROUPS_GROUP", "GOOGLE_GROUPS_GKE_GROUP", "LDAP_GROUP", "OKTA_GROUP", "OKTA_GROUP_RULE", "TAILSCALE_GROUP", "OPAL_GROUP", "OPAL_ACCESS_RULE", "AZURE_AD_SECURITY_GROUP", "AZURE_AD_MICROSOFT_365_GROUP", "CONNECTOR_GROUP", "SNOWFLAKE_ROLE", "WORKDAY_USER_SECURITY_GROUP", "PAGERDUTY_ON_CALL_SCHEDULE", "INCIDENTIO_ON_CALL_SCHEDULE", "DEVIN_GROUP"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_list#group_type_filter DataOpalGroupList#group_type_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_list#group_type_filter DataOpalGroupList#group_type_filter}
   */
   readonly groupTypeFilter?: string;
   /**
   * Number of results to return per page. Default is 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_list#page_size DataOpalGroupList#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_list#page_size DataOpalGroupList#page_size}
   */
   readonly pageSize?: number;
 }
@@ -415,6 +415,60 @@ export class DataOpalGroupListResultsRemoteInfoDatabricksAccountGroupOutputRefer
     return this.getStringAttribute('group_id');
   }
 }
+export interface DataOpalGroupListResultsRemoteInfoDevinGroup {
+}
+
+export function dataOpalGroupListResultsRemoteInfoDevinGroupToTerraform(struct?: DataOpalGroupListResultsRemoteInfoDevinGroup): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOpalGroupListResultsRemoteInfoDevinGroupToHclTerraform(struct?: DataOpalGroupListResultsRemoteInfoDevinGroup): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOpalGroupListResultsRemoteInfoDevinGroupOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataOpalGroupListResultsRemoteInfoDevinGroup | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOpalGroupListResultsRemoteInfoDevinGroup | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // group_name - computed: true, optional: false, required: false
+  public get groupName() {
+    return this.getStringAttribute('group_name');
+  }
+}
 export interface DataOpalGroupListResultsRemoteInfoDuoGroup {
 }
 
@@ -631,6 +685,60 @@ export class DataOpalGroupListResultsRemoteInfoGoogleGroupOutputReference extend
     return this.getStringAttribute('group_id');
   }
 }
+export interface DataOpalGroupListResultsRemoteInfoIncidentioOnCallSchedule {
+}
+
+export function dataOpalGroupListResultsRemoteInfoIncidentioOnCallScheduleToTerraform(struct?: DataOpalGroupListResultsRemoteInfoIncidentioOnCallSchedule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOpalGroupListResultsRemoteInfoIncidentioOnCallScheduleToHclTerraform(struct?: DataOpalGroupListResultsRemoteInfoIncidentioOnCallSchedule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOpalGroupListResultsRemoteInfoIncidentioOnCallScheduleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataOpalGroupListResultsRemoteInfoIncidentioOnCallSchedule | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOpalGroupListResultsRemoteInfoIncidentioOnCallSchedule | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // schedule_id - computed: true, optional: false, required: false
+  public get scheduleId() {
+    return this.getStringAttribute('schedule_id');
+  }
+}
 export interface DataOpalGroupListResultsRemoteInfoLdapGroup {
 }
 
@@ -791,6 +899,60 @@ export class DataOpalGroupListResultsRemoteInfoOktaGroupRuleOutputReference exte
   // rule_id - computed: true, optional: false, required: false
   public get ruleId() {
     return this.getStringAttribute('rule_id');
+  }
+}
+export interface DataOpalGroupListResultsRemoteInfoPagerdutyOnCallSchedule {
+}
+
+export function dataOpalGroupListResultsRemoteInfoPagerdutyOnCallScheduleToTerraform(struct?: DataOpalGroupListResultsRemoteInfoPagerdutyOnCallSchedule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOpalGroupListResultsRemoteInfoPagerdutyOnCallScheduleToHclTerraform(struct?: DataOpalGroupListResultsRemoteInfoPagerdutyOnCallSchedule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOpalGroupListResultsRemoteInfoPagerdutyOnCallScheduleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataOpalGroupListResultsRemoteInfoPagerdutyOnCallSchedule | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOpalGroupListResultsRemoteInfoPagerdutyOnCallSchedule | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // schedule_id - computed: true, optional: false, required: false
+  public get scheduleId() {
+    return this.getStringAttribute('schedule_id');
   }
 }
 export interface DataOpalGroupListResultsRemoteInfoSnowflakeRole {
@@ -1040,6 +1202,12 @@ export class DataOpalGroupListResultsRemoteInfoOutputReference extends cdktf.Com
     return this._databricksAccountGroup;
   }
 
+  // devin_group - computed: true, optional: false, required: false
+  private _devinGroup = new DataOpalGroupListResultsRemoteInfoDevinGroupOutputReference(this, "devin_group");
+  public get devinGroup() {
+    return this._devinGroup;
+  }
+
   // duo_group - computed: true, optional: false, required: false
   private _duoGroup = new DataOpalGroupListResultsRemoteInfoDuoGroupOutputReference(this, "duo_group");
   public get duoGroup() {
@@ -1064,6 +1232,12 @@ export class DataOpalGroupListResultsRemoteInfoOutputReference extends cdktf.Com
     return this._googleGroup;
   }
 
+  // incidentio_on_call_schedule - computed: true, optional: false, required: false
+  private _incidentioOnCallSchedule = new DataOpalGroupListResultsRemoteInfoIncidentioOnCallScheduleOutputReference(this, "incidentio_on_call_schedule");
+  public get incidentioOnCallSchedule() {
+    return this._incidentioOnCallSchedule;
+  }
+
   // ldap_group - computed: true, optional: false, required: false
   private _ldapGroup = new DataOpalGroupListResultsRemoteInfoLdapGroupOutputReference(this, "ldap_group");
   public get ldapGroup() {
@@ -1080,6 +1254,12 @@ export class DataOpalGroupListResultsRemoteInfoOutputReference extends cdktf.Com
   private _oktaGroupRule = new DataOpalGroupListResultsRemoteInfoOktaGroupRuleOutputReference(this, "okta_group_rule");
   public get oktaGroupRule() {
     return this._oktaGroupRule;
+  }
+
+  // pagerduty_on_call_schedule - computed: true, optional: false, required: false
+  private _pagerdutyOnCallSchedule = new DataOpalGroupListResultsRemoteInfoPagerdutyOnCallScheduleOutputReference(this, "pagerduty_on_call_schedule");
+  public get pagerdutyOnCallSchedule() {
+    return this._pagerdutyOnCallSchedule;
   }
 
   // snowflake_role - computed: true, optional: false, required: false
@@ -1536,7 +1716,7 @@ export class DataOpalGroupListResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_list opal_group_list}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_list opal_group_list}
 */
 export class DataOpalGroupList extends cdktf.TerraformDataSource {
 
@@ -1552,7 +1732,7 @@ export class DataOpalGroupList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpalGroupList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalGroupList to import
-  * @param importFromId The id of the existing DataOpalGroupList that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalGroupList that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalGroupList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1564,7 +1744,7 @@ export class DataOpalGroupList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_list opal_group_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_list opal_group_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1575,8 +1755,8 @@ export class DataOpalGroupList extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_group_list',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

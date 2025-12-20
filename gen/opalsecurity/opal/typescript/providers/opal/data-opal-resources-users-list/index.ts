@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_users_list
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_users_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOpalResourcesUsersListConfig extends cdktf.TerraformMetaArg
   /**
   * Limit the number of results returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_users_list#limit DataOpalResourcesUsersList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_users_list#limit DataOpalResourcesUsersList#limit}
   */
   readonly limit?: number;
   /**
   * The ID of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_users_list#resource_id DataOpalResourcesUsersList#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_users_list#resource_id DataOpalResourcesUsersList#resource_id}
   */
   readonly resourceId: string;
 }
@@ -190,6 +190,11 @@ export class DataOpalResourcesUsersListResultsOutputReference extends cdktf.Comp
     return this._accessLevel;
   }
 
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
   // email - computed: true, optional: false, required: false
   public get email() {
     return this.getStringAttribute('email');
@@ -226,6 +231,11 @@ export class DataOpalResourcesUsersListResultsOutputReference extends cdktf.Comp
     return this.getStringAttribute('resource_id');
   }
 
+  // resource_name - computed: true, optional: false, required: false
+  public get resourceName() {
+    return this.getStringAttribute('resource_name');
+  }
+
   // user_id - computed: true, optional: false, required: false
   public get userId() {
     return this.getStringAttribute('user_id');
@@ -252,7 +262,7 @@ export class DataOpalResourcesUsersListResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_users_list opal_resources_users_list}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_users_list opal_resources_users_list}
 */
 export class DataOpalResourcesUsersList extends cdktf.TerraformDataSource {
 
@@ -268,7 +278,7 @@ export class DataOpalResourcesUsersList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpalResourcesUsersList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalResourcesUsersList to import
-  * @param importFromId The id of the existing DataOpalResourcesUsersList that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_users_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalResourcesUsersList that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_users_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalResourcesUsersList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -280,7 +290,7 @@ export class DataOpalResourcesUsersList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/resources_users_list opal_resources_users_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/resources_users_list opal_resources_users_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,8 +301,8 @@ export class DataOpalResourcesUsersList extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_resources_users_list',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

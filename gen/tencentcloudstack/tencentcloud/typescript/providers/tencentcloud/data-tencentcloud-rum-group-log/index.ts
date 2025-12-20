@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/rum_group_log
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/rum_group_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudRumGroupLogConfig extends cdktf.TerraformMetaAr
   /**
   * End time but is represented using a timestamp in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/rum_group_log#end_time DataTencentcloudRumGroupLog#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/rum_group_log#end_time DataTencentcloudRumGroupLog#end_time}
   */
   readonly endTime: string;
   /**
   * The field used for group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/rum_group_log#group_field DataTencentcloudRumGroupLog#group_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/rum_group_log#group_field DataTencentcloudRumGroupLog#group_field}
   */
   readonly groupField: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/rum_group_log#id DataTencentcloudRumGroupLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/rum_group_log#id DataTencentcloudRumGroupLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface DataTencentcloudRumGroupLogConfig extends cdktf.TerraformMetaAr
   /**
   * Sorting method. `desc`:Descending order; `asc`: Ascending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/rum_group_log#order_by DataTencentcloudRumGroupLog#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/rum_group_log#order_by DataTencentcloudRumGroupLog#order_by}
   */
   readonly orderBy: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/rum_group_log#project_id DataTencentcloudRumGroupLog#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/rum_group_log#project_id DataTencentcloudRumGroupLog#project_id}
   */
   readonly projectId: number;
   /**
   * Log Query syntax statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/rum_group_log#query DataTencentcloudRumGroupLog#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/rum_group_log#query DataTencentcloudRumGroupLog#query}
   */
   readonly query: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/rum_group_log#result_output_file DataTencentcloudRumGroupLog#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/rum_group_log#result_output_file DataTencentcloudRumGroupLog#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start time but is represented using a timestamp in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/rum_group_log#start_time DataTencentcloudRumGroupLog#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/rum_group_log#start_time DataTencentcloudRumGroupLog#start_time}
   */
   readonly startTime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/rum_group_log tencentcloud_rum_group_log}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/rum_group_log tencentcloud_rum_group_log}
 */
 export class DataTencentcloudRumGroupLog extends cdktf.TerraformDataSource {
 
@@ -75,7 +75,7 @@ export class DataTencentcloudRumGroupLog extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudRumGroupLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudRumGroupLog to import
-  * @param importFromId The id of the existing DataTencentcloudRumGroupLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/rum_group_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudRumGroupLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/rum_group_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudRumGroupLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DataTencentcloudRumGroupLog extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/rum_group_log tencentcloud_rum_group_log} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/rum_group_log tencentcloud_rum_group_log} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DataTencentcloudRumGroupLog extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_rum_group_log',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

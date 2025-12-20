@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/appliances
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/appliances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataSpectrocloudAppliancesConfig extends cdktf.TerraformMetaArg
   /**
   * The architecture of the appliance. Supported values are: 'amd64', and  'arm64'.  If not specified, all appliances are returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/appliances#architecture DataSpectrocloudAppliances#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/appliances#architecture DataSpectrocloudAppliances#architecture}
   */
   readonly architecture?: string;
   /**
   * The context of the appliances. Allowed values are `project` or `tenant`. Defaults to `project`.If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/appliances#context DataSpectrocloudAppliances#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/appliances#context DataSpectrocloudAppliances#context}
   */
   readonly context?: string;
   /**
   * The health of the appliance. Supported values are: 'healthy', and 'unhealthy'.  If not specified, all appliances are returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/appliances#health DataSpectrocloudAppliances#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/appliances#health DataSpectrocloudAppliances#health}
   */
   readonly health?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/appliances#id DataSpectrocloudAppliances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/appliances#id DataSpectrocloudAppliances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface DataSpectrocloudAppliancesConfig extends cdktf.TerraformMetaArg
   /**
   * The status of the appliance. Supported values are: 'ready', 'in-use', and 'unpaired'.  If not specified, all appliances are returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/appliances#status DataSpectrocloudAppliances#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/appliances#status DataSpectrocloudAppliances#status}
   */
   readonly status?: string;
   /**
   * A list of tags to filter the appliances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/appliances#tags DataSpectrocloudAppliances#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/appliances#tags DataSpectrocloudAppliances#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/appliances spectrocloud_appliances}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/appliances spectrocloud_appliances}
 */
 export class DataSpectrocloudAppliances extends cdktf.TerraformDataSource {
 
@@ -63,7 +63,7 @@ export class DataSpectrocloudAppliances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpectrocloudAppliances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpectrocloudAppliances to import
-  * @param importFromId The id of the existing DataSpectrocloudAppliances that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/appliances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpectrocloudAppliances that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/appliances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpectrocloudAppliances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DataSpectrocloudAppliances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/appliances spectrocloud_appliances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/appliances spectrocloud_appliances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DataSpectrocloudAppliances extends cdktf.TerraformDataSource {
       terraformResourceType: 'spectrocloud_appliances',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.1',
-        providerVersionConstraint: '0.26.1'
+        providerVersion: '0.26.2',
+        providerVersionConstraint: '0.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

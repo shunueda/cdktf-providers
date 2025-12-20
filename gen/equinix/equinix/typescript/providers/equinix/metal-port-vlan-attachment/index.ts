@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_port_vlan_attachment
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_port_vlan_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MetalPortVlanAttachmentConfig extends cdktf.TerraformMetaArgume
   /**
   * ID of device to be assigned to the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_port_vlan_attachment#device_id MetalPortVlanAttachment#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_port_vlan_attachment#device_id MetalPortVlanAttachment#device_id}
   */
   readonly deviceId: string;
   /**
   * Add port back to the bond when this resource is removed. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_port_vlan_attachment#force_bond MetalPortVlanAttachment#force_bond}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_port_vlan_attachment#force_bond MetalPortVlanAttachment#force_bond}
   */
   readonly forceBond?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_port_vlan_attachment#id MetalPortVlanAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_port_vlan_attachment#id MetalPortVlanAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface MetalPortVlanAttachmentConfig extends cdktf.TerraformMetaArgume
   /**
   * Mark this VLAN a native VLAN on the port. This can be used only if this assignment assigns second or further VLAN to the port. To ensure that this attachment is not first on a port, you can use depends_on pointing to another equinix_metal_port_vlan_attachment, just like in the layer2-individual example above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_port_vlan_attachment#native MetalPortVlanAttachment#native}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_port_vlan_attachment#native MetalPortVlanAttachment#native}
   */
   readonly native?: boolean | cdktf.IResolvable;
   /**
   * Name of network port to be assigned to the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_port_vlan_attachment#port_name MetalPortVlanAttachment#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_port_vlan_attachment#port_name MetalPortVlanAttachment#port_name}
   */
   readonly portName: string;
   /**
   * VXLAN Network Identifier, integer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_port_vlan_attachment#vlan_vnid MetalPortVlanAttachment#vlan_vnid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_port_vlan_attachment#vlan_vnid MetalPortVlanAttachment#vlan_vnid}
   */
   readonly vlanVnid: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_port_vlan_attachment equinix_metal_port_vlan_attachment}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_port_vlan_attachment equinix_metal_port_vlan_attachment}
 */
 export class MetalPortVlanAttachment extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class MetalPortVlanAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalPortVlanAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalPortVlanAttachment to import
-  * @param importFromId The id of the existing MetalPortVlanAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_port_vlan_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalPortVlanAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_port_vlan_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalPortVlanAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class MetalPortVlanAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/metal_port_vlan_attachment equinix_metal_port_vlan_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/metal_port_vlan_attachment equinix_metal_port_vlan_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class MetalPortVlanAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_port_vlan_attachment',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

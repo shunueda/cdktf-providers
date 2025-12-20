@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunk
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_trunk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TelephonyProvidersEdgesTrunkConfig extends cdktf.TerraformMetaA
   /**
   * The edge group associated with this trunk. Either this or "edge_id" must be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunk#edge_group_id TelephonyProvidersEdgesTrunk#edge_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_trunk#edge_group_id TelephonyProvidersEdgesTrunk#edge_group_id}
   */
   readonly edgeGroupId?: string;
   /**
   * The edge associated with this trunk. Either this or "edge_group_id" must be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunk#edge_id TelephonyProvidersEdgesTrunk#edge_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_trunk#edge_id TelephonyProvidersEdgesTrunk#edge_id}
   */
   readonly edgeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunk#id TelephonyProvidersEdgesTrunk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_trunk#id TelephonyProvidersEdgesTrunk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface TelephonyProvidersEdgesTrunkConfig extends cdktf.TerraformMetaA
   /**
   * The name of the trunk. This property is read only and populated with the auto generated name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunk#name TelephonyProvidersEdgesTrunk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_trunk#name TelephonyProvidersEdgesTrunk#name}
   */
   readonly name?: string;
   /**
   * The trunk base settings reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunk#trunk_base_settings_id TelephonyProvidersEdgesTrunk#trunk_base_settings_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_trunk#trunk_base_settings_id TelephonyProvidersEdgesTrunk#trunk_base_settings_id}
   */
   readonly trunkBaseSettingsId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunk genesyscloud_telephony_providers_edges_trunk}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_trunk genesyscloud_telephony_providers_edges_trunk}
 */
 export class TelephonyProvidersEdgesTrunk extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class TelephonyProvidersEdgesTrunk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TelephonyProvidersEdgesTrunk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TelephonyProvidersEdgesTrunk to import
-  * @param importFromId The id of the existing TelephonyProvidersEdgesTrunk that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TelephonyProvidersEdgesTrunk that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_trunk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TelephonyProvidersEdgesTrunk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class TelephonyProvidersEdgesTrunk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_trunk genesyscloud_telephony_providers_edges_trunk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_trunk genesyscloud_telephony_providers_edges_trunk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class TelephonyProvidersEdgesTrunk extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_telephony_providers_edges_trunk',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

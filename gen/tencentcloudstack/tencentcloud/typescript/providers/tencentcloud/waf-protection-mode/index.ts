@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_protection_mode
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_protection_mode
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface WafProtectionModeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_protection_mode#domain WafProtectionMode#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_protection_mode#domain WafProtectionMode#domain}
   */
   readonly domain: string;
   /**
   * WAF edition. clb-waf means clb-waf, sparta-waf means saas-waf, default is sparta-waf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_protection_mode#edition WafProtectionMode#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_protection_mode#edition WafProtectionMode#edition}
   */
   readonly edition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_protection_mode#id WafProtectionMode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_protection_mode#id WafProtectionMode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface WafProtectionModeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Protection status:10: Rule observation; AI off mode, 11: Rule observation; AI observation mode, 12: Rule observation; AI interception mode20: Rule interception; AI off mode, 21: Rule interception; AI observation mode, 22: Rule interception; AI interception mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_protection_mode#mode WafProtectionMode#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_protection_mode#mode WafProtectionMode#mode}
   */
   readonly mode: number;
   /**
   * 0 is to modify the rule engine status, 1 is to modify the AI status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_protection_mode#type WafProtectionMode#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_protection_mode#type WafProtectionMode#type}
   */
   readonly type?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_protection_mode tencentcloud_waf_protection_mode}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_protection_mode tencentcloud_waf_protection_mode}
 */
 export class WafProtectionMode extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class WafProtectionMode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafProtectionMode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafProtectionMode to import
-  * @param importFromId The id of the existing WafProtectionMode that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_protection_mode#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafProtectionMode that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_protection_mode#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafProtectionMode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class WafProtectionMode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_protection_mode tencentcloud_waf_protection_mode} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_protection_mode tencentcloud_waf_protection_mode} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class WafProtectionMode extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_protection_mode',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

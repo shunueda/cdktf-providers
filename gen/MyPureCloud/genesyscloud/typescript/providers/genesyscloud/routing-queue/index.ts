@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface RoutingQueueConfig extends cdktf.TerraformMetaArguments {
   /**
   * The amount of time the agent can stay in ACW. Only set when ACW is MANDATORY_TIMEOUT, MANDATORY_FORCED_TIMEOUT or AGENT_REQUESTED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#acw_timeout_ms RoutingQueue#acw_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#acw_timeout_ms RoutingQueue#acw_timeout_ms}
   */
   readonly acwTimeoutMs?: number;
   /**
   * This field controls how the UI prompts the agent for a wrapup (MANDATORY | OPTIONAL | MANDATORY_TIMEOUT | MANDATORY_FORCED_TIMEOUT | AGENT_REQUESTED). Defaults to `MANDATORY_TIMEOUT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#acw_wrapup_prompt RoutingQueue#acw_wrapup_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#acw_wrapup_prompt RoutingQueue#acw_wrapup_prompt}
   */
   readonly acwWrapupPrompt?: string;
   /**
   * Specifies whether the configured whisper should play for all ACD calls, or only for those which are auto-answered. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#auto_answer_only RoutingQueue#auto_answer_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#auto_answer_only RoutingQueue#auto_answer_only}
   */
   readonly autoAnswerOnly?: boolean | cdktf.IResolvable;
   /**
   * The name to use for caller identification for outbound calls from this queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#calling_party_name RoutingQueue#calling_party_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#calling_party_name RoutingQueue#calling_party_name}
   */
   readonly callingPartyName?: string;
   /**
   * The phone number to use for caller identification for outbound calls from this queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#calling_party_number RoutingQueue#calling_party_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#calling_party_number RoutingQueue#calling_party_number}
   */
   readonly callingPartyNumber?: string;
   /**
   * The default script IDs for each communication type. Communication types: (CALL | CALLBACK | CHAT | COBROWSE | EMAIL | MESSAGE | SOCIAL_EXPRESSION | VIDEO | SCREENSHARE)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#default_script_ids RoutingQueue#default_script_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#default_script_ids RoutingQueue#default_script_ids}
   */
   readonly defaultScriptIds?: { [key: string]: string };
   /**
   * Queue description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#description RoutingQueue#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#description RoutingQueue#description}
   */
   readonly description?: string;
   /**
   * The division to which this queue will belong. If not set, the home division will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#division_id RoutingQueue#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#division_id RoutingQueue#division_id}
   */
   readonly divisionId?: string;
   /**
   * The in-queue flow ID to use for email conversations waiting in queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#email_in_queue_flow_id RoutingQueue#email_in_queue_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#email_in_queue_flow_id RoutingQueue#email_in_queue_flow_id}
   */
   readonly emailInQueueFlowId?: string;
   /**
   * Indicates whether audio monitoring is enabled for this queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_audio_monitoring RoutingQueue#enable_audio_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_audio_monitoring RoutingQueue#enable_audio_monitoring}
   */
   readonly enableAudioMonitoring?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether manual assignment is enabled for this queue. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_manual_assignment RoutingQueue#enable_manual_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_manual_assignment RoutingQueue#enable_manual_assignment}
   */
   readonly enableManualAssignment?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether voice transcription is enabled for this queue. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_transcription RoutingQueue#enable_transcription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_transcription RoutingQueue#enable_transcription}
   */
   readonly enableTranscription?: boolean | cdktf.IResolvable;
   /**
   * List of group ids assigned to the queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#groups RoutingQueue#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#groups RoutingQueue#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#id RoutingQueue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#id RoutingQueue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,193 +95,193 @@ export interface RoutingQueueConfig extends cdktf.TerraformMetaArguments {
   /**
   * If true, queue members will not be managed through Terraform state or API updates. This provides backwards compatibility for configurations where queue members are managed outside of Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#ignore_members RoutingQueue#ignore_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#ignore_members RoutingQueue#ignore_members}
   */
   readonly ignoreMembers?: boolean | cdktf.IResolvable;
   /**
   * The Last Agent Routing Mode for the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#last_agent_routing_mode RoutingQueue#last_agent_routing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#last_agent_routing_mode RoutingQueue#last_agent_routing_mode}
   */
   readonly lastAgentRoutingMode?: string;
   /**
   * The in-queue flow ID to use for message conversations waiting in queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#message_in_queue_flow_id RoutingQueue#message_in_queue_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#message_in_queue_flow_id RoutingQueue#message_in_queue_flow_id}
   */
   readonly messageInQueueFlowId?: string;
   /**
   * Queue name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#name RoutingQueue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#name RoutingQueue#name}
   */
   readonly name: string;
   /**
   * The audio to be played when calls on this queue are on hold. If not configured, the default on-hold music will play.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#on_hold_prompt_id RoutingQueue#on_hold_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#on_hold_prompt_id RoutingQueue#on_hold_prompt_id}
   */
   readonly onHoldPromptId?: string;
   /**
   * The unique ID of the outbound messaging open messaging recipient for the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#outbound_messaging_open_messaging_recipient_id RoutingQueue#outbound_messaging_open_messaging_recipient_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#outbound_messaging_open_messaging_recipient_id RoutingQueue#outbound_messaging_open_messaging_recipient_id}
   */
   readonly outboundMessagingOpenMessagingRecipientId?: string;
   /**
   * The unique ID of the outbound messaging SMS address for the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#outbound_messaging_sms_address_id RoutingQueue#outbound_messaging_sms_address_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#outbound_messaging_sms_address_id RoutingQueue#outbound_messaging_sms_address_id}
   */
   readonly outboundMessagingSmsAddressId?: string;
   /**
   * The unique ID of the outbound messaging whatsapp recipient for the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#outbound_messaging_whatsapp_recipient_id RoutingQueue#outbound_messaging_whatsapp_recipient_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#outbound_messaging_whatsapp_recipient_id RoutingQueue#outbound_messaging_whatsapp_recipient_id}
   */
   readonly outboundMessagingWhatsappRecipientId?: string;
   /**
   * The ID of an associated external queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#peer_id RoutingQueue#peer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#peer_id RoutingQueue#peer_id}
   */
   readonly peerId?: string;
   /**
   * The in-queue flow ID to use for call conversations waiting in queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#queue_flow_id RoutingQueue#queue_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#queue_flow_id RoutingQueue#queue_flow_id}
   */
   readonly queueFlowId?: string;
   /**
   * The Scoring Method for the queue. Defaults to TimestampAndPriority. Defaults to `TimestampAndPriority`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#scoring_method RoutingQueue#scoring_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#scoring_method RoutingQueue#scoring_method}
   */
   readonly scoringMethod?: string;
   /**
   * The skill evaluation method to use when routing conversations (NONE | BEST | ALL). Defaults to `ALL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#skill_evaluation_method RoutingQueue#skill_evaluation_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#skill_evaluation_method RoutingQueue#skill_evaluation_method}
   */
   readonly skillEvaluationMethod?: string;
   /**
   * List of skill group ids assigned to the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#skill_groups RoutingQueue#skill_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#skill_groups RoutingQueue#skill_groups}
   */
   readonly skillGroups?: string[];
   /**
   * The id of an existing queue to copy the settings (does not include GPR settings) from when creating a new queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#source_queue_id RoutingQueue#source_queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#source_queue_id RoutingQueue#source_queue_id}
   */
   readonly sourceQueueId?: string;
   /**
   * Indicates whether recording in-queue calls is suppressed for this queue. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#suppress_in_queue_call_recording RoutingQueue#suppress_in_queue_call_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#suppress_in_queue_call_recording RoutingQueue#suppress_in_queue_call_recording}
   */
   readonly suppressInQueueCallRecording?: boolean | cdktf.IResolvable;
   /**
   * List of ids assigned to the queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#teams RoutingQueue#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#teams RoutingQueue#teams}
   */
   readonly teams?: string[];
   /**
   * The prompt ID used for whisper on the queue, if configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#whisper_prompt_id RoutingQueue#whisper_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#whisper_prompt_id RoutingQueue#whisper_prompt_id}
   */
   readonly whisperPromptId?: string;
   /**
   * IDs of wrapup codes assigned to this queue. If not set, this resource will not manage wrapup codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#wrapup_codes RoutingQueue#wrapup_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#wrapup_codes RoutingQueue#wrapup_codes}
   */
   readonly wrapupCodes?: string[];
   /**
   * agent_owned_routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#agent_owned_routing RoutingQueue#agent_owned_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#agent_owned_routing RoutingQueue#agent_owned_routing}
   */
   readonly agentOwnedRouting?: RoutingQueueAgentOwnedRouting;
   /**
   * bullseye_rings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#bullseye_rings RoutingQueue#bullseye_rings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#bullseye_rings RoutingQueue#bullseye_rings}
   */
   readonly bullseyeRings?: RoutingQueueBullseyeRings[] | cdktf.IResolvable;
   /**
   * canned_response_libraries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#canned_response_libraries RoutingQueue#canned_response_libraries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#canned_response_libraries RoutingQueue#canned_response_libraries}
   */
   readonly cannedResponseLibraries?: RoutingQueueCannedResponseLibraries;
   /**
   * conditional_group_activation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#conditional_group_activation RoutingQueue#conditional_group_activation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#conditional_group_activation RoutingQueue#conditional_group_activation}
   */
   readonly conditionalGroupActivation?: RoutingQueueConditionalGroupActivation;
   /**
   * conditional_group_routing_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#conditional_group_routing_rules RoutingQueue#conditional_group_routing_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#conditional_group_routing_rules RoutingQueue#conditional_group_routing_rules}
   */
   readonly conditionalGroupRoutingRules?: RoutingQueueConditionalGroupRoutingRules[] | cdktf.IResolvable;
   /**
   * direct_routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#direct_routing RoutingQueue#direct_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#direct_routing RoutingQueue#direct_routing}
   */
   readonly directRouting?: RoutingQueueDirectRouting;
   /**
   * media_settings_call block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#media_settings_call RoutingQueue#media_settings_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#media_settings_call RoutingQueue#media_settings_call}
   */
   readonly mediaSettingsCall?: RoutingQueueMediaSettingsCall;
   /**
   * media_settings_callback block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#media_settings_callback RoutingQueue#media_settings_callback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#media_settings_callback RoutingQueue#media_settings_callback}
   */
   readonly mediaSettingsCallback?: RoutingQueueMediaSettingsCallback;
   /**
   * media_settings_chat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#media_settings_chat RoutingQueue#media_settings_chat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#media_settings_chat RoutingQueue#media_settings_chat}
   */
   readonly mediaSettingsChat?: RoutingQueueMediaSettingsChat;
   /**
   * media_settings_email block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#media_settings_email RoutingQueue#media_settings_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#media_settings_email RoutingQueue#media_settings_email}
   */
   readonly mediaSettingsEmail?: RoutingQueueMediaSettingsEmail;
   /**
   * media_settings_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#media_settings_message RoutingQueue#media_settings_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#media_settings_message RoutingQueue#media_settings_message}
   */
   readonly mediaSettingsMessage?: RoutingQueueMediaSettingsMessage;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#members RoutingQueue#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#members RoutingQueue#members}
   */
   readonly members?: RoutingQueueMembers[] | cdktf.IResolvable;
   /**
   * outbound_email_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#outbound_email_address RoutingQueue#outbound_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#outbound_email_address RoutingQueue#outbound_email_address}
   */
   readonly outboundEmailAddress?: RoutingQueueOutboundEmailAddress;
   /**
   * routing_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#routing_rules RoutingQueue#routing_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#routing_rules RoutingQueue#routing_rules}
   */
   readonly routingRules?: RoutingQueueRoutingRules[] | cdktf.IResolvable;
 }
@@ -289,19 +289,19 @@ export interface RoutingQueueAgentOwnedRouting {
   /**
   * Enable Agent Owned Callbacks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_agent_owned_callbacks RoutingQueue#enable_agent_owned_callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_agent_owned_callbacks RoutingQueue#enable_agent_owned_callbacks}
   */
   readonly enableAgentOwnedCallbacks?: boolean | cdktf.IResolvable;
   /**
   * Max Owned Call Back Delay Hours >= 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#max_owned_callback_delay_hours RoutingQueue#max_owned_callback_delay_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#max_owned_callback_delay_hours RoutingQueue#max_owned_callback_delay_hours}
   */
   readonly maxOwnedCallbackDelayHours?: number;
   /**
   * Auto End Delay Seconds Must be >= 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#max_owned_callback_hours RoutingQueue#max_owned_callback_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#max_owned_callback_hours RoutingQueue#max_owned_callback_hours}
   */
   readonly maxOwnedCallbackHours?: number;
 }
@@ -445,13 +445,13 @@ export interface RoutingQueueBullseyeRingsMemberGroups {
   /**
   * ID (GUID) for Group, SkillGroup, Team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#member_group_id RoutingQueue#member_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#member_group_id RoutingQueue#member_group_id}
   */
   readonly memberGroupId: string;
   /**
   * The type of the member group. Accepted values: TEAM, GROUP, SKILLGROUP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#member_group_type RoutingQueue#member_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#member_group_type RoutingQueue#member_group_type}
   */
   readonly memberGroupType: string;
 }
@@ -592,19 +592,19 @@ export interface RoutingQueueBullseyeRings {
   /**
   * Seconds to wait in this ring before moving to the next.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#expansion_timeout_seconds RoutingQueue#expansion_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#expansion_timeout_seconds RoutingQueue#expansion_timeout_seconds}
   */
   readonly expansionTimeoutSeconds: number;
   /**
   * Skill IDs to remove on ring exit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#skills_to_remove RoutingQueue#skills_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#skills_to_remove RoutingQueue#skills_to_remove}
   */
   readonly skillsToRemove?: string[];
   /**
   * member_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#member_groups RoutingQueue#member_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#member_groups RoutingQueue#member_groups}
   */
   readonly memberGroups?: RoutingQueueBullseyeRingsMemberGroups[] | cdktf.IResolvable;
 }
@@ -777,13 +777,13 @@ export interface RoutingQueueCannedResponseLibraries {
   /**
   * Set of canned response library IDs associated with the queue. Populate this field only when the mode is set to SelectedOnly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#library_ids RoutingQueue#library_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#library_ids RoutingQueue#library_ids}
   */
   readonly libraryIds?: string[];
   /**
   * The association mode of canned response libraries to queue.Valid values: All, SelectedOnly, None.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#mode RoutingQueue#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#mode RoutingQueue#mode}
   */
   readonly mode?: string;
 }
@@ -898,13 +898,13 @@ export interface RoutingQueueConditionalGroupActivationPilotRuleConditionsSimple
   /**
   * The queue metric being evaluated.  Valid values: EstimatedWaitTime, ServiceLevel, IdleAgentCount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#metric RoutingQueue#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#metric RoutingQueue#metric}
   */
   readonly metric: string;
   /**
   * The queue being evaluated for this rule.  If null, the current queue will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#queue_id RoutingQueue#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#queue_id RoutingQueue#queue_id}
   */
   readonly queueId?: string;
 }
@@ -1016,19 +1016,19 @@ export interface RoutingQueueConditionalGroupActivationPilotRuleConditions {
   /**
   * The operator used to compare the actual value against the threshold value. Valid values: GreaterThan, GreaterThanOrEqualTo, LessThan, LessThanOrEqualTo, EqualTo, NotEqualTo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#operator RoutingQueue#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#operator RoutingQueue#operator}
   */
   readonly operator: string;
   /**
   * The threshold value, beyond which a rule evaluates as true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#value RoutingQueue#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#value RoutingQueue#value}
   */
   readonly value: number;
   /**
   * simple_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#simple_metric RoutingQueue#simple_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#simple_metric RoutingQueue#simple_metric}
   */
   readonly simpleMetric: RoutingQueueConditionalGroupActivationPilotRuleConditionsSimpleMetric;
 }
@@ -1195,13 +1195,13 @@ export interface RoutingQueueConditionalGroupActivationPilotRule {
   /**
   * A string expression that defines the relationships of conditions in this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#condition_expression RoutingQueue#condition_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#condition_expression RoutingQueue#condition_expression}
   */
   readonly conditionExpression: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#conditions RoutingQueue#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#conditions RoutingQueue#conditions}
   */
   readonly conditions: RoutingQueueConditionalGroupActivationPilotRuleConditions[] | cdktf.IResolvable;
 }
@@ -1310,13 +1310,13 @@ export interface RoutingQueueConditionalGroupActivationRulesConditionsSimpleMetr
   /**
   * The queue metric being evaluated.  Valid values: EstimatedWaitTime, ServiceLevel, IdleAgentCount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#metric RoutingQueue#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#metric RoutingQueue#metric}
   */
   readonly metric: string;
   /**
   * The queue being evaluated for this rule.  If null, the current queue will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#queue_id RoutingQueue#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#queue_id RoutingQueue#queue_id}
   */
   readonly queueId?: string;
 }
@@ -1428,19 +1428,19 @@ export interface RoutingQueueConditionalGroupActivationRulesConditions {
   /**
   * The operator used to compare the actual value against the threshold value. Valid values: GreaterThan, GreaterThanOrEqualTo, LessThan, LessThanOrEqualTo, EqualTo, NotEqualTo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#operator RoutingQueue#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#operator RoutingQueue#operator}
   */
   readonly operator: string;
   /**
   * The threshold value, beyond which a rule evaluates as true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#value RoutingQueue#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#value RoutingQueue#value}
   */
   readonly value: number;
   /**
   * simple_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#simple_metric RoutingQueue#simple_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#simple_metric RoutingQueue#simple_metric}
   */
   readonly simpleMetric: RoutingQueueConditionalGroupActivationRulesConditionsSimpleMetric;
 }
@@ -1607,13 +1607,13 @@ export interface RoutingQueueConditionalGroupActivationRulesGroups {
   /**
   * ID (GUID) for Group, SkillGroup, Team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#member_group_id RoutingQueue#member_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#member_group_id RoutingQueue#member_group_id}
   */
   readonly memberGroupId: string;
   /**
   * The type of the member group. Accepted values: TEAM, GROUP, SKILLGROUP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#member_group_type RoutingQueue#member_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#member_group_type RoutingQueue#member_group_type}
   */
   readonly memberGroupType: string;
 }
@@ -1754,19 +1754,19 @@ export interface RoutingQueueConditionalGroupActivationRules {
   /**
   * A string expression that defines the relationships of conditions in this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#condition_expression RoutingQueue#condition_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#condition_expression RoutingQueue#condition_expression}
   */
   readonly conditionExpression: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#conditions RoutingQueue#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#conditions RoutingQueue#conditions}
   */
   readonly conditions: RoutingQueueConditionalGroupActivationRulesConditions[] | cdktf.IResolvable;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#groups RoutingQueue#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#groups RoutingQueue#groups}
   */
   readonly groups: RoutingQueueConditionalGroupActivationRulesGroups[] | cdktf.IResolvable;
 }
@@ -1933,13 +1933,13 @@ export interface RoutingQueueConditionalGroupActivation {
   /**
   * pilot_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#pilot_rule RoutingQueue#pilot_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#pilot_rule RoutingQueue#pilot_rule}
   */
   readonly pilotRule?: RoutingQueueConditionalGroupActivationPilotRule;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#rules RoutingQueue#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#rules RoutingQueue#rules}
   */
   readonly rules: RoutingQueueConditionalGroupActivationRules[] | cdktf.IResolvable;
 }
@@ -2051,13 +2051,13 @@ export interface RoutingQueueConditionalGroupRoutingRulesGroups {
   /**
   * ID (GUID) for Group, SkillGroup, Team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#member_group_id RoutingQueue#member_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#member_group_id RoutingQueue#member_group_id}
   */
   readonly memberGroupId: string;
   /**
   * The type of the member group. Accepted values: TEAM, GROUP, SKILLGROUP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#member_group_type RoutingQueue#member_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#member_group_type RoutingQueue#member_group_type}
   */
   readonly memberGroupType: string;
 }
@@ -2198,37 +2198,37 @@ export interface RoutingQueueConditionalGroupRoutingRules {
   /**
   * The limit value, beyond which a rule evaluates as true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#condition_value RoutingQueue#condition_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#condition_value RoutingQueue#condition_value}
   */
   readonly conditionValue?: number;
   /**
   * The queue metric being evaluated. Valid values: EstimatedWaitTime, ServiceLevel Defaults to `EstimatedWaitTime`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#metric RoutingQueue#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#metric RoutingQueue#metric}
   */
   readonly metric?: string;
   /**
   * The operator that compares the actual value against the condition value. Valid values: GreaterThan, GreaterThanOrEqualTo, LessThan, LessThanOrEqualTo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#operator RoutingQueue#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#operator RoutingQueue#operator}
   */
   readonly operator?: string;
   /**
   * The ID of the queue being evaluated for this rule. For rule 1, this is always be the current queue, so no queue id should be specified for the first rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#queue_id RoutingQueue#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#queue_id RoutingQueue#queue_id}
   */
   readonly queueId?: string;
   /**
   * The number of seconds to wait in this rule, if it evaluates as true, before evaluating the next rule. For the final rule, this is ignored, so need not be specified. Defaults to `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#wait_seconds RoutingQueue#wait_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#wait_seconds RoutingQueue#wait_seconds}
   */
   readonly waitSeconds?: number;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#groups RoutingQueue#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#groups RoutingQueue#groups}
   */
   readonly groups: RoutingQueueConditionalGroupRoutingRulesGroups[] | cdktf.IResolvable;
 }
@@ -2488,37 +2488,37 @@ export interface RoutingQueueDirectRouting {
   /**
   * The queue default time a Direct Routing interaction will wait for an agent before it goes to configured backup. Defaults to `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#agent_wait_seconds RoutingQueue#agent_wait_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#agent_wait_seconds RoutingQueue#agent_wait_seconds}
   */
   readonly agentWaitSeconds?: number;
   /**
   * Direct Routing default backup queue id (if none supplied this queue will be used as backup).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#backup_queue_id RoutingQueue#backup_queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#backup_queue_id RoutingQueue#backup_queue_id}
   */
   readonly backupQueueId?: string;
   /**
   * Boolean indicating if user Direct Routing addresses should be used outbound on behalf of queue in place of Queue address for calls. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#call_use_agent_address_outbound RoutingQueue#call_use_agent_address_outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#call_use_agent_address_outbound RoutingQueue#call_use_agent_address_outbound}
   */
   readonly callUseAgentAddressOutbound?: boolean | cdktf.IResolvable;
   /**
   * Boolean indicating if user Direct Routing addresses should be used outbound on behalf of queue in place of Queue address for emails. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#email_use_agent_address_outbound RoutingQueue#email_use_agent_address_outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#email_use_agent_address_outbound RoutingQueue#email_use_agent_address_outbound}
   */
   readonly emailUseAgentAddressOutbound?: boolean | cdktf.IResolvable;
   /**
   * Boolean indicating if user Direct Routing addresses should be used outbound on behalf of queue in place of Queue address for messages. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#message_use_agent_address_outbound RoutingQueue#message_use_agent_address_outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#message_use_agent_address_outbound RoutingQueue#message_use_agent_address_outbound}
   */
   readonly messageUseAgentAddressOutbound?: boolean | cdktf.IResolvable;
   /**
   * Boolean indicating if Direct Routing interactions should wait for the targeted agent by default. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#wait_for_agent RoutingQueue#wait_for_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#wait_for_agent RoutingQueue#wait_for_agent}
   */
   readonly waitForAgent?: boolean | cdktf.IResolvable;
 }
@@ -2749,13 +2749,13 @@ export interface RoutingQueueMediaSettingsCallSubTypeSettings {
   /**
   * Indicates if auto-answer is enabled for the given media type or subtype (default is false). Subtype settings take precedence over media type settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
   */
   readonly enableAutoAnswer: boolean | cdktf.IResolvable;
   /**
   * The name of the social media company
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#media_type RoutingQueue#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#media_type RoutingQueue#media_type}
   */
   readonly mediaType: string;
 }
@@ -2896,31 +2896,31 @@ export interface RoutingQueueMediaSettingsCall {
   /**
   * Alerting timeout in seconds. Must be >= 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#alerting_timeout_sec RoutingQueue#alerting_timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#alerting_timeout_sec RoutingQueue#alerting_timeout_sec}
   */
   readonly alertingTimeoutSec?: number;
   /**
   * Auto-Answer for digital channels(Email, Message) Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
   */
   readonly enableAutoAnswer?: boolean | cdktf.IResolvable;
   /**
   * Service Level target in milliseconds. Must be >= 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#service_level_duration_ms RoutingQueue#service_level_duration_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#service_level_duration_ms RoutingQueue#service_level_duration_ms}
   */
   readonly serviceLevelDurationMs?: number;
   /**
   * The desired Service Level. A float value between 0 and 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#service_level_percentage RoutingQueue#service_level_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#service_level_percentage RoutingQueue#service_level_percentage}
   */
   readonly serviceLevelPercentage?: number;
   /**
   * sub_type_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#sub_type_settings RoutingQueue#sub_type_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#sub_type_settings RoutingQueue#sub_type_settings}
   */
   readonly subTypeSettings?: RoutingQueueMediaSettingsCallSubTypeSettings[] | cdktf.IResolvable;
 }
@@ -3122,13 +3122,13 @@ export interface RoutingQueueMediaSettingsCallbackSubTypeSettings {
   /**
   * Indicates if auto-answer is enabled for the given media type or subtype (default is false). Subtype settings take precedence over media type settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
   */
   readonly enableAutoAnswer: boolean | cdktf.IResolvable;
   /**
   * The name of the social media company
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#media_type RoutingQueue#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#media_type RoutingQueue#media_type}
   */
   readonly mediaType: string;
 }
@@ -3269,109 +3269,109 @@ export interface RoutingQueueMediaSettingsCallback {
   /**
   * Alerting timeout in seconds. Must be >= 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#alerting_timeout_sec RoutingQueue#alerting_timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#alerting_timeout_sec RoutingQueue#alerting_timeout_sec}
   */
   readonly alertingTimeoutSec?: number;
   /**
   * The inbound flow to transfer to if an answering machine is detected during the outbound call of a customer first callback when answeringMachineReactionType is set to TransferToFlow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#answering_machine_flow_id RoutingQueue#answering_machine_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#answering_machine_flow_id RoutingQueue#answering_machine_flow_id}
   */
   readonly answeringMachineFlowId?: string;
   /**
   * The action to take if an answering machine is detected during the outbound call of a customer first callback. Valid values include: HangUp, TransferToQueue, TransferToFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#answering_machine_reaction_type RoutingQueue#answering_machine_reaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#answering_machine_reaction_type RoutingQueue#answering_machine_reaction_type}
   */
   readonly answeringMachineReactionType?: string;
   /**
   * How long to play the alerting tone for an auto-answer interaction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#auto_answer_alert_tone_seconds RoutingQueue#auto_answer_alert_tone_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#auto_answer_alert_tone_seconds RoutingQueue#auto_answer_alert_tone_seconds}
   */
   readonly autoAnswerAlertToneSeconds?: number;
   /**
   * Auto Dial Delay Seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#auto_dial_delay_seconds RoutingQueue#auto_dial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#auto_dial_delay_seconds RoutingQueue#auto_dial_delay_seconds}
   */
   readonly autoDialDelaySeconds?: number;
   /**
   * Auto End Delay Seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#auto_end_delay_seconds RoutingQueue#auto_end_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#auto_end_delay_seconds RoutingQueue#auto_end_delay_seconds}
   */
   readonly autoEndDelaySeconds?: number;
   /**
   * Auto-Answer for digital channels(Email, Message) Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
   */
   readonly enableAutoAnswer?: boolean | cdktf.IResolvable;
   /**
   * Auto Dial and End Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_auto_dial_and_end RoutingQueue#enable_auto_dial_and_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_auto_dial_and_end RoutingQueue#enable_auto_dial_and_end}
   */
   readonly enableAutoDialAndEnd?: boolean | cdktf.IResolvable;
   /**
   * The inbound flow to transfer to if a live voice is detected during the outbound call of a customer first callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#live_voice_flow_id RoutingQueue#live_voice_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#live_voice_flow_id RoutingQueue#live_voice_flow_id}
   */
   readonly liveVoiceFlowId?: string;
   /**
   * The action to take if a live voice is detected during the outbound call of a customer first callback. Valid values include: HangUp, TransferToQueue, TransferToFlow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#live_voice_reaction_type RoutingQueue#live_voice_reaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#live_voice_reaction_type RoutingQueue#live_voice_reaction_type}
   */
   readonly liveVoiceReactionType?: string;
   /**
   * How long to play the alerting tone for a manual-answer interaction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#manual_answer_alert_tone_seconds RoutingQueue#manual_answer_alert_tone_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#manual_answer_alert_tone_seconds RoutingQueue#manual_answer_alert_tone_seconds}
   */
   readonly manualAnswerAlertToneSeconds?: number;
   /**
   * Maximum number of retries that should be attempted to try and connect a customer first callback to a customer when the initial callback attempt did not connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#max_retry_count RoutingQueue#max_retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#max_retry_count RoutingQueue#max_retry_count}
   */
   readonly maxRetryCount?: number;
   /**
   * The mode callbacks will use on this queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#mode RoutingQueue#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#mode RoutingQueue#mode}
   */
   readonly mode?: string;
   /**
   * Controls the maximum number of outbound calls at one time when mode is CustomerFirst.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#pacing_modifier RoutingQueue#pacing_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#pacing_modifier RoutingQueue#pacing_modifier}
   */
   readonly pacingModifier?: number;
   /**
   * Delay in seconds between each retry of a customer first callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#retry_delay_seconds RoutingQueue#retry_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#retry_delay_seconds RoutingQueue#retry_delay_seconds}
   */
   readonly retryDelaySeconds?: number;
   /**
   * Service Level target in milliseconds. Must be >= 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#service_level_duration_ms RoutingQueue#service_level_duration_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#service_level_duration_ms RoutingQueue#service_level_duration_ms}
   */
   readonly serviceLevelDurationMs?: number;
   /**
   * The desired Service Level. A float value between 0 and 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#service_level_percentage RoutingQueue#service_level_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#service_level_percentage RoutingQueue#service_level_percentage}
   */
   readonly serviceLevelPercentage?: number;
   /**
   * sub_type_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#sub_type_settings RoutingQueue#sub_type_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#sub_type_settings RoutingQueue#sub_type_settings}
   */
   readonly subTypeSettings?: RoutingQueueMediaSettingsCallbackSubTypeSettings[] | cdktf.IResolvable;
 }
@@ -3950,13 +3950,13 @@ export interface RoutingQueueMediaSettingsChatSubTypeSettings {
   /**
   * Indicates if auto-answer is enabled for the given media type or subtype (default is false). Subtype settings take precedence over media type settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
   */
   readonly enableAutoAnswer: boolean | cdktf.IResolvable;
   /**
   * The name of the social media company
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#media_type RoutingQueue#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#media_type RoutingQueue#media_type}
   */
   readonly mediaType: string;
 }
@@ -4097,31 +4097,31 @@ export interface RoutingQueueMediaSettingsChat {
   /**
   * Alerting timeout in seconds. Must be >= 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#alerting_timeout_sec RoutingQueue#alerting_timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#alerting_timeout_sec RoutingQueue#alerting_timeout_sec}
   */
   readonly alertingTimeoutSec?: number;
   /**
   * Auto-Answer for digital channels(Email, Message) Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
   */
   readonly enableAutoAnswer?: boolean | cdktf.IResolvable;
   /**
   * Service Level target in milliseconds. Must be >= 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#service_level_duration_ms RoutingQueue#service_level_duration_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#service_level_duration_ms RoutingQueue#service_level_duration_ms}
   */
   readonly serviceLevelDurationMs?: number;
   /**
   * The desired Service Level. A float value between 0 and 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#service_level_percentage RoutingQueue#service_level_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#service_level_percentage RoutingQueue#service_level_percentage}
   */
   readonly serviceLevelPercentage?: number;
   /**
   * sub_type_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#sub_type_settings RoutingQueue#sub_type_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#sub_type_settings RoutingQueue#sub_type_settings}
   */
   readonly subTypeSettings?: RoutingQueueMediaSettingsChatSubTypeSettings[] | cdktf.IResolvable;
 }
@@ -4323,13 +4323,13 @@ export interface RoutingQueueMediaSettingsEmailSubTypeSettings {
   /**
   * Indicates if auto-answer is enabled for the given media type or subtype (default is false). Subtype settings take precedence over media type settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
   */
   readonly enableAutoAnswer: boolean | cdktf.IResolvable;
   /**
   * The name of the social media company
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#media_type RoutingQueue#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#media_type RoutingQueue#media_type}
   */
   readonly mediaType: string;
 }
@@ -4470,31 +4470,31 @@ export interface RoutingQueueMediaSettingsEmail {
   /**
   * Alerting timeout in seconds. Must be >= 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#alerting_timeout_sec RoutingQueue#alerting_timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#alerting_timeout_sec RoutingQueue#alerting_timeout_sec}
   */
   readonly alertingTimeoutSec?: number;
   /**
   * Auto-Answer for digital channels(Email, Message) Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
   */
   readonly enableAutoAnswer?: boolean | cdktf.IResolvable;
   /**
   * Service Level target in milliseconds. Must be >= 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#service_level_duration_ms RoutingQueue#service_level_duration_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#service_level_duration_ms RoutingQueue#service_level_duration_ms}
   */
   readonly serviceLevelDurationMs?: number;
   /**
   * The desired Service Level. A float value between 0 and 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#service_level_percentage RoutingQueue#service_level_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#service_level_percentage RoutingQueue#service_level_percentage}
   */
   readonly serviceLevelPercentage?: number;
   /**
   * sub_type_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#sub_type_settings RoutingQueue#sub_type_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#sub_type_settings RoutingQueue#sub_type_settings}
   */
   readonly subTypeSettings?: RoutingQueueMediaSettingsEmailSubTypeSettings[] | cdktf.IResolvable;
 }
@@ -4696,13 +4696,13 @@ export interface RoutingQueueMediaSettingsMessageSubTypeSettings {
   /**
   * Indicates if auto-answer is enabled for the given media type or subtype (default is false). Subtype settings take precedence over media type settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
   */
   readonly enableAutoAnswer: boolean | cdktf.IResolvable;
   /**
   * The name of the social media company
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#media_type RoutingQueue#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#media_type RoutingQueue#media_type}
   */
   readonly mediaType: string;
 }
@@ -4843,31 +4843,31 @@ export interface RoutingQueueMediaSettingsMessage {
   /**
   * Alerting timeout in seconds. Must be >= 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#alerting_timeout_sec RoutingQueue#alerting_timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#alerting_timeout_sec RoutingQueue#alerting_timeout_sec}
   */
   readonly alertingTimeoutSec?: number;
   /**
   * Auto-Answer for digital channels(Email, Message) Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#enable_auto_answer RoutingQueue#enable_auto_answer}
   */
   readonly enableAutoAnswer?: boolean | cdktf.IResolvable;
   /**
   * Service Level target in milliseconds. Must be >= 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#service_level_duration_ms RoutingQueue#service_level_duration_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#service_level_duration_ms RoutingQueue#service_level_duration_ms}
   */
   readonly serviceLevelDurationMs?: number;
   /**
   * The desired Service Level. A float value between 0 and 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#service_level_percentage RoutingQueue#service_level_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#service_level_percentage RoutingQueue#service_level_percentage}
   */
   readonly serviceLevelPercentage?: number;
   /**
   * sub_type_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#sub_type_settings RoutingQueue#sub_type_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#sub_type_settings RoutingQueue#sub_type_settings}
   */
   readonly subTypeSettings?: RoutingQueueMediaSettingsMessageSubTypeSettings[] | cdktf.IResolvable;
 }
@@ -5069,13 +5069,13 @@ export interface RoutingQueueMembers {
   /**
   * Ring number between 1 and 6 for this user in the queue. Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#ring_num RoutingQueue#ring_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#ring_num RoutingQueue#ring_num}
   */
   readonly ringNum?: number;
   /**
   * User ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#user_id RoutingQueue#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#user_id RoutingQueue#user_id}
   */
   readonly userId: string;
 }
@@ -5219,13 +5219,13 @@ export interface RoutingQueueOutboundEmailAddress {
   /**
   * Unique ID of the email domain. e.g. "test.example.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#domain_id RoutingQueue#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#domain_id RoutingQueue#domain_id}
   */
   readonly domainId: string;
   /**
   * Unique ID of the email route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#route_id RoutingQueue#route_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#route_id RoutingQueue#route_id}
   */
   readonly routeId: string;
 }
@@ -5334,19 +5334,19 @@ export interface RoutingQueueRoutingRules {
   /**
   * Matching operator (MEETS_THRESHOLD | ANY). MEETS_THRESHOLD matches any agent with a score at or above the rule's threshold. ANY matches all specified agents, regardless of score. Defaults to `MEETS_THRESHOLD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#operator RoutingQueue#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#operator RoutingQueue#operator}
   */
   readonly operator?: string;
   /**
   * Threshold required for routing attempt (generally an agent score). Ignored for operator ANY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#threshold RoutingQueue#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#threshold RoutingQueue#threshold}
   */
   readonly threshold?: number;
   /**
   * Seconds to wait in this rule before moving to the next. Defaults to `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#wait_seconds RoutingQueue#wait_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#wait_seconds RoutingQueue#wait_seconds}
   */
   readonly waitSeconds?: number;
 }
@@ -5520,7 +5520,7 @@ export class RoutingQueueRoutingRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue genesyscloud_routing_queue}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue genesyscloud_routing_queue}
 */
 export class RoutingQueue extends cdktf.TerraformResource {
 
@@ -5536,7 +5536,7 @@ export class RoutingQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingQueue to import
-  * @param importFromId The id of the existing RoutingQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5548,7 +5548,7 @@ export class RoutingQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/routing_queue genesyscloud_routing_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/routing_queue genesyscloud_routing_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5559,8 +5559,8 @@ export class RoutingQueue extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_routing_queue',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

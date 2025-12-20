@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface LkeClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enables the App Platform Layer for this cluster. Note: v4beta only and may not currently be available to all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#apl_enabled LkeCluster#apl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#apl_enabled LkeCluster#apl_enabled}
   */
   readonly aplEnabled?: boolean | cdktf.IResolvable;
   /**
   * An array of tags indicating that node pools having those tags are defined with a separate nodepool resource, rather than inside the current cluster resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#external_pool_tags LkeCluster#external_pool_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#external_pool_tags LkeCluster#external_pool_tags}
   */
   readonly externalPoolTags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#id LkeCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#id LkeCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,67 +29,67 @@ export interface LkeClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The desired Kubernetes version for this Kubernetes cluster in the format of <major>.<minor>. The latest supported patch version will be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#k8s_version LkeCluster#k8s_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#k8s_version LkeCluster#k8s_version}
   */
   readonly k8SVersion: string;
   /**
   * The unique label for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#label LkeCluster#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#label LkeCluster#label}
   */
   readonly label: string;
   /**
   * This cluster's location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#region LkeCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#region LkeCluster#region}
   */
   readonly region: string;
   /**
   * The networking stack type of the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#stack_type LkeCluster#stack_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#stack_type LkeCluster#stack_type}
   */
   readonly stackType?: string;
   /**
   * The ID of the VPC subnet to use for the Kubernetes cluster. This subnet must be dual stack (IPv4 and IPv6 should both be enabled). 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#subnet_id LkeCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#subnet_id LkeCluster#subnet_id}
   */
   readonly subnetId?: number;
   /**
   * An array of tags applied to this object. Tags are for organizational purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#tags LkeCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#tags LkeCluster#tags}
   */
   readonly tags?: string[];
   /**
   * The desired Kubernetes tier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#tier LkeCluster#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#tier LkeCluster#tier}
   */
   readonly tier?: string;
   /**
   * The ID of the VPC to use for the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#vpc_id LkeCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#vpc_id LkeCluster#vpc_id}
   */
   readonly vpcId?: number;
   /**
   * control_plane block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#control_plane LkeCluster#control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#control_plane LkeCluster#control_plane}
   */
   readonly controlPlane?: LkeClusterControlPlane;
   /**
   * pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#pool LkeCluster#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#pool LkeCluster#pool}
   */
   readonly pool: LkeClusterPool[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#timeouts LkeCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#timeouts LkeCluster#timeouts}
   */
   readonly timeouts?: LkeClusterTimeouts;
 }
@@ -97,13 +97,13 @@ export interface LkeClusterControlPlaneAclAddresses {
   /**
   * A set of individual ipv4 addresses or CIDRs to ALLOW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#ipv4 LkeCluster#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#ipv4 LkeCluster#ipv4}
   */
   readonly ipv4?: string[];
   /**
   * A set of individual ipv6 addresses or CIDRs to ALLOW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#ipv6 LkeCluster#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#ipv6 LkeCluster#ipv6}
   */
   readonly ipv6?: string[];
 }
@@ -250,13 +250,13 @@ export interface LkeClusterControlPlaneAcl {
   /**
   * Defines default policy. A value of true results in a default policy of DENY. A value of false results in default policy of ALLOW, and has the same effect as delete the ACL configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#enabled LkeCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#enabled LkeCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#addresses LkeCluster#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#addresses LkeCluster#addresses}
   */
   readonly addresses?: LkeClusterControlPlaneAclAddresses[] | cdktf.IResolvable;
 }
@@ -371,19 +371,19 @@ export interface LkeClusterControlPlane {
   /**
   * Enables audit logs on the cluster's control plane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#audit_logs_enabled LkeCluster#audit_logs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#audit_logs_enabled LkeCluster#audit_logs_enabled}
   */
   readonly auditLogsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Defines whether High Availability is enabled for the Control Plane Components of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#high_availability LkeCluster#high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#high_availability LkeCluster#high_availability}
   */
   readonly highAvailability?: boolean | cdktf.IResolvable;
   /**
   * acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#acl LkeCluster#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#acl LkeCluster#acl}
   */
   readonly acl?: LkeClusterControlPlaneAcl;
 }
@@ -612,13 +612,13 @@ export interface LkeClusterPoolAutoscaler {
   /**
   * The maximum number of nodes to autoscale to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#max LkeCluster#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#max LkeCluster#max}
   */
   readonly max: number;
   /**
   * The minimum number of nodes to autoscale to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#min LkeCluster#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#min LkeCluster#min}
   */
   readonly min: number;
 }
@@ -727,19 +727,19 @@ export interface LkeClusterPoolTaint {
   /**
   * The Kubernetes taint effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#effect LkeCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#effect LkeCluster#effect}
   */
   readonly effect: string;
   /**
   * The Kubernetes taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#key LkeCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#key LkeCluster#key}
   */
   readonly key: string;
   /**
   * The Kubernetes taint value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#value LkeCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#value LkeCluster#value}
   */
   readonly value: string;
 }
@@ -906,55 +906,55 @@ export interface LkeClusterPool {
   /**
   * The number of nodes in the Node Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#count LkeCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#count LkeCluster#count}
   */
   readonly count?: number;
   /**
   * The desired Kubernetes version for this pool. This is only available for Enterprise clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#k8s_version LkeCluster#k8s_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#k8s_version LkeCluster#k8s_version}
   */
   readonly k8SVersion?: string;
   /**
   * The label of the Node Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#label LkeCluster#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#label LkeCluster#label}
   */
   readonly label?: string;
   /**
   * Key-value pairs added as labels to nodes in the node pool. Labels help classify your nodes and to easily select subsets of objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#labels LkeCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#labels LkeCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * A set of tags applied to this node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#tags LkeCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#tags LkeCluster#tags}
   */
   readonly tags?: string[];
   /**
   * A Linode Type for all of the nodes in the Node Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#type LkeCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#type LkeCluster#type}
   */
   readonly type: string;
   /**
   * The strategy for updating the node pool k8s version. For LKE enterprise only and may not currently available to all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#update_strategy LkeCluster#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#update_strategy LkeCluster#update_strategy}
   */
   readonly updateStrategy?: string;
   /**
   * autoscaler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#autoscaler LkeCluster#autoscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#autoscaler LkeCluster#autoscaler}
   */
   readonly autoscaler?: LkeClusterPoolAutoscaler;
   /**
   * taint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#taint LkeCluster#taint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#taint LkeCluster#taint}
   */
   readonly taint?: LkeClusterPoolTaint[] | cdktf.IResolvable;
 }
@@ -1315,15 +1315,15 @@ export class LkeClusterPoolList extends cdktf.ComplexList {
 }
 export interface LkeClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#create LkeCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#create LkeCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#delete LkeCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#delete LkeCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#update LkeCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#update LkeCluster#update}
   */
   readonly update?: string;
 }
@@ -1475,7 +1475,7 @@ export class LkeClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster linode_lke_cluster}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster linode_lke_cluster}
 */
 export class LkeCluster extends cdktf.TerraformResource {
 
@@ -1491,7 +1491,7 @@ export class LkeCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LkeCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LkeCluster to import
-  * @param importFromId The id of the existing LkeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LkeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LkeCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1503,7 +1503,7 @@ export class LkeCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/lke_cluster linode_lke_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/lke_cluster linode_lke_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1514,8 +1514,8 @@ export class LkeCluster extends cdktf.TerraformResource {
       terraformResourceType: 'linode_lke_cluster',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

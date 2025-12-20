@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,62 +9,56 @@ import * as cdktf from 'cdktf';
 export interface BgpRouteMapRedistributionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Bgp
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `bgp`, `connected_static`, and `ospf`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#bgp BgpRouteMapRedistribution#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#bgp BgpRouteMapRedistribution#bgp}
   */
   readonly bgp?: BgpRouteMapRedistributionBgp;
   /**
   * Connected static
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `bgp`, `connected_static`, and `ospf`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#connected_static BgpRouteMapRedistribution#connected_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#connected_static BgpRouteMapRedistribution#connected_static}
   */
   readonly connectedStatic?: BgpRouteMapRedistributionConnectedStatic;
   /**
   * BGP Route Map Redistributions Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#device BgpRouteMapRedistribution#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#device BgpRouteMapRedistribution#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#folder BgpRouteMapRedistribution#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#folder BgpRouteMapRedistribution#folder}
   */
   readonly folder?: string;
   /**
   * BGP Route Map Redistributions Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
   */
   readonly name: string;
   /**
   * Ospf
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `bgp`, `connected_static`, and `ospf`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#ospf BgpRouteMapRedistribution#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#ospf BgpRouteMapRedistribution#ospf}
   */
   readonly ospf?: BgpRouteMapRedistributionOspf;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#snippet BgpRouteMapRedistribution#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#snippet BgpRouteMapRedistribution#snippet}
   */
   readonly snippet?: string;
 }
@@ -72,13 +66,13 @@ export interface BgpRouteMapRedistributionBgpOspfRouteMapMatchIpv4Address {
   /**
   * BGP Root OSPF Route maps match ipv4 Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * BGP Root OSPF Route maps match ipv4 Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -203,13 +197,13 @@ export interface BgpRouteMapRedistributionBgpOspfRouteMapMatchIpv4NextHop {
   /**
   * BGP Root OSPF Route maps ipv4 next_vr hop Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * BGP Root OSPF Route maps ipv4 next hop Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -334,13 +328,13 @@ export interface BgpRouteMapRedistributionBgpOspfRouteMapMatchIpv4RouteSource {
   /**
   * BGP Root OSPF Route maps ipv4 route source Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * BGP Root OSPF Route maps ipv4 route source Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -465,19 +459,19 @@ export interface BgpRouteMapRedistributionBgpOspfRouteMapMatchIpv4 {
   /**
   * BGP Root OSPF Route maps match bgp-route-map-redistributions ipv4 object address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#address BgpRouteMapRedistribution#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#address BgpRouteMapRedistribution#address}
   */
   readonly address?: BgpRouteMapRedistributionBgpOspfRouteMapMatchIpv4Address;
   /**
   * BGP Root OSPF Route maps match  bgp-route-map-redistributions ipv4 object next_hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
   */
   readonly nextHop?: BgpRouteMapRedistributionBgpOspfRouteMapMatchIpv4NextHop;
   /**
   * BGP Root OSPF Route maps ipv4 bgp-route-map-redistributions ipv4 object route_source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#route_source BgpRouteMapRedistribution#route_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#route_source BgpRouteMapRedistribution#route_source}
   */
   readonly routeSource?: BgpRouteMapRedistributionBgpOspfRouteMapMatchIpv4RouteSource;
 }
@@ -631,67 +625,67 @@ export interface BgpRouteMapRedistributionBgpOspfRouteMapMatch {
   /**
   * BGP Root OSPF Route maps match AS path access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#as_path_access_list BgpRouteMapRedistribution#as_path_access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#as_path_access_list BgpRouteMapRedistribution#as_path_access_list}
   */
   readonly asPathAccessList?: string;
   /**
   * EBGP Root OSPF Route maps match xtended community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#extended_community BgpRouteMapRedistribution#extended_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#extended_community BgpRouteMapRedistribution#extended_community}
   */
   readonly extendedCommunity?: string;
   /**
   * BGP Root OSPF Route maps match Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#interface BgpRouteMapRedistribution#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#interface BgpRouteMapRedistribution#interface}
   */
   readonly interface?: string;
   /**
   * BGP Root OSPF Route maps match bgp-route-map-redistributions ipv4 object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#ipv4 BgpRouteMapRedistribution#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#ipv4 BgpRouteMapRedistribution#ipv4}
   */
   readonly ipv4?: BgpRouteMapRedistributionBgpOspfRouteMapMatchIpv4;
   /**
   * BGP Root OSPF Route maps match Large community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#large_community BgpRouteMapRedistribution#large_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#large_community BgpRouteMapRedistribution#large_community}
   */
   readonly largeCommunity?: string;
   /**
   * BGP Root OSPF Route maps match Local preference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#local_preference BgpRouteMapRedistribution#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#local_preference BgpRouteMapRedistribution#local_preference}
   */
   readonly localPreference?: number;
   /**
   * BGP Root OSPF Route maps match Metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
   */
   readonly metric?: number;
   /**
   * BGP Root OSPF Route maps match Origin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#origin BgpRouteMapRedistribution#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#origin BgpRouteMapRedistribution#origin}
   */
   readonly origin?: string;
   /**
   * BGP Root OSPF Route maps match Peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#peer BgpRouteMapRedistribution#peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#peer BgpRouteMapRedistribution#peer}
   */
   readonly peer?: string;
   /**
   * BGP Root OSPF Route maps match Regular community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#regular_community BgpRouteMapRedistribution#regular_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#regular_community BgpRouteMapRedistribution#regular_community}
   */
   readonly regularCommunity?: string;
   /**
   * BGP Root OSPF Route maps match Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
   */
   readonly tag?: number;
 }
@@ -1077,13 +1071,13 @@ export interface BgpRouteMapRedistributionBgpOspfRouteMapSetMetric {
   /**
   * BGP Root OSPF Route maps set Metric action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
   */
   readonly action?: string;
   /**
   * BGP Root OSPF Route maps set Metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#value BgpRouteMapRedistribution#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#value BgpRouteMapRedistribution#value}
   */
   readonly value?: number;
 }
@@ -1208,19 +1202,19 @@ export interface BgpRouteMapRedistributionBgpOspfRouteMapSet {
   /**
   * Metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
   */
   readonly metric?: BgpRouteMapRedistributionBgpOspfRouteMapSetMetric;
   /**
   * BGP Root OSPF Route maps set Metric type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#metric_type BgpRouteMapRedistribution#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#metric_type BgpRouteMapRedistribution#metric_type}
   */
   readonly metricType?: string;
   /**
   * BGP Root OSPF Route maps set Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
   */
   readonly tag?: number;
 }
@@ -1374,31 +1368,31 @@ export interface BgpRouteMapRedistributionBgpOspfRouteMap {
   /**
   * BGP Root OSPF Route maps Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
   */
   readonly action?: string;
   /**
   * BGP Root OSPF Route maps Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
   */
   readonly description?: string;
   /**
   * Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#match BgpRouteMapRedistribution#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#match BgpRouteMapRedistribution#match}
   */
   readonly match?: BgpRouteMapRedistributionBgpOspfRouteMapMatch;
   /**
   * BGP Root OSPF Route maps Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
   */
   readonly name?: number;
   /**
   * BGP Root OSPF Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#set BgpRouteMapRedistribution#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#set BgpRouteMapRedistribution#set}
   */
   readonly set?: BgpRouteMapRedistributionBgpOspfRouteMapSet;
 }
@@ -1632,7 +1626,7 @@ export interface BgpRouteMapRedistributionBgpOspf {
   /**
   * BGP Root OSPF Route maps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#route_map BgpRouteMapRedistribution#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#route_map BgpRouteMapRedistribution#route_map}
   */
   readonly routeMap?: BgpRouteMapRedistributionBgpOspfRouteMap[] | cdktf.IResolvable;
 }
@@ -1728,13 +1722,13 @@ export interface BgpRouteMapRedistributionBgpRibRouteMapMatchIpv4Address {
   /**
   * BGP Root RIB Route maps match ipv Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * BGP Root RIB Route maps match ipv Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -1859,13 +1853,13 @@ export interface BgpRouteMapRedistributionBgpRibRouteMapMatchIpv4NextHop {
   /**
   * BGP Root RIB Route maps match ipv next hop Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * BGP Root RIB Route maps match ipv next hop Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -1990,13 +1984,13 @@ export interface BgpRouteMapRedistributionBgpRibRouteMapMatchIpv4RouteSource {
   /**
   * BGP Root RIB Route maps match ipv route source Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * BGP Root RIB Route maps match ipv route source Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -2121,19 +2115,19 @@ export interface BgpRouteMapRedistributionBgpRibRouteMapMatchIpv4 {
   /**
   * bgp-route-map-redistributions ipv4 rib object address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#address BgpRouteMapRedistribution#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#address BgpRouteMapRedistribution#address}
   */
   readonly address?: BgpRouteMapRedistributionBgpRibRouteMapMatchIpv4Address;
   /**
   * bgp-route-map-redistributions ipv4 rib object next_hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
   */
   readonly nextHop?: BgpRouteMapRedistributionBgpRibRouteMapMatchIpv4NextHop;
   /**
   * Route source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#route_source BgpRouteMapRedistribution#route_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#route_source BgpRouteMapRedistribution#route_source}
   */
   readonly routeSource?: BgpRouteMapRedistributionBgpRibRouteMapMatchIpv4RouteSource;
 }
@@ -2287,67 +2281,67 @@ export interface BgpRouteMapRedistributionBgpRibRouteMapMatch {
   /**
   * BGP Root RIB Route maps match AS path access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#as_path_access_list BgpRouteMapRedistribution#as_path_access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#as_path_access_list BgpRouteMapRedistribution#as_path_access_list}
   */
   readonly asPathAccessList?: string;
   /**
   * BGP Root RIB Route maps match Extended community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#extended_community BgpRouteMapRedistribution#extended_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#extended_community BgpRouteMapRedistribution#extended_community}
   */
   readonly extendedCommunity?: string;
   /**
   * BGP Root RIB Route maps match Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#interface BgpRouteMapRedistribution#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#interface BgpRouteMapRedistribution#interface}
   */
   readonly interface?: string;
   /**
   * BGP Route Map Redistributions Root BGP rib Route Map IPv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#ipv4 BgpRouteMapRedistribution#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#ipv4 BgpRouteMapRedistribution#ipv4}
   */
   readonly ipv4?: BgpRouteMapRedistributionBgpRibRouteMapMatchIpv4;
   /**
   * BGP Root RIB Route maps match Large community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#large_community BgpRouteMapRedistribution#large_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#large_community BgpRouteMapRedistribution#large_community}
   */
   readonly largeCommunity?: string;
   /**
   * BGP Root RIB Route maps match Local preference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#local_preference BgpRouteMapRedistribution#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#local_preference BgpRouteMapRedistribution#local_preference}
   */
   readonly localPreference?: number;
   /**
   * BGP Root RIB Route maps match Metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
   */
   readonly metric?: number;
   /**
   * BGP Root RIB Route maps match Origin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#origin BgpRouteMapRedistribution#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#origin BgpRouteMapRedistribution#origin}
   */
   readonly origin?: string;
   /**
   * BGP Root RIB Route maps match Peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#peer BgpRouteMapRedistribution#peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#peer BgpRouteMapRedistribution#peer}
   */
   readonly peer?: string;
   /**
   * BGP Root RIB Route maps match Regular community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#regular_community BgpRouteMapRedistribution#regular_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#regular_community BgpRouteMapRedistribution#regular_community}
   */
   readonly regularCommunity?: string;
   /**
   * BGP Root RIB Route maps match Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
   */
   readonly tag?: number;
 }
@@ -2733,7 +2727,7 @@ export interface BgpRouteMapRedistributionBgpRibRouteMapSet {
   /**
   * BGP Root RIB Route maps set Source address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#source_address BgpRouteMapRedistribution#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#source_address BgpRouteMapRedistribution#source_address}
   */
   readonly sourceAddress?: string;
 }
@@ -2829,31 +2823,31 @@ export interface BgpRouteMapRedistributionBgpRibRouteMap {
   /**
   * BGP Root RIB Route maps Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
   */
   readonly action?: string;
   /**
   * BGP Root RIB Route maps Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
   */
   readonly description?: string;
   /**
   * match attribute for BG Rib route map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#match BgpRouteMapRedistribution#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#match BgpRouteMapRedistribution#match}
   */
   readonly match?: BgpRouteMapRedistributionBgpRibRouteMapMatch;
   /**
   * BGP Root RIB Route maps Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
   */
   readonly name?: number;
   /**
   * Set attributes for BGP route map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#set BgpRouteMapRedistribution#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#set BgpRouteMapRedistribution#set}
   */
   readonly set?: BgpRouteMapRedistributionBgpRibRouteMapSet;
 }
@@ -3087,7 +3081,7 @@ export interface BgpRouteMapRedistributionBgpRib {
   /**
   * BGP Root RIB Route maps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#route_map BgpRouteMapRedistribution#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#route_map BgpRouteMapRedistribution#route_map}
   */
   readonly routeMap?: BgpRouteMapRedistributionBgpRibRouteMap[] | cdktf.IResolvable;
 }
@@ -3182,18 +3176,16 @@ export class BgpRouteMapRedistributionBgpRibOutputReference extends cdktf.Comple
 export interface BgpRouteMapRedistributionBgp {
   /**
   * Ospf
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `ospf` and `rib`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#ospf BgpRouteMapRedistribution#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#ospf BgpRouteMapRedistribution#ospf}
   */
   readonly ospf?: BgpRouteMapRedistributionBgpOspf;
   /**
   * BGP Root RIB
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `ospf` and `rib`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#rib BgpRouteMapRedistribution#rib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#rib BgpRouteMapRedistribution#rib}
   */
   readonly rib?: BgpRouteMapRedistributionBgpRib;
 }
@@ -3318,13 +3310,13 @@ export interface BgpRouteMapRedistributionConnectedStaticBgpRouteMapMatchIpv4Add
   /**
   * Connected Static BGP Route maps match ip4 Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * Connected Static BGP Route maps match ip4  Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -3449,13 +3441,13 @@ export interface BgpRouteMapRedistributionConnectedStaticBgpRouteMapMatchIpv4Nex
   /**
   * Connected Static BGP Route maps match ip4 next hop Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * Connected Static BGP Route maps match ip4 next hop Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -3580,13 +3572,13 @@ export interface BgpRouteMapRedistributionConnectedStaticBgpRouteMapMatchIpv4 {
   /**
   * Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#address BgpRouteMapRedistribution#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#address BgpRouteMapRedistribution#address}
   */
   readonly address?: BgpRouteMapRedistributionConnectedStaticBgpRouteMapMatchIpv4Address;
   /**
   * Next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
   */
   readonly nextHop?: BgpRouteMapRedistributionConnectedStaticBgpRouteMapMatchIpv4NextHop;
 }
@@ -3711,19 +3703,19 @@ export interface BgpRouteMapRedistributionConnectedStaticBgpRouteMapMatch {
   /**
   * Connected Static BGP Route maps match Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#interface BgpRouteMapRedistribution#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#interface BgpRouteMapRedistribution#interface}
   */
   readonly interface?: string;
   /**
   * bgp-route-map-redistributions connected-static ipv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#ipv4 BgpRouteMapRedistribution#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#ipv4 BgpRouteMapRedistribution#ipv4}
   */
   readonly ipv4?: BgpRouteMapRedistributionConnectedStaticBgpRouteMapMatchIpv4;
   /**
   * Connected Static BGP Route maps match Metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
   */
   readonly metric?: number;
 }
@@ -3877,13 +3869,13 @@ export interface BgpRouteMapRedistributionConnectedStaticBgpRouteMapSetAggregato
   /**
   * Connected Static BGP Route maps set Aggregator AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#as BgpRouteMapRedistribution#as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#as BgpRouteMapRedistribution#as}
   */
   readonly as?: number;
   /**
   * Connected Static BGP Route maps set Router ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#router_id BgpRouteMapRedistribution#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#router_id BgpRouteMapRedistribution#router_id}
   */
   readonly routerId?: string;
 }
@@ -4008,13 +4000,13 @@ export interface BgpRouteMapRedistributionConnectedStaticBgpRouteMapSetIpv4 {
   /**
   * Connected Static BGP Route maps set Next ipv4 hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
   */
   readonly nextHop?: string;
   /**
   * Connected Static BGP Route maps set ipv4 Source address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#source_address BgpRouteMapRedistribution#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#source_address BgpRouteMapRedistribution#source_address}
   */
   readonly sourceAddress?: string;
 }
@@ -4139,13 +4131,13 @@ export interface BgpRouteMapRedistributionConnectedStaticBgpRouteMapSetMetric {
   /**
   * Connected Static BGP Route maps set Metric action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
   */
   readonly action?: string;
   /**
   * Connected Static BGP Route maps set Metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#value BgpRouteMapRedistribution#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#value BgpRouteMapRedistribution#value}
   */
   readonly value?: number;
 }
@@ -4270,73 +4262,73 @@ export interface BgpRouteMapRedistributionConnectedStaticBgpRouteMapSet {
   /**
   * bgp-route-map-redistributions connected_static aggregator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#aggregator BgpRouteMapRedistribution#aggregator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#aggregator BgpRouteMapRedistribution#aggregator}
   */
   readonly aggregator?: BgpRouteMapRedistributionConnectedStaticBgpRouteMapSetAggregator;
   /**
   * Connected Static BGP Route maps set AS numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#aspath_prepend BgpRouteMapRedistribution#aspath_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#aspath_prepend BgpRouteMapRedistribution#aspath_prepend}
   */
   readonly aspathPrepend?: number[];
   /**
   * Connected Static BGP Route maps set Enable BGP atomic aggregate?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#atomic_aggregate BgpRouteMapRedistribution#atomic_aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#atomic_aggregate BgpRouteMapRedistribution#atomic_aggregate}
   */
   readonly atomicAggregate?: boolean | cdktf.IResolvable;
   /**
   * Ipv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#ipv4 BgpRouteMapRedistribution#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#ipv4 BgpRouteMapRedistribution#ipv4}
   */
   readonly ipv4?: BgpRouteMapRedistributionConnectedStaticBgpRouteMapSetIpv4;
   /**
   * Connected Static  BGP Route maps set Large communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#large_community BgpRouteMapRedistribution#large_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#large_community BgpRouteMapRedistribution#large_community}
   */
   readonly largeCommunity?: string[];
   /**
   * Connected Static BGP Route maps set Local preference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#local_preference BgpRouteMapRedistribution#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#local_preference BgpRouteMapRedistribution#local_preference}
   */
   readonly localPreference?: number;
   /**
   * Metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
   */
   readonly metric?: BgpRouteMapRedistributionConnectedStaticBgpRouteMapSetMetric;
   /**
   * Connected Static BGP Route maps set Origin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#origin BgpRouteMapRedistribution#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#origin BgpRouteMapRedistribution#origin}
   */
   readonly origin?: string;
   /**
   * Connected Static BGP Route maps set Originator ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#originator_id BgpRouteMapRedistribution#originator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#originator_id BgpRouteMapRedistribution#originator_id}
   */
   readonly originatorId?: string;
   /**
   * Connected Static  BGP Route maps set Regular communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#regular_community BgpRouteMapRedistribution#regular_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#regular_community BgpRouteMapRedistribution#regular_community}
   */
   readonly regularCommunity?: string[];
   /**
   * Connected Static BGP Route maps set Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
   */
   readonly tag?: number;
   /**
   * Connected Static BGP Route maps set Weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#weight BgpRouteMapRedistribution#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#weight BgpRouteMapRedistribution#weight}
   */
   readonly weight?: number;
 }
@@ -4751,31 +4743,31 @@ export interface BgpRouteMapRedistributionConnectedStaticBgpRouteMap {
   /**
   * Connected Static BGP Route maps Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
   */
   readonly action?: string;
   /**
   * Connected Static BGP Route maps Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
   */
   readonly description?: string;
   /**
   * Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#match BgpRouteMapRedistribution#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#match BgpRouteMapRedistribution#match}
   */
   readonly match?: BgpRouteMapRedistributionConnectedStaticBgpRouteMapMatch;
   /**
   * Connected Static BGP Route maps Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
   */
   readonly name?: number;
   /**
   * Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#set BgpRouteMapRedistribution#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#set BgpRouteMapRedistribution#set}
   */
   readonly set?: BgpRouteMapRedistributionConnectedStaticBgpRouteMapSet;
 }
@@ -5009,7 +5001,7 @@ export interface BgpRouteMapRedistributionConnectedStaticBgp {
   /**
   * Connected Static BGP Route maps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#route_map BgpRouteMapRedistribution#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#route_map BgpRouteMapRedistribution#route_map}
   */
   readonly routeMap?: BgpRouteMapRedistributionConnectedStaticBgpRouteMap[] | cdktf.IResolvable;
 }
@@ -5105,13 +5097,13 @@ export interface BgpRouteMapRedistributionConnectedStaticOspfRouteMapMatchIpv4Ad
   /**
   * Connected Static BGP OSPF Route map ipv4 Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * Connected Static BGP OSPF Route map ipv4 Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -5236,13 +5228,13 @@ export interface BgpRouteMapRedistributionConnectedStaticOspfRouteMapMatchIpv4Ne
   /**
   * Connected Static BGP OSPF Route map ipv4 next hop Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * Connected Static BGP OSPF Route map ipv4 next hop Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -5367,13 +5359,13 @@ export interface BgpRouteMapRedistributionConnectedStaticOspfRouteMapMatchIpv4 {
   /**
   * Connected Static Root OSPF Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#address BgpRouteMapRedistribution#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#address BgpRouteMapRedistribution#address}
   */
   readonly address?: BgpRouteMapRedistributionConnectedStaticOspfRouteMapMatchIpv4Address;
   /**
   * Next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
   */
   readonly nextHop?: BgpRouteMapRedistributionConnectedStaticOspfRouteMapMatchIpv4NextHop;
 }
@@ -5498,19 +5490,19 @@ export interface BgpRouteMapRedistributionConnectedStaticOspfRouteMapMatch {
   /**
   * Connected Static BGP OSPF Route map Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#interface BgpRouteMapRedistribution#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#interface BgpRouteMapRedistribution#interface}
   */
   readonly interface?: string;
   /**
   * bgp-route-map-redistributions connected-static match ipv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#ipv4 BgpRouteMapRedistribution#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#ipv4 BgpRouteMapRedistribution#ipv4}
   */
   readonly ipv4?: BgpRouteMapRedistributionConnectedStaticOspfRouteMapMatchIpv4;
   /**
   * Connected Static BGP OSPF Route map Metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
   */
   readonly metric?: number;
 }
@@ -5664,13 +5656,13 @@ export interface BgpRouteMapRedistributionConnectedStaticOspfRouteMapSetMetric {
   /**
   * Connected Static BGP OSPF Route map set Metric action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
   */
   readonly action?: string;
   /**
   * Connected Static BGP OSPF Route map set Metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#value BgpRouteMapRedistribution#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#value BgpRouteMapRedistribution#value}
   */
   readonly value?: number;
 }
@@ -5795,19 +5787,19 @@ export interface BgpRouteMapRedistributionConnectedStaticOspfRouteMapSet {
   /**
   * Metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
   */
   readonly metric?: BgpRouteMapRedistributionConnectedStaticOspfRouteMapSetMetric;
   /**
   * Connected Static BGP OSPF Route map set Metric type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#metric_type BgpRouteMapRedistribution#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#metric_type BgpRouteMapRedistribution#metric_type}
   */
   readonly metricType?: string;
   /**
   * Connected Static BGP OSPF Route map set Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
   */
   readonly tag?: number;
 }
@@ -5961,31 +5953,31 @@ export interface BgpRouteMapRedistributionConnectedStaticOspfRouteMap {
   /**
   * Connected Static BGP OSPF Route map Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
   */
   readonly action?: string;
   /**
   * Connected Static BGP OSPF Route map Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
   */
   readonly description?: string;
   /**
   * Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#match BgpRouteMapRedistribution#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#match BgpRouteMapRedistribution#match}
   */
   readonly match?: BgpRouteMapRedistributionConnectedStaticOspfRouteMapMatch;
   /**
   * Connected Static BGP OSPF Route map Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
   */
   readonly name?: number;
   /**
   * Connected Static Root OSPF Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#set BgpRouteMapRedistribution#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#set BgpRouteMapRedistribution#set}
   */
   readonly set?: BgpRouteMapRedistributionConnectedStaticOspfRouteMapSet;
 }
@@ -6219,7 +6211,7 @@ export interface BgpRouteMapRedistributionConnectedStaticOspf {
   /**
   * Connected Static  BGP OSPF Route maps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#route_map BgpRouteMapRedistribution#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#route_map BgpRouteMapRedistribution#route_map}
   */
   readonly routeMap?: BgpRouteMapRedistributionConnectedStaticOspfRouteMap[] | cdktf.IResolvable;
 }
@@ -6315,13 +6307,13 @@ export interface BgpRouteMapRedistributionConnectedStaticRibRouteMapMatchIpv4Add
   /**
   * Connected Static BGP Rib Route maps ipv4 Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * Connected Static BGP Rib Route maps ipv4 Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -6446,13 +6438,13 @@ export interface BgpRouteMapRedistributionConnectedStaticRibRouteMapMatchIpv4Nex
   /**
   * Connected Static BGP Rib Route maps ipv4 nect hop Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * Connected Static BGP Rib Route maps ipv4 next hop Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -6577,13 +6569,13 @@ export interface BgpRouteMapRedistributionConnectedStaticRibRouteMapMatchIpv4 {
   /**
   * Connected Static BGP Rib Route maps ipv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#address BgpRouteMapRedistribution#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#address BgpRouteMapRedistribution#address}
   */
   readonly address?: BgpRouteMapRedistributionConnectedStaticRibRouteMapMatchIpv4Address;
   /**
   * Next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
   */
   readonly nextHop?: BgpRouteMapRedistributionConnectedStaticRibRouteMapMatchIpv4NextHop;
 }
@@ -6708,19 +6700,19 @@ export interface BgpRouteMapRedistributionConnectedStaticRibRouteMapMatch {
   /**
   * Connected Static BGP Rib Route maps Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#interface BgpRouteMapRedistribution#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#interface BgpRouteMapRedistribution#interface}
   */
   readonly interface?: string;
   /**
   * Ipv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#ipv4 BgpRouteMapRedistribution#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#ipv4 BgpRouteMapRedistribution#ipv4}
   */
   readonly ipv4?: BgpRouteMapRedistributionConnectedStaticRibRouteMapMatchIpv4;
   /**
   * Connected Static BGP Rib Route maps Metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
   */
   readonly metric?: number;
 }
@@ -6874,7 +6866,7 @@ export interface BgpRouteMapRedistributionConnectedStaticRibRouteMapSet {
   /**
   * Connected Static BGP Rib Route Map Distribution Source address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#source_address BgpRouteMapRedistribution#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#source_address BgpRouteMapRedistribution#source_address}
   */
   readonly sourceAddress?: string;
 }
@@ -6970,31 +6962,31 @@ export interface BgpRouteMapRedistributionConnectedStaticRibRouteMap {
   /**
   * Connected Static BGP Rib Route maps Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
   */
   readonly action?: string;
   /**
   * Connected Static BGP Rib Route maps Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
   */
   readonly description?: string;
   /**
   * Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#match BgpRouteMapRedistribution#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#match BgpRouteMapRedistribution#match}
   */
   readonly match?: BgpRouteMapRedistributionConnectedStaticRibRouteMapMatch;
   /**
   * Connected Static BGP Rib Route maps Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
   */
   readonly name?: number;
   /**
   * Connected Static Root RIB set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#set BgpRouteMapRedistribution#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#set BgpRouteMapRedistribution#set}
   */
   readonly set?: BgpRouteMapRedistributionConnectedStaticRibRouteMapSet;
 }
@@ -7228,7 +7220,7 @@ export interface BgpRouteMapRedistributionConnectedStaticRib {
   /**
   * Connected Static BGP Rib Route maps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#route_map BgpRouteMapRedistribution#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#route_map BgpRouteMapRedistribution#route_map}
   */
   readonly routeMap?: BgpRouteMapRedistributionConnectedStaticRibRouteMap[] | cdktf.IResolvable;
 }
@@ -7323,26 +7315,23 @@ export class BgpRouteMapRedistributionConnectedStaticRibOutputReference extends 
 export interface BgpRouteMapRedistributionConnectedStatic {
   /**
   * Connected Static Root BGP
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `bgp`, `ospf`, and `rib`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#bgp BgpRouteMapRedistribution#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#bgp BgpRouteMapRedistribution#bgp}
   */
   readonly bgp?: BgpRouteMapRedistributionConnectedStaticBgp;
   /**
   * Ospf
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `bgp`, `ospf`, and `rib`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#ospf BgpRouteMapRedistribution#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#ospf BgpRouteMapRedistribution#ospf}
   */
   readonly ospf?: BgpRouteMapRedistributionConnectedStaticOspf;
   /**
   * Rib
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `bgp`, `ospf`, and `rib`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#rib BgpRouteMapRedistribution#rib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#rib BgpRouteMapRedistribution#rib}
   */
   readonly rib?: BgpRouteMapRedistributionConnectedStaticRib;
 }
@@ -7496,13 +7485,13 @@ export interface BgpRouteMapRedistributionOspfBgpRouteMapMatchAddress {
   /**
   * OSPF BGP Route maps match Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * OSPF BGP Route maps match Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -7627,13 +7616,13 @@ export interface BgpRouteMapRedistributionOspfBgpRouteMapMatchNextHop {
   /**
   * OSPF BGP Route maps next_hop Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * OSPF BGP Route maps next_hop Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -7758,31 +7747,31 @@ export interface BgpRouteMapRedistributionOspfBgpRouteMapMatch {
   /**
   * bgp-route-map-redistributions ospf address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#address BgpRouteMapRedistribution#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#address BgpRouteMapRedistribution#address}
   */
   readonly address?: BgpRouteMapRedistributionOspfBgpRouteMapMatchAddress;
   /**
   * OSPF BGP Route maps Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#interface BgpRouteMapRedistribution#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#interface BgpRouteMapRedistribution#interface}
   */
   readonly interface?: string;
   /**
   * OSPF BGP Route maps Metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
   */
   readonly metric?: number;
   /**
   * bgp-route-map-redistributions ospf next_hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
   */
   readonly nextHop?: BgpRouteMapRedistributionOspfBgpRouteMapMatchNextHop;
   /**
   * OSPF BGP Route maps Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
   */
   readonly tag?: number;
 }
@@ -7994,13 +7983,13 @@ export interface BgpRouteMapRedistributionOspfBgpRouteMapSetAggregator {
   /**
   * OSPF BGP Route maps set Aggregator AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#as BgpRouteMapRedistribution#as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#as BgpRouteMapRedistribution#as}
   */
   readonly as?: number;
   /**
   * OSPF BGP Route maps set Router ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#router_id BgpRouteMapRedistribution#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#router_id BgpRouteMapRedistribution#router_id}
   */
   readonly routerId?: string;
 }
@@ -8125,13 +8114,13 @@ export interface BgpRouteMapRedistributionOspfBgpRouteMapSetIpv4 {
   /**
   * OSPF BGP Route maps set ipv4 Next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
   */
   readonly nextHop?: string;
   /**
   * OSPF BGP Route maps set ipv4 Source address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#source_address BgpRouteMapRedistribution#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#source_address BgpRouteMapRedistribution#source_address}
   */
   readonly sourceAddress?: string;
 }
@@ -8256,13 +8245,13 @@ export interface BgpRouteMapRedistributionOspfBgpRouteMapSetMetric {
   /**
   * OSPF BGP Route maps set Metric action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
   */
   readonly action?: string;
   /**
   * OSPF BGP Route maps set Metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#value BgpRouteMapRedistribution#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#value BgpRouteMapRedistribution#value}
   */
   readonly value?: number;
 }
@@ -8387,73 +8376,73 @@ export interface BgpRouteMapRedistributionOspfBgpRouteMapSet {
   /**
   * bgp-route-map-redistributions set aggregator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#aggregator BgpRouteMapRedistribution#aggregator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#aggregator BgpRouteMapRedistribution#aggregator}
   */
   readonly aggregator?: BgpRouteMapRedistributionOspfBgpRouteMapSetAggregator;
   /**
   * OSPF BGP Route maps set AS numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#aspath_prepend BgpRouteMapRedistribution#aspath_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#aspath_prepend BgpRouteMapRedistribution#aspath_prepend}
   */
   readonly aspathPrepend?: number[];
   /**
   * OSPF BGP Route maps set Enable BGP atomic aggregate?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#atomic_aggregate BgpRouteMapRedistribution#atomic_aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#atomic_aggregate BgpRouteMapRedistribution#atomic_aggregate}
   */
   readonly atomicAggregate?: boolean | cdktf.IResolvable;
   /**
   * Ipv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#ipv4 BgpRouteMapRedistribution#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#ipv4 BgpRouteMapRedistribution#ipv4}
   */
   readonly ipv4?: BgpRouteMapRedistributionOspfBgpRouteMapSetIpv4;
   /**
   * OSPF BGP Route maps set Large communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#large_community BgpRouteMapRedistribution#large_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#large_community BgpRouteMapRedistribution#large_community}
   */
   readonly largeCommunity?: string[];
   /**
   * OSPF BGP Route maps set Local preference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#local_preference BgpRouteMapRedistribution#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#local_preference BgpRouteMapRedistribution#local_preference}
   */
   readonly localPreference?: number;
   /**
   * Metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
   */
   readonly metric?: BgpRouteMapRedistributionOspfBgpRouteMapSetMetric;
   /**
   * OSPF BGP Route maps set Origin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#origin BgpRouteMapRedistribution#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#origin BgpRouteMapRedistribution#origin}
   */
   readonly origin?: string;
   /**
   * OSPF BGP Route maps set Originator ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#originator_id BgpRouteMapRedistribution#originator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#originator_id BgpRouteMapRedistribution#originator_id}
   */
   readonly originatorId?: string;
   /**
   * OSPF BGP Route maps set Regular communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#regular_community BgpRouteMapRedistribution#regular_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#regular_community BgpRouteMapRedistribution#regular_community}
   */
   readonly regularCommunity?: string[];
   /**
   * OSPF BGP Route maps set Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
   */
   readonly tag?: number;
   /**
   * OSPF BGP Route maps set Weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#weight BgpRouteMapRedistribution#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#weight BgpRouteMapRedistribution#weight}
   */
   readonly weight?: number;
 }
@@ -8868,31 +8857,31 @@ export interface BgpRouteMapRedistributionOspfBgpRouteMap {
   /**
   * OSPF BGP Route maps Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
   */
   readonly action?: string;
   /**
   * OSPF BGP Route maps Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
   */
   readonly description?: string;
   /**
   * Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#match BgpRouteMapRedistribution#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#match BgpRouteMapRedistribution#match}
   */
   readonly match?: BgpRouteMapRedistributionOspfBgpRouteMapMatch;
   /**
   * OSPF BGP Route maps Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
   */
   readonly name?: number;
   /**
   * OSPF Root Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#set BgpRouteMapRedistribution#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#set BgpRouteMapRedistribution#set}
   */
   readonly set?: BgpRouteMapRedistributionOspfBgpRouteMapSet;
 }
@@ -9126,7 +9115,7 @@ export interface BgpRouteMapRedistributionOspfBgp {
   /**
   * OSPF BGP Route maps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#route_map BgpRouteMapRedistribution#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#route_map BgpRouteMapRedistribution#route_map}
   */
   readonly routeMap?: BgpRouteMapRedistributionOspfBgpRouteMap[] | cdktf.IResolvable;
 }
@@ -9222,13 +9211,13 @@ export interface BgpRouteMapRedistributionOspfRibRouteMapMatchAddress {
   /**
   * OSPF RIB Route maps address Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * OSPF RIB Route maps address Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -9353,13 +9342,13 @@ export interface BgpRouteMapRedistributionOspfRibRouteMapMatchNextHop {
   /**
   * OSPF RIB Route maps next_hop Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#access_list BgpRouteMapRedistribution#access_list}
   */
   readonly accessList?: string;
   /**
   * OSPF RIB Route maps next_hop Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#prefix_list BgpRouteMapRedistribution#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -9484,31 +9473,31 @@ export interface BgpRouteMapRedistributionOspfRibRouteMapMatch {
   /**
   * OSPF RIB Route maps address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#address BgpRouteMapRedistribution#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#address BgpRouteMapRedistribution#address}
   */
   readonly address?: BgpRouteMapRedistributionOspfRibRouteMapMatchAddress;
   /**
   * OSPF RIB Route maps Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#interface BgpRouteMapRedistribution#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#interface BgpRouteMapRedistribution#interface}
   */
   readonly interface?: string;
   /**
   * OSPF RIB Route maps Metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#metric BgpRouteMapRedistribution#metric}
   */
   readonly metric?: number;
   /**
   * OSPF RIB Route maps next_hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#next_hop BgpRouteMapRedistribution#next_hop}
   */
   readonly nextHop?: BgpRouteMapRedistributionOspfRibRouteMapMatchNextHop;
   /**
   * OSPF RIB Route maps tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#tag BgpRouteMapRedistribution#tag}
   */
   readonly tag?: number;
 }
@@ -9720,7 +9709,7 @@ export interface BgpRouteMapRedistributionOspfRibRouteMapSet {
   /**
   * OSPF RIB Route maps set Source address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#source_address BgpRouteMapRedistribution#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#source_address BgpRouteMapRedistribution#source_address}
   */
   readonly sourceAddress?: string;
 }
@@ -9816,31 +9805,31 @@ export interface BgpRouteMapRedistributionOspfRibRouteMap {
   /**
   * OSPF RIB Route maps Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#action BgpRouteMapRedistribution#action}
   */
   readonly action?: string;
   /**
   * OSPF RIB Route maps Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#description BgpRouteMapRedistribution#description}
   */
   readonly description?: string;
   /**
   * Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#match BgpRouteMapRedistribution#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#match BgpRouteMapRedistribution#match}
   */
   readonly match?: BgpRouteMapRedistributionOspfRibRouteMapMatch;
   /**
   * OSPF RIB Route mapsSequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#name BgpRouteMapRedistribution#name}
   */
   readonly name?: number;
   /**
   * OSPF RIB Route maps set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#set BgpRouteMapRedistribution#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#set BgpRouteMapRedistribution#set}
   */
   readonly set?: BgpRouteMapRedistributionOspfRibRouteMapSet;
 }
@@ -10074,7 +10063,7 @@ export interface BgpRouteMapRedistributionOspfRib {
   /**
   * OSPF RIB Route maps set Route maps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#route_map BgpRouteMapRedistribution#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#route_map BgpRouteMapRedistribution#route_map}
   */
   readonly routeMap?: BgpRouteMapRedistributionOspfRibRouteMap[] | cdktf.IResolvable;
 }
@@ -10169,18 +10158,16 @@ export class BgpRouteMapRedistributionOspfRibOutputReference extends cdktf.Compl
 export interface BgpRouteMapRedistributionOspf {
   /**
   * OSPF Root BGP
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `bgp` and `rib`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#bgp BgpRouteMapRedistribution#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#bgp BgpRouteMapRedistribution#bgp}
   */
   readonly bgp?: BgpRouteMapRedistributionOspfBgp;
   /**
   * Rib
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `bgp` and `rib`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#rib BgpRouteMapRedistribution#rib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#rib BgpRouteMapRedistribution#rib}
   */
   readonly rib?: BgpRouteMapRedistributionOspfRib;
 }
@@ -10303,7 +10290,7 @@ export class BgpRouteMapRedistributionOspfOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution scm_bgp_route_map_redistribution}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution scm_bgp_route_map_redistribution}
 */
 export class BgpRouteMapRedistribution extends cdktf.TerraformResource {
 
@@ -10319,7 +10306,7 @@ export class BgpRouteMapRedistribution extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpRouteMapRedistribution resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpRouteMapRedistribution to import
-  * @param importFromId The id of the existing BgpRouteMapRedistribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpRouteMapRedistribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpRouteMapRedistribution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10331,7 +10318,7 @@ export class BgpRouteMapRedistribution extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map_redistribution scm_bgp_route_map_redistribution} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map_redistribution scm_bgp_route_map_redistribution} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10342,8 +10329,8 @@ export class BgpRouteMapRedistribution extends cdktf.TerraformResource {
       terraformResourceType: 'scm_bgp_route_map_redistribution',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

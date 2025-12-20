@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface ItAutomationPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum number of hosts that can transfer files simultaneously (1-5000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#concurrent_host_file_transfer_limit ItAutomationPolicy#concurrent_host_file_transfer_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#concurrent_host_file_transfer_limit ItAutomationPolicy#concurrent_host_file_transfer_limit}
   */
   readonly concurrentHostFileTransferLimit: number;
   /**
   * Maximum number of hosts that can run operations simultaneously (1-100000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#concurrent_host_limit ItAutomationPolicy#concurrent_host_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#concurrent_host_limit ItAutomationPolicy#concurrent_host_limit}
   */
   readonly concurrentHostLimit: number;
   /**
   * Maximum number of tasks that can run in parallel (1-5).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#concurrent_task_limit ItAutomationPolicy#concurrent_task_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#concurrent_task_limit ItAutomationPolicy#concurrent_task_limit}
   */
   readonly concurrentTaskLimit: number;
   /**
   * Sets priority for CPU scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#cpu_scheduling_priority ItAutomationPolicy#cpu_scheduling_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#cpu_scheduling_priority ItAutomationPolicy#cpu_scheduling_priority}
   */
   readonly cpuSchedulingPriority?: string;
   /**
   * CPU usage limit as a percentage (1-100).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#cpu_throttle ItAutomationPolicy#cpu_throttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#cpu_throttle ItAutomationPolicy#cpu_throttle}
   */
   readonly cpuThrottle?: number;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#description ItAutomationPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#description ItAutomationPolicy#description}
   */
   readonly description: string;
   /**
   * Whether OSQuery functionality is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#enable_os_query ItAutomationPolicy#enable_os_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#enable_os_query ItAutomationPolicy#enable_os_query}
   */
   readonly enableOsQuery: boolean | cdktf.IResolvable;
   /**
   * Whether Python script execution is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#enable_python_execution ItAutomationPolicy#enable_python_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#enable_python_execution ItAutomationPolicy#enable_python_execution}
   */
   readonly enablePythonExecution: boolean | cdktf.IResolvable;
   /**
   * Whether script execution is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#enable_script_execution ItAutomationPolicy#enable_script_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#enable_script_execution ItAutomationPolicy#enable_script_execution}
   */
   readonly enableScriptExecution: boolean | cdktf.IResolvable;
   /**
   * Whether the policy is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#enabled ItAutomationPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#enabled ItAutomationPolicy#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Maximum time a script can run before timing out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#execution_timeout ItAutomationPolicy#execution_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#execution_timeout ItAutomationPolicy#execution_timeout}
   */
   readonly executionTimeout: number;
   /**
   * Unit of time for execution timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#execution_timeout_unit ItAutomationPolicy#execution_timeout_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#execution_timeout_unit ItAutomationPolicy#execution_timeout_unit}
   */
   readonly executionTimeoutUnit: string;
   /**
   * Set of host group IDs where this policy will be applied. Hosts in these groups will use this policy's configuration for IT automation tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#host_groups ItAutomationPolicy#host_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#host_groups ItAutomationPolicy#host_groups}
   */
   readonly hostGroups?: string[];
   /**
   * Amount of memory allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#memory_allocation ItAutomationPolicy#memory_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#memory_allocation ItAutomationPolicy#memory_allocation}
   */
   readonly memoryAllocation?: number;
   /**
   * Unit for memory allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#memory_allocation_unit ItAutomationPolicy#memory_allocation_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#memory_allocation_unit ItAutomationPolicy#memory_allocation_unit}
   */
   readonly memoryAllocationUnit?: string;
   /**
   * Sets memory pressure level to control system resource allocation during task execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#memory_pressure_level ItAutomationPolicy#memory_pressure_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#memory_pressure_level ItAutomationPolicy#memory_pressure_level}
   */
   readonly memoryPressureLevel?: string;
   /**
   * Name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#name ItAutomationPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#name ItAutomationPolicy#name}
   */
   readonly name: string;
   /**
   * Platform for the policy (Windows, Linux, Mac).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#platform_name ItAutomationPolicy#platform_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#platform_name ItAutomationPolicy#platform_name}
   */
   readonly platformName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy crowdstrike_it_automation_policy}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy crowdstrike_it_automation_policy}
 */
 export class ItAutomationPolicy extends cdktf.TerraformResource {
 
@@ -134,7 +134,7 @@ export class ItAutomationPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ItAutomationPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ItAutomationPolicy to import
-  * @param importFromId The id of the existing ItAutomationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ItAutomationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ItAutomationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class ItAutomationPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/it_automation_policy crowdstrike_it_automation_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/it_automation_policy crowdstrike_it_automation_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class ItAutomationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_it_automation_policy',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.52',
-        providerVersionConstraint: '0.0.52'
+        providerVersion: '0.0.53',
+        providerVersionConstraint: '0.0.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

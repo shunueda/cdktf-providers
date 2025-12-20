@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_precreated_ip_block
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_precreated_ip_block
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataEquinixMetalPrecreatedIpBlockConfig extends cdktf.Terraform
   /**
   * 4 or 6, depending on which block you are looking for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_precreated_ip_block#address_family DataEquinixMetalPrecreatedIpBlock#address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_precreated_ip_block#address_family DataEquinixMetalPrecreatedIpBlock#address_family}
   */
   readonly addressFamily: number;
   /**
   * Facility of the searched block. (for non-global blocks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_precreated_ip_block#facility DataEquinixMetalPrecreatedIpBlock#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_precreated_ip_block#facility DataEquinixMetalPrecreatedIpBlock#facility}
   */
   readonly facility?: string;
   /**
   * Whether to look for global block. Default is false for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_precreated_ip_block#global DataEquinixMetalPrecreatedIpBlock#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_precreated_ip_block#global DataEquinixMetalPrecreatedIpBlock#global}
   */
   readonly global?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_precreated_ip_block#id DataEquinixMetalPrecreatedIpBlock#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_precreated_ip_block#id DataEquinixMetalPrecreatedIpBlock#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface DataEquinixMetalPrecreatedIpBlockConfig extends cdktf.Terraform
   /**
   * Metro of the searched block (for non-global blocks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_precreated_ip_block#metro DataEquinixMetalPrecreatedIpBlock#metro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_precreated_ip_block#metro DataEquinixMetalPrecreatedIpBlock#metro}
   */
   readonly metro?: string;
   /**
   * ID of the project where the searched block should be.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_precreated_ip_block#project_id DataEquinixMetalPrecreatedIpBlock#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_precreated_ip_block#project_id DataEquinixMetalPrecreatedIpBlock#project_id}
   */
   readonly projectId: string;
   /**
   * Whether to look for public or private block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_precreated_ip_block#public DataEquinixMetalPrecreatedIpBlock#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_precreated_ip_block#public DataEquinixMetalPrecreatedIpBlock#public}
   */
   readonly public: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_precreated_ip_block equinix_metal_precreated_ip_block}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_precreated_ip_block equinix_metal_precreated_ip_block}
 */
 export class DataEquinixMetalPrecreatedIpBlock extends cdktf.TerraformDataSource {
 
@@ -69,7 +69,7 @@ export class DataEquinixMetalPrecreatedIpBlock extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataEquinixMetalPrecreatedIpBlock resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixMetalPrecreatedIpBlock to import
-  * @param importFromId The id of the existing DataEquinixMetalPrecreatedIpBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_precreated_ip_block#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixMetalPrecreatedIpBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_precreated_ip_block#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixMetalPrecreatedIpBlock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DataEquinixMetalPrecreatedIpBlock extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_precreated_ip_block equinix_metal_precreated_ip_block} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_precreated_ip_block equinix_metal_precreated_ip_block} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DataEquinixMetalPrecreatedIpBlock extends cdktf.TerraformDataSource
       terraformResourceType: 'equinix_metal_precreated_ip_block',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

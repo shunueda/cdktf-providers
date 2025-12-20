@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ClusterConfigTemplateConfig extends cdktf.TerraformMetaArgument
   /**
   * The cloud type for the cluster template. Examples: 'aws', 'azure', 'gcp', 'vsphere', etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#cloud_type ClusterConfigTemplate#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#cloud_type ClusterConfigTemplate#cloud_type}
   */
   readonly cloudType: string;
   /**
   * The context of the cluster config template. Allowed values are `project` or `tenant`. Default value is `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#context ClusterConfigTemplate#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#context ClusterConfigTemplate#context}
   */
   readonly context?: string;
   /**
   * The description of the cluster config template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#description ClusterConfigTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#description ClusterConfigTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#id ClusterConfigTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#id ClusterConfigTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface ClusterConfigTemplateConfig extends cdktf.TerraformMetaArgument
   /**
   * The name of the cluster config template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#name ClusterConfigTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#name ClusterConfigTemplate#name}
   */
   readonly name: string;
   /**
   * Assign tags to the cluster config template. Tags can be in the format `key:value` or just `key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#tags ClusterConfigTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#tags ClusterConfigTemplate#tags}
   */
   readonly tags?: string[];
   /**
   * Timestamp to trigger an immediate upgrade for all clusters launched from this template. NOTE: The upgrade executes immediately when this value changes - the timestamp does NOT schedule a future upgrade. Set this to the current timestamp each time you want to trigger an upgrade. This field can also be used for tracking when upgrades were triggered by the user. Format: RFC3339 (e.g., '2024-01-15T10:30:00Z'). Example: To trigger an upgrade now, set to current time like '2024-11-12T15:30:00Z'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#upgrade_now ClusterConfigTemplate#upgrade_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#upgrade_now ClusterConfigTemplate#upgrade_now}
   */
   readonly upgradeNow?: string;
   /**
   * cluster_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#cluster_profile ClusterConfigTemplate#cluster_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#cluster_profile ClusterConfigTemplate#cluster_profile}
   */
   readonly clusterProfile?: ClusterConfigTemplateClusterProfile[] | cdktf.IResolvable;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#policy ClusterConfigTemplate#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#policy ClusterConfigTemplate#policy}
   */
   readonly policy?: ClusterConfigTemplatePolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#timeouts ClusterConfigTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#timeouts ClusterConfigTemplate#timeouts}
   */
   readonly timeouts?: ClusterConfigTemplateTimeouts;
 }
@@ -153,19 +153,19 @@ export interface ClusterConfigTemplateClusterProfileVariables {
   /**
   * Assignment strategy for the variable. Allowed values are `all` or `cluster`. Default is `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#assign_strategy ClusterConfigTemplate#assign_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#assign_strategy ClusterConfigTemplate#assign_strategy}
   */
   readonly assignStrategy?: string;
   /**
   * Name of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#name ClusterConfigTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#name ClusterConfigTemplate#name}
   */
   readonly name: string;
   /**
   * Value of the variable to be applied to all clusters launched from this template. This value is used when assign_strategy is set to 'all'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#value ClusterConfigTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#value ClusterConfigTemplate#value}
   */
   readonly value?: string;
 }
@@ -338,7 +338,7 @@ export interface ClusterConfigTemplateClusterProfile {
   /**
   * ID of the cluster profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#id ClusterConfigTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#id ClusterConfigTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -347,7 +347,7 @@ export interface ClusterConfigTemplateClusterProfile {
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#variables ClusterConfigTemplate#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#variables ClusterConfigTemplate#variables}
   */
   readonly variables?: ClusterConfigTemplateClusterProfileVariables[] | cdktf.IResolvable;
 }
@@ -491,7 +491,7 @@ export interface ClusterConfigTemplatePolicy {
   /**
   * ID of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#id ClusterConfigTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#id ClusterConfigTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -500,7 +500,7 @@ export interface ClusterConfigTemplatePolicy {
   /**
   * Kind of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#kind ClusterConfigTemplate#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#kind ClusterConfigTemplate#kind}
   */
   readonly kind?: string;
 }
@@ -610,15 +610,15 @@ export class ClusterConfigTemplatePolicyOutputReference extends cdktf.ComplexObj
 }
 export interface ClusterConfigTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#create ClusterConfigTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#create ClusterConfigTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#delete ClusterConfigTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#delete ClusterConfigTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#update ClusterConfigTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#update ClusterConfigTemplate#update}
   */
   readonly update?: string;
 }
@@ -770,7 +770,7 @@ export class ClusterConfigTemplateTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template spectrocloud_cluster_config_template}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template spectrocloud_cluster_config_template}
 */
 export class ClusterConfigTemplate extends cdktf.TerraformResource {
 
@@ -786,7 +786,7 @@ export class ClusterConfigTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterConfigTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterConfigTemplate to import
-  * @param importFromId The id of the existing ClusterConfigTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterConfigTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterConfigTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -798,7 +798,7 @@ export class ClusterConfigTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_template spectrocloud_cluster_config_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_config_template spectrocloud_cluster_config_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -809,8 +809,8 @@ export class ClusterConfigTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_cluster_config_template',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.1',
-        providerVersionConstraint: '0.26.1'
+        providerVersion: '0.26.2',
+        providerVersionConstraint: '0.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,45 @@ export interface ClusterGkeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The setting to apply the cluster profile. `DownloadAndInstall` will download and install packs in one action. `DownloadAndInstallLater` will only download artifact and postpone install for later. Default value is `DownloadAndInstall`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#apply_setting ClusterGke#apply_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#apply_setting ClusterGke#apply_setting}
   */
   readonly applySetting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#cloud_account_id ClusterGke#cloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#cloud_account_id ClusterGke#cloud_account_id}
   */
   readonly cloudAccountId: string;
   /**
   * `cluster_meta_attribute` can be used to set additional cluster metadata information, eg `{'nic_name': 'test', 'env': 'stage'}`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#cluster_meta_attribute ClusterGke#cluster_meta_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#cluster_meta_attribute ClusterGke#cluster_meta_attribute}
   */
   readonly clusterMetaAttribute?: string;
   /**
   * The context of the GKE cluster. Allowed values are `project` or `tenant`. Default is `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#context ClusterGke#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#context ClusterGke#context}
   */
   readonly context?: string;
   /**
   * The description of the cluster. Default value is empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#description ClusterGke#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#description ClusterGke#description}
   */
   readonly description?: string;
   /**
   * If set to `true`, the cluster will be force deleted and user has to manually clean up the provisioned cloud resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#force_delete ClusterGke#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#force_delete ClusterGke#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
   * Delay duration in minutes to before invoking cluster force delete. Default and minimum is 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#force_delete_delay ClusterGke#force_delete_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#force_delete_delay ClusterGke#force_delete_delay}
   */
   readonly forceDeleteDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#id ClusterGke#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#id ClusterGke#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,113 +57,113 @@ export interface ClusterGkeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#name ClusterGke#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#name ClusterGke#name}
   */
   readonly name: string;
   /**
   * Date and time after which to patch cluster `RFC3339: 2006-01-02T15:04:05Z07:00`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#os_patch_after ClusterGke#os_patch_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#os_patch_after ClusterGke#os_patch_after}
   */
   readonly osPatchAfter?: string;
   /**
   * Whether to apply OS patch on boot. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#os_patch_on_boot ClusterGke#os_patch_on_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#os_patch_on_boot ClusterGke#os_patch_on_boot}
   */
   readonly osPatchOnBoot?: boolean | cdktf.IResolvable;
   /**
   * Cron schedule for OS patching. This must be in the form of `0 0 * * *`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#os_patch_schedule ClusterGke#os_patch_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#os_patch_schedule ClusterGke#os_patch_schedule}
   */
   readonly osPatchSchedule?: string;
   /**
   * The pause agent upgrades setting allows to control the automatic upgrade of the Palette component and agent for an individual cluster. The default value is `unlock`, meaning upgrades occur automatically. Setting it to `lock` pauses automatic agent upgrades for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#pause_agent_upgrades ClusterGke#pause_agent_upgrades}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#pause_agent_upgrades ClusterGke#pause_agent_upgrades}
   */
   readonly pauseAgentUpgrades?: string;
   /**
   * To authorize the cluster repave, set the value to `Approved` for approval and `""` to decline. Default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#review_repave_state ClusterGke#review_repave_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#review_repave_state ClusterGke#review_repave_state}
   */
   readonly reviewRepaveState?: string;
   /**
   * If `true`, the cluster will be created asynchronously. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#skip_completion ClusterGke#skip_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#skip_completion ClusterGke#skip_completion}
   */
   readonly skipCompletion?: boolean | cdktf.IResolvable;
   /**
   * A list of tags to be applied to the cluster. Tags must be in the form of `key:value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#tags ClusterGke#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#tags ClusterGke#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#update_worker_pool_in_parallel ClusterGke#update_worker_pool_in_parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#update_worker_pool_in_parallel ClusterGke#update_worker_pool_in_parallel}
   */
   readonly updateWorkerPoolInParallel?: boolean | cdktf.IResolvable;
   /**
   * backup_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#backup_policy ClusterGke#backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#backup_policy ClusterGke#backup_policy}
   */
   readonly backupPolicy?: ClusterGkeBackupPolicy;
   /**
   * cloud_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#cloud_config ClusterGke#cloud_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#cloud_config ClusterGke#cloud_config}
   */
   readonly cloudConfig: ClusterGkeCloudConfig;
   /**
   * cluster_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#cluster_profile ClusterGke#cluster_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#cluster_profile ClusterGke#cluster_profile}
   */
   readonly clusterProfile?: ClusterGkeClusterProfile[] | cdktf.IResolvable;
   /**
   * cluster_rbac_binding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#cluster_rbac_binding ClusterGke#cluster_rbac_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#cluster_rbac_binding ClusterGke#cluster_rbac_binding}
   */
   readonly clusterRbacBinding?: ClusterGkeClusterRbacBinding[] | cdktf.IResolvable;
   /**
   * cluster_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#cluster_template ClusterGke#cluster_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#cluster_template ClusterGke#cluster_template}
   */
   readonly clusterTemplate?: ClusterGkeClusterTemplate;
   /**
   * host_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#host_config ClusterGke#host_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#host_config ClusterGke#host_config}
   */
   readonly hostConfig?: ClusterGkeHostConfig[] | cdktf.IResolvable;
   /**
   * machine_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#machine_pool ClusterGke#machine_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#machine_pool ClusterGke#machine_pool}
   */
   readonly machinePool: ClusterGkeMachinePool[] | cdktf.IResolvable;
   /**
   * namespaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#namespaces ClusterGke#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#namespaces ClusterGke#namespaces}
   */
   readonly namespaces?: ClusterGkeNamespaces[] | cdktf.IResolvable;
   /**
   * scan_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#scan_policy ClusterGke#scan_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#scan_policy ClusterGke#scan_policy}
   */
   readonly scanPolicy?: ClusterGkeScanPolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#timeouts ClusterGke#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#timeouts ClusterGke#timeouts}
   */
   readonly timeouts?: ClusterGkeTimeouts;
 }
@@ -271,61 +271,61 @@ export interface ClusterGkeBackupPolicy {
   /**
   * The ID of the backup location to use for the backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#backup_location_id ClusterGke#backup_location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#backup_location_id ClusterGke#backup_location_id}
   */
   readonly backupLocationId: string;
   /**
   * The list of cluster UIDs to include in the backup. If `include_all_clusters` is set to `true`, then all clusters will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#cluster_uids ClusterGke#cluster_uids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#cluster_uids ClusterGke#cluster_uids}
   */
   readonly clusterUids?: string[];
   /**
   * The number of hours after which the backup will be deleted. For example, if the expiry is set to 24, the backup will be deleted after 24 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#expiry_in_hour ClusterGke#expiry_in_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#expiry_in_hour ClusterGke#expiry_in_hour}
   */
   readonly expiryInHour: number;
   /**
   * Whether to include all clusters in the backup. If set to false, only the clusters specified in `cluster_uids` will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#include_all_clusters ClusterGke#include_all_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#include_all_clusters ClusterGke#include_all_clusters}
   */
   readonly includeAllClusters?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to include cluster resources in the backup. If set to false, only the cluster configuration and disks will be backed up. (Note: Starting with Palette version 4.6, the include_cluster_resources attribute will be deprecated, and a new attribute, include_cluster_resources_mode, will be introduced.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#include_cluster_resources ClusterGke#include_cluster_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#include_cluster_resources ClusterGke#include_cluster_resources}
   */
   readonly includeClusterResources?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether to include the cluster resources in the backup. Supported values are `always`, `never`, and `auto`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#include_cluster_resources_mode ClusterGke#include_cluster_resources_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#include_cluster_resources_mode ClusterGke#include_cluster_resources_mode}
   */
   readonly includeClusterResourcesMode?: string;
   /**
   * Whether to include the disks in the backup. If set to false, only the cluster configuration will be backed up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#include_disks ClusterGke#include_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#include_disks ClusterGke#include_disks}
   */
   readonly includeDisks?: boolean | cdktf.IResolvable;
   /**
   * The list of Kubernetes namespaces to include in the backup. If not specified, all namespaces will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#namespaces ClusterGke#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#namespaces ClusterGke#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Prefix for the backup name. The backup name will be of the format <prefix>-<cluster-name>-<timestamp>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#prefix ClusterGke#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#prefix ClusterGke#prefix}
   */
   readonly prefix: string;
   /**
   * The schedule for the backup. The schedule is specified in cron format. For example, to run the backup every day at 1:00 AM, the schedule should be set to `0 1 * * *`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#schedule ClusterGke#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#schedule ClusterGke#schedule}
   */
   readonly schedule: string;
 }
@@ -660,11 +660,11 @@ export interface ClusterGkeCloudConfig {
   /**
   * GCP project name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#project ClusterGke#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#project ClusterGke#project}
   */
   readonly project: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#region ClusterGke#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#region ClusterGke#region}
   */
   readonly region: string;
 }
@@ -773,13 +773,13 @@ export interface ClusterGkeClusterProfilePackManifest {
   /**
   * The content of the manifest. The content is the YAML content of the manifest. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#content ClusterGke#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#content ClusterGke#content}
   */
   readonly content: string;
   /**
   * The name of the manifest. The name must be unique within the pack. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#name ClusterGke#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#name ClusterGke#name}
   */
   readonly name: string;
 }
@@ -925,49 +925,49 @@ export interface ClusterGkeClusterProfilePack {
   /**
   * The name of the pack. The name must be unique within the cluster profile. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#name ClusterGke#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#name ClusterGke#name}
   */
   readonly name: string;
   /**
   * The registry name of the pack. The registry name is the human-readable name of the registry. This attribute can be used instead of `registry_uid` for better readability. If `uid` is not provided, this field can be used along with `name` and `tag` to resolve the pack UID internally. Either `registry_uid` or `registry_name` can be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#registry_name ClusterGke#registry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#registry_name ClusterGke#registry_name}
   */
   readonly registryName?: string;
   /**
   * The registry UID of the pack. The registry UID is the unique identifier of the registry. This attribute is required if there is more than one registry that contains a pack with the same name. If `uid` is not provided, this field is required along with `name` and `tag` to resolve the pack UID internally. Either `registry_uid` or `registry_name` can be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#registry_uid ClusterGke#registry_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#registry_uid ClusterGke#registry_uid}
   */
   readonly registryUid?: string;
   /**
   * The tag of the pack. The tag is the version of the pack. This attribute is required if the pack type is `spectro` or `helm`. If `uid` is not provided, this field is required along with `name` and `registry_uid` (or `registry_name`) to resolve the pack UID internally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#tag ClusterGke#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#tag ClusterGke#tag}
   */
   readonly tag?: string;
   /**
   * The type of the pack. Allowed values are `spectro`, `manifest`, `helm`, or `oci`. The default value is spectro. If using an OCI registry for pack, set the type to `oci`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#type ClusterGke#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#type ClusterGke#type}
   */
   readonly type?: string;
   /**
   * The unique identifier of the pack. The value can be looked up using the [`spectrocloud_pack`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs/data-sources/pack) data source. This value is required if the pack type is `spectro` and for `helm` if the chart is from a public helm registry. If not provided, all of `name`, `tag`, and `registry_uid` must be specified to resolve the pack UID internally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#uid ClusterGke#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#uid ClusterGke#uid}
   */
   readonly uid?: string;
   /**
   * The values of the pack. The values are the configuration values of the pack. The values are specified in YAML format. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#values ClusterGke#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#values ClusterGke#values}
   */
   readonly values?: string;
   /**
   * manifest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#manifest ClusterGke#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#manifest ClusterGke#manifest}
   */
   readonly manifest?: ClusterGkeClusterProfilePackManifest[] | cdktf.IResolvable;
 }
@@ -1285,7 +1285,7 @@ export interface ClusterGkeClusterProfile {
   /**
   * The ID of the cluster profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#id ClusterGke#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#id ClusterGke#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1294,13 +1294,13 @@ export interface ClusterGkeClusterProfile {
   /**
   * A map of cluster profile variables, specified as key-value pairs. For example: `priority = "5"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#variables ClusterGke#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#variables ClusterGke#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
   * pack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#pack ClusterGke#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#pack ClusterGke#pack}
   */
   readonly pack?: ClusterGkeClusterProfilePack[] | cdktf.IResolvable;
 }
@@ -1473,19 +1473,19 @@ export interface ClusterGkeClusterRbacBindingSubjects {
   /**
   * The name of the subject. Required if 'type' is set to 'User' or 'Group'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#name ClusterGke#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#name ClusterGke#name}
   */
   readonly name: string;
   /**
   * The Kubernetes namespace of the subject. Required if 'type' is set to 'ServiceAccount'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#namespace ClusterGke#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#namespace ClusterGke#namespace}
   */
   readonly namespace?: string;
   /**
   * The type of the subject. Can be one of the following values: `User`, `Group`, or `ServiceAccount`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#type ClusterGke#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#type ClusterGke#type}
   */
   readonly type: string;
 }
@@ -1655,25 +1655,25 @@ export interface ClusterGkeClusterRbacBinding {
   /**
   * The Kubernetes namespace of the RBAC binding. Required if 'type' is set to 'RoleBinding'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#namespace ClusterGke#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#namespace ClusterGke#namespace}
   */
   readonly namespace?: string;
   /**
   * The role of the RBAC binding. Required if 'type' is set to 'RoleBinding'. Must include 'name' and 'kind' fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#role ClusterGke#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#role ClusterGke#role}
   */
   readonly role?: { [key: string]: string };
   /**
   * The type of the RBAC binding. Can be one of the following values: `RoleBinding`, or `ClusterRoleBinding`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#type ClusterGke#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#type ClusterGke#type}
   */
   readonly type: string;
   /**
   * subjects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#subjects ClusterGke#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#subjects ClusterGke#subjects}
   */
   readonly subjects?: ClusterGkeClusterRbacBindingSubjects[] | cdktf.IResolvable;
 }
@@ -1875,7 +1875,7 @@ export interface ClusterGkeClusterTemplateClusterProfile {
   /**
   * The UID of the cluster profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#id ClusterGke#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#id ClusterGke#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1884,7 +1884,7 @@ export interface ClusterGkeClusterTemplateClusterProfile {
   /**
   * A map of cluster profile variables, specified as key-value pairs. For example: `priority = "5"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#variables ClusterGke#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#variables ClusterGke#variables}
   */
   readonly variables?: { [key: string]: string };
 }
@@ -2028,7 +2028,7 @@ export interface ClusterGkeClusterTemplate {
   /**
   * The ID of the cluster template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#id ClusterGke#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#id ClusterGke#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2037,7 +2037,7 @@ export interface ClusterGkeClusterTemplate {
   /**
   * cluster_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#cluster_profile ClusterGke#cluster_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#cluster_profile ClusterGke#cluster_profile}
   */
   readonly clusterProfile?: ClusterGkeClusterTemplateClusterProfile[] | cdktf.IResolvable;
 }
@@ -2154,25 +2154,25 @@ export interface ClusterGkeHostConfig {
   /**
   * The external traffic policy for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#external_traffic_policy ClusterGke#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#external_traffic_policy ClusterGke#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * The type of endpoint for the cluster. Can be either 'Ingress' or 'LoadBalancer'. The default is 'Ingress'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#host_endpoint_type ClusterGke#host_endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#host_endpoint_type ClusterGke#host_endpoint_type}
   */
   readonly hostEndpointType?: string;
   /**
   * The host for the Ingress endpoint. Required if 'host_endpoint_type' is set to 'Ingress'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#ingress_host ClusterGke#ingress_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#ingress_host ClusterGke#ingress_host}
   */
   readonly ingressHost?: string;
   /**
   * The source ranges for the load balancer. Required if 'host_endpoint_type' is set to 'LoadBalancer'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#load_balancer_source_ranges ClusterGke#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#load_balancer_source_ranges ClusterGke#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string;
 }
@@ -2377,13 +2377,13 @@ export interface ClusterGkeMachinePoolNode {
   /**
   * The action to perform on the node. Valid values are: `cordon`, `uncordon`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#action ClusterGke#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#action ClusterGke#action}
   */
   readonly action: string;
   /**
   * The node_id of the node, For example `i-07f899a33dee624f7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#node_id ClusterGke#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#node_id ClusterGke#node_id}
   */
   readonly nodeId: string;
 }
@@ -2524,19 +2524,19 @@ export interface ClusterGkeMachinePoolTaints {
   /**
   * The effect of the taint. Allowed values are: `NoSchedule`, `PreferNoSchedule` or `NoExecute`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#effect ClusterGke#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#effect ClusterGke#effect}
   */
   readonly effect: string;
   /**
   * The key of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#key ClusterGke#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#key ClusterGke#key}
   */
   readonly key: string;
   /**
   * The value of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#value ClusterGke#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#value ClusterGke#value}
   */
   readonly value: string;
 }
@@ -2701,43 +2701,43 @@ export class ClusterGkeMachinePoolTaintsList extends cdktf.ComplexList {
 }
 export interface ClusterGkeMachinePool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#additional_labels ClusterGke#additional_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#additional_labels ClusterGke#additional_labels}
   */
   readonly additionalLabels?: { [key: string]: string };
   /**
   * Number of nodes in the machine pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#count ClusterGke#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#count ClusterGke#count}
   */
   readonly count: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#disk_size_gb ClusterGke#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#disk_size_gb ClusterGke#disk_size_gb}
   */
   readonly diskSizeGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#instance_type ClusterGke#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#instance_type ClusterGke#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#name ClusterGke#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#name ClusterGke#name}
   */
   readonly name: string;
   /**
   * Update strategy for the machine pool. Valid values are `RollingUpdateScaleOut` and `RollingUpdateScaleIn`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#update_strategy ClusterGke#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#update_strategy ClusterGke#update_strategy}
   */
   readonly updateStrategy?: string;
   /**
   * node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#node ClusterGke#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#node ClusterGke#node}
   */
   readonly nodeAttribute?: ClusterGkeMachinePoolNode[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#taints ClusterGke#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#taints ClusterGke#taints}
   */
   readonly taints?: ClusterGkeMachinePoolTaints[] | cdktf.IResolvable;
 }
@@ -3049,13 +3049,13 @@ export interface ClusterGkeNamespaces {
   /**
   * Name of the namespace. This is the name of the Kubernetes namespace in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#name ClusterGke#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#name ClusterGke#name}
   */
   readonly name: string;
   /**
   * Resource allocation for the namespace. This is a map containing the resource type and the resource value. For example, `{cpu_cores: '2', memory_MiB: '2048', gpu_limit: '1', gpu_provider: 'nvidia'}`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#resource_allocation ClusterGke#resource_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#resource_allocation ClusterGke#resource_allocation}
   */
   readonly resourceAllocation: { [key: string]: string };
 }
@@ -3196,19 +3196,19 @@ export interface ClusterGkeScanPolicy {
   /**
   * The schedule for configuration scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#configuration_scan_schedule ClusterGke#configuration_scan_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#configuration_scan_schedule ClusterGke#configuration_scan_schedule}
   */
   readonly configurationScanSchedule: string;
   /**
   * The schedule for conformance scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#conformance_scan_schedule ClusterGke#conformance_scan_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#conformance_scan_schedule ClusterGke#conformance_scan_schedule}
   */
   readonly conformanceScanSchedule: string;
   /**
   * The schedule for penetration scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#penetration_scan_schedule ClusterGke#penetration_scan_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#penetration_scan_schedule ClusterGke#penetration_scan_schedule}
   */
   readonly penetrationScanSchedule: string;
 }
@@ -3341,15 +3341,15 @@ export class ClusterGkeScanPolicyOutputReference extends cdktf.ComplexObject {
 }
 export interface ClusterGkeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#create ClusterGke#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#create ClusterGke#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#delete ClusterGke#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#delete ClusterGke#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#update ClusterGke#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#update ClusterGke#update}
   */
   readonly update?: string;
 }
@@ -3501,7 +3501,7 @@ export class ClusterGkeTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke spectrocloud_cluster_gke}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke spectrocloud_cluster_gke}
 */
 export class ClusterGke extends cdktf.TerraformResource {
 
@@ -3517,7 +3517,7 @@ export class ClusterGke extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterGke resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterGke to import
-  * @param importFromId The id of the existing ClusterGke that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterGke that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterGke to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3529,7 +3529,7 @@ export class ClusterGke extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_gke spectrocloud_cluster_gke} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cluster_gke spectrocloud_cluster_gke} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3540,8 +3540,8 @@ export class ClusterGke extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_cluster_gke',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.1',
-        providerVersionConstraint: '0.26.1'
+        providerVersion: '0.26.2',
+        providerVersionConstraint: '0.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

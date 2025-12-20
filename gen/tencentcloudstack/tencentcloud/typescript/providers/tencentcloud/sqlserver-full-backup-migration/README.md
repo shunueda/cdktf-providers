@@ -1,3 +1,3 @@
 # `tencentcloud_sqlserver_full_backup_migration`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_sqlserver_full_backup_migration`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_full_backup_migration).
+Refer to the Terraform Registry for docs: [`tencentcloud_sqlserver_full_backup_migration`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_full_backup_migration).

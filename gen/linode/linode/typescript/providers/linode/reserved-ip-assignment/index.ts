@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/reserved_ip_assignment
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/reserved_ip_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ReservedIpAssignmentConfig extends cdktf.TerraformMetaArguments
   /**
   * The resulting IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/reserved_ip_assignment#address ReservedIpAssignment#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/reserved_ip_assignment#address ReservedIpAssignment#address}
   */
   readonly address: string;
   /**
   * If true, the instance will be rebooted to update network interfaces. This functionality is not affected by the `skip_implicit_reboots` provider argument.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/reserved_ip_assignment#apply_immediately ReservedIpAssignment#apply_immediately}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/reserved_ip_assignment#apply_immediately ReservedIpAssignment#apply_immediately}
   */
   readonly applyImmediately?: boolean | cdktf.IResolvable;
   /**
   * The ID of the Linode to allocate an IPv4 address for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/reserved_ip_assignment#linode_id ReservedIpAssignment#linode_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/reserved_ip_assignment#linode_id ReservedIpAssignment#linode_id}
   */
   readonly linodeId: number;
   /**
   * Whether the IPv4 address is public or private.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/reserved_ip_assignment#public ReservedIpAssignment#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/reserved_ip_assignment#public ReservedIpAssignment#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
   * The reverse DNS assigned to this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/reserved_ip_assignment#rdns ReservedIpAssignment#rdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/reserved_ip_assignment#rdns ReservedIpAssignment#rdns}
   */
   readonly rdns?: string;
 }
@@ -125,7 +125,7 @@ export class ReservedIpAssignmentVpcNat11List extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/reserved_ip_assignment linode_reserved_ip_assignment}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/reserved_ip_assignment linode_reserved_ip_assignment}
 */
 export class ReservedIpAssignment extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class ReservedIpAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReservedIpAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReservedIpAssignment to import
-  * @param importFromId The id of the existing ReservedIpAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/reserved_ip_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReservedIpAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/reserved_ip_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReservedIpAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class ReservedIpAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/reserved_ip_assignment linode_reserved_ip_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/reserved_ip_assignment linode_reserved_ip_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class ReservedIpAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'linode_reserved_ip_assignment',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

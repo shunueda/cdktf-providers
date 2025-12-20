@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique identifier (UID) of the application profile to use for this application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#application_profile_uid Application#application_profile_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#application_profile_uid Application#application_profile_uid}
   */
   readonly applicationProfileUid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#id Application#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#id Application#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface ApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the application being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#name Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#name Application#name}
   */
   readonly name: string;
   /**
   * A set of tags to associate with the application for easier identification and categorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#tags Application#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#tags Application#tags}
   */
   readonly tags?: string[];
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#config Application#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#config Application#config}
   */
   readonly config?: ApplicationConfigA;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#timeouts Application#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#timeouts Application#timeouts}
   */
   readonly timeouts?: ApplicationTimeouts;
 }
@@ -49,19 +49,19 @@ export interface ApplicationConfigLimits {
   /**
   * The CPU allocation for the application, specified in integer values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#cpu Application#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#cpu Application#cpu}
   */
   readonly cpu?: number;
   /**
   * The memory allocation for the application, specified in megabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#memory Application#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#memory Application#memory}
   */
   readonly memory?: number;
   /**
   * The storage allocation for the application, specified in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#storage Application#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#storage Application#storage}
   */
   readonly storage?: number;
 }
@@ -237,31 +237,31 @@ export interface ApplicationConfigA {
   /**
   * The context for the cluster,  Either `tenant` or `project` can be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#cluster_context Application#cluster_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#cluster_context Application#cluster_context}
   */
   readonly clusterContext: string;
   /**
   * The unique identifier (UID) of the cluster group. Either `cluster_uid` or `cluster_group_uid` can be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#cluster_group_uid Application#cluster_group_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#cluster_group_uid Application#cluster_group_uid}
   */
   readonly clusterGroupUid?: string;
   /**
   * An optional name for the target cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#cluster_name Application#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#cluster_name Application#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * The unique identifier (UID) of the target cluster. Either `cluster_uid` or `cluster_group_uid` can be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#cluster_uid Application#cluster_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#cluster_uid Application#cluster_uid}
   */
   readonly clusterUid?: string;
   /**
   * limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#limits Application#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#limits Application#limits}
   */
   readonly limits?: ApplicationConfigLimits[] | cdktf.IResolvable;
 }
@@ -458,15 +458,15 @@ export class ApplicationConfigAOutputReference extends cdktf.ComplexObject {
 }
 export interface ApplicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#create Application#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#create Application#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#delete Application#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#delete Application#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#update Application#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#update Application#update}
   */
   readonly update?: string;
 }
@@ -618,7 +618,7 @@ export class ApplicationTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application spectrocloud_application}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application spectrocloud_application}
 */
 export class Application extends cdktf.TerraformResource {
 
@@ -634,7 +634,7 @@ export class Application extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Application resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Application to import
-  * @param importFromId The id of the existing Application that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Application that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Application to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -646,7 +646,7 @@ export class Application extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application spectrocloud_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/application spectrocloud_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -657,8 +657,8 @@ export class Application extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_application',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.1',
-        providerVersionConstraint: '0.26.1'
+        providerVersion: '0.26.2',
+        providerVersionConstraint: '0.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

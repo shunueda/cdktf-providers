@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_group_config_release
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_config_release
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudTsfGroupConfigReleaseConfig extends cdktf.Terra
   /**
   * groupId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_group_config_release#group_id DataTencentcloudTsfGroupConfigRelease#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_config_release#group_id DataTencentcloudTsfGroupConfigRelease#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_group_config_release#id DataTencentcloudTsfGroupConfigRelease#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_config_release#id DataTencentcloudTsfGroupConfigRelease#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudTsfGroupConfigReleaseConfig extends cdktf.Terra
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_group_config_release#result_output_file DataTencentcloudTsfGroupConfigRelease#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_config_release#result_output_file DataTencentcloudTsfGroupConfigRelease#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -542,7 +542,7 @@ export class DataTencentcloudTsfGroupConfigReleaseResultList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_group_config_release tencentcloud_tsf_group_config_release}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_config_release tencentcloud_tsf_group_config_release}
 */
 export class DataTencentcloudTsfGroupConfigRelease extends cdktf.TerraformDataSource {
 
@@ -558,7 +558,7 @@ export class DataTencentcloudTsfGroupConfigRelease extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudTsfGroupConfigRelease resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTsfGroupConfigRelease to import
-  * @param importFromId The id of the existing DataTencentcloudTsfGroupConfigRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_group_config_release#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTsfGroupConfigRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_config_release#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTsfGroupConfigRelease to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -570,7 +570,7 @@ export class DataTencentcloudTsfGroupConfigRelease extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_group_config_release tencentcloud_tsf_group_config_release} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tsf_group_config_release tencentcloud_tsf_group_config_release} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -581,8 +581,8 @@ export class DataTencentcloudTsfGroupConfigRelease extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_tsf_group_config_release',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

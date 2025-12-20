@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/permission
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataSpectrocloudPermissionConfig extends cdktf.TerraformMetaArg
   /**
   * Name of the permissions. eg: `App Deployment`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/permission#name DataSpectrocloudPermission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/permission#name DataSpectrocloudPermission#name}
   */
   readonly name: string;
   /**
   * Permission scope. Allowed permission levels are `project` or `tenant` or `resource` . Defaults to `project`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/permission#scope DataSpectrocloudPermission#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/permission#scope DataSpectrocloudPermission#scope}
   */
   readonly scope?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/permission spectrocloud_permission}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/permission spectrocloud_permission}
 */
 export class DataSpectrocloudPermission extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataSpectrocloudPermission extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpectrocloudPermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpectrocloudPermission to import
-  * @param importFromId The id of the existing DataSpectrocloudPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpectrocloudPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpectrocloudPermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataSpectrocloudPermission extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/permission spectrocloud_permission} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/data-sources/permission spectrocloud_permission} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataSpectrocloudPermission extends cdktf.TerraformDataSource {
       terraformResourceType: 'spectrocloud_permission',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.1',
-        providerVersionConstraint: '0.26.1'
+        providerVersion: '0.26.2',
+        providerVersionConstraint: '0.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

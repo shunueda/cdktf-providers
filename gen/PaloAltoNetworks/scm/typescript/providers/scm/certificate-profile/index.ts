@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,100 @@ export interface CertificateProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Block sessions with expired certificates?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#block_expired_cert CertificateProfile#block_expired_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#block_expired_cert CertificateProfile#block_expired_cert}
   */
   readonly blockExpiredCert?: boolean | cdktf.IResolvable;
   /**
   * Block session if certificate status cannot be retrieved within timeout?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#block_timeout_cert CertificateProfile#block_timeout_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#block_timeout_cert CertificateProfile#block_timeout_cert}
   */
   readonly blockTimeoutCert?: boolean | cdktf.IResolvable;
   /**
   * Block session if the certificate was not issued to the authenticating device?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#block_unauthenticated_cert CertificateProfile#block_unauthenticated_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#block_unauthenticated_cert CertificateProfile#block_unauthenticated_cert}
   */
   readonly blockUnauthenticatedCert?: boolean | cdktf.IResolvable;
   /**
   * Block session if certificate status is unknown?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#block_unknown_cert CertificateProfile#block_unknown_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#block_unknown_cert CertificateProfile#block_unknown_cert}
   */
   readonly blockUnknownCert?: boolean | cdktf.IResolvable;
   /**
   * An ordered list of CA certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#ca_certificates CertificateProfile#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#ca_certificates CertificateProfile#ca_certificates}
   */
   readonly caCertificates: CertificateProfileCaCertificates[] | cdktf.IResolvable;
   /**
   * Certificate status timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#cert_status_timeout CertificateProfile#cert_status_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#cert_status_timeout CertificateProfile#cert_status_timeout}
   */
   readonly certStatusTimeout?: string;
   /**
   * CRL receive timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#crl_receive_timeout CertificateProfile#crl_receive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#crl_receive_timeout CertificateProfile#crl_receive_timeout}
   */
   readonly crlReceiveTimeout?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#device CertificateProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#device CertificateProfile#device}
   */
   readonly device?: string;
   /**
   * User domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#domain CertificateProfile#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#domain CertificateProfile#domain}
   */
   readonly domain?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#folder CertificateProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#folder CertificateProfile#folder}
   */
   readonly folder?: string;
   /**
   * The name of the certificate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#name CertificateProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#name CertificateProfile#name}
   */
   readonly name: string;
   /**
   * OCSP receive timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#ocsp_receive_timeout CertificateProfile#ocsp_receive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#ocsp_receive_timeout CertificateProfile#ocsp_receive_timeout}
   */
   readonly ocspReceiveTimeout?: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#snippet CertificateProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#snippet CertificateProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * Use CRL?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#use_crl CertificateProfile#use_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#use_crl CertificateProfile#use_crl}
   */
   readonly useCrl?: boolean | cdktf.IResolvable;
   /**
   * Use OCSP?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#use_ocsp CertificateProfile#use_ocsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#use_ocsp CertificateProfile#use_ocsp}
   */
   readonly useOcsp?: boolean | cdktf.IResolvable;
   /**
   * Certificate username field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#username_field CertificateProfile#username_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#username_field CertificateProfile#username_field}
   */
   readonly usernameField?: CertificateProfileUsernameField;
 }
@@ -114,25 +111,25 @@ export interface CertificateProfileCaCertificates {
   /**
   * Default OCSP URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#default_ocsp_url CertificateProfile#default_ocsp_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#default_ocsp_url CertificateProfile#default_ocsp_url}
   */
   readonly defaultOcspUrl?: string;
   /**
   * CA certificate name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#name CertificateProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#name CertificateProfile#name}
   */
   readonly name: string;
   /**
   * OCSP verify certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#ocsp_verify_cert CertificateProfile#ocsp_verify_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#ocsp_verify_cert CertificateProfile#ocsp_verify_cert}
   */
   readonly ocspVerifyCert?: string;
   /**
   * Template name/OID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#template_name CertificateProfile#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#template_name CertificateProfile#template_name}
   */
   readonly templateName?: string;
 }
@@ -334,13 +331,13 @@ export interface CertificateProfileUsernameField {
   /**
   * Common name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#subject CertificateProfile#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#subject CertificateProfile#subject}
   */
   readonly subject?: string;
   /**
   * Email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#subject_alt CertificateProfile#subject_alt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#subject_alt CertificateProfile#subject_alt}
   */
   readonly subjectAlt?: string;
 }
@@ -463,7 +460,7 @@ export class CertificateProfileUsernameFieldOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile scm_certificate_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile scm_certificate_profile}
 */
 export class CertificateProfile extends cdktf.TerraformResource {
 
@@ -479,7 +476,7 @@ export class CertificateProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CertificateProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificateProfile to import
-  * @param importFromId The id of the existing CertificateProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificateProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificateProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -491,7 +488,7 @@ export class CertificateProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/certificate_profile scm_certificate_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/certificate_profile scm_certificate_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -502,8 +499,8 @@ export class CertificateProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_certificate_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

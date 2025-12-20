@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TcrTagRetentionRuleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Execution cycle, currently only available selections are: manual; daily; weekly; monthly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_rule#cron_setting TcrTagRetentionRule#cron_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_rule#cron_setting TcrTagRetentionRule#cron_setting}
   */
   readonly cronSetting: string;
   /**
   * Whether to disable the rule, with the default value of false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_rule#disabled TcrTagRetentionRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_rule#disabled TcrTagRetentionRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_rule#id TcrTagRetentionRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_rule#id TcrTagRetentionRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface TcrTagRetentionRuleConfig extends cdktf.TerraformMetaArguments 
   /**
   * The Name of the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_rule#namespace_name TcrTagRetentionRule#namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_rule#namespace_name TcrTagRetentionRule#namespace_name}
   */
   readonly namespaceName: string;
   /**
   * The main instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_rule#registry_id TcrTagRetentionRule#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_rule#registry_id TcrTagRetentionRule#registry_id}
   */
   readonly registryId: string;
   /**
   * retention_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_rule#retention_rule TcrTagRetentionRule#retention_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_rule#retention_rule TcrTagRetentionRule#retention_rule}
   */
   readonly retentionRule: TcrTagRetentionRuleRetentionRule;
 }
@@ -49,13 +49,13 @@ export interface TcrTagRetentionRuleRetentionRule {
   /**
   * The supported policies are latestPushedK (retain the latest `k` pushed versions) and nDaysSinceLastPush (retain pushed versions within the last `n` days).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_rule#key TcrTagRetentionRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_rule#key TcrTagRetentionRule#key}
   */
   readonly key: string;
   /**
   * corresponding values for rule settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_rule#value TcrTagRetentionRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_rule#value TcrTagRetentionRule#value}
   */
   readonly value: number;
 }
@@ -162,7 +162,7 @@ export class TcrTagRetentionRuleRetentionRuleOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_rule tencentcloud_tcr_tag_retention_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_rule tencentcloud_tcr_tag_retention_rule}
 */
 export class TcrTagRetentionRule extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class TcrTagRetentionRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcrTagRetentionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcrTagRetentionRule to import
-  * @param importFromId The id of the existing TcrTagRetentionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcrTagRetentionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcrTagRetentionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class TcrTagRetentionRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_rule tencentcloud_tcr_tag_retention_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_rule tencentcloud_tcr_tag_retention_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class TcrTagRetentionRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcr_tag_retention_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

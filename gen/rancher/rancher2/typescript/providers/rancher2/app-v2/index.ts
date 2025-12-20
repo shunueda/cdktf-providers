@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface AppV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#annotations AppV2#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#annotations AppV2#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Chart name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#chart_name AppV2#chart_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#chart_name AppV2#chart_name}
   */
   readonly chartName: string;
   /**
   * Chart version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#chart_version AppV2#chart_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#chart_version AppV2#chart_version}
   */
   readonly chartVersion?: string;
   /**
   * Cleanup app V2 on failed chart upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#cleanup_on_fail AppV2#cleanup_on_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#cleanup_on_fail AppV2#cleanup_on_fail}
   */
   readonly cleanupOnFail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#cluster_id AppV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#cluster_id AppV2#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Disable app V2 chart hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#disable_hooks AppV2#disable_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#disable_hooks AppV2#disable_hooks}
   */
   readonly disableHooks?: boolean | cdktf.IResolvable;
   /**
   * Disable app V2 Open API Validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#disable_open_api_validation AppV2#disable_open_api_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#disable_open_api_validation AppV2#disable_open_api_validation}
   */
   readonly disableOpenApiValidation?: boolean | cdktf.IResolvable;
   /**
   * Force app V2 chart upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#force_upgrade AppV2#force_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#force_upgrade AppV2#force_upgrade}
   */
   readonly forceUpgrade?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#id AppV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#id AppV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,69 +63,69 @@ export interface AppV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#labels AppV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#labels AppV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * App v2 name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#name AppV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#name AppV2#name}
   */
   readonly name: string;
   /**
   * App v2 namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#namespace AppV2#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#namespace AppV2#namespace}
   */
   readonly namespace: string;
   /**
   * Deploy app within project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#project_id AppV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#project_id AppV2#project_id}
   */
   readonly projectId?: string;
   /**
   * Repo name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#repo_name AppV2#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#repo_name AppV2#repo_name}
   */
   readonly repoName: string;
   /**
   * System default registry providing images for app deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#system_default_registry AppV2#system_default_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#system_default_registry AppV2#system_default_registry}
   */
   readonly systemDefaultRegistry?: string;
   /**
   * App v2 custom values yaml
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#values AppV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#values AppV2#values}
   */
   readonly values?: string;
   /**
   * Wait until app is deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#wait AppV2#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#wait AppV2#wait}
   */
   readonly wait?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#timeouts AppV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#timeouts AppV2#timeouts}
   */
   readonly timeouts?: AppV2Timeouts;
 }
 export interface AppV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#create AppV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#create AppV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#delete AppV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#delete AppV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#update AppV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#update AppV2#update}
   */
   readonly update?: string;
 }
@@ -277,7 +277,7 @@ export class AppV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2 rancher2_app_v2}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2 rancher2_app_v2}
 */
 export class AppV2 extends cdktf.TerraformResource {
 
@@ -293,7 +293,7 @@ export class AppV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppV2 to import
-  * @param importFromId The id of the existing AppV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -305,7 +305,7 @@ export class AppV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/app_v2 rancher2_app_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/app_v2 rancher2_app_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -316,8 +316,8 @@ export class AppV2 extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_app_v2',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

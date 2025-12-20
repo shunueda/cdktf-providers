@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,70 @@ export interface IkeGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#authentication IkeGateway#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#authentication IkeGateway#authentication}
   */
   readonly authentication: IkeGatewayAuthentication;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#device IkeGateway#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#device IkeGateway#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#folder IkeGateway#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#folder IkeGateway#folder}
   */
   readonly folder?: string;
   /**
   * Local address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#local_address IkeGateway#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#local_address IkeGateway#local_address}
   */
   readonly localAddress?: IkeGatewayLocalAddress;
   /**
   * Local id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#local_id IkeGateway#local_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#local_id IkeGateway#local_id}
   */
   readonly localId?: IkeGatewayLocalId;
   /**
   * Alphanumeric string begin with letter: [0-9a-zA-Z._-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#name IkeGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#name IkeGateway#name}
   */
   readonly name: string;
   /**
   * Peer address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#peer_address IkeGateway#peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#peer_address IkeGateway#peer_address}
   */
   readonly peerAddress: IkeGatewayPeerAddress;
   /**
   * Peer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#peer_id IkeGateway#peer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#peer_id IkeGateway#peer_id}
   */
   readonly peerId?: IkeGatewayPeerId;
   /**
   * Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#protocol IkeGateway#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#protocol IkeGateway#protocol}
   */
   readonly protocol: IkeGatewayProtocol;
   /**
   * Protocol common
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#protocol_common IkeGateway#protocol_common}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#protocol_common IkeGateway#protocol_common}
   */
   readonly protocolCommon?: IkeGatewayProtocolCommon;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#snippet IkeGateway#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#snippet IkeGateway#snippet}
   */
   readonly snippet?: string;
 }
@@ -84,7 +81,7 @@ export interface IkeGatewayAuthenticationCertificateLocalCertificate {
   /**
   * Local certificate name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#local_certificate_name IkeGateway#local_certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#local_certificate_name IkeGateway#local_certificate_name}
   */
   readonly localCertificateName?: string;
 }
@@ -180,31 +177,31 @@ export interface IkeGatewayAuthenticationCertificate {
   /**
   * Allow id payload mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#allow_id_payload_mismatch IkeGateway#allow_id_payload_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#allow_id_payload_mismatch IkeGateway#allow_id_payload_mismatch}
   */
   readonly allowIdPayloadMismatch?: boolean | cdktf.IResolvable;
   /**
   * Certificate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#certificate_profile IkeGateway#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#certificate_profile IkeGateway#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
   * Local certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#local_certificate IkeGateway#local_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#local_certificate IkeGateway#local_certificate}
   */
   readonly localCertificate?: IkeGatewayAuthenticationCertificateLocalCertificate;
   /**
   * Strict validation revocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#strict_validation_revocation IkeGateway#strict_validation_revocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#strict_validation_revocation IkeGateway#strict_validation_revocation}
   */
   readonly strictValidationRevocation?: boolean | cdktf.IResolvable;
   /**
   * Use management as source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#use_management_as_source IkeGateway#use_management_as_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#use_management_as_source IkeGateway#use_management_as_source}
   */
   readonly useManagementAsSource?: boolean | cdktf.IResolvable;
 }
@@ -416,7 +413,7 @@ export interface IkeGatewayAuthenticationPreSharedKey {
   /**
   * Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#key IkeGateway#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#key IkeGateway#key}
   */
   readonly key?: string;
 }
@@ -511,18 +508,16 @@ export class IkeGatewayAuthenticationPreSharedKeyOutputReference extends cdktf.C
 export interface IkeGatewayAuthentication {
   /**
   * Certificate
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `certificate` and `pre_shared_key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#certificate IkeGateway#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#certificate IkeGateway#certificate}
   */
   readonly certificate?: IkeGatewayAuthenticationCertificate;
   /**
   * Pre shared key
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `certificate` and `pre_shared_key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#pre_shared_key IkeGateway#pre_shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#pre_shared_key IkeGateway#pre_shared_key}
   */
   readonly preSharedKey?: IkeGatewayAuthenticationPreSharedKey;
 }
@@ -647,7 +642,7 @@ export interface IkeGatewayLocalAddress {
   /**
   * Interface variable or hardcoded vlan/loopback. vlan will be passed as default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#interface IkeGateway#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#interface IkeGateway#interface}
   */
   readonly interface?: string;
 }
@@ -743,7 +738,7 @@ export interface IkeGatewayLocalId {
   /**
   * Local ID string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#id IkeGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#id IkeGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -752,7 +747,7 @@ export interface IkeGatewayLocalId {
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#type IkeGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#type IkeGateway#type}
   */
   readonly type?: string;
 }
@@ -935,26 +930,23 @@ export class IkeGatewayPeerAddressDynamicOutputReference extends cdktf.ComplexOb
 export interface IkeGatewayPeerAddress {
   /**
   * Dynamic
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `dynamic`, `fqdn`, and `ip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#dynamic IkeGateway#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#dynamic IkeGateway#dynamic}
   */
   readonly dynamic?: IkeGatewayPeerAddressDynamic;
   /**
   * peer gateway FQDN name
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `dynamic`, `fqdn`, and `ip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#fqdn IkeGateway#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#fqdn IkeGateway#fqdn}
   */
   readonly fqdn?: string;
   /**
   * peer gateway has static IP address
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `dynamic`, `fqdn`, and `ip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#ip IkeGateway#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#ip IkeGateway#ip}
   */
   readonly ip?: string;
 }
@@ -1108,7 +1100,7 @@ export interface IkeGatewayPeerId {
   /**
   * Peer ID string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#id IkeGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#id IkeGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1117,7 +1109,7 @@ export interface IkeGatewayPeerId {
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#type IkeGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#type IkeGateway#type}
   */
   readonly type?: string;
 }
@@ -1242,7 +1234,7 @@ export interface IkeGatewayProtocolIkev1Dpd {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#enable IkeGateway#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#enable IkeGateway#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -1338,13 +1330,13 @@ export interface IkeGatewayProtocolIkev1 {
   /**
   * Dpd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#dpd IkeGateway#dpd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#dpd IkeGateway#dpd}
   */
   readonly dpd?: IkeGatewayProtocolIkev1Dpd;
   /**
   * Ike crypto profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#ike_crypto_profile IkeGateway#ike_crypto_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#ike_crypto_profile IkeGateway#ike_crypto_profile}
   */
   readonly ikeCryptoProfile?: string;
 }
@@ -1469,7 +1461,7 @@ export interface IkeGatewayProtocolIkev2Dpd {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#enable IkeGateway#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#enable IkeGateway#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -1565,13 +1557,13 @@ export interface IkeGatewayProtocolIkev2 {
   /**
   * Dpd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#dpd IkeGateway#dpd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#dpd IkeGateway#dpd}
   */
   readonly dpd?: IkeGatewayProtocolIkev2Dpd;
   /**
   * Ike crypto profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#ike_crypto_profile IkeGateway#ike_crypto_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#ike_crypto_profile IkeGateway#ike_crypto_profile}
   */
   readonly ikeCryptoProfile?: string;
 }
@@ -1696,19 +1688,19 @@ export interface IkeGatewayProtocol {
   /**
   * Ikev1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#ikev1 IkeGateway#ikev1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#ikev1 IkeGateway#ikev1}
   */
   readonly ikev1?: IkeGatewayProtocolIkev1;
   /**
   * Ikev2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#ikev2 IkeGateway#ikev2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#ikev2 IkeGateway#ikev2}
   */
   readonly ikev2?: IkeGatewayProtocolIkev2;
   /**
   * Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#version IkeGateway#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#version IkeGateway#version}
   */
   readonly version?: string;
 }
@@ -1862,7 +1854,7 @@ export interface IkeGatewayProtocolCommonFragmentation {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#enable IkeGateway#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#enable IkeGateway#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -1958,7 +1950,7 @@ export interface IkeGatewayProtocolCommonNatTraversal {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#enable IkeGateway#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#enable IkeGateway#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -2054,19 +2046,19 @@ export interface IkeGatewayProtocolCommon {
   /**
   * Fragmentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#fragmentation IkeGateway#fragmentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#fragmentation IkeGateway#fragmentation}
   */
   readonly fragmentation?: IkeGatewayProtocolCommonFragmentation;
   /**
   * Enables NAT traversal for the IKE gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#nat_traversal IkeGateway#nat_traversal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#nat_traversal IkeGateway#nat_traversal}
   */
   readonly natTraversal?: IkeGatewayProtocolCommonNatTraversal;
   /**
   * Passive mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#passive_mode IkeGateway#passive_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#passive_mode IkeGateway#passive_mode}
   */
   readonly passiveMode?: boolean | cdktf.IResolvable;
 }
@@ -2218,7 +2210,7 @@ export class IkeGatewayProtocolCommonOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway scm_ike_gateway}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway scm_ike_gateway}
 */
 export class IkeGateway extends cdktf.TerraformResource {
 
@@ -2234,7 +2226,7 @@ export class IkeGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IkeGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IkeGateway to import
-  * @param importFromId The id of the existing IkeGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IkeGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IkeGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2246,7 +2238,7 @@ export class IkeGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ike_gateway scm_ike_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ike_gateway scm_ike_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2257,8 +2249,8 @@ export class IkeGateway extends cdktf.TerraformResource {
       terraformResourceType: 'scm_ike_gateway',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

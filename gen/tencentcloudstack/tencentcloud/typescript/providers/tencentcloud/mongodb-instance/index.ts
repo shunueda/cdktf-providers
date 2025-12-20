@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface MongodbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Auto renew flag. Valid values are `0`(NOTIFY_AND_MANUAL_RENEW), `1`(NOTIFY_AND_AUTO_RENEW) and `2`(DISABLE_NOTIFY_AND_MANUAL_RENEW). Default value is `0`. Note: only works for PREPAID instance. Only supports`0` and `1` for creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#auto_renew_flag MongodbInstance#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#auto_renew_flag MongodbInstance#auto_renew_flag}
   */
   readonly autoRenewFlag?: number;
   /**
@@ -19,19 +19,19 @@ export interface MongodbInstanceConfig extends cdktf.TerraformMetaArguments {
   * 	- You can obtain availability zone information planned in different regions of the cloud database through the interface DescribeSpecInfo, so as to specify effective availability zones.
   * 	- Multiple availability zone deployment nodes can only be deployed in 3 different availability zones. Deploying most nodes of a cluster in the same availability zone is not supported. For example, a 3-node cluster does not support 2 nodes deployed in the same zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#availability_zone_list MongodbInstance#availability_zone_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#availability_zone_list MongodbInstance#availability_zone_list}
   */
   readonly availabilityZoneList?: string[];
   /**
   * The available zone of the Mongodb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#available_zone MongodbInstance#available_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#available_zone MongodbInstance#available_zone}
   */
   readonly availableZone: string;
   /**
   * The charge type of instance. Valid values are `PREPAID` and `POSTPAID_BY_HOUR`. Default value is `POSTPAID_BY_HOUR`. Note: TencentCloud International only supports `POSTPAID_BY_HOUR`. Caution that update operation on this field will delete old instances and create new one with new charge type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#charge_type MongodbInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#charge_type MongodbInstance#charge_type}
   */
   readonly chargeType?: string;
   /**
@@ -43,17 +43,17 @@ export interface MongodbInstanceConfig extends cdktf.TerraformMetaArguments {
   * - MONGO_60_WT: version of the MongoDB 6.0 WiredTiger storage engine.
   * - MONGO_70_WT: version of the MongoDB 7.0 WiredTiger storage engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#engine_version MongodbInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#engine_version MongodbInstance#engine_version}
   */
   readonly engineVersion: string;
   /**
   * The availability zone to which the Hidden node belongs. This parameter is required in cross-AZ instance deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#hidden_zone MongodbInstance#hidden_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#hidden_zone MongodbInstance#hidden_zone}
   */
   readonly hiddenZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#id MongodbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#id MongodbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,19 +65,19 @@ export interface MongodbInstanceConfig extends cdktf.TerraformMetaArguments {
   * 	- 1: Perform reconfiguration tasks within the maintenance time window.
   * Note: Adjusting the number of nodes and slices does not support changes within the maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#in_maintenance MongodbInstance#in_maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#in_maintenance MongodbInstance#in_maintenance}
   */
   readonly inMaintenance?: number;
   /**
   * Name of the Mongodb instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#instance_name MongodbInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#instance_name MongodbInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * Type of Mongodb instance, and available values include `HIO`(or `GIO` which will be deprecated, represents high IO) and `HIO10G`(or `TGIO` which will be deprecated, represents 10-gigabit high IO).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#machine_type MongodbInstance#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#machine_type MongodbInstance#machine_type}
   */
   readonly machineType: string;
   /**
@@ -85,85 +85,85 @@ export interface MongodbInstanceConfig extends cdktf.TerraformMetaArguments {
   * 	- The value range is any full point or half point from `00:00-23:00`, and the maintenance time duration is at least 30 minutes and at most 3 hours.
   * 	- The end time must be based on the start time backwards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#maintenance_end MongodbInstance#maintenance_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#maintenance_end MongodbInstance#maintenance_end}
   */
   readonly maintenanceEnd?: string;
   /**
   * Maintenance window start time. The value range is any full point or half point from `00:00-23:00`, such as 00:00 or 00:30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#maintenance_start MongodbInstance#maintenance_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#maintenance_start MongodbInstance#maintenance_start}
   */
   readonly maintenanceStart?: string;
   /**
   * Memory size. The minimum value is 2, and unit is GB. Memory and volume must be upgraded or degraded simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#memory MongodbInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#memory MongodbInstance#memory}
   */
   readonly memory: number;
   /**
   * The number of nodes in each replica set. Default value: 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#node_num MongodbInstance#node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#node_num MongodbInstance#node_num}
   */
   readonly nodeNum?: number;
   /**
   * Password of this Mongodb account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#password MongodbInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#password MongodbInstance#password}
   */
   readonly password?: string;
   /**
   * The tenancy (time unit is month) of the prepaid instance. Valid values are 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 24, 36. NOTE: it only works when charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#prepaid_period MongodbInstance#prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#prepaid_period MongodbInstance#prepaid_period}
   */
   readonly prepaidPeriod?: number;
   /**
   * ID of the project which the instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#project_id MongodbInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#project_id MongodbInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * ID of the security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#security_groups MongodbInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#security_groups MongodbInstance#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * ID of the subnet within this VPC. The value is required if `vpc_id` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#subnet_id MongodbInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#subnet_id MongodbInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The tags of the Mongodb. Key name `project` is system reserved and can't be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#tags MongodbInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#tags MongodbInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Disk size. The minimum value is 25, and unit is GB. Memory and volume must be upgraded or degraded simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#volume MongodbInstance#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#volume MongodbInstance#volume}
   */
   readonly volume: number;
   /**
   * ID of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#vpc_id MongodbInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#vpc_id MongodbInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * add_node_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#add_node_list MongodbInstance#add_node_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#add_node_list MongodbInstance#add_node_list}
   */
   readonly addNodeList?: MongodbInstanceAddNodeListStruct[] | cdktf.IResolvable;
   /**
   * remove_node_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#remove_node_list MongodbInstance#remove_node_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#remove_node_list MongodbInstance#remove_node_list}
   */
   readonly removeNodeList?: MongodbInstanceRemoveNodeListStruct[] | cdktf.IResolvable;
 }
@@ -254,7 +254,7 @@ export interface MongodbInstanceAddNodeListStruct {
   * - READONLY: read-only node;
   * - MONGOS: Mongos node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#role MongodbInstance#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#role MongodbInstance#role}
   */
   readonly role: string;
   /**
@@ -262,7 +262,7 @@ export interface MongodbInstanceAddNodeListStruct {
   * - single availability zone, where all nodes are in the same availability zone;
   * - multiple availability zones: the current standard specification is the distribution of three availability zones, and the master and slave nodes are not in the same availability zone. You should pay attention to configuring the availability zone corresponding to the new node, and the rule that the number of nodes in any two availability zones is greater than the third availability zone must be met after the addition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#zone MongodbInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#zone MongodbInstance#zone}
   */
   readonly zone: string;
 }
@@ -403,7 +403,7 @@ export interface MongodbInstanceRemoveNodeListStruct {
   /**
   * The node ID to delete. The shard cluster must specify the name of the node to be deleted by a group of shards, and the rest of the shards should be grouped and aligned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#node_name MongodbInstance#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#node_name MongodbInstance#node_name}
   */
   readonly nodeName: string;
   /**
@@ -412,7 +412,7 @@ export interface MongodbInstanceRemoveNodeListStruct {
   * - READONLY: read-only node;
   * - MONGOS: Mongos node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#role MongodbInstance#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#role MongodbInstance#role}
   */
   readonly role: string;
   /**
@@ -420,7 +420,7 @@ export interface MongodbInstanceRemoveNodeListStruct {
   * - single availability zone, where all nodes are in the same availability zone;
   * - multiple availability zones: the current standard specification is the distribution of three availability zones, and the master and slave nodes are not in the same availability zone. You should pay attention to configuring the availability zone corresponding to the new node, and the rule that the number of nodes in any two availability zones is greater than the third availability zone must be met after the addition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#zone MongodbInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#zone MongodbInstance#zone}
   */
   readonly zone: string;
 }
@@ -585,7 +585,7 @@ export class MongodbInstanceRemoveNodeListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance tencentcloud_mongodb_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance tencentcloud_mongodb_instance}
 */
 export class MongodbInstance extends cdktf.TerraformResource {
 
@@ -601,7 +601,7 @@ export class MongodbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbInstance to import
-  * @param importFromId The id of the existing MongodbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -613,7 +613,7 @@ export class MongodbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance tencentcloud_mongodb_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/mongodb_instance tencentcloud_mongodb_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -624,8 +624,8 @@ export class MongodbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mongodb_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

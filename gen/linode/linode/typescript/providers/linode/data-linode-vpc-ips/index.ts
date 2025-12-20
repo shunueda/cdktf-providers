@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/vpc_ips
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataLinodeVpcIpsConfig extends cdktf.TerraformMetaArguments {
   /**
   * If true, only IPv6 addresses will be returned by this data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips#ipv6 DataLinodeVpcIps#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/vpc_ips#ipv6 DataLinodeVpcIps#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
   /**
   * The ID of the VPC that the list of IP addresses is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips#vpc_id DataLinodeVpcIps#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/vpc_ips#vpc_id DataLinodeVpcIps#vpc_id}
   */
   readonly vpcId?: number;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips#filter DataLinodeVpcIps#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/vpc_ips#filter DataLinodeVpcIps#filter}
   */
   readonly filter?: DataLinodeVpcIpsFilter[] | cdktf.IResolvable;
 }
@@ -256,19 +256,19 @@ export interface DataLinodeVpcIpsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips#match_by DataLinodeVpcIps#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/vpc_ips#match_by DataLinodeVpcIps#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips#name DataLinodeVpcIps#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/vpc_ips#name DataLinodeVpcIps#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips#values DataLinodeVpcIps#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/vpc_ips#values DataLinodeVpcIps#values}
   */
   readonly values: string[];
 }
@@ -436,7 +436,7 @@ export class DataLinodeVpcIpsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips linode_vpc_ips}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/vpc_ips linode_vpc_ips}
 */
 export class DataLinodeVpcIps extends cdktf.TerraformDataSource {
 
@@ -452,7 +452,7 @@ export class DataLinodeVpcIps extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeVpcIps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeVpcIps to import
-  * @param importFromId The id of the existing DataLinodeVpcIps that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeVpcIps that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/vpc_ips#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeVpcIps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -464,7 +464,7 @@ export class DataLinodeVpcIps extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/vpc_ips linode_vpc_ips} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/vpc_ips linode_vpc_ips} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -475,8 +475,8 @@ export class DataLinodeVpcIps extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_vpc_ips',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_worktype_status_transition
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_worktype_status_transition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataGenesyscloudTaskManagementWorktypeStatusTransitionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_worktype_status_transition#id DataGenesyscloudTaskManagementWorktypeStatusTransition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_worktype_status_transition#id DataGenesyscloudTaskManagementWorktypeStatusTransition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataGenesyscloudTaskManagementWorktypeStatusTransitionConfig ex
   /**
   * Task management worktype status name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_worktype_status_transition#name DataGenesyscloudTaskManagementWorktypeStatusTransition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_worktype_status_transition#name DataGenesyscloudTaskManagementWorktypeStatusTransition#name}
   */
   readonly name: string;
   /**
   * The id of the worktype the status belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_worktype_status_transition#worktype_id DataGenesyscloudTaskManagementWorktypeStatusTransition#worktype_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_worktype_status_transition#worktype_id DataGenesyscloudTaskManagementWorktypeStatusTransition#worktype_id}
   */
   readonly worktypeId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_worktype_status_transition genesyscloud_task_management_worktype_status_transition}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_worktype_status_transition genesyscloud_task_management_worktype_status_transition}
 */
 export class DataGenesyscloudTaskManagementWorktypeStatusTransition extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataGenesyscloudTaskManagementWorktypeStatusTransition extends cdkt
   * Generates CDKTF code for importing a DataGenesyscloudTaskManagementWorktypeStatusTransition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGenesyscloudTaskManagementWorktypeStatusTransition to import
-  * @param importFromId The id of the existing DataGenesyscloudTaskManagementWorktypeStatusTransition that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_worktype_status_transition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGenesyscloudTaskManagementWorktypeStatusTransition that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_worktype_status_transition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGenesyscloudTaskManagementWorktypeStatusTransition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataGenesyscloudTaskManagementWorktypeStatusTransition extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_worktype_status_transition genesyscloud_task_management_worktype_status_transition} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_worktype_status_transition genesyscloud_task_management_worktype_status_transition} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataGenesyscloudTaskManagementWorktypeStatusTransition extends cdkt
       terraformResourceType: 'genesyscloud_task_management_worktype_status_transition',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

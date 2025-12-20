@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface QualityFormsSurveyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Is this form disabled Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#disabled QualityFormsSurvey#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#disabled QualityFormsSurvey#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Markdown text for the bottom of the form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#footer QualityFormsSurvey#footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#footer QualityFormsSurvey#footer}
   */
   readonly footer?: string;
   /**
   * Markdown text for the top of the form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#header QualityFormsSurvey#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#header QualityFormsSurvey#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#id QualityFormsSurvey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#id QualityFormsSurvey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface QualityFormsSurveyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Language for survey viewer localization. Currently localized languages: da, de, en-US, es, fi, fr, it, ja, ko, nl, no, pl, pt-BR, sv, th, tr, zh-CN, zh-TW. Languages in beta: pt-PT, he, hi. Languages in alpha: ar, uk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#language QualityFormsSurvey#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#language QualityFormsSurvey#language}
   */
   readonly language: string;
   /**
   * The name of the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#name QualityFormsSurvey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#name QualityFormsSurvey#name}
   */
   readonly name: string;
   /**
   * Specifies if the survey form is published. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#published QualityFormsSurvey#published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#published QualityFormsSurvey#published}
   */
   readonly published?: boolean | cdktf.IResolvable;
   /**
   * question_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#question_groups QualityFormsSurvey#question_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#question_groups QualityFormsSurvey#question_groups}
   */
   readonly questionGroups: QualityFormsSurveyQuestionGroups[] | cdktf.IResolvable;
 }
@@ -61,13 +61,13 @@ export interface QualityFormsSurveyQuestionGroupsQuestionsAnswerOptionsAssistanc
   /**
   * List of assistance conditions which are combined together with a logical AND operator. Eg ( assistanceCondtion1 && assistanceCondition2 ) wherein assistanceCondition could be ( EXISTS topic1 || topic2 || ... ) or (NOTEXISTS topic3 || topic4 || ...).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#operator QualityFormsSurvey#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#operator QualityFormsSurvey#operator}
   */
   readonly operator: string;
   /**
   * List of topicIds within the assistance condition which would be combined together using logical OR operator. Eg ( topicId_1 || topicId_2 ) .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#topic_ids QualityFormsSurvey#topic_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#topic_ids QualityFormsSurvey#topic_ids}
   */
   readonly topicIds?: string[];
 }
@@ -209,17 +209,17 @@ export class QualityFormsSurveyQuestionGroupsQuestionsAnswerOptionsAssistanceCon
 }
 export interface QualityFormsSurveyQuestionGroupsQuestionsAnswerOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#text QualityFormsSurvey#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#text QualityFormsSurvey#text}
   */
   readonly text: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#value QualityFormsSurvey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#value QualityFormsSurvey#value}
   */
   readonly value: number;
   /**
   * assistance_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#assistance_conditions QualityFormsSurvey#assistance_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#assistance_conditions QualityFormsSurvey#assistance_conditions}
   */
   readonly assistanceConditions?: QualityFormsSurveyQuestionGroupsQuestionsAnswerOptionsAssistanceConditions[] | cdktf.IResolvable;
 }
@@ -394,13 +394,13 @@ export interface QualityFormsSurveyQuestionGroupsQuestionsVisibilityCondition {
   /**
   * Valid Values: AND, OR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#combining_operation QualityFormsSurvey#combining_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#combining_operation QualityFormsSurvey#combining_operation}
   */
   readonly combiningOperation: string;
   /**
   * A list of strings, each representing the location in the form of the Answer Option to depend on. In the format of "/form/questionGroup/{questionGroupIndex}/question/{questionIndex}/answer/{answerIndex}" or, to assume the current question group, "../question/{questionIndex}/answer/{answerIndex}". Note: Indexes are zero-based
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#predicates QualityFormsSurvey#predicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#predicates QualityFormsSurvey#predicates}
   */
   readonly predicates: string[];
 }
@@ -509,49 +509,49 @@ export interface QualityFormsSurveyQuestionGroupsQuestions {
   /**
   * Prompt for details explaining the chosen NPS score. Used by NPS questions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#explanation_prompt QualityFormsSurvey#explanation_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#explanation_prompt QualityFormsSurvey#explanation_prompt}
   */
   readonly explanationPrompt?: string;
   /**
   * Help text for the question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#help_text QualityFormsSurvey#help_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#help_text QualityFormsSurvey#help_text}
   */
   readonly helpText?: string;
   /**
   * How many characters are allowed in the text response to this question. Used by NPS and Free Text question types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#max_response_characters QualityFormsSurvey#max_response_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#max_response_characters QualityFormsSurvey#max_response_characters}
   */
   readonly maxResponseCharacters?: number;
   /**
   * Specifies whether a not applicable answer is enabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#na_enabled QualityFormsSurvey#na_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#na_enabled QualityFormsSurvey#na_enabled}
   */
   readonly naEnabled?: boolean | cdktf.IResolvable;
   /**
   * Individual question
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#text QualityFormsSurvey#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#text QualityFormsSurvey#text}
   */
   readonly text: string;
   /**
   * Valid Values: multipleChoiceQuestion, freeTextQuestion, npsQuestion, readOnlyTextBlockQuestion Defaults to `multipleChoiceQuestion`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#type QualityFormsSurvey#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#type QualityFormsSurvey#type}
   */
   readonly type?: string;
   /**
   * answer_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#answer_options QualityFormsSurvey#answer_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#answer_options QualityFormsSurvey#answer_options}
   */
   readonly answerOptions?: QualityFormsSurveyQuestionGroupsQuestionsAnswerOptions[] | cdktf.IResolvable;
   /**
   * visibility_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#visibility_condition QualityFormsSurvey#visibility_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#visibility_condition QualityFormsSurvey#visibility_condition}
   */
   readonly visibilityCondition?: QualityFormsSurveyQuestionGroupsQuestionsVisibilityCondition;
 }
@@ -874,13 +874,13 @@ export interface QualityFormsSurveyQuestionGroupsVisibilityCondition {
   /**
   * Valid Values: AND, OR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#combining_operation QualityFormsSurvey#combining_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#combining_operation QualityFormsSurvey#combining_operation}
   */
   readonly combiningOperation: string;
   /**
   * A list of strings, each representing the location in the form of the Answer Option to depend on. In the format of "/form/questionGroup/{questionGroupIndex}/question/{questionIndex}/answer/{answerIndex}" or, to assume the current question group, "../question/{questionIndex}/answer/{answerIndex}". Note: Indexes are zero-based
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#predicates QualityFormsSurvey#predicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#predicates QualityFormsSurvey#predicates}
   */
   readonly predicates: string[];
 }
@@ -989,25 +989,25 @@ export interface QualityFormsSurveyQuestionGroups {
   /**
   * Specifies whether a not applicable answer is enabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#na_enabled QualityFormsSurvey#na_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#na_enabled QualityFormsSurvey#na_enabled}
   */
   readonly naEnabled?: boolean | cdktf.IResolvable;
   /**
   * Name of display question in question group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#name QualityFormsSurvey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#name QualityFormsSurvey#name}
   */
   readonly name: string;
   /**
   * questions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#questions QualityFormsSurvey#questions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#questions QualityFormsSurvey#questions}
   */
   readonly questions: QualityFormsSurveyQuestionGroupsQuestions[] | cdktf.IResolvable;
   /**
   * visibility_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#visibility_condition QualityFormsSurvey#visibility_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#visibility_condition QualityFormsSurvey#visibility_condition}
   */
   readonly visibilityCondition?: QualityFormsSurveyQuestionGroupsVisibilityCondition;
 }
@@ -1209,7 +1209,7 @@ export class QualityFormsSurveyQuestionGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey genesyscloud_quality_forms_survey}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey genesyscloud_quality_forms_survey}
 */
 export class QualityFormsSurvey extends cdktf.TerraformResource {
 
@@ -1225,7 +1225,7 @@ export class QualityFormsSurvey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QualityFormsSurvey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QualityFormsSurvey to import
-  * @param importFromId The id of the existing QualityFormsSurvey that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QualityFormsSurvey that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QualityFormsSurvey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1237,7 +1237,7 @@ export class QualityFormsSurvey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/quality_forms_survey genesyscloud_quality_forms_survey} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/quality_forms_survey genesyscloud_quality_forms_survey} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1248,8 +1248,8 @@ export class QualityFormsSurvey extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_quality_forms_survey',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

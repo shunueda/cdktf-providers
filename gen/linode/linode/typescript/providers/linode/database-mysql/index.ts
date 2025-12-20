@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DatabaseMysqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of IP addresses that can access the Managed Database. Each item can be a single IP address or a range in CIDR format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#allow_list DatabaseMysql#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#allow_list DatabaseMysql#allow_list}
   */
   readonly allowList?: string[];
   /**
   * The number of Linode Instance nodes deployed to the Managed Database. Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#cluster_size DatabaseMysql#cluster_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#cluster_size DatabaseMysql#cluster_size}
   */
   readonly clusterSize?: number;
   /**
   * Whether the Managed Databases is encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#encrypted DatabaseMysql#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#encrypted DatabaseMysql#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
   * The Managed Database engine in engine/version format. (e.g. mysql/8.0.30)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#engine_id DatabaseMysql#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#engine_id DatabaseMysql#engine_id}
   */
   readonly engineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#id DatabaseMysql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#id DatabaseMysql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,57 +41,57 @@ export interface DatabaseMysqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * A unique, user-defined string referring to the Managed Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#label DatabaseMysql#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#label DatabaseMysql#label}
   */
   readonly label: string;
   /**
   * The region to use for the Managed Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#region DatabaseMysql#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#region DatabaseMysql#region}
   */
   readonly region: string;
   /**
   * The replication method used for the Managed Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#replication_type DatabaseMysql#replication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#replication_type DatabaseMysql#replication_type}
   */
   readonly replicationType?: string;
   /**
   * Whether to require SSL credentials to establish a connection to the Managed Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#ssl_connection DatabaseMysql#ssl_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#ssl_connection DatabaseMysql#ssl_connection}
   */
   readonly sslConnection?: boolean | cdktf.IResolvable;
   /**
   * The Linode Instance type used by the Managed Database for its nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#type DatabaseMysql#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#type DatabaseMysql#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#timeouts DatabaseMysql#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#timeouts DatabaseMysql#timeouts}
   */
   readonly timeouts?: DatabaseMysqlTimeouts;
   /**
   * updates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#updates DatabaseMysql#updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#updates DatabaseMysql#updates}
   */
   readonly updates?: DatabaseMysqlUpdates;
 }
 export interface DatabaseMysqlTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#create DatabaseMysql#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#create DatabaseMysql#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#delete DatabaseMysql#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#delete DatabaseMysql#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#update DatabaseMysql#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#update DatabaseMysql#update}
   */
   readonly update?: string;
 }
@@ -245,31 +245,31 @@ export interface DatabaseMysqlUpdates {
   /**
   * The day to perform maintenance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#day_of_week DatabaseMysql#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#day_of_week DatabaseMysql#day_of_week}
   */
   readonly dayOfWeek: string;
   /**
   * The maximum maintenance window time in hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#duration DatabaseMysql#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#duration DatabaseMysql#duration}
   */
   readonly duration: number;
   /**
   * Whether maintenance occurs on a weekly or monthly basis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#frequency DatabaseMysql#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#frequency DatabaseMysql#frequency}
   */
   readonly frequency: string;
   /**
   * The hour to begin maintenance based in UTC time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#hour_of_day DatabaseMysql#hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#hour_of_day DatabaseMysql#hour_of_day}
   */
   readonly hourOfDay: number;
   /**
   * The week of the month to perform monthly frequency updates. Required for monthly frequency updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#week_of_month DatabaseMysql#week_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#week_of_month DatabaseMysql#week_of_month}
   */
   readonly weekOfMonth?: number;
 }
@@ -457,7 +457,7 @@ export class DatabaseMysqlUpdatesOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql linode_database_mysql}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql linode_database_mysql}
 */
 export class DatabaseMysql extends cdktf.TerraformResource {
 
@@ -473,7 +473,7 @@ export class DatabaseMysql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseMysql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseMysql to import
-  * @param importFromId The id of the existing DatabaseMysql that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseMysql that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseMysql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -485,7 +485,7 @@ export class DatabaseMysql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_mysql linode_database_mysql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_mysql linode_database_mysql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -496,8 +496,8 @@ export class DatabaseMysql extends cdktf.TerraformResource {
       terraformResourceType: 'linode_database_mysql',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

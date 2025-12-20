@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FabricRouteAggregationConfig extends cdktf.TerraformMetaArgumen
   /**
   * Customer-provided route aggregation description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation#description FabricRouteAggregation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation#description FabricRouteAggregation#description}
   */
   readonly description?: string;
   /**
   * Customer provided name of the route aggregation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation#name FabricRouteAggregation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation#name FabricRouteAggregation#name}
   */
   readonly name: string;
   /**
   * Equinix Project attribute object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation#project FabricRouteAggregation#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation#project FabricRouteAggregation#project}
   */
   readonly project: FabricRouteAggregationProject;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation#timeouts FabricRouteAggregation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation#timeouts FabricRouteAggregation#timeouts}
   */
   readonly timeouts?: FabricRouteAggregationTimeouts;
   /**
   * Equinix defined Route Aggregation Type; BGP_IPv4_PREFIX_AGGREGATION, BGP_IPv6_PREFIX_AGGREGATION
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation#type FabricRouteAggregation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation#type FabricRouteAggregation#type}
   */
   readonly type: string;
 }
@@ -40,19 +40,19 @@ export interface FabricRouteAggregationChange {
   /**
   * Equinix auto generated URI to the route aggregation change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation#href FabricRouteAggregation#href}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation#href FabricRouteAggregation#href}
   */
   readonly href: string;
   /**
   * Equinix defined Route Aggregation Change Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation#type FabricRouteAggregation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation#type FabricRouteAggregation#type}
   */
   readonly type: string;
   /**
   * Equinix-assigned unique id for a change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation#uuid FabricRouteAggregation#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation#uuid FabricRouteAggregation#uuid}
   */
   readonly uuid: string;
 }
@@ -296,7 +296,7 @@ export interface FabricRouteAggregationProject {
   /**
   * Equinix Subscriber-assigned project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation#project_id FabricRouteAggregation#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation#project_id FabricRouteAggregation#project_id}
   */
   readonly projectId: string;
 }
@@ -389,25 +389,25 @@ export interface FabricRouteAggregationTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation#create FabricRouteAggregation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation#create FabricRouteAggregation#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation#delete FabricRouteAggregation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation#delete FabricRouteAggregation#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation#read FabricRouteAggregation#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation#read FabricRouteAggregation#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation#update FabricRouteAggregation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation#update FabricRouteAggregation#update}
   */
   readonly update?: string;
 }
@@ -588,7 +588,7 @@ export class FabricRouteAggregationTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation equinix_fabric_route_aggregation}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation equinix_fabric_route_aggregation}
 */
 export class FabricRouteAggregation extends cdktf.TerraformResource {
 
@@ -604,7 +604,7 @@ export class FabricRouteAggregation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricRouteAggregation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricRouteAggregation to import
-  * @param importFromId The id of the existing FabricRouteAggregation that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricRouteAggregation that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricRouteAggregation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -616,7 +616,7 @@ export class FabricRouteAggregation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_route_aggregation equinix_fabric_route_aggregation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_route_aggregation equinix_fabric_route_aggregation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -627,8 +627,8 @@ export class FabricRouteAggregation extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_fabric_route_aggregation',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

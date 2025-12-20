@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_access_token
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/service_account_access_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ServiceAccountAccessTokenConfig extends cdktf.TerraformMetaArgu
   /**
   * STACKIT project ID associated with the service account token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_access_token#project_id ServiceAccountAccessToken#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/service_account_access_token#project_id ServiceAccountAccessToken#project_id}
   */
   readonly projectId: string;
   /**
   * A map of arbitrary key/value pairs that will force recreation of the token when they change, enabling token rotation based on external conditions such as a rotating timestamp. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_access_token#rotate_when_changed ServiceAccountAccessToken#rotate_when_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/service_account_access_token#rotate_when_changed ServiceAccountAccessToken#rotate_when_changed}
   */
   readonly rotateWhenChanged?: { [key: string]: string };
   /**
   * Email address linked to the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_access_token#service_account_email ServiceAccountAccessToken#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/service_account_access_token#service_account_email ServiceAccountAccessToken#service_account_email}
   */
   readonly serviceAccountEmail: string;
   /**
   * Specifies the token's validity duration in days. If unspecified, defaults to 90 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_access_token#ttl_days ServiceAccountAccessToken#ttl_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/service_account_access_token#ttl_days ServiceAccountAccessToken#ttl_days}
   */
   readonly ttlDays?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_access_token stackit_service_account_access_token}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/service_account_access_token stackit_service_account_access_token}
 */
 export class ServiceAccountAccessToken extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ServiceAccountAccessToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceAccountAccessToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceAccountAccessToken to import
-  * @param importFromId The id of the existing ServiceAccountAccessToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_access_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceAccountAccessToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/service_account_access_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceAccountAccessToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ServiceAccountAccessToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_access_token stackit_service_account_access_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/service_account_access_token stackit_service_account_access_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ServiceAccountAccessToken extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_service_account_access_token',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.75.0',
-        providerVersionConstraint: '0.75.0'
+        providerVersion: '0.76.0',
+        providerVersionConstraint: '0.76.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation
+// https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface AutomationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID), defaults to the account set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#account_id Automation#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#account_id Automation#account_id}
   */
   readonly accountId?: string;
   /**
   * List of actions to perform when the automation is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#actions Automation#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#actions Automation#actions}
   */
   readonly actions?: AutomationActions[] | cdktf.IResolvable;
   /**
   * List of actions to perform when the automation is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#actions_on_resolve Automation#actions_on_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#actions_on_resolve Automation#actions_on_resolve}
   */
   readonly actionsOnResolve?: AutomationActionsOnResolve[] | cdktf.IResolvable;
   /**
   * List of actions to perform when the automation is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#actions_on_trigger Automation#actions_on_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#actions_on_trigger Automation#actions_on_trigger}
   */
   readonly actionsOnTrigger?: AutomationActionsOnTrigger[] | cdktf.IResolvable;
   /**
   * Description of the automation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#description Automation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#description Automation#description}
   */
   readonly description?: string;
   /**
   * Whether the automation is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#enabled Automation#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#enabled Automation#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the automation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#name Automation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#name Automation#name}
   */
   readonly name: string;
   /**
   * The criteria for which events this Automation covers and how it will respond
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#trigger Automation#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#trigger Automation#trigger}
   */
   readonly trigger: AutomationTrigger;
   /**
   * Workspace ID (UUID), defaults to the workspace set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#workspace_id Automation#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#workspace_id Automation#workspace_id}
   */
   readonly workspaceId?: string;
 }
@@ -66,91 +66,91 @@ export interface AutomationActions {
   /**
   * (Automation) ID of the automation to apply this action to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#automation_id Automation#automation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#automation_id Automation#automation_id}
   */
   readonly automationId?: string;
   /**
   * (Webhook / Notification) ID of the block to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#block_document_id Automation#block_document_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#block_document_id Automation#block_document_id}
   */
   readonly blockDocumentId?: string;
   /**
   * (Notification) Body of the notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#body Automation#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#body Automation#body}
   */
   readonly body?: string;
   /**
   * (Deployment) ID of the deployment to apply this action to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#deployment_id Automation#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#deployment_id Automation#deployment_id}
   */
   readonly deploymentId?: string;
   /**
   * (Deployment) (JSON) Job variables to pass to the created flow run. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#job_variables Automation#job_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#job_variables Automation#job_variables}
   */
   readonly jobVariables?: string;
   /**
   * (Flow Run State Change) Message to associate with the state change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#message Automation#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#message Automation#message}
   */
   readonly message?: string;
   /**
   * (Flow Run State Change) Name of the state to change the flow run to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#name Automation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#name Automation#name}
   */
   readonly name?: string;
   /**
   * (Deployment) (JSON) Parameters to pass to the deployment. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#parameters Automation#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#parameters Automation#parameters}
   */
   readonly parameters?: string;
   /**
   * (Webhook) Payload to send when calling the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#payload Automation#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#payload Automation#payload}
   */
   readonly payload?: string;
   /**
   * (Deployment / Work Pool / Work Queue / Automation) Whether this action applies to a specific selected resource or to a specific resource by ID - 'selected' or 'inferred'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#source Automation#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#source Automation#source}
   */
   readonly source?: string;
   /**
   * (Flow Run State Change) Type of state to change the flow run to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#state Automation#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#state Automation#state}
   */
   readonly state?: string;
   /**
   * (Notification) Subject of the notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#subject Automation#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#subject Automation#subject}
   */
   readonly subject?: string;
   /**
   * The type of action to perform. Possible values: do-nothing, run-deployment, pause-deployment, resume-deployment, cancel-flow-run, change-flow-run-state, pause-work-queue, resume-work-queue, send-notification, call-webhook, pause-automation, resume-automation, suspend-flow-run, resume-flow-run, declare-incident, pause-work-pool, resume-work-pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#type Automation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#type Automation#type}
   */
   readonly type: string;
   /**
   * (Work Pool) ID of the work pool to apply this action to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#work_pool_id Automation#work_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#work_pool_id Automation#work_pool_id}
   */
   readonly workPoolId?: string;
   /**
   * (Work Queue) ID of the work queue to apply this action to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#work_queue_id Automation#work_queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#work_queue_id Automation#work_queue_id}
   */
   readonly workQueueId?: string;
 }
@@ -671,91 +671,91 @@ export interface AutomationActionsOnResolve {
   /**
   * (Automation) ID of the automation to apply this action to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#automation_id Automation#automation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#automation_id Automation#automation_id}
   */
   readonly automationId?: string;
   /**
   * (Webhook / Notification) ID of the block to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#block_document_id Automation#block_document_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#block_document_id Automation#block_document_id}
   */
   readonly blockDocumentId?: string;
   /**
   * (Notification) Body of the notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#body Automation#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#body Automation#body}
   */
   readonly body?: string;
   /**
   * (Deployment) ID of the deployment to apply this action to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#deployment_id Automation#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#deployment_id Automation#deployment_id}
   */
   readonly deploymentId?: string;
   /**
   * (Deployment) (JSON) Job variables to pass to the created flow run. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#job_variables Automation#job_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#job_variables Automation#job_variables}
   */
   readonly jobVariables?: string;
   /**
   * (Flow Run State Change) Message to associate with the state change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#message Automation#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#message Automation#message}
   */
   readonly message?: string;
   /**
   * (Flow Run State Change) Name of the state to change the flow run to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#name Automation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#name Automation#name}
   */
   readonly name?: string;
   /**
   * (Deployment) (JSON) Parameters to pass to the deployment. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#parameters Automation#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#parameters Automation#parameters}
   */
   readonly parameters?: string;
   /**
   * (Webhook) Payload to send when calling the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#payload Automation#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#payload Automation#payload}
   */
   readonly payload?: string;
   /**
   * (Deployment / Work Pool / Work Queue / Automation) Whether this action applies to a specific selected resource or to a specific resource by ID - 'selected' or 'inferred'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#source Automation#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#source Automation#source}
   */
   readonly source?: string;
   /**
   * (Flow Run State Change) Type of state to change the flow run to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#state Automation#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#state Automation#state}
   */
   readonly state?: string;
   /**
   * (Notification) Subject of the notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#subject Automation#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#subject Automation#subject}
   */
   readonly subject?: string;
   /**
   * The type of action to perform. Possible values: do-nothing, run-deployment, pause-deployment, resume-deployment, cancel-flow-run, change-flow-run-state, pause-work-queue, resume-work-queue, send-notification, call-webhook, pause-automation, resume-automation, suspend-flow-run, resume-flow-run, declare-incident, pause-work-pool, resume-work-pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#type Automation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#type Automation#type}
   */
   readonly type: string;
   /**
   * (Work Pool) ID of the work pool to apply this action to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#work_pool_id Automation#work_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#work_pool_id Automation#work_pool_id}
   */
   readonly workPoolId?: string;
   /**
   * (Work Queue) ID of the work queue to apply this action to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#work_queue_id Automation#work_queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#work_queue_id Automation#work_queue_id}
   */
   readonly workQueueId?: string;
 }
@@ -1276,91 +1276,91 @@ export interface AutomationActionsOnTrigger {
   /**
   * (Automation) ID of the automation to apply this action to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#automation_id Automation#automation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#automation_id Automation#automation_id}
   */
   readonly automationId?: string;
   /**
   * (Webhook / Notification) ID of the block to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#block_document_id Automation#block_document_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#block_document_id Automation#block_document_id}
   */
   readonly blockDocumentId?: string;
   /**
   * (Notification) Body of the notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#body Automation#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#body Automation#body}
   */
   readonly body?: string;
   /**
   * (Deployment) ID of the deployment to apply this action to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#deployment_id Automation#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#deployment_id Automation#deployment_id}
   */
   readonly deploymentId?: string;
   /**
   * (Deployment) (JSON) Job variables to pass to the created flow run. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#job_variables Automation#job_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#job_variables Automation#job_variables}
   */
   readonly jobVariables?: string;
   /**
   * (Flow Run State Change) Message to associate with the state change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#message Automation#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#message Automation#message}
   */
   readonly message?: string;
   /**
   * (Flow Run State Change) Name of the state to change the flow run to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#name Automation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#name Automation#name}
   */
   readonly name?: string;
   /**
   * (Deployment) (JSON) Parameters to pass to the deployment. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#parameters Automation#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#parameters Automation#parameters}
   */
   readonly parameters?: string;
   /**
   * (Webhook) Payload to send when calling the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#payload Automation#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#payload Automation#payload}
   */
   readonly payload?: string;
   /**
   * (Deployment / Work Pool / Work Queue / Automation) Whether this action applies to a specific selected resource or to a specific resource by ID - 'selected' or 'inferred'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#source Automation#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#source Automation#source}
   */
   readonly source?: string;
   /**
   * (Flow Run State Change) Type of state to change the flow run to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#state Automation#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#state Automation#state}
   */
   readonly state?: string;
   /**
   * (Notification) Subject of the notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#subject Automation#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#subject Automation#subject}
   */
   readonly subject?: string;
   /**
   * The type of action to perform. Possible values: do-nothing, run-deployment, pause-deployment, resume-deployment, cancel-flow-run, change-flow-run-state, pause-work-queue, resume-work-queue, send-notification, call-webhook, pause-automation, resume-automation, suspend-flow-run, resume-flow-run, declare-incident, pause-work-pool, resume-work-pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#type Automation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#type Automation#type}
   */
   readonly type: string;
   /**
   * (Work Pool) ID of the work pool to apply this action to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#work_pool_id Automation#work_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#work_pool_id Automation#work_pool_id}
   */
   readonly workPoolId?: string;
   /**
   * (Work Queue) ID of the work queue to apply this action to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#work_queue_id Automation#work_queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#work_queue_id Automation#work_queue_id}
   */
   readonly workQueueId?: string;
 }
@@ -1881,49 +1881,49 @@ export interface AutomationTriggerCompoundTriggersEvent {
   /**
   * The event(s) which must first been seen to fire this trigger. If empty, then fire this trigger immediately
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#after Automation#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#after Automation#after}
   */
   readonly after?: string[];
   /**
   * The event(s) this trigger is expecting to see. If empty, this trigger will match any event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#expect Automation#expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#expect Automation#expect}
   */
   readonly expect?: string[];
   /**
   * Evaluate the trigger separately for each distinct value of these labels on the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#for_each Automation#for_each}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#for_each Automation#for_each}
   */
   readonly forEach?: string[];
   /**
   * (JSON) Resource specification labels which this trigger will match. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#match Automation#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#match Automation#match}
   */
   readonly match?: string;
   /**
   * (JSON) Resource specification labels for related resources which this trigger will match. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#match_related Automation#match_related}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#match_related Automation#match_related}
   */
   readonly matchRelated?: string;
   /**
   * The posture of this trigger, either Reactive or Proactive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#posture Automation#posture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#posture Automation#posture}
   */
   readonly posture: string;
   /**
   * The number of events required for this trigger to fire (Reactive) or expected (Proactive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#threshold Automation#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#threshold Automation#threshold}
   */
   readonly threshold?: number;
   /**
   * The time period in seconds over which the events must occur
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#within Automation#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#within Automation#within}
   */
   readonly within?: number;
 }
@@ -2219,31 +2219,31 @@ export interface AutomationTriggerCompoundTriggersMetricMetric {
   /**
   * The duration (seconds) for which the metric query must breach OR resolve continuously before the state is updated and actions are triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#firing_for Automation#firing_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#firing_for Automation#firing_for}
   */
   readonly firingFor: number;
   /**
   * The name of the metric to query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#name Automation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#name Automation#name}
   */
   readonly name: string;
   /**
   * The comparative operator used to evaluate the query result against the threshold value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#operator Automation#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#operator Automation#operator}
   */
   readonly operator: string;
   /**
   * The lookback duration (seconds) for a metric query. This duration is used to determine the time range over which the query will be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#range Automation#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#range Automation#range}
   */
   readonly range: number;
   /**
   * The threshold value against which we'll compare the query results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#threshold Automation#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#threshold Automation#threshold}
   */
   readonly threshold: number;
 }
@@ -2440,17 +2440,17 @@ export interface AutomationTriggerCompoundTriggersMetric {
   /**
   * (JSON) Resource specification labels which this trigger will match. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#match Automation#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#match Automation#match}
   */
   readonly match?: string;
   /**
   * (JSON) Resource specification labels for related resources which this trigger will match. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#match_related Automation#match_related}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#match_related Automation#match_related}
   */
   readonly matchRelated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#metric Automation#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#metric Automation#metric}
   */
   readonly metric: AutomationTriggerCompoundTriggersMetricMetric;
 }
@@ -2601,13 +2601,13 @@ export interface AutomationTriggerCompoundTriggers {
   /**
   * A trigger that fires based on the presence or absence of events within a given period of time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#event Automation#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#event Automation#event}
   */
   readonly event?: AutomationTriggerCompoundTriggersEvent;
   /**
   * A trigger that fires based on the results of a metric query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#metric Automation#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#metric Automation#metric}
   */
   readonly metric?: AutomationTriggerCompoundTriggersMetric;
 }
@@ -2754,19 +2754,19 @@ export interface AutomationTriggerCompound {
   /**
   * How many triggers must fire ('any', 'all', or a number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#require Automation#require}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#require Automation#require}
   */
   readonly require: { [key: string]: any };
   /**
   * The ordered list of triggers that must fire in sequence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#triggers Automation#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#triggers Automation#triggers}
   */
   readonly triggers: AutomationTriggerCompoundTriggers[] | cdktf.IResolvable;
   /**
   * The time period in seconds over which the events must occur
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#within Automation#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#within Automation#within}
   */
   readonly within?: number;
 }
@@ -2914,49 +2914,49 @@ export interface AutomationTriggerEvent {
   /**
   * The event(s) which must first been seen to fire this trigger. If empty, then fire this trigger immediately
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#after Automation#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#after Automation#after}
   */
   readonly after?: string[];
   /**
   * The event(s) this trigger is expecting to see. If empty, this trigger will match any event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#expect Automation#expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#expect Automation#expect}
   */
   readonly expect?: string[];
   /**
   * Evaluate the trigger separately for each distinct value of these labels on the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#for_each Automation#for_each}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#for_each Automation#for_each}
   */
   readonly forEach?: string[];
   /**
   * (JSON) Resource specification labels which this trigger will match. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#match Automation#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#match Automation#match}
   */
   readonly match?: string;
   /**
   * (JSON) Resource specification labels for related resources which this trigger will match. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#match_related Automation#match_related}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#match_related Automation#match_related}
   */
   readonly matchRelated?: string;
   /**
   * The posture of this trigger, either Reactive or Proactive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#posture Automation#posture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#posture Automation#posture}
   */
   readonly posture: string;
   /**
   * The number of events required for this trigger to fire (Reactive) or expected (Proactive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#threshold Automation#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#threshold Automation#threshold}
   */
   readonly threshold?: number;
   /**
   * The time period in seconds over which the events must occur
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#within Automation#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#within Automation#within}
   */
   readonly within?: number;
 }
@@ -3252,31 +3252,31 @@ export interface AutomationTriggerMetricMetric {
   /**
   * The duration (seconds) for which the metric query must breach OR resolve continuously before the state is updated and actions are triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#firing_for Automation#firing_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#firing_for Automation#firing_for}
   */
   readonly firingFor: number;
   /**
   * The name of the metric to query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#name Automation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#name Automation#name}
   */
   readonly name: string;
   /**
   * The comparative operator used to evaluate the query result against the threshold value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#operator Automation#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#operator Automation#operator}
   */
   readonly operator: string;
   /**
   * The lookback duration (seconds) for a metric query. This duration is used to determine the time range over which the query will be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#range Automation#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#range Automation#range}
   */
   readonly range: number;
   /**
   * The threshold value against which we'll compare the query results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#threshold Automation#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#threshold Automation#threshold}
   */
   readonly threshold: number;
 }
@@ -3473,17 +3473,17 @@ export interface AutomationTriggerMetric {
   /**
   * (JSON) Resource specification labels which this trigger will match. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#match Automation#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#match Automation#match}
   */
   readonly match?: string;
   /**
   * (JSON) Resource specification labels for related resources which this trigger will match. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#match_related Automation#match_related}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#match_related Automation#match_related}
   */
   readonly matchRelated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#metric Automation#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#metric Automation#metric}
   */
   readonly metric: AutomationTriggerMetricMetric;
 }
@@ -3634,49 +3634,49 @@ export interface AutomationTriggerSequenceTriggersEvent {
   /**
   * The event(s) which must first been seen to fire this trigger. If empty, then fire this trigger immediately
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#after Automation#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#after Automation#after}
   */
   readonly after?: string[];
   /**
   * The event(s) this trigger is expecting to see. If empty, this trigger will match any event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#expect Automation#expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#expect Automation#expect}
   */
   readonly expect?: string[];
   /**
   * Evaluate the trigger separately for each distinct value of these labels on the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#for_each Automation#for_each}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#for_each Automation#for_each}
   */
   readonly forEach?: string[];
   /**
   * (JSON) Resource specification labels which this trigger will match. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#match Automation#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#match Automation#match}
   */
   readonly match?: string;
   /**
   * (JSON) Resource specification labels for related resources which this trigger will match. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#match_related Automation#match_related}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#match_related Automation#match_related}
   */
   readonly matchRelated?: string;
   /**
   * The posture of this trigger, either Reactive or Proactive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#posture Automation#posture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#posture Automation#posture}
   */
   readonly posture: string;
   /**
   * The number of events required for this trigger to fire (Reactive) or expected (Proactive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#threshold Automation#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#threshold Automation#threshold}
   */
   readonly threshold?: number;
   /**
   * The time period in seconds over which the events must occur
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#within Automation#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#within Automation#within}
   */
   readonly within?: number;
 }
@@ -3972,31 +3972,31 @@ export interface AutomationTriggerSequenceTriggersMetricMetric {
   /**
   * The duration (seconds) for which the metric query must breach OR resolve continuously before the state is updated and actions are triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#firing_for Automation#firing_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#firing_for Automation#firing_for}
   */
   readonly firingFor: number;
   /**
   * The name of the metric to query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#name Automation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#name Automation#name}
   */
   readonly name: string;
   /**
   * The comparative operator used to evaluate the query result against the threshold value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#operator Automation#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#operator Automation#operator}
   */
   readonly operator: string;
   /**
   * The lookback duration (seconds) for a metric query. This duration is used to determine the time range over which the query will be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#range Automation#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#range Automation#range}
   */
   readonly range: number;
   /**
   * The threshold value against which we'll compare the query results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#threshold Automation#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#threshold Automation#threshold}
   */
   readonly threshold: number;
 }
@@ -4193,17 +4193,17 @@ export interface AutomationTriggerSequenceTriggersMetric {
   /**
   * (JSON) Resource specification labels which this trigger will match. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#match Automation#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#match Automation#match}
   */
   readonly match?: string;
   /**
   * (JSON) Resource specification labels for related resources which this trigger will match. Use `jsonencode()`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#match_related Automation#match_related}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#match_related Automation#match_related}
   */
   readonly matchRelated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#metric Automation#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#metric Automation#metric}
   */
   readonly metric: AutomationTriggerSequenceTriggersMetricMetric;
 }
@@ -4354,13 +4354,13 @@ export interface AutomationTriggerSequenceTriggers {
   /**
   * A trigger that fires based on the presence or absence of events within a given period of time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#event Automation#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#event Automation#event}
   */
   readonly event?: AutomationTriggerSequenceTriggersEvent;
   /**
   * A trigger that fires based on the results of a metric query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#metric Automation#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#metric Automation#metric}
   */
   readonly metric?: AutomationTriggerSequenceTriggersMetric;
 }
@@ -4507,13 +4507,13 @@ export interface AutomationTriggerSequence {
   /**
   * The ordered list of triggers that must fire in sequence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#triggers Automation#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#triggers Automation#triggers}
   */
   readonly triggers: AutomationTriggerSequenceTriggers[] | cdktf.IResolvable;
   /**
   * The time period in seconds over which the events must occur
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#within Automation#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#within Automation#within}
   */
   readonly within?: number;
 }
@@ -4635,25 +4635,25 @@ export interface AutomationTrigger {
   /**
   * A composite trigger that requires some number of triggers to have fired within the given time period
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#compound Automation#compound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#compound Automation#compound}
   */
   readonly compound?: AutomationTriggerCompound;
   /**
   * A trigger that fires based on the presence or absence of events within a given period of time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#event Automation#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#event Automation#event}
   */
   readonly event?: AutomationTriggerEvent;
   /**
   * A trigger that fires based on the results of a metric query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#metric Automation#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#metric Automation#metric}
   */
   readonly metric?: AutomationTriggerMetric;
   /**
   * A composite trigger that requires triggers to fire in a specific order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#sequence Automation#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#sequence Automation#sequence}
   */
   readonly sequence?: AutomationTriggerSequence;
 }
@@ -4834,7 +4834,7 @@ export class AutomationTriggerOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation prefect_automation}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation prefect_automation}
 */
 export class Automation extends cdktf.TerraformResource {
 
@@ -4850,7 +4850,7 @@ export class Automation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Automation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Automation to import
-  * @param importFromId The id of the existing Automation that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Automation that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Automation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4862,7 +4862,7 @@ export class Automation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/automation prefect_automation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/automation prefect_automation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4873,8 +4873,8 @@ export class Automation extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_automation',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.92.0',
-        providerVersionConstraint: '2.92.0'
+        providerVersion: '2.92.1',
+        providerVersionConstraint: '2.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

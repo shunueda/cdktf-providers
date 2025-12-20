@@ -1,3 +1,3 @@
 # `tencentcloud_clb_listener_default_domain`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_clb_listener_default_domain`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/clb_listener_default_domain).
+Refer to the Terraform Registry for docs: [`tencentcloud_clb_listener_default_domain`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/clb_listener_default_domain).

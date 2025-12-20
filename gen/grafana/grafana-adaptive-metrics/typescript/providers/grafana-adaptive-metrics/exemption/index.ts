@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/exemption
+// https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/exemption
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ExemptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * When set to true, the recommendations service will exempt this metric from consideration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/exemption#disable_recommendations Exemption#disable_recommendations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/exemption#disable_recommendations Exemption#disable_recommendations}
   */
   readonly disableRecommendations?: boolean | cdktf.IResolvable;
   /**
   * The array of labels to keep; labels not in this array will be aggregated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/exemption#keep_labels Exemption#keep_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/exemption#keep_labels Exemption#keep_labels}
   */
   readonly keepLabels?: string[];
   /**
   * The name of the metric to be aggregated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/exemption#metric Exemption#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/exemption#metric Exemption#metric}
   */
   readonly metric: string;
   /**
   * An optional string detailing the reason(s) for this exemption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/exemption#reason Exemption#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/exemption#reason Exemption#reason}
   */
   readonly reason?: string;
   /**
   * The id of the segment to create an exemption for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/exemption#segment Exemption#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/exemption#segment Exemption#segment}
   */
   readonly segment?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/exemption grafana-adaptive-metrics_exemption}
+* Represents a {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/exemption grafana-adaptive-metrics_exemption}
 */
 export class Exemption extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Exemption extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Exemption resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Exemption to import
-  * @param importFromId The id of the existing Exemption that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/exemption#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Exemption that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/exemption#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Exemption to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Exemption extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/exemption grafana-adaptive-metrics_exemption} Resource
+  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/exemption grafana-adaptive-metrics_exemption} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Exemption extends cdktf.TerraformResource {
       terraformResourceType: 'grafana-adaptive-metrics_exemption',
       terraformGeneratorMetadata: {
         providerName: 'grafana-adaptive-metrics',
-        providerVersion: '0.3.3',
-        providerVersionConstraint: '0.3.3'
+        providerVersion: '0.3.4',
+        providerVersionConstraint: '0.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

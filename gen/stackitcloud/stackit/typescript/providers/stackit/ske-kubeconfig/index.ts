@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/ske_kubeconfig
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/ske_kubeconfig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SkeKubeconfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the SKE cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/ske_kubeconfig#cluster_name SkeKubeconfig#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/ske_kubeconfig#cluster_name SkeKubeconfig#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Expiration time of the kubeconfig, in seconds. Defaults to `3600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/ske_kubeconfig#expiration SkeKubeconfig#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/ske_kubeconfig#expiration SkeKubeconfig#expiration}
   */
   readonly expiration?: number;
   /**
   * STACKIT project ID to which the cluster is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/ske_kubeconfig#project_id SkeKubeconfig#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/ske_kubeconfig#project_id SkeKubeconfig#project_id}
   */
   readonly projectId: string;
   /**
   * If set to true, the provider will check if the kubeconfig has expired and will generated a new valid one in-place
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/ske_kubeconfig#refresh SkeKubeconfig#refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/ske_kubeconfig#refresh SkeKubeconfig#refresh}
   */
   readonly refresh?: boolean | cdktf.IResolvable;
   /**
   * Number of seconds before expiration to trigger refresh of the kubeconfig at. Only used if refresh is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/ske_kubeconfig#refresh_before SkeKubeconfig#refresh_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/ske_kubeconfig#refresh_before SkeKubeconfig#refresh_before}
   */
   readonly refreshBefore?: number;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/ske_kubeconfig#region SkeKubeconfig#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/ske_kubeconfig#region SkeKubeconfig#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/ske_kubeconfig stackit_ske_kubeconfig}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/ske_kubeconfig stackit_ske_kubeconfig}
 */
 export class SkeKubeconfig extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class SkeKubeconfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SkeKubeconfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SkeKubeconfig to import
-  * @param importFromId The id of the existing SkeKubeconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/ske_kubeconfig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SkeKubeconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/ske_kubeconfig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SkeKubeconfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class SkeKubeconfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/ske_kubeconfig stackit_ske_kubeconfig} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/ske_kubeconfig stackit_ske_kubeconfig} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class SkeKubeconfig extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_ske_kubeconfig',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.75.0',
-        providerVersionConstraint: '0.75.0'
+        providerVersion: '0.76.0',
+        providerVersionConstraint: '0.76.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

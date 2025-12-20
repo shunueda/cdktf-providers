@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/routing_table
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/routing_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface RoutingTableConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the routing table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/routing_table#description RoutingTable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/routing_table#description RoutingTable#description}
   */
   readonly description?: string;
   /**
   * Labels are key-value string pairs which can be attached to a resource container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/routing_table#labels RoutingTable#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/routing_table#labels RoutingTable#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the routing table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/routing_table#name RoutingTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/routing_table#name RoutingTable#name}
   */
   readonly name: string;
   /**
   * The network area ID to which the routing table is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/routing_table#network_area_id RoutingTable#network_area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/routing_table#network_area_id RoutingTable#network_area_id}
   */
   readonly networkAreaId: string;
   /**
   * STACKIT organization ID to which the routing table is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/routing_table#organization_id RoutingTable#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/routing_table#organization_id RoutingTable#organization_id}
   */
   readonly organizationId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/routing_table#region RoutingTable#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/routing_table#region RoutingTable#region}
   */
   readonly region?: string;
   /**
   * This controls whether the routes for project-to-project communication are created automatically or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/routing_table#system_routes RoutingTable#system_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/routing_table#system_routes RoutingTable#system_routes}
   */
   readonly systemRoutes?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/routing_table stackit_routing_table}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/routing_table stackit_routing_table}
 */
 export class RoutingTable extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class RoutingTable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingTable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingTable to import
-  * @param importFromId The id of the existing RoutingTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/routing_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/routing_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class RoutingTable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/routing_table stackit_routing_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/routing_table stackit_routing_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class RoutingTable extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_routing_table',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.75.0',
-        providerVersionConstraint: '0.75.0'
+        providerVersion: '0.76.0',
+        providerVersionConstraint: '0.76.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

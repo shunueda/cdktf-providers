@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CcnRouteTableBroadcastPoliciesConfig extends cdktf.TerraformMet
   /**
   * CCN Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#ccn_id CcnRouteTableBroadcastPolicies#ccn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#ccn_id CcnRouteTableBroadcastPolicies#ccn_id}
   */
   readonly ccnId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#id CcnRouteTableBroadcastPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#id CcnRouteTableBroadcastPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CcnRouteTableBroadcastPoliciesConfig extends cdktf.TerraformMet
   /**
   * CCN Route table ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#route_table_id CcnRouteTableBroadcastPolicies#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#route_table_id CcnRouteTableBroadcastPolicies#route_table_id}
   */
   readonly routeTableId: string;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#policies CcnRouteTableBroadcastPolicies#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#policies CcnRouteTableBroadcastPolicies#policies}
   */
   readonly policies: CcnRouteTableBroadcastPoliciesPolicies[] | cdktf.IResolvable;
 }
@@ -37,19 +37,19 @@ export interface CcnRouteTableBroadcastPoliciesPoliciesBroadcastConditions {
   /**
   * Matching mode, `1` precise matching, `0` fuzzy matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#match_pattern CcnRouteTableBroadcastPolicies#match_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#match_pattern CcnRouteTableBroadcastPolicies#match_pattern}
   */
   readonly matchPattern: number;
   /**
   * condition type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#name CcnRouteTableBroadcastPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#name CcnRouteTableBroadcastPolicies#name}
   */
   readonly name: string;
   /**
   * List of conditional values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#values CcnRouteTableBroadcastPolicies#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#values CcnRouteTableBroadcastPolicies#values}
   */
   readonly values: string[];
 }
@@ -216,19 +216,19 @@ export interface CcnRouteTableBroadcastPoliciesPoliciesRouteConditions {
   /**
   * Matching mode, `1` precise matching, `0` fuzzy matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#match_pattern CcnRouteTableBroadcastPolicies#match_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#match_pattern CcnRouteTableBroadcastPolicies#match_pattern}
   */
   readonly matchPattern: number;
   /**
   * condition type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#name CcnRouteTableBroadcastPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#name CcnRouteTableBroadcastPolicies#name}
   */
   readonly name: string;
   /**
   * List of conditional values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#values CcnRouteTableBroadcastPolicies#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#values CcnRouteTableBroadcastPolicies#values}
   */
   readonly values: string[];
 }
@@ -395,25 +395,25 @@ export interface CcnRouteTableBroadcastPoliciesPolicies {
   /**
   * Routing behavior, `accept` allows, `drop` rejects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#action CcnRouteTableBroadcastPolicies#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#action CcnRouteTableBroadcastPolicies#action}
   */
   readonly action: string;
   /**
   * Policy description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#description CcnRouteTableBroadcastPolicies#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#description CcnRouteTableBroadcastPolicies#description}
   */
   readonly description: string;
   /**
   * broadcast_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#broadcast_conditions CcnRouteTableBroadcastPolicies#broadcast_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#broadcast_conditions CcnRouteTableBroadcastPolicies#broadcast_conditions}
   */
   readonly broadcastConditions: CcnRouteTableBroadcastPoliciesPoliciesBroadcastConditions[] | cdktf.IResolvable;
   /**
   * route_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#route_conditions CcnRouteTableBroadcastPolicies#route_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#route_conditions CcnRouteTableBroadcastPolicies#route_conditions}
   */
   readonly routeConditions: CcnRouteTableBroadcastPoliciesPoliciesRouteConditions[] | cdktf.IResolvable;
 }
@@ -604,7 +604,7 @@ export class CcnRouteTableBroadcastPoliciesPoliciesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies tencentcloud_ccn_route_table_broadcast_policies}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies tencentcloud_ccn_route_table_broadcast_policies}
 */
 export class CcnRouteTableBroadcastPolicies extends cdktf.TerraformResource {
 
@@ -620,7 +620,7 @@ export class CcnRouteTableBroadcastPolicies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CcnRouteTableBroadcastPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CcnRouteTableBroadcastPolicies to import
-  * @param importFromId The id of the existing CcnRouteTableBroadcastPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CcnRouteTableBroadcastPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CcnRouteTableBroadcastPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -632,7 +632,7 @@ export class CcnRouteTableBroadcastPolicies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ccn_route_table_broadcast_policies tencentcloud_ccn_route_table_broadcast_policies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ccn_route_table_broadcast_policies tencentcloud_ccn_route_table_broadcast_policies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -643,8 +643,8 @@ export class CcnRouteTableBroadcastPolicies extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ccn_route_table_broadcast_policies',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

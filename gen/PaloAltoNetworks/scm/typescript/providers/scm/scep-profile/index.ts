@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,100 @@ export interface ScepProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#algorithm ScepProfile#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#algorithm ScepProfile#algorithm}
   */
   readonly algorithm: ScepProfileAlgorithm;
   /**
   * Certificate Authority identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#ca_identity_name ScepProfile#ca_identity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#ca_identity_name ScepProfile#ca_identity_name}
   */
   readonly caIdentityName: string;
   /**
   * Subject Alternative name type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#certificate_attributes ScepProfile#certificate_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#certificate_attributes ScepProfile#certificate_attributes}
   */
   readonly certificateAttributes?: ScepProfileCertificateAttributes;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#device ScepProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#device ScepProfile#device}
   */
   readonly device?: string;
   /**
   * Digest for CSR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#digest ScepProfile#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#digest ScepProfile#digest}
   */
   readonly digest: string;
   /**
   * CA certificate fingerprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#fingerprint ScepProfile#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#fingerprint ScepProfile#fingerprint}
   */
   readonly fingerprint?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#folder ScepProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#folder ScepProfile#folder}
   */
   readonly folder?: string;
   /**
   * The name of the SCEP profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#name ScepProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#name ScepProfile#name}
   */
   readonly name: string;
   /**
   * SCEP server CA certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#scep_ca_cert ScepProfile#scep_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#scep_ca_cert ScepProfile#scep_ca_cert}
   */
   readonly scepCaCert?: string;
   /**
   * One Time Password challenge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#scep_challenge ScepProfile#scep_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#scep_challenge ScepProfile#scep_challenge}
   */
   readonly scepChallenge: ScepProfileScepChallenge;
   /**
   * SCEP client ceertificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#scep_client_cert ScepProfile#scep_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#scep_client_cert ScepProfile#scep_client_cert}
   */
   readonly scepClientCert?: string;
   /**
   * SCEP server URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#scep_url ScepProfile#scep_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#scep_url ScepProfile#scep_url}
   */
   readonly scepUrl: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#snippet ScepProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#snippet ScepProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * Subject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#subject ScepProfile#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#subject ScepProfile#subject}
   */
   readonly subject: string;
   /**
   * Use as digital signature?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#use_as_digital_signature ScepProfile#use_as_digital_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#use_as_digital_signature ScepProfile#use_as_digital_signature}
   */
   readonly useAsDigitalSignature?: boolean | cdktf.IResolvable;
   /**
   * Use for key encipherment?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#use_for_key_encipherment ScepProfile#use_for_key_encipherment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#use_for_key_encipherment ScepProfile#use_for_key_encipherment}
   */
   readonly useForKeyEncipherment?: boolean | cdktf.IResolvable;
 }
@@ -114,7 +111,7 @@ export interface ScepProfileAlgorithmRsa {
   /**
   * Rsa nbits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#rsa_nbits ScepProfile#rsa_nbits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#rsa_nbits ScepProfile#rsa_nbits}
   */
   readonly rsaNbits?: number;
 }
@@ -210,7 +207,7 @@ export interface ScepProfileAlgorithm {
   /**
   * Key length (bits)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#rsa ScepProfile#rsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#rsa ScepProfile#rsa}
   */
   readonly rsa?: ScepProfileAlgorithmRsa;
 }
@@ -305,26 +302,23 @@ export class ScepProfileAlgorithmOutputReference extends cdktf.ComplexObject {
 export interface ScepProfileCertificateAttributes {
   /**
   * Dnsname
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `dnsname`, `rfc822name`, and `uniform_resource_identifier`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#dnsname ScepProfile#dnsname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#dnsname ScepProfile#dnsname}
   */
   readonly dnsname?: string;
   /**
   * Rfc822name
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `dnsname`, `rfc822name`, and `uniform_resource_identifier`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#rfc822name ScepProfile#rfc822name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#rfc822name ScepProfile#rfc822name}
   */
   readonly rfc822Name?: string;
   /**
   * Uniform resource identifier
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `dnsname`, `rfc822name`, and `uniform_resource_identifier`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#uniform_resource_identifier ScepProfile#uniform_resource_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#uniform_resource_identifier ScepProfile#uniform_resource_identifier}
   */
   readonly uniformResourceIdentifier?: string;
 }
@@ -478,19 +472,19 @@ export interface ScepProfileScepChallengeDynamic {
   /**
   * OTP server URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#otp_server_url ScepProfile#otp_server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#otp_server_url ScepProfile#otp_server_url}
   */
   readonly otpServerUrl?: string;
   /**
   * OTP password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#password ScepProfile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#password ScepProfile#password}
   */
   readonly password?: string;
   /**
   * OTP username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#username ScepProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#username ScepProfile#username}
   */
   readonly username?: string;
 }
@@ -643,26 +637,23 @@ export class ScepProfileScepChallengeDynamicOutputReference extends cdktf.Comple
 export interface ScepProfileScepChallenge {
   /**
   * Dynamic
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `dynamic`, `fixed`, and `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#dynamic ScepProfile#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#dynamic ScepProfile#dynamic}
   */
   readonly dynamic?: ScepProfileScepChallengeDynamic;
   /**
   * Challenge to use for SCEP server on mobile clients
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `dynamic`, `fixed`, and `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#fixed ScepProfile#fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#fixed ScepProfile#fixed}
   */
   readonly fixed?: string;
   /**
   * No OTP
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `dynamic`, `fixed`, and `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#none ScepProfile#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#none ScepProfile#none}
   */
   readonly none?: string;
 }
@@ -814,7 +805,7 @@ export class ScepProfileScepChallengeOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile scm_scep_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile scm_scep_profile}
 */
 export class ScepProfile extends cdktf.TerraformResource {
 
@@ -830,7 +821,7 @@ export class ScepProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScepProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScepProfile to import
-  * @param importFromId The id of the existing ScepProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScepProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScepProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -842,7 +833,7 @@ export class ScepProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/scep_profile scm_scep_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/scep_profile scm_scep_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -853,8 +844,8 @@ export class ScepProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_scep_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,58 @@ export interface WildfireAntiVirusProfileConfig extends cdktf.TerraformMetaArgum
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#description WildfireAntiVirusProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#description WildfireAntiVirusProfile#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#device WildfireAntiVirusProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#device WildfireAntiVirusProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#folder WildfireAntiVirusProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#folder WildfireAntiVirusProfile#folder}
   */
   readonly folder?: string;
   /**
   * Mlav exception
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#mlav_exception WildfireAntiVirusProfile#mlav_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#mlav_exception WildfireAntiVirusProfile#mlav_exception}
   */
   readonly mlavException?: WildfireAntiVirusProfileMlavException[] | cdktf.IResolvable;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#name WildfireAntiVirusProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#name WildfireAntiVirusProfile#name}
   */
   readonly name: string;
   /**
   * Packet capture
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#packet_capture WildfireAntiVirusProfile#packet_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#packet_capture WildfireAntiVirusProfile#packet_capture}
   */
   readonly packetCapture?: boolean | cdktf.IResolvable;
   /**
   * Rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#rules WildfireAntiVirusProfile#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#rules WildfireAntiVirusProfile#rules}
   */
   readonly rules?: WildfireAntiVirusProfileRules[] | cdktf.IResolvable;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#snippet WildfireAntiVirusProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#snippet WildfireAntiVirusProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * Threat exception
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#threat_exception WildfireAntiVirusProfile#threat_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#threat_exception WildfireAntiVirusProfile#threat_exception}
   */
   readonly threatException?: WildfireAntiVirusProfileThreatException[] | cdktf.IResolvable;
 }
@@ -72,19 +69,19 @@ export interface WildfireAntiVirusProfileMlavException {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#description WildfireAntiVirusProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#description WildfireAntiVirusProfile#description}
   */
   readonly description?: string;
   /**
   * Filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#filename WildfireAntiVirusProfile#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#filename WildfireAntiVirusProfile#filename}
   */
   readonly filename?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#name WildfireAntiVirusProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#name WildfireAntiVirusProfile#name}
   */
   readonly name?: string;
 }
@@ -260,31 +257,31 @@ export interface WildfireAntiVirusProfileRules {
   /**
   * Analysis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#analysis WildfireAntiVirusProfile#analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#analysis WildfireAntiVirusProfile#analysis}
   */
   readonly analysis?: string;
   /**
   * Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#application WildfireAntiVirusProfile#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#application WildfireAntiVirusProfile#application}
   */
   readonly application?: string[];
   /**
   * Direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#direction WildfireAntiVirusProfile#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#direction WildfireAntiVirusProfile#direction}
   */
   readonly direction?: string;
   /**
   * File type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#file_type WildfireAntiVirusProfile#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#file_type WildfireAntiVirusProfile#file_type}
   */
   readonly fileType?: string[];
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#name WildfireAntiVirusProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#name WildfireAntiVirusProfile#name}
   */
   readonly name?: string;
 }
@@ -518,13 +515,13 @@ export interface WildfireAntiVirusProfileThreatException {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#name WildfireAntiVirusProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#name WildfireAntiVirusProfile#name}
   */
   readonly name?: string;
   /**
   * Notes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#notes WildfireAntiVirusProfile#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#notes WildfireAntiVirusProfile#notes}
   */
   readonly notes?: string;
 }
@@ -669,7 +666,7 @@ export class WildfireAntiVirusProfileThreatExceptionList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile scm_wildfire_anti_virus_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile scm_wildfire_anti_virus_profile}
 */
 export class WildfireAntiVirusProfile extends cdktf.TerraformResource {
 
@@ -685,7 +682,7 @@ export class WildfireAntiVirusProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WildfireAntiVirusProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WildfireAntiVirusProfile to import
-  * @param importFromId The id of the existing WildfireAntiVirusProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WildfireAntiVirusProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WildfireAntiVirusProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -697,7 +694,7 @@ export class WildfireAntiVirusProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/wildfire_anti_virus_profile scm_wildfire_anti_virus_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/wildfire_anti_virus_profile scm_wildfire_anti_virus_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -708,8 +705,8 @@ export class WildfireAntiVirusProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_wildfire_anti_virus_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

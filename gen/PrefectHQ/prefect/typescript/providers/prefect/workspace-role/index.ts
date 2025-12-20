@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/workspace_role
+// https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/workspace_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface WorkspaceRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the Workspace Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/workspace_role#description WorkspaceRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/workspace_role#description WorkspaceRole#description}
   */
   readonly description?: string;
   /**
   * Workspace Role ID (UUID), whose permissions are inherited by this Workspace Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/workspace_role#inherited_role_id WorkspaceRole#inherited_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/workspace_role#inherited_role_id WorkspaceRole#inherited_role_id}
   */
   readonly inheritedRoleId?: string;
   /**
   * Name of the Workspace Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/workspace_role#name WorkspaceRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/workspace_role#name WorkspaceRole#name}
   */
   readonly name: string;
   /**
   * List of scopes linked to the Workspace Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/workspace_role#scopes WorkspaceRole#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/workspace_role#scopes WorkspaceRole#scopes}
   */
   readonly scopes?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/workspace_role prefect_workspace_role}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/workspace_role prefect_workspace_role}
 */
 export class WorkspaceRole extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class WorkspaceRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkspaceRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspaceRole to import
-  * @param importFromId The id of the existing WorkspaceRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/workspace_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspaceRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/workspace_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspaceRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class WorkspaceRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/workspace_role prefect_workspace_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/workspace_role prefect_workspace_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class WorkspaceRole extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_workspace_role',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.92.0',
-        providerVersionConstraint: '2.92.0'
+        providerVersion: '2.92.1',
+        providerVersionConstraint: '2.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

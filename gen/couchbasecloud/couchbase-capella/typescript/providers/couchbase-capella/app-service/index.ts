@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,57 +8,39 @@ import * as cdktf from 'cdktf';
 
 export interface AppServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The Cloud Service Provider for the App Service.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service#cloud_provider AppService#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service#cloud_provider AppService#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service#cluster_id AppService#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service#cluster_id AppService#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The CPU and RAM configuration of the App Service.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service#compute AppService#compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service#compute AppService#compute}
   */
   readonly compute: AppServiceCompute;
   /**
-  * A short description of the App Service.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service#description AppService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service#description AppService#description}
   */
   readonly description?: string;
   /**
-  * A precondition header that specifies the entity tag of a resource.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service#if_match AppService#if_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service#if_match AppService#if_match}
   */
   readonly ifMatch?: string;
   /**
-  * Name of the cluster (up to 256 characters).
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service#name AppService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service#name AppService#name}
   */
   readonly name: string;
   /**
-  * Number of nodes configured for the App Service. Number of nodes configured for the App Service. The number of nodes can range from 2 to 12.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service#nodes AppService#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service#nodes AppService#nodes}
   */
   readonly nodes?: number;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service#organization_id AppService#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service#organization_id AppService#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service#project_id AppService#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service#project_id AppService#project_id}
   */
   readonly projectId: string;
 }
@@ -138,15 +120,11 @@ export class AppServiceAuditOutputReference extends cdktf.ComplexObject {
 }
 export interface AppServiceCompute {
   /**
-  * CPU units (cores).
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service#cpu AppService#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service#cpu AppService#cpu}
   */
   readonly cpu: number;
   /**
-  * RAM units (GB).
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service#ram AppService#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service#ram AppService#ram}
   */
   readonly ram: number;
 }
@@ -263,7 +241,7 @@ export class AppServiceComputeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service couchbase-capella_app_service}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service couchbase-capella_app_service}
 */
 export class AppService extends cdktf.TerraformResource {
 
@@ -279,7 +257,7 @@ export class AppService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppService to import
-  * @param importFromId The id of the existing AppService that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppService that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -291,7 +269,7 @@ export class AppService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/app_service couchbase-capella_app_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/app_service couchbase-capella_app_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -302,8 +280,8 @@ export class AppService extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_app_service',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

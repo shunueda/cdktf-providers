@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface BhUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authentication method, 0 - local, 1 - LDAP, 2 - OAuth. Default is 0 if not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#auth_type BhUser#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user#auth_type BhUser#auth_type}
   */
   readonly authType?: number;
   /**
   * Department ID to which the user belongs, e.g.: "1.2.3".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#department_id BhUser#department_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user#department_id BhUser#department_id}
   */
   readonly departmentId?: string;
   /**
   * Email address. At least one of phone and email parameters must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#email BhUser#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user#email BhUser#email}
   */
   readonly email?: string;
   /**
   * User group ID set to which the user belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#group_id_set BhUser#group_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user#group_id_set BhUser#group_id_set}
   */
   readonly groupIdSet?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#id BhUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user#id BhUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface BhUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Input in the format of "country code|phone number", e.g.: "+86|xxxxxxxx". At least one of phone and email parameters must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#phone BhUser#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user#phone BhUser#phone}
   */
   readonly phone?: string;
   /**
   * User's real name, maximum length 20 characters, cannot contain whitespace characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#real_name BhUser#real_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user#real_name BhUser#real_name}
   */
   readonly realName: string;
   /**
   * Username, 3-20 characters, must start with an English letter and cannot contain characters other than `letters`, `numbers`, `.`, `_`, `-`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#user_name BhUser#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user#user_name BhUser#user_name}
   */
   readonly userName: string;
   /**
   * User effective time, e.g.: "2021-09-22T00:00:00+00:00". If effective and expiration times are not filled, the user will be valid permanently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#validate_from BhUser#validate_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user#validate_from BhUser#validate_from}
   */
   readonly validateFrom?: string;
   /**
   * Access time restriction, a string composed of 0 and 1 with length 168 (7 * 24), representing the time slots allowed for the user in a week. The Nth character in the string represents the Nth hour in the week, 0 - not allowed to access, 1 - allowed to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#validate_time BhUser#validate_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user#validate_time BhUser#validate_time}
   */
   readonly validateTime?: string;
   /**
   * User expiration time, e.g.: "2021-09-23T00:00:00+00:00". If effective and expiration times are not filled, the user will be valid permanently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#validate_to BhUser#validate_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user#validate_to BhUser#validate_to}
   */
   readonly validateTo?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user tencentcloud_bh_user}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user tencentcloud_bh_user}
 */
 export class BhUser extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class BhUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BhUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BhUser to import
-  * @param importFromId The id of the existing BhUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BhUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BhUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class BhUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user tencentcloud_bh_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/bh_user tencentcloud_bh_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class BhUser extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_bh_user',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

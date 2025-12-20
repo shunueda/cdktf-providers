@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_clusters
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/lke_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataLinodeLkeClustersConfig extends cdktf.TerraformMetaArgument
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_clusters#order DataLinodeLkeClusters#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/lke_clusters#order DataLinodeLkeClusters#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_clusters#order_by DataLinodeLkeClusters#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/lke_clusters#order_by DataLinodeLkeClusters#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_clusters#filter DataLinodeLkeClusters#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/lke_clusters#filter DataLinodeLkeClusters#filter}
   */
   readonly filter?: DataLinodeLkeClustersFilter[] | cdktf.IResolvable;
 }
@@ -230,19 +230,19 @@ export interface DataLinodeLkeClustersFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_clusters#match_by DataLinodeLkeClusters#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/lke_clusters#match_by DataLinodeLkeClusters#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_clusters#name DataLinodeLkeClusters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/lke_clusters#name DataLinodeLkeClusters#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_clusters#values DataLinodeLkeClusters#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/lke_clusters#values DataLinodeLkeClusters#values}
   */
   readonly values: string[];
 }
@@ -410,7 +410,7 @@ export class DataLinodeLkeClustersFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_clusters linode_lke_clusters}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/lke_clusters linode_lke_clusters}
 */
 export class DataLinodeLkeClusters extends cdktf.TerraformDataSource {
 
@@ -426,7 +426,7 @@ export class DataLinodeLkeClusters extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeLkeClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeLkeClusters to import
-  * @param importFromId The id of the existing DataLinodeLkeClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeLkeClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/lke_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeLkeClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -438,7 +438,7 @@ export class DataLinodeLkeClusters extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/lke_clusters linode_lke_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/lke_clusters linode_lke_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -449,8 +449,8 @@ export class DataLinodeLkeClusters extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_lke_clusters',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

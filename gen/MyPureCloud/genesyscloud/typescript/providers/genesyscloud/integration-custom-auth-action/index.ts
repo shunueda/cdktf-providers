@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IntegrationCustomAuthActionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action#id IntegrationCustomAuthAction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action#id IntegrationCustomAuthAction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface IntegrationCustomAuthActionConfig extends cdktf.TerraformMetaAr
   /**
   * The ID of the integration this action is associated with. The integration is required to be of type `custom-rest-actions` and its credentials type set as `userDefinedOAuth`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action#integration_id IntegrationCustomAuthAction#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action#integration_id IntegrationCustomAuthAction#integration_id}
   */
   readonly integrationId: string;
   /**
   * Name of the action to override the default name. Can be up to 256 characters long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action#name IntegrationCustomAuthAction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action#name IntegrationCustomAuthAction#name}
   */
   readonly name?: string;
   /**
   * config_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action#config_request IntegrationCustomAuthAction#config_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action#config_request IntegrationCustomAuthAction#config_request}
   */
   readonly configRequest?: IntegrationCustomAuthActionConfigRequest;
   /**
   * config_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action#config_response IntegrationCustomAuthAction#config_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action#config_response IntegrationCustomAuthAction#config_response}
   */
   readonly configResponse?: IntegrationCustomAuthActionConfigResponse;
 }
@@ -43,25 +43,25 @@ export interface IntegrationCustomAuthActionConfigRequest {
   /**
   * Map of headers in name, value pairs to include in request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action#headers IntegrationCustomAuthAction#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action#headers IntegrationCustomAuthAction#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Velocity template to define request body sent to 3rd party service. Any instances of '${' must be properly escaped as '$${'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action#request_template IntegrationCustomAuthAction#request_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action#request_template IntegrationCustomAuthAction#request_template}
   */
   readonly requestTemplate?: string;
   /**
   * HTTP method to use for request (GET | PUT | POST | PATCH | DELETE).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action#request_type IntegrationCustomAuthAction#request_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action#request_type IntegrationCustomAuthAction#request_type}
   */
   readonly requestType: string;
   /**
   * URL that may include placeholders for requests to 3rd party service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action#request_url_template IntegrationCustomAuthAction#request_url_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action#request_url_template IntegrationCustomAuthAction#request_url_template}
   */
   readonly requestUrlTemplate: string;
 }
@@ -228,19 +228,19 @@ export interface IntegrationCustomAuthActionConfigResponse {
   /**
   * Velocity template to build response to return from Action. Any instances of '${' must be properly escaped as '$${'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action#success_template IntegrationCustomAuthAction#success_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action#success_template IntegrationCustomAuthAction#success_template}
   */
   readonly successTemplate?: string;
   /**
   * Map 'attribute name' and 'JSON path' pairs used to extract data from REST response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action#translation_map IntegrationCustomAuthAction#translation_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action#translation_map IntegrationCustomAuthAction#translation_map}
   */
   readonly translationMap?: { [key: string]: string };
   /**
   * Map 'attribute name' and 'default value' pairs used as fallback values if JSON path extraction fails for specified key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action#translation_map_defaults IntegrationCustomAuthAction#translation_map_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action#translation_map_defaults IntegrationCustomAuthAction#translation_map_defaults}
   */
   readonly translationMapDefaults?: { [key: string]: string };
 }
@@ -382,7 +382,7 @@ export class IntegrationCustomAuthActionConfigResponseOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action genesyscloud_integration_custom_auth_action}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action genesyscloud_integration_custom_auth_action}
 */
 export class IntegrationCustomAuthAction extends cdktf.TerraformResource {
 
@@ -398,7 +398,7 @@ export class IntegrationCustomAuthAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationCustomAuthAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationCustomAuthAction to import
-  * @param importFromId The id of the existing IntegrationCustomAuthAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationCustomAuthAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationCustomAuthAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -410,7 +410,7 @@ export class IntegrationCustomAuthAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/integration_custom_auth_action genesyscloud_integration_custom_auth_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/integration_custom_auth_action genesyscloud_integration_custom_auth_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -421,8 +421,8 @@ export class IntegrationCustomAuthAction extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_integration_custom_auth_action',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

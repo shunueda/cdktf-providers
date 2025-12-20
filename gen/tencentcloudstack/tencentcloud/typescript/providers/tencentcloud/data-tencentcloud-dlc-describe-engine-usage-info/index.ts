@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_describe_engine_usage_info
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_engine_usage_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDlcDescribeEngineUsageInfoConfig extends cdktf.
   /**
   * The data engine ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_describe_engine_usage_info#data_engine_id DataTencentcloudDlcDescribeEngineUsageInfo#data_engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_engine_usage_info#data_engine_id DataTencentcloudDlcDescribeEngineUsageInfo#data_engine_id}
   */
   readonly dataEngineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_describe_engine_usage_info#id DataTencentcloudDlcDescribeEngineUsageInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_engine_usage_info#id DataTencentcloudDlcDescribeEngineUsageInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudDlcDescribeEngineUsageInfoConfig extends cdktf.
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_describe_engine_usage_info#result_output_file DataTencentcloudDlcDescribeEngineUsageInfo#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_engine_usage_info#result_output_file DataTencentcloudDlcDescribeEngineUsageInfo#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_describe_engine_usage_info tencentcloud_dlc_describe_engine_usage_info}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_engine_usage_info tencentcloud_dlc_describe_engine_usage_info}
 */
 export class DataTencentcloudDlcDescribeEngineUsageInfo extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataTencentcloudDlcDescribeEngineUsageInfo extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataTencentcloudDlcDescribeEngineUsageInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDlcDescribeEngineUsageInfo to import
-  * @param importFromId The id of the existing DataTencentcloudDlcDescribeEngineUsageInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_describe_engine_usage_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDlcDescribeEngineUsageInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_engine_usage_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDlcDescribeEngineUsageInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataTencentcloudDlcDescribeEngineUsageInfo extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dlc_describe_engine_usage_info tencentcloud_dlc_describe_engine_usage_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/dlc_describe_engine_usage_info tencentcloud_dlc_describe_engine_usage_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataTencentcloudDlcDescribeEngineUsageInfo extends cdktf.TerraformD
       terraformResourceType: 'tencentcloud_dlc_describe_engine_usage_info',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

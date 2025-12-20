@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ExternalcontactsContactConfig extends cdktf.TerraformMetaArgume
   /**
   * External organization for this external contact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#external_organization_id ExternalcontactsContact#external_organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#external_organization_id ExternalcontactsContact#external_organization_id}
   */
   readonly externalOrganizationId?: string;
   /**
   * Contact external system url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#external_system_url ExternalcontactsContact#external_system_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#external_system_url ExternalcontactsContact#external_system_url}
   */
   readonly externalSystemUrl?: string;
   /**
   * The first name of the contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#first_name ExternalcontactsContact#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#first_name ExternalcontactsContact#first_name}
   */
   readonly firstName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#id ExternalcontactsContact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#id ExternalcontactsContact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,103 +35,103 @@ export interface ExternalcontactsContactConfig extends cdktf.TerraformMetaArgume
   /**
   * The last name of the contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#last_name ExternalcontactsContact#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#last_name ExternalcontactsContact#last_name}
   */
   readonly lastName?: string;
   /**
   * The middle name of the contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#middle_name ExternalcontactsContact#middle_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#middle_name ExternalcontactsContact#middle_name}
   */
   readonly middleName?: string;
   /**
   * Contact other email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#other_email ExternalcontactsContact#other_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#other_email ExternalcontactsContact#other_email}
   */
   readonly otherEmail?: string;
   /**
   * Contact personal email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#personal_email ExternalcontactsContact#personal_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#personal_email ExternalcontactsContact#personal_email}
   */
   readonly personalEmail?: string;
   /**
   * The salutation of the contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#salutation ExternalcontactsContact#salutation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#salutation ExternalcontactsContact#salutation}
   */
   readonly salutation?: string;
   /**
   * Contact survey opt out preference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#survey_opt_out ExternalcontactsContact#survey_opt_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#survey_opt_out ExternalcontactsContact#survey_opt_out}
   */
   readonly surveyOptOut?: boolean | cdktf.IResolvable;
   /**
   * The title of the contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#title ExternalcontactsContact#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#title ExternalcontactsContact#title}
   */
   readonly title?: string;
   /**
   * Contact work email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#work_email ExternalcontactsContact#work_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#work_email ExternalcontactsContact#work_email}
   */
   readonly workEmail?: string;
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#address ExternalcontactsContact#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#address ExternalcontactsContact#address}
   */
   readonly address?: ExternalcontactsContactAddress;
   /**
   * cell_phone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#cell_phone ExternalcontactsContact#cell_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#cell_phone ExternalcontactsContact#cell_phone}
   */
   readonly cellPhone?: ExternalcontactsContactCellPhone;
   /**
   * facebook_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#facebook_id ExternalcontactsContact#facebook_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#facebook_id ExternalcontactsContact#facebook_id}
   */
   readonly facebookId?: ExternalcontactsContactFacebookId;
   /**
   * home_phone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#home_phone ExternalcontactsContact#home_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#home_phone ExternalcontactsContact#home_phone}
   */
   readonly homePhone?: ExternalcontactsContactHomePhone;
   /**
   * line_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#line_id ExternalcontactsContact#line_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#line_id ExternalcontactsContact#line_id}
   */
   readonly lineId?: ExternalcontactsContactLineId;
   /**
   * other_phone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#other_phone ExternalcontactsContact#other_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#other_phone ExternalcontactsContact#other_phone}
   */
   readonly otherPhone?: ExternalcontactsContactOtherPhone;
   /**
   * twitter_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#twitter_id ExternalcontactsContact#twitter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#twitter_id ExternalcontactsContact#twitter_id}
   */
   readonly twitterId?: ExternalcontactsContactTwitterId;
   /**
   * whatsapp_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#whatsapp_id ExternalcontactsContact#whatsapp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#whatsapp_id ExternalcontactsContact#whatsapp_id}
   */
   readonly whatsappId?: ExternalcontactsContactWhatsappId;
   /**
   * work_phone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#work_phone ExternalcontactsContact#work_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#work_phone ExternalcontactsContact#work_phone}
   */
   readonly workPhone?: ExternalcontactsContactWorkPhone;
 }
@@ -139,37 +139,37 @@ export interface ExternalcontactsContactAddress {
   /**
   * Contact address 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#address1 ExternalcontactsContact#address1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#address1 ExternalcontactsContact#address1}
   */
   readonly address1?: string;
   /**
   * Contact address 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#address2 ExternalcontactsContact#address2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#address2 ExternalcontactsContact#address2}
   */
   readonly address2?: string;
   /**
   * Contact address city.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#city ExternalcontactsContact#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#city ExternalcontactsContact#city}
   */
   readonly city?: string;
   /**
   * Contact address country code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#country_code ExternalcontactsContact#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#country_code ExternalcontactsContact#country_code}
   */
   readonly countryCode?: string;
   /**
   * Contact address postal code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#postal_code ExternalcontactsContact#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#postal_code ExternalcontactsContact#postal_code}
   */
   readonly postalCode?: string;
   /**
   * Contact address state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#state ExternalcontactsContact#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#state ExternalcontactsContact#state}
   */
   readonly state?: string;
 }
@@ -400,31 +400,31 @@ export interface ExternalcontactsContactCellPhone {
   /**
   * If contact accept SMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#accepts_sms ExternalcontactsContact#accepts_sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#accepts_sms ExternalcontactsContact#accepts_sms}
   */
   readonly acceptsSms?: boolean | cdktf.IResolvable;
   /**
   * Phone number country code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#country_code ExternalcontactsContact#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#country_code ExternalcontactsContact#country_code}
   */
   readonly countryCode?: string;
   /**
   * Display string of the phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#display ExternalcontactsContact#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#display ExternalcontactsContact#display}
   */
   readonly display?: string;
   /**
   * Phone number in e164 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#e164 ExternalcontactsContact#e164}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#e164 ExternalcontactsContact#e164}
   */
   readonly e164?: string;
   /**
   * Phone extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#extension ExternalcontactsContact#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#extension ExternalcontactsContact#extension}
   */
   readonly extension?: number;
 }
@@ -626,7 +626,7 @@ export interface ExternalcontactsContactFacebookIdIds {
   /**
   * Contact facebook scoped id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#scoped_id ExternalcontactsContact#scoped_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#scoped_id ExternalcontactsContact#scoped_id}
   */
   readonly scopedId?: string;
 }
@@ -744,13 +744,13 @@ export interface ExternalcontactsContactFacebookId {
   /**
   * Contact whatsapp display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#display_name ExternalcontactsContact#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#display_name ExternalcontactsContact#display_name}
   */
   readonly displayName?: string;
   /**
   * ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#ids ExternalcontactsContact#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#ids ExternalcontactsContact#ids}
   */
   readonly ids?: ExternalcontactsContactFacebookIdIds[] | cdktf.IResolvable;
 }
@@ -865,31 +865,31 @@ export interface ExternalcontactsContactHomePhone {
   /**
   * If contact accept SMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#accepts_sms ExternalcontactsContact#accepts_sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#accepts_sms ExternalcontactsContact#accepts_sms}
   */
   readonly acceptsSms?: boolean | cdktf.IResolvable;
   /**
   * Phone number country code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#country_code ExternalcontactsContact#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#country_code ExternalcontactsContact#country_code}
   */
   readonly countryCode?: string;
   /**
   * Display string of the phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#display ExternalcontactsContact#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#display ExternalcontactsContact#display}
   */
   readonly display?: string;
   /**
   * Phone number in e164 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#e164 ExternalcontactsContact#e164}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#e164 ExternalcontactsContact#e164}
   */
   readonly e164?: string;
   /**
   * Phone extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#extension ExternalcontactsContact#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#extension ExternalcontactsContact#extension}
   */
   readonly extension?: number;
 }
@@ -1091,7 +1091,7 @@ export interface ExternalcontactsContactLineIdIds {
   /**
   * Contact line id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#user_id ExternalcontactsContact#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#user_id ExternalcontactsContact#user_id}
   */
   readonly userId?: string;
 }
@@ -1209,13 +1209,13 @@ export interface ExternalcontactsContactLineId {
   /**
   * Contact line display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#display_name ExternalcontactsContact#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#display_name ExternalcontactsContact#display_name}
   */
   readonly displayName?: string;
   /**
   * ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#ids ExternalcontactsContact#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#ids ExternalcontactsContact#ids}
   */
   readonly ids?: ExternalcontactsContactLineIdIds[] | cdktf.IResolvable;
 }
@@ -1330,31 +1330,31 @@ export interface ExternalcontactsContactOtherPhone {
   /**
   * If contact accept SMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#accepts_sms ExternalcontactsContact#accepts_sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#accepts_sms ExternalcontactsContact#accepts_sms}
   */
   readonly acceptsSms?: boolean | cdktf.IResolvable;
   /**
   * Phone number country code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#country_code ExternalcontactsContact#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#country_code ExternalcontactsContact#country_code}
   */
   readonly countryCode?: string;
   /**
   * Display string of the phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#display ExternalcontactsContact#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#display ExternalcontactsContact#display}
   */
   readonly display?: string;
   /**
   * Phone number in e164 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#e164 ExternalcontactsContact#e164}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#e164 ExternalcontactsContact#e164}
   */
   readonly e164?: string;
   /**
   * Phone extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#extension ExternalcontactsContact#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#extension ExternalcontactsContact#extension}
   */
   readonly extension?: number;
 }
@@ -1556,7 +1556,7 @@ export interface ExternalcontactsContactTwitterId {
   /**
   * Contact twitter id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#id ExternalcontactsContact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#id ExternalcontactsContact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1565,13 +1565,13 @@ export interface ExternalcontactsContactTwitterId {
   /**
   * Contact twitter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#name ExternalcontactsContact#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#name ExternalcontactsContact#name}
   */
   readonly name?: string;
   /**
   * Contact twitter screen name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#screen_name ExternalcontactsContact#screen_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#screen_name ExternalcontactsContact#screen_name}
   */
   readonly screenName?: string;
 }
@@ -1720,31 +1720,31 @@ export interface ExternalcontactsContactWhatsappIdPhoneNumber {
   /**
   * If contact accept SMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#accepts_sms ExternalcontactsContact#accepts_sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#accepts_sms ExternalcontactsContact#accepts_sms}
   */
   readonly acceptsSms?: boolean | cdktf.IResolvable;
   /**
   * Phone number country code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#country_code ExternalcontactsContact#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#country_code ExternalcontactsContact#country_code}
   */
   readonly countryCode?: string;
   /**
   * Display string of the phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#display ExternalcontactsContact#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#display ExternalcontactsContact#display}
   */
   readonly display?: string;
   /**
   * Phone number in e164 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#e164 ExternalcontactsContact#e164}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#e164 ExternalcontactsContact#e164}
   */
   readonly e164?: string;
   /**
   * Phone extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#extension ExternalcontactsContact#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#extension ExternalcontactsContact#extension}
   */
   readonly extension?: number;
 }
@@ -1978,13 +1978,13 @@ export interface ExternalcontactsContactWhatsappId {
   /**
   * Contact whatsapp display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#display_name ExternalcontactsContact#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#display_name ExternalcontactsContact#display_name}
   */
   readonly displayName: string;
   /**
   * phone_number block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#phone_number ExternalcontactsContact#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#phone_number ExternalcontactsContact#phone_number}
   */
   readonly phoneNumber: ExternalcontactsContactWhatsappIdPhoneNumber[] | cdktf.IResolvable;
 }
@@ -2093,31 +2093,31 @@ export interface ExternalcontactsContactWorkPhone {
   /**
   * If contact accept SMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#accepts_sms ExternalcontactsContact#accepts_sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#accepts_sms ExternalcontactsContact#accepts_sms}
   */
   readonly acceptsSms?: boolean | cdktf.IResolvable;
   /**
   * Phone number country code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#country_code ExternalcontactsContact#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#country_code ExternalcontactsContact#country_code}
   */
   readonly countryCode?: string;
   /**
   * Display string of the phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#display ExternalcontactsContact#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#display ExternalcontactsContact#display}
   */
   readonly display?: string;
   /**
   * Phone number in e164 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#e164 ExternalcontactsContact#e164}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#e164 ExternalcontactsContact#e164}
   */
   readonly e164?: string;
   /**
   * Phone extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#extension ExternalcontactsContact#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#extension ExternalcontactsContact#extension}
   */
   readonly extension?: number;
 }
@@ -2317,7 +2317,7 @@ export class ExternalcontactsContactWorkPhoneOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact genesyscloud_externalcontacts_contact}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact genesyscloud_externalcontacts_contact}
 */
 export class ExternalcontactsContact extends cdktf.TerraformResource {
 
@@ -2333,7 +2333,7 @@ export class ExternalcontactsContact extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExternalcontactsContact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExternalcontactsContact to import
-  * @param importFromId The id of the existing ExternalcontactsContact that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExternalcontactsContact that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExternalcontactsContact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2345,7 +2345,7 @@ export class ExternalcontactsContact extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_contact genesyscloud_externalcontacts_contact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_contact genesyscloud_externalcontacts_contact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2356,8 +2356,8 @@ export class ExternalcontactsContact extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_externalcontacts_contact',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

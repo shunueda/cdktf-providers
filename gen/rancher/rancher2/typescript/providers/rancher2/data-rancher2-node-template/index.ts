@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/node_template
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/node_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataRancher2NodeTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/node_template#id DataRancher2NodeTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/node_template#id DataRancher2NodeTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/node_template#name DataRancher2NodeTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/node_template#name DataRancher2NodeTemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/node_template#use_internal_ip_address DataRancher2NodeTemplate#use_internal_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/node_template#use_internal_ip_address DataRancher2NodeTemplate#use_internal_ip_address}
   */
   readonly useInternalIpAddress?: boolean | cdktf.IResolvable;
 }
@@ -115,7 +115,7 @@ export class DataRancher2NodeTemplateNodeTaintsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/node_template rancher2_node_template}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/node_template rancher2_node_template}
 */
 export class DataRancher2NodeTemplate extends cdktf.TerraformDataSource {
 
@@ -131,7 +131,7 @@ export class DataRancher2NodeTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRancher2NodeTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRancher2NodeTemplate to import
-  * @param importFromId The id of the existing DataRancher2NodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/node_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRancher2NodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/node_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRancher2NodeTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,7 +143,7 @@ export class DataRancher2NodeTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/node_template rancher2_node_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/node_template rancher2_node_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,8 +154,8 @@ export class DataRancher2NodeTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'rancher2_node_template',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

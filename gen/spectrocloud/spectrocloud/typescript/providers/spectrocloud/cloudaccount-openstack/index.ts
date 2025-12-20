@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CloudaccountOpenstackConfig extends cdktf.TerraformMetaArgument
   /**
   * The CA certificate of the OpenStack cloud that is used to connect to the OpenStack cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack#ca_certificate CloudaccountOpenstack#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack#ca_certificate CloudaccountOpenstack#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * The context of the OpenStack configuration. Allowed values are `project` or `tenant`. Default value is `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack#context CloudaccountOpenstack#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack#context CloudaccountOpenstack#context}
   */
   readonly context?: string;
   /**
   * The default domain of the OpenStack cloud that is used to connect to the OpenStack cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack#default_domain CloudaccountOpenstack#default_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack#default_domain CloudaccountOpenstack#default_domain}
   */
   readonly defaultDomain: string;
   /**
   * The default project of the OpenStack cloud that is used to connect to the OpenStack cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack#default_project CloudaccountOpenstack#default_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack#default_project CloudaccountOpenstack#default_project}
   */
   readonly defaultProject: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack#id CloudaccountOpenstack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack#id CloudaccountOpenstack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface CloudaccountOpenstackConfig extends cdktf.TerraformMetaArgument
   /**
   * The identity endpoint of the OpenStack cloud that is used to connect to the OpenStack cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack#identity_endpoint CloudaccountOpenstack#identity_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack#identity_endpoint CloudaccountOpenstack#identity_endpoint}
   */
   readonly identityEndpoint: string;
   /**
   * Name of the OpenStack cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack#name CloudaccountOpenstack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack#name CloudaccountOpenstack#name}
   */
   readonly name: string;
   /**
   * Whether to allow insecure connections to the OpenStack cloud. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack#openstack_allow_insecure CloudaccountOpenstack#openstack_allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack#openstack_allow_insecure CloudaccountOpenstack#openstack_allow_insecure}
   */
   readonly openstackAllowInsecure?: boolean | cdktf.IResolvable;
   /**
   * The password of the OpenStack cloud that is used to connect to the OpenStack cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack#openstack_password CloudaccountOpenstack#openstack_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack#openstack_password CloudaccountOpenstack#openstack_password}
   */
   readonly openstackPassword: string;
   /**
   * The username of the OpenStack cloud that is used to connect to the OpenStack cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack#openstack_username CloudaccountOpenstack#openstack_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack#openstack_username CloudaccountOpenstack#openstack_username}
   */
   readonly openstackUsername: string;
   /**
   * The parent region of the OpenStack cloud that is used to connect to the OpenStack cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack#parent_region CloudaccountOpenstack#parent_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack#parent_region CloudaccountOpenstack#parent_region}
   */
   readonly parentRegion: string;
   /**
   * ID of the private cloud gateway that is used to connect to the OpenStack cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack#private_cloud_gateway_id CloudaccountOpenstack#private_cloud_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack#private_cloud_gateway_id CloudaccountOpenstack#private_cloud_gateway_id}
   */
   readonly privateCloudGatewayId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack spectrocloud_cloudaccount_openstack}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack spectrocloud_cloudaccount_openstack}
 */
 export class CloudaccountOpenstack extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class CloudaccountOpenstack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudaccountOpenstack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudaccountOpenstack to import
-  * @param importFromId The id of the existing CloudaccountOpenstack that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudaccountOpenstack that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudaccountOpenstack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class CloudaccountOpenstack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_openstack spectrocloud_cloudaccount_openstack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_openstack spectrocloud_cloudaccount_openstack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class CloudaccountOpenstack extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_cloudaccount_openstack',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.1',
-        providerVersionConstraint: '0.26.1'
+        providerVersion: '0.26.2',
+        providerVersionConstraint: '0.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

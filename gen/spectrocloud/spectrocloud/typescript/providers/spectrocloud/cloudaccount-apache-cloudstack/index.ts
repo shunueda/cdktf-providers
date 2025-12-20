@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_apache_cloudstack
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_apache_cloudstack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CloudaccountApacheCloudstackConfig extends cdktf.TerraformMetaA
   /**
   * The API key for Apache CloudStack authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_apache_cloudstack#api_key CloudaccountApacheCloudstack#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_apache_cloudstack#api_key CloudaccountApacheCloudstack#api_key}
   */
   readonly apiKey: string;
   /**
   * The API URL of the Apache CloudStack management server. For example: https://cloudstack.example.com:8080/client/api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_apache_cloudstack#api_url CloudaccountApacheCloudstack#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_apache_cloudstack#api_url CloudaccountApacheCloudstack#api_url}
   */
   readonly apiUrl: string;
   /**
   * The context of the Apache CloudStack configuration. Allowed values are `project` or `tenant`. Default value is `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_apache_cloudstack#context CloudaccountApacheCloudstack#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_apache_cloudstack#context CloudaccountApacheCloudstack#context}
   */
   readonly context?: string;
   /**
   * The domain for the Apache CloudStack account. Optional, for multi-domain CloudStack environments. Default is empty (ROOT domain).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_apache_cloudstack#domain CloudaccountApacheCloudstack#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_apache_cloudstack#domain CloudaccountApacheCloudstack#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_apache_cloudstack#id CloudaccountApacheCloudstack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_apache_cloudstack#id CloudaccountApacheCloudstack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface CloudaccountApacheCloudstackConfig extends cdktf.TerraformMetaA
   /**
   * Skip SSL certificate verification. Default is `false`. Note: Apache CloudStack must have valid SSL certificates from a trusted CA if this is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_apache_cloudstack#insecure CloudaccountApacheCloudstack#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_apache_cloudstack#insecure CloudaccountApacheCloudstack#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Name of the Apache CloudStack cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_apache_cloudstack#name CloudaccountApacheCloudstack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_apache_cloudstack#name CloudaccountApacheCloudstack#name}
   */
   readonly name: string;
   /**
   * ID of the private cloud gateway that is used to connect to the Apache CloudStack cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_apache_cloudstack#private_cloud_gateway_id CloudaccountApacheCloudstack#private_cloud_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_apache_cloudstack#private_cloud_gateway_id CloudaccountApacheCloudstack#private_cloud_gateway_id}
   */
   readonly privateCloudGatewayId: string;
   /**
   * The secret key for Apache CloudStack authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_apache_cloudstack#secret_key CloudaccountApacheCloudstack#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_apache_cloudstack#secret_key CloudaccountApacheCloudstack#secret_key}
   */
   readonly secretKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_apache_cloudstack spectrocloud_cloudaccount_apache_cloudstack}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_apache_cloudstack spectrocloud_cloudaccount_apache_cloudstack}
 */
 export class CloudaccountApacheCloudstack extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class CloudaccountApacheCloudstack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudaccountApacheCloudstack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudaccountApacheCloudstack to import
-  * @param importFromId The id of the existing CloudaccountApacheCloudstack that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_apache_cloudstack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudaccountApacheCloudstack that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_apache_cloudstack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudaccountApacheCloudstack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class CloudaccountApacheCloudstack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_apache_cloudstack spectrocloud_cloudaccount_apache_cloudstack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_apache_cloudstack spectrocloud_cloudaccount_apache_cloudstack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class CloudaccountApacheCloudstack extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_cloudaccount_apache_cloudstack',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.1',
-        providerVersionConstraint: '0.26.1'
+        providerVersion: '0.26.2',
+        providerVersionConstraint: '0.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

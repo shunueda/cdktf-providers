@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,88 @@ export interface LdapServerProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The base DN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#base LdapServerProfile#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#base LdapServerProfile#base}
   */
   readonly base?: string;
   /**
   * The bind DN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#bind_dn LdapServerProfile#bind_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#bind_dn LdapServerProfile#bind_dn}
   */
   readonly bindDn?: string;
   /**
   * The bind password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#bind_password LdapServerProfile#bind_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#bind_password LdapServerProfile#bind_password}
   */
   readonly bindPassword?: string;
   /**
   * The bind timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#bind_timelimit LdapServerProfile#bind_timelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#bind_timelimit LdapServerProfile#bind_timelimit}
   */
   readonly bindTimelimit?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#device LdapServerProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#device LdapServerProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#folder LdapServerProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#folder LdapServerProfile#folder}
   */
   readonly folder?: string;
   /**
   * The LDAP server time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#ldap_type LdapServerProfile#ldap_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#ldap_type LdapServerProfile#ldap_type}
   */
   readonly ldapType?: string;
   /**
   * The name of the LDAP server profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#name LdapServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#name LdapServerProfile#name}
   */
   readonly name: string;
   /**
   * The search retry interval (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#retry_interval LdapServerProfile#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#retry_interval LdapServerProfile#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * The LDAP server configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#server LdapServerProfile#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#server LdapServerProfile#server}
   */
   readonly server: LdapServerProfileServer[] | cdktf.IResolvable;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#snippet LdapServerProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#snippet LdapServerProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * Require SSL/TLS secured connection?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#ssl LdapServerProfile#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#ssl LdapServerProfile#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * The search timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#timelimit LdapServerProfile#timelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#timelimit LdapServerProfile#timelimit}
   */
   readonly timelimit?: number;
   /**
   * Verify server certificate for SSL sessions?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#verify_server_certificate LdapServerProfile#verify_server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#verify_server_certificate LdapServerProfile#verify_server_certificate}
   */
   readonly verifyServerCertificate?: boolean | cdktf.IResolvable;
 }
@@ -102,19 +99,19 @@ export interface LdapServerProfileServer {
   /**
   * The LDAP server IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#address LdapServerProfile#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#address LdapServerProfile#address}
   */
   readonly address?: string;
   /**
   * The LDAP server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#name LdapServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#name LdapServerProfile#name}
   */
   readonly name?: string;
   /**
   * The LDAP server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#port LdapServerProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#port LdapServerProfile#port}
   */
   readonly port?: number;
 }
@@ -288,7 +285,7 @@ export class LdapServerProfileServerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile scm_ldap_server_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile scm_ldap_server_profile}
 */
 export class LdapServerProfile extends cdktf.TerraformResource {
 
@@ -304,7 +301,7 @@ export class LdapServerProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LdapServerProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LdapServerProfile to import
-  * @param importFromId The id of the existing LdapServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LdapServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LdapServerProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -316,7 +313,7 @@ export class LdapServerProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/ldap_server_profile scm_ldap_server_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/ldap_server_profile scm_ldap_server_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -327,8 +324,8 @@ export class LdapServerProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_ldap_server_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

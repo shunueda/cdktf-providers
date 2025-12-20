@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface ResourceLimitConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum number of alerts that can be created. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#alert ResourceLimit#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#alert ResourceLimit#alert}
   */
   readonly alert?: number;
   /**
   * The maximum number of API keys that can be generated. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#api_keys ResourceLimit#api_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#api_keys ResourceLimit#api_keys}
   */
   readonly apiKeys?: number;
   /**
   * The maximum number of appliances that can be managed. Must be between 1 and 50,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#appliance ResourceLimit#appliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#appliance ResourceLimit#appliance}
   */
   readonly appliance?: number;
   /**
   * The maximum number of appliance tokens that can be issued. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#appliance_token ResourceLimit#appliance_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#appliance_token ResourceLimit#appliance_token}
   */
   readonly applianceToken?: number;
   /**
   * The maximum number of application deployments allowed. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#application_deployment ResourceLimit#application_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#application_deployment ResourceLimit#application_deployment}
   */
   readonly applicationDeployment?: number;
   /**
   * The maximum number of application profiles that can be configured. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#application_profile ResourceLimit#application_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#application_profile ResourceLimit#application_profile}
   */
   readonly applicationProfile?: number;
   /**
   * The maximum number of certificates that can be managed. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#certificate ResourceLimit#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#certificate ResourceLimit#certificate}
   */
   readonly certificate?: number;
   /**
   * The maximum number of cloud accounts that can be added. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#cloud_account ResourceLimit#cloud_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#cloud_account ResourceLimit#cloud_account}
   */
   readonly cloudAccount?: number;
   /**
   * The maximum number of clusters that can be created. Must be between 1 and 50,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#cluster ResourceLimit#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#cluster ResourceLimit#cluster}
   */
   readonly cluster?: number;
   /**
   * The maximum number of cluster groups that can be created. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#cluster_group ResourceLimit#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#cluster_group ResourceLimit#cluster_group}
   */
   readonly clusterGroup?: number;
   /**
   * The maximum number of cluster profiles that can be configured. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#cluster_profile ResourceLimit#cluster_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#cluster_profile ResourceLimit#cluster_profile}
   */
   readonly clusterProfile?: number;
   /**
   * The maximum number of filters that can be defined. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#filter ResourceLimit#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#filter ResourceLimit#filter}
   */
   readonly filter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#id ResourceLimit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#id ResourceLimit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,81 +89,81 @@ export interface ResourceLimitConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum number of locations that can be configured. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#location ResourceLimit#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#location ResourceLimit#location}
   */
   readonly location?: number;
   /**
   * The maximum number of macros that can be created. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#macro ResourceLimit#macro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#macro ResourceLimit#macro}
   */
   readonly macro?: number;
   /**
   * The maximum number of private gateways that can be managed. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#private_gateway ResourceLimit#private_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#private_gateway ResourceLimit#private_gateway}
   */
   readonly privateGateway?: number;
   /**
   * The maximum number of projects that can be created. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#project ResourceLimit#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#project ResourceLimit#project}
   */
   readonly project?: number;
   /**
   * The maximum number of registries that can be configured. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#registry ResourceLimit#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#registry ResourceLimit#registry}
   */
   readonly registry?: number;
   /**
   * The maximum number of roles that can be assigned. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#role ResourceLimit#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#role ResourceLimit#role}
   */
   readonly role?: number;
   /**
   * The maximum number of SSH keys that can be managed. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#ssh_key ResourceLimit#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#ssh_key ResourceLimit#ssh_key}
   */
   readonly sshKey?: number;
   /**
   * The maximum number of teams that can be created. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#team ResourceLimit#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#team ResourceLimit#team}
   */
   readonly team?: number;
   /**
   * The maximum number of users that can be added. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#user ResourceLimit#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#user ResourceLimit#user}
   */
   readonly user?: number;
   /**
   * The maximum number of workspaces that can be created. Must be between 1 and 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#workspace ResourceLimit#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#workspace ResourceLimit#workspace}
   */
   readonly workspace?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#timeouts ResourceLimit#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#timeouts ResourceLimit#timeouts}
   */
   readonly timeouts?: ResourceLimitTimeouts;
 }
 export interface ResourceLimitTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#create ResourceLimit#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#create ResourceLimit#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#delete ResourceLimit#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#delete ResourceLimit#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#update ResourceLimit#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#update ResourceLimit#update}
   */
   readonly update?: string;
 }
@@ -315,7 +315,7 @@ export class ResourceLimitTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit spectrocloud_resource_limit}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit spectrocloud_resource_limit}
 */
 export class ResourceLimit extends cdktf.TerraformResource {
 
@@ -331,7 +331,7 @@ export class ResourceLimit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceLimit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceLimit to import
-  * @param importFromId The id of the existing ResourceLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceLimit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -343,7 +343,7 @@ export class ResourceLimit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/resource_limit spectrocloud_resource_limit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/resource_limit spectrocloud_resource_limit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -354,8 +354,8 @@ export class ResourceLimit extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_resource_limit',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.1',
-        providerVersionConstraint: '0.26.1'
+        providerVersion: '0.26.2',
+        providerVersionConstraint: '0.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/identity_center_user_sync_provisioning
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_user_sync_provisioning
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface IdentityCenterUserSyncProvisioningConfig extends cdktf.Terrafor
   /**
   * Deletion policy. It indicates the handling policy for CAM users already synchronized when the CAM user synchronization is deleted. Valid values: Delete: Delete the CAM users already synchronized from CIC to CAM when the CAM user synchronization is deleted; Keep: Keep the CAM users already synchronized from CIC to CAM when the CAM user synchronization is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/identity_center_user_sync_provisioning#deletion_strategy IdentityCenterUserSyncProvisioning#deletion_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_user_sync_provisioning#deletion_strategy IdentityCenterUserSyncProvisioning#deletion_strategy}
   */
   readonly deletionStrategy?: string;
   /**
   * Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/identity_center_user_sync_provisioning#description IdentityCenterUserSyncProvisioning#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_user_sync_provisioning#description IdentityCenterUserSyncProvisioning#description}
   */
   readonly description?: string;
   /**
   * Conflict policy. It indicates the handling policy for existence of a user with the same username when CIC users are synchronized to CAM. Valid values: KeepBoth: Keep both, that is, add the _cic suffix to the CIC user's username and then try to create a CAM user with the username when CIC users are synchronized to CAM and a user with the same username already exists in CAM; TakeOver: Replace, that is, directly replace the existing CAM user with the synchronized CIC user when CIC users are synchronized to CAM and a user with the same username already exists in CAM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/identity_center_user_sync_provisioning#duplication_strategy IdentityCenterUserSyncProvisioning#duplication_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_user_sync_provisioning#duplication_strategy IdentityCenterUserSyncProvisioning#duplication_strategy}
   */
   readonly duplicationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/identity_center_user_sync_provisioning#id IdentityCenterUserSyncProvisioning#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_user_sync_provisioning#id IdentityCenterUserSyncProvisioning#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,7 +37,7 @@ export interface IdentityCenterUserSyncProvisioningConfig extends cdktf.Terrafor
   * When the PrincipalType value is Group, it is the CIC user group ID (g-********).
   * When the PrincipalType value is User, it is the CIC user ID (u-********).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/identity_center_user_sync_provisioning#principal_id IdentityCenterUserSyncProvisioning#principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_user_sync_provisioning#principal_id IdentityCenterUserSyncProvisioning#principal_id}
   */
   readonly principalId?: string;
   /**
@@ -46,31 +46,31 @@ export interface IdentityCenterUserSyncProvisioningConfig extends cdktf.Terrafor
   * User: indicates that the identity for the CAM user synchronization is a CIC user.
   * Group: indicates that the identity for the CAM user synchronization is a CIC user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/identity_center_user_sync_provisioning#principal_type IdentityCenterUserSyncProvisioning#principal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_user_sync_provisioning#principal_type IdentityCenterUserSyncProvisioning#principal_type}
   */
   readonly principalType?: string;
   /**
   * Type of the synchronized target account of the Tencent Cloud Organization. ManagerUin: admin account; MemberUin: member account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/identity_center_user_sync_provisioning#target_type IdentityCenterUserSyncProvisioning#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_user_sync_provisioning#target_type IdentityCenterUserSyncProvisioning#target_type}
   */
   readonly targetType?: string;
   /**
   * UIN of the synchronized target account of the Tencent Cloud Organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/identity_center_user_sync_provisioning#target_uin IdentityCenterUserSyncProvisioning#target_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_user_sync_provisioning#target_uin IdentityCenterUserSyncProvisioning#target_uin}
   */
   readonly targetUin?: number;
   /**
   * Space ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/identity_center_user_sync_provisioning#zone_id IdentityCenterUserSyncProvisioning#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_user_sync_provisioning#zone_id IdentityCenterUserSyncProvisioning#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/identity_center_user_sync_provisioning tencentcloud_identity_center_user_sync_provisioning}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_user_sync_provisioning tencentcloud_identity_center_user_sync_provisioning}
 */
 export class IdentityCenterUserSyncProvisioning extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class IdentityCenterUserSyncProvisioning extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a IdentityCenterUserSyncProvisioning resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityCenterUserSyncProvisioning to import
-  * @param importFromId The id of the existing IdentityCenterUserSyncProvisioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/identity_center_user_sync_provisioning#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityCenterUserSyncProvisioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_user_sync_provisioning#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityCenterUserSyncProvisioning to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class IdentityCenterUserSyncProvisioning extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/identity_center_user_sync_provisioning tencentcloud_identity_center_user_sync_provisioning} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/identity_center_user_sync_provisioning tencentcloud_identity_center_user_sync_provisioning} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class IdentityCenterUserSyncProvisioning extends cdktf.TerraformResource 
       terraformResourceType: 'tencentcloud_identity_center_user_sync_provisioning',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

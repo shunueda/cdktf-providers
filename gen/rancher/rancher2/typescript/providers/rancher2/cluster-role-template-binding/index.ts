@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ClusterRoleTemplateBindingConfig extends cdktf.TerraformMetaArg
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#annotations ClusterRoleTemplateBinding#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#annotations ClusterRoleTemplateBinding#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#cluster_id ClusterRoleTemplateBinding#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#cluster_id ClusterRoleTemplateBinding#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#group_id ClusterRoleTemplateBinding#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#group_id ClusterRoleTemplateBinding#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#group_principal_id ClusterRoleTemplateBinding#group_principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#group_principal_id ClusterRoleTemplateBinding#group_principal_id}
   */
   readonly groupPrincipalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#id ClusterRoleTemplateBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#id ClusterRoleTemplateBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface ClusterRoleTemplateBindingConfig extends cdktf.TerraformMetaArg
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#labels ClusterRoleTemplateBinding#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#labels ClusterRoleTemplateBinding#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#name ClusterRoleTemplateBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#name ClusterRoleTemplateBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#role_template_id ClusterRoleTemplateBinding#role_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#role_template_id ClusterRoleTemplateBinding#role_template_id}
   */
   readonly roleTemplateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#user_id ClusterRoleTemplateBinding#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#user_id ClusterRoleTemplateBinding#user_id}
   */
   readonly userId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#user_principal_id ClusterRoleTemplateBinding#user_principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#user_principal_id ClusterRoleTemplateBinding#user_principal_id}
   */
   readonly userPrincipalId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#timeouts ClusterRoleTemplateBinding#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#timeouts ClusterRoleTemplateBinding#timeouts}
   */
   readonly timeouts?: ClusterRoleTemplateBindingTimeouts;
 }
 export interface ClusterRoleTemplateBindingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#create ClusterRoleTemplateBinding#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#create ClusterRoleTemplateBinding#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#delete ClusterRoleTemplateBinding#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#delete ClusterRoleTemplateBinding#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#update ClusterRoleTemplateBinding#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#update ClusterRoleTemplateBinding#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class ClusterRoleTemplateBindingTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding rancher2_cluster_role_template_binding}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding rancher2_cluster_role_template_binding}
 */
 export class ClusterRoleTemplateBinding extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class ClusterRoleTemplateBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterRoleTemplateBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterRoleTemplateBinding to import
-  * @param importFromId The id of the existing ClusterRoleTemplateBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterRoleTemplateBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterRoleTemplateBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class ClusterRoleTemplateBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_role_template_binding rancher2_cluster_role_template_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_role_template_binding rancher2_cluster_role_template_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class ClusterRoleTemplateBinding extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_cluster_role_template_binding',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TcmPrometheusAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#id TcmPrometheusAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#id TcmPrometheusAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface TcmPrometheusAttachmentConfig extends cdktf.TerraformMetaArgume
   /**
   * Mesh ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#mesh_id TcmPrometheusAttachment#mesh_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#mesh_id TcmPrometheusAttachment#mesh_id}
   */
   readonly meshId: string;
   /**
   * prometheus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#prometheus TcmPrometheusAttachment#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#prometheus TcmPrometheusAttachment#prometheus}
   */
   readonly prometheus: TcmPrometheusAttachmentPrometheus;
 }
@@ -31,37 +31,37 @@ export interface TcmPrometheusAttachmentPrometheusCustomProm {
   /**
   * Authentication type of the prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#auth_type TcmPrometheusAttachment#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#auth_type TcmPrometheusAttachment#auth_type}
   */
   readonly authType: string;
   /**
   * Whether it is public address, default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#is_public_addr TcmPrometheusAttachment#is_public_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#is_public_addr TcmPrometheusAttachment#is_public_addr}
   */
   readonly isPublicAddr?: boolean | cdktf.IResolvable;
   /**
   * Password of the prometheus, used in basic authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#password TcmPrometheusAttachment#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#password TcmPrometheusAttachment#password}
   */
   readonly password?: string;
   /**
   * Url of the prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#url TcmPrometheusAttachment#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#url TcmPrometheusAttachment#url}
   */
   readonly url: string;
   /**
   * Username of the prometheus, used in basic authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#username TcmPrometheusAttachment#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#username TcmPrometheusAttachment#username}
   */
   readonly username?: string;
   /**
   * Vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#vpc_id TcmPrometheusAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#vpc_id TcmPrometheusAttachment#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -286,31 +286,31 @@ export interface TcmPrometheusAttachmentPrometheus {
   /**
   * Existed TMP id, auto create TMP if empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#instance_id TcmPrometheusAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#instance_id TcmPrometheusAttachment#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Region for TMP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#region TcmPrometheusAttachment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#region TcmPrometheusAttachment#region}
   */
   readonly region?: string;
   /**
   * Subnet id for TMP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#subnet_id TcmPrometheusAttachment#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#subnet_id TcmPrometheusAttachment#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Vpc id for TMP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#vpc_id TcmPrometheusAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#vpc_id TcmPrometheusAttachment#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * custom_prom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#custom_prom TcmPrometheusAttachment#custom_prom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#custom_prom TcmPrometheusAttachment#custom_prom}
   */
   readonly customProm?: TcmPrometheusAttachmentPrometheusCustomProm;
 }
@@ -510,7 +510,7 @@ export class TcmPrometheusAttachmentPrometheusOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment tencentcloud_tcm_prometheus_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment tencentcloud_tcm_prometheus_attachment}
 */
 export class TcmPrometheusAttachment extends cdktf.TerraformResource {
 
@@ -526,7 +526,7 @@ export class TcmPrometheusAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcmPrometheusAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcmPrometheusAttachment to import
-  * @param importFromId The id of the existing TcmPrometheusAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcmPrometheusAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcmPrometheusAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -538,7 +538,7 @@ export class TcmPrometheusAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_prometheus_attachment tencentcloud_tcm_prometheus_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcm_prometheus_attachment tencentcloud_tcm_prometheus_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -549,8 +549,8 @@ export class TcmPrometheusAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcm_prometheus_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_project
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataEquinixMetalProjectConfig extends cdktf.TerraformMetaArgume
   /**
   * Name of the connection resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_project#name DataEquinixMetalProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_project#name DataEquinixMetalProject#name}
   */
   readonly name?: string;
   /**
   * ID of project to which the connection belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_project#project_id DataEquinixMetalProject#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_project#project_id DataEquinixMetalProject#project_id}
   */
   readonly projectId?: string;
 }
@@ -117,7 +117,7 @@ export class DataEquinixMetalProjectBgpConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_project equinix_metal_project}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_project equinix_metal_project}
 */
 export class DataEquinixMetalProject extends cdktf.TerraformDataSource {
 
@@ -133,7 +133,7 @@ export class DataEquinixMetalProject extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixMetalProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixMetalProject to import
-  * @param importFromId The id of the existing DataEquinixMetalProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixMetalProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixMetalProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class DataEquinixMetalProject extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/metal_project equinix_metal_project} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/metal_project equinix_metal_project} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,8 +156,8 @@ export class DataEquinixMetalProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_metal_project',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

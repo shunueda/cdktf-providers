@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource_tag
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource_tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ResourceTagConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the resource to apply the tag to. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource_tag#resource_id ResourceTag#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource_tag#resource_id ResourceTag#resource_id}
   */
   readonly resourceId: string;
   /**
   * The ID of the tag to apply. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource_tag#tag_id ResourceTag#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource_tag#tag_id ResourceTag#tag_id}
   */
   readonly tagId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource_tag opal_resource_tag}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource_tag opal_resource_tag}
 */
 export class ResourceTag extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ResourceTag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceTag to import
-  * @param importFromId The id of the existing ResourceTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource_tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource_tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ResourceTag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource_tag opal_resource_tag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource_tag opal_resource_tag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class ResourceTag extends cdktf.TerraformResource {
       terraformResourceType: 'opal_resource_tag',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

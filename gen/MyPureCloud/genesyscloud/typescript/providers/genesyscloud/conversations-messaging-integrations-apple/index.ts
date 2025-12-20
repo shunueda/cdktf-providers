@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ConversationsMessagingIntegrationsAppleConfig extends cdktf.Ter
   /**
   * The name of the business.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#business_name ConversationsMessagingIntegrationsApple#business_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#business_name ConversationsMessagingIntegrationsApple#business_name}
   */
   readonly businessName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#id ConversationsMessagingIntegrationsApple#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#id ConversationsMessagingIntegrationsApple#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface ConversationsMessagingIntegrationsAppleConfig extends cdktf.Ter
   /**
   * The url of the businesses logo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#logo_url ConversationsMessagingIntegrationsApple#logo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#logo_url ConversationsMessagingIntegrationsApple#logo_url}
   */
   readonly logoUrl?: string;
   /**
   * The Apple Messages for Business Id for the Apple messaging integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#messages_for_business_id ConversationsMessagingIntegrationsApple#messages_for_business_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#messages_for_business_id ConversationsMessagingIntegrationsApple#messages_for_business_id}
   */
   readonly messagesForBusinessId: string;
   /**
   * The ID of the messaging setting configured for this integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#messaging_setting_id ConversationsMessagingIntegrationsApple#messaging_setting_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#messaging_setting_id ConversationsMessagingIntegrationsApple#messaging_setting_id}
   */
   readonly messagingSettingId?: string;
   /**
   * The name of the Apple messaging integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#name ConversationsMessagingIntegrationsApple#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#name ConversationsMessagingIntegrationsApple#name}
   */
   readonly name: string;
   /**
   * The ID of the supported content profile configured for this integration. If not set, the default supported content profile will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#supported_content_id ConversationsMessagingIntegrationsApple#supported_content_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#supported_content_id ConversationsMessagingIntegrationsApple#supported_content_id}
   */
   readonly supportedContentId?: string;
   /**
   * apple_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#apple_authentication ConversationsMessagingIntegrationsApple#apple_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#apple_authentication ConversationsMessagingIntegrationsApple#apple_authentication}
   */
   readonly appleAuthentication?: ConversationsMessagingIntegrationsAppleAppleAuthentication;
   /**
   * apple_i_message_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#apple_i_message_app ConversationsMessagingIntegrationsApple#apple_i_message_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#apple_i_message_app ConversationsMessagingIntegrationsApple#apple_i_message_app}
   */
   readonly appleIMessageApp?: ConversationsMessagingIntegrationsAppleAppleIMessageApp;
   /**
   * apple_pay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#apple_pay ConversationsMessagingIntegrationsApple#apple_pay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#apple_pay ConversationsMessagingIntegrationsApple#apple_pay}
   */
   readonly applePay?: ConversationsMessagingIntegrationsAppleApplePay;
 }
@@ -73,25 +73,25 @@ export interface ConversationsMessagingIntegrationsAppleAppleAuthentication {
   /**
   * The Apple Messages for Business OAuth client id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#oauth_client_id ConversationsMessagingIntegrationsApple#oauth_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#oauth_client_id ConversationsMessagingIntegrationsApple#oauth_client_id}
   */
   readonly oauthClientId?: string;
   /**
   * The Apple Messages for Business OAuth client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#oauth_client_secret ConversationsMessagingIntegrationsApple#oauth_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#oauth_client_secret ConversationsMessagingIntegrationsApple#oauth_client_secret}
   */
   readonly oauthClientSecret?: string;
   /**
   * The Apple Messages for Business OAuth scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#oauth_scope ConversationsMessagingIntegrationsApple#oauth_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#oauth_scope ConversationsMessagingIntegrationsApple#oauth_scope}
   */
   readonly oauthScope?: string;
   /**
   * The Apple Messages for Business token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#oauth_token_url ConversationsMessagingIntegrationsApple#oauth_token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#oauth_token_url ConversationsMessagingIntegrationsApple#oauth_token_url}
   */
   readonly oauthTokenUrl?: string;
 }
@@ -264,19 +264,19 @@ export interface ConversationsMessagingIntegrationsAppleAppleIMessageApp {
   /**
   * Application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#application_id ConversationsMessagingIntegrationsApple#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#application_id ConversationsMessagingIntegrationsApple#application_id}
   */
   readonly applicationId: string;
   /**
   * Application Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#application_name ConversationsMessagingIntegrationsApple#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#application_name ConversationsMessagingIntegrationsApple#application_name}
   */
   readonly applicationName: string;
   /**
   * Bundle ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#bundle_id ConversationsMessagingIntegrationsApple#bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#bundle_id ConversationsMessagingIntegrationsApple#bundle_id}
   */
   readonly bundleId: string;
 }
@@ -411,73 +411,73 @@ export interface ConversationsMessagingIntegrationsAppleApplePay {
   /**
   * The domain name associated with the merchant account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#domain_name ConversationsMessagingIntegrationsApple#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#domain_name ConversationsMessagingIntegrationsApple#domain_name}
   */
   readonly domainName: string;
   /**
   * The url opened in a web browser if the customers device is unable to make payments using Apple Pay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#fallback_url ConversationsMessagingIntegrationsApple#fallback_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#fallback_url ConversationsMessagingIntegrationsApple#fallback_url}
   */
   readonly fallbackUrl?: string;
   /**
   * The stores merchant identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#merchant_id ConversationsMessagingIntegrationsApple#merchant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#merchant_id ConversationsMessagingIntegrationsApple#merchant_id}
   */
   readonly merchantId: string;
   /**
   * The url called after completing the order to update the order information in your system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#order_tracking_url ConversationsMessagingIntegrationsApple#order_tracking_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#order_tracking_url ConversationsMessagingIntegrationsApple#order_tracking_url}
   */
   readonly orderTrackingUrl?: string;
   /**
   * The payment capabilities supported by the merchant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#payment_capabilities ConversationsMessagingIntegrationsApple#payment_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#payment_capabilities ConversationsMessagingIntegrationsApple#payment_capabilities}
   */
   readonly paymentCapabilities: string[];
   /**
   * The Genesys credentialId the payment certificates are stored under. Must be a valid and existing credential ID created via /api/v2/integrations/credentials endpoint. See API documentation: https://developer.genesys.cloud/devapps/api-explorer#post-api-v2-integrations-credentials. Example payload: {"type": "applePayCertificate", "credentialFields": {"merchantKey": "base-64-key", "merchantCertificate": "base-64-cert"}}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#payment_certificate_credential_id ConversationsMessagingIntegrationsApple#payment_certificate_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#payment_certificate_credential_id ConversationsMessagingIntegrationsApple#payment_certificate_credential_id}
   */
   readonly paymentCertificateCredentialId: string;
   /**
   * The url used to process payments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#payment_gateway_url ConversationsMessagingIntegrationsApple#payment_gateway_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#payment_gateway_url ConversationsMessagingIntegrationsApple#payment_gateway_url}
   */
   readonly paymentGatewayUrl: string;
   /**
   * The url called when the customer changes their payment method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#payment_method_update_url ConversationsMessagingIntegrationsApple#payment_method_update_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#payment_method_update_url ConversationsMessagingIntegrationsApple#payment_method_update_url}
   */
   readonly paymentMethodUpdateUrl?: string;
   /**
   * The url called when the customer changes their shipping address information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#shipping_contact_update_url ConversationsMessagingIntegrationsApple#shipping_contact_update_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#shipping_contact_update_url ConversationsMessagingIntegrationsApple#shipping_contact_update_url}
   */
   readonly shippingContactUpdateUrl?: string;
   /**
   * The url called when the customer changes the shipping method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#shipping_method_update_url ConversationsMessagingIntegrationsApple#shipping_method_update_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#shipping_method_update_url ConversationsMessagingIntegrationsApple#shipping_method_update_url}
   */
   readonly shippingMethodUpdateUrl?: string;
   /**
   * The name of the store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#store_name ConversationsMessagingIntegrationsApple#store_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#store_name ConversationsMessagingIntegrationsApple#store_name}
   */
   readonly storeName: string;
   /**
   * The payment networks supported by the merchant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#supported_payment_networks ConversationsMessagingIntegrationsApple#supported_payment_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#supported_payment_networks ConversationsMessagingIntegrationsApple#supported_payment_networks}
   */
   readonly supportedPaymentNetworks: string[];
 }
@@ -859,7 +859,7 @@ export class ConversationsMessagingIntegrationsAppleApplePayOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple genesyscloud_conversations_messaging_integrations_apple}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple genesyscloud_conversations_messaging_integrations_apple}
 */
 export class ConversationsMessagingIntegrationsApple extends cdktf.TerraformResource {
 
@@ -875,7 +875,7 @@ export class ConversationsMessagingIntegrationsApple extends cdktf.TerraformReso
   * Generates CDKTF code for importing a ConversationsMessagingIntegrationsApple resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConversationsMessagingIntegrationsApple to import
-  * @param importFromId The id of the existing ConversationsMessagingIntegrationsApple that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConversationsMessagingIntegrationsApple that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConversationsMessagingIntegrationsApple to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -887,7 +887,7 @@ export class ConversationsMessagingIntegrationsApple extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_apple genesyscloud_conversations_messaging_integrations_apple} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_apple genesyscloud_conversations_messaging_integrations_apple} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -898,8 +898,8 @@ export class ConversationsMessagingIntegrationsApple extends cdktf.TerraformReso
       terraformResourceType: 'genesyscloud_conversations_messaging_integrations_apple',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

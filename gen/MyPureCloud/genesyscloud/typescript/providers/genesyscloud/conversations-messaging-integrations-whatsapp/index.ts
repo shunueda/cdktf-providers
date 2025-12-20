@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_whatsapp
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_whatsapp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ConversationsMessagingIntegrationsWhatsappConfig extends cdktf.
   /**
   * The access token returned from the embedded signup flow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_whatsapp#embedded_signup_access_token ConversationsMessagingIntegrationsWhatsapp#embedded_signup_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_whatsapp#embedded_signup_access_token ConversationsMessagingIntegrationsWhatsapp#embedded_signup_access_token}
   */
   readonly embeddedSignupAccessToken: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_whatsapp#id ConversationsMessagingIntegrationsWhatsapp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_whatsapp#id ConversationsMessagingIntegrationsWhatsapp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface ConversationsMessagingIntegrationsWhatsappConfig extends cdktf.
   /**
   * Messaging Setting for messaging platform integrations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_whatsapp#messaging_setting_id ConversationsMessagingIntegrationsWhatsapp#messaging_setting_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_whatsapp#messaging_setting_id ConversationsMessagingIntegrationsWhatsapp#messaging_setting_id}
   */
   readonly messagingSettingId?: string;
   /**
   * The name of the WhatsApp Integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_whatsapp#name ConversationsMessagingIntegrationsWhatsapp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_whatsapp#name ConversationsMessagingIntegrationsWhatsapp#name}
   */
   readonly name: string;
   /**
   * Reference to supported content profile associated with the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_whatsapp#supported_content_id ConversationsMessagingIntegrationsWhatsapp#supported_content_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_whatsapp#supported_content_id ConversationsMessagingIntegrationsWhatsapp#supported_content_id}
   */
   readonly supportedContentId?: string;
   /**
   * activate_whatsapp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_whatsapp#activate_whatsapp ConversationsMessagingIntegrationsWhatsapp#activate_whatsapp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_whatsapp#activate_whatsapp ConversationsMessagingIntegrationsWhatsapp#activate_whatsapp}
   */
   readonly activateWhatsapp?: ConversationsMessagingIntegrationsWhatsappActivateWhatsapp[] | cdktf.IResolvable;
 }
@@ -49,13 +49,13 @@ export interface ConversationsMessagingIntegrationsWhatsappActivateWhatsapp {
   /**
   * Phone number to associate with the WhatsApp integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_whatsapp#phone_number ConversationsMessagingIntegrationsWhatsapp#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_whatsapp#phone_number ConversationsMessagingIntegrationsWhatsapp#phone_number}
   */
   readonly phoneNumber: string;
   /**
   * Specify the two-step verification PIN for that phone number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_whatsapp#pin ConversationsMessagingIntegrationsWhatsapp#pin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_whatsapp#pin ConversationsMessagingIntegrationsWhatsapp#pin}
   */
   readonly pin: string;
 }
@@ -194,7 +194,7 @@ export class ConversationsMessagingIntegrationsWhatsappActivateWhatsappList exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_whatsapp genesyscloud_conversations_messaging_integrations_whatsapp}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_whatsapp genesyscloud_conversations_messaging_integrations_whatsapp}
 */
 export class ConversationsMessagingIntegrationsWhatsapp extends cdktf.TerraformResource {
 
@@ -210,7 +210,7 @@ export class ConversationsMessagingIntegrationsWhatsapp extends cdktf.TerraformR
   * Generates CDKTF code for importing a ConversationsMessagingIntegrationsWhatsapp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConversationsMessagingIntegrationsWhatsapp to import
-  * @param importFromId The id of the existing ConversationsMessagingIntegrationsWhatsapp that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_whatsapp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConversationsMessagingIntegrationsWhatsapp that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_whatsapp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConversationsMessagingIntegrationsWhatsapp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class ConversationsMessagingIntegrationsWhatsapp extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/conversations_messaging_integrations_whatsapp genesyscloud_conversations_messaging_integrations_whatsapp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/conversations_messaging_integrations_whatsapp genesyscloud_conversations_messaging_integrations_whatsapp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class ConversationsMessagingIntegrationsWhatsapp extends cdktf.TerraformR
       terraformResourceType: 'genesyscloud_conversations_messaging_integrations_whatsapp',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

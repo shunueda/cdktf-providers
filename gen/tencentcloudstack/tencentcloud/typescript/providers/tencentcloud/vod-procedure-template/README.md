@@ -1,3 +1,3 @@
 # `tencentcloud_vod_procedure_template`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_vod_procedure_template`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vod_procedure_template).
+Refer to the Terraform Registry for docs: [`tencentcloud_vod_procedure_template`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vod_procedure_template).

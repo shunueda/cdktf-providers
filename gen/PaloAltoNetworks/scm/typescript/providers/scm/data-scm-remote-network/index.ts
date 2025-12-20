@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/remote_network
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/remote_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,9 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DataScmRemoteNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
+  * The folder that contains the remote network
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/remote_network#folder DataScmRemoteNetwork#folder}
+  */
+  readonly folder?: string;
+  /**
   * The UUID of the remote network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/remote_network#id DataScmRemoteNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/remote_network#id DataScmRemoteNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +25,7 @@ export interface DataScmRemoteNetworkConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of the remote network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/remote_network#name DataScmRemoteNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/remote_network#name DataScmRemoteNetwork#name}
   */
   readonly name?: string;
 }
@@ -479,7 +485,7 @@ export class DataScmRemoteNetworkProtocolOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/remote_network scm_remote_network}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/remote_network scm_remote_network}
 */
 export class DataScmRemoteNetwork extends cdktf.TerraformDataSource {
 
@@ -495,7 +501,7 @@ export class DataScmRemoteNetwork extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmRemoteNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmRemoteNetwork to import
-  * @param importFromId The id of the existing DataScmRemoteNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/remote_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmRemoteNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/remote_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmRemoteNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -507,7 +513,7 @@ export class DataScmRemoteNetwork extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/remote_network scm_remote_network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/remote_network scm_remote_network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -518,8 +524,8 @@ export class DataScmRemoteNetwork extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_remote_network',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -529,6 +535,7 @@ export class DataScmRemoteNetwork extends cdktf.TerraformDataSource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._folder = config.folder;
     this._id = config.id;
     this._name = config.name;
   }
@@ -554,9 +561,20 @@ export class DataScmRemoteNetwork extends cdktf.TerraformDataSource {
     return this._encryptedValues;
   }
 
-  // folder - computed: true, optional: false, required: false
+  // folder - computed: true, optional: true, required: false
+  private _folder?: string; 
   public get folder() {
     return this.getStringAttribute('folder');
+  }
+  public set folder(value: string) {
+    this._folder = value;
+  }
+  public resetFolder() {
+    this._folder = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get folderInput() {
+    return this._folder;
   }
 
   // id - computed: false, optional: false, required: true
@@ -635,6 +653,7 @@ export class DataScmRemoteNetwork extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      folder: cdktf.stringToTerraform(this._folder),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
     };
@@ -642,6 +661,12 @@ export class DataScmRemoteNetwork extends cdktf.TerraformDataSource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      folder: {
+        value: cdktf.stringToHclTerraform(this._folder),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,

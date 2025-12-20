@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AiStudioSummarySettingConfig extends cdktf.TerraformMetaArgumen
   /**
   * Format of the generated summary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#format AiStudioSummarySetting#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#format AiStudioSummarySetting#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#id AiStudioSummarySetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#id AiStudioSummarySetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface AiStudioSummarySettingConfig extends cdktf.TerraformMetaArgumen
   /**
   * Language of the generated summary, e.g. en-US, it-IT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#language AiStudioSummarySetting#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#language AiStudioSummarySetting#language}
   */
   readonly language: string;
   /**
   * Name of the summary setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#name AiStudioSummarySetting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#name AiStudioSummarySetting#name}
   */
   readonly name: string;
   /**
   * Set which insights to include in the generated summary by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#predefined_insights AiStudioSummarySetting#predefined_insights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#predefined_insights AiStudioSummarySetting#predefined_insights}
   */
   readonly predefinedInsights?: string[];
   /**
   * Custom prompt of summary setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#prompt AiStudioSummarySetting#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#prompt AiStudioSummarySetting#prompt}
   */
   readonly prompt?: string;
   /**
   * Type of the summary setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#setting_type AiStudioSummarySetting#setting_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#setting_type AiStudioSummarySetting#setting_type}
   */
   readonly settingType?: string;
   /**
   * Level of detail of the generated summary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#summary_type AiStudioSummarySetting#summary_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#summary_type AiStudioSummarySetting#summary_type}
   */
   readonly summaryType?: string;
   /**
   * custom_entities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#custom_entities AiStudioSummarySetting#custom_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#custom_entities AiStudioSummarySetting#custom_entities}
   */
   readonly customEntities?: AiStudioSummarySettingCustomEntities[] | cdktf.IResolvable;
   /**
   * mask_p_i_i block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#mask_p_i_i AiStudioSummarySetting#mask_p_i_i}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#mask_p_i_i AiStudioSummarySetting#mask_p_i_i}
   */
   readonly maskPII?: AiStudioSummarySettingMaskPII;
   /**
   * participant_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#participant_labels AiStudioSummarySetting#participant_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#participant_labels AiStudioSummarySetting#participant_labels}
   */
   readonly participantLabels?: AiStudioSummarySettingParticipantLabels;
 }
@@ -79,13 +79,13 @@ export interface AiStudioSummarySettingCustomEntities {
   /**
   * Describe the information the entity captures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#description AiStudioSummarySetting#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#description AiStudioSummarySetting#description}
   */
   readonly description?: string;
   /**
   * Label how the entity should be called.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#label AiStudioSummarySetting#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#label AiStudioSummarySetting#label}
   */
   readonly label?: string;
 }
@@ -232,7 +232,7 @@ export interface AiStudioSummarySettingMaskPII {
   /**
   * Toggle PII visibility in summary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#all AiStudioSummarySetting#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#all AiStudioSummarySetting#all}
   */
   readonly all: boolean | cdktf.IResolvable;
 }
@@ -315,13 +315,13 @@ export interface AiStudioSummarySettingParticipantLabels {
   /**
   * Specify how to refer the external participant of the interaction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#external AiStudioSummarySetting#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#external AiStudioSummarySetting#external}
   */
   readonly external?: string;
   /**
   * Specify how to refer the internal participant of the interaction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#internal AiStudioSummarySetting#internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#internal AiStudioSummarySetting#internal}
   */
   readonly internal?: string;
 }
@@ -434,7 +434,7 @@ export class AiStudioSummarySettingParticipantLabelsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting genesyscloud_ai_studio_summary_setting}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting genesyscloud_ai_studio_summary_setting}
 */
 export class AiStudioSummarySetting extends cdktf.TerraformResource {
 
@@ -450,7 +450,7 @@ export class AiStudioSummarySetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AiStudioSummarySetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AiStudioSummarySetting to import
-  * @param importFromId The id of the existing AiStudioSummarySetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AiStudioSummarySetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AiStudioSummarySetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -462,7 +462,7 @@ export class AiStudioSummarySetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/ai_studio_summary_setting genesyscloud_ai_studio_summary_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/ai_studio_summary_setting genesyscloud_ai_studio_summary_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -473,8 +473,8 @@ export class AiStudioSummarySetting extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_ai_studio_summary_setting',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

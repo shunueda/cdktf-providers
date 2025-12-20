@@ -1,3 +1,3 @@
 # `data_tencentcloud_tdcpg_instances`
 
-Refer to the Terraform Registry for docs: [`data_tencentcloud_tdcpg_instances`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdcpg_instances).
+Refer to the Terraform Registry for docs: [`data_tencentcloud_tdcpg_instances`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdcpg_instances).

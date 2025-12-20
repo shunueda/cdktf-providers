@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/requests
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/requests
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktf from 'cdktf';
 
 export interface DataOpalRequestsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The pagination cursor value.
+  * The cursor to use in the next request to get the next page of results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/requests#cursor DataOpalRequests#cursor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/requests#cursor DataOpalRequests#cursor}
   */
   readonly cursor?: string;
   /**
   * An end date filter for the events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/requests#end_date_filter DataOpalRequests#end_date_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/requests#end_date_filter DataOpalRequests#end_date_filter}
   */
   readonly endDateFilter?: string;
   /**
   * Number of results to return per page. Default is 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/requests#page_size DataOpalRequests#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/requests#page_size DataOpalRequests#page_size}
   */
   readonly pageSize?: number;
   /**
   * Filter requests by their requester ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/requests#requester_id DataOpalRequests#requester_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/requests#requester_id DataOpalRequests#requester_id}
   */
   readonly requesterId?: string;
   /**
   * Boolean toggle for if it should only show pending requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/requests#show_pending_only DataOpalRequests#show_pending_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/requests#show_pending_only DataOpalRequests#show_pending_only}
   */
   readonly showPendingOnly?: boolean | cdktf.IResolvable;
   /**
   * A start date filter for the events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/requests#start_date_filter DataOpalRequests#start_date_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/requests#start_date_filter DataOpalRequests#start_date_filter}
   */
   readonly startDateFilter?: string;
   /**
   * Filter requests by their target user ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/requests#target_user_id DataOpalRequests#target_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/requests#target_user_id DataOpalRequests#target_user_id}
   */
   readonly targetUserId?: string;
 }
@@ -300,10 +300,10 @@ export class DataOpalRequestsRequestsRequestedItemsListStructList extends cdktf.
     return new DataOpalRequestsRequestsRequestedItemsListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataOpalRequestsRequestsReviewerStagesStagesReviewers {
+export interface DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesReviewers {
 }
 
-export function dataOpalRequestsRequestsReviewerStagesStagesReviewersToTerraform(struct?: DataOpalRequestsRequestsReviewerStagesStagesReviewers): any {
+export function dataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesReviewersToTerraform(struct?: DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesReviewers): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -313,7 +313,7 @@ export function dataOpalRequestsRequestsReviewerStagesStagesReviewersToTerraform
 }
 
 
-export function dataOpalRequestsRequestsReviewerStagesStagesReviewersToHclTerraform(struct?: DataOpalRequestsRequestsReviewerStagesStagesReviewers): any {
+export function dataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesReviewersToHclTerraform(struct?: DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesReviewers): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -323,7 +323,7 @@ export function dataOpalRequestsRequestsReviewerStagesStagesReviewersToHclTerraf
   return attrs;
 }
 
-export class DataOpalRequestsRequestsReviewerStagesStagesReviewersOutputReference extends cdktf.ComplexObject {
+export class DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesReviewersOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -336,13 +336,13 @@ export class DataOpalRequestsRequestsReviewerStagesStagesReviewersOutputReferenc
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataOpalRequestsRequestsReviewerStagesStagesReviewers | undefined {
+  public get internalValue(): DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesReviewers | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataOpalRequestsRequestsReviewerStagesStagesReviewers | undefined) {
+  public set internalValue(value: DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesReviewers | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -367,7 +367,7 @@ export class DataOpalRequestsRequestsReviewerStagesStagesReviewersOutputReferenc
   }
 }
 
-export class DataOpalRequestsRequestsReviewerStagesStagesReviewersList extends cdktf.ComplexList {
+export class DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesReviewersList extends cdktf.ComplexList {
 
   /**
   * @param terraformResource The parent resource
@@ -381,14 +381,14 @@ export class DataOpalRequestsRequestsReviewerStagesStagesReviewersList extends c
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataOpalRequestsRequestsReviewerStagesStagesReviewersOutputReference {
-    return new DataOpalRequestsRequestsReviewerStagesStagesReviewersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesReviewersOutputReference {
+    return new DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesReviewersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataOpalRequestsRequestsReviewerStagesStages {
+export interface DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStages {
 }
 
-export function dataOpalRequestsRequestsReviewerStagesStagesToTerraform(struct?: DataOpalRequestsRequestsReviewerStagesStages): any {
+export function dataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesToTerraform(struct?: DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStages): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -398,7 +398,7 @@ export function dataOpalRequestsRequestsReviewerStagesStagesToTerraform(struct?:
 }
 
 
-export function dataOpalRequestsRequestsReviewerStagesStagesToHclTerraform(struct?: DataOpalRequestsRequestsReviewerStagesStages): any {
+export function dataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesToHclTerraform(struct?: DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStages): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -408,7 +408,7 @@ export function dataOpalRequestsRequestsReviewerStagesStagesToHclTerraform(struc
   return attrs;
 }
 
-export class DataOpalRequestsRequestsReviewerStagesStagesOutputReference extends cdktf.ComplexObject {
+export class DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -421,13 +421,13 @@ export class DataOpalRequestsRequestsReviewerStagesStagesOutputReference extends
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataOpalRequestsRequestsReviewerStagesStages | undefined {
+  public get internalValue(): DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStages | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataOpalRequestsRequestsReviewerStagesStages | undefined) {
+  public set internalValue(value: DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStages | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -442,7 +442,7 @@ export class DataOpalRequestsRequestsReviewerStagesStagesOutputReference extends
   }
 
   // reviewers - computed: true, optional: false, required: false
-  private _reviewers = new DataOpalRequestsRequestsReviewerStagesStagesReviewersList(this, "reviewers", false);
+  private _reviewers = new DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesReviewersList(this, "reviewers", false);
   public get reviewers() {
     return this._reviewers;
   }
@@ -453,7 +453,7 @@ export class DataOpalRequestsRequestsReviewerStagesStagesOutputReference extends
   }
 }
 
-export class DataOpalRequestsRequestsReviewerStagesStagesList extends cdktf.ComplexList {
+export class DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesList extends cdktf.ComplexList {
 
   /**
   * @param terraformResource The parent resource
@@ -467,8 +467,104 @@ export class DataOpalRequestsRequestsReviewerStagesStagesList extends cdktf.Comp
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataOpalRequestsRequestsReviewerStagesStagesOutputReference {
-    return new DataOpalRequestsRequestsReviewerStagesStagesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesOutputReference {
+    return new DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStages {
+}
+
+export function dataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesToTerraform(struct?: DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStages): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesToHclTerraform(struct?: DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStages): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStages | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStages | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // access_level_name - computed: true, optional: false, required: false
+  public get accessLevelName() {
+    return this.getStringAttribute('access_level_name');
+  }
+
+  // access_level_remote_id - computed: true, optional: false, required: false
+  public get accessLevelRemoteId() {
+    return this.getStringAttribute('access_level_remote_id');
+  }
+
+  // item_id - computed: true, optional: false, required: false
+  public get itemId() {
+    return this.getStringAttribute('item_id');
+  }
+
+  // item_name - computed: true, optional: false, required: false
+  public get itemName() {
+    return this.getStringAttribute('item_name');
+  }
+
+  // stages - computed: true, optional: false, required: false
+  private _stages = new DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesStagesList(this, "stages", false);
+  public get stages() {
+    return this._stages;
+  }
+}
+
+export class DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesOutputReference {
+    return new DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataOpalRequestsRequestsReviewerStages {
@@ -500,11 +596,9 @@ export class DataOpalRequestsRequestsReviewerStagesOutputReference extends cdktf
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
   }
 
   public get internalValue(): DataOpalRequestsRequestsReviewerStages | undefined {
@@ -522,49 +616,15 @@ export class DataOpalRequestsRequestsReviewerStagesOutputReference extends cdktf
     }
   }
 
-  // access_level_name - computed: true, optional: false, required: false
-  public get accessLevelName() {
-    return this.getStringAttribute('access_level_name');
+  // array_of_request_reviewer_stages - computed: true, optional: false, required: false
+  private _arrayOfRequestReviewerStages = new DataOpalRequestsRequestsReviewerStagesArrayOfRequestReviewerStagesList(this, "array_of_request_reviewer_stages", false);
+  public get arrayOfRequestReviewerStages() {
+    return this._arrayOfRequestReviewerStages;
   }
 
-  // access_level_remote_id - computed: true, optional: false, required: false
-  public get accessLevelRemoteId() {
-    return this.getStringAttribute('access_level_remote_id');
-  }
-
-  // item_id - computed: true, optional: false, required: false
-  public get itemId() {
-    return this.getStringAttribute('item_id');
-  }
-
-  // item_name - computed: true, optional: false, required: false
-  public get itemName() {
-    return this.getStringAttribute('item_name');
-  }
-
-  // stages - computed: true, optional: false, required: false
-  private _stages = new DataOpalRequestsRequestsReviewerStagesStagesList(this, "stages", false);
-  public get stages() {
-    return this._stages;
-  }
-}
-
-export class DataOpalRequestsRequestsReviewerStagesList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataOpalRequestsRequestsReviewerStagesOutputReference {
-    return new DataOpalRequestsRequestsReviewerStagesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  // str - computed: true, optional: false, required: false
+  public get str() {
+    return this.getStringAttribute('str');
   }
 }
 export interface DataOpalRequestsRequestsStagesStagesReviewers {
@@ -892,7 +952,7 @@ export class DataOpalRequestsRequestsOutputReference extends cdktf.ComplexObject
   }
 
   // reviewer_stages - computed: true, optional: false, required: false
-  private _reviewerStages = new DataOpalRequestsRequestsReviewerStagesList(this, "reviewer_stages", false);
+  private _reviewerStages = new DataOpalRequestsRequestsReviewerStagesOutputReference(this, "reviewer_stages");
   public get reviewerStages() {
     return this._reviewerStages;
   }
@@ -944,7 +1004,7 @@ export class DataOpalRequestsRequestsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/requests opal_requests}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/requests opal_requests}
 */
 export class DataOpalRequests extends cdktf.TerraformDataSource {
 
@@ -960,7 +1020,7 @@ export class DataOpalRequests extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpalRequests resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalRequests to import
-  * @param importFromId The id of the existing DataOpalRequests that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/requests#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalRequests that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/requests#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalRequests to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -972,7 +1032,7 @@ export class DataOpalRequests extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/requests opal_requests} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/requests opal_requests} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -983,8 +1043,8 @@ export class DataOpalRequests extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_requests',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

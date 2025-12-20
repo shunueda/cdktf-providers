@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IdpSalesforceConfig extends cdktf.TerraformMetaArguments {
   /**
   * PEM or DER encoded public X.509 certificates for SAML signature validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce#certificates IdpSalesforce#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce#certificates IdpSalesforce#certificates}
   */
   readonly certificates: string[];
   /**
   * True if Salesforce is disabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce#disabled IdpSalesforce#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce#disabled IdpSalesforce#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce#id IdpSalesforce#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce#id IdpSalesforce#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,57 +29,57 @@ export interface IdpSalesforceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Issuer URI provided by Salesforce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce#issuer_uri IdpSalesforce#issuer_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce#issuer_uri IdpSalesforce#issuer_uri}
   */
   readonly issuerUri: string;
   /**
   * Name of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce#name IdpSalesforce#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce#name IdpSalesforce#name}
   */
   readonly name?: string;
   /**
   * String used to identify Genesys Cloud to Ping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce#relying_party_identifier IdpSalesforce#relying_party_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce#relying_party_identifier IdpSalesforce#relying_party_identifier}
   */
   readonly relyingPartyIdentifier?: string;
   /**
   * True if the Genesys Cloud authentication request should be signed. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce#sign_authn_requests IdpSalesforce#sign_authn_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce#sign_authn_requests IdpSalesforce#sign_authn_requests}
   */
   readonly signAuthnRequests?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce#slo_binding IdpSalesforce#slo_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce#slo_binding IdpSalesforce#slo_binding}
   */
   readonly sloBinding?: string;
   /**
   * Provided on app creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce#slo_uri IdpSalesforce#slo_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce#slo_uri IdpSalesforce#slo_uri}
   */
   readonly sloUri?: string;
   /**
   * Target URI provided by Salesforce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce#target_uri IdpSalesforce#target_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce#target_uri IdpSalesforce#target_uri}
   */
   readonly targetUri?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce#timeouts IdpSalesforce#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce#timeouts IdpSalesforce#timeouts}
   */
   readonly timeouts?: IdpSalesforceTimeouts;
 }
 export interface IdpSalesforceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce#read IdpSalesforce#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce#read IdpSalesforce#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce#update IdpSalesforce#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce#update IdpSalesforce#update}
   */
   readonly update?: string;
 }
@@ -202,7 +202,7 @@ export class IdpSalesforceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce genesyscloud_idp_salesforce}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce genesyscloud_idp_salesforce}
 */
 export class IdpSalesforce extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class IdpSalesforce extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdpSalesforce resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdpSalesforce to import
-  * @param importFromId The id of the existing IdpSalesforce that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdpSalesforce that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdpSalesforce to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class IdpSalesforce extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_salesforce genesyscloud_idp_salesforce} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_salesforce genesyscloud_idp_salesforce} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class IdpSalesforce extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_idp_salesforce',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

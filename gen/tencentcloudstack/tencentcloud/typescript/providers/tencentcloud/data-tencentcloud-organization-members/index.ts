@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/organization_members
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/organization_members
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudOrganizationMembersConfig extends cdktf.Terrafo
   /**
   * Entity name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/organization_members#auth_name DataTencentcloudOrganizationMembers#auth_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/organization_members#auth_name DataTencentcloudOrganizationMembers#auth_name}
   */
   readonly authName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/organization_members#id DataTencentcloudOrganizationMembers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/organization_members#id DataTencentcloudOrganizationMembers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudOrganizationMembersConfig extends cdktf.Terrafo
   /**
   * Valid values: `en` (Tencent Cloud International); `zh` (Tencent Cloud).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/organization_members#lang DataTencentcloudOrganizationMembers#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/organization_members#lang DataTencentcloudOrganizationMembers#lang}
   */
   readonly lang?: string;
   /**
   * Abbreviation of the trusted service, which is required during querying the trusted service admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/organization_members#product DataTencentcloudOrganizationMembers#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/organization_members#product DataTencentcloudOrganizationMembers#product}
   */
   readonly product?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/organization_members#result_output_file DataTencentcloudOrganizationMembers#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/organization_members#result_output_file DataTencentcloudOrganizationMembers#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Search by member name or ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/organization_members#search_key DataTencentcloudOrganizationMembers#search_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/organization_members#search_key DataTencentcloudOrganizationMembers#search_key}
   */
   readonly searchKey?: string;
 }
@@ -364,7 +364,7 @@ export class DataTencentcloudOrganizationMembersItemsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/organization_members tencentcloud_organization_members}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/organization_members tencentcloud_organization_members}
 */
 export class DataTencentcloudOrganizationMembers extends cdktf.TerraformDataSource {
 
@@ -380,7 +380,7 @@ export class DataTencentcloudOrganizationMembers extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudOrganizationMembers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudOrganizationMembers to import
-  * @param importFromId The id of the existing DataTencentcloudOrganizationMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/organization_members#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudOrganizationMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/organization_members#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudOrganizationMembers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -392,7 +392,7 @@ export class DataTencentcloudOrganizationMembers extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/organization_members tencentcloud_organization_members} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/organization_members tencentcloud_organization_members} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -403,8 +403,8 @@ export class DataTencentcloudOrganizationMembers extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_organization_members',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

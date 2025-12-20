@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_statistics_report
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/ses_statistics_report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudSesStatisticsReportConfig extends cdktf.Terrafo
   /**
   * Sender domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_statistics_report#domain DataTencentcloudSesStatisticsReport#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/ses_statistics_report#domain DataTencentcloudSesStatisticsReport#domain}
   */
   readonly domain?: string;
   /**
   * End date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_statistics_report#end_date DataTencentcloudSesStatisticsReport#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/ses_statistics_report#end_date DataTencentcloudSesStatisticsReport#end_date}
   */
   readonly endDate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_statistics_report#id DataTencentcloudSesStatisticsReport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/ses_statistics_report#id DataTencentcloudSesStatisticsReport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTencentcloudSesStatisticsReportConfig extends cdktf.Terrafo
   /**
   * Recipient address type, for example, gmail.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_statistics_report#receiving_mailbox_type DataTencentcloudSesStatisticsReport#receiving_mailbox_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/ses_statistics_report#receiving_mailbox_type DataTencentcloudSesStatisticsReport#receiving_mailbox_type}
   */
   readonly receivingMailboxType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_statistics_report#result_output_file DataTencentcloudSesStatisticsReport#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/ses_statistics_report#result_output_file DataTencentcloudSesStatisticsReport#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_statistics_report#start_date DataTencentcloudSesStatisticsReport#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/ses_statistics_report#start_date DataTencentcloudSesStatisticsReport#start_date}
   */
   readonly startDate: string;
 }
@@ -267,7 +267,7 @@ export class DataTencentcloudSesStatisticsReportOverallVolumeList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_statistics_report tencentcloud_ses_statistics_report}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/ses_statistics_report tencentcloud_ses_statistics_report}
 */
 export class DataTencentcloudSesStatisticsReport extends cdktf.TerraformDataSource {
 
@@ -283,7 +283,7 @@ export class DataTencentcloudSesStatisticsReport extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudSesStatisticsReport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSesStatisticsReport to import
-  * @param importFromId The id of the existing DataTencentcloudSesStatisticsReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_statistics_report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSesStatisticsReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/ses_statistics_report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSesStatisticsReport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class DataTencentcloudSesStatisticsReport extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_statistics_report tencentcloud_ses_statistics_report} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/ses_statistics_report tencentcloud_ses_statistics_report} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class DataTencentcloudSesStatisticsReport extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_ses_statistics_report',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

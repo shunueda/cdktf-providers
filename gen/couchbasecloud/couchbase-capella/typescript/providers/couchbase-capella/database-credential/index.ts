@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Describes the access information of the database credential.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential#access DatabaseCredential#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential#access DatabaseCredential#access}
   */
   readonly access: DatabaseCredentialAccess[] | cdktf.IResolvable;
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential#cluster_id DatabaseCredential#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential#cluster_id DatabaseCredential#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Username for the database credential.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential#name DatabaseCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential#name DatabaseCredential#name}
   */
   readonly name: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential#organization_id DatabaseCredential#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential#organization_id DatabaseCredential#organization_id}
   */
   readonly organizationId: string;
   /**
-  * A password associated with the database credential.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential#password DatabaseCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential#password DatabaseCredential#password}
   */
   readonly password?: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential#project_id DatabaseCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential#project_id DatabaseCredential#project_id}
   */
   readonly projectId: string;
 }
 export interface DatabaseCredentialAccessResourcesBucketsScopes {
   /**
-  * The collections under a scope.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential#collections DatabaseCredential#collections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential#collections DatabaseCredential#collections}
   */
   readonly collections?: string[];
   /**
-  * The name of the scope.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential#name DatabaseCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential#name DatabaseCredential#name}
   */
   readonly name: string;
 }
@@ -196,15 +180,11 @@ export class DatabaseCredentialAccessResourcesBucketsScopesList extends cdktf.Co
 }
 export interface DatabaseCredentialAccessResourcesBuckets {
   /**
-  * The name of the bucket.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential#name DatabaseCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential#name DatabaseCredential#name}
   */
   readonly name: string;
   /**
-  * The scopes under a bucket.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential#scopes DatabaseCredential#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential#scopes DatabaseCredential#scopes}
   */
   readonly scopes?: DatabaseCredentialAccessResourcesBucketsScopes[] | cdktf.IResolvable;
 }
@@ -346,7 +326,7 @@ export class DatabaseCredentialAccessResourcesBucketsList extends cdktf.ComplexL
 }
 export interface DatabaseCredentialAccessResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential#buckets DatabaseCredential#buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential#buckets DatabaseCredential#buckets}
   */
   readonly buckets?: DatabaseCredentialAccessResourcesBuckets[] | cdktf.IResolvable;
 }
@@ -440,15 +420,11 @@ export class DatabaseCredentialAccessResourcesOutputReference extends cdktf.Comp
 }
 export interface DatabaseCredentialAccess {
   /**
-  * The privileges field in this API represents the privilege level for users.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential#privileges DatabaseCredential#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential#privileges DatabaseCredential#privileges}
   */
   readonly privileges: string[];
   /**
-  * The resources for which access will be granted on. Leaving this empty will grant access to all buckets.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential#resources DatabaseCredential#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential#resources DatabaseCredential#resources}
   */
   readonly resources?: DatabaseCredentialAccessResources;
 }
@@ -664,7 +640,7 @@ export class DatabaseCredentialAuditOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential couchbase-capella_database_credential}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential couchbase-capella_database_credential}
 */
 export class DatabaseCredential extends cdktf.TerraformResource {
 
@@ -680,7 +656,7 @@ export class DatabaseCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseCredential to import
-  * @param importFromId The id of the existing DatabaseCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -692,7 +668,7 @@ export class DatabaseCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/database_credential couchbase-capella_database_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/database_credential couchbase-capella_database_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -703,8 +679,8 @@ export class DatabaseCredential extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_database_credential',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

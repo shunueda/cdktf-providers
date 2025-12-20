@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/tag_user
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/tag_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface TagUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/tag_user#request_body TagUser#request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/tag_user#request_body TagUser#request_body}
   */
   readonly requestBody?: TagUserRequestBody;
   /**
   * The ID of the tag to apply. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/tag_user#tag_id TagUser#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/tag_user#tag_id TagUser#tag_id}
   */
   readonly tagId: string;
   /**
   * The ID of the user to apply the tag to. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/tag_user#user_id TagUser#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/tag_user#user_id TagUser#user_id}
   */
   readonly userId: string;
 }
@@ -87,7 +87,7 @@ export class TagUserRequestBodyOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/tag_user opal_tag_user}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/tag_user opal_tag_user}
 */
 export class TagUser extends cdktf.TerraformResource {
 
@@ -103,7 +103,7 @@ export class TagUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TagUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TagUser to import
-  * @param importFromId The id of the existing TagUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/tag_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TagUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/tag_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TagUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -115,7 +115,7 @@ export class TagUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/tag_user opal_tag_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/tag_user opal_tag_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -126,8 +126,8 @@ export class TagUser extends cdktf.TerraformResource {
       terraformResourceType: 'opal_tag_user',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

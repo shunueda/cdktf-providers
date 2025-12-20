@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/idp_group_mappings
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/idp_group_mappings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOpalIdpGroupMappingsConfig extends cdktf.TerraformMetaArgum
   /**
   * The ID of the Okta app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/idp_group_mappings#app_resource_id DataOpalIdpGroupMappings#app_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/idp_group_mappings#app_resource_id DataOpalIdpGroupMappings#app_resource_id}
   */
   readonly appResourceId: string;
 }
@@ -106,7 +106,7 @@ export class DataOpalIdpGroupMappingsMappingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/idp_group_mappings opal_idp_group_mappings}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/idp_group_mappings opal_idp_group_mappings}
 */
 export class DataOpalIdpGroupMappings extends cdktf.TerraformDataSource {
 
@@ -122,7 +122,7 @@ export class DataOpalIdpGroupMappings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpalIdpGroupMappings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalIdpGroupMappings to import
-  * @param importFromId The id of the existing DataOpalIdpGroupMappings that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/idp_group_mappings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalIdpGroupMappings that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/idp_group_mappings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalIdpGroupMappings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class DataOpalIdpGroupMappings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/idp_group_mappings opal_idp_group_mappings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/idp_group_mappings opal_idp_group_mappings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class DataOpalIdpGroupMappings extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_idp_group_mappings',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

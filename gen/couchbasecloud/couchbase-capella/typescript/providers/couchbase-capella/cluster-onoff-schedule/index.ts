@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,33 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterOnoffScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule#cluster_id ClusterOnoffSchedule#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule#cluster_id ClusterOnoffSchedule#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * List of days the On/Off schedule is active.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule#days ClusterOnoffSchedule#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule#days ClusterOnoffSchedule#days}
   */
   readonly days: ClusterOnoffScheduleDays[] | cdktf.IResolvable;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule#organization_id ClusterOnoffSchedule#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule#organization_id ClusterOnoffSchedule#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule#project_id ClusterOnoffSchedule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule#project_id ClusterOnoffSchedule#project_id}
   */
   readonly projectId: string;
   /**
-  * Timezone for the schedule. Should be the TZ identifier. For example, 'US/Hawaii', 'Indian/Mauritius'
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule#timezone ClusterOnoffSchedule#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule#timezone ClusterOnoffSchedule#timezone}
   */
   readonly timezone: string;
 }
 export interface ClusterOnoffScheduleDaysFrom {
   /**
-  * Hour of the time boundary. The valid hour values are from 0 to 23 inclusive.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule#hour ClusterOnoffSchedule#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule#hour ClusterOnoffSchedule#hour}
   */
   readonly hour?: number;
   /**
-  * Minute of the time boundary. The valid minute values are 0 and 30.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule#minute ClusterOnoffSchedule#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule#minute ClusterOnoffSchedule#minute}
   */
   readonly minute?: number;
 }
@@ -171,15 +157,11 @@ export class ClusterOnoffScheduleDaysFromOutputReference extends cdktf.ComplexOb
 }
 export interface ClusterOnoffScheduleDaysTo {
   /**
-  * Hour of the time boundary. The valid hour values are from 0 to 23 inclusive.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule#hour ClusterOnoffSchedule#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule#hour ClusterOnoffSchedule#hour}
   */
   readonly hour?: number;
   /**
-  * Minute of the time boundary. The valid minute values are 0 and 30.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule#minute ClusterOnoffSchedule#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule#minute ClusterOnoffSchedule#minute}
   */
   readonly minute?: number;
 }
@@ -302,27 +284,19 @@ export class ClusterOnoffScheduleDaysToOutputReference extends cdktf.ComplexObje
 }
 export interface ClusterOnoffScheduleDays {
   /**
-  * Day of the week for scheduling on/off.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule#day ClusterOnoffSchedule#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule#day ClusterOnoffSchedule#day}
   */
   readonly day: string;
   /**
-  * OnTimeBoundary corresponds to "from" and "to" time boundaries for when the cluster needs to be in the turned on (healthy) state on a day with "custom" scheduling timings.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule#from ClusterOnoffSchedule#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule#from ClusterOnoffSchedule#from}
   */
   readonly from?: ClusterOnoffScheduleDaysFrom;
   /**
-  * The cluster state. It can be 'on', 'off', or 'custom'.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule#state ClusterOnoffSchedule#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule#state ClusterOnoffSchedule#state}
   */
   readonly state: string;
   /**
-  * OnTimeBoundary corresponds to "from" and "to" time boundaries for when the cluster needs to be in the turned on (healthy) state on a day with "custom" scheduling timings.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule#to ClusterOnoffSchedule#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule#to ClusterOnoffSchedule#to}
   */
   readonly to?: ClusterOnoffScheduleDaysTo;
 }
@@ -519,7 +493,7 @@ export class ClusterOnoffScheduleDaysList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule couchbase-capella_cluster_onoff_schedule}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule couchbase-capella_cluster_onoff_schedule}
 */
 export class ClusterOnoffSchedule extends cdktf.TerraformResource {
 
@@ -535,7 +509,7 @@ export class ClusterOnoffSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterOnoffSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterOnoffSchedule to import
-  * @param importFromId The id of the existing ClusterOnoffSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterOnoffSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterOnoffSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -547,7 +521,7 @@ export class ClusterOnoffSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/cluster_onoff_schedule couchbase-capella_cluster_onoff_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/cluster_onoff_schedule couchbase-capella_cluster_onoff_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -558,8 +532,8 @@ export class ClusterOnoffSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_cluster_onoff_schedule',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

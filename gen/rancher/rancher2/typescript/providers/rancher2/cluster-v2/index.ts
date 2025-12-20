@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface ClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#annotations ClusterV2#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#annotations ClusterV2#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Cluster V2 cloud credential secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#cloud_credential_secret_name ClusterV2#cloud_credential_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#cloud_credential_secret_name ClusterV2#cloud_credential_secret_name}
   */
   readonly cloudCredentialSecretName?: string;
   /**
   * Cluster V2 default cluster role for project members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#default_cluster_role_for_project_members ClusterV2#default_cluster_role_for_project_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#default_cluster_role_for_project_members ClusterV2#default_cluster_role_for_project_members}
   */
   readonly defaultClusterRoleForProjectMembers?: string;
   /**
   * Cluster V2 default pod security admission configuration template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#default_pod_security_admission_configuration_template_name ClusterV2#default_pod_security_admission_configuration_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#default_pod_security_admission_configuration_template_name ClusterV2#default_pod_security_admission_configuration_template_name}
   */
   readonly defaultPodSecurityAdmissionConfigurationTemplateName?: string;
   /**
   * Enable k8s network policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#enable_network_policy ClusterV2#enable_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#enable_network_policy ClusterV2#enable_network_policy}
   */
   readonly enableNetworkPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#fleet_namespace ClusterV2#fleet_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#fleet_namespace ClusterV2#fleet_namespace}
   */
   readonly fleetNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#id ClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#id ClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,55 +51,55 @@ export interface ClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Cluster V2 kubernetes version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#kubernetes_version ClusterV2#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#kubernetes_version ClusterV2#kubernetes_version}
   */
   readonly kubernetesVersion: string;
   /**
   * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#labels ClusterV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#labels ClusterV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Cluster V2 name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#name ClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#name ClusterV2#name}
   */
   readonly name: string;
   /**
   * agent_env_vars block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#agent_env_vars ClusterV2#agent_env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#agent_env_vars ClusterV2#agent_env_vars}
   */
   readonly agentEnvVars?: ClusterV2AgentEnvVars[] | cdktf.IResolvable;
   /**
   * cluster_agent_deployment_customization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#cluster_agent_deployment_customization ClusterV2#cluster_agent_deployment_customization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#cluster_agent_deployment_customization ClusterV2#cluster_agent_deployment_customization}
   */
   readonly clusterAgentDeploymentCustomization?: ClusterV2ClusterAgentDeploymentCustomization[] | cdktf.IResolvable;
   /**
   * fleet_agent_deployment_customization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#fleet_agent_deployment_customization ClusterV2#fleet_agent_deployment_customization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#fleet_agent_deployment_customization ClusterV2#fleet_agent_deployment_customization}
   */
   readonly fleetAgentDeploymentCustomization?: ClusterV2FleetAgentDeploymentCustomization[] | cdktf.IResolvable;
   /**
   * local_auth_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#local_auth_endpoint ClusterV2#local_auth_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#local_auth_endpoint ClusterV2#local_auth_endpoint}
   */
   readonly localAuthEndpoint?: ClusterV2LocalAuthEndpoint;
   /**
   * rke_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#rke_config ClusterV2#rke_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#rke_config ClusterV2#rke_config}
   */
   readonly rkeConfig?: ClusterV2RkeConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#timeouts ClusterV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#timeouts ClusterV2#timeouts}
   */
   readonly timeouts?: ClusterV2Timeouts;
 }
@@ -242,11 +242,11 @@ export class ClusterV2ClusterRegistrationTokenList extends cdktf.ComplexList {
 }
 export interface ClusterV2AgentEnvVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#name ClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#name ClusterV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -385,23 +385,23 @@ export class ClusterV2AgentEnvVarsList extends cdktf.ComplexList {
 }
 export interface ClusterV2ClusterAgentDeploymentCustomizationAppendTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#effect ClusterV2#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#effect ClusterV2#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#key ClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#key ClusterV2#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#operator ClusterV2#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#operator ClusterV2#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#seconds ClusterV2#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#seconds ClusterV2#seconds}
   */
   readonly seconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value?: string;
 }
@@ -632,25 +632,25 @@ export interface ClusterV2ClusterAgentDeploymentCustomizationOverrideResourceReq
   /**
   * The maximum CPU limit for agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#cpu_limit ClusterV2#cpu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#cpu_limit ClusterV2#cpu_limit}
   */
   readonly cpuLimit?: string;
   /**
   * The minimum CPU required for agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#cpu_request ClusterV2#cpu_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#cpu_request ClusterV2#cpu_request}
   */
   readonly cpuRequest?: string;
   /**
   * The maximum memory limit for agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#memory_limit ClusterV2#memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#memory_limit ClusterV2#memory_limit}
   */
   readonly memoryLimit?: string;
   /**
   * The minimum memory required for agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#memory_request ClusterV2#memory_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#memory_request ClusterV2#memory_request}
   */
   readonly memoryRequest?: string;
 }
@@ -855,13 +855,13 @@ export interface ClusterV2ClusterAgentDeploymentCustomizationSchedulingCustomiza
   /**
   * The maximum number of cattle cluster agent replicas that can be down at a given time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#max_unavailable ClusterV2#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#max_unavailable ClusterV2#max_unavailable}
   */
   readonly maxUnavailable?: string;
   /**
   * The minimum number of cattle cluster agent replicas that must be running at a given time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#min_available ClusterV2#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#min_available ClusterV2#min_available}
   */
   readonly minAvailable?: string;
 }
@@ -1008,13 +1008,13 @@ export interface ClusterV2ClusterAgentDeploymentCustomizationSchedulingCustomiza
   /**
   * The preemption behavior for the cattle cluster agent. Must be either 'PreemptLowerPriority' or 'Never'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#preemption_policy ClusterV2#preemption_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#preemption_policy ClusterV2#preemption_policy}
   */
   readonly preemptionPolicy?: string;
   /**
   * The priority value for the cattle cluster agent. Must be between negative 1 billion and 1 billion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: number;
 }
@@ -1158,13 +1158,13 @@ export interface ClusterV2ClusterAgentDeploymentCustomizationSchedulingCustomiza
   /**
   * pod_disruption_budget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#pod_disruption_budget ClusterV2#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#pod_disruption_budget ClusterV2#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: ClusterV2ClusterAgentDeploymentCustomizationSchedulingCustomizationPodDisruptionBudget[] | cdktf.IResolvable;
   /**
   * priority_class block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#priority_class ClusterV2#priority_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#priority_class ClusterV2#priority_class}
   */
   readonly priorityClass?: ClusterV2ClusterAgentDeploymentCustomizationSchedulingCustomizationPriorityClass[] | cdktf.IResolvable;
 }
@@ -1311,25 +1311,25 @@ export interface ClusterV2ClusterAgentDeploymentCustomization {
   /**
   * User defined affinity to override default agent affinity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#override_affinity ClusterV2#override_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#override_affinity ClusterV2#override_affinity}
   */
   readonly overrideAffinity?: string;
   /**
   * append_tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#append_tolerations ClusterV2#append_tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#append_tolerations ClusterV2#append_tolerations}
   */
   readonly appendTolerations?: ClusterV2ClusterAgentDeploymentCustomizationAppendTolerations[] | cdktf.IResolvable;
   /**
   * override_resource_requirements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#override_resource_requirements ClusterV2#override_resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#override_resource_requirements ClusterV2#override_resource_requirements}
   */
   readonly overrideResourceRequirements?: ClusterV2ClusterAgentDeploymentCustomizationOverrideResourceRequirements[] | cdktf.IResolvable;
   /**
   * scheduling_customization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#scheduling_customization ClusterV2#scheduling_customization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#scheduling_customization ClusterV2#scheduling_customization}
   */
   readonly schedulingCustomization?: ClusterV2ClusterAgentDeploymentCustomizationSchedulingCustomization[] | cdktf.IResolvable;
 }
@@ -1532,23 +1532,23 @@ export class ClusterV2ClusterAgentDeploymentCustomizationList extends cdktf.Comp
 }
 export interface ClusterV2FleetAgentDeploymentCustomizationAppendTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#effect ClusterV2#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#effect ClusterV2#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#key ClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#key ClusterV2#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#operator ClusterV2#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#operator ClusterV2#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#seconds ClusterV2#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#seconds ClusterV2#seconds}
   */
   readonly seconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value?: string;
 }
@@ -1779,25 +1779,25 @@ export interface ClusterV2FleetAgentDeploymentCustomizationOverrideResourceRequi
   /**
   * The maximum CPU limit for agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#cpu_limit ClusterV2#cpu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#cpu_limit ClusterV2#cpu_limit}
   */
   readonly cpuLimit?: string;
   /**
   * The minimum CPU required for agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#cpu_request ClusterV2#cpu_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#cpu_request ClusterV2#cpu_request}
   */
   readonly cpuRequest?: string;
   /**
   * The maximum memory limit for agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#memory_limit ClusterV2#memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#memory_limit ClusterV2#memory_limit}
   */
   readonly memoryLimit?: string;
   /**
   * The minimum memory required for agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#memory_request ClusterV2#memory_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#memory_request ClusterV2#memory_request}
   */
   readonly memoryRequest?: string;
 }
@@ -2002,19 +2002,19 @@ export interface ClusterV2FleetAgentDeploymentCustomization {
   /**
   * User defined affinity to override default agent affinity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#override_affinity ClusterV2#override_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#override_affinity ClusterV2#override_affinity}
   */
   readonly overrideAffinity?: string;
   /**
   * append_tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#append_tolerations ClusterV2#append_tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#append_tolerations ClusterV2#append_tolerations}
   */
   readonly appendTolerations?: ClusterV2FleetAgentDeploymentCustomizationAppendTolerations[] | cdktf.IResolvable;
   /**
   * override_resource_requirements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#override_resource_requirements ClusterV2#override_resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#override_resource_requirements ClusterV2#override_resource_requirements}
   */
   readonly overrideResourceRequirements?: ClusterV2FleetAgentDeploymentCustomizationOverrideResourceRequirements[] | cdktf.IResolvable;
 }
@@ -2188,15 +2188,15 @@ export class ClusterV2FleetAgentDeploymentCustomizationList extends cdktf.Comple
 }
 export interface ClusterV2LocalAuthEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#ca_certs ClusterV2#ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#ca_certs ClusterV2#ca_certs}
   */
   readonly caCerts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#enabled ClusterV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#enabled ClusterV2#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#fqdn ClusterV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#fqdn ClusterV2#fqdn}
   */
   readonly fqdn?: string;
 }
@@ -2336,235 +2336,47 @@ export class ClusterV2LocalAuthEndpointOutputReference extends cdktf.ComplexObje
     return this._fqdn;
   }
 }
-export interface ClusterV2RkeConfigDataDirectories {
-  /**
-  * Desired k8s distro data directory.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#k8s_distro ClusterV2#k8s_distro}
-  */
-  readonly k8SDistro?: string;
-  /**
-  * Desired provisioning data directory.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#provisioning ClusterV2#provisioning}
-  */
-  readonly provisioning?: string;
-  /**
-  * Desired System Agent data directory.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#system_agent ClusterV2#system_agent}
-  */
-  readonly systemAgent?: string;
-}
-
-export function clusterV2RkeConfigDataDirectoriesToTerraform(struct?: ClusterV2RkeConfigDataDirectories | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    k8s_distro: cdktf.stringToTerraform(struct!.k8SDistro),
-    provisioning: cdktf.stringToTerraform(struct!.provisioning),
-    system_agent: cdktf.stringToTerraform(struct!.systemAgent),
-  }
-}
-
-
-export function clusterV2RkeConfigDataDirectoriesToHclTerraform(struct?: ClusterV2RkeConfigDataDirectories | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    k8s_distro: {
-      value: cdktf.stringToHclTerraform(struct!.k8SDistro),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    provisioning: {
-      value: cdktf.stringToHclTerraform(struct!.provisioning),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    system_agent: {
-      value: cdktf.stringToHclTerraform(struct!.systemAgent),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class ClusterV2RkeConfigDataDirectoriesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): ClusterV2RkeConfigDataDirectories | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._k8SDistro !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.k8SDistro = this._k8SDistro;
-    }
-    if (this._provisioning !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.provisioning = this._provisioning;
-    }
-    if (this._systemAgent !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.systemAgent = this._systemAgent;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: ClusterV2RkeConfigDataDirectories | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._k8SDistro = undefined;
-      this._provisioning = undefined;
-      this._systemAgent = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._k8SDistro = value.k8SDistro;
-      this._provisioning = value.provisioning;
-      this._systemAgent = value.systemAgent;
-    }
-  }
-
-  // k8s_distro - computed: false, optional: true, required: false
-  private _k8SDistro?: string; 
-  public get k8SDistro() {
-    return this.getStringAttribute('k8s_distro');
-  }
-  public set k8SDistro(value: string) {
-    this._k8SDistro = value;
-  }
-  public resetK8SDistro() {
-    this._k8SDistro = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get k8SDistroInput() {
-    return this._k8SDistro;
-  }
-
-  // provisioning - computed: false, optional: true, required: false
-  private _provisioning?: string; 
-  public get provisioning() {
-    return this.getStringAttribute('provisioning');
-  }
-  public set provisioning(value: string) {
-    this._provisioning = value;
-  }
-  public resetProvisioning() {
-    this._provisioning = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get provisioningInput() {
-    return this._provisioning;
-  }
-
-  // system_agent - computed: false, optional: true, required: false
-  private _systemAgent?: string; 
-  public get systemAgent() {
-    return this.getStringAttribute('system_agent');
-  }
-  public set systemAgent(value: string) {
-    this._systemAgent = value;
-  }
-  public resetSystemAgent() {
-    this._systemAgent = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get systemAgentInput() {
-    return this._systemAgent;
-  }
-}
-
-export class ClusterV2RkeConfigDataDirectoriesList extends cdktf.ComplexList {
-  public internalValue? : ClusterV2RkeConfigDataDirectories[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): ClusterV2RkeConfigDataDirectoriesOutputReference {
-    return new ClusterV2RkeConfigDataDirectoriesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface ClusterV2RkeConfigEtcdS3Config {
   /**
   * ETCD snapshot S3 bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#bucket ClusterV2#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#bucket ClusterV2#bucket}
   */
   readonly bucket: string;
   /**
   * ETCD snapshot S3 cloud credential name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#cloud_credential_name ClusterV2#cloud_credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#cloud_credential_name ClusterV2#cloud_credential_name}
   */
   readonly cloudCredentialName?: string;
   /**
   * ETCD snapshot S3 endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#endpoint ClusterV2#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#endpoint ClusterV2#endpoint}
   */
   readonly endpoint: string;
   /**
   * ETCD snapshot S3 endpoint CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#endpoint_ca ClusterV2#endpoint_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#endpoint_ca ClusterV2#endpoint_ca}
   */
   readonly endpointCa?: string;
   /**
   * ETCD snapshot S3 folder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#folder ClusterV2#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#folder ClusterV2#folder}
   */
   readonly folder?: string;
   /**
   * ETCD snapshot S3 region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#region ClusterV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#region ClusterV2#region}
   */
   readonly region?: string;
   /**
   * Disable ETCD skip ssl verify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#skip_ssl_verify ClusterV2#skip_ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#skip_ssl_verify ClusterV2#skip_ssl_verify}
   */
   readonly skipSslVerify?: boolean | cdktf.IResolvable;
 }
@@ -2818,19 +2630,19 @@ export interface ClusterV2RkeConfigEtcd {
   /**
   * Disable ETCD snapshots
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#disable_snapshots ClusterV2#disable_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#disable_snapshots ClusterV2#disable_snapshots}
   */
   readonly disableSnapshots?: boolean | cdktf.IResolvable;
   /**
   * ETCD snapshot retention
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#snapshot_retention ClusterV2#snapshot_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#snapshot_retention ClusterV2#snapshot_retention}
   */
   readonly snapshotRetention?: number;
   /**
   * ETCD snapshot schedule cron (e.g `"0 * /5 * * *"`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#snapshot_schedule_cron ClusterV2#snapshot_schedule_cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#snapshot_schedule_cron ClusterV2#snapshot_schedule_cron}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -2838,7 +2650,7 @@ export interface ClusterV2RkeConfigEtcd {
   /**
   * s3_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#s3_config ClusterV2#s3_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#s3_config ClusterV2#s3_config}
   */
   readonly s3Config?: ClusterV2RkeConfigEtcdS3Config;
 }
@@ -3011,7 +2823,7 @@ export interface ClusterV2RkeConfigEtcdSnapshotCreate {
   /**
   * ETCD generation to initiate a snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#generation ClusterV2#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#generation ClusterV2#generation}
   */
   readonly generation: number;
 }
@@ -3094,19 +2906,19 @@ export interface ClusterV2RkeConfigEtcdSnapshotRestore {
   /**
   * ETCD snapshot desired generation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#generation ClusterV2#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#generation ClusterV2#generation}
   */
   readonly generation: number;
   /**
   * ETCD snapshot name to restore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#name ClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#name ClusterV2#name}
   */
   readonly name: string;
   /**
   * ETCD restore RKE config (set to none, all, or kubernetesVersion)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#restore_rke_config ClusterV2#restore_rke_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#restore_rke_config ClusterV2#restore_rke_config}
   */
   readonly restoreRkeConfig?: string;
 }
@@ -3242,15 +3054,15 @@ export class ClusterV2RkeConfigEtcdSnapshotRestoreOutputReference extends cdktf.
 }
 export interface ClusterV2RkeConfigLocalAuthEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#ca_certs ClusterV2#ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#ca_certs ClusterV2#ca_certs}
   */
   readonly caCerts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#enabled ClusterV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#enabled ClusterV2#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#fqdn ClusterV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#fqdn ClusterV2#fqdn}
   */
   readonly fqdn?: string;
 }
@@ -3394,7 +3206,7 @@ export interface ClusterV2RkeConfigMachinePoolDefaults {
   /**
   * maximum length for autogenerated hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#hostname_length_limit ClusterV2#hostname_length_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#hostname_length_limit ClusterV2#hostname_length_limit}
   */
   readonly hostnameLengthLimit?: number;
 }
@@ -3512,19 +3324,19 @@ export interface ClusterV2RkeConfigMachinePoolsMachineConfig {
   /**
   * Machine config API version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#api_version ClusterV2#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#api_version ClusterV2#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Machine config kind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#kind ClusterV2#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#kind ClusterV2#kind}
   */
   readonly kind: string;
   /**
   * Machine config name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#name ClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#name ClusterV2#name}
   */
   readonly name: string;
 }
@@ -3662,13 +3474,13 @@ export interface ClusterV2RkeConfigMachinePoolsRollingUpdate {
   /**
   * Rolling update max surge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#max_surge ClusterV2#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#max_surge ClusterV2#max_surge}
   */
   readonly maxSurge?: string;
   /**
   * Rolling update max unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#max_unavailable ClusterV2#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#max_unavailable ClusterV2#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -3781,15 +3593,15 @@ export class ClusterV2RkeConfigMachinePoolsRollingUpdateOutputReference extends 
 }
 export interface ClusterV2RkeConfigMachinePoolsTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#effect ClusterV2#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#effect ClusterV2#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#key ClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#key ClusterV2#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#value ClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#value ClusterV2#value}
   */
   readonly value: string;
 }
@@ -3957,129 +3769,123 @@ export class ClusterV2RkeConfigMachinePoolsTaintsList extends cdktf.ComplexList 
 }
 export interface ClusterV2RkeConfigMachinePools {
   /**
-  * Annotations for the MachineDeployment object
+  * Annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#annotations ClusterV2#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#annotations ClusterV2#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Machine pool cloud credential secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#cloud_credential_secret_name ClusterV2#cloud_credential_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#cloud_credential_secret_name ClusterV2#cloud_credential_secret_name}
   */
   readonly cloudCredentialSecretName?: string;
   /**
   * Machine pool control plane role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#control_plane_role ClusterV2#control_plane_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#control_plane_role ClusterV2#control_plane_role}
   */
   readonly controlPlaneRole?: boolean | cdktf.IResolvable;
   /**
   * Machine pool drain before delete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#drain_before_delete ClusterV2#drain_before_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#drain_before_delete ClusterV2#drain_before_delete}
   */
   readonly drainBeforeDelete?: boolean | cdktf.IResolvable;
   /**
   * Machine pool etcd role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#etcd_role ClusterV2#etcd_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#etcd_role ClusterV2#etcd_role}
   */
   readonly etcdRole?: boolean | cdktf.IResolvable;
   /**
   * maximum length for autogenerated hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#hostname_length_limit ClusterV2#hostname_length_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#hostname_length_limit ClusterV2#hostname_length_limit}
   */
   readonly hostnameLengthLimit?: number;
   /**
-  * Labels for the MachineDeployment object
+  * Labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#labels ClusterV2#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#labels ClusterV2#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Labels for the machine pool nodes
+  * Labels of the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#machine_labels ClusterV2#machine_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#machine_labels ClusterV2#machine_labels}
   */
   readonly machineLabels?: { [key: string]: string };
   /**
-  * OS Type in machine pool
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#machine_os ClusterV2#machine_os}
-  */
-  readonly machineOs?: string;
-  /**
   * max unhealthy nodes for automated replacement to be allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#max_unhealthy ClusterV2#max_unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#max_unhealthy ClusterV2#max_unhealthy}
   */
   readonly maxUnhealthy?: string;
   /**
   * Machine pool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#name ClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#name ClusterV2#name}
   */
   readonly name: string;
   /**
   * seconds to wait for machine pool drain to complete before machine deletion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#node_drain_timeout ClusterV2#node_drain_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#node_drain_timeout ClusterV2#node_drain_timeout}
   */
   readonly nodeDrainTimeout?: number;
   /**
   * seconds a new node has to become active before it is replaced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#node_startup_timeout_seconds ClusterV2#node_startup_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#node_startup_timeout_seconds ClusterV2#node_startup_timeout_seconds}
   */
   readonly nodeStartupTimeoutSeconds?: number;
   /**
   * Machine pool paused
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#paused ClusterV2#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#paused ClusterV2#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * Machine pool quantity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#quantity ClusterV2#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#quantity ClusterV2#quantity}
   */
   readonly quantity?: number;
   /**
   * seconds an unhealthy node has to become active before it is replaced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#unhealthy_node_timeout_seconds ClusterV2#unhealthy_node_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#unhealthy_node_timeout_seconds ClusterV2#unhealthy_node_timeout_seconds}
   */
   readonly unhealthyNodeTimeoutSeconds?: number;
   /**
   * range of unhealthy nodes for automated replacement to be allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#unhealthy_range ClusterV2#unhealthy_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#unhealthy_range ClusterV2#unhealthy_range}
   */
   readonly unhealthyRange?: string;
   /**
   * Machine pool worker role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#worker_role ClusterV2#worker_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#worker_role ClusterV2#worker_role}
   */
   readonly workerRole?: boolean | cdktf.IResolvable;
   /**
   * machine_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#machine_config ClusterV2#machine_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#machine_config ClusterV2#machine_config}
   */
   readonly machineConfig: ClusterV2RkeConfigMachinePoolsMachineConfig;
   /**
   * rolling_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#rolling_update ClusterV2#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#rolling_update ClusterV2#rolling_update}
   */
   readonly rollingUpdate?: ClusterV2RkeConfigMachinePoolsRollingUpdate;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#taints ClusterV2#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#taints ClusterV2#taints}
   */
   readonly taints?: ClusterV2RkeConfigMachinePoolsTaints[] | cdktf.IResolvable;
 }
@@ -4098,7 +3904,6 @@ export function clusterV2RkeConfigMachinePoolsToTerraform(struct?: ClusterV2RkeC
     hostname_length_limit: cdktf.numberToTerraform(struct!.hostnameLengthLimit),
     labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
     machine_labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.machineLabels),
-    machine_os: cdktf.stringToTerraform(struct!.machineOs),
     max_unhealthy: cdktf.stringToTerraform(struct!.maxUnhealthy),
     name: cdktf.stringToTerraform(struct!.name),
     node_drain_timeout: cdktf.numberToTerraform(struct!.nodeDrainTimeout),
@@ -4168,12 +3973,6 @@ export function clusterV2RkeConfigMachinePoolsToHclTerraform(struct?: ClusterV2R
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
-    },
-    machine_os: {
-      value: cdktf.stringToHclTerraform(struct!.machineOs),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
     },
     max_unhealthy: {
       value: cdktf.stringToHclTerraform(struct!.maxUnhealthy),
@@ -4305,10 +4104,6 @@ export class ClusterV2RkeConfigMachinePoolsOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.machineLabels = this._machineLabels;
     }
-    if (this._machineOs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.machineOs = this._machineOs;
-    }
     if (this._maxUnhealthy !== undefined) {
       hasAnyValues = true;
       internalValueResult.maxUnhealthy = this._maxUnhealthy;
@@ -4372,7 +4167,6 @@ export class ClusterV2RkeConfigMachinePoolsOutputReference extends cdktf.Complex
       this._hostnameLengthLimit = undefined;
       this._labels = undefined;
       this._machineLabels = undefined;
-      this._machineOs = undefined;
       this._maxUnhealthy = undefined;
       this._name = undefined;
       this._nodeDrainTimeout = undefined;
@@ -4401,7 +4195,6 @@ export class ClusterV2RkeConfigMachinePoolsOutputReference extends cdktf.Complex
       this._hostnameLengthLimit = value.hostnameLengthLimit;
       this._labels = value.labels;
       this._machineLabels = value.machineLabels;
-      this._machineOs = value.machineOs;
       this._maxUnhealthy = value.maxUnhealthy;
       this._name = value.name;
       this._nodeDrainTimeout = value.nodeDrainTimeout;
@@ -4417,7 +4210,7 @@ export class ClusterV2RkeConfigMachinePoolsOutputReference extends cdktf.Complex
     }
   }
 
-  // annotations - computed: false, optional: true, required: false
+  // annotations - computed: true, optional: true, required: false
   private _annotations?: { [key: string]: string }; 
   public get annotations() {
     return this.getStringMapAttribute('annotations');
@@ -4513,7 +4306,7 @@ export class ClusterV2RkeConfigMachinePoolsOutputReference extends cdktf.Complex
     return this._hostnameLengthLimit;
   }
 
-  // labels - computed: false, optional: true, required: false
+  // labels - computed: true, optional: true, required: false
   private _labels?: { [key: string]: string }; 
   public get labels() {
     return this.getStringMapAttribute('labels');
@@ -4529,7 +4322,7 @@ export class ClusterV2RkeConfigMachinePoolsOutputReference extends cdktf.Complex
     return this._labels;
   }
 
-  // machine_labels - computed: false, optional: true, required: false
+  // machine_labels - computed: true, optional: true, required: false
   private _machineLabels?: { [key: string]: string }; 
   public get machineLabels() {
     return this.getStringMapAttribute('machine_labels');
@@ -4543,22 +4336,6 @@ export class ClusterV2RkeConfigMachinePoolsOutputReference extends cdktf.Complex
   // Temporarily expose input value. Use with caution.
   public get machineLabelsInput() {
     return this._machineLabels;
-  }
-
-  // machine_os - computed: false, optional: true, required: false
-  private _machineOs?: string; 
-  public get machineOs() {
-    return this.getStringAttribute('machine_os');
-  }
-  public set machineOs(value: string) {
-    this._machineOs = value;
-  }
-  public resetMachineOs() {
-    this._machineOs = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get machineOsInput() {
-    return this._machineOs;
   }
 
   // max_unhealthy - computed: false, optional: true, required: false
@@ -4771,19 +4548,19 @@ export interface ClusterV2RkeConfigMachineSelectorConfigMachineLabelSelectorMatc
   /**
   * Label selector requirement key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#key ClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#key ClusterV2#key}
   */
   readonly key?: string;
   /**
   * Label selector operator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#operator ClusterV2#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#operator ClusterV2#operator}
   */
   readonly operator?: string;
   /**
   * Label selector requirement values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#values ClusterV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#values ClusterV2#values}
   */
   readonly values?: string[];
 }
@@ -4959,13 +4736,13 @@ export interface ClusterV2RkeConfigMachineSelectorConfigMachineLabelSelector {
   /**
   * Label selector match labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#match_labels ClusterV2#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#match_labels ClusterV2#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#match_expressions ClusterV2#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#match_expressions ClusterV2#match_expressions}
   */
   readonly matchExpressions?: ClusterV2RkeConfigMachineSelectorConfigMachineLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -5080,13 +4857,13 @@ export interface ClusterV2RkeConfigMachineSelectorConfig {
   /**
   * Machine selector config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#config ClusterV2#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#config ClusterV2#config}
   */
   readonly config?: string;
   /**
   * machine_label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#machine_label_selector ClusterV2#machine_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#machine_label_selector ClusterV2#machine_label_selector}
   */
   readonly machineLabelSelector?: ClusterV2RkeConfigMachineSelectorConfigMachineLabelSelector;
 }
@@ -5233,31 +5010,31 @@ export interface ClusterV2RkeConfigMachineSelectorFilesFileSourcesConfigmapItems
   /**
   * If ture, the file is ignored when determining whether the node should be drained before updating the node plan (default: true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#dynamic ClusterV2#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#dynamic ClusterV2#dynamic}
   */
   readonly dynamic?: boolean | cdktf.IResolvable;
   /**
   * The base64 encoded value of the SHA256 checksum of the file's content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#hash ClusterV2#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#hash ClusterV2#hash}
   */
   readonly hash?: string;
   /**
   * The key of the item(file) to retrieve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#key ClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#key ClusterV2#key}
   */
   readonly key: string;
   /**
   * The path to put the file in the target node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#path ClusterV2#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#path ClusterV2#path}
   */
   readonly path: string;
   /**
   * The numeric representation of the file permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#permissions ClusterV2#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#permissions ClusterV2#permissions}
   */
   readonly permissions?: string;
 }
@@ -5485,19 +5262,19 @@ export interface ClusterV2RkeConfigMachineSelectorFilesFileSourcesConfigmap {
   /**
   * The default permissions to be applied when they are not set at the item level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#default_permissions ClusterV2#default_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#default_permissions ClusterV2#default_permissions}
   */
   readonly defaultPermissions?: string;
   /**
   * The name of the K8s object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#name ClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#name ClusterV2#name}
   */
   readonly name: string;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#items ClusterV2#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#items ClusterV2#items}
   */
   readonly items?: ClusterV2RkeConfigMachineSelectorFilesFileSourcesConfigmapItems[] | cdktf.IResolvable;
 }
@@ -5638,31 +5415,31 @@ export interface ClusterV2RkeConfigMachineSelectorFilesFileSourcesSecretItems {
   /**
   * If ture, the file is ignored when determining whether the node should be drained before updating the node plan (default: true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#dynamic ClusterV2#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#dynamic ClusterV2#dynamic}
   */
   readonly dynamic?: boolean | cdktf.IResolvable;
   /**
   * The base64 encoded value of the SHA256 checksum of the file's content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#hash ClusterV2#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#hash ClusterV2#hash}
   */
   readonly hash?: string;
   /**
   * The key of the item(file) to retrieve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#key ClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#key ClusterV2#key}
   */
   readonly key: string;
   /**
   * The path to put the file in the target node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#path ClusterV2#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#path ClusterV2#path}
   */
   readonly path: string;
   /**
   * The numeric representation of the file permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#permissions ClusterV2#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#permissions ClusterV2#permissions}
   */
   readonly permissions?: string;
 }
@@ -5890,19 +5667,19 @@ export interface ClusterV2RkeConfigMachineSelectorFilesFileSourcesSecret {
   /**
   * The default permissions to be applied when they are not set at the item level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#default_permissions ClusterV2#default_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#default_permissions ClusterV2#default_permissions}
   */
   readonly defaultPermissions?: string;
   /**
   * The name of the K8s object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#name ClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#name ClusterV2#name}
   */
   readonly name: string;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#items ClusterV2#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#items ClusterV2#items}
   */
   readonly items?: ClusterV2RkeConfigMachineSelectorFilesFileSourcesSecretItems[] | cdktf.IResolvable;
 }
@@ -6043,13 +5820,13 @@ export interface ClusterV2RkeConfigMachineSelectorFilesFileSources {
   /**
   * configmap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#configmap ClusterV2#configmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#configmap ClusterV2#configmap}
   */
   readonly configmap?: ClusterV2RkeConfigMachineSelectorFilesFileSourcesConfigmap;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#secret ClusterV2#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#secret ClusterV2#secret}
   */
   readonly secret?: ClusterV2RkeConfigMachineSelectorFilesFileSourcesSecret;
 }
@@ -6196,19 +5973,19 @@ export interface ClusterV2RkeConfigMachineSelectorFilesMachineLabelSelectorMatch
   /**
   * Label selector requirement key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#key ClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#key ClusterV2#key}
   */
   readonly key?: string;
   /**
   * Label selector operator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#operator ClusterV2#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#operator ClusterV2#operator}
   */
   readonly operator?: string;
   /**
   * Label selector requirement values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#values ClusterV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#values ClusterV2#values}
   */
   readonly values?: string[];
 }
@@ -6384,13 +6161,13 @@ export interface ClusterV2RkeConfigMachineSelectorFilesMachineLabelSelector {
   /**
   * Label selector match labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#match_labels ClusterV2#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#match_labels ClusterV2#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#match_expressions ClusterV2#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#match_expressions ClusterV2#match_expressions}
   */
   readonly matchExpressions?: ClusterV2RkeConfigMachineSelectorFilesMachineLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -6505,13 +6282,13 @@ export interface ClusterV2RkeConfigMachineSelectorFiles {
   /**
   * file_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#file_sources ClusterV2#file_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#file_sources ClusterV2#file_sources}
   */
   readonly fileSources?: ClusterV2RkeConfigMachineSelectorFilesFileSources[] | cdktf.IResolvable;
   /**
   * machine_label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#machine_label_selector ClusterV2#machine_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#machine_label_selector ClusterV2#machine_label_selector}
   */
   readonly machineLabelSelector?: ClusterV2RkeConfigMachineSelectorFilesMachineLabelSelector;
 }
@@ -6658,31 +6435,31 @@ export interface ClusterV2RkeConfigRegistriesConfigs {
   /**
   * Registry auth config secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#auth_config_secret_name ClusterV2#auth_config_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#auth_config_secret_name ClusterV2#auth_config_secret_name}
   */
   readonly authConfigSecretName?: string;
   /**
   * Registry CA bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#ca_bundle ClusterV2#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#ca_bundle ClusterV2#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * Registry hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#hostname ClusterV2#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#hostname ClusterV2#hostname}
   */
   readonly hostname: string;
   /**
   * Registry insecure connectivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#insecure ClusterV2#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#insecure ClusterV2#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Registry TLS secret name. TLS is a pair of Cert/Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#tls_secret_name ClusterV2#tls_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#tls_secret_name ClusterV2#tls_secret_name}
   */
   readonly tlsSecretName?: string;
 }
@@ -6913,19 +6690,19 @@ export interface ClusterV2RkeConfigRegistriesMirrors {
   /**
   * Registry mirror endpoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#endpoints ClusterV2#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#endpoints ClusterV2#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * Registry hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#hostname ClusterV2#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#hostname ClusterV2#hostname}
   */
   readonly hostname: string;
   /**
   * Registry mirror rewrites
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#rewrites ClusterV2#rewrites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#rewrites ClusterV2#rewrites}
   */
   readonly rewrites?: { [key: string]: string };
 }
@@ -7098,13 +6875,13 @@ export interface ClusterV2RkeConfigRegistries {
   /**
   * configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#configs ClusterV2#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#configs ClusterV2#configs}
   */
   readonly configs?: ClusterV2RkeConfigRegistriesConfigs[] | cdktf.IResolvable;
   /**
   * mirrors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#mirrors ClusterV2#mirrors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#mirrors ClusterV2#mirrors}
   */
   readonly mirrors?: ClusterV2RkeConfigRegistriesMirrors[] | cdktf.IResolvable;
 }
@@ -7219,13 +6996,13 @@ export interface ClusterV2RkeConfigRotateCertificates {
   /**
   * Desired certificate rotation generation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#generation ClusterV2#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#generation ClusterV2#generation}
   */
   readonly generation: number;
   /**
   * Service certificates to rotate with this generation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#services ClusterV2#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#services ClusterV2#services}
   */
   readonly services?: string[];
 }
@@ -7337,55 +7114,55 @@ export interface ClusterV2RkeConfigUpgradeStrategyControlPlaneDrainOptions {
   /**
   * Drain options delete empty dir data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#delete_empty_dir_data ClusterV2#delete_empty_dir_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#delete_empty_dir_data ClusterV2#delete_empty_dir_data}
   */
   readonly deleteEmptyDirData?: boolean | cdktf.IResolvable;
   /**
   * Drain options disable eviction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#disable_eviction ClusterV2#disable_eviction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#disable_eviction ClusterV2#disable_eviction}
   */
   readonly disableEviction?: boolean | cdktf.IResolvable;
   /**
   * Drain options enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#enabled ClusterV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#enabled ClusterV2#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Drain options force
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#force ClusterV2#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#force ClusterV2#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * Drain options grace period
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#grace_period ClusterV2#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#grace_period ClusterV2#grace_period}
   */
   readonly gracePeriod?: number;
   /**
   * Drain options ignore daemon sets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#ignore_daemon_sets ClusterV2#ignore_daemon_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#ignore_daemon_sets ClusterV2#ignore_daemon_sets}
   */
   readonly ignoreDaemonSets?: boolean | cdktf.IResolvable;
   /**
   * Drain options ignore errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#ignore_errors ClusterV2#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#ignore_errors ClusterV2#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Drain options skip wait for delete timeout seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#skip_wait_for_delete_timeout_seconds ClusterV2#skip_wait_for_delete_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#skip_wait_for_delete_timeout_seconds ClusterV2#skip_wait_for_delete_timeout_seconds}
   */
   readonly skipWaitForDeleteTimeoutSeconds?: number;
   /**
   * Drain options timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#timeout ClusterV2#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#timeout ClusterV2#timeout}
   */
   readonly timeout?: number;
 }
@@ -7703,55 +7480,55 @@ export interface ClusterV2RkeConfigUpgradeStrategyWorkerDrainOptions {
   /**
   * Drain options delete empty dir data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#delete_empty_dir_data ClusterV2#delete_empty_dir_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#delete_empty_dir_data ClusterV2#delete_empty_dir_data}
   */
   readonly deleteEmptyDirData?: boolean | cdktf.IResolvable;
   /**
   * Drain options disable eviction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#disable_eviction ClusterV2#disable_eviction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#disable_eviction ClusterV2#disable_eviction}
   */
   readonly disableEviction?: boolean | cdktf.IResolvable;
   /**
   * Drain options enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#enabled ClusterV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#enabled ClusterV2#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Drain options force
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#force ClusterV2#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#force ClusterV2#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * Drain options grace period
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#grace_period ClusterV2#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#grace_period ClusterV2#grace_period}
   */
   readonly gracePeriod?: number;
   /**
   * Drain options ignore daemon sets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#ignore_daemon_sets ClusterV2#ignore_daemon_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#ignore_daemon_sets ClusterV2#ignore_daemon_sets}
   */
   readonly ignoreDaemonSets?: boolean | cdktf.IResolvable;
   /**
   * Drain options ignore errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#ignore_errors ClusterV2#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#ignore_errors ClusterV2#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Drain options skip wait for delete timeout seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#skip_wait_for_delete_timeout_seconds ClusterV2#skip_wait_for_delete_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#skip_wait_for_delete_timeout_seconds ClusterV2#skip_wait_for_delete_timeout_seconds}
   */
   readonly skipWaitForDeleteTimeoutSeconds?: number;
   /**
   * Drain options timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#timeout ClusterV2#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#timeout ClusterV2#timeout}
   */
   readonly timeout?: number;
 }
@@ -8069,25 +7846,25 @@ export interface ClusterV2RkeConfigUpgradeStrategy {
   /**
   * How many controlplane nodes should be upgrade at time, 0 is infinite. Percentages are also accepted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#control_plane_concurrency ClusterV2#control_plane_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#control_plane_concurrency ClusterV2#control_plane_concurrency}
   */
   readonly controlPlaneConcurrency?: string;
   /**
   * How many worker nodes should be upgrade at time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#worker_concurrency ClusterV2#worker_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#worker_concurrency ClusterV2#worker_concurrency}
   */
   readonly workerConcurrency?: string;
   /**
   * control_plane_drain_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#control_plane_drain_options ClusterV2#control_plane_drain_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#control_plane_drain_options ClusterV2#control_plane_drain_options}
   */
   readonly controlPlaneDrainOptions?: ClusterV2RkeConfigUpgradeStrategyControlPlaneDrainOptions;
   /**
   * worker_drain_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#worker_drain_options ClusterV2#worker_drain_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#worker_drain_options ClusterV2#worker_drain_options}
   */
   readonly workerDrainOptions?: ClusterV2RkeConfigUpgradeStrategyWorkerDrainOptions;
 }
@@ -8260,91 +8037,85 @@ export interface ClusterV2RkeConfig {
   /**
   * Cluster V2 additional manifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#additional_manifest ClusterV2#additional_manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#additional_manifest ClusterV2#additional_manifest}
   */
   readonly additionalManifest?: string;
   /**
   * Cluster V2 chart values. It should be in YAML format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#chart_values ClusterV2#chart_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#chart_values ClusterV2#chart_values}
   */
   readonly chartValues?: string;
   /**
   * Cluster V2 machine global config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#machine_global_config ClusterV2#machine_global_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#machine_global_config ClusterV2#machine_global_config}
   */
   readonly machineGlobalConfig?: string;
   /**
-  * data_directories block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#data_directories ClusterV2#data_directories}
-  */
-  readonly dataDirectories?: ClusterV2RkeConfigDataDirectories[] | cdktf.IResolvable;
-  /**
   * etcd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#etcd ClusterV2#etcd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#etcd ClusterV2#etcd}
   */
   readonly etcd?: ClusterV2RkeConfigEtcd;
   /**
   * etcd_snapshot_create block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#etcd_snapshot_create ClusterV2#etcd_snapshot_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#etcd_snapshot_create ClusterV2#etcd_snapshot_create}
   */
   readonly etcdSnapshotCreate?: ClusterV2RkeConfigEtcdSnapshotCreate;
   /**
   * etcd_snapshot_restore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#etcd_snapshot_restore ClusterV2#etcd_snapshot_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#etcd_snapshot_restore ClusterV2#etcd_snapshot_restore}
   */
   readonly etcdSnapshotRestore?: ClusterV2RkeConfigEtcdSnapshotRestore;
   /**
   * local_auth_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#local_auth_endpoint ClusterV2#local_auth_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#local_auth_endpoint ClusterV2#local_auth_endpoint}
   */
   readonly localAuthEndpoint?: ClusterV2RkeConfigLocalAuthEndpoint;
   /**
   * machine_pool_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#machine_pool_defaults ClusterV2#machine_pool_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#machine_pool_defaults ClusterV2#machine_pool_defaults}
   */
   readonly machinePoolDefaults?: ClusterV2RkeConfigMachinePoolDefaults[] | cdktf.IResolvable;
   /**
   * machine_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#machine_pools ClusterV2#machine_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#machine_pools ClusterV2#machine_pools}
   */
   readonly machinePools?: ClusterV2RkeConfigMachinePools[] | cdktf.IResolvable;
   /**
   * machine_selector_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#machine_selector_config ClusterV2#machine_selector_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#machine_selector_config ClusterV2#machine_selector_config}
   */
   readonly machineSelectorConfig?: ClusterV2RkeConfigMachineSelectorConfig[] | cdktf.IResolvable;
   /**
   * machine_selector_files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#machine_selector_files ClusterV2#machine_selector_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#machine_selector_files ClusterV2#machine_selector_files}
   */
   readonly machineSelectorFiles?: ClusterV2RkeConfigMachineSelectorFiles[] | cdktf.IResolvable;
   /**
   * registries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#registries ClusterV2#registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#registries ClusterV2#registries}
   */
   readonly registries?: ClusterV2RkeConfigRegistries;
   /**
   * rotate_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#rotate_certificates ClusterV2#rotate_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#rotate_certificates ClusterV2#rotate_certificates}
   */
   readonly rotateCertificates?: ClusterV2RkeConfigRotateCertificates;
   /**
   * upgrade_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#upgrade_strategy ClusterV2#upgrade_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#upgrade_strategy ClusterV2#upgrade_strategy}
   */
   readonly upgradeStrategy?: ClusterV2RkeConfigUpgradeStrategy;
 }
@@ -8358,7 +8129,6 @@ export function clusterV2RkeConfigToTerraform(struct?: ClusterV2RkeConfigOutputR
     additional_manifest: cdktf.stringToTerraform(struct!.additionalManifest),
     chart_values: cdktf.stringToTerraform(struct!.chartValues),
     machine_global_config: cdktf.stringToTerraform(struct!.machineGlobalConfig),
-    data_directories: cdktf.listMapper(clusterV2RkeConfigDataDirectoriesToTerraform, true)(struct!.dataDirectories),
     etcd: clusterV2RkeConfigEtcdToTerraform(struct!.etcd),
     etcd_snapshot_create: clusterV2RkeConfigEtcdSnapshotCreateToTerraform(struct!.etcdSnapshotCreate),
     etcd_snapshot_restore: clusterV2RkeConfigEtcdSnapshotRestoreToTerraform(struct!.etcdSnapshotRestore),
@@ -8397,12 +8167,6 @@ export function clusterV2RkeConfigToHclTerraform(struct?: ClusterV2RkeConfigOutp
       isBlock: false,
       type: "simple",
       storageClassType: "string",
-    },
-    data_directories: {
-      value: cdktf.listMapperHcl(clusterV2RkeConfigDataDirectoriesToHclTerraform, true)(struct!.dataDirectories),
-      isBlock: true,
-      type: "list",
-      storageClassType: "ClusterV2RkeConfigDataDirectoriesList",
     },
     etcd: {
       value: clusterV2RkeConfigEtcdToHclTerraform(struct!.etcd),
@@ -8502,10 +8266,6 @@ export class ClusterV2RkeConfigOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.machineGlobalConfig = this._machineGlobalConfig;
     }
-    if (this._dataDirectories?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.dataDirectories = this._dataDirectories?.internalValue;
-    }
     if (this._etcd?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.etcd = this._etcd?.internalValue;
@@ -8559,7 +8319,6 @@ export class ClusterV2RkeConfigOutputReference extends cdktf.ComplexObject {
       this._additionalManifest = undefined;
       this._chartValues = undefined;
       this._machineGlobalConfig = undefined;
-      this._dataDirectories.internalValue = undefined;
       this._etcd.internalValue = undefined;
       this._etcdSnapshotCreate.internalValue = undefined;
       this._etcdSnapshotRestore.internalValue = undefined;
@@ -8577,7 +8336,6 @@ export class ClusterV2RkeConfigOutputReference extends cdktf.ComplexObject {
       this._additionalManifest = value.additionalManifest;
       this._chartValues = value.chartValues;
       this._machineGlobalConfig = value.machineGlobalConfig;
-      this._dataDirectories.internalValue = value.dataDirectories;
       this._etcd.internalValue = value.etcd;
       this._etcdSnapshotCreate.internalValue = value.etcdSnapshotCreate;
       this._etcdSnapshotRestore.internalValue = value.etcdSnapshotRestore;
@@ -8638,22 +8396,6 @@ export class ClusterV2RkeConfigOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get machineGlobalConfigInput() {
     return this._machineGlobalConfig;
-  }
-
-  // data_directories - computed: false, optional: true, required: false
-  private _dataDirectories = new ClusterV2RkeConfigDataDirectoriesList(this, "data_directories", false);
-  public get dataDirectories() {
-    return this._dataDirectories;
-  }
-  public putDataDirectories(value: ClusterV2RkeConfigDataDirectories[] | cdktf.IResolvable) {
-    this._dataDirectories.internalValue = value;
-  }
-  public resetDataDirectories() {
-    this._dataDirectories.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dataDirectoriesInput() {
-    return this._dataDirectories.internalValue;
   }
 
   // etcd - computed: false, optional: true, required: false
@@ -8834,15 +8576,15 @@ export class ClusterV2RkeConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface ClusterV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#create ClusterV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#create ClusterV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#delete ClusterV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#delete ClusterV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#update ClusterV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#update ClusterV2#update}
   */
   readonly update?: string;
 }
@@ -8994,7 +8736,7 @@ export class ClusterV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2 rancher2_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2 rancher2_cluster_v2}
 */
 export class ClusterV2 extends cdktf.TerraformResource {
 
@@ -9010,7 +8752,7 @@ export class ClusterV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterV2 to import
-  * @param importFromId The id of the existing ClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9022,7 +8764,7 @@ export class ClusterV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/resources/cluster_v2 rancher2_cluster_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/resources/cluster_v2 rancher2_cluster_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9033,8 +8775,8 @@ export class ClusterV2 extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

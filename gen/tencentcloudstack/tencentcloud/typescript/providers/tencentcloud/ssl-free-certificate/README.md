@@ -1,3 +1,3 @@
 # `tencentcloud_ssl_free_certificate`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_ssl_free_certificate`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ssl_free_certificate).
+Refer to the Terraform Registry for docs: [`tencentcloud_ssl_free_certificate`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/ssl_free_certificate).

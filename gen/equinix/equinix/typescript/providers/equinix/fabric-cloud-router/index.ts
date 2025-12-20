@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FabricCloudRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Customer-provided Fabric Cloud Router description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#description FabricCloudRouter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#description FabricCloudRouter#description}
   */
   readonly description?: string;
   /**
   * Fabric Cloud Router URI information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#href FabricCloudRouter#href}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#href FabricCloudRouter#href}
   */
   readonly href?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#id FabricCloudRouter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#id FabricCloudRouter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,67 +29,67 @@ export interface FabricCloudRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Fabric Cloud Router name. An alpha-numeric 24 characters string which can include only hyphens and underscores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#name FabricCloudRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#name FabricCloudRouter#name}
   */
   readonly name: string;
   /**
   * Defines the FCR type like; XF_ROUTER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#type FabricCloudRouter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#type FabricCloudRouter#type}
   */
   readonly type: string;
   /**
   * Equinix-assigned Fabric Cloud Router identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#uuid FabricCloudRouter#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#uuid FabricCloudRouter#uuid}
   */
   readonly uuid?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#account FabricCloudRouter#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#account FabricCloudRouter#account}
   */
   readonly account?: FabricCloudRouterAccount;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#location FabricCloudRouter#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#location FabricCloudRouter#location}
   */
   readonly location: FabricCloudRouterLocation;
   /**
   * marketplace_subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#marketplace_subscription FabricCloudRouter#marketplace_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#marketplace_subscription FabricCloudRouter#marketplace_subscription}
   */
   readonly marketplaceSubscription?: FabricCloudRouterMarketplaceSubscription;
   /**
   * notifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#notifications FabricCloudRouter#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#notifications FabricCloudRouter#notifications}
   */
   readonly notifications: FabricCloudRouterNotifications[] | cdktf.IResolvable;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#order FabricCloudRouter#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#order FabricCloudRouter#order}
   */
   readonly order?: FabricCloudRouterOrder;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#package FabricCloudRouter#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#package FabricCloudRouter#package}
   */
   readonly package: FabricCloudRouterPackage;
   /**
   * project block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#project FabricCloudRouter#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#project FabricCloudRouter#project}
   */
   readonly project: FabricCloudRouterProject;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#timeouts FabricCloudRouter#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#timeouts FabricCloudRouter#timeouts}
   */
   readonly timeouts?: FabricCloudRouterTimeouts;
 }
@@ -227,7 +227,7 @@ export interface FabricCloudRouterAccount {
   /**
   * Account Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#account_number FabricCloudRouter#account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#account_number FabricCloudRouter#account_number}
   */
   readonly accountNumber: number;
 }
@@ -310,25 +310,25 @@ export interface FabricCloudRouterLocation {
   /**
   * IBX Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#ibx FabricCloudRouter#ibx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#ibx FabricCloudRouter#ibx}
   */
   readonly ibx?: string;
   /**
   * Access point metro code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#metro_code FabricCloudRouter#metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#metro_code FabricCloudRouter#metro_code}
   */
   readonly metroCode?: string;
   /**
   * Access point metro name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#metro_name FabricCloudRouter#metro_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#metro_name FabricCloudRouter#metro_name}
   */
   readonly metroName?: string;
   /**
   * Access point region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#region FabricCloudRouter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#region FabricCloudRouter#region}
   */
   readonly region?: string;
 }
@@ -501,13 +501,13 @@ export interface FabricCloudRouterMarketplaceSubscription {
   /**
   * Marketplace Subscription type like; AWS_MARKETPLACE_SUBSCRIPTION
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#type FabricCloudRouter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#type FabricCloudRouter#type}
   */
   readonly type?: string;
   /**
   * Equinix-assigned Marketplace Subscription identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#uuid FabricCloudRouter#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#uuid FabricCloudRouter#uuid}
   */
   readonly uuid: string;
 }
@@ -619,19 +619,19 @@ export interface FabricCloudRouterNotifications {
   /**
   * Array of contact emails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#emails FabricCloudRouter#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#emails FabricCloudRouter#emails}
   */
   readonly emails: string[];
   /**
   * Send interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#send_interval FabricCloudRouter#send_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#send_interval FabricCloudRouter#send_interval}
   */
   readonly sendInterval?: string;
   /**
   * Notification Type - ALL,CONNECTION_APPROVAL,SALES_REP_NOTIFICATIONS, NOTIFICATIONS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#type FabricCloudRouter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#type FabricCloudRouter#type}
   */
   readonly type: string;
 }
@@ -801,31 +801,31 @@ export interface FabricCloudRouterOrder {
   /**
   * Billing tier for connection bandwidth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#billing_tier FabricCloudRouter#billing_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#billing_tier FabricCloudRouter#billing_tier}
   */
   readonly billingTier?: string;
   /**
   * Order Identification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#order_id FabricCloudRouter#order_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#order_id FabricCloudRouter#order_id}
   */
   readonly orderId?: string;
   /**
   * Order Reference Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#order_number FabricCloudRouter#order_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#order_number FabricCloudRouter#order_number}
   */
   readonly orderNumber?: string;
   /**
   * Purchase order number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#purchase_order_number FabricCloudRouter#purchase_order_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#purchase_order_number FabricCloudRouter#purchase_order_number}
   */
   readonly purchaseOrderNumber?: string;
   /**
   * Term length in months; valid values are 1, 12, 24, 36 where 1 is the default value (for on-demand case)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#term_length FabricCloudRouter#term_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#term_length FabricCloudRouter#term_length}
   */
   readonly termLength?: number;
 }
@@ -1027,7 +1027,7 @@ export interface FabricCloudRouterPackage {
   /**
   * Fabric Cloud Router package code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#code FabricCloudRouter#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#code FabricCloudRouter#code}
   */
   readonly code: string;
 }
@@ -1110,13 +1110,13 @@ export interface FabricCloudRouterProject {
   /**
   * Unique Resource URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#href FabricCloudRouter#href}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#href FabricCloudRouter#href}
   */
   readonly href?: string;
   /**
   * Project Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#project_id FabricCloudRouter#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#project_id FabricCloudRouter#project_id}
   */
   readonly projectId?: string;
 }
@@ -1229,19 +1229,19 @@ export class FabricCloudRouterProjectOutputReference extends cdktf.ComplexObject
 }
 export interface FabricCloudRouterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#create FabricCloudRouter#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#create FabricCloudRouter#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#delete FabricCloudRouter#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#delete FabricCloudRouter#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#read FabricCloudRouter#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#read FabricCloudRouter#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#update FabricCloudRouter#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#update FabricCloudRouter#update}
   */
   readonly update?: string;
 }
@@ -1422,7 +1422,7 @@ export class FabricCloudRouterTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router equinix_fabric_cloud_router}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router equinix_fabric_cloud_router}
 */
 export class FabricCloudRouter extends cdktf.TerraformResource {
 
@@ -1438,7 +1438,7 @@ export class FabricCloudRouter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricCloudRouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricCloudRouter to import
-  * @param importFromId The id of the existing FabricCloudRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricCloudRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricCloudRouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1450,7 +1450,7 @@ export class FabricCloudRouter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/fabric_cloud_router equinix_fabric_cloud_router} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/fabric_cloud_router equinix_fabric_cloud_router} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1461,8 +1461,8 @@ export class FabricCloudRouter extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_fabric_cloud_router',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1522,11 +1522,6 @@ export class FabricCloudRouter extends cdktf.TerraformResource {
   // equinix_asn - computed: true, optional: false, required: false
   public get equinixAsn() {
     return this.getNumberAttribute('equinix_asn');
-  }
-
-  // gateway_attachments_count - computed: true, optional: false, required: false
-  public get gatewayAttachmentsCount() {
-    return this.getNumberAttribute('gateway_attachments_count');
   }
 
   // href - computed: true, optional: true, required: false

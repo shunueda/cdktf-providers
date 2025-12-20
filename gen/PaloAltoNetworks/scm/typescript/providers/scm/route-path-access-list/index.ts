@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_path_access_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_path_access_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,40 @@ export interface RoutePathAccessListConfig extends cdktf.TerraformMetaArguments 
   /**
   * AS paths
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_path_access_list#aspath_entry RoutePathAccessList#aspath_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_path_access_list#aspath_entry RoutePathAccessList#aspath_entry}
   */
   readonly aspathEntry?: RoutePathAccessListAspathEntry[] | cdktf.IResolvable;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_path_access_list#description RoutePathAccessList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_path_access_list#description RoutePathAccessList#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_path_access_list#device RoutePathAccessList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_path_access_list#device RoutePathAccessList#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_path_access_list#folder RoutePathAccessList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_path_access_list#folder RoutePathAccessList#folder}
   */
   readonly folder?: string;
   /**
   * AS path access list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_path_access_list#name RoutePathAccessList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_path_access_list#name RoutePathAccessList#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_path_access_list#snippet RoutePathAccessList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_path_access_list#snippet RoutePathAccessList#snippet}
   */
   readonly snippet?: string;
 }
@@ -54,19 +51,19 @@ export interface RoutePathAccessListAspathEntry {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_path_access_list#action RoutePathAccessList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_path_access_list#action RoutePathAccessList#action}
   */
   readonly action?: string;
   /**
   * AS path regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_path_access_list#aspath_regex RoutePathAccessList#aspath_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_path_access_list#aspath_regex RoutePathAccessList#aspath_regex}
   */
   readonly aspathRegex?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_path_access_list#name RoutePathAccessList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_path_access_list#name RoutePathAccessList#name}
   */
   readonly name?: number;
 }
@@ -240,7 +237,7 @@ export class RoutePathAccessListAspathEntryList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_path_access_list scm_route_path_access_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_path_access_list scm_route_path_access_list}
 */
 export class RoutePathAccessList extends cdktf.TerraformResource {
 
@@ -256,7 +253,7 @@ export class RoutePathAccessList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutePathAccessList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutePathAccessList to import
-  * @param importFromId The id of the existing RoutePathAccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_path_access_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutePathAccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_path_access_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutePathAccessList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -268,7 +265,7 @@ export class RoutePathAccessList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/route_path_access_list scm_route_path_access_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/route_path_access_list scm_route_path_access_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,8 +276,8 @@ export class RoutePathAccessList extends cdktf.TerraformResource {
       terraformResourceType: 'scm_route_path_access_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

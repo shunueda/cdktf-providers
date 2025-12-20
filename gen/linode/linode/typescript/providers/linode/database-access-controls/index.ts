@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_access_controls
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_access_controls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DatabaseAccessControlsConfig extends cdktf.TerraformMetaArgumen
   /**
   * A list of IP addresses that can access the Managed Database. Each item can be a single IP address or a range in CIDR format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_access_controls#allow_list DatabaseAccessControls#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_access_controls#allow_list DatabaseAccessControls#allow_list}
   */
   readonly allowList: string[];
   /**
   * The ID of the database to manage the allow list for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_access_controls#database_id DatabaseAccessControls#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_access_controls#database_id DatabaseAccessControls#database_id}
   */
   readonly databaseId: number;
   /**
   * The type of the  database to manage the allow list for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_access_controls#database_type DatabaseAccessControls#database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_access_controls#database_type DatabaseAccessControls#database_type}
   */
   readonly databaseType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_access_controls#id DatabaseAccessControls#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_access_controls#id DatabaseAccessControls#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface DatabaseAccessControlsConfig extends cdktf.TerraformMetaArgumen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_access_controls linode_database_access_controls}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_access_controls linode_database_access_controls}
 */
 export class DatabaseAccessControls extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class DatabaseAccessControls extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseAccessControls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseAccessControls to import
-  * @param importFromId The id of the existing DatabaseAccessControls that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_access_controls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseAccessControls that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_access_controls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseAccessControls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DatabaseAccessControls extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/database_access_controls linode_database_access_controls} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/database_access_controls linode_database_access_controls} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DatabaseAccessControls extends cdktf.TerraformResource {
       terraformResourceType: 'linode_database_access_controls',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/global_concurrency_limit
+// https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/global_concurrency_limit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface GlobalConcurrencyLimitConfig extends cdktf.TerraformMetaArgumen
   /**
   * Account ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/global_concurrency_limit#account_id GlobalConcurrencyLimit#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/global_concurrency_limit#account_id GlobalConcurrencyLimit#account_id}
   */
   readonly accountId?: string;
   /**
   * Whether the global concurrency limit is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/global_concurrency_limit#active GlobalConcurrencyLimit#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/global_concurrency_limit#active GlobalConcurrencyLimit#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The number of active slots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/global_concurrency_limit#active_slots GlobalConcurrencyLimit#active_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/global_concurrency_limit#active_slots GlobalConcurrencyLimit#active_slots}
   */
   readonly activeSlots?: number;
   /**
   * The maximum number of tasks that can run simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/global_concurrency_limit#limit GlobalConcurrencyLimit#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/global_concurrency_limit#limit GlobalConcurrencyLimit#limit}
   */
   readonly limit: number;
   /**
   * The name of the global concurrency limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/global_concurrency_limit#name GlobalConcurrencyLimit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/global_concurrency_limit#name GlobalConcurrencyLimit#name}
   */
   readonly name: string;
   /**
   * Slot Decay Per Second (number or null)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/global_concurrency_limit#slot_decay_per_second GlobalConcurrencyLimit#slot_decay_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/global_concurrency_limit#slot_decay_per_second GlobalConcurrencyLimit#slot_decay_per_second}
   */
   readonly slotDecayPerSecond?: number;
   /**
   * Workspace ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/global_concurrency_limit#workspace_id GlobalConcurrencyLimit#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/global_concurrency_limit#workspace_id GlobalConcurrencyLimit#workspace_id}
   */
   readonly workspaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/global_concurrency_limit prefect_global_concurrency_limit}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/global_concurrency_limit prefect_global_concurrency_limit}
 */
 export class GlobalConcurrencyLimit extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class GlobalConcurrencyLimit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GlobalConcurrencyLimit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlobalConcurrencyLimit to import
-  * @param importFromId The id of the existing GlobalConcurrencyLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/global_concurrency_limit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlobalConcurrencyLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/global_concurrency_limit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlobalConcurrencyLimit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class GlobalConcurrencyLimit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/global_concurrency_limit prefect_global_concurrency_limit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/global_concurrency_limit prefect_global_concurrency_limit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class GlobalConcurrencyLimit extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_global_concurrency_limit',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.92.0',
-        providerVersionConstraint: '2.92.0'
+        providerVersion: '2.92.1',
+        providerVersionConstraint: '2.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

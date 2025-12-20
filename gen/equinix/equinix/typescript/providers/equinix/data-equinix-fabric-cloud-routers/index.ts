@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataEquinixFabricCloudRoutersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers#id DataEquinixFabricCloudRouters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers#id DataEquinixFabricCloudRouters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataEquinixFabricCloudRoutersConfig extends cdktf.TerraformMeta
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers#filter DataEquinixFabricCloudRouters#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers#filter DataEquinixFabricCloudRouters#filter}
   */
   readonly filter: DataEquinixFabricCloudRoutersFilter[] | cdktf.IResolvable;
   /**
   * pagination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers#pagination DataEquinixFabricCloudRouters#pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers#pagination DataEquinixFabricCloudRouters#pagination}
   */
   readonly pagination?: DataEquinixFabricCloudRoutersPagination;
   /**
   * sort block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers#sort DataEquinixFabricCloudRouters#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers#sort DataEquinixFabricCloudRouters#sort}
   */
   readonly sort?: DataEquinixFabricCloudRoutersSort[] | cdktf.IResolvable;
 }
@@ -821,11 +821,6 @@ export class DataEquinixFabricCloudRoutersDataOutputReference extends cdktf.Comp
     return this.getNumberAttribute('equinix_asn');
   }
 
-  // gateway_attachments_count - computed: true, optional: false, required: false
-  public get gatewayAttachmentsCount() {
-    return this.getNumberAttribute('gateway_attachments_count');
-  }
-
   // href - computed: true, optional: false, required: false
   public get href() {
     return this.getStringAttribute('href');
@@ -910,25 +905,25 @@ export interface DataEquinixFabricCloudRoutersFilter {
   /**
   * Possible operators to use on the filter property. Can be one of the following: [= - equal, != - not equal, > - greater than, >= - greater than or equal to, < - less than, <= - less than or equal to, [NOT] BETWEEN - (not) between, [NOT] LIKE - (not) like, [NOT] IN - (not) in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers#operator DataEquinixFabricCloudRouters#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers#operator DataEquinixFabricCloudRouters#operator}
   */
   readonly operator: string;
   /**
   * Boolean flag indicating whether this filter is included in the OR group. There can only be one OR group and it can have a maximum of 3 filters. The OR group only counts as 1 of the 8 possible filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers#or DataEquinixFabricCloudRouters#or}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers#or DataEquinixFabricCloudRouters#or}
   */
   readonly or?: boolean | cdktf.IResolvable;
   /**
   * The API response property which you want to filter your request on. Can be one of the following: "/project/projectId", "/name", "/uuid", "/state", "/location/metroCode", "/location/metroName", "/package/code", "/*"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers#property DataEquinixFabricCloudRouters#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers#property DataEquinixFabricCloudRouters#property}
   */
   readonly property: string;
   /**
   * The values that you want to apply the property+operator combination to in order to filter your data search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers#values DataEquinixFabricCloudRouters#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers#values DataEquinixFabricCloudRouters#values}
   */
   readonly values: string[];
 }
@@ -1124,13 +1119,13 @@ export interface DataEquinixFabricCloudRoutersPagination {
   /**
   * Number of elements to be requested per page. Number must be between 1 and 100. Default is 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers#limit DataEquinixFabricCloudRouters#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers#limit DataEquinixFabricCloudRouters#limit}
   */
   readonly limit?: number;
   /**
   * The page offset for the pagination request. Index of the first element. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers#offset DataEquinixFabricCloudRouters#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers#offset DataEquinixFabricCloudRouters#offset}
   */
   readonly offset?: number;
 }
@@ -1245,13 +1240,13 @@ export interface DataEquinixFabricCloudRoutersSort {
   /**
   * The sorting direction. Can be one of: [DESC, ASC], Defaults to DESC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers#direction DataEquinixFabricCloudRouters#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers#direction DataEquinixFabricCloudRouters#direction}
   */
   readonly direction?: string;
   /**
   * The property name to use in sorting. Can be one of the following: [/name, /uuid, /state, /location/metroCode, /location/metroName, /package/code, /changeLog/createdDateTime, /changeLog/updatedDateTime], Defaults to /changeLog/updatedDateTime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers#property DataEquinixFabricCloudRouters#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers#property DataEquinixFabricCloudRouters#property}
   */
   readonly property?: string;
 }
@@ -1396,7 +1391,7 @@ export class DataEquinixFabricCloudRoutersSortList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers equinix_fabric_cloud_routers}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers equinix_fabric_cloud_routers}
 */
 export class DataEquinixFabricCloudRouters extends cdktf.TerraformDataSource {
 
@@ -1412,7 +1407,7 @@ export class DataEquinixFabricCloudRouters extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixFabricCloudRouters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricCloudRouters to import
-  * @param importFromId The id of the existing DataEquinixFabricCloudRouters that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricCloudRouters that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricCloudRouters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1424,7 +1419,7 @@ export class DataEquinixFabricCloudRouters extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/data-sources/fabric_cloud_routers equinix_fabric_cloud_routers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/data-sources/fabric_cloud_routers equinix_fabric_cloud_routers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1435,8 +1430,8 @@ export class DataEquinixFabricCloudRouters extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_fabric_cloud_routers',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/sshkey
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/sshkey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SshkeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The label of the Linode SSH Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/sshkey#label Sshkey#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/sshkey#label Sshkey#label}
   */
   readonly label: string;
   /**
   * The public SSH Key, which is used to authenticate to the root user of the Linodes you deploy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/sshkey#ssh_key Sshkey#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/sshkey#ssh_key Sshkey#ssh_key}
   */
   readonly sshKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/sshkey linode_sshkey}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/sshkey linode_sshkey}
 */
 export class Sshkey extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class Sshkey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sshkey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sshkey to import
-  * @param importFromId The id of the existing Sshkey that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/sshkey#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sshkey that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/sshkey#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sshkey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class Sshkey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/sshkey linode_sshkey} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/sshkey linode_sshkey} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class Sshkey extends cdktf.TerraformResource {
       terraformResourceType: 'linode_sshkey',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

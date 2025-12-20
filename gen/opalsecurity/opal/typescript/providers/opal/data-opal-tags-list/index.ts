@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/tags_list
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/tags_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOpalTagsListConfig extends cdktf.TerraformMetaArguments {
   /**
   * The pagination cursor value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/tags_list#cursor DataOpalTagsList#cursor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/tags_list#cursor DataOpalTagsList#cursor}
   */
   readonly cursor?: string;
   /**
   * Number of results to return per page. Default is 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/tags_list#page_size DataOpalTagsList#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/tags_list#page_size DataOpalTagsList#page_size}
   */
   readonly pageSize?: number;
 }
@@ -122,7 +122,7 @@ export class DataOpalTagsListResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/tags_list opal_tags_list}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/tags_list opal_tags_list}
 */
 export class DataOpalTagsList extends cdktf.TerraformDataSource {
 
@@ -138,7 +138,7 @@ export class DataOpalTagsList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpalTagsList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalTagsList to import
-  * @param importFromId The id of the existing DataOpalTagsList that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/tags_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalTagsList that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/tags_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalTagsList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -150,7 +150,7 @@ export class DataOpalTagsList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/tags_list opal_tags_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/tags_list opal_tags_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -161,8 +161,8 @@ export class DataOpalTagsList extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_tags_list',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

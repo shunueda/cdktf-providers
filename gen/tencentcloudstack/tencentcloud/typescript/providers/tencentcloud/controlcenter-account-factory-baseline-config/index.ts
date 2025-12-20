@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/controlcenter_account_factory_baseline_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/controlcenter_account_factory_baseline_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ControlcenterAccountFactoryBaselineConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/controlcenter_account_factory_baseline_config#id ControlcenterAccountFactoryBaselineConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/controlcenter_account_factory_baseline_config#id ControlcenterAccountFactoryBaselineConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ControlcenterAccountFactoryBaselineConfigConfig extends cdktf.T
   /**
   * Baseline name, which must be unique. Supports only English letters, numbers, Chinese characters, and symbols @, &, _, [], -. Combination of 1-25 Chinese or English characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/controlcenter_account_factory_baseline_config#name ControlcenterAccountFactoryBaselineConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/controlcenter_account_factory_baseline_config#name ControlcenterAccountFactoryBaselineConfig#name}
   */
   readonly name: string;
   /**
   * baseline_config_items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/controlcenter_account_factory_baseline_config#baseline_config_items ControlcenterAccountFactoryBaselineConfig#baseline_config_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/controlcenter_account_factory_baseline_config#baseline_config_items ControlcenterAccountFactoryBaselineConfig#baseline_config_items}
   */
   readonly baselineConfigItems?: ControlcenterAccountFactoryBaselineConfigBaselineConfigItems[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface ControlcenterAccountFactoryBaselineConfigBaselineConfigItems {
   /**
   * Account factory baseline item configuration, different baseline items have different configuration parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/controlcenter_account_factory_baseline_config#configuration ControlcenterAccountFactoryBaselineConfig#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/controlcenter_account_factory_baseline_config#configuration ControlcenterAccountFactoryBaselineConfig#configuration}
   */
   readonly configuration?: string;
   /**
   * Specifies the unique identifier for account factory baseline item, can only contain `english letters`, `digits`, and `@,._[]-:()()[]+=.`, with a length of 2-128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/controlcenter_account_factory_baseline_config#identifier ControlcenterAccountFactoryBaselineConfig#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/controlcenter_account_factory_baseline_config#identifier ControlcenterAccountFactoryBaselineConfig#identifier}
   */
   readonly identifier?: string;
 }
@@ -187,7 +187,7 @@ export class ControlcenterAccountFactoryBaselineConfigBaselineConfigItemsList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/controlcenter_account_factory_baseline_config tencentcloud_controlcenter_account_factory_baseline_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/controlcenter_account_factory_baseline_config tencentcloud_controlcenter_account_factory_baseline_config}
 */
 export class ControlcenterAccountFactoryBaselineConfig extends cdktf.TerraformResource {
 
@@ -203,7 +203,7 @@ export class ControlcenterAccountFactoryBaselineConfig extends cdktf.TerraformRe
   * Generates CDKTF code for importing a ControlcenterAccountFactoryBaselineConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ControlcenterAccountFactoryBaselineConfig to import
-  * @param importFromId The id of the existing ControlcenterAccountFactoryBaselineConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/controlcenter_account_factory_baseline_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ControlcenterAccountFactoryBaselineConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/controlcenter_account_factory_baseline_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ControlcenterAccountFactoryBaselineConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -215,7 +215,7 @@ export class ControlcenterAccountFactoryBaselineConfig extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/controlcenter_account_factory_baseline_config tencentcloud_controlcenter_account_factory_baseline_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/controlcenter_account_factory_baseline_config tencentcloud_controlcenter_account_factory_baseline_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,8 +226,8 @@ export class ControlcenterAccountFactoryBaselineConfig extends cdktf.TerraformRe
       terraformResourceType: 'tencentcloud_controlcenter_account_factory_baseline_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

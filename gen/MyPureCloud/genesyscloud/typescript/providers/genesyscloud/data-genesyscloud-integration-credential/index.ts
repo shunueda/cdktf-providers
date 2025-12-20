@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/integration_credential
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/integration_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataGenesyscloudIntegrationCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/integration_credential#id DataGenesyscloudIntegrationCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/integration_credential#id DataGenesyscloudIntegrationCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataGenesyscloudIntegrationCredentialConfig extends cdktf.Terra
   /**
   * The name of the integration credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/integration_credential#name DataGenesyscloudIntegrationCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/integration_credential#name DataGenesyscloudIntegrationCredential#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/integration_credential genesyscloud_integration_credential}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/integration_credential genesyscloud_integration_credential}
 */
 export class DataGenesyscloudIntegrationCredential extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataGenesyscloudIntegrationCredential extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataGenesyscloudIntegrationCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGenesyscloudIntegrationCredential to import
-  * @param importFromId The id of the existing DataGenesyscloudIntegrationCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/integration_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGenesyscloudIntegrationCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/integration_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGenesyscloudIntegrationCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataGenesyscloudIntegrationCredential extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/integration_credential genesyscloud_integration_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/integration_credential genesyscloud_integration_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataGenesyscloudIntegrationCredential extends cdktf.TerraformDataSo
       terraformResourceType: 'genesyscloud_integration_credential',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

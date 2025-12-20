@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudTdmqPublishersConfig extends cdktf.TerraformMet
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers#cluster_id DataTencentcloudTdmqPublishers#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers#cluster_id DataTencentcloudTdmqPublishers#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers#id DataTencentcloudTdmqPublishers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers#id DataTencentcloudTdmqPublishers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataTencentcloudTdmqPublishersConfig extends cdktf.TerraformMet
   /**
   * namespace name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers#namespace DataTencentcloudTdmqPublishers#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers#namespace DataTencentcloudTdmqPublishers#namespace}
   */
   readonly namespace: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers#result_output_file DataTencentcloudTdmqPublishers#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers#result_output_file DataTencentcloudTdmqPublishers#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers#topic DataTencentcloudTdmqPublishers#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers#topic DataTencentcloudTdmqPublishers#topic}
   */
   readonly topic: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers#filters DataTencentcloudTdmqPublishers#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers#filters DataTencentcloudTdmqPublishers#filters}
   */
   readonly filters?: DataTencentcloudTdmqPublishersFilters[] | cdktf.IResolvable;
   /**
   * sort block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers#sort DataTencentcloudTdmqPublishers#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers#sort DataTencentcloudTdmqPublishers#sort}
   */
   readonly sort?: DataTencentcloudTdmqPublishersSort;
 }
@@ -170,13 +170,13 @@ export interface DataTencentcloudTdmqPublishersFilters {
   /**
   * The name of the filter parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers#name DataTencentcloudTdmqPublishers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers#name DataTencentcloudTdmqPublishers#name}
   */
   readonly name?: string;
   /**
   * value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers#values DataTencentcloudTdmqPublishers#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers#values DataTencentcloudTdmqPublishers#values}
   */
   readonly values?: string[];
 }
@@ -323,13 +323,13 @@ export interface DataTencentcloudTdmqPublishersSort {
   /**
   * sorter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers#name DataTencentcloudTdmqPublishers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers#name DataTencentcloudTdmqPublishers#name}
   */
   readonly name: string;
   /**
   * Ascending ASC, descending DESC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers#order DataTencentcloudTdmqPublishers#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers#order DataTencentcloudTdmqPublishers#order}
   */
   readonly order: string;
 }
@@ -436,7 +436,7 @@ export class DataTencentcloudTdmqPublishersSortOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers tencentcloud_tdmq_publishers}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers tencentcloud_tdmq_publishers}
 */
 export class DataTencentcloudTdmqPublishers extends cdktf.TerraformDataSource {
 
@@ -452,7 +452,7 @@ export class DataTencentcloudTdmqPublishers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudTdmqPublishers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTdmqPublishers to import
-  * @param importFromId The id of the existing DataTencentcloudTdmqPublishers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTdmqPublishers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTdmqPublishers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -464,7 +464,7 @@ export class DataTencentcloudTdmqPublishers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tdmq_publishers tencentcloud_tdmq_publishers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/tdmq_publishers tencentcloud_tdmq_publishers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -475,8 +475,8 @@ export class DataTencentcloudTdmqPublishers extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_tdmq_publishers',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

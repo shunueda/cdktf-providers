@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IdpOktaConfig extends cdktf.TerraformMetaArguments {
   /**
   * PEM or DER encoded public X.509 certificates for SAML signature validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta#certificates IdpOkta#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta#certificates IdpOkta#certificates}
   */
   readonly certificates: string[];
   /**
   * True if Okta is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta#disabled IdpOkta#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta#disabled IdpOkta#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta#id IdpOkta#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta#id IdpOkta#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,59 +29,59 @@ export interface IdpOktaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Issuer URI provided by Okta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta#issuer_uri IdpOkta#issuer_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta#issuer_uri IdpOkta#issuer_uri}
   */
   readonly issuerUri: string;
   /**
   * IDP Okta name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta#name IdpOkta#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta#name IdpOkta#name}
   */
   readonly name?: string;
   /**
   * String used to identify Genesys Cloud to Okta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta#relying_party_identifier IdpOkta#relying_party_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta#relying_party_identifier IdpOkta#relying_party_identifier}
   */
   readonly relyingPartyIdentifier?: string;
   /**
   * True if the Genesys Cloud authentication request should be signed. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta#sign_authn_requests IdpOkta#sign_authn_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta#sign_authn_requests IdpOkta#sign_authn_requests}
   */
   readonly signAuthnRequests?: boolean | cdktf.IResolvable;
   /**
   * Valid values: HTTP Redirect, HTTP Post
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta#slo_binding IdpOkta#slo_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta#slo_binding IdpOkta#slo_binding}
   */
   readonly sloBinding?: string;
   /**
   * Provided by Okta on app creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta#slo_uri IdpOkta#slo_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta#slo_uri IdpOkta#slo_uri}
   */
   readonly sloUri?: string;
   /**
   * Target URI provided by Okta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta#target_uri IdpOkta#target_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta#target_uri IdpOkta#target_uri}
   */
   readonly targetUri?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta#timeouts IdpOkta#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta#timeouts IdpOkta#timeouts}
   */
   readonly timeouts?: IdpOktaTimeouts;
 }
 export interface IdpOktaTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta#read IdpOkta#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta#read IdpOkta#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta#update IdpOkta#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta#update IdpOkta#update}
   */
   readonly update?: string;
 }
@@ -204,7 +204,7 @@ export class IdpOktaTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta genesyscloud_idp_okta}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta genesyscloud_idp_okta}
 */
 export class IdpOkta extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class IdpOkta extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdpOkta resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdpOkta to import
-  * @param importFromId The id of the existing IdpOkta that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdpOkta that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdpOkta to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class IdpOkta extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/idp_okta genesyscloud_idp_okta} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/idp_okta genesyscloud_idp_okta} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class IdpOkta extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_idp_okta',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

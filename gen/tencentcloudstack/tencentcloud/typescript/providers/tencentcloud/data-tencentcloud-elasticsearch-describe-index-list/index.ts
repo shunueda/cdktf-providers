@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_describe_index_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_describe_index_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudElasticsearchDescribeIndexListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_describe_index_list#id DataTencentcloudElasticsearchDescribeIndexList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_describe_index_list#id DataTencentcloudElasticsearchDescribeIndexList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface DataTencentcloudElasticsearchDescribeIndexListConfig extends cd
   /**
   * Index name. If you fill in the blanks, get all indexes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_describe_index_list#index_name DataTencentcloudElasticsearchDescribeIndexList#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_describe_index_list#index_name DataTencentcloudElasticsearchDescribeIndexList#index_name}
   */
   readonly indexName?: string;
   /**
   * Index status list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_describe_index_list#index_status_list DataTencentcloudElasticsearchDescribeIndexList#index_status_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_describe_index_list#index_status_list DataTencentcloudElasticsearchDescribeIndexList#index_status_list}
   */
   readonly indexStatusList?: string[];
   /**
   * Index type. `auto`: Autonomous index; `normal`: General index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_describe_index_list#index_type DataTencentcloudElasticsearchDescribeIndexList#index_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_describe_index_list#index_type DataTencentcloudElasticsearchDescribeIndexList#index_type}
   */
   readonly indexType: string;
   /**
   * ES cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_describe_index_list#instance_id DataTencentcloudElasticsearchDescribeIndexList#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_describe_index_list#instance_id DataTencentcloudElasticsearchDescribeIndexList#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Sort order, which supports asc and desc. The default is desc data format asc,desc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_describe_index_list#order DataTencentcloudElasticsearchDescribeIndexList#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_describe_index_list#order DataTencentcloudElasticsearchDescribeIndexList#order}
   */
   readonly order?: string;
   /**
   * Sort field. Support index name: IndexName, index storage: IndexStorage, index creation time: IndexCreateTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_describe_index_list#order_by DataTencentcloudElasticsearchDescribeIndexList#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_describe_index_list#order_by DataTencentcloudElasticsearchDescribeIndexList#order_by}
   */
   readonly orderBy?: string;
   /**
   * Cluster access password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_describe_index_list#password DataTencentcloudElasticsearchDescribeIndexList#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_describe_index_list#password DataTencentcloudElasticsearchDescribeIndexList#password}
   */
   readonly password?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_describe_index_list#result_output_file DataTencentcloudElasticsearchDescribeIndexList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_describe_index_list#result_output_file DataTencentcloudElasticsearchDescribeIndexList#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Cluster access user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_describe_index_list#username DataTencentcloudElasticsearchDescribeIndexList#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_describe_index_list#username DataTencentcloudElasticsearchDescribeIndexList#username}
   */
   readonly username?: string;
 }
@@ -610,7 +610,7 @@ export class DataTencentcloudElasticsearchDescribeIndexListIndexMetaFieldsList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_describe_index_list tencentcloud_elasticsearch_describe_index_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_describe_index_list tencentcloud_elasticsearch_describe_index_list}
 */
 export class DataTencentcloudElasticsearchDescribeIndexList extends cdktf.TerraformDataSource {
 
@@ -626,7 +626,7 @@ export class DataTencentcloudElasticsearchDescribeIndexList extends cdktf.Terraf
   * Generates CDKTF code for importing a DataTencentcloudElasticsearchDescribeIndexList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudElasticsearchDescribeIndexList to import
-  * @param importFromId The id of the existing DataTencentcloudElasticsearchDescribeIndexList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_describe_index_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudElasticsearchDescribeIndexList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_describe_index_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudElasticsearchDescribeIndexList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -638,7 +638,7 @@ export class DataTencentcloudElasticsearchDescribeIndexList extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_describe_index_list tencentcloud_elasticsearch_describe_index_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/elasticsearch_describe_index_list tencentcloud_elasticsearch_describe_index_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -649,8 +649,8 @@ export class DataTencentcloudElasticsearchDescribeIndexList extends cdktf.Terraf
       terraformResourceType: 'tencentcloud_elasticsearch_describe_index_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/cluster_v2
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataRancher2ClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/cluster_v2#fleet_namespace DataRancher2ClusterV2#fleet_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/cluster_v2#fleet_namespace DataRancher2ClusterV2#fleet_namespace}
   */
   readonly fleetNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/cluster_v2#id DataRancher2ClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/cluster_v2#id DataRancher2ClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataRancher2ClusterV2Config extends cdktf.TerraformMetaArgument
   /**
   * Cluster V2 name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/cluster_v2#name DataRancher2ClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/cluster_v2#name DataRancher2ClusterV2#name}
   */
   readonly name: string;
 }
@@ -240,91 +240,6 @@ export class DataRancher2ClusterV2ClusterRegistrationTokenList extends cdktf.Com
   */
   public get(index: number): DataRancher2ClusterV2ClusterRegistrationTokenOutputReference {
     return new DataRancher2ClusterV2ClusterRegistrationTokenOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataRancher2ClusterV2RkeConfigDataDirectories {
-}
-
-export function dataRancher2ClusterV2RkeConfigDataDirectoriesToTerraform(struct?: DataRancher2ClusterV2RkeConfigDataDirectories): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataRancher2ClusterV2RkeConfigDataDirectoriesToHclTerraform(struct?: DataRancher2ClusterV2RkeConfigDataDirectories): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataRancher2ClusterV2RkeConfigDataDirectoriesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataRancher2ClusterV2RkeConfigDataDirectories | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataRancher2ClusterV2RkeConfigDataDirectories | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // k8s_distro - computed: true, optional: false, required: false
-  public get k8SDistro() {
-    return this.getStringAttribute('k8s_distro');
-  }
-
-  // provisioning - computed: true, optional: false, required: false
-  public get provisioning() {
-    return this.getStringAttribute('provisioning');
-  }
-
-  // system_agent - computed: true, optional: false, required: false
-  public get systemAgent() {
-    return this.getStringAttribute('system_agent');
-  }
-}
-
-export class DataRancher2ClusterV2RkeConfigDataDirectoriesList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataRancher2ClusterV2RkeConfigDataDirectoriesOutputReference {
-    return new DataRancher2ClusterV2RkeConfigDataDirectoriesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataRancher2ClusterV2RkeConfigEtcdS3Config {
@@ -1191,11 +1106,6 @@ export class DataRancher2ClusterV2RkeConfigMachinePoolsOutputReference extends c
   private _machineLabels = new cdktf.StringMap(this, "machine_labels");
   public get machineLabels() {
     return this._machineLabels;
-  }
-
-  // machine_os - computed: true, optional: false, required: false
-  public get machineOs() {
-    return this.getStringAttribute('machine_os');
   }
 
   // max_unhealthy - computed: true, optional: false, required: false
@@ -2941,12 +2851,6 @@ export class DataRancher2ClusterV2RkeConfigOutputReference extends cdktf.Complex
     return this.getStringAttribute('chart_values');
   }
 
-  // data_directories - computed: true, optional: false, required: false
-  private _dataDirectories = new DataRancher2ClusterV2RkeConfigDataDirectoriesList(this, "data_directories", false);
-  public get dataDirectories() {
-    return this._dataDirectories;
-  }
-
   // etcd - computed: true, optional: false, required: false
   private _etcd = new DataRancher2ClusterV2RkeConfigEtcdList(this, "etcd", false);
   public get etcd() {
@@ -3039,7 +2943,7 @@ export class DataRancher2ClusterV2RkeConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/cluster_v2 rancher2_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/cluster_v2 rancher2_cluster_v2}
 */
 export class DataRancher2ClusterV2 extends cdktf.TerraformDataSource {
 
@@ -3055,7 +2959,7 @@ export class DataRancher2ClusterV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRancher2ClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRancher2ClusterV2 to import
-  * @param importFromId The id of the existing DataRancher2ClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRancher2ClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRancher2ClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3067,7 +2971,7 @@ export class DataRancher2ClusterV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/cluster_v2 rancher2_cluster_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/cluster_v2 rancher2_cluster_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3078,8 +2982,8 @@ export class DataRancher2ClusterV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'rancher2_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

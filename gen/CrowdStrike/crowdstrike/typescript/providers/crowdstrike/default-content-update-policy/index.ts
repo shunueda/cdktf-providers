@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DefaultContentUpdatePolicyConfig extends cdktf.TerraformMetaArg
   /**
   * Description of the default content update policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#description DefaultContentUpdatePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#description DefaultContentUpdatePolicy#description}
   */
   readonly description: string;
   /**
   * Ring assignment settings for rapid response allow/block listing content category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#rapid_response DefaultContentUpdatePolicy#rapid_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#rapid_response DefaultContentUpdatePolicy#rapid_response}
   */
   readonly rapidResponse: DefaultContentUpdatePolicyRapidResponse;
   /**
   * Ring assignment settings for sensor operations content category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#sensor_operations DefaultContentUpdatePolicy#sensor_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#sensor_operations DefaultContentUpdatePolicy#sensor_operations}
   */
   readonly sensorOperations: DefaultContentUpdatePolicySensorOperations;
   /**
   * Ring assignment settings for system critical content category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#system_critical DefaultContentUpdatePolicy#system_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#system_critical DefaultContentUpdatePolicy#system_critical}
   */
   readonly systemCritical: DefaultContentUpdatePolicySystemCritical;
   /**
   * Ring assignment settings for vulnerability management content category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#vulnerability_management DefaultContentUpdatePolicy#vulnerability_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#vulnerability_management DefaultContentUpdatePolicy#vulnerability_management}
   */
   readonly vulnerabilityManagement: DefaultContentUpdatePolicyVulnerabilityManagement;
 }
@@ -42,19 +42,19 @@ export interface DefaultContentUpdatePolicyRapidResponse {
   /**
   * Delay in hours when using 'ga' ring assignment. Valid values: 0, 1, 2, 4, 8, 12, 24, 48, 72. Only applicable when ring_assignment is 'ga'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#delay_hours DefaultContentUpdatePolicy#delay_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#delay_hours DefaultContentUpdatePolicy#delay_hours}
   */
   readonly delayHours?: number;
   /**
   * Pin content category to a specific version. When set, the content category will not automatically update to newer versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#pinned_content_version DefaultContentUpdatePolicy#pinned_content_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#pinned_content_version DefaultContentUpdatePolicy#pinned_content_version}
   */
   readonly pinnedContentVersion?: string;
   /**
   * Ring assignment for the content category (ga, ea, pause).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#ring_assignment DefaultContentUpdatePolicy#ring_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#ring_assignment DefaultContentUpdatePolicy#ring_assignment}
   */
   readonly ringAssignment: string;
 }
@@ -205,19 +205,19 @@ export interface DefaultContentUpdatePolicySensorOperations {
   /**
   * Delay in hours when using 'ga' ring assignment. Valid values: 0, 1, 2, 4, 8, 12, 24, 48, 72. Only applicable when ring_assignment is 'ga'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#delay_hours DefaultContentUpdatePolicy#delay_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#delay_hours DefaultContentUpdatePolicy#delay_hours}
   */
   readonly delayHours?: number;
   /**
   * Pin content category to a specific version. When set, the content category will not automatically update to newer versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#pinned_content_version DefaultContentUpdatePolicy#pinned_content_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#pinned_content_version DefaultContentUpdatePolicy#pinned_content_version}
   */
   readonly pinnedContentVersion?: string;
   /**
   * Ring assignment for the content category (ga, ea, pause).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#ring_assignment DefaultContentUpdatePolicy#ring_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#ring_assignment DefaultContentUpdatePolicy#ring_assignment}
   */
   readonly ringAssignment: string;
 }
@@ -368,19 +368,19 @@ export interface DefaultContentUpdatePolicySystemCritical {
   /**
   * Delay in hours when using 'ga' ring assignment. Valid values: 0, 1, 2, 4, 8, 12, 24, 48, 72. Only applicable when ring_assignment is 'ga'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#delay_hours DefaultContentUpdatePolicy#delay_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#delay_hours DefaultContentUpdatePolicy#delay_hours}
   */
   readonly delayHours?: number;
   /**
   * Pin content category to a specific version. When set, the content category will not automatically update to newer versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#pinned_content_version DefaultContentUpdatePolicy#pinned_content_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#pinned_content_version DefaultContentUpdatePolicy#pinned_content_version}
   */
   readonly pinnedContentVersion?: string;
   /**
   * Ring assignment for the content category (ga, ea). Note: 'pause' is not allowed for system_critical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#ring_assignment DefaultContentUpdatePolicy#ring_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#ring_assignment DefaultContentUpdatePolicy#ring_assignment}
   */
   readonly ringAssignment: string;
 }
@@ -531,19 +531,19 @@ export interface DefaultContentUpdatePolicyVulnerabilityManagement {
   /**
   * Delay in hours when using 'ga' ring assignment. Valid values: 0, 1, 2, 4, 8, 12, 24, 48, 72. Only applicable when ring_assignment is 'ga'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#delay_hours DefaultContentUpdatePolicy#delay_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#delay_hours DefaultContentUpdatePolicy#delay_hours}
   */
   readonly delayHours?: number;
   /**
   * Pin content category to a specific version. When set, the content category will not automatically update to newer versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#pinned_content_version DefaultContentUpdatePolicy#pinned_content_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#pinned_content_version DefaultContentUpdatePolicy#pinned_content_version}
   */
   readonly pinnedContentVersion?: string;
   /**
   * Ring assignment for the content category (ga, ea, pause).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#ring_assignment DefaultContentUpdatePolicy#ring_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#ring_assignment DefaultContentUpdatePolicy#ring_assignment}
   */
   readonly ringAssignment: string;
 }
@@ -692,7 +692,7 @@ export class DefaultContentUpdatePolicyVulnerabilityManagementOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy crowdstrike_default_content_update_policy}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy crowdstrike_default_content_update_policy}
 */
 export class DefaultContentUpdatePolicy extends cdktf.TerraformResource {
 
@@ -708,7 +708,7 @@ export class DefaultContentUpdatePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DefaultContentUpdatePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DefaultContentUpdatePolicy to import
-  * @param importFromId The id of the existing DefaultContentUpdatePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DefaultContentUpdatePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DefaultContentUpdatePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -720,7 +720,7 @@ export class DefaultContentUpdatePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_content_update_policy crowdstrike_default_content_update_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_content_update_policy crowdstrike_default_content_update_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -731,8 +731,8 @@ export class DefaultContentUpdatePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_default_content_update_policy',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.52',
-        providerVersionConstraint: '0.0.52'
+        providerVersion: '0.0.53',
+        providerVersionConstraint: '0.0.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

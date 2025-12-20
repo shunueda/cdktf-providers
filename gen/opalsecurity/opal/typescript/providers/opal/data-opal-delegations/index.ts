@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/delegations
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/delegations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataOpalDelegationsConfig extends cdktf.TerraformMetaArguments 
   /**
   * A cursor to indicate where to start fetching results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/delegations#cursor DataOpalDelegations#cursor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/delegations#cursor DataOpalDelegations#cursor}
   */
   readonly cursor?: string;
   /**
   * The delegate user ID to filter delegations by the user being delegated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/delegations#delegate_user_id DataOpalDelegations#delegate_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/delegations#delegate_user_id DataOpalDelegations#delegate_user_id}
   */
   readonly delegateUserId?: string;
   /**
   * The delegator user ID to filter delegations by the user delegating their access review requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/delegations#delegator_user_id DataOpalDelegations#delegator_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/delegations#delegator_user_id DataOpalDelegations#delegator_user_id}
   */
   readonly delegatorUserId?: string;
   /**
   * The maximum number of results to return per page. The default is 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/delegations#page_size DataOpalDelegations#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/delegations#page_size DataOpalDelegations#page_size}
   */
   readonly pageSize?: number;
 }
@@ -144,7 +144,7 @@ export class DataOpalDelegationsResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/delegations opal_delegations}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/delegations opal_delegations}
 */
 export class DataOpalDelegations extends cdktf.TerraformDataSource {
 
@@ -160,7 +160,7 @@ export class DataOpalDelegations extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpalDelegations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalDelegations to import
-  * @param importFromId The id of the existing DataOpalDelegations that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/delegations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalDelegations that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/delegations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalDelegations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class DataOpalDelegations extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/delegations opal_delegations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/delegations opal_delegations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class DataOpalDelegations extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_delegations',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

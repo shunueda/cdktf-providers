@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,59 @@ export interface AutoVpnClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Branches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#branches AutoVpnCluster#branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#branches AutoVpnCluster#branches}
   */
   readonly branches?: AutoVpnClusterBranches[] | cdktf.IResolvable;
   /**
   * Enable mesh between hubs?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#enable_mesh_between_hubs AutoVpnCluster#enable_mesh_between_hubs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#enable_mesh_between_hubs AutoVpnCluster#enable_mesh_between_hubs}
   */
   readonly enableMeshBetweenHubs?: boolean | cdktf.IResolvable;
   /**
   * Enable mesh interconnect?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#enable_mesh_interconnect AutoVpnCluster#enable_mesh_interconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#enable_mesh_interconnect AutoVpnCluster#enable_mesh_interconnect}
   */
   readonly enableMeshInterconnect?: boolean | cdktf.IResolvable;
   /**
   * Enable SD-WAN?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#enable_sdwan AutoVpnCluster#enable_sdwan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#enable_sdwan AutoVpnCluster#enable_sdwan}
   */
   readonly enableSdwan?: boolean | cdktf.IResolvable;
   /**
   * Hubs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#gateways AutoVpnCluster#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#gateways AutoVpnCluster#gateways}
   */
   readonly gateways?: AutoVpnClusterGateways[] | cdktf.IResolvable;
   /**
   * VPN cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#name AutoVpnCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#name AutoVpnCluster#name}
   */
   readonly name?: string;
   /**
   * VPN cluster type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#type AutoVpnCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#type AutoVpnCluster#type}
   */
   readonly type?: string;
 }
 export interface AutoVpnClusterBranchesInterfacesSdwanLinkSettingsUpstreamNatStaticIp {
   /**
   * FQDN
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `fqdn` and `ip_address`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#fqdn AutoVpnCluster#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#fqdn AutoVpnCluster#fqdn}
   */
   readonly fqdn?: string;
   /**
   * IP address
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `fqdn` and `ip_address`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#ip_address AutoVpnCluster#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#ip_address AutoVpnCluster#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -153,7 +151,7 @@ export class AutoVpnClusterBranchesInterfacesSdwanLinkSettingsUpstreamNatStaticI
     }
   }
 
-  // fqdn - computed: true, optional: true, required: false
+  // fqdn - computed: false, optional: true, required: false
   private _fqdn?: string; 
   public get fqdn() {
     return this.getStringAttribute('fqdn');
@@ -169,7 +167,7 @@ export class AutoVpnClusterBranchesInterfacesSdwanLinkSettingsUpstreamNatStaticI
     return this._fqdn;
   }
 
-  // ip_address - computed: true, optional: true, required: false
+  // ip_address - computed: false, optional: true, required: false
   private _ipAddress?: string; 
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
@@ -189,13 +187,13 @@ export interface AutoVpnClusterBranchesInterfacesSdwanLinkSettingsUpstreamNat {
   /**
   * Upstream NAT?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#enable AutoVpnCluster#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#enable AutoVpnCluster#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Static ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#static_ip AutoVpnCluster#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#static_ip AutoVpnCluster#static_ip}
   */
   readonly staticIp?: AutoVpnClusterBranchesInterfacesSdwanLinkSettingsUpstreamNatStaticIp;
 }
@@ -300,7 +298,7 @@ export class AutoVpnClusterBranchesInterfacesSdwanLinkSettingsUpstreamNatOutputR
     return this._enable;
   }
 
-  // static_ip - computed: true, optional: true, required: false
+  // static_ip - computed: false, optional: true, required: false
   private _staticIp = new AutoVpnClusterBranchesInterfacesSdwanLinkSettingsUpstreamNatStaticIpOutputReference(this, "static_ip");
   public get staticIp() {
     return this._staticIp;
@@ -320,19 +318,19 @@ export interface AutoVpnClusterBranchesInterfacesSdwanLinkSettings {
   /**
   * Next hop gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#sdwan_gateway AutoVpnCluster#sdwan_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#sdwan_gateway AutoVpnCluster#sdwan_gateway}
   */
   readonly sdwanGateway?: string;
   /**
   * SD-WAN interface profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#sdwan_interface_profile AutoVpnCluster#sdwan_interface_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#sdwan_interface_profile AutoVpnCluster#sdwan_interface_profile}
   */
   readonly sdwanInterfaceProfile?: string;
   /**
   * Upstream nat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#upstream_nat AutoVpnCluster#upstream_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#upstream_nat AutoVpnCluster#upstream_nat}
   */
   readonly upstreamNat?: AutoVpnClusterBranchesInterfacesSdwanLinkSettingsUpstreamNat;
 }
@@ -434,7 +432,7 @@ export class AutoVpnClusterBranchesInterfacesSdwanLinkSettingsOutputReference ex
     }
   }
 
-  // sdwan_gateway - computed: true, optional: true, required: false
+  // sdwan_gateway - computed: false, optional: true, required: false
   private _sdwanGateway?: string; 
   public get sdwanGateway() {
     return this.getStringAttribute('sdwan_gateway');
@@ -450,7 +448,7 @@ export class AutoVpnClusterBranchesInterfacesSdwanLinkSettingsOutputReference ex
     return this._sdwanGateway;
   }
 
-  // sdwan_interface_profile - computed: true, optional: true, required: false
+  // sdwan_interface_profile - computed: false, optional: true, required: false
   private _sdwanInterfaceProfile?: string; 
   public get sdwanInterfaceProfile() {
     return this.getStringAttribute('sdwan_interface_profile');
@@ -466,7 +464,7 @@ export class AutoVpnClusterBranchesInterfacesSdwanLinkSettingsOutputReference ex
     return this._sdwanInterfaceProfile;
   }
 
-  // upstream_nat - computed: true, optional: true, required: false
+  // upstream_nat - computed: false, optional: true, required: false
   private _upstreamNat = new AutoVpnClusterBranchesInterfacesSdwanLinkSettingsUpstreamNatOutputReference(this, "upstream_nat");
   public get upstreamNat() {
     return this._upstreamNat;
@@ -486,19 +484,19 @@ export interface AutoVpnClusterBranchesInterfaces {
   /**
   * DHCP IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#dhcp_ip AutoVpnCluster#dhcp_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#dhcp_ip AutoVpnCluster#dhcp_ip}
   */
   readonly dhcpIp?: string;
   /**
   * Ethernet interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#name AutoVpnCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#name AutoVpnCluster#name}
   */
   readonly name?: string;
   /**
   * Sdwan link settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#sdwan_link_settings AutoVpnCluster#sdwan_link_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#sdwan_link_settings AutoVpnCluster#sdwan_link_settings}
   */
   readonly sdwanLinkSettings?: AutoVpnClusterBranchesInterfacesSdwanLinkSettings;
 }
@@ -634,7 +632,7 @@ export class AutoVpnClusterBranchesInterfacesOutputReference extends cdktf.Compl
     return this._name;
   }
 
-  // sdwan_link_settings - computed: true, optional: true, required: false
+  // sdwan_link_settings - computed: false, optional: true, required: false
   private _sdwanLinkSettings = new AutoVpnClusterBranchesInterfacesSdwanLinkSettingsOutputReference(this, "sdwan_link_settings");
   public get sdwanLinkSettings() {
     return this._sdwanLinkSettings;
@@ -673,18 +671,16 @@ export class AutoVpnClusterBranchesInterfacesList extends cdktf.ComplexList {
 export interface AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettingsUpstreamNatStaticIp {
   /**
   * FQDN
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `fqdn` and `ip_address`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#fqdn AutoVpnCluster#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#fqdn AutoVpnCluster#fqdn}
   */
   readonly fqdn?: string;
   /**
   * IP address
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `fqdn` and `ip_address`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#ip_address AutoVpnCluster#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#ip_address AutoVpnCluster#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -773,7 +769,7 @@ export class AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettingsUpstreamNat
     }
   }
 
-  // fqdn - computed: true, optional: true, required: false
+  // fqdn - computed: false, optional: true, required: false
   private _fqdn?: string; 
   public get fqdn() {
     return this.getStringAttribute('fqdn');
@@ -789,7 +785,7 @@ export class AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettingsUpstreamNat
     return this._fqdn;
   }
 
-  // ip_address - computed: true, optional: true, required: false
+  // ip_address - computed: false, optional: true, required: false
   private _ipAddress?: string; 
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
@@ -809,13 +805,13 @@ export interface AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettingsUpstrea
   /**
   * Upstream NAT?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#enable AutoVpnCluster#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#enable AutoVpnCluster#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Static ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#static_ip AutoVpnCluster#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#static_ip AutoVpnCluster#static_ip}
   */
   readonly staticIp?: AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettingsUpstreamNatStaticIp;
 }
@@ -920,7 +916,7 @@ export class AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettingsUpstreamNat
     return this._enable;
   }
 
-  // static_ip - computed: true, optional: true, required: false
+  // static_ip - computed: false, optional: true, required: false
   private _staticIp = new AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettingsUpstreamNatStaticIpOutputReference(this, "static_ip");
   public get staticIp() {
     return this._staticIp;
@@ -940,19 +936,19 @@ export interface AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettings {
   /**
   * Next hop gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#sdwan_gateway AutoVpnCluster#sdwan_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#sdwan_gateway AutoVpnCluster#sdwan_gateway}
   */
   readonly sdwanGateway?: string;
   /**
   * SD-WAN interface profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#sdwan_interface_profile AutoVpnCluster#sdwan_interface_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#sdwan_interface_profile AutoVpnCluster#sdwan_interface_profile}
   */
   readonly sdwanInterfaceProfile?: string;
   /**
   * Upstream nat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#upstream_nat AutoVpnCluster#upstream_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#upstream_nat AutoVpnCluster#upstream_nat}
   */
   readonly upstreamNat?: AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettingsUpstreamNat;
 }
@@ -1054,7 +1050,7 @@ export class AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettingsOutputRefer
     }
   }
 
-  // sdwan_gateway - computed: true, optional: true, required: false
+  // sdwan_gateway - computed: false, optional: true, required: false
   private _sdwanGateway?: string; 
   public get sdwanGateway() {
     return this.getStringAttribute('sdwan_gateway');
@@ -1070,7 +1066,7 @@ export class AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettingsOutputRefer
     return this._sdwanGateway;
   }
 
-  // sdwan_interface_profile - computed: true, optional: true, required: false
+  // sdwan_interface_profile - computed: false, optional: true, required: false
   private _sdwanInterfaceProfile?: string; 
   public get sdwanInterfaceProfile() {
     return this.getStringAttribute('sdwan_interface_profile');
@@ -1086,7 +1082,7 @@ export class AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettingsOutputRefer
     return this._sdwanInterfaceProfile;
   }
 
-  // upstream_nat - computed: true, optional: true, required: false
+  // upstream_nat - computed: false, optional: true, required: false
   private _upstreamNat = new AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettingsUpstreamNatOutputReference(this, "upstream_nat");
   public get upstreamNat() {
     return this._upstreamNat;
@@ -1106,13 +1102,13 @@ export interface AutoVpnClusterBranchesPrivateInterfaces {
   /**
   * Ethernet interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#name AutoVpnCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#name AutoVpnCluster#name}
   */
   readonly name?: string;
   /**
   * Sdwan link settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#sdwan_link_settings AutoVpnCluster#sdwan_link_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#sdwan_link_settings AutoVpnCluster#sdwan_link_settings}
   */
   readonly sdwanLinkSettings?: AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettings;
 }
@@ -1219,7 +1215,7 @@ export class AutoVpnClusterBranchesPrivateInterfacesOutputReference extends cdkt
     return this._name;
   }
 
-  // sdwan_link_settings - computed: true, optional: true, required: false
+  // sdwan_link_settings - computed: false, optional: true, required: false
   private _sdwanLinkSettings = new AutoVpnClusterBranchesPrivateInterfacesSdwanLinkSettingsOutputReference(this, "sdwan_link_settings");
   public get sdwanLinkSettings() {
     return this._sdwanLinkSettings;
@@ -1259,37 +1255,37 @@ export interface AutoVpnClusterBranches {
   /**
   * BGP redistribution profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#bgp_redistribution_profile AutoVpnCluster#bgp_redistribution_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#bgp_redistribution_profile AutoVpnCluster#bgp_redistribution_profile}
   */
   readonly bgpRedistributionProfile?: string;
   /**
   * Interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#interfaces AutoVpnCluster#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#interfaces AutoVpnCluster#interfaces}
   */
   readonly interfaces?: AutoVpnClusterBranchesInterfaces[] | cdktf.IResolvable;
   /**
   * Router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#logical_router AutoVpnCluster#logical_router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#logical_router AutoVpnCluster#logical_router}
   */
   readonly logicalRouter?: string;
   /**
   * Branch firewall serial number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#name AutoVpnCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#name AutoVpnCluster#name}
   */
   readonly name?: string;
   /**
   * Private interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#private_interfaces AutoVpnCluster#private_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#private_interfaces AutoVpnCluster#private_interfaces}
   */
   readonly privateInterfaces?: AutoVpnClusterBranchesPrivateInterfaces[] | cdktf.IResolvable;
   /**
   * Site name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#site AutoVpnCluster#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#site AutoVpnCluster#site}
   */
   readonly site?: string;
 }
@@ -1551,18 +1547,16 @@ export class AutoVpnClusterBranchesList extends cdktf.ComplexList {
 export interface AutoVpnClusterGatewaysInterfacesSdwanLinkSettingsUpstreamNatStaticIp {
   /**
   * FQDN
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `fqdn` and `ip_address`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#fqdn AutoVpnCluster#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#fqdn AutoVpnCluster#fqdn}
   */
   readonly fqdn?: string;
   /**
   * IP address
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `fqdn` and `ip_address`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#ip_address AutoVpnCluster#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#ip_address AutoVpnCluster#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -1687,13 +1681,13 @@ export interface AutoVpnClusterGatewaysInterfacesSdwanLinkSettingsUpstreamNat {
   /**
   * Upstream NAT?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#enable AutoVpnCluster#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#enable AutoVpnCluster#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Static ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#static_ip AutoVpnCluster#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#static_ip AutoVpnCluster#static_ip}
   */
   readonly staticIp?: AutoVpnClusterGatewaysInterfacesSdwanLinkSettingsUpstreamNatStaticIp;
 }
@@ -1818,19 +1812,19 @@ export interface AutoVpnClusterGatewaysInterfacesSdwanLinkSettings {
   /**
   * Next hop gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#sdwan_gateway AutoVpnCluster#sdwan_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#sdwan_gateway AutoVpnCluster#sdwan_gateway}
   */
   readonly sdwanGateway?: string;
   /**
   * SD-WAN interface profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#sdwan_interface_profile AutoVpnCluster#sdwan_interface_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#sdwan_interface_profile AutoVpnCluster#sdwan_interface_profile}
   */
   readonly sdwanInterfaceProfile?: string;
   /**
   * Upstream nat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#upstream_nat AutoVpnCluster#upstream_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#upstream_nat AutoVpnCluster#upstream_nat}
   */
   readonly upstreamNat?: AutoVpnClusterGatewaysInterfacesSdwanLinkSettingsUpstreamNat;
 }
@@ -1984,19 +1978,19 @@ export interface AutoVpnClusterGatewaysInterfaces {
   /**
   * DHCP IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#dhcp_ip AutoVpnCluster#dhcp_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#dhcp_ip AutoVpnCluster#dhcp_ip}
   */
   readonly dhcpIp?: string;
   /**
   * Ethernet interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#name AutoVpnCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#name AutoVpnCluster#name}
   */
   readonly name?: string;
   /**
   * Sdwan link settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#sdwan_link_settings AutoVpnCluster#sdwan_link_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#sdwan_link_settings AutoVpnCluster#sdwan_link_settings}
   */
   readonly sdwanLinkSettings?: AutoVpnClusterGatewaysInterfacesSdwanLinkSettings;
 }
@@ -2171,18 +2165,16 @@ export class AutoVpnClusterGatewaysInterfacesList extends cdktf.ComplexList {
 export interface AutoVpnClusterGatewaysPrivateInterfacesSdwanLinkSettingsUpstreamNatStaticIp {
   /**
   * FQDN
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `fqdn` and `ip_address`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#fqdn AutoVpnCluster#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#fqdn AutoVpnCluster#fqdn}
   */
   readonly fqdn?: string;
   /**
   * IP address
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `fqdn` and `ip_address`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#ip_address AutoVpnCluster#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#ip_address AutoVpnCluster#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -2307,13 +2299,13 @@ export interface AutoVpnClusterGatewaysPrivateInterfacesSdwanLinkSettingsUpstrea
   /**
   * Upstream NAT?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#enable AutoVpnCluster#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#enable AutoVpnCluster#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Static ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#static_ip AutoVpnCluster#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#static_ip AutoVpnCluster#static_ip}
   */
   readonly staticIp?: AutoVpnClusterGatewaysPrivateInterfacesSdwanLinkSettingsUpstreamNatStaticIp;
 }
@@ -2438,19 +2430,19 @@ export interface AutoVpnClusterGatewaysPrivateInterfacesSdwanLinkSettings {
   /**
   * Next hop gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#sdwan_gateway AutoVpnCluster#sdwan_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#sdwan_gateway AutoVpnCluster#sdwan_gateway}
   */
   readonly sdwanGateway?: string;
   /**
   * SD-WAN interface profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#sdwan_interface_profile AutoVpnCluster#sdwan_interface_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#sdwan_interface_profile AutoVpnCluster#sdwan_interface_profile}
   */
   readonly sdwanInterfaceProfile?: string;
   /**
   * Upstream nat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#upstream_nat AutoVpnCluster#upstream_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#upstream_nat AutoVpnCluster#upstream_nat}
   */
   readonly upstreamNat?: AutoVpnClusterGatewaysPrivateInterfacesSdwanLinkSettingsUpstreamNat;
 }
@@ -2604,13 +2596,13 @@ export interface AutoVpnClusterGatewaysPrivateInterfaces {
   /**
   * Ethernet interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#name AutoVpnCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#name AutoVpnCluster#name}
   */
   readonly name?: string;
   /**
   * Sdwan link settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#sdwan_link_settings AutoVpnCluster#sdwan_link_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#sdwan_link_settings AutoVpnCluster#sdwan_link_settings}
   */
   readonly sdwanLinkSettings?: AutoVpnClusterGatewaysPrivateInterfacesSdwanLinkSettings;
 }
@@ -2757,49 +2749,49 @@ export interface AutoVpnClusterGateways {
   /**
   * Allow DIA to VPN failover on branch device for the hub?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#allow_dia_vpn_failover AutoVpnCluster#allow_dia_vpn_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#allow_dia_vpn_failover AutoVpnCluster#allow_dia_vpn_failover}
   */
   readonly allowDiaVpnFailover?: boolean | cdktf.IResolvable;
   /**
   * BGP redistribution file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#bgp_redistribution_profile AutoVpnCluster#bgp_redistribution_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#bgp_redistribution_profile AutoVpnCluster#bgp_redistribution_profile}
   */
   readonly bgpRedistributionProfile?: string;
   /**
   * Interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#interfaces AutoVpnCluster#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#interfaces AutoVpnCluster#interfaces}
   */
   readonly interfaces?: AutoVpnClusterGatewaysInterfaces[] | cdktf.IResolvable;
   /**
   * Router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#logical_router AutoVpnCluster#logical_router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#logical_router AutoVpnCluster#logical_router}
   */
   readonly logicalRouter?: string;
   /**
   * Hub firewall serial number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#name AutoVpnCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#name AutoVpnCluster#name}
   */
   readonly name?: string;
   /**
   * Priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#priority AutoVpnCluster#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#priority AutoVpnCluster#priority}
   */
   readonly priority?: string;
   /**
   * Private interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#private_interfaces AutoVpnCluster#private_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#private_interfaces AutoVpnCluster#private_interfaces}
   */
   readonly privateInterfaces?: AutoVpnClusterGatewaysPrivateInterfaces[] | cdktf.IResolvable;
   /**
   * Site name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#site AutoVpnCluster#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#site AutoVpnCluster#site}
   */
   readonly site?: string;
 }
@@ -3118,7 +3110,7 @@ export class AutoVpnClusterGatewaysList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster scm_auto_vpn_cluster}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster scm_auto_vpn_cluster}
 */
 export class AutoVpnCluster extends cdktf.TerraformResource {
 
@@ -3134,7 +3126,7 @@ export class AutoVpnCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutoVpnCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoVpnCluster to import
-  * @param importFromId The id of the existing AutoVpnCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoVpnCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoVpnCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3146,7 +3138,7 @@ export class AutoVpnCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/auto_vpn_cluster scm_auto_vpn_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/auto_vpn_cluster scm_auto_vpn_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3157,8 +3149,8 @@ export class AutoVpnCluster extends cdktf.TerraformResource {
       terraformResourceType: 'scm_auto_vpn_cluster',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

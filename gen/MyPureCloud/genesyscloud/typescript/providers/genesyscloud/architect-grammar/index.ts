@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_grammar
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ArchitectGrammarConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the grammar
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar#description ArchitectGrammar#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_grammar#description ArchitectGrammar#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar#id ArchitectGrammar#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_grammar#id ArchitectGrammar#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ArchitectGrammarConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of grammar
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar#name ArchitectGrammar#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_grammar#name ArchitectGrammar#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar genesyscloud_architect_grammar}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_grammar genesyscloud_architect_grammar}
 */
 export class ArchitectGrammar extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ArchitectGrammar extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArchitectGrammar resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArchitectGrammar to import
-  * @param importFromId The id of the existing ArchitectGrammar that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArchitectGrammar that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_grammar#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArchitectGrammar to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ArchitectGrammar extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_grammar genesyscloud_architect_grammar} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_grammar genesyscloud_architect_grammar} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class ArchitectGrammar extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_architect_grammar',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

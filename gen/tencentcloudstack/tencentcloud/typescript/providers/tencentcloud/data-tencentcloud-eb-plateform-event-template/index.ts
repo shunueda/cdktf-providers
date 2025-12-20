@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_plateform_event_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_plateform_event_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudEbPlateformEventTemplateConfig extends cdktf.Te
   /**
   * Platform product event type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_plateform_event_template#event_type DataTencentcloudEbPlateformEventTemplate#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_plateform_event_template#event_type DataTencentcloudEbPlateformEventTemplate#event_type}
   */
   readonly eventType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_plateform_event_template#id DataTencentcloudEbPlateformEventTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_plateform_event_template#id DataTencentcloudEbPlateformEventTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudEbPlateformEventTemplateConfig extends cdktf.Te
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_plateform_event_template#result_output_file DataTencentcloudEbPlateformEventTemplate#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_plateform_event_template#result_output_file DataTencentcloudEbPlateformEventTemplate#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_plateform_event_template tencentcloud_eb_plateform_event_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_plateform_event_template tencentcloud_eb_plateform_event_template}
 */
 export class DataTencentcloudEbPlateformEventTemplate extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataTencentcloudEbPlateformEventTemplate extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudEbPlateformEventTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudEbPlateformEventTemplate to import
-  * @param importFromId The id of the existing DataTencentcloudEbPlateformEventTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_plateform_event_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudEbPlateformEventTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_plateform_event_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudEbPlateformEventTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataTencentcloudEbPlateformEventTemplate extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/eb_plateform_event_template tencentcloud_eb_plateform_event_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/eb_plateform_event_template tencentcloud_eb_plateform_event_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataTencentcloudEbPlateformEventTemplate extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_eb_plateform_event_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_execution_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_execution_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TcrTagRetentionExecutionConfigConfig extends cdktf.TerraformMet
   /**
   * Whether to simulate execution, the default value is false, that is, non-simulation execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_execution_config#dry_run TcrTagRetentionExecutionConfig#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_execution_config#dry_run TcrTagRetentionExecutionConfig#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_execution_config#id TcrTagRetentionExecutionConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_execution_config#id TcrTagRetentionExecutionConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface TcrTagRetentionExecutionConfigConfig extends cdktf.TerraformMet
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_execution_config#registry_id TcrTagRetentionExecutionConfig#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_execution_config#registry_id TcrTagRetentionExecutionConfig#registry_id}
   */
   readonly registryId: string;
   /**
   * retention id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_execution_config#retention_id TcrTagRetentionExecutionConfig#retention_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_execution_config#retention_id TcrTagRetentionExecutionConfig#retention_id}
   */
   readonly retentionId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_execution_config tencentcloud_tcr_tag_retention_execution_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_execution_config tencentcloud_tcr_tag_retention_execution_config}
 */
 export class TcrTagRetentionExecutionConfig extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class TcrTagRetentionExecutionConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcrTagRetentionExecutionConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcrTagRetentionExecutionConfig to import
-  * @param importFromId The id of the existing TcrTagRetentionExecutionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_execution_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcrTagRetentionExecutionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_execution_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcrTagRetentionExecutionConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class TcrTagRetentionExecutionConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcr_tag_retention_execution_config tencentcloud_tcr_tag_retention_execution_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tcr_tag_retention_execution_config tencentcloud_tcr_tag_retention_execution_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class TcrTagRetentionExecutionConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcr_tag_retention_execution_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

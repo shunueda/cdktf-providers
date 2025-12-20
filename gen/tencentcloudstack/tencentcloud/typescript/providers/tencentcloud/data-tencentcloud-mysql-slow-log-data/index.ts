@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudMysqlSlowLogDataConfig extends cdktf.TerraformM
   /**
   * List of databases accessed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data#data_bases DataTencentcloudMysqlSlowLogData#data_bases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data#data_bases DataTencentcloudMysqlSlowLogData#data_bases}
   */
   readonly dataBases?: string[];
   /**
   * End timestamp. For example 1585142640.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data#end_time DataTencentcloudMysqlSlowLogData#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data#end_time DataTencentcloudMysqlSlowLogData#end_time}
   */
   readonly endTime: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data#id DataTencentcloudMysqlSlowLogData#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data#id DataTencentcloudMysqlSlowLogData#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface DataTencentcloudMysqlSlowLogDataConfig extends cdktf.TerraformM
   /**
   * Only valid when the instance is the master instance or disaster recovery instance, the optional value: slave, which means to pull the log of the slave machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data#inst_type DataTencentcloudMysqlSlowLogData#inst_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data#inst_type DataTencentcloudMysqlSlowLogData#inst_type}
   */
   readonly instType?: string;
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data#instance_id DataTencentcloudMysqlSlowLogData#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data#instance_id DataTencentcloudMysqlSlowLogData#instance_id}
   */
   readonly instanceId: string;
   /**
   * Sort in ascending or descending order. Currently supported: ASC,DESC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data#order_by DataTencentcloudMysqlSlowLogData#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data#order_by DataTencentcloudMysqlSlowLogData#order_by}
   */
   readonly orderBy?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data#result_output_file DataTencentcloudMysqlSlowLogData#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data#result_output_file DataTencentcloudMysqlSlowLogData#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Sort field. Currently supported: Timestamp, QueryTime, LockTime, RowsExamined, RowsSent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data#sort_by DataTencentcloudMysqlSlowLogData#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data#sort_by DataTencentcloudMysqlSlowLogData#sort_by}
   */
   readonly sortBy?: string;
   /**
   * Start timestamp. For example 1585142640.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data#start_time DataTencentcloudMysqlSlowLogData#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data#start_time DataTencentcloudMysqlSlowLogData#start_time}
   */
   readonly startTime: number;
   /**
   * List of client hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data#user_hosts DataTencentcloudMysqlSlowLogData#user_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data#user_hosts DataTencentcloudMysqlSlowLogData#user_hosts}
   */
   readonly userHosts?: string[];
   /**
   * A list of client usernames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data#user_names DataTencentcloudMysqlSlowLogData#user_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data#user_names DataTencentcloudMysqlSlowLogData#user_names}
   */
   readonly userNames?: string[];
 }
@@ -202,7 +202,7 @@ export class DataTencentcloudMysqlSlowLogDataItemsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data tencentcloud_mysql_slow_log_data}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data tencentcloud_mysql_slow_log_data}
 */
 export class DataTencentcloudMysqlSlowLogData extends cdktf.TerraformDataSource {
 
@@ -218,7 +218,7 @@ export class DataTencentcloudMysqlSlowLogData extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudMysqlSlowLogData resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMysqlSlowLogData to import
-  * @param importFromId The id of the existing DataTencentcloudMysqlSlowLogData that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMysqlSlowLogData that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMysqlSlowLogData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class DataTencentcloudMysqlSlowLogData extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mysql_slow_log_data tencentcloud_mysql_slow_log_data} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/mysql_slow_log_data tencentcloud_mysql_slow_log_data} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class DataTencentcloudMysqlSlowLogData extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_mysql_slow_log_data',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

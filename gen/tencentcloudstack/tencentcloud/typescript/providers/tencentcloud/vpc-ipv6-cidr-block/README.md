@@ -1,3 +1,3 @@
 # `tencentcloud_vpc_ipv6_cidr_block`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_vpc_ipv6_cidr_block`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpc_ipv6_cidr_block).
+Refer to the Terraform Registry for docs: [`tencentcloud_vpc_ipv6_cidr_block`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/vpc_ipv6_cidr_block).

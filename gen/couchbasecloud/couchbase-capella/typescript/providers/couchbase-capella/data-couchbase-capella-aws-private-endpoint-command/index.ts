@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/aws_private_endpoint_command
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/aws_private_endpoint_command
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface DataCouchbaseCapellaAwsPrivateEndpointCommandConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/aws_private_endpoint_command#cluster_id DataCouchbaseCapellaAwsPrivateEndpointCommand#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/aws_private_endpoint_command#cluster_id DataCouchbaseCapellaAwsPrivateEndpointCommand#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/aws_private_endpoint_command#organization_id DataCouchbaseCapellaAwsPrivateEndpointCommand#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/aws_private_endpoint_command#organization_id DataCouchbaseCapellaAwsPrivateEndpointCommand#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/aws_private_endpoint_command#project_id DataCouchbaseCapellaAwsPrivateEndpointCommand#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/aws_private_endpoint_command#project_id DataCouchbaseCapellaAwsPrivateEndpointCommand#project_id}
   */
   readonly projectId: string;
   /**
-  * List of subnet IDs in your VPC where the private endpoint interface will be created. These subnets must be in the same VPC.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/aws_private_endpoint_command#subnet_ids DataCouchbaseCapellaAwsPrivateEndpointCommand#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/aws_private_endpoint_command#subnet_ids DataCouchbaseCapellaAwsPrivateEndpointCommand#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
-  * The ID of your AWS VPC where the private endpoint will be created.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/aws_private_endpoint_command#vpc_id DataCouchbaseCapellaAwsPrivateEndpointCommand#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/aws_private_endpoint_command#vpc_id DataCouchbaseCapellaAwsPrivateEndpointCommand#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/aws_private_endpoint_command couchbase-capella_aws_private_endpoint_command}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/aws_private_endpoint_command couchbase-capella_aws_private_endpoint_command}
 */
 export class DataCouchbaseCapellaAwsPrivateEndpointCommand extends cdktf.TerraformDataSource {
 
@@ -56,7 +46,7 @@ export class DataCouchbaseCapellaAwsPrivateEndpointCommand extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataCouchbaseCapellaAwsPrivateEndpointCommand resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCouchbaseCapellaAwsPrivateEndpointCommand to import
-  * @param importFromId The id of the existing DataCouchbaseCapellaAwsPrivateEndpointCommand that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/aws_private_endpoint_command#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCouchbaseCapellaAwsPrivateEndpointCommand that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/aws_private_endpoint_command#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCouchbaseCapellaAwsPrivateEndpointCommand to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +58,7 @@ export class DataCouchbaseCapellaAwsPrivateEndpointCommand extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/aws_private_endpoint_command couchbase-capella_aws_private_endpoint_command} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/aws_private_endpoint_command couchbase-capella_aws_private_endpoint_command} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +69,8 @@ export class DataCouchbaseCapellaAwsPrivateEndpointCommand extends cdktf.Terrafo
       terraformResourceType: 'couchbase-capella_aws_private_endpoint_command',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

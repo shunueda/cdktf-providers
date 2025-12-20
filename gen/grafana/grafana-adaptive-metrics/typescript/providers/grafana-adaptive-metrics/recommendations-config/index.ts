@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/recommendations_config
+// https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/recommendations_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface RecommendationsConfigConfig extends cdktf.TerraformMetaArgument
   /**
   * WARNING: contact Grafana Cloud support before use. This feature is in private preview and may change without notice, including in ways that may break your configuration. Configurations related to auto-applying recommendations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/recommendations_config#auto_apply RecommendationsConfig#auto_apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/recommendations_config#auto_apply RecommendationsConfig#auto_apply}
   */
   readonly autoApply?: RecommendationsConfigAutoApply;
   /**
   * The array of labels to keep; labels not in this array will be aggregated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/recommendations_config#keep_labels RecommendationsConfig#keep_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/recommendations_config#keep_labels RecommendationsConfig#keep_labels}
   */
   readonly keepLabels?: string[];
 }
@@ -24,7 +24,7 @@ export interface RecommendationsConfigAutoApply {
   /**
   * WARNING: contact Grafana Cloud support before use. This feature is in private preview and may change without notice, including in ways that may break your configuration. Whether to automatically apply the generated recommendations in the default segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/recommendations_config#enabled RecommendationsConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/recommendations_config#enabled RecommendationsConfig#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -118,7 +118,7 @@ export class RecommendationsConfigAutoApplyOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/recommendations_config grafana-adaptive-metrics_recommendations_config}
+* Represents a {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/recommendations_config grafana-adaptive-metrics_recommendations_config}
 */
 export class RecommendationsConfig extends cdktf.TerraformResource {
 
@@ -134,7 +134,7 @@ export class RecommendationsConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RecommendationsConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RecommendationsConfig to import
-  * @param importFromId The id of the existing RecommendationsConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/recommendations_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RecommendationsConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/recommendations_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RecommendationsConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class RecommendationsConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/resources/recommendations_config grafana-adaptive-metrics_recommendations_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/resources/recommendations_config grafana-adaptive-metrics_recommendations_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class RecommendationsConfig extends cdktf.TerraformResource {
       terraformResourceType: 'grafana-adaptive-metrics_recommendations_config',
       terraformGeneratorMetadata: {
         providerName: 'grafana-adaptive-metrics',
-        providerVersion: '0.3.3',
-        providerVersionConstraint: '0.3.3'
+        providerVersion: '0.3.4',
+        providerVersionConstraint: '0.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

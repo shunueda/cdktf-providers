@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/privatecloudgateway_dns_map
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/privatecloudgateway_dns_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PrivatecloudgatewayDnsMapConfig extends cdktf.TerraformMetaArgu
   /**
   * The data center in which the private cloud resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/privatecloudgateway_dns_map#data_center PrivatecloudgatewayDnsMap#data_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/privatecloudgateway_dns_map#data_center PrivatecloudgatewayDnsMap#data_center}
   */
   readonly dataCenter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/privatecloudgateway_dns_map#id PrivatecloudgatewayDnsMap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/privatecloudgateway_dns_map#id PrivatecloudgatewayDnsMap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,39 +23,39 @@ export interface PrivatecloudgatewayDnsMapConfig extends cdktf.TerraformMetaArgu
   /**
   * The network to which the private cloud gateway is mapped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/privatecloudgateway_dns_map#network PrivatecloudgatewayDnsMap#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/privatecloudgateway_dns_map#network PrivatecloudgatewayDnsMap#network}
   */
   readonly network: string;
   /**
   * The ID of the Private Cloud Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/privatecloudgateway_dns_map#private_cloud_gateway_id PrivatecloudgatewayDnsMap#private_cloud_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/privatecloudgateway_dns_map#private_cloud_gateway_id PrivatecloudgatewayDnsMap#private_cloud_gateway_id}
   */
   readonly privateCloudGatewayId: string;
   /**
   * The domain name used for DNS search queries within the private cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/privatecloudgateway_dns_map#search_domain_name PrivatecloudgatewayDnsMap#search_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/privatecloudgateway_dns_map#search_domain_name PrivatecloudgatewayDnsMap#search_domain_name}
   */
   readonly searchDomainName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/privatecloudgateway_dns_map#timeouts PrivatecloudgatewayDnsMap#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/privatecloudgateway_dns_map#timeouts PrivatecloudgatewayDnsMap#timeouts}
   */
   readonly timeouts?: PrivatecloudgatewayDnsMapTimeouts;
 }
 export interface PrivatecloudgatewayDnsMapTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/privatecloudgateway_dns_map#create PrivatecloudgatewayDnsMap#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/privatecloudgateway_dns_map#create PrivatecloudgatewayDnsMap#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/privatecloudgateway_dns_map#delete PrivatecloudgatewayDnsMap#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/privatecloudgateway_dns_map#delete PrivatecloudgatewayDnsMap#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/privatecloudgateway_dns_map#update PrivatecloudgatewayDnsMap#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/privatecloudgateway_dns_map#update PrivatecloudgatewayDnsMap#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class PrivatecloudgatewayDnsMapTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/privatecloudgateway_dns_map spectrocloud_privatecloudgateway_dns_map}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/privatecloudgateway_dns_map spectrocloud_privatecloudgateway_dns_map}
 */
 export class PrivatecloudgatewayDnsMap extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class PrivatecloudgatewayDnsMap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivatecloudgatewayDnsMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivatecloudgatewayDnsMap to import
-  * @param importFromId The id of the existing PrivatecloudgatewayDnsMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/privatecloudgateway_dns_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivatecloudgatewayDnsMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/privatecloudgateway_dns_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivatecloudgatewayDnsMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class PrivatecloudgatewayDnsMap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/privatecloudgateway_dns_map spectrocloud_privatecloudgateway_dns_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/privatecloudgateway_dns_map spectrocloud_privatecloudgateway_dns_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class PrivatecloudgatewayDnsMap extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_privatecloudgateway_dns_map',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.1',
-        providerVersionConstraint: '0.26.1'
+        providerVersion: '0.26.2',
+        providerVersionConstraint: '0.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

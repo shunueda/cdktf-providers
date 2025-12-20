@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_workitem
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_workitem
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataGenesyscloudTaskManagementWorkitemConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_workitem#id DataGenesyscloudTaskManagementWorkitem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_workitem#id DataGenesyscloudTaskManagementWorkitem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataGenesyscloudTaskManagementWorkitemConfig extends cdktf.Terr
   /**
   * Task management workitem name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_workitem#name DataGenesyscloudTaskManagementWorkitem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_workitem#name DataGenesyscloudTaskManagementWorkitem#name}
   */
   readonly name: string;
   /**
   * Id of the workbin where the desired workitem is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_workitem#workbin_id DataGenesyscloudTaskManagementWorkitem#workbin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_workitem#workbin_id DataGenesyscloudTaskManagementWorkitem#workbin_id}
   */
   readonly workbinId?: string;
   /**
   * Id of the worktype of the desired workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_workitem#worktype_id DataGenesyscloudTaskManagementWorkitem#worktype_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_workitem#worktype_id DataGenesyscloudTaskManagementWorkitem#worktype_id}
   */
   readonly worktypeId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_workitem genesyscloud_task_management_workitem}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_workitem genesyscloud_task_management_workitem}
 */
 export class DataGenesyscloudTaskManagementWorkitem extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataGenesyscloudTaskManagementWorkitem extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataGenesyscloudTaskManagementWorkitem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGenesyscloudTaskManagementWorkitem to import
-  * @param importFromId The id of the existing DataGenesyscloudTaskManagementWorkitem that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_workitem#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGenesyscloudTaskManagementWorkitem that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_workitem#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGenesyscloudTaskManagementWorkitem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataGenesyscloudTaskManagementWorkitem extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/data-sources/task_management_workitem genesyscloud_task_management_workitem} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/data-sources/task_management_workitem genesyscloud_task_management_workitem} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataGenesyscloudTaskManagementWorkitem extends cdktf.TerraformDataS
       terraformResourceType: 'genesyscloud_task_management_workitem',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface ConfigurationTemplateConfig extends cdktf.TerraformMetaArgument
   /**
   * The ID of the owner of the configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#admin_owner_id ConfigurationTemplate#admin_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#admin_owner_id ConfigurationTemplate#admin_owner_id}
   */
   readonly adminOwnerId: string;
   /**
   * The IDs of the break glass users linked to the configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#break_glass_user_ids ConfigurationTemplate#break_glass_user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#break_glass_user_ids ConfigurationTemplate#break_glass_user_ids}
   */
   readonly breakGlassUserIds?: string[];
   /**
   * Custom request notification sent upon request approval for this configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#custom_request_notification ConfigurationTemplate#custom_request_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#custom_request_notification ConfigurationTemplate#custom_request_notification}
   */
   readonly customRequestNotification?: string;
   /**
   * The IDs of the audit message channels linked to the configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#linked_audit_message_channel_ids ConfigurationTemplate#linked_audit_message_channel_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#linked_audit_message_channel_ids ConfigurationTemplate#linked_audit_message_channel_ids}
   */
   readonly linkedAuditMessageChannelIds?: string[];
   /**
   * The IDs of the on-call schedules linked to the configuration template. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#member_on_call_schedule_ids ConfigurationTemplate#member_on_call_schedule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#member_on_call_schedule_ids ConfigurationTemplate#member_on_call_schedule_ids}
   */
   readonly memberOnCallScheduleIds?: string[];
   /**
   * The name of the configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#name ConfigurationTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#name ConfigurationTemplate#name}
   */
   readonly name: string;
   /**
   * The request configuration list of the configuration template. If not provided, the default request configuration will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#request_configurations ConfigurationTemplate#request_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#request_configurations ConfigurationTemplate#request_configurations}
   */
   readonly requestConfigurations?: ConfigurationTemplateRequestConfigurations[] | cdktf.IResolvable;
   /**
   * A bool representing whether or not to require MFA for reviewers to approve requests for this configuration template. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#require_mfa_to_approve ConfigurationTemplate#require_mfa_to_approve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#require_mfa_to_approve ConfigurationTemplate#require_mfa_to_approve}
   */
   readonly requireMfaToApprove?: boolean | cdktf.IResolvable;
   /**
   * A bool representing whether or not to require MFA to connect to resources associated with this configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#require_mfa_to_connect ConfigurationTemplate#require_mfa_to_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#require_mfa_to_connect ConfigurationTemplate#require_mfa_to_connect}
   */
   readonly requireMfaToConnect: boolean | cdktf.IResolvable;
   /**
   * Configuration for ticket propagation, when enabled, a ticket will be created for access changes related to the users in this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#ticket_propagation ConfigurationTemplate#ticket_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#ticket_propagation ConfigurationTemplate#ticket_propagation}
   */
   readonly ticketPropagation?: ConfigurationTemplateTicketPropagation;
   /**
   * Visibility infomation of an entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#visibility ConfigurationTemplate#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#visibility ConfigurationTemplate#visibility}
   */
   readonly visibility: ConfigurationTemplateVisibility;
 }
@@ -78,13 +78,13 @@ export interface ConfigurationTemplateRequestConfigurationsCondition {
   /**
   * The list of group IDs to match. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#group_ids ConfigurationTemplate#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#group_ids ConfigurationTemplate#group_ids}
   */
   readonly groupIds?: string[];
   /**
   * The list of role remote IDs to match. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#role_remote_ids ConfigurationTemplate#role_remote_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#role_remote_ids ConfigurationTemplate#role_remote_ids}
   */
   readonly roleRemoteIds?: string[];
 }
@@ -209,23 +209,23 @@ export interface ConfigurationTemplateRequestConfigurationsReviewerStages {
   /**
   * The operator of the reviewer stage. Admin and manager approval are also treated as reviewers. Default: "AND"; must be one of ["AND", "OR"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#operator ConfigurationTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#operator ConfigurationTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#owner_ids ConfigurationTemplate#owner_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#owner_ids ConfigurationTemplate#owner_ids}
   */
   readonly ownerIds: string[];
   /**
   * Whether this reviewer stage should require admin approval. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#require_admin_approval ConfigurationTemplate#require_admin_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#require_admin_approval ConfigurationTemplate#require_admin_approval}
   */
   readonly requireAdminApproval?: boolean | cdktf.IResolvable;
   /**
   * Whether this reviewer stage should require manager approval. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#require_manager_approval ConfigurationTemplate#require_manager_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#require_manager_approval ConfigurationTemplate#require_manager_approval}
   */
   readonly requireManagerApproval?: boolean | cdktf.IResolvable;
 }
@@ -427,67 +427,67 @@ export interface ConfigurationTemplateRequestConfigurations {
   /**
   * A bool representing whether or not to allow requests for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#allow_requests ConfigurationTemplate#allow_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#allow_requests ConfigurationTemplate#allow_requests}
   */
   readonly allowRequests: boolean | cdktf.IResolvable;
   /**
   * A bool representing whether or not to automatically approve requests for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#auto_approval ConfigurationTemplate#auto_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#auto_approval ConfigurationTemplate#auto_approval}
   */
   readonly autoApproval: boolean | cdktf.IResolvable;
   /**
   * The condition for the request configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#condition ConfigurationTemplate#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#condition ConfigurationTemplate#condition}
   */
   readonly condition?: ConfigurationTemplateRequestConfigurationsCondition;
   /**
   * The duration for which access can be extended (in minutes). Set to 0 to disable extensions. When > 0, extensions are enabled for the specified duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#extensions_duration_in_minutes ConfigurationTemplate#extensions_duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#extensions_duration_in_minutes ConfigurationTemplate#extensions_duration_in_minutes}
   */
   readonly extensionsDurationInMinutes?: number;
   /**
   * The maximum duration for which the resource can be requested (in minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#max_duration ConfigurationTemplate#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#max_duration ConfigurationTemplate#max_duration}
   */
   readonly maxDuration?: number;
   /**
   * The priority of the request configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#priority ConfigurationTemplate#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#priority ConfigurationTemplate#priority}
   */
   readonly priority: number;
   /**
   * The recommended duration for which the resource should be requested (in minutes). -1 represents an indefinite duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#recommended_duration ConfigurationTemplate#recommended_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#recommended_duration ConfigurationTemplate#recommended_duration}
   */
   readonly recommendedDuration?: number;
   /**
   * The ID of the associated request template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#request_template_id ConfigurationTemplate#request_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#request_template_id ConfigurationTemplate#request_template_id}
   */
   readonly requestTemplateId?: string;
   /**
   * A bool representing whether or not to require MFA for requesting access to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#require_mfa_to_request ConfigurationTemplate#require_mfa_to_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#require_mfa_to_request ConfigurationTemplate#require_mfa_to_request}
   */
   readonly requireMfaToRequest: boolean | cdktf.IResolvable;
   /**
   * A bool representing whether or not access requests to the resource require an access ticket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#require_support_ticket ConfigurationTemplate#require_support_ticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#require_support_ticket ConfigurationTemplate#require_support_ticket}
   */
   readonly requireSupportTicket: boolean | cdktf.IResolvable;
   /**
   * The list of reviewer stages for the request configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#reviewer_stages ConfigurationTemplate#reviewer_stages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#reviewer_stages ConfigurationTemplate#reviewer_stages}
   */
   readonly reviewerStages?: ConfigurationTemplateRequestConfigurationsReviewerStages[] | cdktf.IResolvable;
 }
@@ -880,23 +880,23 @@ export interface ConfigurationTemplateTicketPropagation {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#enabled_on_grant ConfigurationTemplate#enabled_on_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#enabled_on_grant ConfigurationTemplate#enabled_on_grant}
   */
   readonly enabledOnGrant?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#enabled_on_revocation ConfigurationTemplate#enabled_on_revocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#enabled_on_revocation ConfigurationTemplate#enabled_on_revocation}
   */
   readonly enabledOnRevocation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#ticket_project_id ConfigurationTemplate#ticket_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#ticket_project_id ConfigurationTemplate#ticket_project_id}
   */
   readonly ticketProjectId?: string;
   /**
   * The third party ticketing platform provider. must be one of ["JIRA", "LINEAR", "SERVICE_NOW"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#ticket_provider ConfigurationTemplate#ticket_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#ticket_provider ConfigurationTemplate#ticket_provider}
   */
   readonly ticketProvider?: string;
 }
@@ -1079,13 +1079,13 @@ export interface ConfigurationTemplateVisibility {
   /**
   * The visibility level of the entity. must be one of ["GLOBAL", "LIMITED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#visibility ConfigurationTemplate#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#visibility ConfigurationTemplate#visibility}
   */
   readonly visibility: string;
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#visibility_group_ids ConfigurationTemplate#visibility_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#visibility_group_ids ConfigurationTemplate#visibility_group_ids}
   */
   readonly visibilityGroupIds?: string[];
 }
@@ -1205,7 +1205,7 @@ export class ConfigurationTemplateVisibilityOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template opal_configuration_template}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template opal_configuration_template}
 */
 export class ConfigurationTemplate extends cdktf.TerraformResource {
 
@@ -1221,7 +1221,7 @@ export class ConfigurationTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigurationTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigurationTemplate to import
-  * @param importFromId The id of the existing ConfigurationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigurationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigurationTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1233,7 +1233,7 @@ export class ConfigurationTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/configuration_template opal_configuration_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/configuration_template opal_configuration_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1244,8 +1244,8 @@ export class ConfigurationTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'opal_configuration_template',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

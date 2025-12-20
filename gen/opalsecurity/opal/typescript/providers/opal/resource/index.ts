@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface ResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the owner of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#admin_owner_id Resource#admin_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#admin_owner_id Resource#admin_owner_id}
   */
   readonly adminOwnerId?: string;
   /**
   * The ID of the app for the resource. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#app_id Resource#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#app_id Resource#app_id}
   */
   readonly appId: string;
   /**
   * Custom request notification sent upon request approval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#custom_request_notification Resource#custom_request_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#custom_request_notification Resource#custom_request_notification}
   */
   readonly customRequestNotification?: string;
   /**
-  * A description of the remote resource.
+  * A description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#description Resource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#description Resource#description}
   */
   readonly description?: string;
   /**
   * The duration for which access can be extended (in minutes). Deprecated, set the extension duration in the request_configuration you want it to apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#extensions_duration_in_minutes Resource#extensions_duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#extensions_duration_in_minutes Resource#extensions_duration_in_minutes}
   */
   readonly extensionsDurationInMinutes?: number;
   /**
-  * The name of the remote resource.
+  * The name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * Information that defines the remote resource. This replaces the deprecated remote_id and metadata fields. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#remote_info Resource#remote_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#remote_info Resource#remote_info}
   */
   readonly remoteInfo?: ResourceRemoteInfo;
   /**
   * A list of configurations for requests to this resource. If not provided, the default request configuration will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#request_configurations Resource#request_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#request_configurations Resource#request_configurations}
   */
   readonly requestConfigurations: ResourceRequestConfigurations[] | cdktf.IResolvable;
   /**
   * A bool representing whether or not to require MFA for reviewers to approve requests for this resource. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#require_mfa_to_approve Resource#require_mfa_to_approve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#require_mfa_to_approve Resource#require_mfa_to_approve}
   */
   readonly requireMfaToApprove?: boolean | cdktf.IResolvable;
   /**
   * A bool representing whether or not to require MFA to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#require_mfa_to_connect Resource#require_mfa_to_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#require_mfa_to_connect Resource#require_mfa_to_connect}
   */
   readonly requireMfaToConnect?: boolean | cdktf.IResolvable;
   /**
-  * The type of the resource. must be one of ["AWS_IAM_ROLE", "AWS_EC2_INSTANCE", "AWS_EKS_CLUSTER", "AWS_RDS_POSTGRES_CLUSTER", "AWS_RDS_POSTGRES_INSTANCE", "AWS_RDS_MYSQL_CLUSTER", "AWS_RDS_MYSQL_INSTANCE", "AWS_ACCOUNT", "AWS_SSO_PERMISSION_SET", "AWS_ORGANIZATIONAL_UNIT", "AZURE_MANAGEMENT_GROUP", "AZURE_RESOURCE_GROUP", "AZURE_SUBSCRIPTION", "AZURE_VIRTUAL_MACHINE", "AZURE_STORAGE_ACCOUNT", "AZURE_STORAGE_CONTAINER", "AZURE_SQL_SERVER", "AZURE_SQL_MANAGED_INSTANCE", "AZURE_SQL_DATABASE", "AZURE_SQL_MANAGED_DATABASE", "AZURE_USER_ASSIGNED_MANAGED_Identity", "AZURE_ENTRA_ID_ROLE", "AZURE_ENTERPRISE_APP", "CUSTOM", "CUSTOM_CONNECTOR", "DATABRICKS_ACCOUNT_SERVICE_PRINCIPAL", "GCP_ORGANIZATION", "GCP_BUCKET", "GCP_COMPUTE_INSTANCE", "GCP_FOLDER", "GCP_GKE_CLUSTER", "GCP_PROJECT", "GCP_CLOUD_SQL_POSTGRES_INSTANCE", "GCP_CLOUD_SQL_MYSQL_INSTANCE", "GCP_BIG_QUERY_DATASET", "GCP_BIG_QUERY_TABLE", "GCP_SERVICE_ACCOUNT", "GIT_HUB_REPO", "GIT_HUB_ORG_ROLE", "GIT_LAB_PROJECT", "GOOGLE_WORKSPACE_ROLE", "MONGO_INSTANCE", "MONGO_ATLAS_INSTANCE", "OKTA_APP", "OKTA_ROLE", "OPAL_ROLE", "OPAL_SCOPED_ROLE", "PAGERDUTY_ROLE", "TAILSCALE_SSH", "SALESFORCE_PERMISSION_SET", "SALESFORCE_PROFILE", "SALESFORCE_ROLE", "SNOWFLAKE_DATABASE", "SNOWFLAKE_SCHEMA", "SNOWFLAKE_TABLE", "WORKDAY_ROLE", "MYSQL_INSTANCE", "MARIADB_INSTANCE", "POSTGRES_INSTANCE", "TELEPORT_ROLE", "ILEVEL_ADVANCED_ROLE", "DATASTAX_ASTRA_ROLE", "COUPA_ROLE", "CURSOR_ORGANIZATION", "OPENAI_PLATFORM_PROJECT", "OPENAI_PLATFORM_SERVICE_ACCOUNT", "ANTHROPIC_WORKSPACE", "GIT_HUB_ORG", "ORACLE_FUSION_ROLE"]; Requires replacement if changed.
+  * The type of the resource. must be one of ["AWS_IAM_ROLE", "AWS_EC2_INSTANCE", "AWS_EKS_CLUSTER", "AWS_RDS_POSTGRES_CLUSTER", "AWS_RDS_POSTGRES_INSTANCE", "AWS_RDS_MYSQL_CLUSTER", "AWS_RDS_MYSQL_INSTANCE", "AWS_ACCOUNT", "AWS_SSO_PERMISSION_SET", "AWS_ORGANIZATIONAL_UNIT", "AZURE_MANAGEMENT_GROUP", "AZURE_RESOURCE_GROUP", "AZURE_SUBSCRIPTION", "AZURE_VIRTUAL_MACHINE", "AZURE_STORAGE_ACCOUNT", "AZURE_STORAGE_CONTAINER", "AZURE_SQL_SERVER", "AZURE_SQL_MANAGED_INSTANCE", "AZURE_SQL_DATABASE", "AZURE_SQL_MANAGED_DATABASE", "AZURE_USER_ASSIGNED_MANAGED_Identity", "AZURE_ENTRA_ID_ROLE", "AZURE_ENTERPRISE_APP", "CUSTOM", "CUSTOM_CONNECTOR", "DATABRICKS_ACCOUNT_SERVICE_PRINCIPAL", "GCP_ORGANIZATION", "GCP_BUCKET", "GCP_COMPUTE_INSTANCE", "GCP_FOLDER", "GCP_GKE_CLUSTER", "GCP_PROJECT", "GCP_CLOUD_SQL_POSTGRES_INSTANCE", "GCP_CLOUD_SQL_MYSQL_INSTANCE", "GCP_BIG_QUERY_DATASET", "GCP_BIG_QUERY_TABLE", "GCP_SERVICE_ACCOUNT", "GIT_HUB_REPO", "GIT_HUB_ORG_ROLE", "GIT_LAB_PROJECT", "GOOGLE_WORKSPACE_ROLE", "MONGO_INSTANCE", "MONGO_ATLAS_INSTANCE", "OKTA_APP", "OKTA_ROLE", "OPAL_ROLE", "OPAL_SCOPED_ROLE", "PAGERDUTY_ROLE", "TAILSCALE_SSH", "SALESFORCE_PERMISSION_SET", "SALESFORCE_PROFILE", "SALESFORCE_ROLE", "SNOWFLAKE_DATABASE", "SNOWFLAKE_SCHEMA", "SNOWFLAKE_TABLE", "WORKDAY_ROLE", "MYSQL_INSTANCE", "MARIADB_INSTANCE", "POSTGRES_INSTANCE", "TELEPORT_ROLE", "ILEVEL_ADVANCED_ROLE", "DATASTAX_ASTRA_ROLE", "COUPA_ROLE", "CURSOR_ORGANIZATION", "OPENAI_PLATFORM_PROJECT", "OPENAI_PLATFORM_SERVICE_ACCOUNT", "ANTHROPIC_WORKSPACE", "GIT_HUB_ORG", "ORACLE_FUSION_ROLE", "DEVIN_ORGANIZATION", "DEVIN_ROLE", "VAULT_SECRET", "VAULT_POLICY", "VAULT_OIDC_ROLE"]; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_type Resource#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_type Resource#resource_type}
   */
   readonly resourceType: string;
   /**
   * Indicates the level of potential impact misuse or unauthorized access may incur. must be one of ["UNKNOWN", "CRITICAL", "HIGH", "MEDIUM", "LOW", "NONE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#risk_sensitivity_override Resource#risk_sensitivity_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#risk_sensitivity_override Resource#risk_sensitivity_override}
   */
   readonly riskSensitivityOverride?: string;
   /**
   * Configuration for ticket propagation, when enabled, a ticket will be created for access changes related to the users in this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#ticket_propagation Resource#ticket_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#ticket_propagation Resource#ticket_propagation}
   */
   readonly ticketPropagation?: ResourceTicketPropagation;
   /**
   * The visibility level of the entity. must be one of ["GLOBAL", "LIMITED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#visibility Resource#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#visibility Resource#visibility}
   */
   readonly visibility: string;
   /**
   * Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#visibility_group_ids Resource#visibility_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#visibility_group_ids Resource#visibility_group_ids}
   */
   readonly visibilityGroupIds?: string[];
 }
@@ -161,7 +161,7 @@ export interface ResourceRemoteInfoAnthropicWorkspace {
   /**
   * The id of the workspace. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#workspace_id Resource#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#workspace_id Resource#workspace_id}
   */
   readonly workspaceId?: string;
 }
@@ -257,13 +257,13 @@ export interface ResourceRemoteInfoAwsAccount {
   /**
   * The id of the AWS account. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#account_id Resource#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#account_id Resource#account_id}
   */
   readonly accountId?: string;
   /**
   * The id of the AWS organizational unit. Required only if customer has OUs enabled. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#organizational_unit_id Resource#organizational_unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#organizational_unit_id Resource#organizational_unit_id}
   */
   readonly organizationalUnitId?: string;
 }
@@ -388,19 +388,19 @@ export interface ResourceRemoteInfoAwsEc2Instance {
   /**
   * The id of the AWS account. Required for AWS Organizations. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#account_id Resource#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#account_id Resource#account_id}
   */
   readonly accountId?: string;
   /**
   * The instanceId of the EC2 instance. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#instance_id Resource#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#instance_id Resource#instance_id}
   */
   readonly instanceId?: string;
   /**
   * The region of the EC2 instance. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#region Resource#region}
   */
   readonly region?: string;
 }
@@ -554,13 +554,13 @@ export interface ResourceRemoteInfoAwsEksCluster {
   /**
   * The id of the AWS account. Required for AWS Organizations. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#account_id Resource#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#account_id Resource#account_id}
   */
   readonly accountId?: string;
   /**
   * The ARN of the EKS cluster. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#arn Resource#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#arn Resource#arn}
   */
   readonly arn?: string;
 }
@@ -685,13 +685,13 @@ export interface ResourceRemoteInfoAwsIamRole {
   /**
   * The id of the AWS account. Required for AWS Organizations. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#account_id Resource#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#account_id Resource#account_id}
   */
   readonly accountId?: string;
   /**
   * The ARN of the IAM role. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#arn Resource#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#arn Resource#arn}
   */
   readonly arn?: string;
 }
@@ -816,13 +816,13 @@ export interface ResourceRemoteInfoAwsOrganizationalUnit {
   /**
   * The id of the AWS organizational unit that is being created. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#organizational_unit_id Resource#organizational_unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#organizational_unit_id Resource#organizational_unit_id}
   */
   readonly organizationalUnitId?: string;
   /**
   * The id of the parent organizational unit. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#parent_id Resource#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#parent_id Resource#parent_id}
   */
   readonly parentId?: string;
 }
@@ -947,13 +947,13 @@ export interface ResourceRemoteInfoAwsPermissionSet {
   /**
   * The ID of an AWS account to which this permission set is provisioned. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#account_id Resource#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#account_id Resource#account_id}
   */
   readonly accountId?: string;
   /**
   * The ARN of the permission set. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#arn Resource#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#arn Resource#arn}
   */
   readonly arn?: string;
 }
@@ -1078,37 +1078,37 @@ export interface ResourceRemoteInfoAwsRdsCluster {
   /**
   * The id of the AWS account. Required for AWS Organizations. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#account_id Resource#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#account_id Resource#account_id}
   */
   readonly accountId?: string;
   /**
   * The clusterId of the RDS cluster. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#cluster_id Resource#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#cluster_id Resource#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The name of the database in the RDS cluster. This can be the value of the tag `opal:database-name` or the database name. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#database_name Resource#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#database_name Resource#database_name}
   */
   readonly databaseName?: string;
   /**
   * The database engine for the RDS instance. Not Null; must be one of ["MYSQL", "POSTGRESQL"]; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#engine Resource#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#engine Resource#engine}
   */
   readonly engine?: string;
   /**
   * The region of the RDS cluster. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#region Resource#region}
   */
   readonly region?: string;
   /**
   * The resourceId of the RDS cluster. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -1349,25 +1349,25 @@ export interface ResourceRemoteInfoAwsRdsInstance {
   /**
   * The id of the AWS account. Required for AWS Organizations. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#account_id Resource#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#account_id Resource#account_id}
   */
   readonly accountId?: string;
   /**
   * The instanceId of the RDS instance. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#instance_id Resource#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#instance_id Resource#instance_id}
   */
   readonly instanceId?: string;
   /**
   * The region of the RDS instance. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#region Resource#region}
   */
   readonly region?: string;
   /**
   * The resourceId of the RDS instance. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -1550,7 +1550,7 @@ export interface ResourceRemoteInfoAzureEnterpriseApp {
   /**
   * The remote application identifier (service principal or application object ID). Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -1646,7 +1646,7 @@ export interface ResourceRemoteInfoAzureEntraIdRole {
   /**
   * The remote role identifier from Entra (object ID). Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -1742,7 +1742,7 @@ export interface ResourceRemoteInfoAzureManagementGroup {
   /**
   * The ARM resource ID of the management group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -1838,7 +1838,7 @@ export interface ResourceRemoteInfoAzureResourceGroup {
   /**
   * The ARM resource ID of the resource group. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -1934,7 +1934,7 @@ export interface ResourceRemoteInfoAzureSqlDatabase {
   /**
   * The ARM resource ID of the SQL database. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -2030,7 +2030,7 @@ export interface ResourceRemoteInfoAzureSqlManagedDatabase {
   /**
   * The ARM resource ID of the SQL managed database. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -2126,7 +2126,7 @@ export interface ResourceRemoteInfoAzureSqlManagedInstance {
   /**
   * The ARM resource ID of the SQL managed instance. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -2222,7 +2222,7 @@ export interface ResourceRemoteInfoAzureSqlServer {
   /**
   * The ARM resource ID of the SQL server. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -2318,7 +2318,7 @@ export interface ResourceRemoteInfoAzureStorageAccount {
   /**
   * The ARM resource ID of the storage account. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -2414,7 +2414,7 @@ export interface ResourceRemoteInfoAzureStorageContainer {
   /**
   * The ARM resource ID of the storage container. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -2510,7 +2510,7 @@ export interface ResourceRemoteInfoAzureSubscription {
   /**
   * The ARM resource ID of the subscription. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -2606,7 +2606,7 @@ export interface ResourceRemoteInfoAzureUserAssignedManagedIdentity {
   /**
   * The ARM resource ID of the user assigned managed identity. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -2702,7 +2702,7 @@ export interface ResourceRemoteInfoAzureVirtualMachine {
   /**
   * The ARM resource ID of the virtual machine. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -2798,7 +2798,7 @@ export interface ResourceRemoteInfoCoupaRole {
   /**
   * The id of the role. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#role_id Resource#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#role_id Resource#role_id}
   */
   readonly roleId?: string;
 }
@@ -2894,7 +2894,7 @@ export interface ResourceRemoteInfoCursorOrganization {
   /**
   * The id of the organization. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#org_id Resource#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#org_id Resource#org_id}
   */
   readonly orgId?: string;
 }
@@ -2990,13 +2990,13 @@ export interface ResourceRemoteInfoCustomConnector {
   /**
   * A bool representing whether or not the resource can have usage data. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#can_have_usage_events Resource#can_have_usage_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#can_have_usage_events Resource#can_have_usage_events}
   */
   readonly canHaveUsageEvents?: boolean | cdktf.IResolvable;
   /**
   * The id of the resource in the end system. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#remote_resource_id Resource#remote_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#remote_resource_id Resource#remote_resource_id}
   */
   readonly remoteResourceId?: string;
 }
@@ -3121,13 +3121,13 @@ export interface ResourceRemoteInfoDatabricksAccountServicePrincipal {
   /**
   * The application ID of the service principal. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#application_id Resource#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#application_id Resource#application_id}
   */
   readonly applicationId?: string;
   /**
   * The resource ID of the service principal. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#resource_id Resource#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#resource_id Resource#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -3252,7 +3252,7 @@ export interface ResourceRemoteInfoDatastaxAstraRole {
   /**
   * The id of the role. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#role_id Resource#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#role_id Resource#role_id}
   */
   readonly roleId?: string;
 }
@@ -3344,17 +3344,209 @@ export class ResourceRemoteInfoDatastaxAstraRoleOutputReference extends cdktf.Co
     return this._roleId;
   }
 }
+export interface ResourceRemoteInfoDevinOrganization {
+  /**
+  * The id of the organization. Not Null; Requires replacement if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#org_id Resource#org_id}
+  */
+  readonly orgId?: string;
+}
+
+export function resourceRemoteInfoDevinOrganizationToTerraform(struct?: ResourceRemoteInfoDevinOrganization | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    org_id: cdktf.stringToTerraform(struct!.orgId),
+  }
+}
+
+
+export function resourceRemoteInfoDevinOrganizationToHclTerraform(struct?: ResourceRemoteInfoDevinOrganization | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    org_id: {
+      value: cdktf.stringToHclTerraform(struct!.orgId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ResourceRemoteInfoDevinOrganizationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ResourceRemoteInfoDevinOrganization | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._orgId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.orgId = this._orgId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ResourceRemoteInfoDevinOrganization | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._orgId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._orgId = value.orgId;
+    }
+  }
+
+  // org_id - computed: true, optional: true, required: false
+  private _orgId?: string; 
+  public get orgId() {
+    return this.getStringAttribute('org_id');
+  }
+  public set orgId(value: string) {
+    this._orgId = value;
+  }
+  public resetOrgId() {
+    this._orgId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get orgIdInput() {
+    return this._orgId;
+  }
+}
+export interface ResourceRemoteInfoDevinRole {
+  /**
+  * The id of the role. Not Null; Requires replacement if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#role_id Resource#role_id}
+  */
+  readonly roleId?: string;
+}
+
+export function resourceRemoteInfoDevinRoleToTerraform(struct?: ResourceRemoteInfoDevinRole | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    role_id: cdktf.stringToTerraform(struct!.roleId),
+  }
+}
+
+
+export function resourceRemoteInfoDevinRoleToHclTerraform(struct?: ResourceRemoteInfoDevinRole | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    role_id: {
+      value: cdktf.stringToHclTerraform(struct!.roleId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ResourceRemoteInfoDevinRoleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ResourceRemoteInfoDevinRole | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._roleId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.roleId = this._roleId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ResourceRemoteInfoDevinRole | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._roleId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._roleId = value.roleId;
+    }
+  }
+
+  // role_id - computed: true, optional: true, required: false
+  private _roleId?: string; 
+  public get roleId() {
+    return this.getStringAttribute('role_id');
+  }
+  public set roleId(value: string) {
+    this._roleId = value;
+  }
+  public resetRoleId() {
+    this._roleId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get roleIdInput() {
+    return this._roleId;
+  }
+}
 export interface ResourceRemoteInfoGcpBigQueryDataset {
   /**
   * The id of the dataset. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#dataset_id Resource#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#dataset_id Resource#dataset_id}
   */
   readonly datasetId?: string;
   /**
   * The id of the project the dataset is in. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#project_id Resource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#project_id Resource#project_id}
   */
   readonly projectId?: string;
 }
@@ -3479,19 +3671,19 @@ export interface ResourceRemoteInfoGcpBigQueryTable {
   /**
   * The id of the dataset the table is in. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#dataset_id Resource#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#dataset_id Resource#dataset_id}
   */
   readonly datasetId?: string;
   /**
   * The id of the project the table is in. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#project_id Resource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#project_id Resource#project_id}
   */
   readonly projectId?: string;
   /**
   * The id of the table. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#table_id Resource#table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#table_id Resource#table_id}
   */
   readonly tableId?: string;
 }
@@ -3645,7 +3837,7 @@ export interface ResourceRemoteInfoGcpBucket {
   /**
   * The id of the bucket. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#bucket_id Resource#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#bucket_id Resource#bucket_id}
   */
   readonly bucketId?: string;
 }
@@ -3741,19 +3933,19 @@ export interface ResourceRemoteInfoGcpComputeInstance {
   /**
   * The id of the instance. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#instance_id Resource#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#instance_id Resource#instance_id}
   */
   readonly instanceId?: string;
   /**
   * The id of the project the instance is in. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#project_id Resource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#project_id Resource#project_id}
   */
   readonly projectId?: string;
   /**
   * The zone the instance is in. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#zone Resource#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#zone Resource#zone}
   */
   readonly zone?: string;
 }
@@ -3907,7 +4099,7 @@ export interface ResourceRemoteInfoGcpFolder {
   /**
   * The id of the folder. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#folder_id Resource#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#folder_id Resource#folder_id}
   */
   readonly folderId?: string;
 }
@@ -4003,7 +4195,7 @@ export interface ResourceRemoteInfoGcpGkeCluster {
   /**
   * The name of the GKE cluster. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#cluster_name Resource#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#cluster_name Resource#cluster_name}
   */
   readonly clusterName?: string;
 }
@@ -4099,7 +4291,7 @@ export interface ResourceRemoteInfoGcpOrganization {
   /**
   * The id of the organization. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#organization_id Resource#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#organization_id Resource#organization_id}
   */
   readonly organizationId?: string;
 }
@@ -4195,7 +4387,7 @@ export interface ResourceRemoteInfoGcpProject {
   /**
   * The id of the project. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#project_id Resource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#project_id Resource#project_id}
   */
   readonly projectId?: string;
 }
@@ -4291,19 +4483,19 @@ export interface ResourceRemoteInfoGcpServiceAccount {
   /**
   * The email of the service account. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#email Resource#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#email Resource#email}
   */
   readonly email?: string;
   /**
   * The id of the project the service account is in. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#project_id Resource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#project_id Resource#project_id}
   */
   readonly projectId?: string;
   /**
   * The id of the service account. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#service_account_id Resource#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#service_account_id Resource#service_account_id}
   */
   readonly serviceAccountId?: string;
 }
@@ -4457,13 +4649,13 @@ export interface ResourceRemoteInfoGcpSqlInstance {
   /**
   * The id of the SQL instance. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#instance_id Resource#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#instance_id Resource#instance_id}
   */
   readonly instanceId?: string;
   /**
   * The id of the project the instance is in. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#project_id Resource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#project_id Resource#project_id}
   */
   readonly projectId?: string;
 }
@@ -4588,7 +4780,7 @@ export interface ResourceRemoteInfoGithubOrg {
   /**
   * The name of the organization. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#org_name Resource#org_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#org_name Resource#org_name}
   */
   readonly orgName?: string;
 }
@@ -4684,7 +4876,7 @@ export interface ResourceRemoteInfoGithubOrgRole {
   /**
   * The id of the role. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#role_id Resource#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#role_id Resource#role_id}
   */
   readonly roleId?: string;
 }
@@ -4780,7 +4972,7 @@ export interface ResourceRemoteInfoGithubRepo {
   /**
   * The name of the repository. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#repo_name Resource#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#repo_name Resource#repo_name}
   */
   readonly repoName?: string;
 }
@@ -4876,7 +5068,7 @@ export interface ResourceRemoteInfoGitlabProject {
   /**
   * The id of the project. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#project_id Resource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#project_id Resource#project_id}
   */
   readonly projectId?: string;
 }
@@ -4972,7 +5164,7 @@ export interface ResourceRemoteInfoGoogleWorkspaceRole {
   /**
   * The id of the role. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#role_id Resource#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#role_id Resource#role_id}
   */
   readonly roleId?: string;
 }
@@ -5068,7 +5260,7 @@ export interface ResourceRemoteInfoIlevelAdvancedRole {
   /**
   * The name of the role. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#role_name Resource#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#role_name Resource#role_name}
   */
   readonly roleName?: string;
 }
@@ -5164,7 +5356,7 @@ export interface ResourceRemoteInfoOktaApp {
   /**
   * The id of the app. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#app_id Resource#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#app_id Resource#app_id}
   */
   readonly appId?: string;
 }
@@ -5260,7 +5452,7 @@ export interface ResourceRemoteInfoOktaCustomRole {
   /**
   * The id of the custom role. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#role_id Resource#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#role_id Resource#role_id}
   */
   readonly roleId?: string;
 }
@@ -5356,7 +5548,7 @@ export interface ResourceRemoteInfoOktaStandardRole {
   /**
   * The type of the standard role. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#role_type Resource#role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#role_type Resource#role_type}
   */
   readonly roleType?: string;
 }
@@ -5452,7 +5644,7 @@ export interface ResourceRemoteInfoOpenaiPlatformProject {
   /**
   * The id of the project. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#project_id Resource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#project_id Resource#project_id}
   */
   readonly projectId?: string;
 }
@@ -5548,13 +5740,13 @@ export interface ResourceRemoteInfoOpenaiPlatformServiceAccount {
   /**
   * The id of the project for the service account. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#project_id Resource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#project_id Resource#project_id}
   */
   readonly projectId?: string;
   /**
   * The id of the service account. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#service_account_id Resource#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#service_account_id Resource#service_account_id}
   */
   readonly serviceAccountId?: string;
 }
@@ -5679,7 +5871,7 @@ export interface ResourceRemoteInfoOracleFusionRole {
   /**
   * The id of the role. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#role_id Resource#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#role_id Resource#role_id}
   */
   readonly roleId?: string;
 }
@@ -5775,7 +5967,7 @@ export interface ResourceRemoteInfoPagerdutyRole {
   /**
   * The name of the role. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#role_name Resource#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#role_name Resource#role_name}
   */
   readonly roleName?: string;
 }
@@ -5871,7 +6063,7 @@ export interface ResourceRemoteInfoSalesforcePermissionSet {
   /**
   * The id of the permission set. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#permission_set_id Resource#permission_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#permission_set_id Resource#permission_set_id}
   */
   readonly permissionSetId?: string;
 }
@@ -5967,13 +6159,13 @@ export interface ResourceRemoteInfoSalesforceProfile {
   /**
   * The id of the permission set. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#profile_id Resource#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#profile_id Resource#profile_id}
   */
   readonly profileId?: string;
   /**
   * The id of the user license. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#user_license_id Resource#user_license_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#user_license_id Resource#user_license_id}
   */
   readonly userLicenseId?: string;
 }
@@ -6098,7 +6290,7 @@ export interface ResourceRemoteInfoSalesforceRole {
   /**
   * The id of the role. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#role_id Resource#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#role_id Resource#role_id}
   */
   readonly roleId?: string;
 }
@@ -6194,7 +6386,7 @@ export interface ResourceRemoteInfoSnowflakeDatabase {
   /**
   * The name of the database. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#database_name Resource#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#database_name Resource#database_name}
   */
   readonly databaseName?: string;
 }
@@ -6290,13 +6482,13 @@ export interface ResourceRemoteInfoSnowflakeSchema {
   /**
   * The name of the database the schema is in. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#database_name Resource#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#database_name Resource#database_name}
   */
   readonly databaseName?: string;
   /**
   * The name of the schema. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#schema_name Resource#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#schema_name Resource#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -6421,19 +6613,19 @@ export interface ResourceRemoteInfoSnowflakeTable {
   /**
   * The name of the database the table is in. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#database_name Resource#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#database_name Resource#database_name}
   */
   readonly databaseName?: string;
   /**
   * The name of the schema the table is in. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#schema_name Resource#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#schema_name Resource#schema_name}
   */
   readonly schemaName?: string;
   /**
   * The name of the table. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#table_name Resource#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#table_name Resource#table_name}
   */
   readonly tableName?: string;
 }
@@ -6587,7 +6779,7 @@ export interface ResourceRemoteInfoTailscaleSsh {
   /**
   * The name of the tag. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#tag_name Resource#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#tag_name Resource#tag_name}
   */
   readonly tagName?: string;
 }
@@ -6683,7 +6875,7 @@ export interface ResourceRemoteInfoTeleportRole {
   /**
   * The name role. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#role_name Resource#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#role_name Resource#role_name}
   */
   readonly roleName?: string;
 }
@@ -6779,7 +6971,7 @@ export interface ResourceRemoteInfoWorkdayRole {
   /**
   * The id of the role. Not Null; Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#role_id Resource#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#role_id Resource#role_id}
   */
   readonly roleId?: string;
 }
@@ -6875,355 +7067,367 @@ export interface ResourceRemoteInfo {
   /**
   * Remote info for Anthropic workspace. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#anthropic_workspace Resource#anthropic_workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#anthropic_workspace Resource#anthropic_workspace}
   */
   readonly anthropicWorkspace?: ResourceRemoteInfoAnthropicWorkspace;
   /**
   * Remote info for AWS account. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#aws_account Resource#aws_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#aws_account Resource#aws_account}
   */
   readonly awsAccount?: ResourceRemoteInfoAwsAccount;
   /**
   * Remote info for AWS EC2 instance. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#aws_ec2_instance Resource#aws_ec2_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#aws_ec2_instance Resource#aws_ec2_instance}
   */
   readonly awsEc2Instance?: ResourceRemoteInfoAwsEc2Instance;
   /**
   * Remote info for AWS EKS cluster. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#aws_eks_cluster Resource#aws_eks_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#aws_eks_cluster Resource#aws_eks_cluster}
   */
   readonly awsEksCluster?: ResourceRemoteInfoAwsEksCluster;
   /**
   * Remote info for AWS IAM role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#aws_iam_role Resource#aws_iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#aws_iam_role Resource#aws_iam_role}
   */
   readonly awsIamRole?: ResourceRemoteInfoAwsIamRole;
   /**
   * Remote info for AWS organizational unit. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#aws_organizational_unit Resource#aws_organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#aws_organizational_unit Resource#aws_organizational_unit}
   */
   readonly awsOrganizationalUnit?: ResourceRemoteInfoAwsOrganizationalUnit;
   /**
   * Remote info for AWS Identity Center permission set. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#aws_permission_set Resource#aws_permission_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#aws_permission_set Resource#aws_permission_set}
   */
   readonly awsPermissionSet?: ResourceRemoteInfoAwsPermissionSet;
   /**
   * Remote info for AWS RDS cluster. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#aws_rds_cluster Resource#aws_rds_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#aws_rds_cluster Resource#aws_rds_cluster}
   */
   readonly awsRdsCluster?: ResourceRemoteInfoAwsRdsCluster;
   /**
   * Remote info for AWS RDS instance. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#aws_rds_instance Resource#aws_rds_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#aws_rds_instance Resource#aws_rds_instance}
   */
   readonly awsRdsInstance?: ResourceRemoteInfoAwsRdsInstance;
   /**
   * Remote info for Azure Enterprise App. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#azure_enterprise_app Resource#azure_enterprise_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#azure_enterprise_app Resource#azure_enterprise_app}
   */
   readonly azureEnterpriseApp?: ResourceRemoteInfoAzureEnterpriseApp;
   /**
   * Remote info for Azure Entra ID role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#azure_entra_id_role Resource#azure_entra_id_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#azure_entra_id_role Resource#azure_entra_id_role}
   */
   readonly azureEntraIdRole?: ResourceRemoteInfoAzureEntraIdRole;
   /**
   * Remote info for Azure management group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#azure_management_group Resource#azure_management_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#azure_management_group Resource#azure_management_group}
   */
   readonly azureManagementGroup?: ResourceRemoteInfoAzureManagementGroup;
   /**
   * Remote info for Azure resource group. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#azure_resource_group Resource#azure_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#azure_resource_group Resource#azure_resource_group}
   */
   readonly azureResourceGroup?: ResourceRemoteInfoAzureResourceGroup;
   /**
   * Remote info for Azure SQL database. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#azure_sql_database Resource#azure_sql_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#azure_sql_database Resource#azure_sql_database}
   */
   readonly azureSqlDatabase?: ResourceRemoteInfoAzureSqlDatabase;
   /**
   * Remote info for Azure SQL managed database. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#azure_sql_managed_database Resource#azure_sql_managed_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#azure_sql_managed_database Resource#azure_sql_managed_database}
   */
   readonly azureSqlManagedDatabase?: ResourceRemoteInfoAzureSqlManagedDatabase;
   /**
   * Remote info for Azure SQL managed instance. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#azure_sql_managed_instance Resource#azure_sql_managed_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#azure_sql_managed_instance Resource#azure_sql_managed_instance}
   */
   readonly azureSqlManagedInstance?: ResourceRemoteInfoAzureSqlManagedInstance;
   /**
   * Remote info for Azure SQL server. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#azure_sql_server Resource#azure_sql_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#azure_sql_server Resource#azure_sql_server}
   */
   readonly azureSqlServer?: ResourceRemoteInfoAzureSqlServer;
   /**
   * Remote info for Azure storage account. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#azure_storage_account Resource#azure_storage_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#azure_storage_account Resource#azure_storage_account}
   */
   readonly azureStorageAccount?: ResourceRemoteInfoAzureStorageAccount;
   /**
   * Remote info for Azure storage container. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#azure_storage_container Resource#azure_storage_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#azure_storage_container Resource#azure_storage_container}
   */
   readonly azureStorageContainer?: ResourceRemoteInfoAzureStorageContainer;
   /**
   * Remote info for Azure subscription. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#azure_subscription Resource#azure_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#azure_subscription Resource#azure_subscription}
   */
   readonly azureSubscription?: ResourceRemoteInfoAzureSubscription;
   /**
   * Remote info for Azure user assigned managed identity. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#azure_user_assigned_managed_identity Resource#azure_user_assigned_managed_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#azure_user_assigned_managed_identity Resource#azure_user_assigned_managed_identity}
   */
   readonly azureUserAssignedManagedIdentity?: ResourceRemoteInfoAzureUserAssignedManagedIdentity;
   /**
   * Remote info for Azure virtual machine. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#azure_virtual_machine Resource#azure_virtual_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#azure_virtual_machine Resource#azure_virtual_machine}
   */
   readonly azureVirtualMachine?: ResourceRemoteInfoAzureVirtualMachine;
   /**
   * Remote info for Coupa role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#coupa_role Resource#coupa_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#coupa_role Resource#coupa_role}
   */
   readonly coupaRole?: ResourceRemoteInfoCoupaRole;
   /**
   * Remote info for a Cursor organization. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#cursor_organization Resource#cursor_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#cursor_organization Resource#cursor_organization}
   */
   readonly cursorOrganization?: ResourceRemoteInfoCursorOrganization;
   /**
   * Remote info for a custom connector resource. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#custom_connector Resource#custom_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#custom_connector Resource#custom_connector}
   */
   readonly customConnector?: ResourceRemoteInfoCustomConnector;
   /**
   * Remote info for Databricks account service principal. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#databricks_account_service_principal Resource#databricks_account_service_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#databricks_account_service_principal Resource#databricks_account_service_principal}
   */
   readonly databricksAccountServicePrincipal?: ResourceRemoteInfoDatabricksAccountServicePrincipal;
   /**
   * Remote info for an Astra role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#datastax_astra_role Resource#datastax_astra_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#datastax_astra_role Resource#datastax_astra_role}
   */
   readonly datastaxAstraRole?: ResourceRemoteInfoDatastaxAstraRole;
   /**
+  * Remote info for Devin organization. Requires replacement if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#devin_organization Resource#devin_organization}
+  */
+  readonly devinOrganization?: ResourceRemoteInfoDevinOrganization;
+  /**
+  * Remote info for Devin role. Requires replacement if changed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#devin_role Resource#devin_role}
+  */
+  readonly devinRole?: ResourceRemoteInfoDevinRole;
+  /**
   * Remote info for GCP BigQuery Dataset. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#gcp_big_query_dataset Resource#gcp_big_query_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#gcp_big_query_dataset Resource#gcp_big_query_dataset}
   */
   readonly gcpBigQueryDataset?: ResourceRemoteInfoGcpBigQueryDataset;
   /**
   * Remote info for GCP BigQuery Table. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#gcp_big_query_table Resource#gcp_big_query_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#gcp_big_query_table Resource#gcp_big_query_table}
   */
   readonly gcpBigQueryTable?: ResourceRemoteInfoGcpBigQueryTable;
   /**
   * Remote info for GCP bucket. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#gcp_bucket Resource#gcp_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#gcp_bucket Resource#gcp_bucket}
   */
   readonly gcpBucket?: ResourceRemoteInfoGcpBucket;
   /**
   * Remote info for GCP compute instance. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#gcp_compute_instance Resource#gcp_compute_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#gcp_compute_instance Resource#gcp_compute_instance}
   */
   readonly gcpComputeInstance?: ResourceRemoteInfoGcpComputeInstance;
   /**
   * Remote info for GCP folder. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#gcp_folder Resource#gcp_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#gcp_folder Resource#gcp_folder}
   */
   readonly gcpFolder?: ResourceRemoteInfoGcpFolder;
   /**
   * Remote info for GCP GKE cluster. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#gcp_gke_cluster Resource#gcp_gke_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#gcp_gke_cluster Resource#gcp_gke_cluster}
   */
   readonly gcpGkeCluster?: ResourceRemoteInfoGcpGkeCluster;
   /**
   * Remote info for GCP organization. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#gcp_organization Resource#gcp_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#gcp_organization Resource#gcp_organization}
   */
   readonly gcpOrganization?: ResourceRemoteInfoGcpOrganization;
   /**
   * Remote info for GCP project. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#gcp_project Resource#gcp_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#gcp_project Resource#gcp_project}
   */
   readonly gcpProject?: ResourceRemoteInfoGcpProject;
   /**
   * Remote info for a GCP service account. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#gcp_service_account Resource#gcp_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#gcp_service_account Resource#gcp_service_account}
   */
   readonly gcpServiceAccount?: ResourceRemoteInfoGcpServiceAccount;
   /**
   * Remote info for GCP SQL instance. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#gcp_sql_instance Resource#gcp_sql_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#gcp_sql_instance Resource#gcp_sql_instance}
   */
   readonly gcpSqlInstance?: ResourceRemoteInfoGcpSqlInstance;
   /**
   * Remote info for GitHub organization. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#github_org Resource#github_org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#github_org Resource#github_org}
   */
   readonly githubOrg?: ResourceRemoteInfoGithubOrg;
   /**
   * Remote info for GitHub organization role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#github_org_role Resource#github_org_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#github_org_role Resource#github_org_role}
   */
   readonly githubOrgRole?: ResourceRemoteInfoGithubOrgRole;
   /**
   * Remote info for GitHub repository. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#github_repo Resource#github_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#github_repo Resource#github_repo}
   */
   readonly githubRepo?: ResourceRemoteInfoGithubRepo;
   /**
   * Remote info for Gitlab project. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#gitlab_project Resource#gitlab_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#gitlab_project Resource#gitlab_project}
   */
   readonly gitlabProject?: ResourceRemoteInfoGitlabProject;
   /**
   * Remote info for GCP workspace role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#google_workspace_role Resource#google_workspace_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#google_workspace_role Resource#google_workspace_role}
   */
   readonly googleWorkspaceRole?: ResourceRemoteInfoGoogleWorkspaceRole;
   /**
   * Remote info for iLevel Advanced role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#ilevel_advanced_role Resource#ilevel_advanced_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#ilevel_advanced_role Resource#ilevel_advanced_role}
   */
   readonly ilevelAdvancedRole?: ResourceRemoteInfoIlevelAdvancedRole;
   /**
   * Remote info for Okta directory app. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#okta_app Resource#okta_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#okta_app Resource#okta_app}
   */
   readonly oktaApp?: ResourceRemoteInfoOktaApp;
   /**
   * Remote info for Okta directory custom role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#okta_custom_role Resource#okta_custom_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#okta_custom_role Resource#okta_custom_role}
   */
   readonly oktaCustomRole?: ResourceRemoteInfoOktaCustomRole;
   /**
   * Remote info for Okta directory standard role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#okta_standard_role Resource#okta_standard_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#okta_standard_role Resource#okta_standard_role}
   */
   readonly oktaStandardRole?: ResourceRemoteInfoOktaStandardRole;
   /**
   * Remote info for OpenAI Platform project. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#openai_platform_project Resource#openai_platform_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#openai_platform_project Resource#openai_platform_project}
   */
   readonly openaiPlatformProject?: ResourceRemoteInfoOpenaiPlatformProject;
   /**
   * Remote info for OpenAI Platform service account. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#openai_platform_service_account Resource#openai_platform_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#openai_platform_service_account Resource#openai_platform_service_account}
   */
   readonly openaiPlatformServiceAccount?: ResourceRemoteInfoOpenaiPlatformServiceAccount;
   /**
   * Remote info for Oracle Fusion role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#oracle_fusion_role Resource#oracle_fusion_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#oracle_fusion_role Resource#oracle_fusion_role}
   */
   readonly oracleFusionRole?: ResourceRemoteInfoOracleFusionRole;
   /**
   * Remote info for Pagerduty role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#pagerduty_role Resource#pagerduty_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#pagerduty_role Resource#pagerduty_role}
   */
   readonly pagerdutyRole?: ResourceRemoteInfoPagerdutyRole;
   /**
   * Remote info for Salesforce permission set. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#salesforce_permission_set Resource#salesforce_permission_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#salesforce_permission_set Resource#salesforce_permission_set}
   */
   readonly salesforcePermissionSet?: ResourceRemoteInfoSalesforcePermissionSet;
   /**
   * Remote info for Salesforce profile. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#salesforce_profile Resource#salesforce_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#salesforce_profile Resource#salesforce_profile}
   */
   readonly salesforceProfile?: ResourceRemoteInfoSalesforceProfile;
   /**
   * Remote info for Salesforce role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#salesforce_role Resource#salesforce_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#salesforce_role Resource#salesforce_role}
   */
   readonly salesforceRole?: ResourceRemoteInfoSalesforceRole;
   /**
   * Remote info for Snowflake database. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#snowflake_database Resource#snowflake_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#snowflake_database Resource#snowflake_database}
   */
   readonly snowflakeDatabase?: ResourceRemoteInfoSnowflakeDatabase;
   /**
   * Remote info for Snowflake schema. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#snowflake_schema Resource#snowflake_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#snowflake_schema Resource#snowflake_schema}
   */
   readonly snowflakeSchema?: ResourceRemoteInfoSnowflakeSchema;
   /**
   * Remote info for Snowflake table. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#snowflake_table Resource#snowflake_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#snowflake_table Resource#snowflake_table}
   */
   readonly snowflakeTable?: ResourceRemoteInfoSnowflakeTable;
   /**
   * Remote info for Tailscale SSH tag. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#tailscale_ssh Resource#tailscale_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#tailscale_ssh Resource#tailscale_ssh}
   */
   readonly tailscaleSsh?: ResourceRemoteInfoTailscaleSsh;
   /**
   * Remote info for Teleport role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#teleport_role Resource#teleport_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#teleport_role Resource#teleport_role}
   */
   readonly teleportRole?: ResourceRemoteInfoTeleportRole;
   /**
   * Remote info for Workday role. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#workday_role Resource#workday_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#workday_role Resource#workday_role}
   */
   readonly workdayRole?: ResourceRemoteInfoWorkdayRole;
 }
@@ -7261,6 +7465,8 @@ export function resourceRemoteInfoToTerraform(struct?: ResourceRemoteInfo | cdkt
     custom_connector: resourceRemoteInfoCustomConnectorToTerraform(struct!.customConnector),
     databricks_account_service_principal: resourceRemoteInfoDatabricksAccountServicePrincipalToTerraform(struct!.databricksAccountServicePrincipal),
     datastax_astra_role: resourceRemoteInfoDatastaxAstraRoleToTerraform(struct!.datastaxAstraRole),
+    devin_organization: resourceRemoteInfoDevinOrganizationToTerraform(struct!.devinOrganization),
+    devin_role: resourceRemoteInfoDevinRoleToTerraform(struct!.devinRole),
     gcp_big_query_dataset: resourceRemoteInfoGcpBigQueryDatasetToTerraform(struct!.gcpBigQueryDataset),
     gcp_big_query_table: resourceRemoteInfoGcpBigQueryTableToTerraform(struct!.gcpBigQueryTable),
     gcp_bucket: resourceRemoteInfoGcpBucketToTerraform(struct!.gcpBucket),
@@ -7464,6 +7670,18 @@ export function resourceRemoteInfoToHclTerraform(struct?: ResourceRemoteInfo | c
       isBlock: true,
       type: "struct",
       storageClassType: "ResourceRemoteInfoDatastaxAstraRole",
+    },
+    devin_organization: {
+      value: resourceRemoteInfoDevinOrganizationToHclTerraform(struct!.devinOrganization),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "ResourceRemoteInfoDevinOrganization",
+    },
+    devin_role: {
+      value: resourceRemoteInfoDevinRoleToHclTerraform(struct!.devinRole),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "ResourceRemoteInfoDevinRole",
     },
     gcp_big_query_dataset: {
       value: resourceRemoteInfoGcpBigQueryDatasetToHclTerraform(struct!.gcpBigQueryDataset),
@@ -7789,6 +8007,14 @@ export class ResourceRemoteInfoOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.datastaxAstraRole = this._datastaxAstraRole?.internalValue;
     }
+    if (this._devinOrganization?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.devinOrganization = this._devinOrganization?.internalValue;
+    }
+    if (this._devinRole?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.devinRole = this._devinRole?.internalValue;
+    }
     if (this._gcpBigQueryDataset?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.gcpBigQueryDataset = this._gcpBigQueryDataset?.internalValue;
@@ -7951,6 +8177,8 @@ export class ResourceRemoteInfoOutputReference extends cdktf.ComplexObject {
       this._customConnector.internalValue = undefined;
       this._databricksAccountServicePrincipal.internalValue = undefined;
       this._datastaxAstraRole.internalValue = undefined;
+      this._devinOrganization.internalValue = undefined;
+      this._devinRole.internalValue = undefined;
       this._gcpBigQueryDataset.internalValue = undefined;
       this._gcpBigQueryTable.internalValue = undefined;
       this._gcpBucket.internalValue = undefined;
@@ -8018,6 +8246,8 @@ export class ResourceRemoteInfoOutputReference extends cdktf.ComplexObject {
       this._customConnector.internalValue = value.customConnector;
       this._databricksAccountServicePrincipal.internalValue = value.databricksAccountServicePrincipal;
       this._datastaxAstraRole.internalValue = value.datastaxAstraRole;
+      this._devinOrganization.internalValue = value.devinOrganization;
+      this._devinRole.internalValue = value.devinRole;
       this._gcpBigQueryDataset.internalValue = value.gcpBigQueryDataset;
       this._gcpBigQueryTable.internalValue = value.gcpBigQueryTable;
       this._gcpBucket.internalValue = value.gcpBucket;
@@ -8483,6 +8713,38 @@ export class ResourceRemoteInfoOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get datastaxAstraRoleInput() {
     return this._datastaxAstraRole.internalValue;
+  }
+
+  // devin_organization - computed: true, optional: true, required: false
+  private _devinOrganization = new ResourceRemoteInfoDevinOrganizationOutputReference(this, "devin_organization");
+  public get devinOrganization() {
+    return this._devinOrganization;
+  }
+  public putDevinOrganization(value: ResourceRemoteInfoDevinOrganization) {
+    this._devinOrganization.internalValue = value;
+  }
+  public resetDevinOrganization() {
+    this._devinOrganization.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get devinOrganizationInput() {
+    return this._devinOrganization.internalValue;
+  }
+
+  // devin_role - computed: true, optional: true, required: false
+  private _devinRole = new ResourceRemoteInfoDevinRoleOutputReference(this, "devin_role");
+  public get devinRole() {
+    return this._devinRole;
+  }
+  public putDevinRole(value: ResourceRemoteInfoDevinRole) {
+    this._devinRole.internalValue = value;
+  }
+  public resetDevinRole() {
+    this._devinRole.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get devinRoleInput() {
+    return this._devinRole.internalValue;
   }
 
   // gcp_big_query_dataset - computed: true, optional: true, required: false
@@ -9001,13 +9263,13 @@ export interface ResourceRequestConfigurationsCondition {
   /**
   * The list of group IDs to match. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#group_ids Resource#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#group_ids Resource#group_ids}
   */
   readonly groupIds?: string[];
   /**
   * The list of role remote IDs to match. Default: []
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#role_remote_ids Resource#role_remote_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#role_remote_ids Resource#role_remote_ids}
   */
   readonly roleRemoteIds?: string[];
 }
@@ -9132,25 +9394,25 @@ export interface ResourceRequestConfigurationsReviewerStages {
   /**
   * The operator of the reviewer stage. Admin and manager approval are also treated as reviewers. Default: "AND"; must be one of ["AND", "OR"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#operator Resource#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#operator Resource#operator}
   */
   readonly operator?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#owner_ids Resource#owner_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#owner_ids Resource#owner_ids}
   */
   readonly ownerIds?: string[];
   /**
   * Whether this reviewer stage should require admin approval. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#require_admin_approval Resource#require_admin_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#require_admin_approval Resource#require_admin_approval}
   */
   readonly requireAdminApproval?: boolean | cdktf.IResolvable;
   /**
   * Whether this reviewer stage should require manager approval. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#require_manager_approval Resource#require_manager_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#require_manager_approval Resource#require_manager_approval}
   */
   readonly requireManagerApproval?: boolean | cdktf.IResolvable;
 }
@@ -9355,67 +9617,67 @@ export interface ResourceRequestConfigurations {
   /**
   * A bool representing whether or not to allow requests for this resource. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#allow_requests Resource#allow_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#allow_requests Resource#allow_requests}
   */
   readonly allowRequests?: boolean | cdktf.IResolvable;
   /**
   * A bool representing whether or not to automatically approve requests for this resource. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#auto_approval Resource#auto_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#auto_approval Resource#auto_approval}
   */
   readonly autoApproval?: boolean | cdktf.IResolvable;
   /**
   * The condition for the request configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#condition Resource#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#condition Resource#condition}
   */
   readonly condition?: ResourceRequestConfigurationsCondition;
   /**
   * The duration for which access can be extended (in minutes). Set to 0 to disable extensions. When > 0, extensions are enabled for the specified duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#extensions_duration_in_minutes Resource#extensions_duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#extensions_duration_in_minutes Resource#extensions_duration_in_minutes}
   */
   readonly extensionsDurationInMinutes?: number;
   /**
   * The maximum duration for which the resource can be requested (in minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#max_duration Resource#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#max_duration Resource#max_duration}
   */
   readonly maxDuration?: number;
   /**
   * The priority of the request configuration. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#priority Resource#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#priority Resource#priority}
   */
   readonly priority?: number;
   /**
   * The recommended duration for which the resource should be requested (in minutes). -1 represents an indefinite duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#recommended_duration Resource#recommended_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#recommended_duration Resource#recommended_duration}
   */
   readonly recommendedDuration?: number;
   /**
   * The ID of the associated request template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#request_template_id Resource#request_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#request_template_id Resource#request_template_id}
   */
   readonly requestTemplateId?: string;
   /**
   * A bool representing whether or not to require MFA for requesting access to this resource. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#require_mfa_to_request Resource#require_mfa_to_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#require_mfa_to_request Resource#require_mfa_to_request}
   */
   readonly requireMfaToRequest?: boolean | cdktf.IResolvable;
   /**
   * A bool representing whether or not access requests to the resource require an access ticket. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#require_support_ticket Resource#require_support_ticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#require_support_ticket Resource#require_support_ticket}
   */
   readonly requireSupportTicket?: boolean | cdktf.IResolvable;
   /**
   * The list of reviewer stages for the request configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#reviewer_stages Resource#reviewer_stages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#reviewer_stages Resource#reviewer_stages}
   */
   readonly reviewerStages?: ResourceRequestConfigurationsReviewerStages[] | cdktf.IResolvable;
 }
@@ -9823,23 +10085,23 @@ export interface ResourceTicketPropagation {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#enabled_on_grant Resource#enabled_on_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#enabled_on_grant Resource#enabled_on_grant}
   */
   readonly enabledOnGrant?: boolean | cdktf.IResolvable;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#enabled_on_revocation Resource#enabled_on_revocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#enabled_on_revocation Resource#enabled_on_revocation}
   */
   readonly enabledOnRevocation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#ticket_project_id Resource#ticket_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#ticket_project_id Resource#ticket_project_id}
   */
   readonly ticketProjectId?: string;
   /**
   * The third party ticketing platform provider. must be one of ["JIRA", "LINEAR", "SERVICE_NOW"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#ticket_provider Resource#ticket_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#ticket_provider Resource#ticket_provider}
   */
   readonly ticketProvider?: string;
 }
@@ -10020,7 +10282,7 @@ export class ResourceTicketPropagationOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource opal_resource}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource opal_resource}
 */
 export class Resource extends cdktf.TerraformResource {
 
@@ -10036,7 +10298,7 @@ export class Resource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Resource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Resource to import
-  * @param importFromId The id of the existing Resource that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Resource that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Resource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10048,7 +10310,7 @@ export class Resource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/resource opal_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/resource opal_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10059,8 +10321,8 @@ export class Resource extends cdktf.TerraformResource {
       terraformResourceType: 'opal_resource',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

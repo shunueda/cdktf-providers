@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_custom
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_custom
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CloudaccountCustomConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cloud provider name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_custom#cloud CloudaccountCustom#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_custom#cloud CloudaccountCustom#cloud}
   */
   readonly cloud: string;
   /**
   * The context of the custom cloud configuration. Allowed values are `project` or `tenant`. Default value is `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_custom#context CloudaccountCustom#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_custom#context CloudaccountCustom#context}
   */
   readonly context?: string;
   /**
   * The credentials required for accessing the cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_custom#credentials CloudaccountCustom#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_custom#credentials CloudaccountCustom#credentials}
   */
   readonly credentials?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_custom#id CloudaccountCustom#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_custom#id CloudaccountCustom#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface CloudaccountCustomConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_custom#name CloudaccountCustom#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_custom#name CloudaccountCustom#name}
   */
   readonly name: string;
   /**
   * ID of the private cloud gateway, which serves as the connection point to establish connectivity with the cloud infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_custom#private_cloud_gateway_id CloudaccountCustom#private_cloud_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_custom#private_cloud_gateway_id CloudaccountCustom#private_cloud_gateway_id}
   */
   readonly privateCloudGatewayId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_custom spectrocloud_cloudaccount_custom}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_custom spectrocloud_cloudaccount_custom}
 */
 export class CloudaccountCustom extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CloudaccountCustom extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudaccountCustom resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudaccountCustom to import
-  * @param importFromId The id of the existing CloudaccountCustom that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_custom#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudaccountCustom that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_custom#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudaccountCustom to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CloudaccountCustom extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_custom spectrocloud_cloudaccount_custom} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.2/docs/resources/cloudaccount_custom spectrocloud_cloudaccount_custom} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class CloudaccountCustom extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_cloudaccount_custom',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.1',
-        providerVersionConstraint: '0.26.1'
+        providerVersion: '0.26.2',
+        providerVersionConstraint: '0.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

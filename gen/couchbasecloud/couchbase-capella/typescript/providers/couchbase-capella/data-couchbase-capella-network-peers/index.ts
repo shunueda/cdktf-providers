@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/network_peers
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/network_peers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DataCouchbaseCapellaNetworkPeersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/network_peers#cluster_id DataCouchbaseCapellaNetworkPeers#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/network_peers#cluster_id DataCouchbaseCapellaNetworkPeers#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/network_peers#organization_id DataCouchbaseCapellaNetworkPeers#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/network_peers#organization_id DataCouchbaseCapellaNetworkPeers#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/network_peers#project_id DataCouchbaseCapellaNetworkPeers#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/network_peers#project_id DataCouchbaseCapellaNetworkPeers#project_id}
   */
   readonly projectId: string;
 }
@@ -100,10 +94,10 @@ export class DataCouchbaseCapellaNetworkPeersDataAuditOutputReference extends cd
     return this.getNumberAttribute('version');
   }
 }
-export interface DataCouchbaseCapellaNetworkPeersDataProviderConfigAwsConfig {
+export interface DataCouchbaseCapellaNetworkPeersDataCommandsAws {
 }
 
-export function dataCouchbaseCapellaNetworkPeersDataProviderConfigAwsConfigToTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataProviderConfigAwsConfig): any {
+export function dataCouchbaseCapellaNetworkPeersDataCommandsAwsToTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataCommandsAws): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -113,7 +107,7 @@ export function dataCouchbaseCapellaNetworkPeersDataProviderConfigAwsConfigToTer
 }
 
 
-export function dataCouchbaseCapellaNetworkPeersDataProviderConfigAwsConfigToHclTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataProviderConfigAwsConfig): any {
+export function dataCouchbaseCapellaNetworkPeersDataCommandsAwsToHclTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataCommandsAws): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -123,7 +117,7 @@ export function dataCouchbaseCapellaNetworkPeersDataProviderConfigAwsConfigToHcl
   return attrs;
 }
 
-export class DataCouchbaseCapellaNetworkPeersDataProviderConfigAwsConfigOutputReference extends cdktf.ComplexObject {
+export class DataCouchbaseCapellaNetworkPeersDataCommandsAwsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -134,13 +128,13 @@ export class DataCouchbaseCapellaNetworkPeersDataProviderConfigAwsConfigOutputRe
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCouchbaseCapellaNetworkPeersDataProviderConfigAwsConfig | undefined {
+  public get internalValue(): DataCouchbaseCapellaNetworkPeersDataCommandsAws | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCouchbaseCapellaNetworkPeersDataProviderConfigAwsConfig | undefined) {
+  public set internalValue(value: DataCouchbaseCapellaNetworkPeersDataCommandsAws | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -149,35 +143,15 @@ export class DataCouchbaseCapellaNetworkPeersDataProviderConfigAwsConfigOutputRe
     }
   }
 
-  // account_id - computed: true, optional: false, required: false
-  public get accountId() {
-    return this.getStringAttribute('account_id');
-  }
-
-  // cidr - computed: true, optional: false, required: false
-  public get cidr() {
-    return this.getStringAttribute('cidr');
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // region - computed: true, optional: false, required: false
-  public get region() {
-    return this.getStringAttribute('region');
-  }
-
-  // vpc_id - computed: true, optional: false, required: false
-  public get vpcId() {
-    return this.getStringAttribute('vpc_id');
+  // command - computed: true, optional: false, required: false
+  public get command() {
+    return this.getStringAttribute('command');
   }
 }
-export interface DataCouchbaseCapellaNetworkPeersDataProviderConfigAzureConfig {
+export interface DataCouchbaseCapellaNetworkPeersDataCommandsAzure {
 }
 
-export function dataCouchbaseCapellaNetworkPeersDataProviderConfigAzureConfigToTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataProviderConfigAzureConfig): any {
+export function dataCouchbaseCapellaNetworkPeersDataCommandsAzureToTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataCommandsAzure): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -187,7 +161,7 @@ export function dataCouchbaseCapellaNetworkPeersDataProviderConfigAzureConfigToT
 }
 
 
-export function dataCouchbaseCapellaNetworkPeersDataProviderConfigAzureConfigToHclTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataProviderConfigAzureConfig): any {
+export function dataCouchbaseCapellaNetworkPeersDataCommandsAzureToHclTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataCommandsAzure): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -197,7 +171,7 @@ export function dataCouchbaseCapellaNetworkPeersDataProviderConfigAzureConfigToH
   return attrs;
 }
 
-export class DataCouchbaseCapellaNetworkPeersDataProviderConfigAzureConfigOutputReference extends cdktf.ComplexObject {
+export class DataCouchbaseCapellaNetworkPeersDataCommandsAzureOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -208,13 +182,13 @@ export class DataCouchbaseCapellaNetworkPeersDataProviderConfigAzureConfigOutput
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCouchbaseCapellaNetworkPeersDataProviderConfigAzureConfig | undefined {
+  public get internalValue(): DataCouchbaseCapellaNetworkPeersDataCommandsAzure | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCouchbaseCapellaNetworkPeersDataProviderConfigAzureConfig | undefined) {
+  public set internalValue(value: DataCouchbaseCapellaNetworkPeersDataCommandsAzure | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -223,40 +197,15 @@ export class DataCouchbaseCapellaNetworkPeersDataProviderConfigAzureConfigOutput
     }
   }
 
-  // cidr - computed: true, optional: false, required: false
-  public get cidr() {
-    return this.getStringAttribute('cidr');
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // resource_group - computed: true, optional: false, required: false
-  public get resourceGroup() {
-    return this.getStringAttribute('resource_group');
-  }
-
-  // subscription_id - computed: true, optional: false, required: false
-  public get subscriptionId() {
-    return this.getStringAttribute('subscription_id');
-  }
-
-  // tenant_id - computed: true, optional: false, required: false
-  public get tenantId() {
-    return this.getStringAttribute('tenant_id');
-  }
-
-  // vnet_id - computed: true, optional: false, required: false
-  public get vnetId() {
-    return this.getStringAttribute('vnet_id');
+  // command - computed: true, optional: false, required: false
+  public get command() {
+    return this.getStringAttribute('command');
   }
 }
-export interface DataCouchbaseCapellaNetworkPeersDataProviderConfigGcpConfig {
+export interface DataCouchbaseCapellaNetworkPeersDataCommandsGcp {
 }
 
-export function dataCouchbaseCapellaNetworkPeersDataProviderConfigGcpConfigToTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataProviderConfigGcpConfig): any {
+export function dataCouchbaseCapellaNetworkPeersDataCommandsGcpToTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataCommandsGcp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -266,7 +215,7 @@ export function dataCouchbaseCapellaNetworkPeersDataProviderConfigGcpConfigToTer
 }
 
 
-export function dataCouchbaseCapellaNetworkPeersDataProviderConfigGcpConfigToHclTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataProviderConfigGcpConfig): any {
+export function dataCouchbaseCapellaNetworkPeersDataCommandsGcpToHclTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataCommandsGcp): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -276,7 +225,7 @@ export function dataCouchbaseCapellaNetworkPeersDataProviderConfigGcpConfigToHcl
   return attrs;
 }
 
-export class DataCouchbaseCapellaNetworkPeersDataProviderConfigGcpConfigOutputReference extends cdktf.ComplexObject {
+export class DataCouchbaseCapellaNetworkPeersDataCommandsGcpOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -287,13 +236,13 @@ export class DataCouchbaseCapellaNetworkPeersDataProviderConfigGcpConfigOutputRe
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCouchbaseCapellaNetworkPeersDataProviderConfigGcpConfig | undefined {
+  public get internalValue(): DataCouchbaseCapellaNetworkPeersDataCommandsGcp | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCouchbaseCapellaNetworkPeersDataProviderConfigGcpConfig | undefined) {
+  public set internalValue(value: DataCouchbaseCapellaNetworkPeersDataCommandsGcp | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -302,35 +251,15 @@ export class DataCouchbaseCapellaNetworkPeersDataProviderConfigGcpConfigOutputRe
     }
   }
 
-  // cidr - computed: true, optional: false, required: false
-  public get cidr() {
-    return this.getStringAttribute('cidr');
-  }
-
-  // network_name - computed: true, optional: false, required: false
-  public get networkName() {
-    return this.getStringAttribute('network_name');
-  }
-
-  // project_id - computed: true, optional: false, required: false
-  public get projectId() {
-    return this.getStringAttribute('project_id');
-  }
-
-  // provider_id - computed: true, optional: false, required: false
-  public get providerId() {
-    return this.getStringAttribute('provider_id');
-  }
-
-  // service_account - computed: true, optional: false, required: false
-  public get serviceAccount() {
-    return this.getStringAttribute('service_account');
+  // command - computed: true, optional: false, required: false
+  public get command() {
+    return this.getStringAttribute('command');
   }
 }
-export interface DataCouchbaseCapellaNetworkPeersDataProviderConfig {
+export interface DataCouchbaseCapellaNetworkPeersDataCommands {
 }
 
-export function dataCouchbaseCapellaNetworkPeersDataProviderConfigToTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataProviderConfig): any {
+export function dataCouchbaseCapellaNetworkPeersDataCommandsToTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataCommands): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -340,7 +269,7 @@ export function dataCouchbaseCapellaNetworkPeersDataProviderConfigToTerraform(st
 }
 
 
-export function dataCouchbaseCapellaNetworkPeersDataProviderConfigToHclTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataProviderConfig): any {
+export function dataCouchbaseCapellaNetworkPeersDataCommandsToHclTerraform(struct?: DataCouchbaseCapellaNetworkPeersDataCommands): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -350,7 +279,7 @@ export function dataCouchbaseCapellaNetworkPeersDataProviderConfigToHclTerraform
   return attrs;
 }
 
-export class DataCouchbaseCapellaNetworkPeersDataProviderConfigOutputReference extends cdktf.ComplexObject {
+export class DataCouchbaseCapellaNetworkPeersDataCommandsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -361,13 +290,13 @@ export class DataCouchbaseCapellaNetworkPeersDataProviderConfigOutputReference e
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCouchbaseCapellaNetworkPeersDataProviderConfig | undefined {
+  public get internalValue(): DataCouchbaseCapellaNetworkPeersDataCommands | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCouchbaseCapellaNetworkPeersDataProviderConfig | undefined) {
+  public set internalValue(value: DataCouchbaseCapellaNetworkPeersDataCommands | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -376,22 +305,22 @@ export class DataCouchbaseCapellaNetworkPeersDataProviderConfigOutputReference e
     }
   }
 
-  // aws_config - computed: true, optional: false, required: false
-  private _awsConfig = new DataCouchbaseCapellaNetworkPeersDataProviderConfigAwsConfigOutputReference(this, "aws_config");
-  public get awsConfig() {
-    return this._awsConfig;
+  // aws - computed: true, optional: false, required: false
+  private _aws = new DataCouchbaseCapellaNetworkPeersDataCommandsAwsOutputReference(this, "aws");
+  public get aws() {
+    return this._aws;
   }
 
-  // azure_config - computed: true, optional: false, required: false
-  private _azureConfig = new DataCouchbaseCapellaNetworkPeersDataProviderConfigAzureConfigOutputReference(this, "azure_config");
-  public get azureConfig() {
-    return this._azureConfig;
+  // azure - computed: true, optional: false, required: false
+  private _azure = new DataCouchbaseCapellaNetworkPeersDataCommandsAzureOutputReference(this, "azure");
+  public get azure() {
+    return this._azure;
   }
 
-  // gcp_config - computed: true, optional: false, required: false
-  private _gcpConfig = new DataCouchbaseCapellaNetworkPeersDataProviderConfigGcpConfigOutputReference(this, "gcp_config");
-  public get gcpConfig() {
-    return this._gcpConfig;
+  // gcp - computed: true, optional: false, required: false
+  private _gcp = new DataCouchbaseCapellaNetworkPeersDataCommandsGcpOutputReference(this, "gcp");
+  public get gcp() {
+    return this._gcp;
   }
 }
 export interface DataCouchbaseCapellaNetworkPeersDataStatus {
@@ -510,6 +439,12 @@ export class DataCouchbaseCapellaNetworkPeersDataOutputReference extends cdktf.C
     return this._audit;
   }
 
+  // commands - computed: true, optional: false, required: false
+  private _commands = new DataCouchbaseCapellaNetworkPeersDataCommandsOutputReference(this, "commands");
+  public get commands() {
+    return this._commands;
+  }
+
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
@@ -521,9 +456,13 @@ export class DataCouchbaseCapellaNetworkPeersDataOutputReference extends cdktf.C
   }
 
   // provider_config - computed: true, optional: false, required: false
-  private _providerConfig = new DataCouchbaseCapellaNetworkPeersDataProviderConfigOutputReference(this, "provider_config");
   public get providerConfig() {
-    return this._providerConfig;
+    return this.getStringAttribute('provider_config');
+  }
+
+  // provider_type - computed: true, optional: false, required: false
+  public get providerType() {
+    return this.getStringAttribute('provider_type');
   }
 
   // status - computed: true, optional: false, required: false
@@ -553,7 +492,7 @@ export class DataCouchbaseCapellaNetworkPeersDataList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/network_peers couchbase-capella_network_peers}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/network_peers couchbase-capella_network_peers}
 */
 export class DataCouchbaseCapellaNetworkPeers extends cdktf.TerraformDataSource {
 
@@ -569,7 +508,7 @@ export class DataCouchbaseCapellaNetworkPeers extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataCouchbaseCapellaNetworkPeers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCouchbaseCapellaNetworkPeers to import
-  * @param importFromId The id of the existing DataCouchbaseCapellaNetworkPeers that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/network_peers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCouchbaseCapellaNetworkPeers that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/network_peers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCouchbaseCapellaNetworkPeers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -581,7 +520,7 @@ export class DataCouchbaseCapellaNetworkPeers extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/network_peers couchbase-capella_network_peers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/network_peers couchbase-capella_network_peers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -592,8 +531,8 @@ export class DataCouchbaseCapellaNetworkPeers extends cdktf.TerraformDataSource 
       terraformResourceType: 'couchbase-capella_network_peers',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

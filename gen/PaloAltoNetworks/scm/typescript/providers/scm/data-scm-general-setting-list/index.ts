@@ -1,0 +1,787 @@
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/general_setting_list
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface DataScmGeneralSettingListConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * The device of the item.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/general_setting_list#device DataScmGeneralSettingList#device}
+  */
+  readonly device?: string;
+  /**
+  * The folder of the item. Default: Shared.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/general_setting_list#folder DataScmGeneralSettingList#folder}
+  */
+  readonly folder?: string;
+  /**
+  * The max number of items to return. Default: 200.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/general_setting_list#limit DataScmGeneralSettingList#limit}
+  */
+  readonly limit?: number;
+  /**
+  * The name of the item.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/general_setting_list#name DataScmGeneralSettingList#name}
+  */
+  readonly name?: string;
+  /**
+  * The offset of the first item to return.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/general_setting_list#offset DataScmGeneralSettingList#offset}
+  */
+  readonly offset?: number;
+  /**
+  * The snippet of the item.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/general_setting_list#snippet DataScmGeneralSettingList#snippet}
+  */
+  readonly snippet?: string;
+}
+export interface DataScmGeneralSettingListDataGeneralGeoLocation {
+}
+
+export function dataScmGeneralSettingListDataGeneralGeoLocationToTerraform(struct?: DataScmGeneralSettingListDataGeneralGeoLocation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmGeneralSettingListDataGeneralGeoLocationToHclTerraform(struct?: DataScmGeneralSettingListDataGeneralGeoLocation): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmGeneralSettingListDataGeneralGeoLocationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataScmGeneralSettingListDataGeneralGeoLocation | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmGeneralSettingListDataGeneralGeoLocation | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // latitude - computed: true, optional: false, required: false
+  public get latitude() {
+    return this.getStringAttribute('latitude');
+  }
+
+  // longitude - computed: true, optional: false, required: false
+  public get longitude() {
+    return this.getStringAttribute('longitude');
+  }
+}
+export interface DataScmGeneralSettingListDataGeneralSettingManagement {
+}
+
+export function dataScmGeneralSettingListDataGeneralSettingManagementToTerraform(struct?: DataScmGeneralSettingListDataGeneralSettingManagement): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmGeneralSettingListDataGeneralSettingManagementToHclTerraform(struct?: DataScmGeneralSettingListDataGeneralSettingManagement): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmGeneralSettingListDataGeneralSettingManagementOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataScmGeneralSettingListDataGeneralSettingManagement | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmGeneralSettingListDataGeneralSettingManagement | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // auto_acquire_commit_lock - computed: true, optional: false, required: false
+  public get autoAcquireCommitLock() {
+    return this.getBooleanAttribute('auto_acquire_commit_lock');
+  }
+
+  // enable_certificate_expiration_check - computed: true, optional: false, required: false
+  public get enableCertificateExpirationCheck() {
+    return this.getBooleanAttribute('enable_certificate_expiration_check');
+  }
+}
+export interface DataScmGeneralSettingListDataGeneralSetting {
+}
+
+export function dataScmGeneralSettingListDataGeneralSettingToTerraform(struct?: DataScmGeneralSettingListDataGeneralSetting): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmGeneralSettingListDataGeneralSettingToHclTerraform(struct?: DataScmGeneralSettingListDataGeneralSetting): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmGeneralSettingListDataGeneralSettingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataScmGeneralSettingListDataGeneralSetting | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmGeneralSettingListDataGeneralSetting | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // auto_mac_detect - computed: true, optional: false, required: false
+  public get autoMacDetect() {
+    return this.getBooleanAttribute('auto_mac_detect');
+  }
+
+  // fail_open - computed: true, optional: false, required: false
+  public get failOpen() {
+    return this.getBooleanAttribute('fail_open');
+  }
+
+  // management - computed: true, optional: false, required: false
+  private _management = new DataScmGeneralSettingListDataGeneralSettingManagementOutputReference(this, "management");
+  public get management() {
+    return this._management;
+  }
+
+  // tunnel_acceleration - computed: true, optional: false, required: false
+  public get tunnelAcceleration() {
+    return this.getBooleanAttribute('tunnel_acceleration');
+  }
+}
+export interface DataScmGeneralSettingListDataGeneral {
+}
+
+export function dataScmGeneralSettingListDataGeneralToTerraform(struct?: DataScmGeneralSettingListDataGeneral): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmGeneralSettingListDataGeneralToHclTerraform(struct?: DataScmGeneralSettingListDataGeneral): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmGeneralSettingListDataGeneralOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataScmGeneralSettingListDataGeneral | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmGeneralSettingListDataGeneral | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // ack_login_banner - computed: true, optional: false, required: false
+  public get ackLoginBanner() {
+    return this.getBooleanAttribute('ack_login_banner');
+  }
+
+  // domain - computed: true, optional: false, required: false
+  public get domain() {
+    return this.getStringAttribute('domain');
+  }
+
+  // geo_location - computed: true, optional: false, required: false
+  private _geoLocation = new DataScmGeneralSettingListDataGeneralGeoLocationOutputReference(this, "geo_location");
+  public get geoLocation() {
+    return this._geoLocation;
+  }
+
+  // locale - computed: true, optional: false, required: false
+  public get locale() {
+    return this.getStringAttribute('locale');
+  }
+
+  // login_banner - computed: true, optional: false, required: false
+  public get loginBanner() {
+    return this.getStringAttribute('login_banner');
+  }
+
+  // setting - computed: true, optional: false, required: false
+  private _setting = new DataScmGeneralSettingListDataGeneralSettingOutputReference(this, "setting");
+  public get setting() {
+    return this._setting;
+  }
+
+  // ssl_tls_service_profile - computed: true, optional: false, required: false
+  public get sslTlsServiceProfile() {
+    return this.getStringAttribute('ssl_tls_service_profile');
+  }
+
+  // timezone - computed: true, optional: false, required: false
+  public get timezone() {
+    return this.getStringAttribute('timezone');
+  }
+}
+export interface DataScmGeneralSettingListData {
+  /**
+  * The device in which the resource is defined
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/general_setting_list#device DataScmGeneralSettingList#device}
+  */
+  readonly device?: string;
+  /**
+  * The folder in which the resource is defined
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/general_setting_list#folder DataScmGeneralSettingList#folder}
+  */
+  readonly folder?: string;
+  /**
+  * UUID of the resource
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/general_setting_list#id DataScmGeneralSettingList#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id: string;
+  /**
+  * The snippet in which the resource is defined
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/general_setting_list#snippet DataScmGeneralSettingList#snippet}
+  */
+  readonly snippet?: string;
+}
+
+export function dataScmGeneralSettingListDataToTerraform(struct?: DataScmGeneralSettingListData): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    device: cdktf.stringToTerraform(struct!.device),
+    folder: cdktf.stringToTerraform(struct!.folder),
+    id: cdktf.stringToTerraform(struct!.id),
+    snippet: cdktf.stringToTerraform(struct!.snippet),
+  }
+}
+
+
+export function dataScmGeneralSettingListDataToHclTerraform(struct?: DataScmGeneralSettingListData): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    device: {
+      value: cdktf.stringToHclTerraform(struct!.device),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    folder: {
+      value: cdktf.stringToHclTerraform(struct!.folder),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    snippet: {
+      value: cdktf.stringToHclTerraform(struct!.snippet),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataScmGeneralSettingListDataOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataScmGeneralSettingListData | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._device !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.device = this._device;
+    }
+    if (this._folder !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.folder = this._folder;
+    }
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    if (this._snippet !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.snippet = this._snippet;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmGeneralSettingListData | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._device = undefined;
+      this._folder = undefined;
+      this._id = undefined;
+      this._snippet = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._device = value.device;
+      this._folder = value.folder;
+      this._id = value.id;
+      this._snippet = value.snippet;
+    }
+  }
+
+  // device - computed: true, optional: true, required: false
+  private _device?: string; 
+  public get device() {
+    return this.getStringAttribute('device');
+  }
+  public set device(value: string) {
+    this._device = value;
+  }
+  public resetDevice() {
+    this._device = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceInput() {
+    return this._device;
+  }
+
+  // folder - computed: true, optional: true, required: false
+  private _folder?: string; 
+  public get folder() {
+    return this.getStringAttribute('folder');
+  }
+  public set folder(value: string) {
+    this._folder = value;
+  }
+  public resetFolder() {
+    this._folder = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get folderInput() {
+    return this._folder;
+  }
+
+  // general - computed: true, optional: false, required: false
+  private _general = new DataScmGeneralSettingListDataGeneralOutputReference(this, "general");
+  public get general() {
+    return this._general;
+  }
+
+  // id - computed: true, optional: false, required: true
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // snippet - computed: true, optional: true, required: false
+  private _snippet?: string; 
+  public get snippet() {
+    return this.getStringAttribute('snippet');
+  }
+  public set snippet(value: string) {
+    this._snippet = value;
+  }
+  public resetSnippet() {
+    this._snippet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snippetInput() {
+    return this._snippet;
+  }
+
+  // tfid - computed: true, optional: false, required: false
+  public get tfid() {
+    return this.getStringAttribute('tfid');
+  }
+}
+
+export class DataScmGeneralSettingListDataList extends cdktf.ComplexList {
+  public internalValue? : DataScmGeneralSettingListData[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataScmGeneralSettingListDataOutputReference {
+    return new DataScmGeneralSettingListDataOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/general_setting_list scm_general_setting_list}
+*/
+export class DataScmGeneralSettingList extends cdktf.TerraformDataSource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "scm_general_setting_list";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DataScmGeneralSettingList resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DataScmGeneralSettingList to import
+  * @param importFromId The id of the existing DataScmGeneralSettingList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/general_setting_list#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DataScmGeneralSettingList to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "scm_general_setting_list", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/general_setting_list scm_general_setting_list} Data Source
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DataScmGeneralSettingListConfig = {}
+  */
+  public constructor(scope: Construct, id: string, config: DataScmGeneralSettingListConfig = {}) {
+    super(scope, id, {
+      terraformResourceType: 'scm_general_setting_list',
+      terraformGeneratorMetadata: {
+        providerName: 'scm',
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._device = config.device;
+    this._folder = config.folder;
+    this._limit = config.limit;
+    this._name = config.name;
+    this._offset = config.offset;
+    this._snippet = config.snippet;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // data - computed: true, optional: false, required: false
+  private _data = new DataScmGeneralSettingListDataList(this, "data", false);
+  public get data() {
+    return this._data;
+  }
+
+  // device - computed: false, optional: true, required: false
+  private _device?: string; 
+  public get device() {
+    return this.getStringAttribute('device');
+  }
+  public set device(value: string) {
+    this._device = value;
+  }
+  public resetDevice() {
+    this._device = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceInput() {
+    return this._device;
+  }
+
+  // folder - computed: false, optional: true, required: false
+  private _folder?: string; 
+  public get folder() {
+    return this.getStringAttribute('folder');
+  }
+  public set folder(value: string) {
+    this._folder = value;
+  }
+  public resetFolder() {
+    this._folder = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get folderInput() {
+    return this._folder;
+  }
+
+  // limit - computed: false, optional: true, required: false
+  private _limit?: number; 
+  public get limit() {
+    return this.getNumberAttribute('limit');
+  }
+  public set limit(value: number) {
+    this._limit = value;
+  }
+  public resetLimit() {
+    this._limit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get limitInput() {
+    return this._limit;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // offset - computed: false, optional: true, required: false
+  private _offset?: number; 
+  public get offset() {
+    return this.getNumberAttribute('offset');
+  }
+  public set offset(value: number) {
+    this._offset = value;
+  }
+  public resetOffset() {
+    this._offset = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get offsetInput() {
+    return this._offset;
+  }
+
+  // snippet - computed: false, optional: true, required: false
+  private _snippet?: string; 
+  public get snippet() {
+    return this.getStringAttribute('snippet');
+  }
+  public set snippet(value: string) {
+    this._snippet = value;
+  }
+  public resetSnippet() {
+    this._snippet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snippetInput() {
+    return this._snippet;
+  }
+
+  // tfid - computed: true, optional: false, required: false
+  public get tfid() {
+    return this.getStringAttribute('tfid');
+  }
+
+  // total - computed: true, optional: false, required: false
+  public get total() {
+    return this.getNumberAttribute('total');
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      device: cdktf.stringToTerraform(this._device),
+      folder: cdktf.stringToTerraform(this._folder),
+      limit: cdktf.numberToTerraform(this._limit),
+      name: cdktf.stringToTerraform(this._name),
+      offset: cdktf.numberToTerraform(this._offset),
+      snippet: cdktf.stringToTerraform(this._snippet),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      device: {
+        value: cdktf.stringToHclTerraform(this._device),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      folder: {
+        value: cdktf.stringToHclTerraform(this._folder),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      limit: {
+        value: cdktf.numberToHclTerraform(this._limit),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      offset: {
+        value: cdktf.numberToHclTerraform(this._offset),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      snippet: {
+        value: cdktf.stringToHclTerraform(this._snippet),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/paginated_bundle_resource_list
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/paginated_bundle_resource_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataOpalPaginatedBundleResourceListConfig extends cdktf.Terrafo
   /**
   * The ID of the bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/paginated_bundle_resource_list#bundle_id DataOpalPaginatedBundleResourceList#bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/paginated_bundle_resource_list#bundle_id DataOpalPaginatedBundleResourceList#bundle_id}
   */
   readonly bundleId: string;
   /**
   * A cursor indicating where to start fetching items after a specific point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/paginated_bundle_resource_list#cursor DataOpalPaginatedBundleResourceList#cursor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/paginated_bundle_resource_list#cursor DataOpalPaginatedBundleResourceList#cursor}
   */
   readonly cursor?: string;
   /**
   * The maximum number of resources to return from the beginning of the list. Default is 200, max is 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/paginated_bundle_resource_list#page_size DataOpalPaginatedBundleResourceList#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/paginated_bundle_resource_list#page_size DataOpalPaginatedBundleResourceList#page_size}
   */
   readonly pageSize?: number;
 }
@@ -118,7 +118,7 @@ export class DataOpalPaginatedBundleResourceListBundleResourcesList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/paginated_bundle_resource_list opal_paginated_bundle_resource_list}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/paginated_bundle_resource_list opal_paginated_bundle_resource_list}
 */
 export class DataOpalPaginatedBundleResourceList extends cdktf.TerraformDataSource {
 
@@ -134,7 +134,7 @@ export class DataOpalPaginatedBundleResourceList extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataOpalPaginatedBundleResourceList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalPaginatedBundleResourceList to import
-  * @param importFromId The id of the existing DataOpalPaginatedBundleResourceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/paginated_bundle_resource_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalPaginatedBundleResourceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/paginated_bundle_resource_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalPaginatedBundleResourceList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class DataOpalPaginatedBundleResourceList extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/paginated_bundle_resource_list opal_paginated_bundle_resource_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/paginated_bundle_resource_list opal_paginated_bundle_resource_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class DataOpalPaginatedBundleResourceList extends cdktf.TerraformDataSour
       terraformResourceType: 'opal_paginated_bundle_resource_list',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

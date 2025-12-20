@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_global_domain_dns
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_global_domain_dns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GaapGlobalDomainDnsConfig extends cdktf.TerraformMetaArguments 
   /**
   * Domain Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_global_domain_dns#domain_id GaapGlobalDomainDns#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_global_domain_dns#domain_id GaapGlobalDomainDns#domain_id}
   */
   readonly domainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_global_domain_dns#id GaapGlobalDomainDns#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_global_domain_dns#id GaapGlobalDomainDns#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface GaapGlobalDomainDnsConfig extends cdktf.TerraformMetaArguments 
   /**
   * Nation Country Inner Codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_global_domain_dns#nation_country_inner_codes GaapGlobalDomainDns#nation_country_inner_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_global_domain_dns#nation_country_inner_codes GaapGlobalDomainDns#nation_country_inner_codes}
   */
   readonly nationCountryInnerCodes: string[];
   /**
   * Proxy Id List.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_global_domain_dns#proxy_id_list GaapGlobalDomainDns#proxy_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_global_domain_dns#proxy_id_list GaapGlobalDomainDns#proxy_id_list}
   */
   readonly proxyIdList: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_global_domain_dns tencentcloud_gaap_global_domain_dns}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_global_domain_dns tencentcloud_gaap_global_domain_dns}
 */
 export class GaapGlobalDomainDns extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class GaapGlobalDomainDns extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaapGlobalDomainDns resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaapGlobalDomainDns to import
-  * @param importFromId The id of the existing GaapGlobalDomainDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_global_domain_dns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaapGlobalDomainDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_global_domain_dns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaapGlobalDomainDns to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class GaapGlobalDomainDns extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/gaap_global_domain_dns tencentcloud_gaap_global_domain_dns} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/gaap_global_domain_dns tencentcloud_gaap_global_domain_dns} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class GaapGlobalDomainDns extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_gaap_global_domain_dns',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

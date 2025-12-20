@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "couchbase-capella": "1.5.3"
+    "couchbase-capella": "1.7.0"
   }
 }

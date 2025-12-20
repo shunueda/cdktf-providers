@@ -1,3 +1,3 @@
 # `tencentcloud_cos_bucket_inventory`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_cos_bucket_inventory`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_inventory).
+Refer to the Terraform Registry for docs: [`tencentcloud_cos_bucket_inventory`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cos_bucket_inventory).

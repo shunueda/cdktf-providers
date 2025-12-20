@@ -1,0 +1,3 @@
+# `data_scm_motd_banner_setting_list`
+
+Refer to the Terraform Registry for docs: [`data_scm_motd_banner_setting_list`](https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/motd_banner_setting_list).

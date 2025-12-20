@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/team_access
+// https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/team_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface TeamAccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * Account ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/team_access#account_id TeamAccess#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/team_access#account_id TeamAccess#account_id}
   */
   readonly accountId?: string;
   /**
   * Member Actor ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/team_access#member_actor_id TeamAccess#member_actor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/team_access#member_actor_id TeamAccess#member_actor_id}
   */
   readonly memberActorId: string;
   /**
   * Member ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/team_access#member_id TeamAccess#member_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/team_access#member_id TeamAccess#member_id}
   */
   readonly memberId: string;
   /**
   * Member Type (user | service_account)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/team_access#member_type TeamAccess#member_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/team_access#member_type TeamAccess#member_type}
   */
   readonly memberType: string;
   /**
   * Team ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/team_access#team_id TeamAccess#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/team_access#team_id TeamAccess#team_id}
   */
   readonly teamId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/team_access prefect_team_access}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/team_access prefect_team_access}
 */
 export class TeamAccess extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class TeamAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamAccess to import
-  * @param importFromId The id of the existing TeamAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/team_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/team_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class TeamAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.0/docs/resources/team_access prefect_team_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.92.1/docs/resources/team_access prefect_team_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class TeamAccess extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_team_access',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.92.0',
-        providerVersionConstraint: '2.92.0'
+        providerVersion: '2.92.1',
+        providerVersionConstraint: '2.92.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

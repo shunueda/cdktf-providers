@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/network_area_region
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/network_area_region
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataStackitNetworkAreaRegionConfig extends cdktf.TerraformMetaA
   /**
   * The network area ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/network_area_region#network_area_id DataStackitNetworkAreaRegion#network_area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/network_area_region#network_area_id DataStackitNetworkAreaRegion#network_area_id}
   */
   readonly networkAreaId: string;
   /**
   * STACKIT organization ID to which the network area is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/network_area_region#organization_id DataStackitNetworkAreaRegion#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/network_area_region#organization_id DataStackitNetworkAreaRegion#organization_id}
   */
   readonly organizationId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/network_area_region#region DataStackitNetworkAreaRegion#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/network_area_region#region DataStackitNetworkAreaRegion#region}
   */
   readonly region?: string;
 }
@@ -188,7 +188,7 @@ export class DataStackitNetworkAreaRegionIpv4OutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/network_area_region stackit_network_area_region}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/network_area_region stackit_network_area_region}
 */
 export class DataStackitNetworkAreaRegion extends cdktf.TerraformDataSource {
 
@@ -204,7 +204,7 @@ export class DataStackitNetworkAreaRegion extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitNetworkAreaRegion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitNetworkAreaRegion to import
-  * @param importFromId The id of the existing DataStackitNetworkAreaRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/network_area_region#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitNetworkAreaRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/network_area_region#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitNetworkAreaRegion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class DataStackitNetworkAreaRegion extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/network_area_region stackit_network_area_region} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/data-sources/network_area_region stackit_network_area_region} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class DataStackitNetworkAreaRegion extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_network_area_region',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.75.0',
-        providerVersionConstraint: '0.75.0'
+        providerVersion: '0.76.0',
+        providerVersionConstraint: '0.76.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

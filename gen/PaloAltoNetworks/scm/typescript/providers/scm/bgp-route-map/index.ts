@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,40 @@ export interface BgpRouteMapConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#description BgpRouteMap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#description BgpRouteMap#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#device BgpRouteMap#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#device BgpRouteMap#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#folder BgpRouteMap#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#folder BgpRouteMap#folder}
   */
   readonly folder?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#name BgpRouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#name BgpRouteMap#name}
   */
   readonly name: string;
   /**
   * Route map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#route_map BgpRouteMap#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#route_map BgpRouteMap#route_map}
   */
   readonly routeMap?: BgpRouteMapRouteMap[] | cdktf.IResolvable;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#snippet BgpRouteMap#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#snippet BgpRouteMap#snippet}
   */
   readonly snippet?: string;
 }
@@ -54,13 +51,13 @@ export interface BgpRouteMapRouteMapMatchIpv4Address {
   /**
   * Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#access_list BgpRouteMap#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#access_list BgpRouteMap#access_list}
   */
   readonly accessList?: string;
   /**
   * Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#prefix_list BgpRouteMap#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#prefix_list BgpRouteMap#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -185,13 +182,13 @@ export interface BgpRouteMapRouteMapMatchIpv4NextHop {
   /**
   * Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#access_list BgpRouteMap#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#access_list BgpRouteMap#access_list}
   */
   readonly accessList?: string;
   /**
   * Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#prefix_list BgpRouteMap#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#prefix_list BgpRouteMap#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -316,13 +313,13 @@ export interface BgpRouteMapRouteMapMatchIpv4RouteSource {
   /**
   * Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#access_list BgpRouteMap#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#access_list BgpRouteMap#access_list}
   */
   readonly accessList?: string;
   /**
   * Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#prefix_list BgpRouteMap#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#prefix_list BgpRouteMap#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -447,19 +444,19 @@ export interface BgpRouteMapRouteMapMatchIpv4 {
   /**
   * Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#address BgpRouteMap#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#address BgpRouteMap#address}
   */
   readonly address?: BgpRouteMapRouteMapMatchIpv4Address;
   /**
   * Next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#next_hop BgpRouteMap#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#next_hop BgpRouteMap#next_hop}
   */
   readonly nextHop?: BgpRouteMapRouteMapMatchIpv4NextHop;
   /**
   * Route source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#route_source BgpRouteMap#route_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#route_source BgpRouteMap#route_source}
   */
   readonly routeSource?: BgpRouteMapRouteMapMatchIpv4RouteSource;
 }
@@ -613,67 +610,67 @@ export interface BgpRouteMapRouteMapMatch {
   /**
   * AS path access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#as_path_access_list BgpRouteMap#as_path_access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#as_path_access_list BgpRouteMap#as_path_access_list}
   */
   readonly asPathAccessList?: string;
   /**
   * Extended community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#extended_community BgpRouteMap#extended_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#extended_community BgpRouteMap#extended_community}
   */
   readonly extendedCommunity?: string;
   /**
   * Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#interface BgpRouteMap#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#interface BgpRouteMap#interface}
   */
   readonly interface?: string;
   /**
   * bgp-route-maps ipv4 object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#ipv4 BgpRouteMap#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#ipv4 BgpRouteMap#ipv4}
   */
   readonly ipv4?: BgpRouteMapRouteMapMatchIpv4;
   /**
   * Large community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#large_community BgpRouteMap#large_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#large_community BgpRouteMap#large_community}
   */
   readonly largeCommunity?: string;
   /**
   * Local preference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#local_preference BgpRouteMap#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#local_preference BgpRouteMap#local_preference}
   */
   readonly localPreference?: number;
   /**
   * Metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#metric BgpRouteMap#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#metric BgpRouteMap#metric}
   */
   readonly metric?: number;
   /**
   * Origin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#origin BgpRouteMap#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#origin BgpRouteMap#origin}
   */
   readonly origin?: string;
   /**
   * Peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#peer BgpRouteMap#peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#peer BgpRouteMap#peer}
   */
   readonly peer?: string;
   /**
   * Regular community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#regular_community BgpRouteMap#regular_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#regular_community BgpRouteMap#regular_community}
   */
   readonly regularCommunity?: string;
   /**
   * Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#tag BgpRouteMap#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#tag BgpRouteMap#tag}
   */
   readonly tag?: number;
 }
@@ -1059,13 +1056,13 @@ export interface BgpRouteMapRouteMapSetAggregator {
   /**
   * Aggregator AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#as BgpRouteMap#as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#as BgpRouteMap#as}
   */
   readonly as?: number;
   /**
   * Router ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#router_id BgpRouteMap#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#router_id BgpRouteMap#router_id}
   */
   readonly routerId?: string;
 }
@@ -1190,13 +1187,13 @@ export interface BgpRouteMapRouteMapSetIpv4 {
   /**
   * Next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#next_hop BgpRouteMap#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#next_hop BgpRouteMap#next_hop}
   */
   readonly nextHop?: string;
   /**
   * Source address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#source_address BgpRouteMap#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#source_address BgpRouteMap#source_address}
   */
   readonly sourceAddress?: string;
 }
@@ -1321,13 +1318,13 @@ export interface BgpRouteMapRouteMapSetMetric {
   /**
   * Metric action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#action BgpRouteMap#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#action BgpRouteMap#action}
   */
   readonly action?: string;
   /**
   * Metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#value BgpRouteMap#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#value BgpRouteMap#value}
   */
   readonly value?: number;
 }
@@ -1452,103 +1449,103 @@ export interface BgpRouteMapRouteMapSet {
   /**
   * bgp-route-maps aggregator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#aggregator BgpRouteMap#aggregator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#aggregator BgpRouteMap#aggregator}
   */
   readonly aggregator?: BgpRouteMapRouteMapSetAggregator;
   /**
   * Aspath exclude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#aspath_exclude BgpRouteMap#aspath_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#aspath_exclude BgpRouteMap#aspath_exclude}
   */
   readonly aspathExclude?: number[];
   /**
   * Aspath prepend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#aspath_prepend BgpRouteMap#aspath_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#aspath_prepend BgpRouteMap#aspath_prepend}
   */
   readonly aspathPrepend?: number[];
   /**
   * Enable BGP atomic aggregate?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#atomic_aggregate BgpRouteMap#atomic_aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#atomic_aggregate BgpRouteMap#atomic_aggregate}
   */
   readonly atomicAggregate?: boolean | cdktf.IResolvable;
   /**
   * Ipv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#ipv4 BgpRouteMap#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#ipv4 BgpRouteMap#ipv4}
   */
   readonly ipv4?: BgpRouteMapRouteMapSetIpv4;
   /**
   * Large community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#large_community BgpRouteMap#large_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#large_community BgpRouteMap#large_community}
   */
   readonly largeCommunity?: string[];
   /**
   * Local preference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#local_preference BgpRouteMap#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#local_preference BgpRouteMap#local_preference}
   */
   readonly localPreference?: number;
   /**
   * Metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#metric BgpRouteMap#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#metric BgpRouteMap#metric}
   */
   readonly metric?: BgpRouteMapRouteMapSetMetric;
   /**
   * Origin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#origin BgpRouteMap#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#origin BgpRouteMap#origin}
   */
   readonly origin?: string;
   /**
   * Originator ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#originator_id BgpRouteMap#originator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#originator_id BgpRouteMap#originator_id}
   */
   readonly originatorId?: string;
   /**
   * Overwrite large community?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#overwrite_large_community BgpRouteMap#overwrite_large_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#overwrite_large_community BgpRouteMap#overwrite_large_community}
   */
   readonly overwriteLargeCommunity?: boolean | cdktf.IResolvable;
   /**
   * Overwrite regular community?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#overwrite_regular_community BgpRouteMap#overwrite_regular_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#overwrite_regular_community BgpRouteMap#overwrite_regular_community}
   */
   readonly overwriteRegularCommunity?: boolean | cdktf.IResolvable;
   /**
   * Regular community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#regular_community BgpRouteMap#regular_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#regular_community BgpRouteMap#regular_community}
   */
   readonly regularCommunity?: string[];
   /**
   * Remove large community name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#remove_large_community BgpRouteMap#remove_large_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#remove_large_community BgpRouteMap#remove_large_community}
   */
   readonly removeLargeCommunity?: string;
   /**
   * Remove regular community name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#remove_regular_community BgpRouteMap#remove_regular_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#remove_regular_community BgpRouteMap#remove_regular_community}
   */
   readonly removeRegularCommunity?: string;
   /**
   * Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#tag BgpRouteMap#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#tag BgpRouteMap#tag}
   */
   readonly tag?: number;
   /**
   * Weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#weight BgpRouteMap#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#weight BgpRouteMap#weight}
   */
   readonly weight?: number;
 }
@@ -2108,31 +2105,31 @@ export interface BgpRouteMapRouteMap {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#action BgpRouteMap#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#action BgpRouteMap#action}
   */
   readonly action?: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#description BgpRouteMap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#description BgpRouteMap#description}
   */
   readonly description?: string;
   /**
   * Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#match BgpRouteMap#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#match BgpRouteMap#match}
   */
   readonly match?: BgpRouteMapRouteMapMatch;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#name BgpRouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#name BgpRouteMap#name}
   */
   readonly name?: number;
   /**
   * Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#set BgpRouteMap#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#set BgpRouteMap#set}
   */
   readonly set?: BgpRouteMapRouteMapSet;
 }
@@ -2364,7 +2361,7 @@ export class BgpRouteMapRouteMapList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map scm_bgp_route_map}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map scm_bgp_route_map}
 */
 export class BgpRouteMap extends cdktf.TerraformResource {
 
@@ -2380,7 +2377,7 @@ export class BgpRouteMap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpRouteMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpRouteMap to import
-  * @param importFromId The id of the existing BgpRouteMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpRouteMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpRouteMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2392,7 +2389,7 @@ export class BgpRouteMap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_route_map scm_bgp_route_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_route_map scm_bgp_route_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2403,8 +2400,8 @@ export class BgpRouteMap extends cdktf.TerraformResource {
       terraformResourceType: 'scm_bgp_route_map',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

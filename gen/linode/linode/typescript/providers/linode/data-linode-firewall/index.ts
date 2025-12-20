@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/firewall
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/firewall
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataLinodeFirewallConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique ID assigned to this Firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/firewall#id DataLinodeFirewall#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/firewall#id DataLinodeFirewall#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -324,7 +324,7 @@ export class DataLinodeFirewallOutboundList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/firewall linode_firewall}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/firewall linode_firewall}
 */
 export class DataLinodeFirewall extends cdktf.TerraformDataSource {
 
@@ -340,7 +340,7 @@ export class DataLinodeFirewall extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeFirewall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeFirewall to import
-  * @param importFromId The id of the existing DataLinodeFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/firewall#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/firewall#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeFirewall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class DataLinodeFirewall extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/firewall linode_firewall} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/firewall linode_firewall} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class DataLinodeFirewall extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_firewall',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

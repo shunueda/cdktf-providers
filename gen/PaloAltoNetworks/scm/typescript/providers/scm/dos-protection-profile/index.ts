@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,52 @@ export interface DosProtectionProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#description DosProtectionProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#description DosProtectionProfile#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#device DosProtectionProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#device DosProtectionProfile#device}
   */
   readonly device?: string;
   /**
   * Flood
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#flood DosProtectionProfile#flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#flood DosProtectionProfile#flood}
   */
   readonly flood?: DosProtectionProfileFlood;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#folder DosProtectionProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#folder DosProtectionProfile#folder}
   */
   readonly folder?: string;
   /**
   * Profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#name DosProtectionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#name DosProtectionProfile#name}
   */
   readonly name: string;
   /**
   * Resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#resource DosProtectionProfile#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#resource DosProtectionProfile#resource}
   */
   readonly resource?: DosProtectionProfileResource;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#snippet DosProtectionProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#snippet DosProtectionProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#type DosProtectionProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#type DosProtectionProfile#type}
   */
   readonly type: string;
 }
@@ -66,7 +63,7 @@ export interface DosProtectionProfileFloodIcmpRedBlock {
   /**
   * Duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#duration DosProtectionProfile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#duration DosProtectionProfile#duration}
   */
   readonly duration?: number;
 }
@@ -162,25 +159,25 @@ export interface DosProtectionProfileFloodIcmpRed {
   /**
   * Activate rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#activate_rate DosProtectionProfile#activate_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#activate_rate DosProtectionProfile#activate_rate}
   */
   readonly activateRate?: number;
   /**
   * Alarm rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#alarm_rate DosProtectionProfile#alarm_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#alarm_rate DosProtectionProfile#alarm_rate}
   */
   readonly alarmRate?: number;
   /**
   * Block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#block DosProtectionProfile#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#block DosProtectionProfile#block}
   */
   readonly block?: DosProtectionProfileFloodIcmpRedBlock;
   /**
   * Maximal rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#maximal_rate DosProtectionProfile#maximal_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#maximal_rate DosProtectionProfile#maximal_rate}
   */
   readonly maximalRate?: number;
 }
@@ -295,7 +292,7 @@ export class DosProtectionProfileFloodIcmpRedOutputReference extends cdktf.Compl
     }
   }
 
-  // activate_rate - computed: true, optional: true, required: false
+  // activate_rate - computed: false, optional: true, required: false
   private _activateRate?: number; 
   public get activateRate() {
     return this.getNumberAttribute('activate_rate');
@@ -311,7 +308,7 @@ export class DosProtectionProfileFloodIcmpRedOutputReference extends cdktf.Compl
     return this._activateRate;
   }
 
-  // alarm_rate - computed: true, optional: true, required: false
+  // alarm_rate - computed: false, optional: true, required: false
   private _alarmRate?: number; 
   public get alarmRate() {
     return this.getNumberAttribute('alarm_rate');
@@ -327,7 +324,7 @@ export class DosProtectionProfileFloodIcmpRedOutputReference extends cdktf.Compl
     return this._alarmRate;
   }
 
-  // block - computed: true, optional: true, required: false
+  // block - computed: false, optional: true, required: false
   private _block = new DosProtectionProfileFloodIcmpRedBlockOutputReference(this, "block");
   public get block() {
     return this._block;
@@ -343,7 +340,7 @@ export class DosProtectionProfileFloodIcmpRedOutputReference extends cdktf.Compl
     return this._block.internalValue;
   }
 
-  // maximal_rate - computed: true, optional: true, required: false
+  // maximal_rate - computed: false, optional: true, required: false
   private _maximalRate?: number; 
   public get maximalRate() {
     return this.getNumberAttribute('maximal_rate');
@@ -363,13 +360,13 @@ export interface DosProtectionProfileFloodIcmp {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#enable DosProtectionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#enable DosProtectionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Red
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#red DosProtectionProfile#red}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#red DosProtectionProfile#red}
   */
   readonly red?: DosProtectionProfileFloodIcmpRed;
 }
@@ -474,7 +471,7 @@ export class DosProtectionProfileFloodIcmpOutputReference extends cdktf.ComplexO
     return this._enable;
   }
 
-  // red - computed: true, optional: true, required: false
+  // red - computed: false, optional: true, required: false
   private _red = new DosProtectionProfileFloodIcmpRedOutputReference(this, "red");
   public get red() {
     return this._red;
@@ -494,7 +491,7 @@ export interface DosProtectionProfileFloodIcmpv6RedBlock {
   /**
   * Duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#duration DosProtectionProfile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#duration DosProtectionProfile#duration}
   */
   readonly duration?: number;
 }
@@ -590,25 +587,25 @@ export interface DosProtectionProfileFloodIcmpv6Red {
   /**
   * Activate rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#activate_rate DosProtectionProfile#activate_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#activate_rate DosProtectionProfile#activate_rate}
   */
   readonly activateRate?: number;
   /**
   * Alarm rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#alarm_rate DosProtectionProfile#alarm_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#alarm_rate DosProtectionProfile#alarm_rate}
   */
   readonly alarmRate?: number;
   /**
   * Block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#block DosProtectionProfile#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#block DosProtectionProfile#block}
   */
   readonly block?: DosProtectionProfileFloodIcmpv6RedBlock;
   /**
   * Maximal rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#maximal_rate DosProtectionProfile#maximal_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#maximal_rate DosProtectionProfile#maximal_rate}
   */
   readonly maximalRate?: number;
 }
@@ -723,7 +720,7 @@ export class DosProtectionProfileFloodIcmpv6RedOutputReference extends cdktf.Com
     }
   }
 
-  // activate_rate - computed: true, optional: true, required: false
+  // activate_rate - computed: false, optional: true, required: false
   private _activateRate?: number; 
   public get activateRate() {
     return this.getNumberAttribute('activate_rate');
@@ -739,7 +736,7 @@ export class DosProtectionProfileFloodIcmpv6RedOutputReference extends cdktf.Com
     return this._activateRate;
   }
 
-  // alarm_rate - computed: true, optional: true, required: false
+  // alarm_rate - computed: false, optional: true, required: false
   private _alarmRate?: number; 
   public get alarmRate() {
     return this.getNumberAttribute('alarm_rate');
@@ -755,7 +752,7 @@ export class DosProtectionProfileFloodIcmpv6RedOutputReference extends cdktf.Com
     return this._alarmRate;
   }
 
-  // block - computed: true, optional: true, required: false
+  // block - computed: false, optional: true, required: false
   private _block = new DosProtectionProfileFloodIcmpv6RedBlockOutputReference(this, "block");
   public get block() {
     return this._block;
@@ -771,7 +768,7 @@ export class DosProtectionProfileFloodIcmpv6RedOutputReference extends cdktf.Com
     return this._block.internalValue;
   }
 
-  // maximal_rate - computed: true, optional: true, required: false
+  // maximal_rate - computed: false, optional: true, required: false
   private _maximalRate?: number; 
   public get maximalRate() {
     return this.getNumberAttribute('maximal_rate');
@@ -791,13 +788,13 @@ export interface DosProtectionProfileFloodIcmpv6 {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#enable DosProtectionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#enable DosProtectionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Red
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#red DosProtectionProfile#red}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#red DosProtectionProfile#red}
   */
   readonly red?: DosProtectionProfileFloodIcmpv6Red;
 }
@@ -902,7 +899,7 @@ export class DosProtectionProfileFloodIcmpv6OutputReference extends cdktf.Comple
     return this._enable;
   }
 
-  // red - computed: true, optional: true, required: false
+  // red - computed: false, optional: true, required: false
   private _red = new DosProtectionProfileFloodIcmpv6RedOutputReference(this, "red");
   public get red() {
     return this._red;
@@ -922,7 +919,7 @@ export interface DosProtectionProfileFloodOtherIpRedBlock {
   /**
   * Duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#duration DosProtectionProfile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#duration DosProtectionProfile#duration}
   */
   readonly duration?: number;
 }
@@ -1018,25 +1015,25 @@ export interface DosProtectionProfileFloodOtherIpRed {
   /**
   * Activate rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#activate_rate DosProtectionProfile#activate_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#activate_rate DosProtectionProfile#activate_rate}
   */
   readonly activateRate?: number;
   /**
   * Alarm rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#alarm_rate DosProtectionProfile#alarm_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#alarm_rate DosProtectionProfile#alarm_rate}
   */
   readonly alarmRate?: number;
   /**
   * Block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#block DosProtectionProfile#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#block DosProtectionProfile#block}
   */
   readonly block?: DosProtectionProfileFloodOtherIpRedBlock;
   /**
   * Maximal rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#maximal_rate DosProtectionProfile#maximal_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#maximal_rate DosProtectionProfile#maximal_rate}
   */
   readonly maximalRate?: number;
 }
@@ -1151,7 +1148,7 @@ export class DosProtectionProfileFloodOtherIpRedOutputReference extends cdktf.Co
     }
   }
 
-  // activate_rate - computed: true, optional: true, required: false
+  // activate_rate - computed: false, optional: true, required: false
   private _activateRate?: number; 
   public get activateRate() {
     return this.getNumberAttribute('activate_rate');
@@ -1167,7 +1164,7 @@ export class DosProtectionProfileFloodOtherIpRedOutputReference extends cdktf.Co
     return this._activateRate;
   }
 
-  // alarm_rate - computed: true, optional: true, required: false
+  // alarm_rate - computed: false, optional: true, required: false
   private _alarmRate?: number; 
   public get alarmRate() {
     return this.getNumberAttribute('alarm_rate');
@@ -1183,7 +1180,7 @@ export class DosProtectionProfileFloodOtherIpRedOutputReference extends cdktf.Co
     return this._alarmRate;
   }
 
-  // block - computed: true, optional: true, required: false
+  // block - computed: false, optional: true, required: false
   private _block = new DosProtectionProfileFloodOtherIpRedBlockOutputReference(this, "block");
   public get block() {
     return this._block;
@@ -1199,7 +1196,7 @@ export class DosProtectionProfileFloodOtherIpRedOutputReference extends cdktf.Co
     return this._block.internalValue;
   }
 
-  // maximal_rate - computed: true, optional: true, required: false
+  // maximal_rate - computed: false, optional: true, required: false
   private _maximalRate?: number; 
   public get maximalRate() {
     return this.getNumberAttribute('maximal_rate');
@@ -1219,13 +1216,13 @@ export interface DosProtectionProfileFloodOtherIp {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#enable DosProtectionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#enable DosProtectionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Red
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#red DosProtectionProfile#red}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#red DosProtectionProfile#red}
   */
   readonly red?: DosProtectionProfileFloodOtherIpRed;
 }
@@ -1330,7 +1327,7 @@ export class DosProtectionProfileFloodOtherIpOutputReference extends cdktf.Compl
     return this._enable;
   }
 
-  // red - computed: true, optional: true, required: false
+  // red - computed: false, optional: true, required: false
   private _red = new DosProtectionProfileFloodOtherIpRedOutputReference(this, "red");
   public get red() {
     return this._red;
@@ -1350,7 +1347,7 @@ export interface DosProtectionProfileFloodTcpSynRedBlock {
   /**
   * Duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#duration DosProtectionProfile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#duration DosProtectionProfile#duration}
   */
   readonly duration?: number;
 }
@@ -1446,25 +1443,25 @@ export interface DosProtectionProfileFloodTcpSynRed {
   /**
   * Activate rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#activate_rate DosProtectionProfile#activate_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#activate_rate DosProtectionProfile#activate_rate}
   */
   readonly activateRate?: number;
   /**
   * Alarm rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#alarm_rate DosProtectionProfile#alarm_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#alarm_rate DosProtectionProfile#alarm_rate}
   */
   readonly alarmRate?: number;
   /**
   * Block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#block DosProtectionProfile#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#block DosProtectionProfile#block}
   */
   readonly block?: DosProtectionProfileFloodTcpSynRedBlock;
   /**
   * Maximal rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#maximal_rate DosProtectionProfile#maximal_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#maximal_rate DosProtectionProfile#maximal_rate}
   */
   readonly maximalRate?: number;
 }
@@ -1579,7 +1576,7 @@ export class DosProtectionProfileFloodTcpSynRedOutputReference extends cdktf.Com
     }
   }
 
-  // activate_rate - computed: true, optional: true, required: false
+  // activate_rate - computed: false, optional: true, required: false
   private _activateRate?: number; 
   public get activateRate() {
     return this.getNumberAttribute('activate_rate');
@@ -1595,7 +1592,7 @@ export class DosProtectionProfileFloodTcpSynRedOutputReference extends cdktf.Com
     return this._activateRate;
   }
 
-  // alarm_rate - computed: true, optional: true, required: false
+  // alarm_rate - computed: false, optional: true, required: false
   private _alarmRate?: number; 
   public get alarmRate() {
     return this.getNumberAttribute('alarm_rate');
@@ -1611,7 +1608,7 @@ export class DosProtectionProfileFloodTcpSynRedOutputReference extends cdktf.Com
     return this._alarmRate;
   }
 
-  // block - computed: true, optional: true, required: false
+  // block - computed: false, optional: true, required: false
   private _block = new DosProtectionProfileFloodTcpSynRedBlockOutputReference(this, "block");
   public get block() {
     return this._block;
@@ -1627,7 +1624,7 @@ export class DosProtectionProfileFloodTcpSynRedOutputReference extends cdktf.Com
     return this._block.internalValue;
   }
 
-  // maximal_rate - computed: true, optional: true, required: false
+  // maximal_rate - computed: false, optional: true, required: false
   private _maximalRate?: number; 
   public get maximalRate() {
     return this.getNumberAttribute('maximal_rate');
@@ -1647,7 +1644,7 @@ export interface DosProtectionProfileFloodTcpSynSynCookiesBlock {
   /**
   * Duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#duration DosProtectionProfile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#duration DosProtectionProfile#duration}
   */
   readonly duration?: number;
 }
@@ -1723,7 +1720,7 @@ export class DosProtectionProfileFloodTcpSynSynCookiesBlockOutputReference exten
     }
   }
 
-  // duration - computed: true, optional: true, required: false
+  // duration - computed: false, optional: true, required: false
   private _duration?: number; 
   public get duration() {
     return this.getNumberAttribute('duration');
@@ -1743,25 +1740,25 @@ export interface DosProtectionProfileFloodTcpSynSynCookies {
   /**
   * Activate rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#activate_rate DosProtectionProfile#activate_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#activate_rate DosProtectionProfile#activate_rate}
   */
   readonly activateRate?: number;
   /**
   * Alarm rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#alarm_rate DosProtectionProfile#alarm_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#alarm_rate DosProtectionProfile#alarm_rate}
   */
   readonly alarmRate?: number;
   /**
   * Block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#block DosProtectionProfile#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#block DosProtectionProfile#block}
   */
   readonly block?: DosProtectionProfileFloodTcpSynSynCookiesBlock;
   /**
   * Maximal rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#maximal_rate DosProtectionProfile#maximal_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#maximal_rate DosProtectionProfile#maximal_rate}
   */
   readonly maximalRate?: number;
 }
@@ -1876,7 +1873,7 @@ export class DosProtectionProfileFloodTcpSynSynCookiesOutputReference extends cd
     }
   }
 
-  // activate_rate - computed: true, optional: true, required: false
+  // activate_rate - computed: false, optional: true, required: false
   private _activateRate?: number; 
   public get activateRate() {
     return this.getNumberAttribute('activate_rate');
@@ -1892,7 +1889,7 @@ export class DosProtectionProfileFloodTcpSynSynCookiesOutputReference extends cd
     return this._activateRate;
   }
 
-  // alarm_rate - computed: true, optional: true, required: false
+  // alarm_rate - computed: false, optional: true, required: false
   private _alarmRate?: number; 
   public get alarmRate() {
     return this.getNumberAttribute('alarm_rate');
@@ -1908,7 +1905,7 @@ export class DosProtectionProfileFloodTcpSynSynCookiesOutputReference extends cd
     return this._alarmRate;
   }
 
-  // block - computed: true, optional: true, required: false
+  // block - computed: false, optional: true, required: false
   private _block = new DosProtectionProfileFloodTcpSynSynCookiesBlockOutputReference(this, "block");
   public get block() {
     return this._block;
@@ -1924,7 +1921,7 @@ export class DosProtectionProfileFloodTcpSynSynCookiesOutputReference extends cd
     return this._block.internalValue;
   }
 
-  // maximal_rate - computed: true, optional: true, required: false
+  // maximal_rate - computed: false, optional: true, required: false
   private _maximalRate?: number; 
   public get maximalRate() {
     return this.getNumberAttribute('maximal_rate');
@@ -1944,19 +1941,19 @@ export interface DosProtectionProfileFloodTcpSyn {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#enable DosProtectionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#enable DosProtectionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Red
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#red DosProtectionProfile#red}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#red DosProtectionProfile#red}
   */
   readonly red?: DosProtectionProfileFloodTcpSynRed;
   /**
   * Syn cookies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#syn_cookies DosProtectionProfile#syn_cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#syn_cookies DosProtectionProfile#syn_cookies}
   */
   readonly synCookies?: DosProtectionProfileFloodTcpSynSynCookies;
 }
@@ -2058,7 +2055,7 @@ export class DosProtectionProfileFloodTcpSynOutputReference extends cdktf.Comple
     }
   }
 
-  // enable - computed: true, optional: true, required: false
+  // enable - computed: false, optional: true, required: false
   private _enable?: boolean | cdktf.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
@@ -2074,7 +2071,7 @@ export class DosProtectionProfileFloodTcpSynOutputReference extends cdktf.Comple
     return this._enable;
   }
 
-  // red - computed: true, optional: true, required: false
+  // red - computed: false, optional: true, required: false
   private _red = new DosProtectionProfileFloodTcpSynRedOutputReference(this, "red");
   public get red() {
     return this._red;
@@ -2090,7 +2087,7 @@ export class DosProtectionProfileFloodTcpSynOutputReference extends cdktf.Comple
     return this._red.internalValue;
   }
 
-  // syn_cookies - computed: true, optional: true, required: false
+  // syn_cookies - computed: false, optional: true, required: false
   private _synCookies = new DosProtectionProfileFloodTcpSynSynCookiesOutputReference(this, "syn_cookies");
   public get synCookies() {
     return this._synCookies;
@@ -2110,7 +2107,7 @@ export interface DosProtectionProfileFloodUdpRedBlock {
   /**
   * Duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#duration DosProtectionProfile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#duration DosProtectionProfile#duration}
   */
   readonly duration?: number;
 }
@@ -2206,25 +2203,25 @@ export interface DosProtectionProfileFloodUdpRed {
   /**
   * Activate rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#activate_rate DosProtectionProfile#activate_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#activate_rate DosProtectionProfile#activate_rate}
   */
   readonly activateRate?: number;
   /**
   * Alarm rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#alarm_rate DosProtectionProfile#alarm_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#alarm_rate DosProtectionProfile#alarm_rate}
   */
   readonly alarmRate?: number;
   /**
   * Block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#block DosProtectionProfile#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#block DosProtectionProfile#block}
   */
   readonly block?: DosProtectionProfileFloodUdpRedBlock;
   /**
   * Maximal rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#maximal_rate DosProtectionProfile#maximal_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#maximal_rate DosProtectionProfile#maximal_rate}
   */
   readonly maximalRate?: number;
 }
@@ -2339,7 +2336,7 @@ export class DosProtectionProfileFloodUdpRedOutputReference extends cdktf.Comple
     }
   }
 
-  // activate_rate - computed: true, optional: true, required: false
+  // activate_rate - computed: false, optional: true, required: false
   private _activateRate?: number; 
   public get activateRate() {
     return this.getNumberAttribute('activate_rate');
@@ -2355,7 +2352,7 @@ export class DosProtectionProfileFloodUdpRedOutputReference extends cdktf.Comple
     return this._activateRate;
   }
 
-  // alarm_rate - computed: true, optional: true, required: false
+  // alarm_rate - computed: false, optional: true, required: false
   private _alarmRate?: number; 
   public get alarmRate() {
     return this.getNumberAttribute('alarm_rate');
@@ -2371,7 +2368,7 @@ export class DosProtectionProfileFloodUdpRedOutputReference extends cdktf.Comple
     return this._alarmRate;
   }
 
-  // block - computed: true, optional: true, required: false
+  // block - computed: false, optional: true, required: false
   private _block = new DosProtectionProfileFloodUdpRedBlockOutputReference(this, "block");
   public get block() {
     return this._block;
@@ -2387,7 +2384,7 @@ export class DosProtectionProfileFloodUdpRedOutputReference extends cdktf.Comple
     return this._block.internalValue;
   }
 
-  // maximal_rate - computed: true, optional: true, required: false
+  // maximal_rate - computed: false, optional: true, required: false
   private _maximalRate?: number; 
   public get maximalRate() {
     return this.getNumberAttribute('maximal_rate');
@@ -2407,13 +2404,13 @@ export interface DosProtectionProfileFloodUdp {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#enable DosProtectionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#enable DosProtectionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Red
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#red DosProtectionProfile#red}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#red DosProtectionProfile#red}
   */
   readonly red?: DosProtectionProfileFloodUdpRed;
 }
@@ -2518,7 +2515,7 @@ export class DosProtectionProfileFloodUdpOutputReference extends cdktf.ComplexOb
     return this._enable;
   }
 
-  // red - computed: true, optional: true, required: false
+  // red - computed: false, optional: true, required: false
   private _red = new DosProtectionProfileFloodUdpRedOutputReference(this, "red");
   public get red() {
     return this._red;
@@ -2538,31 +2535,31 @@ export interface DosProtectionProfileFlood {
   /**
   * Icmp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#icmp DosProtectionProfile#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#icmp DosProtectionProfile#icmp}
   */
   readonly icmp?: DosProtectionProfileFloodIcmp;
   /**
   * Icmpv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#icmpv6 DosProtectionProfile#icmpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#icmpv6 DosProtectionProfile#icmpv6}
   */
   readonly icmpv6?: DosProtectionProfileFloodIcmpv6;
   /**
   * Other ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#other_ip DosProtectionProfile#other_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#other_ip DosProtectionProfile#other_ip}
   */
   readonly otherIp?: DosProtectionProfileFloodOtherIp;
   /**
   * Tcp syn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#tcp_syn DosProtectionProfile#tcp_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#tcp_syn DosProtectionProfile#tcp_syn}
   */
   readonly tcpSyn?: DosProtectionProfileFloodTcpSyn;
   /**
   * Udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#udp DosProtectionProfile#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#udp DosProtectionProfile#udp}
   */
   readonly udp?: DosProtectionProfileFloodUdp;
 }
@@ -2690,7 +2687,7 @@ export class DosProtectionProfileFloodOutputReference extends cdktf.ComplexObjec
     }
   }
 
-  // icmp - computed: true, optional: true, required: false
+  // icmp - computed: false, optional: true, required: false
   private _icmp = new DosProtectionProfileFloodIcmpOutputReference(this, "icmp");
   public get icmp() {
     return this._icmp;
@@ -2706,7 +2703,7 @@ export class DosProtectionProfileFloodOutputReference extends cdktf.ComplexObjec
     return this._icmp.internalValue;
   }
 
-  // icmpv6 - computed: true, optional: true, required: false
+  // icmpv6 - computed: false, optional: true, required: false
   private _icmpv6 = new DosProtectionProfileFloodIcmpv6OutputReference(this, "icmpv6");
   public get icmpv6() {
     return this._icmpv6;
@@ -2722,7 +2719,7 @@ export class DosProtectionProfileFloodOutputReference extends cdktf.ComplexObjec
     return this._icmpv6.internalValue;
   }
 
-  // other_ip - computed: true, optional: true, required: false
+  // other_ip - computed: false, optional: true, required: false
   private _otherIp = new DosProtectionProfileFloodOtherIpOutputReference(this, "other_ip");
   public get otherIp() {
     return this._otherIp;
@@ -2738,7 +2735,7 @@ export class DosProtectionProfileFloodOutputReference extends cdktf.ComplexObjec
     return this._otherIp.internalValue;
   }
 
-  // tcp_syn - computed: true, optional: true, required: false
+  // tcp_syn - computed: false, optional: true, required: false
   private _tcpSyn = new DosProtectionProfileFloodTcpSynOutputReference(this, "tcp_syn");
   public get tcpSyn() {
     return this._tcpSyn;
@@ -2754,7 +2751,7 @@ export class DosProtectionProfileFloodOutputReference extends cdktf.ComplexObjec
     return this._tcpSyn.internalValue;
   }
 
-  // udp - computed: true, optional: true, required: false
+  // udp - computed: false, optional: true, required: false
   private _udp = new DosProtectionProfileFloodUdpOutputReference(this, "udp");
   public get udp() {
     return this._udp;
@@ -2774,13 +2771,13 @@ export interface DosProtectionProfileResourceSessions {
   /**
   * Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#enabled DosProtectionProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#enabled DosProtectionProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Max concurrent limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#max_concurrent_limit DosProtectionProfile#max_concurrent_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#max_concurrent_limit DosProtectionProfile#max_concurrent_limit}
   */
   readonly maxConcurrentLimit?: number;
 }
@@ -2885,7 +2882,7 @@ export class DosProtectionProfileResourceSessionsOutputReference extends cdktf.C
     return this._enabled;
   }
 
-  // max_concurrent_limit - computed: true, optional: true, required: false
+  // max_concurrent_limit - computed: false, optional: true, required: false
   private _maxConcurrentLimit?: number; 
   public get maxConcurrentLimit() {
     return this.getNumberAttribute('max_concurrent_limit');
@@ -2905,7 +2902,7 @@ export interface DosProtectionProfileResource {
   /**
   * Sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#sessions DosProtectionProfile#sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#sessions DosProtectionProfile#sessions}
   */
   readonly sessions?: DosProtectionProfileResourceSessions;
 }
@@ -2981,7 +2978,7 @@ export class DosProtectionProfileResourceOutputReference extends cdktf.ComplexOb
     }
   }
 
-  // sessions - computed: true, optional: true, required: false
+  // sessions - computed: false, optional: true, required: false
   private _sessions = new DosProtectionProfileResourceSessionsOutputReference(this, "sessions");
   public get sessions() {
     return this._sessions;
@@ -2999,7 +2996,7 @@ export class DosProtectionProfileResourceOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile scm_dos_protection_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile scm_dos_protection_profile}
 */
 export class DosProtectionProfile extends cdktf.TerraformResource {
 
@@ -3015,7 +3012,7 @@ export class DosProtectionProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DosProtectionProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DosProtectionProfile to import
-  * @param importFromId The id of the existing DosProtectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DosProtectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DosProtectionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3027,7 +3024,7 @@ export class DosProtectionProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_profile scm_dos_protection_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_profile scm_dos_protection_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3038,8 +3035,8 @@ export class DosProtectionProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_dos_protection_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3095,7 +3092,7 @@ export class DosProtectionProfile extends cdktf.TerraformResource {
     return this._device;
   }
 
-  // flood - computed: true, optional: true, required: false
+  // flood - computed: false, optional: true, required: false
   private _flood = new DosProtectionProfileFloodOutputReference(this, "flood");
   public get flood() {
     return this._flood;
@@ -3145,7 +3142,7 @@ export class DosProtectionProfile extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // resource - computed: true, optional: true, required: false
+  // resource - computed: false, optional: true, required: false
   private _resource = new DosProtectionProfileResourceOutputReference(this, "resource");
   public get resource() {
     return this._resource;

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_emergencygroup
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_emergencygroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ArchitectEmergencygroupConfig extends cdktf.TerraformMetaArgume
   /**
   * Description of the emergency group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_emergencygroup#description ArchitectEmergencygroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_emergencygroup#description ArchitectEmergencygroup#description}
   */
   readonly description?: string;
   /**
   * The division to which this emergency group will belong. If not set, the home division will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_emergencygroup#division_id ArchitectEmergencygroup#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_emergencygroup#division_id ArchitectEmergencygroup#division_id}
   */
   readonly divisionId?: string;
   /**
   * The state of the emergency group. Defaults to false/inactive. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_emergencygroup#enabled ArchitectEmergencygroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_emergencygroup#enabled ArchitectEmergencygroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_emergencygroup#id ArchitectEmergencygroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_emergencygroup#id ArchitectEmergencygroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface ArchitectEmergencygroupConfig extends cdktf.TerraformMetaArgume
   /**
   * Name of the emergency group. Note:  If the name is changed, the emergency group is dropped and recreated with a new ID. This can cause an Architect flow to be invalid if it references the old emergency group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_emergencygroup#name ArchitectEmergencygroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_emergencygroup#name ArchitectEmergencygroup#name}
   */
   readonly name: string;
   /**
   * emergency_call_flows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_emergencygroup#emergency_call_flows ArchitectEmergencygroup#emergency_call_flows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_emergencygroup#emergency_call_flows ArchitectEmergencygroup#emergency_call_flows}
   */
   readonly emergencyCallFlows?: ArchitectEmergencygroupEmergencyCallFlows[] | cdktf.IResolvable;
 }
@@ -49,13 +49,13 @@ export interface ArchitectEmergencygroupEmergencyCallFlows {
   /**
   * The ID of the connected call flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_emergencygroup#emergency_flow_id ArchitectEmergencygroup#emergency_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_emergencygroup#emergency_flow_id ArchitectEmergencygroup#emergency_flow_id}
   */
   readonly emergencyFlowId: string;
   /**
   * The IDs of the connected IVRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_emergencygroup#ivr_ids ArchitectEmergencygroup#ivr_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_emergencygroup#ivr_ids ArchitectEmergencygroup#ivr_ids}
   */
   readonly ivrIds: string[];
 }
@@ -194,7 +194,7 @@ export class ArchitectEmergencygroupEmergencyCallFlowsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_emergencygroup genesyscloud_architect_emergencygroup}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_emergencygroup genesyscloud_architect_emergencygroup}
 */
 export class ArchitectEmergencygroup extends cdktf.TerraformResource {
 
@@ -210,7 +210,7 @@ export class ArchitectEmergencygroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArchitectEmergencygroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArchitectEmergencygroup to import
-  * @param importFromId The id of the existing ArchitectEmergencygroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_emergencygroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArchitectEmergencygroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_emergencygroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArchitectEmergencygroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class ArchitectEmergencygroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/architect_emergencygroup genesyscloud_architect_emergencygroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/architect_emergencygroup genesyscloud_architect_emergencygroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class ArchitectEmergencygroup extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_architect_emergencygroup',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

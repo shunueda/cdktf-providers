@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster_on_off
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster_on_off
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface FreeTierClusterOnOffConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster_on_off#cluster_id FreeTierClusterOnOff#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster_on_off#cluster_id FreeTierClusterOnOff#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster_on_off#organization_id FreeTierClusterOnOff#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster_on_off#organization_id FreeTierClusterOnOff#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster_on_off#project_id FreeTierClusterOnOff#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster_on_off#project_id FreeTierClusterOnOff#project_id}
   */
   readonly projectId: string;
   /**
-  * The On/Off state of the free tier cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster_on_off#state FreeTierClusterOnOff#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster_on_off#state FreeTierClusterOnOff#state}
   */
   readonly state: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster_on_off couchbase-capella_free_tier_cluster_on_off}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster_on_off couchbase-capella_free_tier_cluster_on_off}
 */
 export class FreeTierClusterOnOff extends cdktf.TerraformResource {
 
@@ -50,7 +42,7 @@ export class FreeTierClusterOnOff extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FreeTierClusterOnOff resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FreeTierClusterOnOff to import
-  * @param importFromId The id of the existing FreeTierClusterOnOff that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster_on_off#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FreeTierClusterOnOff that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster_on_off#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FreeTierClusterOnOff to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +54,7 @@ export class FreeTierClusterOnOff extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/free_tier_cluster_on_off couchbase-capella_free_tier_cluster_on_off} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/free_tier_cluster_on_off couchbase-capella_free_tier_cluster_on_off} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +65,8 @@ export class FreeTierClusterOnOff extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_free_tier_cluster_on_off',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

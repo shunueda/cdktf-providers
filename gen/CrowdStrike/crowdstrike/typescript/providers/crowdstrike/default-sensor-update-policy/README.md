@@ -1,3 +1,3 @@
 # `crowdstrike_default_sensor_update_policy`
 
-Refer to the Terraform Registry for docs: [`crowdstrike_default_sensor_update_policy`](https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/default_sensor_update_policy).
+Refer to the Terraform Registry for docs: [`crowdstrike_default_sensor_update_policy`](https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/default_sensor_update_policy).

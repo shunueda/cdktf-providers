@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface InterfaceResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates if the interface serves as the default route when multiple interfaces are eligible for this role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#default_route InterfaceResource#default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#default_route InterfaceResource#default_route}
   */
   readonly defaultRoute?: InterfaceResourceDefaultRoute;
   /**
   * ID of an enabled firewall to secure a VPC or public interface. Not allowed for VLAN interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#firewall_id InterfaceResource#firewall_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#firewall_id InterfaceResource#firewall_id}
   */
   readonly firewallId?: number;
   /**
   * The ID of the Linode to assign this interface to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#linode_id InterfaceResource#linode_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#linode_id InterfaceResource#linode_id}
   */
   readonly linodeId: number;
   /**
   * Linode public interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#public InterfaceResource#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#public InterfaceResource#public}
   */
   readonly public?: InterfaceResourcePublic;
   /**
   * Linode VLAN interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#vlan InterfaceResource#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#vlan InterfaceResource#vlan}
   */
   readonly vlan?: InterfaceResourceVlan;
   /**
   * Linode VPC interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#vpc InterfaceResource#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#vpc InterfaceResource#vpc}
   */
   readonly vpc?: InterfaceResourceVpc;
 }
@@ -48,13 +48,13 @@ export interface InterfaceResourceDefaultRoute {
   /**
   * If set to true, the interface is used for the IPv4 default route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#ipv4 InterfaceResource#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#ipv4 InterfaceResource#ipv4}
   */
   readonly ipv4?: boolean | cdktf.IResolvable;
   /**
   * If set to true, the interface is used for the IPv6 default route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#ipv6 InterfaceResource#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#ipv6 InterfaceResource#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
 }
@@ -177,11 +177,11 @@ export class InterfaceResourceDefaultRouteOutputReference extends cdktf.ComplexO
 }
 export interface InterfaceResourcePublicIpv4Addresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#address InterfaceResource#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#address InterfaceResource#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#primary InterfaceResource#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#primary InterfaceResource#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
 }
@@ -488,7 +488,7 @@ export interface InterfaceResourcePublicIpv4 {
   /**
   * IPv4 addresses configured for this Linode interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#addresses InterfaceResource#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#addresses InterfaceResource#addresses}
   */
   readonly addresses?: InterfaceResourcePublicIpv4Addresses[] | cdktf.IResolvable;
 }
@@ -674,15 +674,9 @@ export class InterfaceResourcePublicIpv6AssignedRangesList extends cdktf.Complex
 }
 export interface InterfaceResourcePublicIpv6Ranges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#range InterfaceResource#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#range InterfaceResource#range}
   */
   readonly range: string;
-  /**
-  * The public IPv6 address that the range is routed to.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#route_target InterfaceResource#route_target}
-  */
-  readonly routeTarget?: string;
 }
 
 export function interfaceResourcePublicIpv6RangesToTerraform(struct?: InterfaceResourcePublicIpv6Ranges | cdktf.IResolvable): any {
@@ -692,7 +686,6 @@ export function interfaceResourcePublicIpv6RangesToTerraform(struct?: InterfaceR
   }
   return {
     range: cdktf.stringToTerraform(struct!.range),
-    route_target: cdktf.stringToTerraform(struct!.routeTarget),
   }
 }
 
@@ -705,12 +698,6 @@ export function interfaceResourcePublicIpv6RangesToHclTerraform(struct?: Interfa
   const attrs = {
     range: {
       value: cdktf.stringToHclTerraform(struct!.range),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    route_target: {
-      value: cdktf.stringToHclTerraform(struct!.routeTarget),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -745,10 +732,6 @@ export class InterfaceResourcePublicIpv6RangesOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.range = this._range;
     }
-    if (this._routeTarget !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.routeTarget = this._routeTarget;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -757,7 +740,6 @@ export class InterfaceResourcePublicIpv6RangesOutputReference extends cdktf.Comp
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._range = undefined;
-      this._routeTarget = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -767,7 +749,6 @@ export class InterfaceResourcePublicIpv6RangesOutputReference extends cdktf.Comp
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._range = value.range;
-      this._routeTarget = value.routeTarget;
     }
   }
 
@@ -782,22 +763,6 @@ export class InterfaceResourcePublicIpv6RangesOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get rangeInput() {
     return this._range;
-  }
-
-  // route_target - computed: true, optional: true, required: false
-  private _routeTarget?: string; 
-  public get routeTarget() {
-    return this.getStringAttribute('route_target');
-  }
-  public set routeTarget(value: string) {
-    this._routeTarget = value;
-  }
-  public resetRouteTarget() {
-    this._routeTarget = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get routeTargetInput() {
-    return this._routeTarget;
   }
 }
 
@@ -984,7 +949,7 @@ export interface InterfaceResourcePublicIpv6 {
   /**
   * Configured IPv6 range in CIDR notation (2600:0db8::1/64) or prefix-only (/64).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#ranges InterfaceResource#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#ranges InterfaceResource#ranges}
   */
   readonly ranges?: InterfaceResourcePublicIpv6Ranges[] | cdktf.IResolvable;
 }
@@ -1098,13 +1063,13 @@ export interface InterfaceResourcePublic {
   /**
   * IPv4 addresses for this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#ipv4 InterfaceResource#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#ipv4 InterfaceResource#ipv4}
   */
   readonly ipv4?: InterfaceResourcePublicIpv4;
   /**
   * IPv6 addresses for this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#ipv6 InterfaceResource#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#ipv6 InterfaceResource#ipv6}
   */
   readonly ipv6?: InterfaceResourcePublicIpv6;
 }
@@ -1229,13 +1194,13 @@ export interface InterfaceResourceVlan {
   /**
   * This VLAN interface's private IPv4 address in classless inter-domain routing (CIDR) notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#ipam_address InterfaceResource#ipam_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#ipam_address InterfaceResource#ipam_address}
   */
   readonly ipamAddress?: string;
   /**
   * The VLAN's unique label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#vlan_label InterfaceResource#vlan_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#vlan_label InterfaceResource#vlan_label}
   */
   readonly vlanLabel: string;
 }
@@ -1355,17 +1320,17 @@ export class InterfaceResourceVlanOutputReference extends cdktf.ComplexObject {
 }
 export interface InterfaceResourceVpcIpv4Addresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#address InterfaceResource#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#address InterfaceResource#address}
   */
   readonly address?: string;
   /**
   * The 1:1 NAT IPv4 address used to associate a public IPv4 address with the interface's VPC subnet IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#nat_1_1_address InterfaceResource#nat_1_1_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#nat_1_1_address InterfaceResource#nat_1_1_address}
   */
   readonly nat11Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#primary InterfaceResource#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#primary InterfaceResource#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
 }
@@ -1699,7 +1664,7 @@ export class InterfaceResourceVpcIpv4AssignedRangesList extends cdktf.ComplexLis
 }
 export interface InterfaceResourceVpcIpv4Ranges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#range InterfaceResource#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#range InterfaceResource#range}
   */
   readonly range: string;
 }
@@ -1814,13 +1779,13 @@ export interface InterfaceResourceVpcIpv4 {
   /**
   * Specifies the IPv4 addresses to use in the VPC subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#addresses InterfaceResource#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#addresses InterfaceResource#addresses}
   */
   readonly addresses?: InterfaceResourceVpcIpv4Addresses[] | cdktf.IResolvable;
   /**
   * CIDR notation of a range (1.2.3.4/24) or prefix only (/24).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#ranges InterfaceResource#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#ranges InterfaceResource#ranges}
   */
   readonly ranges?: InterfaceResourceVpcIpv4Ranges[] | cdktf.IResolvable;
 }
@@ -2112,7 +2077,7 @@ export interface InterfaceResourceVpcIpv6Ranges {
   /**
   * The IPv6 network range in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#range InterfaceResource#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#range InterfaceResource#range}
   */
   readonly range?: string;
 }
@@ -2230,7 +2195,7 @@ export interface InterfaceResourceVpcIpv6Slaac {
   /**
   * The IPv6 network range in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#range InterfaceResource#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#range InterfaceResource#range}
   */
   readonly range?: string;
 }
@@ -2348,19 +2313,19 @@ export interface InterfaceResourceVpcIpv6 {
   /**
   * Indicates whether the IPv6 configuration on the Linode interface is public.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#is_public InterfaceResource#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#is_public InterfaceResource#is_public}
   */
   readonly isPublic?: boolean | cdktf.IResolvable;
   /**
   * CIDR notation of a range (1.2.3.4/24) or prefix only (/24).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#ranges InterfaceResource#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#ranges InterfaceResource#ranges}
   */
   readonly ranges?: InterfaceResourceVpcIpv6Ranges[] | cdktf.IResolvable;
   /**
   * Defines IPv6 SLAAC address ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#slaac InterfaceResource#slaac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#slaac InterfaceResource#slaac}
   */
   readonly slaac?: InterfaceResourceVpcIpv6Slaac[] | cdktf.IResolvable;
 }
@@ -2524,17 +2489,17 @@ export class InterfaceResourceVpcIpv6OutputReference extends cdktf.ComplexObject
 }
 export interface InterfaceResourceVpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#ipv4 InterfaceResource#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#ipv4 InterfaceResource#ipv4}
   */
   readonly ipv4?: InterfaceResourceVpcIpv4;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#ipv6 InterfaceResource#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#ipv6 InterfaceResource#ipv6}
   */
   readonly ipv6?: InterfaceResourceVpcIpv6;
   /**
   * The VPC subnet identifier for this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#subnet_id InterfaceResource#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#subnet_id InterfaceResource#subnet_id}
   */
   readonly subnetId: number;
 }
@@ -2683,7 +2648,7 @@ export class InterfaceResourceVpcOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface linode_interface}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface linode_interface}
 */
 export class InterfaceResource extends cdktf.TerraformResource {
 
@@ -2699,7 +2664,7 @@ export class InterfaceResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceResource to import
-  * @param importFromId The id of the existing InterfaceResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2711,7 +2676,7 @@ export class InterfaceResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/interface linode_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/interface linode_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2722,8 +2687,8 @@ export class InterfaceResource extends cdktf.TerraformResource {
       terraformResourceType: 'linode_interface',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_catalog_mapping
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_catalog_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface GroupCatalogMappingConfig extends cdktf.TerraformMetaArguments 
   /**
   * Optional alias for the group mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_catalog_mapping#alias GroupCatalogMapping#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_catalog_mapping#alias GroupCatalogMapping#alias}
   */
   readonly alias?: string;
   /**
   * The ID of the Okta app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_catalog_mapping#app_resource_id GroupCatalogMapping#app_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_catalog_mapping#app_resource_id GroupCatalogMapping#app_resource_id}
   */
   readonly appResourceId: string;
   /**
   * The ID of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_catalog_mapping#group_id GroupCatalogMapping#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_catalog_mapping#group_id GroupCatalogMapping#group_id}
   */
   readonly groupId: string;
   /**
@@ -31,13 +31,13 @@ export interface GroupCatalogMappingConfig extends cdktf.TerraformMetaArguments 
   * - **Existing mappings**: If not provided, existing value is preserved (no change)
   * - **Explicit values**: If provided, value is updated to the specified boolean
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_catalog_mapping#hidden_from_end_user GroupCatalogMapping#hidden_from_end_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_catalog_mapping#hidden_from_end_user GroupCatalogMapping#hidden_from_end_user}
   */
   readonly hiddenFromEndUser?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_catalog_mapping opal_group_catalog_mapping}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_catalog_mapping opal_group_catalog_mapping}
 */
 export class GroupCatalogMapping extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class GroupCatalogMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupCatalogMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupCatalogMapping to import
-  * @param importFromId The id of the existing GroupCatalogMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_catalog_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupCatalogMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_catalog_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupCatalogMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class GroupCatalogMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/group_catalog_mapping opal_group_catalog_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/group_catalog_mapping opal_group_catalog_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class GroupCatalogMapping extends cdktf.TerraformResource {
       terraformResourceType: 'opal_group_catalog_mapping',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

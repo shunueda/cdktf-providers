@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/syslog_server_profile_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataScmSyslogServerProfileListConfig extends cdktf.TerraformMet
   /**
   * The device of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/syslog_server_profile_list#device DataScmSyslogServerProfileList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list#device DataScmSyslogServerProfileList#device}
   */
   readonly device?: string;
   /**
   * The folder of the item. Default: Shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/syslog_server_profile_list#folder DataScmSyslogServerProfileList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list#folder DataScmSyslogServerProfileList#folder}
   */
   readonly folder?: string;
   /**
   * The max number of items to return. Default: 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/syslog_server_profile_list#limit DataScmSyslogServerProfileList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list#limit DataScmSyslogServerProfileList#limit}
   */
   readonly limit?: number;
   /**
   * The name of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/syslog_server_profile_list#name DataScmSyslogServerProfileList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list#name DataScmSyslogServerProfileList#name}
   */
   readonly name?: string;
   /**
   * The offset of the first item to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/syslog_server_profile_list#offset DataScmSyslogServerProfileList#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list#offset DataScmSyslogServerProfileList#offset}
   */
   readonly offset?: number;
   /**
   * The snippet of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/syslog_server_profile_list#snippet DataScmSyslogServerProfileList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list#snippet DataScmSyslogServerProfileList#snippet}
   */
   readonly snippet?: string;
 }
@@ -243,10 +243,10 @@ export class DataScmSyslogServerProfileListDataFormatOutputReference extends cdk
     return this.getStringAttribute('wildfire');
   }
 }
-export interface DataScmSyslogServerProfileListDataServers {
+export interface DataScmSyslogServerProfileListDataServer {
 }
 
-export function dataScmSyslogServerProfileListDataServersToTerraform(struct?: DataScmSyslogServerProfileListDataServers): any {
+export function dataScmSyslogServerProfileListDataServerToTerraform(struct?: DataScmSyslogServerProfileListDataServer): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -256,7 +256,7 @@ export function dataScmSyslogServerProfileListDataServersToTerraform(struct?: Da
 }
 
 
-export function dataScmSyslogServerProfileListDataServersToHclTerraform(struct?: DataScmSyslogServerProfileListDataServers): any {
+export function dataScmSyslogServerProfileListDataServerToHclTerraform(struct?: DataScmSyslogServerProfileListDataServer): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -266,24 +266,26 @@ export function dataScmSyslogServerProfileListDataServersToHclTerraform(struct?:
   return attrs;
 }
 
-export class DataScmSyslogServerProfileListDataServersOutputReference extends cdktf.ComplexObject {
+export class DataScmSyslogServerProfileListDataServerOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false);
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataScmSyslogServerProfileListDataServers | undefined {
+  public get internalValue(): DataScmSyslogServerProfileListDataServer | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmSyslogServerProfileListDataServers | undefined) {
+  public set internalValue(value: DataScmSyslogServerProfileListDataServer | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -322,11 +324,44 @@ export class DataScmSyslogServerProfileListDataServersOutputReference extends cd
     return this.getStringAttribute('transport');
   }
 }
+
+export class DataScmSyslogServerProfileListDataServerList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataScmSyslogServerProfileListDataServerOutputReference {
+    return new DataScmSyslogServerProfileListDataServerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataScmSyslogServerProfileListData {
+  /**
+  * The device in which the resource is defined
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list#device DataScmSyslogServerProfileList#device}
+  */
+  readonly device?: string;
+  /**
+  * The folder in which the resource is defined
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list#folder DataScmSyslogServerProfileList#folder}
+  */
+  readonly folder?: string;
   /**
   * The UUID of the syslog server profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/syslog_server_profile_list#id DataScmSyslogServerProfileList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list#id DataScmSyslogServerProfileList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -335,9 +370,16 @@ export interface DataScmSyslogServerProfileListData {
   /**
   * The name of the syslog server profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/syslog_server_profile_list#name DataScmSyslogServerProfileList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list#name DataScmSyslogServerProfileList#name}
   */
   readonly name?: string;
+  /**
+  * The snippet in which the resource is defined
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list#snippet DataScmSyslogServerProfileList#snippet}
+  */
+  readonly snippet?: string;
 }
 
 export function dataScmSyslogServerProfileListDataToTerraform(struct?: DataScmSyslogServerProfileListData): any {
@@ -346,8 +388,11 @@ export function dataScmSyslogServerProfileListDataToTerraform(struct?: DataScmSy
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    device: cdktf.stringToTerraform(struct!.device),
+    folder: cdktf.stringToTerraform(struct!.folder),
     id: cdktf.stringToTerraform(struct!.id),
     name: cdktf.stringToTerraform(struct!.name),
+    snippet: cdktf.stringToTerraform(struct!.snippet),
   }
 }
 
@@ -358,6 +403,18 @@ export function dataScmSyslogServerProfileListDataToHclTerraform(struct?: DataSc
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    device: {
+      value: cdktf.stringToHclTerraform(struct!.device),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    folder: {
+      value: cdktf.stringToHclTerraform(struct!.folder),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     id: {
       value: cdktf.stringToHclTerraform(struct!.id),
       isBlock: false,
@@ -366,6 +423,12 @@ export function dataScmSyslogServerProfileListDataToHclTerraform(struct?: DataSc
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    snippet: {
+      value: cdktf.stringToHclTerraform(struct!.snippet),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -392,6 +455,14 @@ export class DataScmSyslogServerProfileListDataOutputReference extends cdktf.Com
   public get internalValue(): DataScmSyslogServerProfileListData | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._device !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.device = this._device;
+    }
+    if (this._folder !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.folder = this._folder;
+    }
     if (this._id !== undefined) {
       hasAnyValues = true;
       internalValueResult.id = this._id;
@@ -400,30 +471,62 @@ export class DataScmSyslogServerProfileListDataOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.name = this._name;
     }
+    if (this._snippet !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.snippet = this._snippet;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: DataScmSyslogServerProfileListData | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._device = undefined;
+      this._folder = undefined;
       this._id = undefined;
       this._name = undefined;
+      this._snippet = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._device = value.device;
+      this._folder = value.folder;
       this._id = value.id;
       this._name = value.name;
+      this._snippet = value.snippet;
     }
   }
 
-  // device - computed: true, optional: false, required: false
+  // device - computed: true, optional: true, required: false
+  private _device?: string; 
   public get device() {
     return this.getStringAttribute('device');
   }
+  public set device(value: string) {
+    this._device = value;
+  }
+  public resetDevice() {
+    this._device = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceInput() {
+    return this._device;
+  }
 
-  // folder - computed: true, optional: false, required: false
+  // folder - computed: true, optional: true, required: false
+  private _folder?: string; 
   public get folder() {
     return this.getStringAttribute('folder');
+  }
+  public set folder(value: string) {
+    this._folder = value;
+  }
+  public resetFolder() {
+    this._folder = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get folderInput() {
+    return this._folder;
   }
 
   // format - computed: true, optional: false, required: false
@@ -461,15 +564,26 @@ export class DataScmSyslogServerProfileListDataOutputReference extends cdktf.Com
     return this._name;
   }
 
-  // servers - computed: true, optional: false, required: false
-  private _servers = new DataScmSyslogServerProfileListDataServersOutputReference(this, "servers");
-  public get servers() {
-    return this._servers;
+  // server - computed: true, optional: false, required: false
+  private _server = new DataScmSyslogServerProfileListDataServerList(this, "server", false);
+  public get server() {
+    return this._server;
   }
 
-  // snippet - computed: true, optional: false, required: false
+  // snippet - computed: true, optional: true, required: false
+  private _snippet?: string; 
   public get snippet() {
     return this.getStringAttribute('snippet');
+  }
+  public set snippet(value: string) {
+    this._snippet = value;
+  }
+  public resetSnippet() {
+    this._snippet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snippetInput() {
+    return this._snippet;
   }
 
   // tfid - computed: true, optional: false, required: false
@@ -499,7 +613,7 @@ export class DataScmSyslogServerProfileListDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/syslog_server_profile_list scm_syslog_server_profile_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list scm_syslog_server_profile_list}
 */
 export class DataScmSyslogServerProfileList extends cdktf.TerraformDataSource {
 
@@ -515,7 +629,7 @@ export class DataScmSyslogServerProfileList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmSyslogServerProfileList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmSyslogServerProfileList to import
-  * @param importFromId The id of the existing DataScmSyslogServerProfileList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/syslog_server_profile_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmSyslogServerProfileList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmSyslogServerProfileList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -527,7 +641,7 @@ export class DataScmSyslogServerProfileList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/syslog_server_profile_list scm_syslog_server_profile_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/syslog_server_profile_list scm_syslog_server_profile_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -538,8 +652,8 @@ export class DataScmSyslogServerProfileList extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_syslog_server_profile_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

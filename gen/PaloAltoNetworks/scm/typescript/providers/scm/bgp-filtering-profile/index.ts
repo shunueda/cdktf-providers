@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,40 @@ export interface BgpFilteringProfileConfig extends cdktf.TerraformMetaArguments 
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#description BgpFilteringProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#description BgpFilteringProfile#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#device BgpFilteringProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#device BgpFilteringProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#folder BgpFilteringProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#folder BgpFilteringProfile#folder}
   */
   readonly folder?: string;
   /**
   * Ipv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#ipv4 BgpFilteringProfile#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#ipv4 BgpFilteringProfile#ipv4}
   */
   readonly ipv4?: BgpFilteringProfileIpv4;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#name BgpFilteringProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#name BgpFilteringProfile#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#snippet BgpFilteringProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#snippet BgpFilteringProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -54,13 +51,13 @@ export interface BgpFilteringProfileIpv4MulticastConditionalAdvertisementExist {
   /**
   * Advertise map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
   */
   readonly advertiseMap?: string;
   /**
   * Exist map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#exist_map BgpFilteringProfile#exist_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#exist_map BgpFilteringProfile#exist_map}
   */
   readonly existMap?: string;
 }
@@ -185,13 +182,13 @@ export interface BgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExis
   /**
   * Advertise map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
   */
   readonly advertiseMap?: string;
   /**
   * Non exist map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#non_exist_map BgpFilteringProfile#non_exist_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#non_exist_map BgpFilteringProfile#non_exist_map}
   */
   readonly nonExistMap?: string;
 }
@@ -316,13 +313,13 @@ export interface BgpFilteringProfileIpv4MulticastConditionalAdvertisement {
   /**
   * Exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#exist BgpFilteringProfile#exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#exist BgpFilteringProfile#exist}
   */
   readonly exist?: BgpFilteringProfileIpv4MulticastConditionalAdvertisementExist;
   /**
   * Non exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#non_exist BgpFilteringProfile#non_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#non_exist BgpFilteringProfile#non_exist}
   */
   readonly nonExist?: BgpFilteringProfileIpv4MulticastConditionalAdvertisementNonExist;
 }
@@ -447,13 +444,13 @@ export interface BgpFilteringProfileIpv4MulticastFilterListStruct {
   /**
   * Inbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
   */
   readonly inbound?: string;
   /**
   * Outbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
   */
   readonly outbound?: string;
 }
@@ -578,13 +575,13 @@ export interface BgpFilteringProfileIpv4MulticastInboundNetworkFilters {
   /**
   * Distribute list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -709,13 +706,13 @@ export interface BgpFilteringProfileIpv4MulticastOutboundNetworkFilters {
   /**
   * Distribute list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -840,13 +837,13 @@ export interface BgpFilteringProfileIpv4MulticastRouteMaps {
   /**
   * Inbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
   */
   readonly inbound?: string;
   /**
   * Outbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
   */
   readonly outbound?: string;
 }
@@ -971,43 +968,43 @@ export interface BgpFilteringProfileIpv4Multicast {
   /**
   * Conditional advertisement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#conditional_advertisement BgpFilteringProfile#conditional_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#conditional_advertisement BgpFilteringProfile#conditional_advertisement}
   */
   readonly conditionalAdvertisement?: BgpFilteringProfileIpv4MulticastConditionalAdvertisement;
   /**
   * Filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#filter_list BgpFilteringProfile#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#filter_list BgpFilteringProfile#filter_list}
   */
   readonly filterList?: BgpFilteringProfileIpv4MulticastFilterListStruct;
   /**
   * Inbound network filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#inbound_network_filters BgpFilteringProfile#inbound_network_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#inbound_network_filters BgpFilteringProfile#inbound_network_filters}
   */
   readonly inboundNetworkFilters?: BgpFilteringProfileIpv4MulticastInboundNetworkFilters;
   /**
   * Inherit from unicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#inherit BgpFilteringProfile#inherit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#inherit BgpFilteringProfile#inherit}
   */
   readonly inherit?: boolean | cdktf.IResolvable;
   /**
   * Outbound network filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#outbound_network_filters BgpFilteringProfile#outbound_network_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#outbound_network_filters BgpFilteringProfile#outbound_network_filters}
   */
   readonly outboundNetworkFilters?: BgpFilteringProfileIpv4MulticastOutboundNetworkFilters;
   /**
   * Route maps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#route_maps BgpFilteringProfile#route_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#route_maps BgpFilteringProfile#route_maps}
   */
   readonly routeMaps?: BgpFilteringProfileIpv4MulticastRouteMaps;
   /**
   * Unsuppress map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#unsuppress_map BgpFilteringProfile#unsuppress_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#unsuppress_map BgpFilteringProfile#unsuppress_map}
   */
   readonly unsuppressMap?: string;
 }
@@ -1277,13 +1274,13 @@ export interface BgpFilteringProfileIpv4UnicastConditionalAdvertisementExist {
   /**
   * Advertise map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
   */
   readonly advertiseMap?: string;
   /**
   * Exist map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#exist_map BgpFilteringProfile#exist_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#exist_map BgpFilteringProfile#exist_map}
   */
   readonly existMap?: string;
 }
@@ -1408,13 +1405,13 @@ export interface BgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist 
   /**
   * Advertise map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#advertise_map BgpFilteringProfile#advertise_map}
   */
   readonly advertiseMap?: string;
   /**
   * Non exist map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#non_exist_map BgpFilteringProfile#non_exist_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#non_exist_map BgpFilteringProfile#non_exist_map}
   */
   readonly nonExistMap?: string;
 }
@@ -1539,13 +1536,13 @@ export interface BgpFilteringProfileIpv4UnicastConditionalAdvertisement {
   /**
   * Exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#exist BgpFilteringProfile#exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#exist BgpFilteringProfile#exist}
   */
   readonly exist?: BgpFilteringProfileIpv4UnicastConditionalAdvertisementExist;
   /**
   * Non exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#non_exist BgpFilteringProfile#non_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#non_exist BgpFilteringProfile#non_exist}
   */
   readonly nonExist?: BgpFilteringProfileIpv4UnicastConditionalAdvertisementNonExist;
 }
@@ -1670,13 +1667,13 @@ export interface BgpFilteringProfileIpv4UnicastFilterListStruct {
   /**
   * Inbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
   */
   readonly inbound?: string;
   /**
   * Outbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
   */
   readonly outbound?: string;
 }
@@ -1801,13 +1798,13 @@ export interface BgpFilteringProfileIpv4UnicastInboundNetworkFilters {
   /**
   * Distribute list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -1932,13 +1929,13 @@ export interface BgpFilteringProfileIpv4UnicastOutboundNetworkFilters {
   /**
   * Distribute list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#distribute_list BgpFilteringProfile#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * Prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#prefix_list BgpFilteringProfile#prefix_list}
   */
   readonly prefixList?: string;
 }
@@ -2063,13 +2060,13 @@ export interface BgpFilteringProfileIpv4UnicastRouteMaps {
   /**
   * Inbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#inbound BgpFilteringProfile#inbound}
   */
   readonly inbound?: string;
   /**
   * Outbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#outbound BgpFilteringProfile#outbound}
   */
   readonly outbound?: string;
 }
@@ -2194,37 +2191,37 @@ export interface BgpFilteringProfileIpv4Unicast {
   /**
   * Conditional advertisement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#conditional_advertisement BgpFilteringProfile#conditional_advertisement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#conditional_advertisement BgpFilteringProfile#conditional_advertisement}
   */
   readonly conditionalAdvertisement?: BgpFilteringProfileIpv4UnicastConditionalAdvertisement;
   /**
   * Filter list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#filter_list BgpFilteringProfile#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#filter_list BgpFilteringProfile#filter_list}
   */
   readonly filterList?: BgpFilteringProfileIpv4UnicastFilterListStruct;
   /**
   * Inbound network filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#inbound_network_filters BgpFilteringProfile#inbound_network_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#inbound_network_filters BgpFilteringProfile#inbound_network_filters}
   */
   readonly inboundNetworkFilters?: BgpFilteringProfileIpv4UnicastInboundNetworkFilters;
   /**
   * Outbound network filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#outbound_network_filters BgpFilteringProfile#outbound_network_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#outbound_network_filters BgpFilteringProfile#outbound_network_filters}
   */
   readonly outboundNetworkFilters?: BgpFilteringProfileIpv4UnicastOutboundNetworkFilters;
   /**
   * Route maps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#route_maps BgpFilteringProfile#route_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#route_maps BgpFilteringProfile#route_maps}
   */
   readonly routeMaps?: BgpFilteringProfileIpv4UnicastRouteMaps;
   /**
   * Unsuppress map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#unsuppress_map BgpFilteringProfile#unsuppress_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#unsuppress_map BgpFilteringProfile#unsuppress_map}
   */
   readonly unsuppressMap?: string;
 }
@@ -2465,13 +2462,13 @@ export interface BgpFilteringProfileIpv4 {
   /**
   * Multicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#multicast BgpFilteringProfile#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#multicast BgpFilteringProfile#multicast}
   */
   readonly multicast?: BgpFilteringProfileIpv4Multicast;
   /**
   * Unicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#unicast BgpFilteringProfile#unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#unicast BgpFilteringProfile#unicast}
   */
   readonly unicast?: BgpFilteringProfileIpv4Unicast;
 }
@@ -2594,7 +2591,7 @@ export class BgpFilteringProfileIpv4OutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile scm_bgp_filtering_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile scm_bgp_filtering_profile}
 */
 export class BgpFilteringProfile extends cdktf.TerraformResource {
 
@@ -2610,7 +2607,7 @@ export class BgpFilteringProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpFilteringProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpFilteringProfile to import
-  * @param importFromId The id of the existing BgpFilteringProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpFilteringProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpFilteringProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2622,7 +2619,7 @@ export class BgpFilteringProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/bgp_filtering_profile scm_bgp_filtering_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/bgp_filtering_profile scm_bgp_filtering_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2633,8 +2630,8 @@ export class BgpFilteringProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_bgp_filtering_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

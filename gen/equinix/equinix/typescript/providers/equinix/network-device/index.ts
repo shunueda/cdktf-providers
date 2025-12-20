@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface NetworkDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Device billing account number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#account_number NetworkDevice#account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#account_number NetworkDevice#account_number}
   */
   readonly accountNumber: string;
   /**
   * Unique identifier of applied ACL template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#acl_template_id NetworkDevice#acl_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#acl_template_id NetworkDevice#acl_template_id}
   */
   readonly aclTemplateId?: string;
   /**
   * Additional Internet bandwidth, in Mbps, that will be allocated to the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#additional_bandwidth NetworkDevice#additional_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#additional_bandwidth NetworkDevice#additional_bandwidth}
   */
   readonly additionalBandwidth?: number;
   /**
   * Boolean value that determines device licensing mode: bring your own license or subscription (default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#byol NetworkDevice#byol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#byol NetworkDevice#byol}
   */
   readonly byol?: boolean | cdktf.IResolvable;
   /**
   * Unique identifier of applied cloud init file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#cloud_init_file_id NetworkDevice#cloud_init_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#cloud_init_file_id NetworkDevice#cloud_init_file_id}
   */
   readonly cloudInitFileId?: string;
   /**
   * Parameter to identify internet access for device. Supported Values: INTERNET-ACCESS(default) or PRIVATE or INTERNET-ACCESS-WITH-PRVT-MGMT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#connectivity NetworkDevice#connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#connectivity NetworkDevice#connectivity}
   */
   readonly connectivity?: string;
   /**
   * Number of CPU cores used by device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#core_count NetworkDevice#core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#core_count NetworkDevice#core_count}
   */
   readonly coreCount: number;
   /**
   * Unique ID of an existing device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#diverse_device_id NetworkDevice#diverse_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#diverse_device_id NetworkDevice#diverse_device_id}
   */
   readonly diverseDeviceId?: string;
   /**
   * Boolean value that decides to generate default admin password for devices. Default value is true if not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#generate_default_password NetworkDevice#generate_default_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#generate_default_password NetworkDevice#generate_default_password}
   */
   readonly generateDefaultPassword?: boolean | cdktf.IResolvable;
   /**
   * Device hostname prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#hostname NetworkDevice#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#hostname NetworkDevice#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#id NetworkDevice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#id NetworkDevice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,151 +77,151 @@ export interface NetworkDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Number of network interfaces on a device. If not specified, default number for a given device type will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#interface_count NetworkDevice#interface_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#interface_count NetworkDevice#interface_count}
   */
   readonly interfaceCount?: number;
   /**
   * Path to the license file that will be uploaded and applied on a device, applicable for some device types in BYOL licensing mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#license_file NetworkDevice#license_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#license_file NetworkDevice#license_file}
   */
   readonly licenseFile?: string;
   /**
   * Unique identifier of applied license file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#license_file_id NetworkDevice#license_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#license_file_id NetworkDevice#license_file_id}
   */
   readonly licenseFileId?: string;
   /**
   * License Token applicable for some device types in BYOL licensing mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#license_token NetworkDevice#license_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#license_token NetworkDevice#license_token}
   */
   readonly licenseToken?: string;
   /**
   * Device location metro code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#metro_code NetworkDevice#metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#metro_code NetworkDevice#metro_code}
   */
   readonly metroCode: string;
   /**
   * Unique identifier of applied MGMT ACL template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#mgmt_acl_template_uuid NetworkDevice#mgmt_acl_template_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#mgmt_acl_template_uuid NetworkDevice#mgmt_acl_template_uuid}
   */
   readonly mgmtAclTemplateUuid?: string;
   /**
   * Device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#name NetworkDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#name NetworkDevice#name}
   */
   readonly name: string;
   /**
   * List of email addresses that will receive device status notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#notifications NetworkDevice#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#notifications NetworkDevice#notifications}
   */
   readonly notifications: string[];
   /**
   * Name/number used to identify device order on the invoice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#order_reference NetworkDevice#order_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#order_reference NetworkDevice#order_reference}
   */
   readonly orderReference?: string;
   /**
   * Device software package code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#package_code NetworkDevice#package_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#package_code NetworkDevice#package_code}
   */
   readonly packageCode: string;
   /**
   * The unique identifier of Project Resource to which device is scoped to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#project_id NetworkDevice#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#project_id NetworkDevice#project_id}
   */
   readonly projectId?: string;
   /**
   * Purchase order number associated with a device order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#purchase_order_number NetworkDevice#purchase_order_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#purchase_order_number NetworkDevice#purchase_order_number}
   */
   readonly purchaseOrderNumber?: string;
   /**
   * Boolean value that determines device management mode: self-managed or subscription (default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#self_managed NetworkDevice#self_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#self_managed NetworkDevice#self_managed}
   */
   readonly selfManaged?: boolean | cdktf.IResolvable;
   /**
   * Device term length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#term_length NetworkDevice#term_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#term_length NetworkDevice#term_length}
   */
   readonly termLength: number;
   /**
   * Device license throughput
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#throughput NetworkDevice#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#throughput NetworkDevice#throughput}
   */
   readonly throughput?: number;
   /**
   * Device license throughput unit (Mbps or Gbps)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#throughput_unit NetworkDevice#throughput_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#throughput_unit NetworkDevice#throughput_unit}
   */
   readonly throughputUnit?: string;
   /**
   * Bandwidth Tiers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#tier NetworkDevice#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#tier NetworkDevice#tier}
   */
   readonly tier?: number;
   /**
   * Device type code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#type_code NetworkDevice#type_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#type_code NetworkDevice#type_code}
   */
   readonly typeCode: string;
   /**
   * Map of vendor specific configuration parameters for a device (controller1, activationKey, managementType, siteId, systemIpAddress)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#vendor_configuration NetworkDevice#vendor_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#vendor_configuration NetworkDevice#vendor_configuration}
   */
   readonly vendorConfiguration?: { [key: string]: string };
   /**
   * Device software software version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#version NetworkDevice#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#version NetworkDevice#version}
   */
   readonly version: string;
   /**
   * device interface id picked for WAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#wan_interface_id NetworkDevice#wan_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#wan_interface_id NetworkDevice#wan_interface_id}
   */
   readonly wanInterfaceId?: string;
   /**
   * cluster_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#cluster_details NetworkDevice#cluster_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#cluster_details NetworkDevice#cluster_details}
   */
   readonly clusterDetails?: NetworkDeviceClusterDetails;
   /**
   * secondary_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#secondary_device NetworkDevice#secondary_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#secondary_device NetworkDevice#secondary_device}
   */
   readonly secondaryDevice?: NetworkDeviceSecondaryDevice;
   /**
   * ssh_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#ssh_key NetworkDevice#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#ssh_key NetworkDevice#ssh_key}
   */
   readonly sshKey?: NetworkDeviceSshKey;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#timeouts NetworkDevice#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#timeouts NetworkDevice#timeouts}
   */
   readonly timeouts?: NetworkDeviceTimeouts;
 }
@@ -339,103 +339,103 @@ export interface NetworkDeviceClusterDetailsNode0VendorConfiguration {
   /**
   * Activation key. This is required for Velocloud clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#activation_key NetworkDevice#activation_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#activation_key NetworkDevice#activation_key}
   */
   readonly activationKey?: string;
   /**
   * The administrative password of the device. You can use it to log in to the console. This field is not available for all device types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#admin_password NetworkDevice#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#admin_password NetworkDevice#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * System IP Address. Mandatory for the Fortinet SDWAN cluster device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#controller1 NetworkDevice#controller1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#controller1 NetworkDevice#controller1}
   */
   readonly controller1?: string;
   /**
   * Controller fqdn. This is required for Velocloud clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#controller_fqdn NetworkDevice#controller_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#controller_fqdn NetworkDevice#controller_fqdn}
   */
   readonly controllerFqdn?: string;
   /**
   * LAN1 Gateway. This field is relevant only for Infoblox Grid Member devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#gateway_ip NetworkDevice#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#gateway_ip NetworkDevice#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * Hostname. This is necessary for Palo Alto, Juniper, and Fortinet clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#hostname NetworkDevice#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#hostname NetworkDevice#hostname}
   */
   readonly hostname?: string;
   /**
   * LAN1 Private Network. This field is relevant only for Infoblox Grid Member devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#ip_address NetworkDevice#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#ip_address NetworkDevice#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * License id. This field is relevant only for the BlueCat DNS and DHCP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#license_id NetworkDevice#license_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#license_id NetworkDevice#license_id}
   */
   readonly licenseId?: string;
   /**
   * License key. This field is relevant only for the BlueCat DNS and DHCP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#license_key NetworkDevice#license_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#license_key NetworkDevice#license_key}
   */
   readonly licenseKey?: string;
   /**
   * Management Type. This field is relevant only for Cisco FTD Firewall devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#management_type NetworkDevice#management_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#management_type NetworkDevice#management_type}
   */
   readonly managementType?: string;
   /**
   * Panorama Server Auth Key. This field is relevant only for Palo Alto Networks Firewall devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#panorama_auth_key NetworkDevice#panorama_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#panorama_auth_key NetworkDevice#panorama_auth_key}
   */
   readonly panoramaAuthKey?: string;
   /**
   * Panorama Server IP Address. This field is relevant only for Palo Alto Networks Firewall devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#panorama_ip_address NetworkDevice#panorama_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#panorama_ip_address NetworkDevice#panorama_ip_address}
   */
   readonly panoramaIpAddress?: string;
   /**
   * Private address. This field is relevant only for the BlueCat DNS and DHCP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#private_address NetworkDevice#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#private_address NetworkDevice#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Private CIDR Mask. This field is relevant only for the BlueCat DNS and DHCP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#private_cidr_mask NetworkDevice#private_cidr_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#private_cidr_mask NetworkDevice#private_cidr_mask}
   */
   readonly privateCidrMask?: string;
   /**
   * Private gateway. This field is relevant only for the BlueCat DNS and DHCP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#private_gateway NetworkDevice#private_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#private_gateway NetworkDevice#private_gateway}
   */
   readonly privateGateway?: string;
   /**
   * The CLI password of the device. This field is relevant only for the Velocloud SDWAN cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#root_password NetworkDevice#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#root_password NetworkDevice#root_password}
   */
   readonly rootPassword?: string;
   /**
   * LAN1 Subnet Mask. This field is relevant only for Infoblox Grid Member devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#subnet_mask_ip NetworkDevice#subnet_mask_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#subnet_mask_ip NetworkDevice#subnet_mask_ip}
   */
   readonly subnetMaskIp?: string;
 }
@@ -985,19 +985,19 @@ export interface NetworkDeviceClusterDetailsNode0 {
   /**
   * License file id. This is necessary for Fortinet and Juniper clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#license_file_id NetworkDevice#license_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#license_file_id NetworkDevice#license_file_id}
   */
   readonly licenseFileId?: string;
   /**
   * License token. This is necessary for Palo Alto clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#license_token NetworkDevice#license_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#license_token NetworkDevice#license_token}
   */
   readonly licenseToken?: string;
   /**
   * vendor_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#vendor_configuration NetworkDevice#vendor_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#vendor_configuration NetworkDevice#vendor_configuration}
   */
   readonly vendorConfiguration?: NetworkDeviceClusterDetailsNode0VendorConfiguration;
 }
@@ -1151,103 +1151,103 @@ export interface NetworkDeviceClusterDetailsNode1VendorConfiguration {
   /**
   * Activation key. This is required for Velocloud clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#activation_key NetworkDevice#activation_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#activation_key NetworkDevice#activation_key}
   */
   readonly activationKey?: string;
   /**
   * The administrative password of the device. You can use it to log in to the console. This field is not available for all device types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#admin_password NetworkDevice#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#admin_password NetworkDevice#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * System IP Address. Mandatory for the Fortinet SDWAN cluster device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#controller1 NetworkDevice#controller1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#controller1 NetworkDevice#controller1}
   */
   readonly controller1?: string;
   /**
   * Controller fqdn. This is required for Velocloud clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#controller_fqdn NetworkDevice#controller_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#controller_fqdn NetworkDevice#controller_fqdn}
   */
   readonly controllerFqdn?: string;
   /**
   * LAN1 Gateway. This field is relevant only for Infoblox Grid Member devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#gateway_ip NetworkDevice#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#gateway_ip NetworkDevice#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * Hostname. This is necessary for Palo Alto, Juniper, and Fortinet clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#hostname NetworkDevice#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#hostname NetworkDevice#hostname}
   */
   readonly hostname?: string;
   /**
   * LAN1 Private Network. This field is relevant only for Infoblox Grid Member devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#ip_address NetworkDevice#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#ip_address NetworkDevice#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * License id. This field is relevant only for the BlueCat DNS and DHCP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#license_id NetworkDevice#license_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#license_id NetworkDevice#license_id}
   */
   readonly licenseId?: string;
   /**
   * License key. This field is relevant only for the BlueCat DNS and DHCP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#license_key NetworkDevice#license_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#license_key NetworkDevice#license_key}
   */
   readonly licenseKey?: string;
   /**
   * Management Type. This field is relevant only for Cisco FTD Firewall devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#management_type NetworkDevice#management_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#management_type NetworkDevice#management_type}
   */
   readonly managementType?: string;
   /**
   * Panorama Server Auth Key. This field is relevant only for Palo Alto Networks Firewall devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#panorama_auth_key NetworkDevice#panorama_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#panorama_auth_key NetworkDevice#panorama_auth_key}
   */
   readonly panoramaAuthKey?: string;
   /**
   * Panorama Server IP Address. This field is relevant only for Palo Alto Networks Firewall devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#panorama_ip_address NetworkDevice#panorama_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#panorama_ip_address NetworkDevice#panorama_ip_address}
   */
   readonly panoramaIpAddress?: string;
   /**
   * Private address. This field is relevant only for the BlueCat DNS and DHCP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#private_address NetworkDevice#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#private_address NetworkDevice#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Private CIDR Mask. This field is relevant only for the BlueCat DNS and DHCP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#private_cidr_mask NetworkDevice#private_cidr_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#private_cidr_mask NetworkDevice#private_cidr_mask}
   */
   readonly privateCidrMask?: string;
   /**
   * Private gateway. This field is relevant only for the BlueCat DNS and DHCP Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#private_gateway NetworkDevice#private_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#private_gateway NetworkDevice#private_gateway}
   */
   readonly privateGateway?: string;
   /**
   * The CLI password of the device. This field is relevant only for the Velocloud SDWAN cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#root_password NetworkDevice#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#root_password NetworkDevice#root_password}
   */
   readonly rootPassword?: string;
   /**
   * LAN1 Subnet Mask. This field is relevant only for Infoblox Grid Member devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#subnet_mask_ip NetworkDevice#subnet_mask_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#subnet_mask_ip NetworkDevice#subnet_mask_ip}
   */
   readonly subnetMaskIp?: string;
 }
@@ -1797,19 +1797,19 @@ export interface NetworkDeviceClusterDetailsNode1 {
   /**
   * License file id. This is necessary for Fortinet and Juniper clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#license_file_id NetworkDevice#license_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#license_file_id NetworkDevice#license_file_id}
   */
   readonly licenseFileId?: string;
   /**
   * License token. This is necessary for Palo Alto clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#license_token NetworkDevice#license_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#license_token NetworkDevice#license_token}
   */
   readonly licenseToken?: string;
   /**
   * vendor_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#vendor_configuration NetworkDevice#vendor_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#vendor_configuration NetworkDevice#vendor_configuration}
   */
   readonly vendorConfiguration?: NetworkDeviceClusterDetailsNode1VendorConfiguration;
 }
@@ -1963,19 +1963,19 @@ export interface NetworkDeviceClusterDetails {
   /**
   * The name of the cluster device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#cluster_name NetworkDevice#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#cluster_name NetworkDevice#cluster_name}
   */
   readonly clusterName: string;
   /**
   * node0 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#node0 NetworkDevice#node0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#node0 NetworkDevice#node0}
   */
   readonly node0: NetworkDeviceClusterDetailsNode0;
   /**
   * node1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#node1 NetworkDevice#node1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#node1 NetworkDevice#node1}
   */
   readonly node1: NetworkDeviceClusterDetailsNode1;
 }
@@ -2230,13 +2230,13 @@ export interface NetworkDeviceSecondaryDeviceSshKey {
   /**
   * Reference by name to previously provisioned public SSH key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#key_name NetworkDevice#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#key_name NetworkDevice#key_name}
   */
   readonly keyName?: string;
   /**
   * Username associated with given key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#username NetworkDevice#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#username NetworkDevice#username}
   */
   readonly username: string;
 }
@@ -2348,97 +2348,97 @@ export interface NetworkDeviceSecondaryDevice {
   /**
   * Device billing account number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#account_number NetworkDevice#account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#account_number NetworkDevice#account_number}
   */
   readonly accountNumber: string;
   /**
   * Unique identifier of applied ACL template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#acl_template_id NetworkDevice#acl_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#acl_template_id NetworkDevice#acl_template_id}
   */
   readonly aclTemplateId?: string;
   /**
   * Additional Internet bandwidth, in Mbps, that will be allocated to the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#additional_bandwidth NetworkDevice#additional_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#additional_bandwidth NetworkDevice#additional_bandwidth}
   */
   readonly additionalBandwidth?: number;
   /**
   * Unique identifier of applied cloud init file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#cloud_init_file_id NetworkDevice#cloud_init_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#cloud_init_file_id NetworkDevice#cloud_init_file_id}
   */
   readonly cloudInitFileId?: string;
   /**
   * Device hostname prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#hostname NetworkDevice#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#hostname NetworkDevice#hostname}
   */
   readonly hostname?: string;
   /**
   * Path to the license file that will be uploaded and applied on a device, applicable for some device types in BYOL licensing mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#license_file NetworkDevice#license_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#license_file NetworkDevice#license_file}
   */
   readonly licenseFile?: string;
   /**
   * Unique identifier of applied license file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#license_file_id NetworkDevice#license_file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#license_file_id NetworkDevice#license_file_id}
   */
   readonly licenseFileId?: string;
   /**
   * License Token applicable for some device types in BYOL licensing mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#license_token NetworkDevice#license_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#license_token NetworkDevice#license_token}
   */
   readonly licenseToken?: string;
   /**
   * Device location metro code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#metro_code NetworkDevice#metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#metro_code NetworkDevice#metro_code}
   */
   readonly metroCode: string;
   /**
   * Unique identifier of applied MGMT ACL template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#mgmt_acl_template_uuid NetworkDevice#mgmt_acl_template_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#mgmt_acl_template_uuid NetworkDevice#mgmt_acl_template_uuid}
   */
   readonly mgmtAclTemplateUuid?: string;
   /**
   * Device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#name NetworkDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#name NetworkDevice#name}
   */
   readonly name: string;
   /**
   * List of email addresses that will receive device status notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#notifications NetworkDevice#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#notifications NetworkDevice#notifications}
   */
   readonly notifications: string[];
   /**
   * Purchase order number associated with a device order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#purchase_order_number NetworkDevice#purchase_order_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#purchase_order_number NetworkDevice#purchase_order_number}
   */
   readonly purchaseOrderNumber?: string;
   /**
   * Map of vendor specific configuration parameters for a device (controller1, activationKey, managementType, siteId, systemIpAddress)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#vendor_configuration NetworkDevice#vendor_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#vendor_configuration NetworkDevice#vendor_configuration}
   */
   readonly vendorConfiguration?: { [key: string]: string };
   /**
   * device interface id picked for WAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#wan_interface_id NetworkDevice#wan_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#wan_interface_id NetworkDevice#wan_interface_id}
   */
   readonly wanInterfaceId?: string;
   /**
   * ssh_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#ssh_key NetworkDevice#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#ssh_key NetworkDevice#ssh_key}
   */
   readonly sshKey?: NetworkDeviceSecondaryDeviceSshKey;
 }
@@ -3013,13 +3013,13 @@ export interface NetworkDeviceSshKey {
   /**
   * Reference by name to previously provisioned public SSH key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#key_name NetworkDevice#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#key_name NetworkDevice#key_name}
   */
   readonly keyName?: string;
   /**
   * Username associated with given key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#username NetworkDevice#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#username NetworkDevice#username}
   */
   readonly username: string;
 }
@@ -3129,15 +3129,15 @@ export class NetworkDeviceSshKeyOutputReference extends cdktf.ComplexObject {
 }
 export interface NetworkDeviceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#create NetworkDevice#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#create NetworkDevice#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#delete NetworkDevice#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#delete NetworkDevice#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#update NetworkDevice#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#update NetworkDevice#update}
   */
   readonly update?: string;
 }
@@ -3289,7 +3289,7 @@ export class NetworkDeviceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device equinix_network_device}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device equinix_network_device}
 */
 export class NetworkDevice extends cdktf.TerraformResource {
 
@@ -3305,7 +3305,7 @@ export class NetworkDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkDevice to import
-  * @param importFromId The id of the existing NetworkDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3317,7 +3317,7 @@ export class NetworkDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_device equinix_network_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_device equinix_network_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3328,8 +3328,8 @@ export class NetworkDevice extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_network_device',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

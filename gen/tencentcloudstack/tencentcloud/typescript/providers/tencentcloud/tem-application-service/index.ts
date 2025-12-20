@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TemApplicationServiceConfig extends cdktf.TerraformMetaArgument
   /**
   * application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service#application_id TemApplicationService#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service#application_id TemApplicationService#application_id}
   */
   readonly applicationId: string;
   /**
   * environment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service#environment_id TemApplicationService#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service#environment_id TemApplicationService#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service#id TemApplicationService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service#id TemApplicationService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface TemApplicationServiceConfig extends cdktf.TerraformMetaArgument
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service#service TemApplicationService#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service#service TemApplicationService#service}
   */
   readonly service?: TemApplicationServiceService;
 }
@@ -37,19 +37,19 @@ export interface TemApplicationServiceServicePortMappingItemListStruct {
   /**
   * container port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service#port TemApplicationService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service#port TemApplicationService#port}
   */
   readonly port?: number;
   /**
   * UDP or TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service#protocol TemApplicationService#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service#protocol TemApplicationService#protocol}
   */
   readonly protocol?: string;
   /**
   * application listen port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service#target_port TemApplicationService#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service#target_port TemApplicationService#target_port}
   */
   readonly targetPort?: number;
 }
@@ -225,31 +225,31 @@ export interface TemApplicationServiceService {
   /**
   * application service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service#service_name TemApplicationService#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service#service_name TemApplicationService#service_name}
   */
   readonly serviceName?: string;
   /**
   * ID of subnet instance, required when type is `VPC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service#subnet_id TemApplicationService#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service#subnet_id TemApplicationService#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * application service type: EXTERNAL | VPC | CLUSTER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service#type TemApplicationService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service#type TemApplicationService#type}
   */
   readonly type?: string;
   /**
   * ID of vpc instance, required when type is `VPC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service#vpc_id TemApplicationService#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service#vpc_id TemApplicationService#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * port_mapping_item_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service#port_mapping_item_list TemApplicationService#port_mapping_item_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service#port_mapping_item_list TemApplicationService#port_mapping_item_list}
   */
   readonly portMappingItemList?: TemApplicationServiceServicePortMappingItemListStruct[] | cdktf.IResolvable;
 }
@@ -454,7 +454,7 @@ export class TemApplicationServiceServiceOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service tencentcloud_tem_application_service}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service tencentcloud_tem_application_service}
 */
 export class TemApplicationService extends cdktf.TerraformResource {
 
@@ -470,7 +470,7 @@ export class TemApplicationService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemApplicationService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemApplicationService to import
-  * @param importFromId The id of the existing TemApplicationService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemApplicationService that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemApplicationService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -482,7 +482,7 @@ export class TemApplicationService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_application_service tencentcloud_tem_application_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/tem_application_service tencentcloud_tem_application_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -493,8 +493,8 @@ export class TemApplicationService extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tem_application_service',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

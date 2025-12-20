@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/ipv6_range
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/ipv6_range
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataLinodeIpv6RangeConfig extends cdktf.TerraformMetaArguments 
   /**
   * The IPv6 range to retrieve information about.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/ipv6_range#range DataLinodeIpv6Range#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/ipv6_range#range DataLinodeIpv6Range#range}
   */
   readonly range: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/ipv6_range linode_ipv6_range}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/ipv6_range linode_ipv6_range}
 */
 export class DataLinodeIpv6Range extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataLinodeIpv6Range extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeIpv6Range resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeIpv6Range to import
-  * @param importFromId The id of the existing DataLinodeIpv6Range that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/ipv6_range#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeIpv6Range that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/ipv6_range#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeIpv6Range to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataLinodeIpv6Range extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/ipv6_range linode_ipv6_range} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/ipv6_range linode_ipv6_range} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataLinodeIpv6Range extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_ipv6_range',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

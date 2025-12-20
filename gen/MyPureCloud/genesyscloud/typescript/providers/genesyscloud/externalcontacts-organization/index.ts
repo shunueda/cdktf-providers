@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,126 +8,126 @@ import * as cdktf from 'cdktf';
 
 export interface ExternalcontactsOrganizationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#company_type ExternalcontactsOrganization#company_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#company_type ExternalcontactsOrganization#company_type}
   */
   readonly companyType?: string;
   /**
   * JSON formatted object for custom field values defined in the schema referenced by the worktype of the workitem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#custom_fields ExternalcontactsOrganization#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#custom_fields ExternalcontactsOrganization#custom_fields}
   */
   readonly customFields?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#employee_count ExternalcontactsOrganization#employee_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#employee_count ExternalcontactsOrganization#employee_count}
   */
   readonly employeeCount?: number;
   /**
   * A string that identifies an external system-of-record resource that may have more detailed information on the organization. It should be a valid URL (including the http/https protocol, port, and path [if any]). The value is automatically trimmed of any leading and trailing whitespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#external_system_url ExternalcontactsOrganization#external_system_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#external_system_url ExternalcontactsOrganization#external_system_url}
   */
   readonly externalSystemUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#id ExternalcontactsOrganization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#id ExternalcontactsOrganization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#industry ExternalcontactsOrganization#industry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#industry ExternalcontactsOrganization#industry}
   */
   readonly industry?: string;
   /**
   * The name of the company.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#name ExternalcontactsOrganization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#name ExternalcontactsOrganization#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#revenue ExternalcontactsOrganization#revenue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#revenue ExternalcontactsOrganization#revenue}
   */
   readonly revenue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#tags ExternalcontactsOrganization#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#tags ExternalcontactsOrganization#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#websites ExternalcontactsOrganization#websites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#websites ExternalcontactsOrganization#websites}
   */
   readonly websites?: string[];
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#address ExternalcontactsOrganization#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#address ExternalcontactsOrganization#address}
   */
   readonly address?: ExternalcontactsOrganizationAddress;
   /**
   * external_data_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#external_data_sources ExternalcontactsOrganization#external_data_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#external_data_sources ExternalcontactsOrganization#external_data_sources}
   */
   readonly externalDataSources?: ExternalcontactsOrganizationExternalDataSources[] | cdktf.IResolvable;
   /**
   * fax_number block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#fax_number ExternalcontactsOrganization#fax_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#fax_number ExternalcontactsOrganization#fax_number}
   */
   readonly faxNumber?: ExternalcontactsOrganizationFaxNumber;
   /**
   * phone_number block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#phone_number ExternalcontactsOrganization#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#phone_number ExternalcontactsOrganization#phone_number}
   */
   readonly phoneNumber?: ExternalcontactsOrganizationPhoneNumber;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#schema ExternalcontactsOrganization#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#schema ExternalcontactsOrganization#schema}
   */
   readonly schema?: ExternalcontactsOrganizationSchema;
   /**
   * tickers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#tickers ExternalcontactsOrganization#tickers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#tickers ExternalcontactsOrganization#tickers}
   */
   readonly tickers?: ExternalcontactsOrganizationTickers[] | cdktf.IResolvable;
   /**
   * trustor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#trustor ExternalcontactsOrganization#trustor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#trustor ExternalcontactsOrganization#trustor}
   */
   readonly trustor?: ExternalcontactsOrganizationTrustor;
   /**
   * twitter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#twitter ExternalcontactsOrganization#twitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#twitter ExternalcontactsOrganization#twitter}
   */
   readonly twitter?: ExternalcontactsOrganizationTwitter;
 }
 export interface ExternalcontactsOrganizationAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#address1 ExternalcontactsOrganization#address1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#address1 ExternalcontactsOrganization#address1}
   */
   readonly address1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#address2 ExternalcontactsOrganization#address2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#address2 ExternalcontactsOrganization#address2}
   */
   readonly address2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#city ExternalcontactsOrganization#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#city ExternalcontactsOrganization#city}
   */
   readonly city?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#country_code ExternalcontactsOrganization#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#country_code ExternalcontactsOrganization#country_code}
   */
   readonly countryCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#postal_code ExternalcontactsOrganization#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#postal_code ExternalcontactsOrganization#postal_code}
   */
   readonly postalCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#state ExternalcontactsOrganization#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#state ExternalcontactsOrganization#state}
   */
   readonly state?: string;
 }
@@ -358,13 +358,13 @@ export interface ExternalcontactsOrganizationExternalDataSources {
   /**
   * The platform that was the source of the data.  Example: a CRM like SALESFORCE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#platform ExternalcontactsOrganization#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#platform ExternalcontactsOrganization#platform}
   */
   readonly platform?: string;
   /**
   * An URL that links to the source record that contributed data to the associated entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#url ExternalcontactsOrganization#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#url ExternalcontactsOrganization#url}
   */
   readonly url?: string;
 }
@@ -511,31 +511,31 @@ export interface ExternalcontactsOrganizationFaxNumber {
   /**
   * If contact accept SMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#accepts_sms ExternalcontactsOrganization#accepts_sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#accepts_sms ExternalcontactsOrganization#accepts_sms}
   */
   readonly acceptsSms?: boolean | cdktf.IResolvable;
   /**
   * Phone number country code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#country_code ExternalcontactsOrganization#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#country_code ExternalcontactsOrganization#country_code}
   */
   readonly countryCode?: string;
   /**
   * Display string of the phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#display ExternalcontactsOrganization#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#display ExternalcontactsOrganization#display}
   */
   readonly display?: string;
   /**
   * Phone number in e164 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#e164 ExternalcontactsOrganization#e164}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#e164 ExternalcontactsOrganization#e164}
   */
   readonly e164?: string;
   /**
   * Phone extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#extension ExternalcontactsOrganization#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#extension ExternalcontactsOrganization#extension}
   */
   readonly extension?: number;
 }
@@ -737,31 +737,31 @@ export interface ExternalcontactsOrganizationPhoneNumber {
   /**
   * If contact accept SMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#accepts_sms ExternalcontactsOrganization#accepts_sms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#accepts_sms ExternalcontactsOrganization#accepts_sms}
   */
   readonly acceptsSms?: boolean | cdktf.IResolvable;
   /**
   * Phone number country code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#country_code ExternalcontactsOrganization#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#country_code ExternalcontactsOrganization#country_code}
   */
   readonly countryCode?: string;
   /**
   * Display string of the phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#display ExternalcontactsOrganization#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#display ExternalcontactsOrganization#display}
   */
   readonly display?: string;
   /**
   * Phone number in e164 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#e164 ExternalcontactsOrganization#e164}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#e164 ExternalcontactsOrganization#e164}
   */
   readonly e164?: string;
   /**
   * Phone extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#extension ExternalcontactsOrganization#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#extension ExternalcontactsOrganization#extension}
   */
   readonly extension?: number;
 }
@@ -963,23 +963,23 @@ export interface ExternalcontactsOrganizationSchemaJsonSchema {
   /**
   * A brief description of the custom fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#description ExternalcontactsOrganization#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#description ExternalcontactsOrganization#description}
   */
   readonly description?: string;
   /**
   * The properties for the JSON Schema document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#properties ExternalcontactsOrganization#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#properties ExternalcontactsOrganization#properties}
   */
   readonly properties?: string;
   /**
   * The required fields in the schema
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#required ExternalcontactsOrganization#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#required ExternalcontactsOrganization#required}
   */
   readonly required?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#title ExternalcontactsOrganization#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#title ExternalcontactsOrganization#title}
   */
   readonly title?: string;
 }
@@ -1152,31 +1152,31 @@ export interface ExternalcontactsOrganizationSchema {
   /**
   * The schema's enabled/disabled status. A disabled schema cannot be assigned to any other entities, but the data on those entities from the schema still exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#enabled ExternalcontactsOrganization#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#enabled ExternalcontactsOrganization#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#name ExternalcontactsOrganization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#name ExternalcontactsOrganization#name}
   */
   readonly name?: string;
   /**
   * The globally unique identifier for the schema. Only required if a schema is used for custom fields during external entity creation or updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#schema_id ExternalcontactsOrganization#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#schema_id ExternalcontactsOrganization#schema_id}
   */
   readonly schemaId?: string;
   /**
   * The schema's version, a positive integer. Required for updates. Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#version ExternalcontactsOrganization#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#version ExternalcontactsOrganization#version}
   */
   readonly version?: number;
   /**
   * json_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#json_schema ExternalcontactsOrganization#json_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#json_schema ExternalcontactsOrganization#json_schema}
   */
   readonly jsonSchema?: ExternalcontactsOrganizationSchemaJsonSchema;
 }
@@ -1378,13 +1378,13 @@ export interface ExternalcontactsOrganizationTickers {
   /**
   * The exchange for this ticker symbol. Examples: NYSE, FTSE, NASDAQ, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#exchange ExternalcontactsOrganization#exchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#exchange ExternalcontactsOrganization#exchange}
   */
   readonly exchange: string;
   /**
   * The ticker symbol for this organization. Example: ININ, AAPL, MSFT, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#symbol ExternalcontactsOrganization#symbol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#symbol ExternalcontactsOrganization#symbol}
   */
   readonly symbol: string;
 }
@@ -1525,7 +1525,7 @@ export interface ExternalcontactsOrganizationTrustor {
   /**
   * If disabled no trustee user will have access, even if they were previously added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#enabled ExternalcontactsOrganization#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#enabled ExternalcontactsOrganization#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -1608,19 +1608,19 @@ export interface ExternalcontactsOrganizationTwitter {
   /**
   * Contact twitter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#name ExternalcontactsOrganization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#name ExternalcontactsOrganization#name}
   */
   readonly name: string;
   /**
   * Contact twitter screen name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#screen_name ExternalcontactsOrganization#screen_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#screen_name ExternalcontactsOrganization#screen_name}
   */
   readonly screenName: string;
   /**
   * Contact twitter id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#twitter_id ExternalcontactsOrganization#twitter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#twitter_id ExternalcontactsOrganization#twitter_id}
   */
   readonly twitterId: string;
 }
@@ -1753,7 +1753,7 @@ export class ExternalcontactsOrganizationTwitterOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization genesyscloud_externalcontacts_organization}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization genesyscloud_externalcontacts_organization}
 */
 export class ExternalcontactsOrganization extends cdktf.TerraformResource {
 
@@ -1769,7 +1769,7 @@ export class ExternalcontactsOrganization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExternalcontactsOrganization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExternalcontactsOrganization to import
-  * @param importFromId The id of the existing ExternalcontactsOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExternalcontactsOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExternalcontactsOrganization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1781,7 +1781,7 @@ export class ExternalcontactsOrganization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/externalcontacts_organization genesyscloud_externalcontacts_organization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/externalcontacts_organization genesyscloud_externalcontacts_organization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1792,8 +1792,8 @@ export class ExternalcontactsOrganization extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_externalcontacts_organization',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

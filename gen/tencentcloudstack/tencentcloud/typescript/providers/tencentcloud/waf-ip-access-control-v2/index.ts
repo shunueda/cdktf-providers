@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,18 +10,18 @@ export interface WafIpAccessControlV2Config extends cdktf.TerraformMetaArguments
   /**
   * 42: blocklist; 40: allowlist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#action_type WafIpAccessControlV2#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#action_type WafIpAccessControlV2#action_type}
   */
   readonly actionType: number;
   /**
   * Specific domain name, for example, test.qcloudwaf.com.
   * Global domain name, that is, global.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#domain WafIpAccessControlV2#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#domain WafIpAccessControlV2#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#id WafIpAccessControlV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#id WafIpAccessControlV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,31 +30,31 @@ export interface WafIpAccessControlV2Config extends cdktf.TerraformMetaArguments
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#instance_id WafIpAccessControlV2#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#instance_id WafIpAccessControlV2#instance_id}
   */
   readonly instanceId: string;
   /**
   * IP parameter list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#ip_list WafIpAccessControlV2#ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#ip_list WafIpAccessControlV2#ip_list}
   */
   readonly ipList: string[];
   /**
   * Scheduled configuration type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#job_type WafIpAccessControlV2#job_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#job_type WafIpAccessControlV2#job_type}
   */
   readonly jobType?: string;
   /**
   * Remarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#note WafIpAccessControlV2#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#note WafIpAccessControlV2#note}
   */
   readonly note?: string;
   /**
   * job_date_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#job_date_time WafIpAccessControlV2#job_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#job_date_time WafIpAccessControlV2#job_date_time}
   */
   readonly jobDateTime?: WafIpAccessControlV2JobDateTime;
 }
@@ -63,7 +63,7 @@ export interface WafIpAccessControlV2JobDateTimeCron {
   * Days in each month for execution
   * Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#days WafIpAccessControlV2#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#days WafIpAccessControlV2#days}
   */
   readonly days?: number[];
   /**
@@ -71,7 +71,7 @@ export interface WafIpAccessControlV2JobDateTimeCron {
   * 
   * Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#end_time WafIpAccessControlV2#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#end_time WafIpAccessControlV2#end_time}
   */
   readonly endTime?: string;
   /**
@@ -79,14 +79,14 @@ export interface WafIpAccessControlV2JobDateTimeCron {
   * 
   * Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#start_time WafIpAccessControlV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#start_time WafIpAccessControlV2#start_time}
   */
   readonly startTime?: string;
   /**
   * Days of each week for execution
   * Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#w_days WafIpAccessControlV2#w_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#w_days WafIpAccessControlV2#w_days}
   */
   readonly wDays?: number[];
 }
@@ -292,14 +292,14 @@ export interface WafIpAccessControlV2JobDateTimeTimed {
   * End timestamp, in seconds
   * Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#end_date_time WafIpAccessControlV2#end_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#end_date_time WafIpAccessControlV2#end_date_time}
   */
   readonly endDateTime?: number;
   /**
   * Start timestamp, in seconds
   * Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#start_date_time WafIpAccessControlV2#start_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#start_date_time WafIpAccessControlV2#start_date_time}
   */
   readonly startDateTime?: number;
 }
@@ -447,19 +447,19 @@ export interface WafIpAccessControlV2JobDateTime {
   * Time zone
   * Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#time_t_zone WafIpAccessControlV2#time_t_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#time_t_zone WafIpAccessControlV2#time_t_zone}
   */
   readonly timeTZone?: string;
   /**
   * cron block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#cron WafIpAccessControlV2#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#cron WafIpAccessControlV2#cron}
   */
   readonly cron?: WafIpAccessControlV2JobDateTimeCron[] | cdktf.IResolvable;
   /**
   * timed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#timed WafIpAccessControlV2#timed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#timed WafIpAccessControlV2#timed}
   */
   readonly timed?: WafIpAccessControlV2JobDateTimeTimed[] | cdktf.IResolvable;
 }
@@ -601,7 +601,7 @@ export class WafIpAccessControlV2JobDateTimeOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2 tencentcloud_waf_ip_access_control_v2}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2 tencentcloud_waf_ip_access_control_v2}
 */
 export class WafIpAccessControlV2 extends cdktf.TerraformResource {
 
@@ -617,7 +617,7 @@ export class WafIpAccessControlV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafIpAccessControlV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafIpAccessControlV2 to import
-  * @param importFromId The id of the existing WafIpAccessControlV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafIpAccessControlV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafIpAccessControlV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -629,7 +629,7 @@ export class WafIpAccessControlV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/waf_ip_access_control_v2 tencentcloud_waf_ip_access_control_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/waf_ip_access_control_v2 tencentcloud_waf_ip_access_control_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -640,8 +640,8 @@ export class WafIpAccessControlV2 extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_ip_access_control_v2',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

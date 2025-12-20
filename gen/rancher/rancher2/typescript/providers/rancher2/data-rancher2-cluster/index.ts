@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/cluster
+// https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,20 +10,286 @@ export interface DataRancher2ClusterConfig extends cdktf.TerraformMetaArguments 
   /**
   * Default pod security admission configuration template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/cluster#default_pod_security_admission_configuration_template_name DataRancher2Cluster#default_pod_security_admission_configuration_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/cluster#default_pod_security_admission_configuration_template_name DataRancher2Cluster#default_pod_security_admission_configuration_template_name}
   */
   readonly defaultPodSecurityAdmissionConfigurationTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/cluster#id DataRancher2Cluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/cluster#id DataRancher2Cluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/cluster#name DataRancher2Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/cluster#name DataRancher2Cluster#name}
   */
   readonly name: string;
+}
+export interface DataRancher2ClusterAksConfig {
+}
+
+export function dataRancher2ClusterAksConfigToTerraform(struct?: DataRancher2ClusterAksConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataRancher2ClusterAksConfigToHclTerraform(struct?: DataRancher2ClusterAksConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataRancher2ClusterAksConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRancher2ClusterAksConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRancher2ClusterAksConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // aad_server_app_secret - computed: true, optional: false, required: false
+  public get aadServerAppSecret() {
+    return this.getStringAttribute('aad_server_app_secret');
+  }
+
+  // aad_tenant_id - computed: true, optional: false, required: false
+  public get aadTenantId() {
+    return this.getStringAttribute('aad_tenant_id');
+  }
+
+  // add_client_app_id - computed: true, optional: false, required: false
+  public get addClientAppId() {
+    return this.getStringAttribute('add_client_app_id');
+  }
+
+  // add_server_app_id - computed: true, optional: false, required: false
+  public get addServerAppId() {
+    return this.getStringAttribute('add_server_app_id');
+  }
+
+  // admin_username - computed: true, optional: false, required: false
+  public get adminUsername() {
+    return this.getStringAttribute('admin_username');
+  }
+
+  // agent_dns_prefix - computed: true, optional: false, required: false
+  public get agentDnsPrefix() {
+    return this.getStringAttribute('agent_dns_prefix');
+  }
+
+  // agent_os_disk_size - computed: true, optional: false, required: false
+  public get agentOsDiskSize() {
+    return this.getNumberAttribute('agent_os_disk_size');
+  }
+
+  // agent_pool_name - computed: true, optional: false, required: false
+  public get agentPoolName() {
+    return this.getStringAttribute('agent_pool_name');
+  }
+
+  // agent_storage_profile - computed: true, optional: false, required: false
+  public get agentStorageProfile() {
+    return this.getStringAttribute('agent_storage_profile');
+  }
+
+  // agent_vm_size - computed: true, optional: false, required: false
+  public get agentVmSize() {
+    return this.getStringAttribute('agent_vm_size');
+  }
+
+  // auth_base_url - computed: true, optional: false, required: false
+  public get authBaseUrl() {
+    return this.getStringAttribute('auth_base_url');
+  }
+
+  // base_url - computed: true, optional: false, required: false
+  public get baseUrl() {
+    return this.getStringAttribute('base_url');
+  }
+
+  // client_id - computed: true, optional: false, required: false
+  public get clientId() {
+    return this.getStringAttribute('client_id');
+  }
+
+  // client_secret - computed: true, optional: false, required: false
+  public get clientSecret() {
+    return this.getStringAttribute('client_secret');
+  }
+
+  // count - computed: true, optional: false, required: false
+  public get count() {
+    return this.getNumberAttribute('count');
+  }
+
+  // dns_service_ip - computed: true, optional: false, required: false
+  public get dnsServiceIp() {
+    return this.getStringAttribute('dns_service_ip');
+  }
+
+  // docker_bridge_cidr - computed: true, optional: false, required: false
+  public get dockerBridgeCidr() {
+    return this.getStringAttribute('docker_bridge_cidr');
+  }
+
+  // enable_http_application_routing - computed: true, optional: false, required: false
+  public get enableHttpApplicationRouting() {
+    return this.getBooleanAttribute('enable_http_application_routing');
+  }
+
+  // enable_monitoring - computed: true, optional: false, required: false
+  public get enableMonitoring() {
+    return this.getBooleanAttribute('enable_monitoring');
+  }
+
+  // kubernetes_version - computed: true, optional: false, required: false
+  public get kubernetesVersion() {
+    return this.getStringAttribute('kubernetes_version');
+  }
+
+  // load_balancer_sku - computed: true, optional: false, required: false
+  public get loadBalancerSku() {
+    return this.getStringAttribute('load_balancer_sku');
+  }
+
+  // location - computed: true, optional: false, required: false
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+
+  // log_analytics_workspace - computed: true, optional: false, required: false
+  public get logAnalyticsWorkspace() {
+    return this.getStringAttribute('log_analytics_workspace');
+  }
+
+  // log_analytics_workspace_resource_group - computed: true, optional: false, required: false
+  public get logAnalyticsWorkspaceResourceGroup() {
+    return this.getStringAttribute('log_analytics_workspace_resource_group');
+  }
+
+  // master_dns_prefix - computed: true, optional: false, required: false
+  public get masterDnsPrefix() {
+    return this.getStringAttribute('master_dns_prefix');
+  }
+
+  // max_pods - computed: true, optional: false, required: false
+  public get maxPods() {
+    return this.getNumberAttribute('max_pods');
+  }
+
+  // network_plugin - computed: true, optional: false, required: false
+  public get networkPlugin() {
+    return this.getStringAttribute('network_plugin');
+  }
+
+  // network_policy - computed: true, optional: false, required: false
+  public get networkPolicy() {
+    return this.getStringAttribute('network_policy');
+  }
+
+  // pod_cidr - computed: true, optional: false, required: false
+  public get podCidr() {
+    return this.getStringAttribute('pod_cidr');
+  }
+
+  // resource_group - computed: true, optional: false, required: false
+  public get resourceGroup() {
+    return this.getStringAttribute('resource_group');
+  }
+
+  // service_cidr - computed: true, optional: false, required: false
+  public get serviceCidr() {
+    return this.getStringAttribute('service_cidr');
+  }
+
+  // ssh_public_key_contents - computed: true, optional: false, required: false
+  public get sshPublicKeyContents() {
+    return this.getStringAttribute('ssh_public_key_contents');
+  }
+
+  // subnet - computed: true, optional: false, required: false
+  public get subnet() {
+    return this.getStringAttribute('subnet');
+  }
+
+  // subscription_id - computed: true, optional: false, required: false
+  public get subscriptionId() {
+    return this.getStringAttribute('subscription_id');
+  }
+
+  // tag - computed: true, optional: false, required: false
+  private _tag = new cdktf.StringMap(this, "tag");
+  public get tag() {
+    return this._tag;
+  }
+
+  // tags - computed: true, optional: false, required: false
+  public get tags() {
+    return this.getListAttribute('tags');
+  }
+
+  // tenant_id - computed: true, optional: false, required: false
+  public get tenantId() {
+    return this.getStringAttribute('tenant_id');
+  }
+
+  // virtual_network - computed: true, optional: false, required: false
+  public get virtualNetwork() {
+    return this.getStringAttribute('virtual_network');
+  }
+
+  // virtual_network_resource_group - computed: true, optional: false, required: false
+  public get virtualNetworkResourceGroup() {
+    return this.getStringAttribute('virtual_network_resource_group');
+  }
+}
+
+export class DataRancher2ClusterAksConfigList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRancher2ClusterAksConfigOutputReference {
+    return new DataRancher2ClusterAksConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataRancher2ClusterAksConfigV2NodePools {
 }
@@ -801,6 +1067,171 @@ export class DataRancher2ClusterClusterTemplateQuestionsList extends cdktf.Compl
     return new DataRancher2ClusterClusterTemplateQuestionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataRancher2ClusterEksConfig {
+}
+
+export function dataRancher2ClusterEksConfigToTerraform(struct?: DataRancher2ClusterEksConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataRancher2ClusterEksConfigToHclTerraform(struct?: DataRancher2ClusterEksConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataRancher2ClusterEksConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRancher2ClusterEksConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRancher2ClusterEksConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // access_key - computed: true, optional: false, required: false
+  public get accessKey() {
+    return this.getStringAttribute('access_key');
+  }
+
+  // ami - computed: true, optional: false, required: false
+  public get ami() {
+    return this.getStringAttribute('ami');
+  }
+
+  // associate_worker_node_public_ip - computed: true, optional: false, required: false
+  public get associateWorkerNodePublicIp() {
+    return this.getBooleanAttribute('associate_worker_node_public_ip');
+  }
+
+  // desired_nodes - computed: true, optional: false, required: false
+  public get desiredNodes() {
+    return this.getNumberAttribute('desired_nodes');
+  }
+
+  // ebs_encryption - computed: true, optional: false, required: false
+  public get ebsEncryption() {
+    return this.getBooleanAttribute('ebs_encryption');
+  }
+
+  // instance_type - computed: true, optional: false, required: false
+  public get instanceType() {
+    return this.getStringAttribute('instance_type');
+  }
+
+  // key_pair_name - computed: true, optional: false, required: false
+  public get keyPairName() {
+    return this.getStringAttribute('key_pair_name');
+  }
+
+  // kubernetes_version - computed: true, optional: false, required: false
+  public get kubernetesVersion() {
+    return this.getStringAttribute('kubernetes_version');
+  }
+
+  // maximum_nodes - computed: true, optional: false, required: false
+  public get maximumNodes() {
+    return this.getNumberAttribute('maximum_nodes');
+  }
+
+  // minimum_nodes - computed: true, optional: false, required: false
+  public get minimumNodes() {
+    return this.getNumberAttribute('minimum_nodes');
+  }
+
+  // node_volume_size - computed: true, optional: false, required: false
+  public get nodeVolumeSize() {
+    return this.getNumberAttribute('node_volume_size');
+  }
+
+  // region - computed: true, optional: false, required: false
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+
+  // secret_key - computed: true, optional: false, required: false
+  public get secretKey() {
+    return this.getStringAttribute('secret_key');
+  }
+
+  // security_groups - computed: true, optional: false, required: false
+  public get securityGroups() {
+    return this.getListAttribute('security_groups');
+  }
+
+  // service_role - computed: true, optional: false, required: false
+  public get serviceRole() {
+    return this.getStringAttribute('service_role');
+  }
+
+  // session_token - computed: true, optional: false, required: false
+  public get sessionToken() {
+    return this.getStringAttribute('session_token');
+  }
+
+  // subnets - computed: true, optional: false, required: false
+  public get subnets() {
+    return this.getListAttribute('subnets');
+  }
+
+  // user_data - computed: true, optional: false, required: false
+  public get userData() {
+    return this.getStringAttribute('user_data');
+  }
+
+  // virtual_network - computed: true, optional: false, required: false
+  public get virtualNetwork() {
+    return this.getStringAttribute('virtual_network');
+  }
+}
+
+export class DataRancher2ClusterEksConfigList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRancher2ClusterEksConfigOutputReference {
+    return new DataRancher2ClusterEksConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataRancher2ClusterEksConfigV2NodeGroupsLaunchTemplate {
 }
 
@@ -1205,6 +1636,343 @@ export class DataRancher2ClusterEksConfigV2List extends cdktf.ComplexList {
   */
   public get(index: number): DataRancher2ClusterEksConfigV2OutputReference {
     return new DataRancher2ClusterEksConfigV2OutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataRancher2ClusterGkeConfig {
+}
+
+export function dataRancher2ClusterGkeConfigToTerraform(struct?: DataRancher2ClusterGkeConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataRancher2ClusterGkeConfigToHclTerraform(struct?: DataRancher2ClusterGkeConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataRancher2ClusterGkeConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataRancher2ClusterGkeConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRancher2ClusterGkeConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // cluster_ipv4_cidr - computed: true, optional: false, required: false
+  public get clusterIpv4Cidr() {
+    return this.getStringAttribute('cluster_ipv4_cidr');
+  }
+
+  // credential - computed: true, optional: false, required: false
+  public get credential() {
+    return this.getStringAttribute('credential');
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // disk_size_gb - computed: true, optional: false, required: false
+  public get diskSizeGb() {
+    return this.getNumberAttribute('disk_size_gb');
+  }
+
+  // disk_type - computed: true, optional: false, required: false
+  public get diskType() {
+    return this.getStringAttribute('disk_type');
+  }
+
+  // enable_alpha_feature - computed: true, optional: false, required: false
+  public get enableAlphaFeature() {
+    return this.getBooleanAttribute('enable_alpha_feature');
+  }
+
+  // enable_auto_repair - computed: true, optional: false, required: false
+  public get enableAutoRepair() {
+    return this.getBooleanAttribute('enable_auto_repair');
+  }
+
+  // enable_auto_upgrade - computed: true, optional: false, required: false
+  public get enableAutoUpgrade() {
+    return this.getBooleanAttribute('enable_auto_upgrade');
+  }
+
+  // enable_horizontal_pod_autoscaling - computed: true, optional: false, required: false
+  public get enableHorizontalPodAutoscaling() {
+    return this.getBooleanAttribute('enable_horizontal_pod_autoscaling');
+  }
+
+  // enable_http_load_balancing - computed: true, optional: false, required: false
+  public get enableHttpLoadBalancing() {
+    return this.getBooleanAttribute('enable_http_load_balancing');
+  }
+
+  // enable_kubernetes_dashboard - computed: true, optional: false, required: false
+  public get enableKubernetesDashboard() {
+    return this.getBooleanAttribute('enable_kubernetes_dashboard');
+  }
+
+  // enable_legacy_abac - computed: true, optional: false, required: false
+  public get enableLegacyAbac() {
+    return this.getBooleanAttribute('enable_legacy_abac');
+  }
+
+  // enable_master_authorized_network - computed: true, optional: false, required: false
+  public get enableMasterAuthorizedNetwork() {
+    return this.getBooleanAttribute('enable_master_authorized_network');
+  }
+
+  // enable_network_policy_config - computed: true, optional: false, required: false
+  public get enableNetworkPolicyConfig() {
+    return this.getBooleanAttribute('enable_network_policy_config');
+  }
+
+  // enable_nodepool_autoscaling - computed: true, optional: false, required: false
+  public get enableNodepoolAutoscaling() {
+    return this.getBooleanAttribute('enable_nodepool_autoscaling');
+  }
+
+  // enable_private_endpoint - computed: true, optional: false, required: false
+  public get enablePrivateEndpoint() {
+    return this.getBooleanAttribute('enable_private_endpoint');
+  }
+
+  // enable_private_nodes - computed: true, optional: false, required: false
+  public get enablePrivateNodes() {
+    return this.getBooleanAttribute('enable_private_nodes');
+  }
+
+  // enable_stackdriver_logging - computed: true, optional: false, required: false
+  public get enableStackdriverLogging() {
+    return this.getBooleanAttribute('enable_stackdriver_logging');
+  }
+
+  // enable_stackdriver_monitoring - computed: true, optional: false, required: false
+  public get enableStackdriverMonitoring() {
+    return this.getBooleanAttribute('enable_stackdriver_monitoring');
+  }
+
+  // image_type - computed: true, optional: false, required: false
+  public get imageType() {
+    return this.getStringAttribute('image_type');
+  }
+
+  // ip_policy_cluster_ipv4_cidr_block - computed: true, optional: false, required: false
+  public get ipPolicyClusterIpv4CidrBlock() {
+    return this.getStringAttribute('ip_policy_cluster_ipv4_cidr_block');
+  }
+
+  // ip_policy_cluster_secondary_range_name - computed: true, optional: false, required: false
+  public get ipPolicyClusterSecondaryRangeName() {
+    return this.getStringAttribute('ip_policy_cluster_secondary_range_name');
+  }
+
+  // ip_policy_create_subnetwork - computed: true, optional: false, required: false
+  public get ipPolicyCreateSubnetwork() {
+    return this.getBooleanAttribute('ip_policy_create_subnetwork');
+  }
+
+  // ip_policy_node_ipv4_cidr_block - computed: true, optional: false, required: false
+  public get ipPolicyNodeIpv4CidrBlock() {
+    return this.getStringAttribute('ip_policy_node_ipv4_cidr_block');
+  }
+
+  // ip_policy_services_ipv4_cidr_block - computed: true, optional: false, required: false
+  public get ipPolicyServicesIpv4CidrBlock() {
+    return this.getStringAttribute('ip_policy_services_ipv4_cidr_block');
+  }
+
+  // ip_policy_services_secondary_range_name - computed: true, optional: false, required: false
+  public get ipPolicyServicesSecondaryRangeName() {
+    return this.getStringAttribute('ip_policy_services_secondary_range_name');
+  }
+
+  // ip_policy_subnetwork_name - computed: true, optional: false, required: false
+  public get ipPolicySubnetworkName() {
+    return this.getStringAttribute('ip_policy_subnetwork_name');
+  }
+
+  // issue_client_certificate - computed: true, optional: false, required: false
+  public get issueClientCertificate() {
+    return this.getBooleanAttribute('issue_client_certificate');
+  }
+
+  // kubernetes_dashboard - computed: true, optional: false, required: false
+  public get kubernetesDashboard() {
+    return this.getBooleanAttribute('kubernetes_dashboard');
+  }
+
+  // labels - computed: true, optional: false, required: false
+  private _labels = new cdktf.StringMap(this, "labels");
+  public get labels() {
+    return this._labels;
+  }
+
+  // local_ssd_count - computed: true, optional: false, required: false
+  public get localSsdCount() {
+    return this.getNumberAttribute('local_ssd_count');
+  }
+
+  // locations - computed: true, optional: false, required: false
+  public get locations() {
+    return this.getListAttribute('locations');
+  }
+
+  // machine_type - computed: true, optional: false, required: false
+  public get machineType() {
+    return this.getStringAttribute('machine_type');
+  }
+
+  // maintenance_window - computed: true, optional: false, required: false
+  public get maintenanceWindow() {
+    return this.getStringAttribute('maintenance_window');
+  }
+
+  // master_authorized_network_cidr_blocks - computed: true, optional: false, required: false
+  public get masterAuthorizedNetworkCidrBlocks() {
+    return this.getListAttribute('master_authorized_network_cidr_blocks');
+  }
+
+  // master_ipv4_cidr_block - computed: true, optional: false, required: false
+  public get masterIpv4CidrBlock() {
+    return this.getStringAttribute('master_ipv4_cidr_block');
+  }
+
+  // master_version - computed: true, optional: false, required: false
+  public get masterVersion() {
+    return this.getStringAttribute('master_version');
+  }
+
+  // max_node_count - computed: true, optional: false, required: false
+  public get maxNodeCount() {
+    return this.getNumberAttribute('max_node_count');
+  }
+
+  // min_node_count - computed: true, optional: false, required: false
+  public get minNodeCount() {
+    return this.getNumberAttribute('min_node_count');
+  }
+
+  // network - computed: true, optional: false, required: false
+  public get network() {
+    return this.getStringAttribute('network');
+  }
+
+  // node_count - computed: true, optional: false, required: false
+  public get nodeCount() {
+    return this.getNumberAttribute('node_count');
+  }
+
+  // node_pool - computed: true, optional: false, required: false
+  public get nodePool() {
+    return this.getStringAttribute('node_pool');
+  }
+
+  // node_version - computed: true, optional: false, required: false
+  public get nodeVersion() {
+    return this.getStringAttribute('node_version');
+  }
+
+  // oauth_scopes - computed: true, optional: false, required: false
+  public get oauthScopes() {
+    return this.getListAttribute('oauth_scopes');
+  }
+
+  // preemptible - computed: true, optional: false, required: false
+  public get preemptible() {
+    return this.getBooleanAttribute('preemptible');
+  }
+
+  // project_id - computed: true, optional: false, required: false
+  public get projectId() {
+    return this.getStringAttribute('project_id');
+  }
+
+  // region - computed: true, optional: false, required: false
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+
+  // resource_labels - computed: true, optional: false, required: false
+  private _resourceLabels = new cdktf.StringMap(this, "resource_labels");
+  public get resourceLabels() {
+    return this._resourceLabels;
+  }
+
+  // service_account - computed: true, optional: false, required: false
+  public get serviceAccount() {
+    return this.getStringAttribute('service_account');
+  }
+
+  // sub_network - computed: true, optional: false, required: false
+  public get subNetwork() {
+    return this.getStringAttribute('sub_network');
+  }
+
+  // taints - computed: true, optional: false, required: false
+  public get taints() {
+    return this.getListAttribute('taints');
+  }
+
+  // use_ip_aliases - computed: true, optional: false, required: false
+  public get useIpAliases() {
+    return this.getBooleanAttribute('use_ip_aliases');
+  }
+
+  // zone - computed: true, optional: false, required: false
+  public get zone() {
+    return this.getStringAttribute('zone');
+  }
+}
+
+export class DataRancher2ClusterGkeConfigList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataRancher2ClusterGkeConfigOutputReference {
+    return new DataRancher2ClusterGkeConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataRancher2ClusterGkeConfigV2ClusterAddons {
@@ -9481,7 +10249,7 @@ export class DataRancher2ClusterRkeConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/cluster rancher2_cluster}
+* Represents a {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/cluster rancher2_cluster}
 */
 export class DataRancher2Cluster extends cdktf.TerraformDataSource {
 
@@ -9497,7 +10265,7 @@ export class DataRancher2Cluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRancher2Cluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRancher2Cluster to import
-  * @param importFromId The id of the existing DataRancher2Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRancher2Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRancher2Cluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9509,7 +10277,7 @@ export class DataRancher2Cluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/8.3.1/docs/data-sources/cluster rancher2_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rancher/rancher2/7.9.0/docs/data-sources/cluster rancher2_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9520,8 +10288,8 @@ export class DataRancher2Cluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'rancher2_cluster',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1',
-        providerVersionConstraint: '8.3.1'
+        providerVersion: '7.9.0',
+        providerVersionConstraint: '7.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -9543,6 +10311,12 @@ export class DataRancher2Cluster extends cdktf.TerraformDataSource {
   // agent_env_vars - computed: true, optional: false, required: false
   public get agentEnvVars() {
     return this.getListAttribute('agent_env_vars');
+  }
+
+  // aks_config - computed: true, optional: false, required: false
+  private _aksConfig = new DataRancher2ClusterAksConfigList(this, "aks_config", false);
+  public get aksConfig() {
+    return this._aksConfig;
   }
 
   // aks_config_v2 - computed: true, optional: false, required: false
@@ -9627,6 +10401,12 @@ export class DataRancher2Cluster extends cdktf.TerraformDataSource {
     return this.getStringAttribute('driver');
   }
 
+  // eks_config - computed: true, optional: false, required: false
+  private _eksConfig = new DataRancher2ClusterEksConfigList(this, "eks_config", false);
+  public get eksConfig() {
+    return this._eksConfig;
+  }
+
   // eks_config_v2 - computed: true, optional: false, required: false
   private _eksConfigV2 = new DataRancher2ClusterEksConfigV2List(this, "eks_config_v2", false);
   public get eksConfigV2() {
@@ -9641,6 +10421,12 @@ export class DataRancher2Cluster extends cdktf.TerraformDataSource {
   // fleet_workspace_name - computed: true, optional: false, required: false
   public get fleetWorkspaceName() {
     return this.getStringAttribute('fleet_workspace_name');
+  }
+
+  // gke_config - computed: true, optional: false, required: false
+  private _gkeConfig = new DataRancher2ClusterGkeConfigList(this, "gke_config", false);
+  public get gkeConfig() {
+    return this._gkeConfig;
   }
 
   // gke_config_v2 - computed: true, optional: false, required: false

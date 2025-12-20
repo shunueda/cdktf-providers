@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/data-sources/recommendations
+// https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/data-sources/recommendations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataGrafanaAdaptiveMetricsRecommendationsConfig extends cdktf.T
   /**
   * Limit the types of recommended actions to list. Valid recommended actions are 'add', 'remove', 'keep', and 'update'. Defaults to listing all actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/data-sources/recommendations#action DataGrafanaAdaptiveMetricsRecommendations#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/data-sources/recommendations#action DataGrafanaAdaptiveMetricsRecommendations#action}
   */
   readonly action?: string[];
   /**
   * The name of the segment to get recommendations for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/data-sources/recommendations#segment DataGrafanaAdaptiveMetricsRecommendations#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/data-sources/recommendations#segment DataGrafanaAdaptiveMetricsRecommendations#segment}
   */
   readonly segment?: string;
   /**
   * If true, the response will include additional information about the recommendation, such as the number of rules, queries, and dashboards that use the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/data-sources/recommendations#verbose DataGrafanaAdaptiveMetricsRecommendations#verbose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/data-sources/recommendations#verbose DataGrafanaAdaptiveMetricsRecommendations#verbose}
   */
   readonly verbose?: boolean | cdktf.IResolvable;
 }
@@ -173,7 +173,7 @@ export class DataGrafanaAdaptiveMetricsRecommendationsRecommendationsList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/data-sources/recommendations grafana-adaptive-metrics_recommendations}
+* Represents a {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/data-sources/recommendations grafana-adaptive-metrics_recommendations}
 */
 export class DataGrafanaAdaptiveMetricsRecommendations extends cdktf.TerraformDataSource {
 
@@ -189,7 +189,7 @@ export class DataGrafanaAdaptiveMetricsRecommendations extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataGrafanaAdaptiveMetricsRecommendations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGrafanaAdaptiveMetricsRecommendations to import
-  * @param importFromId The id of the existing DataGrafanaAdaptiveMetricsRecommendations that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/data-sources/recommendations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGrafanaAdaptiveMetricsRecommendations that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/data-sources/recommendations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGrafanaAdaptiveMetricsRecommendations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +201,7 @@ export class DataGrafanaAdaptiveMetricsRecommendations extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.3/docs/data-sources/recommendations grafana-adaptive-metrics_recommendations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana-adaptive-metrics/0.3.4/docs/data-sources/recommendations grafana-adaptive-metrics_recommendations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,8 +212,8 @@ export class DataGrafanaAdaptiveMetricsRecommendations extends cdktf.TerraformDa
       terraformResourceType: 'grafana-adaptive-metrics_recommendations',
       terraformGeneratorMetadata: {
         providerName: 'grafana-adaptive-metrics',
-        providerVersion: '0.3.3',
-        providerVersionConstraint: '0.3.3'
+        providerVersion: '0.3.4',
+        providerVersionConstraint: '0.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

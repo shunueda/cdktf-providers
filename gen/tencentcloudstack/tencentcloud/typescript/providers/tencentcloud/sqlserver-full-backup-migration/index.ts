@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_full_backup_migration
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_full_backup_migration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SqlserverFullBackupMigrationConfig extends cdktf.TerraformMetaA
   /**
   * If the UploadType is COS_URL, fill in the URL here. If the UploadType is COS_UPLOAD, fill in the name of the backup file here. Only 1 backup file is supported, but a backup file can involve multiple databases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_full_backup_migration#backup_files SqlserverFullBackupMigration#backup_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_full_backup_migration#backup_files SqlserverFullBackupMigration#backup_files}
   */
   readonly backupFiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_full_backup_migration#id SqlserverFullBackupMigration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_full_backup_migration#id SqlserverFullBackupMigration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface SqlserverFullBackupMigrationConfig extends cdktf.TerraformMetaA
   /**
   * ID of imported target instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_full_backup_migration#instance_id SqlserverFullBackupMigration#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_full_backup_migration#instance_id SqlserverFullBackupMigration#instance_id}
   */
   readonly instanceId: string;
   /**
   * Task name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_full_backup_migration#migration_name SqlserverFullBackupMigration#migration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_full_backup_migration#migration_name SqlserverFullBackupMigration#migration_name}
   */
   readonly migrationName: string;
   /**
   * Migration task restoration type. FULL: full backup restoration, FULL_LOG: full backup and transaction log restoration, FULL_DIFF: full backup and differential backup restoration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_full_backup_migration#recovery_type SqlserverFullBackupMigration#recovery_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_full_backup_migration#recovery_type SqlserverFullBackupMigration#recovery_type}
   */
   readonly recoveryType: string;
   /**
   * Backup upload type. COS_URL: the backup is stored in users Cloud Object Storage, with URL provided. COS_UPLOAD: the backup is stored in the applications Cloud Object Storage and needs to be uploaded by the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_full_backup_migration#upload_type SqlserverFullBackupMigration#upload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_full_backup_migration#upload_type SqlserverFullBackupMigration#upload_type}
   */
   readonly uploadType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_full_backup_migration tencentcloud_sqlserver_full_backup_migration}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_full_backup_migration tencentcloud_sqlserver_full_backup_migration}
 */
 export class SqlserverFullBackupMigration extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class SqlserverFullBackupMigration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverFullBackupMigration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverFullBackupMigration to import
-  * @param importFromId The id of the existing SqlserverFullBackupMigration that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_full_backup_migration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverFullBackupMigration that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_full_backup_migration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverFullBackupMigration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class SqlserverFullBackupMigration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_full_backup_migration tencentcloud_sqlserver_full_backup_migration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/sqlserver_full_backup_migration tencentcloud_sqlserver_full_backup_migration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class SqlserverFullBackupMigration extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_full_backup_migration',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

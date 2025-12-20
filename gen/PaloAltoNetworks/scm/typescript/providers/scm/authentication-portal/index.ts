@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_portal
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_portal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,70 @@ export interface AuthenticationPortalConfig extends cdktf.TerraformMetaArguments
   /**
   * The authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_portal#authentication_profile AuthenticationPortal#authentication_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_portal#authentication_profile AuthenticationPortal#authentication_profile}
   */
   readonly authenticationProfile?: string;
   /**
   * The certificate profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_portal#certificate_profile AuthenticationPortal#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_portal#certificate_profile AuthenticationPortal#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_portal#device AuthenticationPortal#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_portal#device AuthenticationPortal#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_portal#folder AuthenticationPortal#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_portal#folder AuthenticationPortal#folder}
   */
   readonly folder?: string;
   /**
   * The UDP port for inbound authentication prompts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_portal#gp_udp_port AuthenticationPortal#gp_udp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_portal#gp_udp_port AuthenticationPortal#gp_udp_port}
   */
   readonly gpUdpPort?: number;
   /**
   * The idle timeout value (minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_portal#idle_timer AuthenticationPortal#idle_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_portal#idle_timer AuthenticationPortal#idle_timer}
   */
   readonly idleTimer?: number;
   /**
   * The authentication portal IP address or hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_portal#redirect_host AuthenticationPortal#redirect_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_portal#redirect_host AuthenticationPortal#redirect_host}
   */
   readonly redirectHost: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_portal#snippet AuthenticationPortal#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_portal#snippet AuthenticationPortal#snippet}
   */
   readonly snippet?: string;
   /**
   * Timer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_portal#timer AuthenticationPortal#timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_portal#timer AuthenticationPortal#timer}
   */
   readonly timer?: number;
   /**
   * The SSL/TLS service profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_portal#tls_service_profile AuthenticationPortal#tls_service_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_portal#tls_service_profile AuthenticationPortal#tls_service_profile}
   */
   readonly tlsServiceProfile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_portal scm_authentication_portal}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_portal scm_authentication_portal}
 */
 export class AuthenticationPortal extends cdktf.TerraformResource {
 
@@ -92,7 +89,7 @@ export class AuthenticationPortal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthenticationPortal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthenticationPortal to import
-  * @param importFromId The id of the existing AuthenticationPortal that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_portal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthenticationPortal that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_portal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthenticationPortal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +101,7 @@ export class AuthenticationPortal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_portal scm_authentication_portal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_portal scm_authentication_portal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +112,8 @@ export class AuthenticationPortal extends cdktf.TerraformResource {
       terraformResourceType: 'scm_authentication_portal',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

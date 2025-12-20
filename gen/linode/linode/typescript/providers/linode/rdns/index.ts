@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/rdns
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/rdns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface RdnsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The public Linode IPv4 or IPv6 address to operate on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/rdns#address Rdns#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/rdns#address Rdns#address}
   */
   readonly address: string;
   /**
   * The reverse DNS assigned to this address. For public IPv4 addresses, this will be set to a default value provided by Linode if not explicitly set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/rdns#rdns Rdns#rdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/rdns#rdns Rdns#rdns}
   */
   readonly rdns: string;
   /**
   * If true, the RDNS assignment will be retried within the operation timeout period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/rdns#wait_for_available Rdns#wait_for_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/rdns#wait_for_available Rdns#wait_for_available}
   */
   readonly waitForAvailable?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/rdns#timeouts Rdns#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/rdns#timeouts Rdns#timeouts}
   */
   readonly timeouts?: RdnsTimeouts;
 }
@@ -36,13 +36,13 @@ export interface RdnsTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/rdns#create Rdns#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/rdns#create Rdns#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/rdns#update Rdns#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/rdns#update Rdns#update}
   */
   readonly update?: string;
 }
@@ -165,7 +165,7 @@ export class RdnsTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/rdns linode_rdns}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/rdns linode_rdns}
 */
 export class Rdns extends cdktf.TerraformResource {
 
@@ -181,7 +181,7 @@ export class Rdns extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Rdns resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Rdns to import
-  * @param importFromId The id of the existing Rdns that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/rdns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Rdns that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/rdns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Rdns to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class Rdns extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/rdns linode_rdns} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/rdns linode_rdns} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class Rdns extends cdktf.TerraformResource {
       terraformResourceType: 'linode_rdns',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

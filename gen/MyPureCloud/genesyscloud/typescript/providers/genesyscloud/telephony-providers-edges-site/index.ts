@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TelephonyProvidersEdgesSiteConfig extends cdktf.TerraformMetaAr
   /**
   * The caller ID value for the site. The callerID must be a valid E.164 formatted phone number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#caller_id TelephonyProvidersEdgesSite#caller_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#caller_id TelephonyProvidersEdgesSite#caller_id}
   */
   readonly callerId?: string;
   /**
   * The caller name for the site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#caller_name TelephonyProvidersEdgesSite#caller_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#caller_name TelephonyProvidersEdgesSite#caller_name}
   */
   readonly callerName?: string;
   /**
   * The resource's description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#description TelephonyProvidersEdgesSite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#description TelephonyProvidersEdgesSite#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#id TelephonyProvidersEdgesSite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#id TelephonyProvidersEdgesSite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,61 +35,61 @@ export interface TelephonyProvidersEdgesSiteConfig extends cdktf.TerraformMetaAr
   /**
   * Site location ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#location_id TelephonyProvidersEdgesSite#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#location_id TelephonyProvidersEdgesSite#location_id}
   */
   readonly locationId: string;
   /**
   * Media model for the site Valid Values: Premises, Cloud. Changing the media_model attribute will cause the site object to be dropped and created with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#media_model TelephonyProvidersEdgesSite#media_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#media_model TelephonyProvidersEdgesSite#media_model}
   */
   readonly mediaModel: string;
   /**
   * The ordered list of AWS regions through which media can stream. A full list of available media regions can be found at the GET /api/v2/telephony/mediaregions endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#media_regions TelephonyProvidersEdgesSite#media_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#media_regions TelephonyProvidersEdgesSite#media_regions}
   */
   readonly mediaRegions?: string[];
   /**
   * Latency based on media region Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#media_regions_use_latency_based TelephonyProvidersEdgesSite#media_regions_use_latency_based}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#media_regions_use_latency_based TelephonyProvidersEdgesSite#media_regions_use_latency_based}
   */
   readonly mediaRegionsUseLatencyBased?: boolean | cdktf.IResolvable;
   /**
   * The name of the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#name TelephonyProvidersEdgesSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#name TelephonyProvidersEdgesSite#name}
   */
   readonly name: string;
   /**
   * Used for primary phone edge assignment on physical edges only.  List of primary sites the phones can be assigned to. If no primary_sites are defined, the site id for this site will be used as the primary site id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#primary_sites TelephonyProvidersEdgesSite#primary_sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#primary_sites TelephonyProvidersEdgesSite#primary_sites}
   */
   readonly primarySites?: string[];
   /**
   * Used for secondary phone edge assignment on physical edges only.  List of secondary sites the phones can be assigned to.  If no primary_sites or secondary_sites are defined then the current site will defined as primary and secondary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#secondary_sites TelephonyProvidersEdgesSite#secondary_sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#secondary_sites TelephonyProvidersEdgesSite#secondary_sites}
   */
   readonly secondarySites?: string[];
   /**
   * Set this site as the default site for the organization. Only one genesyscloud_telephony_providers_edges_site resource should be set as the default. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#set_as_default_site TelephonyProvidersEdgesSite#set_as_default_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#set_as_default_site TelephonyProvidersEdgesSite#set_as_default_site}
   */
   readonly setAsDefaultSite?: boolean | cdktf.IResolvable;
   /**
   * edge_auto_update_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#edge_auto_update_config TelephonyProvidersEdgesSite#edge_auto_update_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#edge_auto_update_config TelephonyProvidersEdgesSite#edge_auto_update_config}
   */
   readonly edgeAutoUpdateConfig?: TelephonyProvidersEdgesSiteEdgeAutoUpdateConfig;
   /**
   * number_plans block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#number_plans TelephonyProvidersEdgesSite#number_plans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#number_plans TelephonyProvidersEdgesSite#number_plans}
   */
   readonly numberPlans?: TelephonyProvidersEdgesSiteNumberPlans[] | cdktf.IResolvable;
 }
@@ -97,25 +97,25 @@ export interface TelephonyProvidersEdgesSiteEdgeAutoUpdateConfig {
   /**
   * Date time is represented as an ISO-8601 string without a timezone. For example: yyyy-MM-ddTHH:mm:ss.SSS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#end TelephonyProvidersEdgesSite#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#end TelephonyProvidersEdgesSite#end}
   */
   readonly end: string;
   /**
   * A reoccurring rule for updating the Edges assigned to the site. The only supported frequencies are daily and weekly. Weekly frequencies require a day list with at least oneday specified. All other configurations are not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#rrule TelephonyProvidersEdgesSite#rrule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#rrule TelephonyProvidersEdgesSite#rrule}
   */
   readonly rrule: string;
   /**
   * Date time is represented as an ISO-8601 string without a timezone. For example: yyyy-MM-ddTHH:mm:ss.SSS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#start TelephonyProvidersEdgesSite#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#start TelephonyProvidersEdgesSite#start}
   */
   readonly start: string;
   /**
   * The timezone of the window in which any updates to the edges assigned to the site can be applied. The minimum size of the window is 2 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#time_zone TelephonyProvidersEdgesSite#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#time_zone TelephonyProvidersEdgesSite#time_zone}
   */
   readonly timeZone: string;
 }
@@ -274,11 +274,11 @@ export class TelephonyProvidersEdgesSiteEdgeAutoUpdateConfigOutputReference exte
 }
 export interface TelephonyProvidersEdgesSiteNumberPlansDigitLength {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#end TelephonyProvidersEdgesSite#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#end TelephonyProvidersEdgesSite#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#start TelephonyProvidersEdgesSite#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#start TelephonyProvidersEdgesSite#start}
   */
   readonly start?: string;
 }
@@ -391,11 +391,11 @@ export class TelephonyProvidersEdgesSiteNumberPlansDigitLengthOutputReference ex
 }
 export interface TelephonyProvidersEdgesSiteNumberPlansNumbers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#end TelephonyProvidersEdgesSite#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#end TelephonyProvidersEdgesSite#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#start TelephonyProvidersEdgesSite#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#start TelephonyProvidersEdgesSite#start}
   */
   readonly start?: string;
 }
@@ -542,41 +542,41 @@ export interface TelephonyProvidersEdgesSiteNumberPlans {
   /**
   * Used to classify this number plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#classification TelephonyProvidersEdgesSite#classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#classification TelephonyProvidersEdgesSite#classification}
   */
   readonly classification: string;
   /**
   * Use regular expression capture groups to build the normalized number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#match_format TelephonyProvidersEdgesSite#match_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#match_format TelephonyProvidersEdgesSite#match_format}
   */
   readonly matchFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#match_type TelephonyProvidersEdgesSite#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#match_type TelephonyProvidersEdgesSite#match_type}
   */
   readonly matchType: string;
   /**
   * The name of the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#name TelephonyProvidersEdgesSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#name TelephonyProvidersEdgesSite#name}
   */
   readonly name: string;
   /**
   * Use regular expression capture groups to build the normalized number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#normalized_format TelephonyProvidersEdgesSite#normalized_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#normalized_format TelephonyProvidersEdgesSite#normalized_format}
   */
   readonly normalizedFormat?: string;
   /**
   * digit_length block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#digit_length TelephonyProvidersEdgesSite#digit_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#digit_length TelephonyProvidersEdgesSite#digit_length}
   */
   readonly digitLength?: TelephonyProvidersEdgesSiteNumberPlansDigitLength;
   /**
   * numbers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#numbers TelephonyProvidersEdgesSite#numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#numbers TelephonyProvidersEdgesSite#numbers}
   */
   readonly numbers?: TelephonyProvidersEdgesSiteNumberPlansNumbers[] | cdktf.IResolvable;
 }
@@ -857,7 +857,7 @@ export class TelephonyProvidersEdgesSiteNumberPlansList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site genesyscloud_telephony_providers_edges_site}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site genesyscloud_telephony_providers_edges_site}
 */
 export class TelephonyProvidersEdgesSite extends cdktf.TerraformResource {
 
@@ -873,7 +873,7 @@ export class TelephonyProvidersEdgesSite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TelephonyProvidersEdgesSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TelephonyProvidersEdgesSite to import
-  * @param importFromId The id of the existing TelephonyProvidersEdgesSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TelephonyProvidersEdgesSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TelephonyProvidersEdgesSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -885,7 +885,7 @@ export class TelephonyProvidersEdgesSite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/telephony_providers_edges_site genesyscloud_telephony_providers_edges_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/telephony_providers_edges_site genesyscloud_telephony_providers_edges_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -896,8 +896,8 @@ export class TelephonyProvidersEdgesSite extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_telephony_providers_edges_site',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

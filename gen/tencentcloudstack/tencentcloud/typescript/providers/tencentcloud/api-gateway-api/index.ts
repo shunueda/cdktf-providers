@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface ApiGatewayApiConfig extends cdktf.TerraformMetaArguments {
   /**
   * When `auth_type` is OAUTH, this field is valid, NORMAL: Business API, OAUTH: Authorization API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#api_business_type ApiGatewayApi#api_business_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#api_business_type ApiGatewayApi#api_business_type}
   */
   readonly apiBusinessType?: string;
   /**
   * Custom API description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#api_desc ApiGatewayApi#api_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#api_desc ApiGatewayApi#api_desc}
   */
   readonly apiDesc?: string;
   /**
   * Custom API name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#api_name ApiGatewayApi#api_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#api_name ApiGatewayApi#api_name}
   */
   readonly apiName: string;
   /**
   * API type, supports NORMAL (regular API) and TSF (microservice API), defaults to NORMAL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#api_type ApiGatewayApi#api_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#api_type ApiGatewayApi#api_type}
   */
   readonly apiType?: string;
   /**
   * The unique ID of the associated authorization API takes effect when AuthType is OAUTH and ApiBusinessType is NORMAL. The unique ID of the oauth2.0 authorized API that identifies the business API binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#auth_relation_api_id ApiGatewayApi#auth_relation_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#auth_relation_api_id ApiGatewayApi#auth_relation_api_id}
   */
   readonly authRelationApiId?: string;
   /**
   * API authentication type. Support SECRET (Key Pair Authentication), NONE (Authentication Exemption), OAUTH, APP (Application Authentication). The default is NONE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#auth_type ApiGatewayApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#auth_type ApiGatewayApi#auth_type}
   */
   readonly authType?: string;
   /**
   * EIAM application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#eiam_app_id ApiGatewayApi#eiam_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#eiam_app_id ApiGatewayApi#eiam_app_id}
   */
   readonly eiamAppId?: string;
   /**
   * EIAM application type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#eiam_app_type ApiGatewayApi#eiam_app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#eiam_app_type ApiGatewayApi#eiam_app_type}
   */
   readonly eiamAppType?: string;
   /**
   * The EIAM application authentication type supports AuthenticationOnly, Authentication, and Authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#eiam_auth_type ApiGatewayApi#eiam_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#eiam_auth_type ApiGatewayApi#eiam_auth_type}
   */
   readonly eiamAuthType?: string;
   /**
   * Whether to enable CORS. Default value: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#enable_cors ApiGatewayApi#enable_cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#enable_cors ApiGatewayApi#enable_cors}
   */
   readonly enableCors?: boolean | cdktf.IResolvable;
   /**
   * Event bus ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#event_bus_id ApiGatewayApi#event_bus_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#event_bus_id ApiGatewayApi#event_bus_id}
   */
   readonly eventBusId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#id ApiGatewayApi#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#id ApiGatewayApi#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,313 +83,313 @@ export interface ApiGatewayApiConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to enable Base64 encoding will only take effect when the backend is scf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#is_base64_encoded ApiGatewayApi#is_base64_encoded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#is_base64_encoded ApiGatewayApi#is_base64_encoded}
   */
   readonly isBase64Encoded?: boolean | cdktf.IResolvable;
   /**
   * Charge after starting debugging. (Cloud Market Reserved Fields).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#is_debug_after_charge ApiGatewayApi#is_debug_after_charge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#is_debug_after_charge ApiGatewayApi#is_debug_after_charge}
   */
   readonly isDebugAfterCharge?: boolean | cdktf.IResolvable;
   /**
   * Do you want to delete the custom response configuration error code? If it is not passed or False is passed, it will not be deleted. If True is passed, all custom response configuration error codes for this API will be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#is_delete_response_error_codes ApiGatewayApi#is_delete_response_error_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#is_delete_response_error_codes ApiGatewayApi#is_delete_response_error_codes}
   */
   readonly isDeleteResponseErrorCodes?: boolean | cdktf.IResolvable;
   /**
   * Owner of resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#owner ApiGatewayApi#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#owner ApiGatewayApi#owner}
   */
   readonly owner?: string;
   /**
   * API QPS value. Enter a positive number to limit the API query rate per second `QPS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#pre_limit ApiGatewayApi#pre_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#pre_limit ApiGatewayApi#pre_limit}
   */
   readonly preLimit?: number;
   /**
   * API frontend request type. Valid values: `HTTP`, `WEBSOCKET`. Default value: `HTTP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#protocol ApiGatewayApi#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#protocol ApiGatewayApi#protocol}
   */
   readonly protocol?: string;
   /**
   * API QPS value. Enter a positive number to limit the API query rate per second `QPS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#release_limit ApiGatewayApi#release_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#release_limit ApiGatewayApi#release_limit}
   */
   readonly releaseLimit?: number;
   /**
   * Request frontend method configuration. Valid values: `GET`,`POST`,`PUT`,`DELETE`,`HEAD`,`ANY`. Default value: `GET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#request_config_method ApiGatewayApi#request_config_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#request_config_method ApiGatewayApi#request_config_method}
   */
   readonly requestConfigMethod?: string;
   /**
   * Request frontend path configuration. Like `/user/getinfo`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#request_config_path ApiGatewayApi#request_config_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#request_config_path ApiGatewayApi#request_config_path}
   */
   readonly requestConfigPath: string;
   /**
   * Response failure sample of custom response configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#response_fail_example ApiGatewayApi#response_fail_example}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#response_fail_example ApiGatewayApi#response_fail_example}
   */
   readonly responseFailExample?: string;
   /**
   * Successful response sample of custom response configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#response_success_example ApiGatewayApi#response_success_example}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#response_success_example ApiGatewayApi#response_success_example}
   */
   readonly responseSuccessExample?: string;
   /**
   * Return type. Valid values: `HTML`, `JSON`, `TEXT`, `BINARY`, `XML`. Default value: `HTML`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#response_type ApiGatewayApi#response_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#response_type ApiGatewayApi#response_type}
   */
   readonly responseType?: string;
   /**
   * API backend service request method, such as `GET`. If `service_config_type` is `HTTP`, this parameter will be required. The frontend `request_config_method` and backend method `service_config_method` can be different.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_method ApiGatewayApi#service_config_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_method ApiGatewayApi#service_config_method}
   */
   readonly serviceConfigMethod?: string;
   /**
   * Returned information of API backend mocking. This parameter is required when `service_config_type` is `MOCK`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_mock_return_message ApiGatewayApi#service_config_mock_return_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_mock_return_message ApiGatewayApi#service_config_mock_return_message}
   */
   readonly serviceConfigMockReturnMessage?: string;
   /**
   * API backend service path, such as /path. If `service_config_type` is `HTTP`, this parameter will be required. The frontend `request_config_path` and backend path `service_config_path` can be different.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_path ApiGatewayApi#service_config_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_path ApiGatewayApi#service_config_path}
   */
   readonly serviceConfigPath?: string;
   /**
   * Backend type. Effective when enabling vpc, currently supported types are clb, cvm, and upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_product ApiGatewayApi#service_config_product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_product ApiGatewayApi#service_config_product}
   */
   readonly serviceConfigProduct?: string;
   /**
   * SCF function name. This parameter takes effect when `service_config_type` is `SCF`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_scf_function_name ApiGatewayApi#service_config_scf_function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_scf_function_name ApiGatewayApi#service_config_scf_function_name}
   */
   readonly serviceConfigScfFunctionName?: string;
   /**
   * SCF function namespace. This parameter takes effect when `service_config_type` is `SCF`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_scf_function_namespace ApiGatewayApi#service_config_scf_function_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_scf_function_namespace ApiGatewayApi#service_config_scf_function_namespace}
   */
   readonly serviceConfigScfFunctionNamespace?: string;
   /**
   * SCF function version. This parameter takes effect when `service_config_type` is `SCF`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_scf_function_qualifier ApiGatewayApi#service_config_scf_function_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_scf_function_qualifier ApiGatewayApi#service_config_scf_function_qualifier}
   */
   readonly serviceConfigScfFunctionQualifier?: string;
   /**
   * Scf function type. Effective when the backend type is SCF. Support Event Triggering (EVENT) and HTTP Direct Cloud Function (HTTP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_scf_function_type ApiGatewayApi#service_config_scf_function_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_scf_function_type ApiGatewayApi#service_config_scf_function_type}
   */
   readonly serviceConfigScfFunctionType?: string;
   /**
   * Whether to enable response integration. Effective when the backend type is SCF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_scf_is_integrated_response ApiGatewayApi#service_config_scf_is_integrated_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_scf_is_integrated_response ApiGatewayApi#service_config_scf_is_integrated_response}
   */
   readonly serviceConfigScfIsIntegratedResponse?: boolean | cdktf.IResolvable;
   /**
   * API backend service timeout period in seconds. Default value: `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_timeout ApiGatewayApi#service_config_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_timeout ApiGatewayApi#service_config_timeout}
   */
   readonly serviceConfigTimeout?: number;
   /**
   * The backend service type of the API. Supports HTTP, MOCK, TSF, SCF, WEBSOCKET, COS, TARGET (internal testing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_type ApiGatewayApi#service_config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_type ApiGatewayApi#service_config_type}
   */
   readonly serviceConfigType?: string;
   /**
   * Only required when binding to VPC channelsNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_upstream_id ApiGatewayApi#service_config_upstream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_upstream_id ApiGatewayApi#service_config_upstream_id}
   */
   readonly serviceConfigUpstreamId?: string;
   /**
   * The backend service URL of the API. If the ServiceType is HTTP, this parameter must be passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_url ApiGatewayApi#service_config_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_url ApiGatewayApi#service_config_url}
   */
   readonly serviceConfigUrl?: string;
   /**
   * Unique VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_vpc_id ApiGatewayApi#service_config_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_vpc_id ApiGatewayApi#service_config_vpc_id}
   */
   readonly serviceConfigVpcId?: string;
   /**
   * Scf websocket cleaning function. It takes effect when the current end type is WEBSOCKET and the backend type is SCF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_websocket_cleanup_function_name ApiGatewayApi#service_config_websocket_cleanup_function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_websocket_cleanup_function_name ApiGatewayApi#service_config_websocket_cleanup_function_name}
   */
   readonly serviceConfigWebsocketCleanupFunctionName?: string;
   /**
   * Scf websocket cleans up the function namespace. It takes effect when the current end type is WEBSOCKET and the backend type is SCF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_websocket_cleanup_function_namespace ApiGatewayApi#service_config_websocket_cleanup_function_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_websocket_cleanup_function_namespace ApiGatewayApi#service_config_websocket_cleanup_function_namespace}
   */
   readonly serviceConfigWebsocketCleanupFunctionNamespace?: string;
   /**
   * Scf websocket cleaning function version. It takes effect when the current end type is WEBSOCKET and the backend type is SCF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_websocket_cleanup_function_qualifier ApiGatewayApi#service_config_websocket_cleanup_function_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_websocket_cleanup_function_qualifier ApiGatewayApi#service_config_websocket_cleanup_function_qualifier}
   */
   readonly serviceConfigWebsocketCleanupFunctionQualifier?: string;
   /**
   * Scf websocket registration function. It takes effect when the current end type is WEBSOCKET and the backend type is SCF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_websocket_register_function_name ApiGatewayApi#service_config_websocket_register_function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_websocket_register_function_name ApiGatewayApi#service_config_websocket_register_function_name}
   */
   readonly serviceConfigWebsocketRegisterFunctionName?: string;
   /**
   * Scf websocket registers function namespaces. It takes effect when the current end type is WEBSOCKET and the backend type is SCF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_websocket_register_function_namespace ApiGatewayApi#service_config_websocket_register_function_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_websocket_register_function_namespace ApiGatewayApi#service_config_websocket_register_function_namespace}
   */
   readonly serviceConfigWebsocketRegisterFunctionNamespace?: string;
   /**
   * Scf websocket transfer function version. It takes effect when the current end type is WEBSOCKET and the backend type is SCF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_websocket_register_function_qualifier ApiGatewayApi#service_config_websocket_register_function_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_websocket_register_function_qualifier ApiGatewayApi#service_config_websocket_register_function_qualifier}
   */
   readonly serviceConfigWebsocketRegisterFunctionQualifier?: string;
   /**
   * Scf websocket transfer function. It takes effect when the current end type is WEBSOCKET and the backend type is SCF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_websocket_transport_function_name ApiGatewayApi#service_config_websocket_transport_function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_websocket_transport_function_name ApiGatewayApi#service_config_websocket_transport_function_name}
   */
   readonly serviceConfigWebsocketTransportFunctionName?: string;
   /**
   * Scf websocket transfer function namespace. It takes effect when the current end type is WEBSOCKET and the backend type is SCF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_websocket_transport_function_namespace ApiGatewayApi#service_config_websocket_transport_function_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_websocket_transport_function_namespace ApiGatewayApi#service_config_websocket_transport_function_namespace}
   */
   readonly serviceConfigWebsocketTransportFunctionNamespace?: string;
   /**
   * Scf websocket transfer function version. It takes effect when the current end type is WEBSOCKET and the backend type is SCF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_websocket_transport_function_qualifier ApiGatewayApi#service_config_websocket_transport_function_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_websocket_transport_function_qualifier ApiGatewayApi#service_config_websocket_transport_function_qualifier}
   */
   readonly serviceConfigWebsocketTransportFunctionQualifier?: string;
   /**
   * The unique ID of the service where the API is located. Refer to resource `tencentcloud_api_gateway_service`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_id ApiGatewayApi#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_id ApiGatewayApi#service_id}
   */
   readonly serviceId: string;
   /**
   * Tsf serverless namespace ID. (In internal testing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#target_namespace_id ApiGatewayApi#target_namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#target_namespace_id ApiGatewayApi#target_namespace_id}
   */
   readonly targetNamespaceId?: string;
   /**
   * Target type load balancing configuration. (Internal testing stage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#target_services_load_balance_conf ApiGatewayApi#target_services_load_balance_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#target_services_load_balance_conf ApiGatewayApi#target_services_load_balance_conf}
   */
   readonly targetServicesLoadBalanceConf?: number;
   /**
   * API QPS value. Enter a positive number to limit the API query rate per second `QPS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#test_limit ApiGatewayApi#test_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#test_limit ApiGatewayApi#test_limit}
   */
   readonly testLimit?: number;
   /**
   * The effective time of the EIAM application token, measured in seconds, defaults to 7200 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#token_timeout ApiGatewayApi#token_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#token_timeout ApiGatewayApi#token_timeout}
   */
   readonly tokenTimeout?: number;
   /**
   * User type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#user_type ApiGatewayApi#user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#user_type ApiGatewayApi#user_type}
   */
   readonly userType?: string;
   /**
   * constant_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#constant_parameters ApiGatewayApi#constant_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#constant_parameters ApiGatewayApi#constant_parameters}
   */
   readonly constantParameters?: ApiGatewayApiConstantParameters[] | cdktf.IResolvable;
   /**
   * micro_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#micro_services ApiGatewayApi#micro_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#micro_services ApiGatewayApi#micro_services}
   */
   readonly microServices?: ApiGatewayApiMicroServices[] | cdktf.IResolvable;
   /**
   * oauth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#oauth_config ApiGatewayApi#oauth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#oauth_config ApiGatewayApi#oauth_config}
   */
   readonly oauthConfig?: ApiGatewayApiOauthConfig;
   /**
   * request_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#request_parameters ApiGatewayApi#request_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#request_parameters ApiGatewayApi#request_parameters}
   */
   readonly requestParameters?: ApiGatewayApiRequestParameters[] | cdktf.IResolvable;
   /**
   * response_error_codes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#response_error_codes ApiGatewayApi#response_error_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#response_error_codes ApiGatewayApi#response_error_codes}
   */
   readonly responseErrorCodes?: ApiGatewayApiResponseErrorCodes[] | cdktf.IResolvable;
   /**
   * service_config_cos_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_config_cos_config ApiGatewayApi#service_config_cos_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_config_cos_config ApiGatewayApi#service_config_cos_config}
   */
   readonly serviceConfigCosConfig?: ApiGatewayApiServiceConfigCosConfig;
   /**
   * service_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_parameters ApiGatewayApi#service_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_parameters ApiGatewayApi#service_parameters}
   */
   readonly serviceParameters?: ApiGatewayApiServiceParameters[] | cdktf.IResolvable;
   /**
   * service_tsf_health_check_conf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_tsf_health_check_conf ApiGatewayApi#service_tsf_health_check_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_tsf_health_check_conf ApiGatewayApi#service_tsf_health_check_conf}
   */
   readonly serviceTsfHealthCheckConf?: ApiGatewayApiServiceTsfHealthCheckConf;
   /**
   * service_tsf_load_balance_conf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#service_tsf_load_balance_conf ApiGatewayApi#service_tsf_load_balance_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#service_tsf_load_balance_conf ApiGatewayApi#service_tsf_load_balance_conf}
   */
   readonly serviceTsfLoadBalanceConf?: ApiGatewayApiServiceTsfLoadBalanceConf;
   /**
   * target_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#target_services ApiGatewayApi#target_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#target_services ApiGatewayApi#target_services}
   */
   readonly targetServices?: ApiGatewayApiTargetServices[] | cdktf.IResolvable;
   /**
   * target_services_health_check_conf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#target_services_health_check_conf ApiGatewayApi#target_services_health_check_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#target_services_health_check_conf ApiGatewayApi#target_services_health_check_conf}
   */
   readonly targetServicesHealthCheckConf?: ApiGatewayApiTargetServicesHealthCheckConf;
 }
@@ -397,25 +397,25 @@ export interface ApiGatewayApiConstantParameters {
   /**
   * Default value for constant parameters. This parameter is only used when ServiceType is HTTP.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#default_value ApiGatewayApi#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#default_value ApiGatewayApi#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Constant parameter description. This parameter is only used when ServiceType is HTTP.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#desc ApiGatewayApi#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#desc ApiGatewayApi#desc}
   */
   readonly desc?: string;
   /**
   * Constant parameter name. This parameter is only used when ServiceType is HTTP.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name?: string;
   /**
   * Constant parameter position. This parameter is only used when ServiceType is HTTP.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#position ApiGatewayApi#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#position ApiGatewayApi#position}
   */
   readonly position?: string;
 }
@@ -620,19 +620,19 @@ export interface ApiGatewayApiMicroServices {
   /**
   * Micro service cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#cluster_id ApiGatewayApi#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#cluster_id ApiGatewayApi#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Microservice name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#micro_service_name ApiGatewayApi#micro_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#micro_service_name ApiGatewayApi#micro_service_name}
   */
   readonly microServiceName: string;
   /**
   * Microservice namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#namespace_id ApiGatewayApi#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#namespace_id ApiGatewayApi#namespace_id}
   */
   readonly namespaceId: string;
 }
@@ -799,19 +799,19 @@ export interface ApiGatewayApiOauthConfig {
   /**
   * Redirect address, used to guide users in login operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#login_redirect_url ApiGatewayApi#login_redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#login_redirect_url ApiGatewayApi#login_redirect_url}
   */
   readonly loginRedirectUrl?: string;
   /**
   * Public key, used to verify user tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#public_key ApiGatewayApi#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#public_key ApiGatewayApi#public_key}
   */
   readonly publicKey: string;
   /**
   * Token passes the position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#token_location ApiGatewayApi#token_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#token_location ApiGatewayApi#token_location}
   */
   readonly tokenLocation: string;
 }
@@ -949,37 +949,37 @@ export interface ApiGatewayApiRequestParameters {
   /**
   * Parameter default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#default_value ApiGatewayApi#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#default_value ApiGatewayApi#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Parameter description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#desc ApiGatewayApi#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#desc ApiGatewayApi#desc}
   */
   readonly desc?: string;
   /**
   * Parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name: string;
   /**
   * Parameter location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#position ApiGatewayApi#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#position ApiGatewayApi#position}
   */
   readonly position: string;
   /**
   * If this parameter required. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#required ApiGatewayApi#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#required ApiGatewayApi#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Parameter type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#type ApiGatewayApi#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#type ApiGatewayApi#type}
   */
   readonly type: string;
 }
@@ -1233,31 +1233,31 @@ export interface ApiGatewayApiResponseErrorCodes {
   /**
   * Custom response configuration error code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#code ApiGatewayApi#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#code ApiGatewayApi#code}
   */
   readonly code: number;
   /**
   * Custom error code conversion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#converted_code ApiGatewayApi#converted_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#converted_code ApiGatewayApi#converted_code}
   */
   readonly convertedCode?: number;
   /**
   * Parameter description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#desc ApiGatewayApi#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#desc ApiGatewayApi#desc}
   */
   readonly desc?: string;
   /**
   * Custom response configuration error message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#msg ApiGatewayApi#msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#msg ApiGatewayApi#msg}
   */
   readonly msg: string;
   /**
   * Whether to enable error code conversion. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#need_convert ApiGatewayApi#need_convert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#need_convert ApiGatewayApi#need_convert}
   */
   readonly needConvert?: boolean | cdktf.IResolvable;
 }
@@ -1485,25 +1485,25 @@ export interface ApiGatewayApiServiceConfigCosConfig {
   /**
   * The API calls the backend COS method, and the optional values for the front-end request method and Action are:GET: GetObjectPUT: PutObjectPOST: PostObject, AppendObjectHEAD: HeadObjectDELETE: DeleteObject.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#action ApiGatewayApi#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#action ApiGatewayApi#action}
   */
   readonly action: string;
   /**
   * The API calls the signature switch of the backend COS, which defaults to false.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#authorization ApiGatewayApi#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#authorization ApiGatewayApi#authorization}
   */
   readonly authorization?: boolean | cdktf.IResolvable;
   /**
   * The bucket name of the API backend COS.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#bucket_name ApiGatewayApi#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#bucket_name ApiGatewayApi#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Path matching mode for API backend COS, optional values:BackEndPath: Backend path matchingFullPath: Full Path MatchingThe default value is: BackEndPathNote: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#path_match_mode ApiGatewayApi#path_match_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#path_match_mode ApiGatewayApi#path_match_mode}
   */
   readonly pathMatchMode?: string;
 }
@@ -1670,43 +1670,43 @@ export interface ApiGatewayApiServiceParameters {
   /**
   * The default value for the backend service parameters of the API. This parameter is only used when ServiceType is HTTP.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#default_value ApiGatewayApi#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#default_value ApiGatewayApi#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The backend service parameter name of the API. This parameter is only used when ServiceType is HTTP. The front and rear parameter names can be different.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#name ApiGatewayApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#name ApiGatewayApi#name}
   */
   readonly name?: string;
   /**
   * The backend service parameter location of the API, such as head. This parameter is only used when ServiceType is HTTP. The parameter positions at the front and rear ends can be configured differently.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#position ApiGatewayApi#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#position ApiGatewayApi#position}
   */
   readonly position?: string;
   /**
   * Remarks on the backend service parameters of the API. This parameter is only used when ServiceType is HTTP.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#relevant_request_parameter_desc ApiGatewayApi#relevant_request_parameter_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#relevant_request_parameter_desc ApiGatewayApi#relevant_request_parameter_desc}
   */
   readonly relevantRequestParameterDesc?: string;
   /**
   * The name of the front-end parameter corresponding to the backend service parameter of the API. This parameter is only used when ServiceType is HTTP.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#relevant_request_parameter_name ApiGatewayApi#relevant_request_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#relevant_request_parameter_name ApiGatewayApi#relevant_request_parameter_name}
   */
   readonly relevantRequestParameterName?: string;
   /**
   * The location of the front-end parameters corresponding to the backend service parameters of the API, such as head. This parameter is only used when ServiceType is HTTP.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#relevant_request_parameter_position ApiGatewayApi#relevant_request_parameter_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#relevant_request_parameter_position ApiGatewayApi#relevant_request_parameter_position}
   */
   readonly relevantRequestParameterPosition?: string;
   /**
   * The backend service parameter type of the API. This parameter is only used when ServiceType is HTTP.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#relevant_request_parameter_type ApiGatewayApi#relevant_request_parameter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#relevant_request_parameter_type ApiGatewayApi#relevant_request_parameter_type}
   */
   readonly relevantRequestParameterType?: string;
 }
@@ -1998,25 +1998,25 @@ export interface ApiGatewayApiServiceTsfHealthCheckConf {
   /**
   * Threshold percentage.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#error_threshold_percentage ApiGatewayApi#error_threshold_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#error_threshold_percentage ApiGatewayApi#error_threshold_percentage}
   */
   readonly errorThresholdPercentage?: number;
   /**
   * Whether to initiate a health check.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#is_health_check ApiGatewayApi#is_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#is_health_check ApiGatewayApi#is_health_check}
   */
   readonly isHealthCheck?: boolean | cdktf.IResolvable;
   /**
   * Health check threshold.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#request_volume_threshold ApiGatewayApi#request_volume_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#request_volume_threshold ApiGatewayApi#request_volume_threshold}
   */
   readonly requestVolumeThreshold?: number;
   /**
   * Window size.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#sleep_window_in_milliseconds ApiGatewayApi#sleep_window_in_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#sleep_window_in_milliseconds ApiGatewayApi#sleep_window_in_milliseconds}
   */
   readonly sleepWindowInMilliseconds?: number;
 }
@@ -2189,25 +2189,25 @@ export interface ApiGatewayApiServiceTsfLoadBalanceConf {
   /**
   * Is load balancing enabled.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#is_load_balance ApiGatewayApi#is_load_balance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#is_load_balance ApiGatewayApi#is_load_balance}
   */
   readonly isLoadBalance?: boolean | cdktf.IResolvable;
   /**
   * Load balancing method.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#method ApiGatewayApi#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#method ApiGatewayApi#method}
   */
   readonly method?: string;
   /**
   * Whether to enable session persistence.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#session_stick_required ApiGatewayApi#session_stick_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#session_stick_required ApiGatewayApi#session_stick_required}
   */
   readonly sessionStickRequired?: boolean | cdktf.IResolvable;
   /**
   * Session hold timeout.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#session_stick_timeout ApiGatewayApi#session_stick_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#session_stick_timeout ApiGatewayApi#session_stick_timeout}
   */
   readonly sessionStickTimeout?: number;
 }
@@ -2380,31 +2380,31 @@ export interface ApiGatewayApiTargetServices {
   /**
   * docker ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#docker_ip ApiGatewayApi#docker_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#docker_ip ApiGatewayApi#docker_ip}
   */
   readonly dockerIp?: string;
   /**
   * Host IP of the CVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#host_ip ApiGatewayApi#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#host_ip ApiGatewayApi#host_ip}
   */
   readonly hostIp: string;
   /**
   * vm ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#vm_ip ApiGatewayApi#vm_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#vm_ip ApiGatewayApi#vm_ip}
   */
   readonly vmIp: string;
   /**
   * vm port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#vm_port ApiGatewayApi#vm_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#vm_port ApiGatewayApi#vm_port}
   */
   readonly vmPort: number;
   /**
   * vpc id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#vpc_id ApiGatewayApi#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#vpc_id ApiGatewayApi#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -2626,25 +2626,25 @@ export interface ApiGatewayApiTargetServicesHealthCheckConf {
   /**
   * Threshold percentage.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#error_threshold_percentage ApiGatewayApi#error_threshold_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#error_threshold_percentage ApiGatewayApi#error_threshold_percentage}
   */
   readonly errorThresholdPercentage?: number;
   /**
   * Whether to initiate a health check.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#is_health_check ApiGatewayApi#is_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#is_health_check ApiGatewayApi#is_health_check}
   */
   readonly isHealthCheck?: boolean | cdktf.IResolvable;
   /**
   * Health check threshold.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#request_volume_threshold ApiGatewayApi#request_volume_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#request_volume_threshold ApiGatewayApi#request_volume_threshold}
   */
   readonly requestVolumeThreshold?: number;
   /**
   * Window size.Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#sleep_window_in_milliseconds ApiGatewayApi#sleep_window_in_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#sleep_window_in_milliseconds ApiGatewayApi#sleep_window_in_milliseconds}
   */
   readonly sleepWindowInMilliseconds?: number;
 }
@@ -2815,7 +2815,7 @@ export class ApiGatewayApiTargetServicesHealthCheckConfOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api tencentcloud_api_gateway_api}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api tencentcloud_api_gateway_api}
 */
 export class ApiGatewayApi extends cdktf.TerraformResource {
 
@@ -2831,7 +2831,7 @@ export class ApiGatewayApi extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayApi resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayApi to import
-  * @param importFromId The id of the existing ApiGatewayApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayApi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2843,7 +2843,7 @@ export class ApiGatewayApi extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/api_gateway_api tencentcloud_api_gateway_api} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/api_gateway_api tencentcloud_api_gateway_api} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2854,8 +2854,8 @@ export class ApiGatewayApi extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_api_gateway_api',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

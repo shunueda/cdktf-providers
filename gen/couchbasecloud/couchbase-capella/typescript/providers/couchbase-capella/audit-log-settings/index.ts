@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/audit_log_settings
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/audit_log_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface AuditLogSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Determines whether audit logging is enabled or not on the cluster. Set to 'true' to enable audit logging.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/audit_log_settings#audit_enabled AuditLogSettings#audit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/audit_log_settings#audit_enabled AuditLogSettings#audit_enabled}
   */
   readonly auditEnabled?: boolean | cdktf.IResolvable;
   /**
-  * The GUID4 ID of the cluster to configure audit log settings.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/audit_log_settings#cluster_id AuditLogSettings#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/audit_log_settings#cluster_id AuditLogSettings#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * List of users whose actions will be excluded from audit logging.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/audit_log_settings#disabled_users AuditLogSettings#disabled_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/audit_log_settings#disabled_users AuditLogSettings#disabled_users}
   */
   readonly disabledUsers?: AuditLogSettingsDisabledUsers[] | cdktf.IResolvable;
   /**
-  * List of audit event IDs to enable for logging. These IDs correspond to specific types of events that will be recorded in the audit log. Use the audit_log_event_ids data source to get the list of available event IDs.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/audit_log_settings#enabled_event_ids AuditLogSettings#enabled_event_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/audit_log_settings#enabled_event_ids AuditLogSettings#enabled_event_ids}
   */
   readonly enabledEventIds?: number[];
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/audit_log_settings#organization_id AuditLogSettings#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/audit_log_settings#organization_id AuditLogSettings#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/audit_log_settings#project_id AuditLogSettings#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/audit_log_settings#project_id AuditLogSettings#project_id}
   */
   readonly projectId: string;
 }
 export interface AuditLogSettingsDisabledUsers {
   /**
-  * The authentication domain of the user to exclude. Specifies whether the user is local or external.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/audit_log_settings#domain AuditLogSettings#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/audit_log_settings#domain AuditLogSettings#domain}
   */
   readonly domain: string;
   /**
-  * The username of the user to exclude from audit logging.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/audit_log_settings#name AuditLogSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/audit_log_settings#name AuditLogSettings#name}
   */
   readonly name: string;
 }
@@ -193,7 +177,7 @@ export class AuditLogSettingsDisabledUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/audit_log_settings couchbase-capella_audit_log_settings}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/audit_log_settings couchbase-capella_audit_log_settings}
 */
 export class AuditLogSettings extends cdktf.TerraformResource {
 
@@ -209,7 +193,7 @@ export class AuditLogSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuditLogSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuditLogSettings to import
-  * @param importFromId The id of the existing AuditLogSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/audit_log_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuditLogSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/audit_log_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuditLogSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -221,7 +205,7 @@ export class AuditLogSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/resources/audit_log_settings couchbase-capella_audit_log_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/resources/audit_log_settings couchbase-capella_audit_log_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,8 +216,8 @@ export class AuditLogSettings extends cdktf.TerraformResource {
       terraformResourceType: 'couchbase-capella_audit_log_settings',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

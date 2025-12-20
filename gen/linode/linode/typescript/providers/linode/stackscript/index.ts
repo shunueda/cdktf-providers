@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/stackscript
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/stackscript
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface StackscriptConfig extends cdktf.TerraformMetaArguments {
   /**
   * A description for the StackScript.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/stackscript#description Stackscript#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/stackscript#description Stackscript#description}
   */
   readonly description: string;
   /**
   * An array of Image IDs representing the Images that this StackScript is compatible for deploying with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/stackscript#images Stackscript#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/stackscript#images Stackscript#images}
   */
   readonly images: string[];
   /**
   * This determines whether other users can use your StackScript. Once a StackScript is made public, it cannot be made private.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/stackscript#is_public Stackscript#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/stackscript#is_public Stackscript#is_public}
   */
   readonly isPublic?: boolean | cdktf.IResolvable;
   /**
   * The StackScript's label is for display purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/stackscript#label Stackscript#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/stackscript#label Stackscript#label}
   */
   readonly label: string;
   /**
   * This field allows you to add notes for the set of revisions made to this StackScript.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/stackscript#rev_note Stackscript#rev_note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/stackscript#rev_note Stackscript#rev_note}
   */
   readonly revNote?: string;
   /**
   * The script to execute when provisioning a new Linode with this StackScript.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/stackscript#script Stackscript#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/stackscript#script Stackscript#script}
   */
   readonly script: string;
 }
@@ -146,7 +146,7 @@ export class StackscriptUserDefinedFieldsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/stackscript linode_stackscript}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/stackscript linode_stackscript}
 */
 export class Stackscript extends cdktf.TerraformResource {
 
@@ -162,7 +162,7 @@ export class Stackscript extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Stackscript resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Stackscript to import
-  * @param importFromId The id of the existing Stackscript that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/stackscript#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Stackscript that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/stackscript#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Stackscript to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +174,7 @@ export class Stackscript extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/stackscript linode_stackscript} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/stackscript linode_stackscript} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +185,8 @@ export class Stackscript extends cdktf.TerraformResource {
       terraformResourceType: 'linode_stackscript',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

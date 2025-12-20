@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template
+// https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NetworkAclTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * ACL template description, up to 200 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template#description NetworkAclTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template#description NetworkAclTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template#id NetworkAclTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template#id NetworkAclTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface NetworkAclTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * ACL template location metro code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template#metro_code NetworkAclTemplate#metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template#metro_code NetworkAclTemplate#metro_code}
   */
   readonly metroCode?: string;
   /**
   * ACL template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template#name NetworkAclTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template#name NetworkAclTemplate#name}
   */
   readonly name: string;
   /**
   * The unique identifier of Project Resource to which ACL template is scoped to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template#project_id NetworkAclTemplate#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template#project_id NetworkAclTemplate#project_id}
   */
   readonly projectId?: string;
   /**
   * inbound_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template#inbound_rule NetworkAclTemplate#inbound_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template#inbound_rule NetworkAclTemplate#inbound_rule}
   */
   readonly inboundRule: NetworkAclTemplateInboundRule[] | cdktf.IResolvable;
 }
@@ -134,37 +134,37 @@ export interface NetworkAclTemplateInboundRule {
   /**
   * Inbound rule description, up to 200 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template#description NetworkAclTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template#description NetworkAclTemplate#description}
   */
   readonly description?: string;
   /**
   * Inbound traffic destination ports. Either up to 10, comma separated ports or port range or any word
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template#dst_port NetworkAclTemplate#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template#dst_port NetworkAclTemplate#dst_port}
   */
   readonly dstPort: string;
   /**
   * Inbound traffic protocol. One of: `IP`, `TCP`, `UDP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template#protocol NetworkAclTemplate#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template#protocol NetworkAclTemplate#protocol}
   */
   readonly protocol: string;
   /**
   * Inbound traffic source ports. Either up to 10, comma separated ports or port range or any word
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template#src_port NetworkAclTemplate#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template#src_port NetworkAclTemplate#src_port}
   */
   readonly srcPort: string;
   /**
   * Inbound traffic source IP subnet in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template#subnet NetworkAclTemplate#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template#subnet NetworkAclTemplate#subnet}
   */
   readonly subnet?: string;
   /**
   * Inbound traffic source IP subnets in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template#subnets NetworkAclTemplate#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template#subnets NetworkAclTemplate#subnets}
   */
   readonly subnets?: string[];
 }
@@ -426,7 +426,7 @@ export class NetworkAclTemplateInboundRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template equinix_network_acl_template}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template equinix_network_acl_template}
 */
 export class NetworkAclTemplate extends cdktf.TerraformResource {
 
@@ -442,7 +442,7 @@ export class NetworkAclTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkAclTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkAclTemplate to import
-  * @param importFromId The id of the existing NetworkAclTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkAclTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkAclTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -454,7 +454,7 @@ export class NetworkAclTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.11.1/docs/resources/network_acl_template equinix_network_acl_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.12.0/docs/resources/network_acl_template equinix_network_acl_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -465,8 +465,8 @@ export class NetworkAclTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_network_acl_template',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.11.1',
-        providerVersionConstraint: '4.11.1'
+        providerVersion: '4.12.0',
+        providerVersionConstraint: '4.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

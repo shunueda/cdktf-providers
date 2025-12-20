@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_export
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_export
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface DataCouchbaseCapellaAuditLogExportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_export#cluster_id DataCouchbaseCapellaAuditLogExport#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_export#cluster_id DataCouchbaseCapellaAuditLogExport#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_export#organization_id DataCouchbaseCapellaAuditLogExport#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_export#organization_id DataCouchbaseCapellaAuditLogExport#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_export#project_id DataCouchbaseCapellaAuditLogExport#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_export#project_id DataCouchbaseCapellaAuditLogExport#project_id}
   */
   readonly projectId: string;
 }
 export interface DataCouchbaseCapellaAuditLogExportData {
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_export#cluster_id DataCouchbaseCapellaAuditLogExport#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_export#cluster_id DataCouchbaseCapellaAuditLogExport#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_export#organization_id DataCouchbaseCapellaAuditLogExport#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_export#organization_id DataCouchbaseCapellaAuditLogExport#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_export#project_id DataCouchbaseCapellaAuditLogExport#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_export#project_id DataCouchbaseCapellaAuditLogExport#project_id}
   */
   readonly projectId: string;
 }
@@ -232,7 +220,7 @@ export class DataCouchbaseCapellaAuditLogExportDataList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_export couchbase-capella_audit_log_export}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_export couchbase-capella_audit_log_export}
 */
 export class DataCouchbaseCapellaAuditLogExport extends cdktf.TerraformDataSource {
 
@@ -248,7 +236,7 @@ export class DataCouchbaseCapellaAuditLogExport extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataCouchbaseCapellaAuditLogExport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCouchbaseCapellaAuditLogExport to import
-  * @param importFromId The id of the existing DataCouchbaseCapellaAuditLogExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_export#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCouchbaseCapellaAuditLogExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_export#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCouchbaseCapellaAuditLogExport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +248,7 @@ export class DataCouchbaseCapellaAuditLogExport extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/audit_log_export couchbase-capella_audit_log_export} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/audit_log_export couchbase-capella_audit_log_export} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +259,8 @@ export class DataCouchbaseCapellaAuditLogExport extends cdktf.TerraformDataSourc
       terraformResourceType: 'couchbase-capella_audit_log_export',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

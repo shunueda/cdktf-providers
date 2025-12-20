@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,112 @@ export interface DosProtectionRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The action to take on rule match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#action DosProtectionRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#action DosProtectionRule#action}
   */
   readonly action?: DosProtectionRuleAction;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#description DosProtectionRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#description DosProtectionRule#description}
   */
   readonly description?: string;
   /**
   * List of destination addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#destination DosProtectionRule#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#destination DosProtectionRule#destination}
   */
   readonly destination?: string[];
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#device DosProtectionRule#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#device DosProtectionRule#device}
   */
   readonly device?: string;
   /**
   * Rule disabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#disabled DosProtectionRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#disabled DosProtectionRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#folder DosProtectionRule#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#folder DosProtectionRule#folder}
   */
   readonly folder?: string;
   /**
   * List of source zones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#from DosProtectionRule#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#from DosProtectionRule#from}
   */
   readonly from?: string[];
   /**
   * Log forwarding profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#log_setting DosProtectionRule#log_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#log_setting DosProtectionRule#log_setting}
   */
   readonly logSetting?: string;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#name DosProtectionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#name DosProtectionRule#name}
   */
   readonly name: string;
   /**
   * Position relative to local device rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#position DosProtectionRule#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#position DosProtectionRule#position}
   */
   readonly position?: string;
   /**
   * Protection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#protection DosProtectionRule#protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#protection DosProtectionRule#protection}
   */
   readonly protection?: DosProtectionRuleProtection;
   /**
   * Schedule on which to enforce the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#schedule DosProtectionRule#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#schedule DosProtectionRule#schedule}
   */
   readonly schedule?: string;
   /**
   * List of services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#service DosProtectionRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#service DosProtectionRule#service}
   */
   readonly service?: string[];
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#snippet DosProtectionRule#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#snippet DosProtectionRule#snippet}
   */
   readonly snippet?: string;
   /**
   * List of source addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#source DosProtectionRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#source DosProtectionRule#source}
   */
   readonly source?: string[];
   /**
   * List of source users and/or groups.  Reserved words include `any`, `pre-login`, `known-user`, and `unknown`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#source_user DosProtectionRule#source_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#source_user DosProtectionRule#source_user}
   */
   readonly sourceUser?: string[];
   /**
   * List of tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#tag DosProtectionRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#tag DosProtectionRule#tag}
   */
   readonly tag?: string[];
   /**
   * List of destination zones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#to DosProtectionRule#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#to DosProtectionRule#to}
   */
   readonly to?: string[];
 }
@@ -302,26 +299,23 @@ export class DosProtectionRuleActionProtectOutputReference extends cdktf.Complex
 export interface DosProtectionRuleAction {
   /**
   * Allow
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `allow`, `deny`, and `protect`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#allow DosProtectionRule#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#allow DosProtectionRule#allow}
   */
   readonly allow?: DosProtectionRuleActionAllow;
   /**
   * Deny
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `allow`, `deny`, and `protect`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#deny DosProtectionRule#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#deny DosProtectionRule#deny}
   */
   readonly deny?: DosProtectionRuleActionDeny;
   /**
   * Protect
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `allow`, `deny`, and `protect`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#protect DosProtectionRule#protect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#protect DosProtectionRule#protect}
   */
   readonly protect?: DosProtectionRuleActionProtect;
 }
@@ -475,7 +469,7 @@ export interface DosProtectionRuleProtectionAggregate {
   /**
   * Aggregate DoS protection profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#profile DosProtectionRule#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#profile DosProtectionRule#profile}
   */
   readonly profile: string;
 }
@@ -568,7 +562,7 @@ export interface DosProtectionRuleProtectionClassifiedClassificationCriteria {
   /**
   * Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#address DosProtectionRule#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#address DosProtectionRule#address}
   */
   readonly address?: string;
 }
@@ -664,13 +658,13 @@ export interface DosProtectionRuleProtectionClassified {
   /**
   * Classification criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#classification_criteria DosProtectionRule#classification_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#classification_criteria DosProtectionRule#classification_criteria}
   */
   readonly classificationCriteria?: DosProtectionRuleProtectionClassifiedClassificationCriteria;
   /**
   * Classified DoS protection profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#profile DosProtectionRule#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#profile DosProtectionRule#profile}
   */
   readonly profile: string;
 }
@@ -791,18 +785,16 @@ export class DosProtectionRuleProtectionClassifiedOutputReference extends cdktf.
 export interface DosProtectionRuleProtection {
   /**
   * Aggregate
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `aggregate` and `classified`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#aggregate DosProtectionRule#aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#aggregate DosProtectionRule#aggregate}
   */
   readonly aggregate?: DosProtectionRuleProtectionAggregate;
   /**
   * Classified
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `aggregate` and `classified`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#classified DosProtectionRule#classified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#classified DosProtectionRule#classified}
   */
   readonly classified?: DosProtectionRuleProtectionClassified;
 }
@@ -925,7 +917,7 @@ export class DosProtectionRuleProtectionOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule scm_dos_protection_rule}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule scm_dos_protection_rule}
 */
 export class DosProtectionRule extends cdktf.TerraformResource {
 
@@ -941,7 +933,7 @@ export class DosProtectionRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DosProtectionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DosProtectionRule to import
-  * @param importFromId The id of the existing DosProtectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DosProtectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DosProtectionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -953,7 +945,7 @@ export class DosProtectionRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/dos_protection_rule scm_dos_protection_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/dos_protection_rule scm_dos_protection_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -964,8 +956,8 @@ export class DosProtectionRule extends cdktf.TerraformResource {
       terraformResourceType: 'scm_dos_protection_rule',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

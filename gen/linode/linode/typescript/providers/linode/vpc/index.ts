@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/vpc
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/vpc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface VpcConfig extends cdktf.TerraformMetaArguments {
   /**
   * The user-defined description of this VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/vpc#description Vpc#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/vpc#description Vpc#description}
   */
   readonly description?: string;
   /**
   * The IPv6 configuration of this VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/vpc#ipv6 Vpc#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/vpc#ipv6 Vpc#ipv6}
   */
   readonly ipv6?: VpcIpv6[] | cdktf.IResolvable;
   /**
   * The label of the VPC. Only contains ascii letters, digits and dashes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/vpc#label Vpc#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/vpc#label Vpc#label}
   */
   readonly label: string;
   /**
   * The region of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/vpc#region Vpc#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/vpc#region Vpc#region}
   */
   readonly region: string;
 }
@@ -36,13 +36,13 @@ export interface VpcIpv6 {
   /**
   * The labeled IPv6 Inventory that the VPC Prefix should be allocated from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/vpc#allocation_class Vpc#allocation_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/vpc#allocation_class Vpc#allocation_class}
   */
   readonly allocationClass?: string;
   /**
   * The IPv6 range assigned to this VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/vpc#range Vpc#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/vpc#range Vpc#range}
   */
   readonly range?: string;
 }
@@ -192,7 +192,7 @@ export class VpcIpv6List extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/vpc linode_vpc}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/vpc linode_vpc}
 */
 export class Vpc extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class Vpc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vpc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vpc to import
-  * @param importFromId The id of the existing Vpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/vpc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/vpc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vpc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class Vpc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/vpc linode_vpc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/vpc linode_vpc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class Vpc extends cdktf.TerraformResource {
       terraformResourceType: 'linode_vpc',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_label
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_label
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface KnowledgeLabelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_label#id KnowledgeLabel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_label#id KnowledgeLabel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface KnowledgeLabelConfig extends cdktf.TerraformMetaArguments {
   /**
   * Knowledge base id of the label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_label#knowledge_base_id KnowledgeLabel#knowledge_base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_label#knowledge_base_id KnowledgeLabel#knowledge_base_id}
   */
   readonly knowledgeBaseId: string;
   /**
   * knowledge_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_label#knowledge_label KnowledgeLabel#knowledge_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_label#knowledge_label KnowledgeLabel#knowledge_label}
   */
   readonly knowledgeLabel: KnowledgeLabelKnowledgeLabel;
 }
@@ -31,13 +31,13 @@ export interface KnowledgeLabelKnowledgeLabel {
   /**
   * The color for the label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_label#color KnowledgeLabel#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_label#color KnowledgeLabel#color}
   */
   readonly color: string;
   /**
   * The name of the label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_label#name KnowledgeLabel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_label#name KnowledgeLabel#name}
   */
   readonly name: string;
 }
@@ -144,7 +144,7 @@ export class KnowledgeLabelKnowledgeLabelOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_label genesyscloud_knowledge_label}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_label genesyscloud_knowledge_label}
 */
 export class KnowledgeLabel extends cdktf.TerraformResource {
 
@@ -160,7 +160,7 @@ export class KnowledgeLabel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KnowledgeLabel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KnowledgeLabel to import
-  * @param importFromId The id of the existing KnowledgeLabel that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_label#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KnowledgeLabel that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_label#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KnowledgeLabel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class KnowledgeLabel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.72.2/docs/resources/knowledge_label genesyscloud_knowledge_label} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.73.0/docs/resources/knowledge_label genesyscloud_knowledge_label} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class KnowledgeLabel extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_knowledge_label',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.72.2',
-        providerVersionConstraint: '1.72.2'
+        providerVersion: '1.73.0',
+        providerVersionConstraint: '1.73.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

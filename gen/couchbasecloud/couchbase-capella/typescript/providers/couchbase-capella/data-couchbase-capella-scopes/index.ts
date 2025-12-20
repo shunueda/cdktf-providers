@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/scopes
+// https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/scopes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataCouchbaseCapellaScopesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The ID of the bucket. It is the URL-compatible base64 encoding of the bucket name.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/scopes#bucket_id DataCouchbaseCapellaScopes#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/scopes#bucket_id DataCouchbaseCapellaScopes#bucket_id}
   */
   readonly bucketId: string;
   /**
-  * The GUID4 ID of the cluster.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/scopes#cluster_id DataCouchbaseCapellaScopes#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/scopes#cluster_id DataCouchbaseCapellaScopes#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * The GUID4 ID of the organization.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/scopes#organization_id DataCouchbaseCapellaScopes#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/scopes#organization_id DataCouchbaseCapellaScopes#organization_id}
   */
   readonly organizationId: string;
   /**
-  * The GUID4 ID of the project.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/scopes#project_id DataCouchbaseCapellaScopes#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/scopes#project_id DataCouchbaseCapellaScopes#project_id}
   */
   readonly projectId: string;
 }
@@ -195,7 +187,7 @@ export class DataCouchbaseCapellaScopesScopesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/scopes couchbase-capella_scopes}
+* Represents a {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/scopes couchbase-capella_scopes}
 */
 export class DataCouchbaseCapellaScopes extends cdktf.TerraformDataSource {
 
@@ -211,7 +203,7 @@ export class DataCouchbaseCapellaScopes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCouchbaseCapellaScopes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCouchbaseCapellaScopes to import
-  * @param importFromId The id of the existing DataCouchbaseCapellaScopes that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/scopes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCouchbaseCapellaScopes that should be imported. Refer to the {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/scopes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCouchbaseCapellaScopes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +215,7 @@ export class DataCouchbaseCapellaScopes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.5.3/docs/data-sources/scopes couchbase-capella_scopes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/couchbasecloud/couchbase-capella/1.7.0/docs/data-sources/scopes couchbase-capella_scopes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +226,8 @@ export class DataCouchbaseCapellaScopes extends cdktf.TerraformDataSource {
       terraformResourceType: 'couchbase-capella_scopes',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3',
-        providerVersionConstraint: '1.5.3'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

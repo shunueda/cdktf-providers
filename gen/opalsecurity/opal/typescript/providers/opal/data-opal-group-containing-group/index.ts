@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_containing_group
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_containing_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface DataOpalGroupContainingGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The ID of the containing group.
+  * The groupID of the containing group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_containing_group#containing_group_id DataOpalGroupContainingGroup#containing_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_containing_group#containing_group_id DataOpalGroupContainingGroup#containing_group_id}
   */
   readonly containingGroupId: string;
   /**
   * The ID of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_containing_group#group_id DataOpalGroupContainingGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_containing_group#group_id DataOpalGroupContainingGroup#group_id}
   */
   readonly groupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_containing_group opal_group_containing_group}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_containing_group opal_group_containing_group}
 */
 export class DataOpalGroupContainingGroup extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataOpalGroupContainingGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpalGroupContainingGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpalGroupContainingGroup to import
-  * @param importFromId The id of the existing DataOpalGroupContainingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_containing_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpalGroupContainingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_containing_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpalGroupContainingGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataOpalGroupContainingGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/data-sources/group_containing_group opal_group_containing_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/data-sources/group_containing_group opal_group_containing_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataOpalGroupContainingGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_group_containing_group',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

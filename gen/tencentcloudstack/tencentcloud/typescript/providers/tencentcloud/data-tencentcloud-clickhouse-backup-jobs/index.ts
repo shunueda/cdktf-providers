@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/clickhouse_backup_jobs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/clickhouse_backup_jobs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudClickhouseBackupJobsConfig extends cdktf.Terraf
   /**
   * Begin time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/clickhouse_backup_jobs#begin_time DataTencentcloudClickhouseBackupJobs#begin_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/clickhouse_backup_jobs#begin_time DataTencentcloudClickhouseBackupJobs#begin_time}
   */
   readonly beginTime?: string;
   /**
   * End time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/clickhouse_backup_jobs#end_time DataTencentcloudClickhouseBackupJobs#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/clickhouse_backup_jobs#end_time DataTencentcloudClickhouseBackupJobs#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/clickhouse_backup_jobs#id DataTencentcloudClickhouseBackupJobs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/clickhouse_backup_jobs#id DataTencentcloudClickhouseBackupJobs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataTencentcloudClickhouseBackupJobsConfig extends cdktf.Terraf
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/clickhouse_backup_jobs#instance_id DataTencentcloudClickhouseBackupJobs#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/clickhouse_backup_jobs#instance_id DataTencentcloudClickhouseBackupJobs#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/clickhouse_backup_jobs#result_output_file DataTencentcloudClickhouseBackupJobs#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/clickhouse_backup_jobs#result_output_file DataTencentcloudClickhouseBackupJobs#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -146,7 +146,7 @@ export class DataTencentcloudClickhouseBackupJobsBackUpJobsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/clickhouse_backup_jobs tencentcloud_clickhouse_backup_jobs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/clickhouse_backup_jobs tencentcloud_clickhouse_backup_jobs}
 */
 export class DataTencentcloudClickhouseBackupJobs extends cdktf.TerraformDataSource {
 
@@ -162,7 +162,7 @@ export class DataTencentcloudClickhouseBackupJobs extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudClickhouseBackupJobs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudClickhouseBackupJobs to import
-  * @param importFromId The id of the existing DataTencentcloudClickhouseBackupJobs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/clickhouse_backup_jobs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudClickhouseBackupJobs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/clickhouse_backup_jobs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudClickhouseBackupJobs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +174,7 @@ export class DataTencentcloudClickhouseBackupJobs extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/clickhouse_backup_jobs tencentcloud_clickhouse_backup_jobs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/data-sources/clickhouse_backup_jobs tencentcloud_clickhouse_backup_jobs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +185,8 @@ export class DataTencentcloudClickhouseBackupJobs extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_clickhouse_backup_jobs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

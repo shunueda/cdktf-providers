@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/traffic_steering_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,9 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DataScmTrafficSteeringRuleConfig extends cdktf.TerraformMetaArguments {
   /**
+  * The folder containing the traffic steering rule
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/traffic_steering_rule#folder DataScmTrafficSteeringRule#folder}
+  */
+  readonly folder?: string;
+  /**
   * The UUID of the traffic steering rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule#id DataScmTrafficSteeringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/traffic_steering_rule#id DataScmTrafficSteeringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +25,7 @@ export interface DataScmTrafficSteeringRuleConfig extends cdktf.TerraformMetaArg
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule#name DataScmTrafficSteeringRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/traffic_steering_rule#name DataScmTrafficSteeringRule#name}
   */
   readonly name?: string;
 }
@@ -244,7 +250,7 @@ export class DataScmTrafficSteeringRuleActionOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule scm_traffic_steering_rule}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/traffic_steering_rule scm_traffic_steering_rule}
 */
 export class DataScmTrafficSteeringRule extends cdktf.TerraformDataSource {
 
@@ -260,7 +266,7 @@ export class DataScmTrafficSteeringRule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmTrafficSteeringRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmTrafficSteeringRule to import
-  * @param importFromId The id of the existing DataScmTrafficSteeringRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmTrafficSteeringRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/traffic_steering_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmTrafficSteeringRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -272,7 +278,7 @@ export class DataScmTrafficSteeringRule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/traffic_steering_rule scm_traffic_steering_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/traffic_steering_rule scm_traffic_steering_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -283,8 +289,8 @@ export class DataScmTrafficSteeringRule extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_traffic_steering_rule',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -294,6 +300,7 @@ export class DataScmTrafficSteeringRule extends cdktf.TerraformDataSource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._folder = config.folder;
     this._id = config.id;
     this._name = config.name;
   }
@@ -318,9 +325,20 @@ export class DataScmTrafficSteeringRule extends cdktf.TerraformDataSource {
     return this.getListAttribute('destination');
   }
 
-  // folder - computed: true, optional: false, required: false
+  // folder - computed: true, optional: true, required: false
+  private _folder?: string; 
   public get folder() {
     return this.getStringAttribute('folder');
+  }
+  public set folder(value: string) {
+    this._folder = value;
+  }
+  public resetFolder() {
+    this._folder = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get folderInput() {
+    return this._folder;
   }
 
   // id - computed: false, optional: false, required: true
@@ -378,6 +396,7 @@ export class DataScmTrafficSteeringRule extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      folder: cdktf.stringToTerraform(this._folder),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
     };
@@ -385,6 +404,12 @@ export class DataScmTrafficSteeringRule extends cdktf.TerraformDataSource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      folder: {
+        value: cdktf.stringToHclTerraform(this._folder),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/placement_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PlacementGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The label of the Placement Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group#label PlacementGroup#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/placement_group#label PlacementGroup#label}
   */
   readonly label: string;
   /**
   * Whether this Placement Group has a strict compliance policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group#placement_group_policy PlacementGroup#placement_group_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/placement_group#placement_group_policy PlacementGroup#placement_group_policy}
   */
   readonly placementGroupPolicy?: string;
   /**
   * The placement group type for Linodes in this Placement Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group#placement_group_type PlacementGroup#placement_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/placement_group#placement_group_type PlacementGroup#placement_group_type}
   */
   readonly placementGroupType: string;
   /**
   * The region of the Placement Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group#region PlacementGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/placement_group#region PlacementGroup#region}
   */
   readonly region: string;
 }
@@ -114,7 +114,7 @@ export class PlacementGroupMembersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group linode_placement_group}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/placement_group linode_placement_group}
 */
 export class PlacementGroup extends cdktf.TerraformResource {
 
@@ -130,7 +130,7 @@ export class PlacementGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlacementGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlacementGroup to import
-  * @param importFromId The id of the existing PlacementGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlacementGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/placement_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlacementGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class PlacementGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/resources/placement_group linode_placement_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/resources/placement_group linode_placement_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class PlacementGroup extends cdktf.TerraformResource {
       terraformResourceType: 'linode_placement_group',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

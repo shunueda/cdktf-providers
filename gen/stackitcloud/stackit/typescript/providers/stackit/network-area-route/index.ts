@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_route
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface NetworkAreaRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Destination of the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_route#destination NetworkAreaRoute#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_route#destination NetworkAreaRoute#destination}
   */
   readonly destination: NetworkAreaRouteDestination;
   /**
   * Labels are key-value string pairs which can be attached to a resource container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_route#labels NetworkAreaRoute#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_route#labels NetworkAreaRoute#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The network area ID to which the network area route is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_route#network_area_id NetworkAreaRoute#network_area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_route#network_area_id NetworkAreaRoute#network_area_id}
   */
   readonly networkAreaId: string;
   /**
   * Next hop destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_route#next_hop NetworkAreaRoute#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_route#next_hop NetworkAreaRoute#next_hop}
   */
   readonly nextHop: NetworkAreaRouteNextHop;
   /**
   * STACKIT organization ID to which the network area is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_route#organization_id NetworkAreaRoute#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_route#organization_id NetworkAreaRoute#organization_id}
   */
   readonly organizationId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_route#region NetworkAreaRoute#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_route#region NetworkAreaRoute#region}
   */
   readonly region?: string;
 }
@@ -48,13 +48,13 @@ export interface NetworkAreaRouteDestination {
   /**
   * CIDRV type. Possible values are: `cidrv4`, `cidrv6`. Only `cidrv4` is supported currently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_route#type NetworkAreaRoute#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_route#type NetworkAreaRoute#type}
   */
   readonly type: string;
   /**
   * An CIDR string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_route#value NetworkAreaRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_route#value NetworkAreaRoute#value}
   */
   readonly value: string;
 }
@@ -173,13 +173,13 @@ export interface NetworkAreaRouteNextHop {
   /**
   * Type of the next hop. Possible values are: `blackhole`, `internet`, `ipv4`, `ipv6`. Only `ipv4` supported currently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_route#type NetworkAreaRoute#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_route#type NetworkAreaRoute#type}
   */
   readonly type: string;
   /**
   * Either IPv4 or IPv6 (not set for blackhole and internet). Only IPv4 supported currently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_route#value NetworkAreaRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_route#value NetworkAreaRoute#value}
   */
   readonly value?: string;
 }
@@ -299,7 +299,7 @@ export class NetworkAreaRouteNextHopOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_route stackit_network_area_route}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_route stackit_network_area_route}
 */
 export class NetworkAreaRoute extends cdktf.TerraformResource {
 
@@ -315,7 +315,7 @@ export class NetworkAreaRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkAreaRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkAreaRoute to import
-  * @param importFromId The id of the existing NetworkAreaRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkAreaRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkAreaRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -327,7 +327,7 @@ export class NetworkAreaRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_area_route stackit_network_area_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.76.0/docs/resources/network_area_route stackit_network_area_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -338,8 +338,8 @@ export class NetworkAreaRoute extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_network_area_route',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.75.0',
-        providerVersionConstraint: '0.75.0'
+        providerVersion: '0.76.0',
+        providerVersionConstraint: '0.76.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

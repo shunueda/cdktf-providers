@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ClsCosRechargeConfig extends cdktf.TerraformMetaArguments {
   /**
   * cos bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#bucket ClsCosRecharge#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#bucket ClsCosRecharge#bucket}
   */
   readonly bucket: string;
   /**
   * cos bucket region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#bucket_region ClsCosRecharge#bucket_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#bucket_region ClsCosRecharge#bucket_region}
   */
   readonly bucketRegion: string;
   /**
   * supported gzip, lzop, snappy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#compress ClsCosRecharge#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#compress ClsCosRecharge#compress}
   */
   readonly compress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#id ClsCosRecharge#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#id ClsCosRecharge#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface ClsCosRechargeConfig extends cdktf.TerraformMetaArguments {
   /**
   * log type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#log_type ClsCosRecharge#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#log_type ClsCosRecharge#log_type}
   */
   readonly logType: string;
   /**
   * logset id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#logset_id ClsCosRecharge#logset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#logset_id ClsCosRecharge#logset_id}
   */
   readonly logsetId: string;
   /**
   * recharge name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#name ClsCosRecharge#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#name ClsCosRecharge#name}
   */
   readonly name: string;
   /**
   * cos file prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#prefix ClsCosRecharge#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#prefix ClsCosRecharge#prefix}
   */
   readonly prefix: string;
   /**
   * topic id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#topic_id ClsCosRecharge#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#topic_id ClsCosRecharge#topic_id}
   */
   readonly topicId: string;
   /**
   * extract_rule_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#extract_rule_info ClsCosRecharge#extract_rule_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#extract_rule_info ClsCosRecharge#extract_rule_info}
   */
   readonly extractRuleInfo?: ClsCosRechargeExtractRuleInfo;
 }
@@ -73,13 +73,13 @@ export interface ClsCosRechargeExtractRuleInfoFilterKeyRegex {
   /**
   * need filter log key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#key ClsCosRecharge#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#key ClsCosRecharge#key}
   */
   readonly key: string;
   /**
   * need filter log regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#regex ClsCosRecharge#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#regex ClsCosRecharge#regex}
   */
   readonly regex: string;
 }
@@ -220,13 +220,13 @@ export interface ClsCosRechargeExtractRuleInfoMetaTags {
   /**
   * metadata key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#key ClsCosRecharge#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#key ClsCosRecharge#key}
   */
   readonly key?: string;
   /**
   * metadata value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#value ClsCosRecharge#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#value ClsCosRecharge#value}
   */
   readonly value?: string;
 }
@@ -373,109 +373,109 @@ export interface ClsCosRechargeExtractRuleInfo {
   /**
   * syslog address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#address ClsCosRecharge#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#address ClsCosRecharge#address}
   */
   readonly address?: string;
   /**
   * backtracking data volume in incremental acquisition mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#backtracking ClsCosRecharge#backtracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#backtracking ClsCosRecharge#backtracking}
   */
   readonly backtracking?: number;
   /**
   * begin line regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#begin_regex ClsCosRecharge#begin_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#begin_regex ClsCosRecharge#begin_regex}
   */
   readonly beginRegex?: string;
   /**
   * log delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#delimiter ClsCosRecharge#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#delimiter ClsCosRecharge#delimiter}
   */
   readonly delimiter?: string;
   /**
   * gbk encoding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#is_gbk ClsCosRecharge#is_gbk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#is_gbk ClsCosRecharge#is_gbk}
   */
   readonly isGbk?: number;
   /**
   * is standard json.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#json_standard ClsCosRecharge#json_standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#json_standard ClsCosRecharge#json_standard}
   */
   readonly jsonStandard?: number;
   /**
   * key list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#keys ClsCosRecharge#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#keys ClsCosRecharge#keys}
   */
   readonly keys?: string[];
   /**
   * log regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#log_regex ClsCosRecharge#log_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#log_regex ClsCosRecharge#log_regex}
   */
   readonly logRegex?: string;
   /**
   * metadata type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#metadata_type ClsCosRecharge#metadata_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#metadata_type ClsCosRecharge#metadata_type}
   */
   readonly metadataType?: number;
   /**
   * parse protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#parse_protocol ClsCosRecharge#parse_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#parse_protocol ClsCosRecharge#parse_protocol}
   */
   readonly parseProtocol?: string;
   /**
   * metadata path regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#path_regex ClsCosRecharge#path_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#path_regex ClsCosRecharge#path_regex}
   */
   readonly pathRegex?: string;
   /**
   * syslog protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#protocol ClsCosRecharge#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#protocol ClsCosRecharge#protocol}
   */
   readonly protocol?: string;
   /**
   * time format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#time_format ClsCosRecharge#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#time_format ClsCosRecharge#time_format}
   */
   readonly timeFormat?: string;
   /**
   * time key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#time_key ClsCosRecharge#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#time_key ClsCosRecharge#time_key}
   */
   readonly timeKey?: string;
   /**
   * parsing failure log key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#un_match_log_key ClsCosRecharge#un_match_log_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#un_match_log_key ClsCosRecharge#un_match_log_key}
   */
   readonly unMatchLogKey?: string;
   /**
   * whether to upload the parsing failure log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#un_match_up_load_switch ClsCosRecharge#un_match_up_load_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#un_match_up_load_switch ClsCosRecharge#un_match_up_load_switch}
   */
   readonly unMatchUpLoadSwitch?: boolean | cdktf.IResolvable;
   /**
   * filter_key_regex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#filter_key_regex ClsCosRecharge#filter_key_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#filter_key_regex ClsCosRecharge#filter_key_regex}
   */
   readonly filterKeyRegex?: ClsCosRechargeExtractRuleInfoFilterKeyRegex[] | cdktf.IResolvable;
   /**
   * meta_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#meta_tags ClsCosRecharge#meta_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#meta_tags ClsCosRecharge#meta_tags}
   */
   readonly metaTags?: ClsCosRechargeExtractRuleInfoMetaTags[] | cdktf.IResolvable;
 }
@@ -1052,7 +1052,7 @@ export class ClsCosRechargeExtractRuleInfoOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge tencentcloud_cls_cos_recharge}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge tencentcloud_cls_cos_recharge}
 */
 export class ClsCosRecharge extends cdktf.TerraformResource {
 
@@ -1068,7 +1068,7 @@ export class ClsCosRecharge extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClsCosRecharge resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClsCosRecharge to import
-  * @param importFromId The id of the existing ClsCosRecharge that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClsCosRecharge that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClsCosRecharge to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1080,7 +1080,7 @@ export class ClsCosRecharge extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cls_cos_recharge tencentcloud_cls_cos_recharge} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/cls_cos_recharge tencentcloud_cls_cos_recharge} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1091,8 +1091,8 @@ export class ClsCosRecharge extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cls_cos_recharge',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

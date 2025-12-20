@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_visibility_exclusion
+// https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/sensor_visibility_exclusion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SensorVisibilityExclusionConfig extends cdktf.TerraformMetaArgu
   /**
   * Whether to apply the exclusion globally to all host groups. Cannot be used together with `host_groups`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_visibility_exclusion#apply_globally SensorVisibilityExclusion#apply_globally}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/sensor_visibility_exclusion#apply_globally SensorVisibilityExclusion#apply_globally}
   */
   readonly applyGlobally?: boolean | cdktf.IResolvable;
   /**
   * Whether to apply the exclusion to all descendant processes spawned from the specified path. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_visibility_exclusion#apply_to_descendant_processes SensorVisibilityExclusion#apply_to_descendant_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/sensor_visibility_exclusion#apply_to_descendant_processes SensorVisibilityExclusion#apply_to_descendant_processes}
   */
   readonly applyToDescendantProcesses?: boolean | cdktf.IResolvable;
   /**
   * A set of host group IDs to apply this exclusion to. Cannot be used together with `apply_globally`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_visibility_exclusion#host_groups SensorVisibilityExclusion#host_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/sensor_visibility_exclusion#host_groups SensorVisibilityExclusion#host_groups}
   */
   readonly hostGroups?: string[];
   /**
   * The file path or pattern to exclude from sensor visibility. Use wildcards (*) for pattern matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_visibility_exclusion#value SensorVisibilityExclusion#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/sensor_visibility_exclusion#value SensorVisibilityExclusion#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_visibility_exclusion crowdstrike_sensor_visibility_exclusion}
+* Represents a {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/sensor_visibility_exclusion crowdstrike_sensor_visibility_exclusion}
 */
 export class SensorVisibilityExclusion extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class SensorVisibilityExclusion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SensorVisibilityExclusion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SensorVisibilityExclusion to import
-  * @param importFromId The id of the existing SensorVisibilityExclusion that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_visibility_exclusion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SensorVisibilityExclusion that should be imported. Refer to the {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/sensor_visibility_exclusion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SensorVisibilityExclusion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class SensorVisibilityExclusion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.52/docs/resources/sensor_visibility_exclusion crowdstrike_sensor_visibility_exclusion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/crowdstrike/crowdstrike/0.0.53/docs/resources/sensor_visibility_exclusion crowdstrike_sensor_visibility_exclusion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class SensorVisibilityExclusion extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_sensor_visibility_exclusion',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.52',
-        providerVersionConstraint: '0.0.52'
+        providerVersion: '0.0.53',
+        providerVersionConstraint: '0.0.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

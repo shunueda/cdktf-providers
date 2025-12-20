@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AntiddosCcPrecisionPolicyConfig extends cdktf.TerraformMetaArgu
   /**
   * domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy#domain AntiddosCcPrecisionPolicy#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy#domain AntiddosCcPrecisionPolicy#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy#id AntiddosCcPrecisionPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy#id AntiddosCcPrecisionPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface AntiddosCcPrecisionPolicyConfig extends cdktf.TerraformMetaArgu
   /**
   * Instance Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy#instance_id AntiddosCcPrecisionPolicy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy#instance_id AntiddosCcPrecisionPolicy#instance_id}
   */
   readonly instanceId: string;
   /**
   * Ip value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy#ip AntiddosCcPrecisionPolicy#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy#ip AntiddosCcPrecisionPolicy#ip}
   */
   readonly ip: string;
   /**
   * policy type, alg or drop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy#policy_action AntiddosCcPrecisionPolicy#policy_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy#policy_action AntiddosCcPrecisionPolicy#policy_action}
   */
   readonly policyAction: string;
   /**
   * protocol http or https.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy#protocol AntiddosCcPrecisionPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy#protocol AntiddosCcPrecisionPolicy#protocol}
   */
   readonly protocol: string;
   /**
   * policy_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy#policy_list AntiddosCcPrecisionPolicy#policy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy#policy_list AntiddosCcPrecisionPolicy#policy_list}
   */
   readonly policyList: AntiddosCcPrecisionPolicyPolicyListStruct[] | cdktf.IResolvable;
 }
@@ -55,25 +55,25 @@ export interface AntiddosCcPrecisionPolicyPolicyListStruct {
   /**
   * Configuration fields can take values of cgi, ua, cookie, referer, accept, srcip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy#field_name AntiddosCcPrecisionPolicy#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy#field_name AntiddosCcPrecisionPolicy#field_name}
   */
   readonly fieldName: string;
   /**
   * field type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy#field_type AntiddosCcPrecisionPolicy#field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy#field_type AntiddosCcPrecisionPolicy#field_type}
   */
   readonly fieldType: string;
   /**
   * value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy#value AntiddosCcPrecisionPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy#value AntiddosCcPrecisionPolicy#value}
   */
   readonly value: string;
   /**
   * Configuration item value comparison method, can take values of equal, not_ Equal, include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy#value_operator AntiddosCcPrecisionPolicy#value_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy#value_operator AntiddosCcPrecisionPolicy#value_operator}
   */
   readonly valueOperator: string;
 }
@@ -264,7 +264,7 @@ export class AntiddosCcPrecisionPolicyPolicyListStructList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy tencentcloud_antiddos_cc_precision_policy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy tencentcloud_antiddos_cc_precision_policy}
 */
 export class AntiddosCcPrecisionPolicy extends cdktf.TerraformResource {
 
@@ -280,7 +280,7 @@ export class AntiddosCcPrecisionPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AntiddosCcPrecisionPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AntiddosCcPrecisionPolicy to import
-  * @param importFromId The id of the existing AntiddosCcPrecisionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AntiddosCcPrecisionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AntiddosCcPrecisionPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -292,7 +292,7 @@ export class AntiddosCcPrecisionPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/antiddos_cc_precision_policy tencentcloud_antiddos_cc_precision_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/antiddos_cc_precision_policy tencentcloud_antiddos_cc_precision_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,8 +303,8 @@ export class AntiddosCcPrecisionPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_antiddos_cc_precision_policy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.46',
-        providerVersionConstraint: '1.82.46'
+        providerVersion: '1.82.47',
+        providerVersionConstraint: '1.82.47'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

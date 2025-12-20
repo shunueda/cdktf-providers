@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/producer_image_share_group_member
+// https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/producer_image_share_group_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataLinodeProducerImageShareGroupMemberConfig extends cdktf.Ter
   /**
   * The ID of the Image Share Group the member belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/producer_image_share_group_member#sharegroup_id DataLinodeProducerImageShareGroupMember#sharegroup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/producer_image_share_group_member#sharegroup_id DataLinodeProducerImageShareGroupMember#sharegroup_id}
   */
   readonly sharegroupId: number;
   /**
   * The UUID of member's token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/producer_image_share_group_member#token_uuid DataLinodeProducerImageShareGroupMember#token_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/producer_image_share_group_member#token_uuid DataLinodeProducerImageShareGroupMember#token_uuid}
   */
   readonly tokenUuid: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/producer_image_share_group_member linode_producer_image_share_group_member}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/producer_image_share_group_member linode_producer_image_share_group_member}
 */
 export class DataLinodeProducerImageShareGroupMember extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataLinodeProducerImageShareGroupMember extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataLinodeProducerImageShareGroupMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeProducerImageShareGroupMember to import
-  * @param importFromId The id of the existing DataLinodeProducerImageShareGroupMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/producer_image_share_group_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeProducerImageShareGroupMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/producer_image_share_group_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeProducerImageShareGroupMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataLinodeProducerImageShareGroupMember extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.6.0/docs/data-sources/producer_image_share_group_member linode_producer_image_share_group_member} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.7.0/docs/data-sources/producer_image_share_group_member linode_producer_image_share_group_member} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataLinodeProducerImageShareGroupMember extends cdktf.TerraformData
       terraformResourceType: 'linode_producer_image_share_group_member',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.6.0',
-        providerVersionConstraint: '3.6.0'
+        providerVersion: '3.7.0',
+        providerVersionConstraint: '3.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

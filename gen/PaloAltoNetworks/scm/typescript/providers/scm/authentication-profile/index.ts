@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,70 @@ export interface AuthenticationProfileConfig extends cdktf.TerraformMetaArgument
   /**
   * The allow_list of the authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#allow_list AuthenticationProfile#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#allow_list AuthenticationProfile#allow_list}
   */
   readonly allowList?: string[];
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#device AuthenticationProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#device AuthenticationProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#folder AuthenticationProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#folder AuthenticationProfile#folder}
   */
   readonly folder?: string;
   /**
   * Lockout object of the authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#lockout AuthenticationProfile#lockout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#lockout AuthenticationProfile#lockout}
   */
   readonly lockout?: AuthenticationProfileLockout;
   /**
   * method object of authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#method AuthenticationProfile#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#method AuthenticationProfile#method}
   */
   readonly method?: AuthenticationProfileMethod;
   /**
   * Multi factor auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#multi_factor_auth AuthenticationProfile#multi_factor_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#multi_factor_auth AuthenticationProfile#multi_factor_auth}
   */
   readonly multiFactorAuth?: AuthenticationProfileMultiFactorAuth;
   /**
   * The name of the authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#name AuthenticationProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#name AuthenticationProfile#name}
   */
   readonly name: string;
   /**
   * Single sign on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#single_sign_on AuthenticationProfile#single_sign_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#single_sign_on AuthenticationProfile#single_sign_on}
   */
   readonly singleSignOn?: AuthenticationProfileSingleSignOn;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#snippet AuthenticationProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#snippet AuthenticationProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * User domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#user_domain AuthenticationProfile#user_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#user_domain AuthenticationProfile#user_domain}
   */
   readonly userDomain?: string;
   /**
   * Username modifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#username_modifier AuthenticationProfile#username_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#username_modifier AuthenticationProfile#username_modifier}
   */
   readonly usernameModifier?: string;
 }
@@ -84,13 +81,13 @@ export interface AuthenticationProfileLockout {
   /**
   * Lockout object - failed_attempts of authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#failed_attempts AuthenticationProfile#failed_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#failed_attempts AuthenticationProfile#failed_attempts}
   */
   readonly failedAttempts?: number;
   /**
   * Lockout object - lockout-time of authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#lockout_time AuthenticationProfile#lockout_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#lockout_time AuthenticationProfile#lockout_time}
   */
   readonly lockoutTime?: number;
 }
@@ -215,7 +212,7 @@ export interface AuthenticationProfileMethodCloud {
   /**
   * The tenant profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#profile_name AuthenticationProfile#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#profile_name AuthenticationProfile#profile_name}
   */
   readonly profileName?: string;
 }
@@ -311,13 +308,13 @@ export interface AuthenticationProfileMethodKerberos {
   /**
   * method kerberos object realm of authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#realm AuthenticationProfile#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#realm AuthenticationProfile#realm}
   */
   readonly realm?: string;
   /**
   * method kerberos object server profile of authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#server_profile AuthenticationProfile#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#server_profile AuthenticationProfile#server_profile}
   */
   readonly serverProfile?: string;
 }
@@ -442,19 +439,19 @@ export interface AuthenticationProfileMethodLdap {
   /**
   * Login attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#login_attribute AuthenticationProfile#login_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#login_attribute AuthenticationProfile#login_attribute}
   */
   readonly loginAttribute?: string;
   /**
   * Passwd exp days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#passwd_exp_days AuthenticationProfile#passwd_exp_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#passwd_exp_days AuthenticationProfile#passwd_exp_days}
   */
   readonly passwdExpDays?: number;
   /**
   * Server profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#server_profile AuthenticationProfile#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#server_profile AuthenticationProfile#server_profile}
   */
   readonly serverProfile?: string;
 }
@@ -667,13 +664,13 @@ export interface AuthenticationProfileMethodRadius {
   /**
   * method radius object check group of authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#checkgroup AuthenticationProfile#checkgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#checkgroup AuthenticationProfile#checkgroup}
   */
   readonly checkgroup?: boolean | cdktf.IResolvable;
   /**
   * method radius object server profile of authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#server_profile AuthenticationProfile#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#server_profile AuthenticationProfile#server_profile}
   */
   readonly serverProfile?: string;
 }
@@ -798,37 +795,37 @@ export interface AuthenticationProfileMethodSamlIdp {
   /**
   * Attribute name usergroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#attribute_name_usergroup AuthenticationProfile#attribute_name_usergroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#attribute_name_usergroup AuthenticationProfile#attribute_name_usergroup}
   */
   readonly attributeNameUsergroup?: string;
   /**
   * Attribute name username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#attribute_name_username AuthenticationProfile#attribute_name_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#attribute_name_username AuthenticationProfile#attribute_name_username}
   */
   readonly attributeNameUsername?: string;
   /**
   * method object saml idp certificate profile of authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#certificate_profile AuthenticationProfile#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#certificate_profile AuthenticationProfile#certificate_profile}
   */
   readonly certificateProfile?: string;
   /**
   * Enable single logout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#enable_single_logout AuthenticationProfile#enable_single_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#enable_single_logout AuthenticationProfile#enable_single_logout}
   */
   readonly enableSingleLogout?: boolean | cdktf.IResolvable;
   /**
   * Request signing certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#request_signing_certificate AuthenticationProfile#request_signing_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#request_signing_certificate AuthenticationProfile#request_signing_certificate}
   */
   readonly requestSigningCertificate?: string;
   /**
   * method object saml idp server profile of authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#server_profile AuthenticationProfile#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#server_profile AuthenticationProfile#server_profile}
   */
   readonly serverProfile?: string;
 }
@@ -1069,13 +1066,13 @@ export interface AuthenticationProfileMethodTacplus {
   /**
   * method tacplus object check group of authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#checkgroup AuthenticationProfile#checkgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#checkgroup AuthenticationProfile#checkgroup}
   */
   readonly checkgroup?: boolean | cdktf.IResolvable;
   /**
   * method tacplus object check group of authentication profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#server_profile AuthenticationProfile#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#server_profile AuthenticationProfile#server_profile}
   */
   readonly serverProfile?: string;
 }
@@ -1199,58 +1196,51 @@ export class AuthenticationProfileMethodTacplusOutputReference extends cdktf.Com
 export interface AuthenticationProfileMethod {
   /**
   * Cloud
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `cloud`, `kerberos`, `ldap`, `local_database`, `radius`, `saml_idp`, and `tacplus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#cloud AuthenticationProfile#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#cloud AuthenticationProfile#cloud}
   */
   readonly cloud?: AuthenticationProfileMethodCloud;
   /**
   * Kerberos
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `cloud`, `kerberos`, `ldap`, `local_database`, `radius`, `saml_idp`, and `tacplus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#kerberos AuthenticationProfile#kerberos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#kerberos AuthenticationProfile#kerberos}
   */
   readonly kerberos?: AuthenticationProfileMethodKerberos;
   /**
   * Ldap
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `cloud`, `kerberos`, `ldap`, `local_database`, `radius`, `saml_idp`, and `tacplus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#ldap AuthenticationProfile#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#ldap AuthenticationProfile#ldap}
   */
   readonly ldap?: AuthenticationProfileMethodLdap;
   /**
   * Local database
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `cloud`, `kerberos`, `ldap`, `local_database`, `radius`, `saml_idp`, and `tacplus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#local_database AuthenticationProfile#local_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#local_database AuthenticationProfile#local_database}
   */
   readonly localDatabase?: AuthenticationProfileMethodLocalDatabase;
   /**
   * Radius
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `cloud`, `kerberos`, `ldap`, `local_database`, `radius`, `saml_idp`, and `tacplus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#radius AuthenticationProfile#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#radius AuthenticationProfile#radius}
   */
   readonly radius?: AuthenticationProfileMethodRadius;
   /**
   * Saml idp
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `cloud`, `kerberos`, `ldap`, `local_database`, `radius`, `saml_idp`, and `tacplus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#saml_idp AuthenticationProfile#saml_idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#saml_idp AuthenticationProfile#saml_idp}
   */
   readonly samlIdp?: AuthenticationProfileMethodSamlIdp;
   /**
   * Tacplus
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `cloud`, `kerberos`, `ldap`, `local_database`, `radius`, `saml_idp`, and `tacplus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#tacplus AuthenticationProfile#tacplus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#tacplus AuthenticationProfile#tacplus}
   */
   readonly tacplus?: AuthenticationProfileMethodTacplus;
 }
@@ -1520,13 +1510,13 @@ export interface AuthenticationProfileMultiFactorAuth {
   /**
   * Factors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#factors AuthenticationProfile#factors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#factors AuthenticationProfile#factors}
   */
   readonly factors?: string[];
   /**
   * Mfa enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#mfa_enable AuthenticationProfile#mfa_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#mfa_enable AuthenticationProfile#mfa_enable}
   */
   readonly mfaEnable?: boolean | cdktf.IResolvable;
 }
@@ -1651,13 +1641,13 @@ export interface AuthenticationProfileSingleSignOn {
   /**
   * Kerberos keytab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#kerberos_keytab AuthenticationProfile#kerberos_keytab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#kerberos_keytab AuthenticationProfile#kerberos_keytab}
   */
   readonly kerberosKeytab?: string;
   /**
   * Realm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#realm AuthenticationProfile#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#realm AuthenticationProfile#realm}
   */
   readonly realm?: string;
 }
@@ -1780,7 +1770,7 @@ export class AuthenticationProfileSingleSignOnOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile scm_authentication_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile scm_authentication_profile}
 */
 export class AuthenticationProfile extends cdktf.TerraformResource {
 
@@ -1796,7 +1786,7 @@ export class AuthenticationProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthenticationProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthenticationProfile to import
-  * @param importFromId The id of the existing AuthenticationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthenticationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthenticationProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1808,7 +1798,7 @@ export class AuthenticationProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/authentication_profile scm_authentication_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/authentication_profile scm_authentication_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1819,8 +1809,8 @@ export class AuthenticationProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_authentication_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

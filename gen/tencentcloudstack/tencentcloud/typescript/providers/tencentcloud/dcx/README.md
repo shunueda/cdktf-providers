@@ -1,3 +1,3 @@
 # `tencentcloud_dcx`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_dcx`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dcx).
+Refer to the Terraform Registry for docs: [`tencentcloud_dcx`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.47/docs/resources/dcx).

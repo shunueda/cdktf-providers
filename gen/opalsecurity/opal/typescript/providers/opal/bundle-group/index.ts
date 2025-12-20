@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/bundle_group
+// https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/bundle_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface BundleGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the access level to grant to this user. If omitted, the default access level name value (empty string) is used. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/bundle_group#access_level_name BundleGroup#access_level_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/bundle_group#access_level_name BundleGroup#access_level_name}
   */
   readonly accessLevelName?: string;
   /**
   * The remote ID of the access level to grant to this user. Required if the group being added requires an access level. If omitted, the default access level remote ID value (empty string) is used. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/bundle_group#access_level_remote_id BundleGroup#access_level_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/bundle_group#access_level_remote_id BundleGroup#access_level_remote_id}
   */
   readonly accessLevelRemoteId?: string;
   /**
   * The ID of the bundle. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/bundle_group#bundle_id BundleGroup#bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/bundle_group#bundle_id BundleGroup#bundle_id}
   */
   readonly bundleId: string;
   /**
   * The ID of the group to add. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/bundle_group#group_id BundleGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/bundle_group#group_id BundleGroup#group_id}
   */
   readonly groupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/bundle_group opal_bundle_group}
+* Represents a {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/bundle_group opal_bundle_group}
 */
 export class BundleGroup extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class BundleGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BundleGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BundleGroup to import
-  * @param importFromId The id of the existing BundleGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/bundle_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BundleGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/bundle_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BundleGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class BundleGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.3.3/docs/resources/bundle_group opal_bundle_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opalsecurity/opal/3.4.0/docs/resources/bundle_group opal_bundle_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class BundleGroup extends cdktf.TerraformResource {
       terraformResourceType: 'opal_bundle_group',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3',
-        providerVersionConstraint: '3.3.3'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,40 @@ export interface LogForwardingProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * Log forwarding profile description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile#description LogForwardingProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile#description LogForwardingProfile#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile#device LogForwardingProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile#device LogForwardingProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile#folder LogForwardingProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile#folder LogForwardingProfile#folder}
   */
   readonly folder?: string;
   /**
   * Match list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile#match_list LogForwardingProfile#match_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile#match_list LogForwardingProfile#match_list}
   */
   readonly matchList?: LogForwardingProfileMatchListStruct[] | cdktf.IResolvable;
   /**
   * The name of the log forwarding profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile#name LogForwardingProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile#name LogForwardingProfile#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
-  * 
   * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile#snippet LogForwardingProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile#snippet LogForwardingProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -54,37 +51,37 @@ export interface LogForwardingProfileMatchListStruct {
   /**
   * Match profile description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile#action_desc LogForwardingProfile#action_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile#action_desc LogForwardingProfile#action_desc}
   */
   readonly actionDesc?: string;
   /**
   * Filter match criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile#filter LogForwardingProfile#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile#filter LogForwardingProfile#filter}
   */
   readonly filter?: string;
   /**
   * Log type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile#log_type LogForwardingProfile#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile#log_type LogForwardingProfile#log_type}
   */
   readonly logType?: string;
   /**
   * Name of the match profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile#name LogForwardingProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile#name LogForwardingProfile#name}
   */
   readonly name?: string;
   /**
   * A list of HTTP server profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile#send_http LogForwardingProfile#send_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile#send_http LogForwardingProfile#send_http}
   */
   readonly sendHttp?: string[];
   /**
   * A list of syslog server profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile#send_syslog LogForwardingProfile#send_syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile#send_syslog LogForwardingProfile#send_syslog}
   */
   readonly sendSyslog?: string[];
 }
@@ -345,7 +342,7 @@ export class LogForwardingProfileMatchListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile scm_log_forwarding_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile scm_log_forwarding_profile}
 */
 export class LogForwardingProfile extends cdktf.TerraformResource {
 
@@ -361,7 +358,7 @@ export class LogForwardingProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogForwardingProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogForwardingProfile to import
-  * @param importFromId The id of the existing LogForwardingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogForwardingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogForwardingProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -373,7 +370,7 @@ export class LogForwardingProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/resources/log_forwarding_profile scm_log_forwarding_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/resources/log_forwarding_profile scm_log_forwarding_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -384,8 +381,8 @@ export class LogForwardingProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_log_forwarding_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

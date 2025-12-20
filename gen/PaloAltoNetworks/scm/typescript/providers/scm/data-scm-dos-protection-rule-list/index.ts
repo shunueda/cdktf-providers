@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/dos_protection_rule_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataScmDosProtectionRuleListConfig extends cdktf.TerraformMetaA
   /**
   * The device of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/dos_protection_rule_list#device DataScmDosProtectionRuleList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list#device DataScmDosProtectionRuleList#device}
   */
   readonly device?: string;
   /**
   * The folder of the item. Default: Shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/dos_protection_rule_list#folder DataScmDosProtectionRuleList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list#folder DataScmDosProtectionRuleList#folder}
   */
   readonly folder?: string;
   /**
   * The max number of items to return. Default: 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/dos_protection_rule_list#limit DataScmDosProtectionRuleList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list#limit DataScmDosProtectionRuleList#limit}
   */
   readonly limit?: number;
   /**
   * The name of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/dos_protection_rule_list#name DataScmDosProtectionRuleList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list#name DataScmDosProtectionRuleList#name}
   */
   readonly name?: string;
   /**
   * The offset of the first item to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/dos_protection_rule_list#offset DataScmDosProtectionRuleList#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list#offset DataScmDosProtectionRuleList#offset}
   */
   readonly offset?: number;
   /**
   * The snippet of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/dos_protection_rule_list#snippet DataScmDosProtectionRuleList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list#snippet DataScmDosProtectionRuleList#snippet}
   */
   readonly snippet?: string;
 }
@@ -489,9 +489,23 @@ export class DataScmDosProtectionRuleListDataProtectionOutputReference extends c
 }
 export interface DataScmDosProtectionRuleListData {
   /**
+  * The device in which the resource is defined
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list#device DataScmDosProtectionRuleList#device}
+  */
+  readonly device?: string;
+  /**
+  * The folder in which the resource is defined
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list#folder DataScmDosProtectionRuleList#folder}
+  */
+  readonly folder?: string;
+  /**
   * The UUID of the DNS security profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/dos_protection_rule_list#id DataScmDosProtectionRuleList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list#id DataScmDosProtectionRuleList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -500,9 +514,16 @@ export interface DataScmDosProtectionRuleListData {
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/dos_protection_rule_list#name DataScmDosProtectionRuleList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list#name DataScmDosProtectionRuleList#name}
   */
   readonly name?: string;
+  /**
+  * The snippet in which the resource is defined
+  * > ℹ️ **Note:** You must specify exactly one of `device`, `folder`, and `snippet`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list#snippet DataScmDosProtectionRuleList#snippet}
+  */
+  readonly snippet?: string;
 }
 
 export function dataScmDosProtectionRuleListDataToTerraform(struct?: DataScmDosProtectionRuleListData): any {
@@ -511,8 +532,11 @@ export function dataScmDosProtectionRuleListDataToTerraform(struct?: DataScmDosP
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    device: cdktf.stringToTerraform(struct!.device),
+    folder: cdktf.stringToTerraform(struct!.folder),
     id: cdktf.stringToTerraform(struct!.id),
     name: cdktf.stringToTerraform(struct!.name),
+    snippet: cdktf.stringToTerraform(struct!.snippet),
   }
 }
 
@@ -523,6 +547,18 @@ export function dataScmDosProtectionRuleListDataToHclTerraform(struct?: DataScmD
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    device: {
+      value: cdktf.stringToHclTerraform(struct!.device),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    folder: {
+      value: cdktf.stringToHclTerraform(struct!.folder),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     id: {
       value: cdktf.stringToHclTerraform(struct!.id),
       isBlock: false,
@@ -531,6 +567,12 @@ export function dataScmDosProtectionRuleListDataToHclTerraform(struct?: DataScmD
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    snippet: {
+      value: cdktf.stringToHclTerraform(struct!.snippet),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -557,6 +599,14 @@ export class DataScmDosProtectionRuleListDataOutputReference extends cdktf.Compl
   public get internalValue(): DataScmDosProtectionRuleListData | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._device !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.device = this._device;
+    }
+    if (this._folder !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.folder = this._folder;
+    }
     if (this._id !== undefined) {
       hasAnyValues = true;
       internalValueResult.id = this._id;
@@ -565,19 +615,29 @@ export class DataScmDosProtectionRuleListDataOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.name = this._name;
     }
+    if (this._snippet !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.snippet = this._snippet;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: DataScmDosProtectionRuleListData | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._device = undefined;
+      this._folder = undefined;
       this._id = undefined;
       this._name = undefined;
+      this._snippet = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._device = value.device;
+      this._folder = value.folder;
       this._id = value.id;
       this._name = value.name;
+      this._snippet = value.snippet;
     }
   }
 
@@ -597,9 +657,20 @@ export class DataScmDosProtectionRuleListDataOutputReference extends cdktf.Compl
     return this.getListAttribute('destination');
   }
 
-  // device - computed: true, optional: false, required: false
+  // device - computed: true, optional: true, required: false
+  private _device?: string; 
   public get device() {
     return this.getStringAttribute('device');
+  }
+  public set device(value: string) {
+    this._device = value;
+  }
+  public resetDevice() {
+    this._device = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceInput() {
+    return this._device;
   }
 
   // disabled - computed: true, optional: false, required: false
@@ -607,9 +678,20 @@ export class DataScmDosProtectionRuleListDataOutputReference extends cdktf.Compl
     return this.getBooleanAttribute('disabled');
   }
 
-  // folder - computed: true, optional: false, required: false
+  // folder - computed: true, optional: true, required: false
+  private _folder?: string; 
   public get folder() {
     return this.getStringAttribute('folder');
+  }
+  public set folder(value: string) {
+    this._folder = value;
+  }
+  public resetFolder() {
+    this._folder = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get folderInput() {
+    return this._folder;
   }
 
   // from - computed: true, optional: false, required: false
@@ -672,9 +754,20 @@ export class DataScmDosProtectionRuleListDataOutputReference extends cdktf.Compl
     return this.getListAttribute('service');
   }
 
-  // snippet - computed: true, optional: false, required: false
+  // snippet - computed: true, optional: true, required: false
+  private _snippet?: string; 
   public get snippet() {
     return this.getStringAttribute('snippet');
+  }
+  public set snippet(value: string) {
+    this._snippet = value;
+  }
+  public resetSnippet() {
+    this._snippet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snippetInput() {
+    return this._snippet;
   }
 
   // source - computed: true, optional: false, required: false
@@ -724,7 +817,7 @@ export class DataScmDosProtectionRuleListDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/dos_protection_rule_list scm_dos_protection_rule_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list scm_dos_protection_rule_list}
 */
 export class DataScmDosProtectionRuleList extends cdktf.TerraformDataSource {
 
@@ -740,7 +833,7 @@ export class DataScmDosProtectionRuleList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmDosProtectionRuleList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmDosProtectionRuleList to import
-  * @param importFromId The id of the existing DataScmDosProtectionRuleList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/dos_protection_rule_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmDosProtectionRuleList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmDosProtectionRuleList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -752,7 +845,7 @@ export class DataScmDosProtectionRuleList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.5/docs/data-sources/dos_protection_rule_list scm_dos_protection_rule_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.6/docs/data-sources/dos_protection_rule_list scm_dos_protection_rule_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -763,8 +856,8 @@ export class DataScmDosProtectionRuleList extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_dos_protection_rule_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.5',
-        providerVersionConstraint: '1.0.5'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
