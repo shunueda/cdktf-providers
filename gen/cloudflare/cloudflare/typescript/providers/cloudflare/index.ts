@@ -315,6 +315,7 @@ export * as dataCloudflareIpRanges from './data-cloudflare-ip-ranges';
 export * as dataCloudflareKeylessCertificate from './data-cloudflare-keyless-certificate';
 export * as dataCloudflareKeylessCertificates from './data-cloudflare-keyless-certificates';
 export * as dataCloudflareLeakedCredentialCheck from './data-cloudflare-leaked-credential-check';
+export * as dataCloudflareLeakedCredentialCheckRule from './data-cloudflare-leaked-credential-check-rule';
 export * as dataCloudflareLeakedCredentialCheckRules from './data-cloudflare-leaked-credential-check-rules';
 export * as dataCloudflareList from './data-cloudflare-list';
 export * as dataCloudflareListItem from './data-cloudflare-list-item';

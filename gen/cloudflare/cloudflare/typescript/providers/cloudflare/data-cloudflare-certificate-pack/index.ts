@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudflare/cloudflare/5.14.0/docs/data-sources/certificate_pack
+// https://registry.terraform.io/providers/cloudflare/cloudflare/5.15.0/docs/data-sources/certificate_pack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataCloudflareCertificatePackConfig extends cdktf.TerraformMeta
   /**
   * Identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.14.0/docs/data-sources/certificate_pack#certificate_pack_id DataCloudflareCertificatePack#certificate_pack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.15.0/docs/data-sources/certificate_pack#certificate_pack_id DataCloudflareCertificatePack#certificate_pack_id}
   */
   readonly certificatePackId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.14.0/docs/data-sources/certificate_pack#filter DataCloudflareCertificatePack#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.15.0/docs/data-sources/certificate_pack#filter DataCloudflareCertificatePack#filter}
   */
   readonly filter?: DataCloudflareCertificatePackFilter;
   /**
   * Identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.14.0/docs/data-sources/certificate_pack#zone_id DataCloudflareCertificatePack#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.15.0/docs/data-sources/certificate_pack#zone_id DataCloudflareCertificatePack#zone_id}
   */
   readonly zoneId: string;
 }
@@ -214,7 +214,7 @@ export interface DataCloudflareCertificatePackFilter {
   * Include Certificate Packs of all statuses, not just active ones.
   * Available values: "all".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.14.0/docs/data-sources/certificate_pack#status DataCloudflareCertificatePack#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.15.0/docs/data-sources/certificate_pack#status DataCloudflareCertificatePack#status}
   */
   readonly status?: string;
 }
@@ -478,7 +478,7 @@ export class DataCloudflareCertificatePackValidationRecordsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.14.0/docs/data-sources/certificate_pack cloudflare_certificate_pack}
+* Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.15.0/docs/data-sources/certificate_pack cloudflare_certificate_pack}
 */
 export class DataCloudflareCertificatePack extends cdktf.TerraformDataSource {
 
@@ -494,7 +494,7 @@ export class DataCloudflareCertificatePack extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCloudflareCertificatePack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCloudflareCertificatePack to import
-  * @param importFromId The id of the existing DataCloudflareCertificatePack that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.14.0/docs/data-sources/certificate_pack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCloudflareCertificatePack that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.15.0/docs/data-sources/certificate_pack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCloudflareCertificatePack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -506,7 +506,7 @@ export class DataCloudflareCertificatePack extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.14.0/docs/data-sources/certificate_pack cloudflare_certificate_pack} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.15.0/docs/data-sources/certificate_pack cloudflare_certificate_pack} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -517,8 +517,8 @@ export class DataCloudflareCertificatePack extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudflare_certificate_pack',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.14.0',
-        providerVersionConstraint: '5.14.0'
+        providerVersion: '5.15.0',
+        providerVersionConstraint: '5.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -587,7 +587,7 @@ export class DataCloudflareCertificatePack extends cdktf.TerraformDataSource {
 
   // hosts - computed: true, optional: false, required: false
   public get hosts() {
-    return this.getListAttribute('hosts');
+    return cdktf.Fn.tolist(this.getListAttribute('hosts'));
   }
 
   // id - computed: true, optional: false, required: false

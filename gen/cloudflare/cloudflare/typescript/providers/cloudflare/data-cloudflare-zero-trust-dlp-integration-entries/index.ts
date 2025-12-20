@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudflare/cloudflare/5.14.0/docs/data-sources/zero_trust_dlp_integration_entries
+// https://registry.terraform.io/providers/cloudflare/cloudflare/5.15.0/docs/data-sources/zero_trust_dlp_integration_entries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataCloudflareZeroTrustDlpIntegrationEntriesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.14.0/docs/data-sources/zero_trust_dlp_integration_entries#account_id DataCloudflareZeroTrustDlpIntegrationEntries#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.15.0/docs/data-sources/zero_trust_dlp_integration_entries#account_id DataCloudflareZeroTrustDlpIntegrationEntries#account_id}
   */
   readonly accountId: string;
   /**
   * Max items to fetch, default: 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.14.0/docs/data-sources/zero_trust_dlp_integration_entries#max_items DataCloudflareZeroTrustDlpIntegrationEntries#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.15.0/docs/data-sources/zero_trust_dlp_integration_entries#max_items DataCloudflareZeroTrustDlpIntegrationEntries#max_items}
   */
   readonly maxItems?: number;
 }
@@ -308,6 +308,11 @@ export class DataCloudflareZeroTrustDlpIntegrationEntriesResultOutputReference e
     return this.getStringAttribute('updated_at');
   }
 
+  // upload_status - computed: true, optional: false, required: false
+  public get uploadStatus() {
+    return this.getStringAttribute('upload_status');
+  }
+
   // variant - computed: true, optional: false, required: false
   private _variant = new DataCloudflareZeroTrustDlpIntegrationEntriesResultVariantOutputReference(this, "variant");
   public get variant() {
@@ -340,7 +345,7 @@ export class DataCloudflareZeroTrustDlpIntegrationEntriesResultList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.14.0/docs/data-sources/zero_trust_dlp_integration_entries cloudflare_zero_trust_dlp_integration_entries}
+* Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.15.0/docs/data-sources/zero_trust_dlp_integration_entries cloudflare_zero_trust_dlp_integration_entries}
 */
 export class DataCloudflareZeroTrustDlpIntegrationEntries extends cdktf.TerraformDataSource {
 
@@ -356,7 +361,7 @@ export class DataCloudflareZeroTrustDlpIntegrationEntries extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataCloudflareZeroTrustDlpIntegrationEntries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCloudflareZeroTrustDlpIntegrationEntries to import
-  * @param importFromId The id of the existing DataCloudflareZeroTrustDlpIntegrationEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.14.0/docs/data-sources/zero_trust_dlp_integration_entries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCloudflareZeroTrustDlpIntegrationEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.15.0/docs/data-sources/zero_trust_dlp_integration_entries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCloudflareZeroTrustDlpIntegrationEntries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -368,7 +373,7 @@ export class DataCloudflareZeroTrustDlpIntegrationEntries extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.14.0/docs/data-sources/zero_trust_dlp_integration_entries cloudflare_zero_trust_dlp_integration_entries} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.15.0/docs/data-sources/zero_trust_dlp_integration_entries cloudflare_zero_trust_dlp_integration_entries} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,8 +384,8 @@ export class DataCloudflareZeroTrustDlpIntegrationEntries extends cdktf.Terrafor
       terraformResourceType: 'cloudflare_zero_trust_dlp_integration_entries',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.14.0',
-        providerVersionConstraint: '5.14.0'
+        providerVersion: '5.15.0',
+        providerVersionConstraint: '5.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

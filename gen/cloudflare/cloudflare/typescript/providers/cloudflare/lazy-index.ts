@@ -315,6 +315,7 @@ Object.defineProperty(exports, 'dataCloudflareIpRanges', { get: function () { re
 Object.defineProperty(exports, 'dataCloudflareKeylessCertificate', { get: function () { return require('./data-cloudflare-keyless-certificate'); } });
 Object.defineProperty(exports, 'dataCloudflareKeylessCertificates', { get: function () { return require('./data-cloudflare-keyless-certificates'); } });
 Object.defineProperty(exports, 'dataCloudflareLeakedCredentialCheck', { get: function () { return require('./data-cloudflare-leaked-credential-check'); } });
+Object.defineProperty(exports, 'dataCloudflareLeakedCredentialCheckRule', { get: function () { return require('./data-cloudflare-leaked-credential-check-rule'); } });
 Object.defineProperty(exports, 'dataCloudflareLeakedCredentialCheckRules', { get: function () { return require('./data-cloudflare-leaked-credential-check-rules'); } });
 Object.defineProperty(exports, 'dataCloudflareList', { get: function () { return require('./data-cloudflare-list'); } });
 Object.defineProperty(exports, 'dataCloudflareListItem', { get: function () { return require('./data-cloudflare-list-item'); } });
