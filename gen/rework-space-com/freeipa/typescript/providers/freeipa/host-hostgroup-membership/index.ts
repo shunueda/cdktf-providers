@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host_hostgroup_membership
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host_hostgroup_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface HostHostgroupMembershipConfig extends cdktf.TerraformMetaArgume
   /**
   * **deprecated** Host to add. Will be replaced by hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host_hostgroup_membership#host HostHostgroupMembership#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host_hostgroup_membership#host HostHostgroupMembership#host}
   */
   readonly host?: string;
   /**
   * **deprecated** Hostgroup to add. Will be replaced by hostgroups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host_hostgroup_membership#hostgroup HostHostgroupMembership#hostgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host_hostgroup_membership#hostgroup HostHostgroupMembership#hostgroup}
   */
   readonly hostgroup?: string;
   /**
   * Hostgroups to add as hostgroup members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host_hostgroup_membership#hostgroups HostHostgroupMembership#hostgroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host_hostgroup_membership#hostgroups HostHostgroupMembership#hostgroups}
   */
   readonly hostgroups?: string[];
   /**
   * Hosts to add as hostgroup members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host_hostgroup_membership#hosts HostHostgroupMembership#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host_hostgroup_membership#hosts HostHostgroupMembership#hosts}
   */
   readonly hosts?: string[];
   /**
   * Unique identifier to differentiate multiple hostgroup membership resources on the same hostgroup. Manadatory for using hosts/hostgroups configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host_hostgroup_membership#identifier HostHostgroupMembership#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host_hostgroup_membership#identifier HostHostgroupMembership#identifier}
   */
   readonly identifier?: string;
   /**
   * Hostgroup name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host_hostgroup_membership#name HostHostgroupMembership#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host_hostgroup_membership#name HostHostgroupMembership#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host_hostgroup_membership freeipa_host_hostgroup_membership}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host_hostgroup_membership freeipa_host_hostgroup_membership}
 */
 export class HostHostgroupMembership extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class HostHostgroupMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HostHostgroupMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HostHostgroupMembership to import
-  * @param importFromId The id of the existing HostHostgroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host_hostgroup_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HostHostgroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host_hostgroup_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HostHostgroupMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class HostHostgroupMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host_hostgroup_membership freeipa_host_hostgroup_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host_hostgroup_membership freeipa_host_hostgroup_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class HostHostgroupMembership extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_host_hostgroup_membership',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

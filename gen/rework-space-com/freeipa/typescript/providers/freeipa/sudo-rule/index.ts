@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface SudoRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Command category the sudo rule is applied to (allowed value: all)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule#commandcategory SudoRule#commandcategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule#commandcategory SudoRule#commandcategory}
   */
   readonly commandcategory?: string;
   /**
   * Sudo rule description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule#description SudoRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule#description SudoRule#description}
   */
   readonly description?: string;
   /**
   * Enable this sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule#enabled SudoRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule#enabled SudoRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Host category the sudo rule is applied to (allowed value: all)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule#hostcategory SudoRule#hostcategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule#hostcategory SudoRule#hostcategory}
   */
   readonly hostcategory?: string;
   /**
   * Name of the sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule#name SudoRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule#name SudoRule#name}
   */
   readonly name: string;
   /**
   * Sudo rule order (must be unique)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule#order SudoRule#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule#order SudoRule#order}
   */
   readonly order?: number;
   /**
   * Run as group category the sudo rule is applied to (allowed value: all)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule#runasgroupcategory SudoRule#runasgroupcategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule#runasgroupcategory SudoRule#runasgroupcategory}
   */
   readonly runasgroupcategory?: string;
   /**
   * Run as user category the sudo rule is applied to (allowed value: all)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule#runasusercategory SudoRule#runasusercategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule#runasusercategory SudoRule#runasusercategory}
   */
   readonly runasusercategory?: string;
   /**
   * User category the sudo rule is applied to (allowed value: all)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule#usercategory SudoRule#usercategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule#usercategory SudoRule#usercategory}
   */
   readonly usercategory?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule freeipa_sudo_rule}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule freeipa_sudo_rule}
 */
 export class SudoRule extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class SudoRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SudoRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SudoRule to import
-  * @param importFromId The id of the existing SudoRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SudoRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SudoRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class SudoRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule freeipa_sudo_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule freeipa_sudo_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class SudoRule extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_sudo_rule',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

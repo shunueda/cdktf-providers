@@ -1,3 +1,3 @@
 # `data_httpclient_request`
 
-Refer to the Terraform Registry for docs: [`data_httpclient_request`](https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request).
+Refer to the Terraform Registry for docs: [`data_httpclient_request`](https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request).

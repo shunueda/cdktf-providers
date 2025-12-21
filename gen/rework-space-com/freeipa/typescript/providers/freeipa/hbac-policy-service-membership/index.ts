@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_service_membership
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hbac_policy_service_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface HbacPolicyServiceMembershipConfig extends cdktf.TerraformMetaAr
   /**
   * Unique identifier to differentiate multiple HBAC policy service membership resources on the same HBAC policy. Manadatory for using services/servicegroups configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_service_membership#identifier HbacPolicyServiceMembership#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hbac_policy_service_membership#identifier HbacPolicyServiceMembership#identifier}
   */
   readonly identifier?: string;
   /**
   * HBAC policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_service_membership#name HbacPolicyServiceMembership#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hbac_policy_service_membership#name HbacPolicyServiceMembership#name}
   */
   readonly name: string;
   /**
   * **deprecated** Service name the policy is applied t
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_service_membership#service HbacPolicyServiceMembership#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hbac_policy_service_membership#service HbacPolicyServiceMembership#service}
   */
   readonly service?: string;
   /**
   * **deprecated** Service group name the policy is applied to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_service_membership#servicegroup HbacPolicyServiceMembership#servicegroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hbac_policy_service_membership#servicegroup HbacPolicyServiceMembership#servicegroup}
   */
   readonly servicegroup?: string;
   /**
   * List of service group name the policy is applied to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_service_membership#servicegroups HbacPolicyServiceMembership#servicegroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hbac_policy_service_membership#servicegroups HbacPolicyServiceMembership#servicegroups}
   */
   readonly servicegroups?: string[];
   /**
   * List of service name the policy is applied t
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_service_membership#services HbacPolicyServiceMembership#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hbac_policy_service_membership#services HbacPolicyServiceMembership#services}
   */
   readonly services?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_service_membership freeipa_hbac_policy_service_membership}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hbac_policy_service_membership freeipa_hbac_policy_service_membership}
 */
 export class HbacPolicyServiceMembership extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class HbacPolicyServiceMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HbacPolicyServiceMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HbacPolicyServiceMembership to import
-  * @param importFromId The id of the existing HbacPolicyServiceMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_service_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HbacPolicyServiceMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hbac_policy_service_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HbacPolicyServiceMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class HbacPolicyServiceMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hbac_policy_service_membership freeipa_hbac_policy_service_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hbac_policy_service_membership freeipa_hbac_policy_service_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class HbacPolicyServiceMembership extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_hbac_policy_service_membership',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

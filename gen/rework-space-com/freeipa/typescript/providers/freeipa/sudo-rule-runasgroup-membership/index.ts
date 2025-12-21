@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasgroup_membership
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_runasgroup_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SudoRuleRunasgroupMembershipConfig extends cdktf.TerraformMetaA
   /**
   * Unique identifier to differentiate multiple sudo rule runasgroup membership resources on the same sudo rule. Manadatory for using runasgroups configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasgroup_membership#identifier SudoRuleRunasgroupMembership#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_runasgroup_membership#identifier SudoRuleRunasgroupMembership#identifier}
   */
   readonly identifier?: string;
   /**
   * Sudo rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasgroup_membership#name SudoRuleRunasgroupMembership#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_runasgroup_membership#name SudoRuleRunasgroupMembership#name}
   */
   readonly name: string;
   /**
   * **deprecated** Run As Group to add to the sudo rule. Can be an external group (local group of ipa clients)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasgroup_membership#runasgroup SudoRuleRunasgroupMembership#runasgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_runasgroup_membership#runasgroup SudoRuleRunasgroupMembership#runasgroup}
   */
   readonly runasgroup?: string;
   /**
   * List of Run As Group to add to the sudo rule. Can be an external group (local group of ipa clients)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasgroup_membership#runasgroups SudoRuleRunasgroupMembership#runasgroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_runasgroup_membership#runasgroups SudoRuleRunasgroupMembership#runasgroups}
   */
   readonly runasgroups?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasgroup_membership freeipa_sudo_rule_runasgroup_membership}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_runasgroup_membership freeipa_sudo_rule_runasgroup_membership}
 */
 export class SudoRuleRunasgroupMembership extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class SudoRuleRunasgroupMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SudoRuleRunasgroupMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SudoRuleRunasgroupMembership to import
-  * @param importFromId The id of the existing SudoRuleRunasgroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasgroup_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SudoRuleRunasgroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_runasgroup_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SudoRuleRunasgroupMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class SudoRuleRunasgroupMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_runasgroup_membership freeipa_sudo_rule_runasgroup_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_runasgroup_membership freeipa_sudo_rule_runasgroup_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class SudoRuleRunasgroupMembership extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_sudo_rule_runasgroup_membership',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

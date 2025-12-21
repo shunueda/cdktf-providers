@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request
+// https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,79 +8,77 @@ import * as cdktf from 'cdktf';
 
 export interface DataHttpclientRequestConfig extends cdktf.TerraformMetaArguments {
   /**
-  * CA certificate in PEM format to verify server certificate
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#ca_cert DataHttpclientRequest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#ca_cert DataHttpclientRequest#ca_cert}
   */
   readonly caCert?: string;
   /**
-  * Client certificate in PEM format for mTLS authentication
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#client_cert DataHttpclientRequest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#client_cert DataHttpclientRequest#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Client private key in PEM format for mTLS authentication
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#client_key DataHttpclientRequest#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#client_key DataHttpclientRequest#client_key}
   */
   readonly clientKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#expected_status_codes DataHttpclientRequest#expected_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#expected_status_codes DataHttpclientRequest#expected_status_codes}
   */
   readonly expectedStatusCodes?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#fail_on_http_error DataHttpclientRequest#fail_on_http_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#fail_on_http_error DataHttpclientRequest#fail_on_http_error}
   */
   readonly failOnHttpError?: boolean | cdktf.IResolvable;
   /**
-  * HTTP version to use (HTTP1.1, HTTP2). Default: HTTP1.1
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#http_version DataHttpclientRequest#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#follow_redirects DataHttpclientRequest#follow_redirects}
+  */
+  readonly followRedirects?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#http_version DataHttpclientRequest#http_version}
   */
   readonly httpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#insecure DataHttpclientRequest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#insecure DataHttpclientRequest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#password DataHttpclientRequest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#max_redirects DataHttpclientRequest#max_redirects}
+  */
+  readonly maxRedirects?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#password DataHttpclientRequest#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#request_body DataHttpclientRequest#request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#request_body DataHttpclientRequest#request_body}
   */
   readonly requestBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#request_headers DataHttpclientRequest#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#request_headers DataHttpclientRequest#request_headers}
   */
   readonly requestHeaders?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#request_method DataHttpclientRequest#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#request_method DataHttpclientRequest#request_method}
   */
   readonly requestMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#timeout DataHttpclientRequest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#timeout DataHttpclientRequest#timeout}
   */
   readonly timeout?: number;
   /**
-  * Minimum TLS version (1.0, 1.1, 1.2, 1.3). Default: 1.2
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#tls_min_version DataHttpclientRequest#tls_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#tls_min_version DataHttpclientRequest#tls_min_version}
   */
   readonly tlsMinVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#url DataHttpclientRequest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#url DataHttpclientRequest#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#username DataHttpclientRequest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#username DataHttpclientRequest#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request httpclient_request}
+* Represents a {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request httpclient_request}
 */
 export class DataHttpclientRequest extends cdktf.TerraformDataSource {
 
@@ -96,7 +94,7 @@ export class DataHttpclientRequest extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHttpclientRequest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHttpclientRequest to import
-  * @param importFromId The id of the existing DataHttpclientRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHttpclientRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHttpclientRequest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -108,7 +106,7 @@ export class DataHttpclientRequest extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dmachard/http-client/0.8.0/docs/data-sources/httpclient_request httpclient_request} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dmachard/http-client/0.9.0/docs/data-sources/httpclient_request httpclient_request} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -119,8 +117,8 @@ export class DataHttpclientRequest extends cdktf.TerraformDataSource {
       terraformResourceType: 'httpclient_request',
       terraformGeneratorMetadata: {
         providerName: 'http-client',
-        providerVersion: '0.8.0',
-        providerVersionConstraint: '0.8.0'
+        providerVersion: '0.9.0',
+        providerVersionConstraint: '0.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -135,8 +133,10 @@ export class DataHttpclientRequest extends cdktf.TerraformDataSource {
     this._clientKey = config.clientKey;
     this._expectedStatusCodes = config.expectedStatusCodes;
     this._failOnHttpError = config.failOnHttpError;
+    this._followRedirects = config.followRedirects;
     this._httpVersion = config.httpVersion;
     this._insecure = config.insecure;
+    this._maxRedirects = config.maxRedirects;
     this._password = config.password;
     this._requestBody = config.requestBody;
     this._requestHeaders = config.requestHeaders;
@@ -231,6 +231,22 @@ export class DataHttpclientRequest extends cdktf.TerraformDataSource {
     return this._failOnHttpError;
   }
 
+  // follow_redirects - computed: false, optional: true, required: false
+  private _followRedirects?: boolean | cdktf.IResolvable; 
+  public get followRedirects() {
+    return this.getBooleanAttribute('follow_redirects');
+  }
+  public set followRedirects(value: boolean | cdktf.IResolvable) {
+    this._followRedirects = value;
+  }
+  public resetFollowRedirects() {
+    this._followRedirects = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get followRedirectsInput() {
+    return this._followRedirects;
+  }
+
   // http_version - computed: false, optional: true, required: false
   private _httpVersion?: string; 
   public get httpVersion() {
@@ -261,6 +277,22 @@ export class DataHttpclientRequest extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get insecureInput() {
     return this._insecure;
+  }
+
+  // max_redirects - computed: false, optional: true, required: false
+  private _maxRedirects?: number; 
+  public get maxRedirects() {
+    return this.getNumberAttribute('max_redirects');
+  }
+  public set maxRedirects(value: number) {
+    this._maxRedirects = value;
+  }
+  public resetMaxRedirects() {
+    this._maxRedirects = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxRedirectsInput() {
+    return this._maxRedirects;
   }
 
   // password - computed: false, optional: true, required: false
@@ -415,8 +447,10 @@ export class DataHttpclientRequest extends cdktf.TerraformDataSource {
       client_key: cdktf.stringToTerraform(this._clientKey),
       expected_status_codes: cdktf.listMapper(cdktf.numberToTerraform, false)(this._expectedStatusCodes),
       fail_on_http_error: cdktf.booleanToTerraform(this._failOnHttpError),
+      follow_redirects: cdktf.booleanToTerraform(this._followRedirects),
       http_version: cdktf.stringToTerraform(this._httpVersion),
       insecure: cdktf.booleanToTerraform(this._insecure),
+      max_redirects: cdktf.numberToTerraform(this._maxRedirects),
       password: cdktf.stringToTerraform(this._password),
       request_body: cdktf.stringToTerraform(this._requestBody),
       request_headers: cdktf.hashMapper(cdktf.stringToTerraform)(this._requestHeaders),
@@ -460,6 +494,12 @@ export class DataHttpclientRequest extends cdktf.TerraformDataSource {
         type: "simple",
         storageClassType: "boolean",
       },
+      follow_redirects: {
+        value: cdktf.booleanToHclTerraform(this._followRedirects),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       http_version: {
         value: cdktf.stringToHclTerraform(this._httpVersion),
         isBlock: false,
@@ -471,6 +511,12 @@ export class DataHttpclientRequest extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      max_redirects: {
+        value: cdktf.numberToHclTerraform(this._maxRedirects),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       password: {
         value: cdktf.stringToHclTerraform(this._password),

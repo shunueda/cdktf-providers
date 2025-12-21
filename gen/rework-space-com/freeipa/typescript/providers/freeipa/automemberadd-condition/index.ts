@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd_condition
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/automemberadd_condition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface AutomemberaddConditionConfig extends cdktf.TerraformMetaArgumen
   /**
   * Automember rule condition description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd_condition#description AutomemberaddCondition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/automemberadd_condition#description AutomemberaddCondition#description}
   */
   readonly description?: string;
   /**
   * Regex expression for values that should be excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd_condition#exclusiveregex AutomemberaddCondition#exclusiveregex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/automemberadd_condition#exclusiveregex AutomemberaddCondition#exclusiveregex}
   */
   readonly exclusiveregex?: string[];
   /**
   * Regex expression for values that should be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd_condition#inclusiveregex AutomemberaddCondition#inclusiveregex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/automemberadd_condition#inclusiveregex AutomemberaddCondition#inclusiveregex}
   */
   readonly inclusiveregex?: string[];
   /**
   * Automember rule condition key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd_condition#key AutomemberaddCondition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/automemberadd_condition#key AutomemberaddCondition#key}
   */
   readonly key: string;
   /**
   * Automember rule condition name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd_condition#name AutomemberaddCondition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/automemberadd_condition#name AutomemberaddCondition#name}
   */
   readonly name: string;
   /**
   * Automember rule condition type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd_condition#type AutomemberaddCondition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/automemberadd_condition#type AutomemberaddCondition#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd_condition freeipa_automemberadd_condition}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/automemberadd_condition freeipa_automemberadd_condition}
 */
 export class AutomemberaddCondition extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class AutomemberaddCondition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutomemberaddCondition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutomemberaddCondition to import
-  * @param importFromId The id of the existing AutomemberaddCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd_condition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutomemberaddCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/automemberadd_condition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutomemberaddCondition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class AutomemberaddCondition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/automemberadd_condition freeipa_automemberadd_condition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/automemberadd_condition freeipa_automemberadd_condition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class AutomemberaddCondition extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_automemberadd_condition',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

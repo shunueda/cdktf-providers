@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface HostConfig extends cdktf.TerraformMetaArguments {
   /**
   * Assigned ID View
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#assigned_idview Host#assigned_idview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#assigned_idview Host#assigned_idview}
   */
   readonly assignedIdview?: string;
   /**
   * A description of this host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#description Host#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#description Host#description}
   */
   readonly description?: string;
   /**
   * Skip host's DNS check (A/AAAA) before adding it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#force Host#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#force Host#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * IP address of the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#ip_address Host#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#ip_address Host#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * SSH public keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#ipasshpubkeys Host#ipasshpubkeys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#ipasshpubkeys Host#ipasshpubkeys}
   */
   readonly ipasshpubkeys?: string[];
   /**
   * Defines a whitelist for Authentication Indicators. Use 'otp' to allow OTP-based 2FA authentications. Use 'radius' to allow RADIUS-based 2FA authentications. Other values may be used for custom configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#krb_auth_indicators Host#krb_auth_indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#krb_auth_indicators Host#krb_auth_indicators}
   */
   readonly krbAuthIndicators?: string[];
   /**
   * Pre-authentication is required for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#krb_preauth Host#krb_preauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#krb_preauth Host#krb_preauth}
   */
   readonly krbPreauth?: boolean | cdktf.IResolvable;
   /**
   * Host locality (e.g. 'Baltimore, MD')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#locality Host#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#locality Host#locality}
   */
   readonly locality?: string;
   /**
   * Host location (e.g. 'Lab 2')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#location Host#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#location Host#location}
   */
   readonly location?: string;
   /**
   * Hardware MAC address(es) on this host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#mac_addresses Host#mac_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#mac_addresses Host#mac_addresses}
   */
   readonly macAddresses?: string[];
   /**
@@ -73,61 +73,67 @@ export interface HostConfig extends cdktf.TerraformMetaArguments {
   * 	- May contain only letters, numbers, '-'.
   * 	- DNS label may not start or end with '-'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#name Host#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#name Host#name}
   */
   readonly name: string;
   /**
   * Host operating system and version (e.g. 'Fedora 40')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#operating_system Host#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#operating_system Host#operating_system}
   */
   readonly operatingSystem?: string;
   /**
   * Host hardware platform (e.g. 'Lenovo T61')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#platform Host#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#platform Host#platform}
   */
   readonly platform?: string;
   /**
   * Generate a random password to be used in bulk enrollment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#random_password Host#random_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#random_password Host#random_password}
   */
   readonly randomPassword?: boolean | cdktf.IResolvable;
   /**
   * Client credentials may be delegated to the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#trusted_for_delegation Host#trusted_for_delegation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#trusted_for_delegation Host#trusted_for_delegation}
   */
   readonly trustedForDelegation?: boolean | cdktf.IResolvable;
   /**
   * The service is allowed to authenticate on behalf of a client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#trusted_to_auth_as_delegate Host#trusted_to_auth_as_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#trusted_to_auth_as_delegate Host#trusted_to_auth_as_delegate}
   */
   readonly trustedToAuthAsDelegate?: boolean | cdktf.IResolvable;
   /**
+  * Update DNS when updating or deleting the host (default to `true`)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#update_dns Host#update_dns}
+  */
+  readonly updateDns?: boolean | cdktf.IResolvable;
+  /**
   * Base-64 encoded host certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#user_certificates Host#user_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#user_certificates Host#user_certificates}
   */
   readonly userCertificates?: string[];
   /**
   * Host category (semantics placed on this attribute are for local interpretation)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#userclass Host#userclass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#userclass Host#userclass}
   */
   readonly userclass?: string[];
   /**
   * Password used in bulk enrollment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#userpassword Host#userpassword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#userpassword Host#userpassword}
   */
   readonly userpassword?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host freeipa_host}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host freeipa_host}
 */
 export class Host extends cdktf.TerraformResource {
 
@@ -143,7 +149,7 @@ export class Host extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Host resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Host to import
-  * @param importFromId The id of the existing Host that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Host that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Host to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -155,7 +161,7 @@ export class Host extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/host freeipa_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/host freeipa_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -166,8 +172,8 @@ export class Host extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_host',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -193,6 +199,7 @@ export class Host extends cdktf.TerraformResource {
     this._randomPassword = config.randomPassword;
     this._trustedForDelegation = config.trustedForDelegation;
     this._trustedToAuthAsDelegate = config.trustedToAuthAsDelegate;
+    this._updateDns = config.updateDns;
     this._userCertificates = config.userCertificates;
     this._userclass = config.userclass;
     this._userpassword = config.userpassword;
@@ -465,6 +472,22 @@ export class Host extends cdktf.TerraformResource {
     return this._trustedToAuthAsDelegate;
   }
 
+  // update_dns - computed: true, optional: true, required: false
+  private _updateDns?: boolean | cdktf.IResolvable; 
+  public get updateDns() {
+    return this.getBooleanAttribute('update_dns');
+  }
+  public set updateDns(value: boolean | cdktf.IResolvable) {
+    this._updateDns = value;
+  }
+  public resetUpdateDns() {
+    this._updateDns = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updateDnsInput() {
+    return this._updateDns;
+  }
+
   // user_certificates - computed: false, optional: true, required: false
   private _userCertificates?: string[]; 
   public get userCertificates() {
@@ -535,6 +558,7 @@ export class Host extends cdktf.TerraformResource {
       random_password: cdktf.booleanToTerraform(this._randomPassword),
       trusted_for_delegation: cdktf.booleanToTerraform(this._trustedForDelegation),
       trusted_to_auth_as_delegate: cdktf.booleanToTerraform(this._trustedToAuthAsDelegate),
+      update_dns: cdktf.booleanToTerraform(this._updateDns),
       user_certificates: cdktf.listMapper(cdktf.stringToTerraform, false)(this._userCertificates),
       userclass: cdktf.listMapper(cdktf.stringToTerraform, false)(this._userclass),
       userpassword: cdktf.stringToTerraform(this._userpassword),
@@ -635,6 +659,12 @@ export class Host extends cdktf.TerraformResource {
       },
       trusted_to_auth_as_delegate: {
         value: cdktf.booleanToHclTerraform(this._trustedToAuthAsDelegate),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      update_dns: {
+        value: cdktf.booleanToHclTerraform(this._updateDns),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

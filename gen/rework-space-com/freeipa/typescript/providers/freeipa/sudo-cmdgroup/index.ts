@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_cmdgroup
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_cmdgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SudoCmdgroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Sudo command group description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_cmdgroup#description SudoCmdgroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_cmdgroup#description SudoCmdgroup#description}
   */
   readonly description?: string;
   /**
   * Name of the sudo command group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_cmdgroup#name SudoCmdgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_cmdgroup#name SudoCmdgroup#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_cmdgroup freeipa_sudo_cmdgroup}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_cmdgroup freeipa_sudo_cmdgroup}
 */
 export class SudoCmdgroup extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class SudoCmdgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SudoCmdgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SudoCmdgroup to import
-  * @param importFromId The id of the existing SudoCmdgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_cmdgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SudoCmdgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_cmdgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SudoCmdgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class SudoCmdgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_cmdgroup freeipa_sudo_cmdgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_cmdgroup freeipa_sudo_cmdgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class SudoCmdgroup extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_sudo_cmdgroup',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

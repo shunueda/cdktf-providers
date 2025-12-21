@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_host_membership
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_host_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SudoRuleHostMembershipConfig extends cdktf.TerraformMetaArgumen
   /**
   * **deprecated** Host to add to the sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_host_membership#host SudoRuleHostMembership#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_host_membership#host SudoRuleHostMembership#host}
   */
   readonly host?: string;
   /**
   * **deprecated** Hostgroup to add to the sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_host_membership#hostgroup SudoRuleHostMembership#hostgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_host_membership#hostgroup SudoRuleHostMembership#hostgroup}
   */
   readonly hostgroup?: string;
   /**
   * List of hostgroups to add to the sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_host_membership#hostgroups SudoRuleHostMembership#hostgroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_host_membership#hostgroups SudoRuleHostMembership#hostgroups}
   */
   readonly hostgroups?: string[];
   /**
   * List of hosts to add to the sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_host_membership#hosts SudoRuleHostMembership#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_host_membership#hosts SudoRuleHostMembership#hosts}
   */
   readonly hosts?: string[];
   /**
   * Unique identifier to differentiate multiple sudo rule host membership resources on the same sudo rule. Manadatory for using hosts/hostgroups configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_host_membership#identifier SudoRuleHostMembership#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_host_membership#identifier SudoRuleHostMembership#identifier}
   */
   readonly identifier?: string;
   /**
   * Sudo rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_host_membership#name SudoRuleHostMembership#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_host_membership#name SudoRuleHostMembership#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_host_membership freeipa_sudo_rule_host_membership}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_host_membership freeipa_sudo_rule_host_membership}
 */
 export class SudoRuleHostMembership extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class SudoRuleHostMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SudoRuleHostMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SudoRuleHostMembership to import
-  * @param importFromId The id of the existing SudoRuleHostMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_host_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SudoRuleHostMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_host_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SudoRuleHostMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class SudoRuleHostMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_host_membership freeipa_sudo_rule_host_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_host_membership freeipa_sudo_rule_host_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class SudoRuleHostMembership extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_sudo_rule_host_membership',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

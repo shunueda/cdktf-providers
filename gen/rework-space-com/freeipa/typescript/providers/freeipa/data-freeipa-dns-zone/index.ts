@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/dns_zone
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/dns_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataFreeipaDnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Zone name (FQDN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/dns_zone#zone_name DataFreeipaDnsZone#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/dns_zone#zone_name DataFreeipaDnsZone#zone_name}
   */
   readonly zoneName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/dns_zone freeipa_dns_zone}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/dns_zone freeipa_dns_zone}
 */
 export class DataFreeipaDnsZone extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataFreeipaDnsZone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFreeipaDnsZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFreeipaDnsZone to import
-  * @param importFromId The id of the existing DataFreeipaDnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/dns_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFreeipaDnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/dns_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFreeipaDnsZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataFreeipaDnsZone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/dns_zone freeipa_dns_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/dns_zone freeipa_dns_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataFreeipaDnsZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'freeipa_dns_zone',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

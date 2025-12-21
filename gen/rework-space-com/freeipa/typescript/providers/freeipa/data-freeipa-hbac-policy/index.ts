@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/hbac_policy
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/hbac_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataFreeipaHbacPolicyConfig extends cdktf.TerraformMetaArgument
   /**
   * Name of the hbac policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/hbac_policy#name DataFreeipaHbacPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/hbac_policy#name DataFreeipaHbacPolicy#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/hbac_policy freeipa_hbac_policy}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/hbac_policy freeipa_hbac_policy}
 */
 export class DataFreeipaHbacPolicy extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataFreeipaHbacPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFreeipaHbacPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFreeipaHbacPolicy to import
-  * @param importFromId The id of the existing DataFreeipaHbacPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/hbac_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFreeipaHbacPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/hbac_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFreeipaHbacPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataFreeipaHbacPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/hbac_policy freeipa_hbac_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/hbac_policy freeipa_hbac_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataFreeipaHbacPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'freeipa_hbac_policy',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

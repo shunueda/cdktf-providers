@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hostgroup
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hostgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface HostgroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Hostgroup Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hostgroup#description Hostgroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hostgroup#description Hostgroup#description}
   */
   readonly description?: string;
   /**
   * Hostgroup name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hostgroup#name Hostgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hostgroup#name Hostgroup#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hostgroup freeipa_hostgroup}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hostgroup freeipa_hostgroup}
 */
 export class Hostgroup extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class Hostgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Hostgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Hostgroup to import
-  * @param importFromId The id of the existing Hostgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hostgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Hostgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hostgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Hostgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class Hostgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/hostgroup freeipa_hostgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/hostgroup freeipa_hostgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class Hostgroup extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_hostgroup',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

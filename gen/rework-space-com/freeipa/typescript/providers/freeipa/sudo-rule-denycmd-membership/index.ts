@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_denycmd_membership
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_denycmd_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SudoRuleDenycmdMembershipConfig extends cdktf.TerraformMetaArgu
   /**
   * Unique identifier to differentiate multiple sudo rule allowed membership resources on the same sudo rule. Manadatory for using sudocmds/sudocmd_groups configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_denycmd_membership#identifier SudoRuleDenycmdMembership#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_denycmd_membership#identifier SudoRuleDenycmdMembership#identifier}
   */
   readonly identifier?: string;
   /**
   * Sudo rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_denycmd_membership#name SudoRuleDenycmdMembership#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_denycmd_membership#name SudoRuleDenycmdMembership#name}
   */
   readonly name: string;
   /**
   * **deprecated** Sudo command to deny by the sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_denycmd_membership#sudocmd SudoRuleDenycmdMembership#sudocmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_denycmd_membership#sudocmd SudoRuleDenycmdMembership#sudocmd}
   */
   readonly sudocmd?: string;
   /**
   * **deprecated** Sudo command group to deny by the sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_denycmd_membership#sudocmd_group SudoRuleDenycmdMembership#sudocmd_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_denycmd_membership#sudocmd_group SudoRuleDenycmdMembership#sudocmd_group}
   */
   readonly sudocmdGroup?: string;
   /**
   * List of sudo command group to deny by the sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_denycmd_membership#sudocmd_groups SudoRuleDenycmdMembership#sudocmd_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_denycmd_membership#sudocmd_groups SudoRuleDenycmdMembership#sudocmd_groups}
   */
   readonly sudocmdGroups?: string[];
   /**
   * List of Sudo command to deny by the sudo rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_denycmd_membership#sudocmds SudoRuleDenycmdMembership#sudocmds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_denycmd_membership#sudocmds SudoRuleDenycmdMembership#sudocmds}
   */
   readonly sudocmds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_denycmd_membership freeipa_sudo_rule_denycmd_membership}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_denycmd_membership freeipa_sudo_rule_denycmd_membership}
 */
 export class SudoRuleDenycmdMembership extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class SudoRuleDenycmdMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SudoRuleDenycmdMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SudoRuleDenycmdMembership to import
-  * @param importFromId The id of the existing SudoRuleDenycmdMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_denycmd_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SudoRuleDenycmdMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_denycmd_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SudoRuleDenycmdMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class SudoRuleDenycmdMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/resources/sudo_rule_denycmd_membership freeipa_sudo_rule_denycmd_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/resources/sudo_rule_denycmd_membership freeipa_sudo_rule_denycmd_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class SudoRuleDenycmdMembership extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_sudo_rule_denycmd_membership',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

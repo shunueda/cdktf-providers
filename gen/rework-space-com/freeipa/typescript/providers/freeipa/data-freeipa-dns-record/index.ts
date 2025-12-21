@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/dns_record
+// https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/dns_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataFreeipaDnsRecordConfig extends cdktf.TerraformMetaArguments
   /**
   * Record name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/dns_record#record_name DataFreeipaDnsRecord#record_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/dns_record#record_name DataFreeipaDnsRecord#record_name}
   */
   readonly recordName: string;
   /**
   * Zone name (FQDN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/dns_record#zone_name DataFreeipaDnsRecord#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/dns_record#zone_name DataFreeipaDnsRecord#zone_name}
   */
   readonly zoneName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/dns_record freeipa_dns_record}
+* Represents a {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/dns_record freeipa_dns_record}
 */
 export class DataFreeipaDnsRecord extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataFreeipaDnsRecord extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFreeipaDnsRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFreeipaDnsRecord to import
-  * @param importFromId The id of the existing DataFreeipaDnsRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/dns_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFreeipaDnsRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/dns_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFreeipaDnsRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataFreeipaDnsRecord extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.0/docs/data-sources/dns_record freeipa_dns_record} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rework-space-com/freeipa/5.2.1/docs/data-sources/dns_record freeipa_dns_record} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataFreeipaDnsRecord extends cdktf.TerraformDataSource {
       terraformResourceType: 'freeipa_dns_record',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.2.0',
-        providerVersionConstraint: '5.2.0'
+        providerVersion: '5.2.1',
+        providerVersionConstraint: '5.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
